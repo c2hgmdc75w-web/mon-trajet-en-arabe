@@ -1,7 +1,7 @@
 /* ============================================================
-   MON TRAJET EN JAPONAIS — données de contenu
+   MON TRAJET EN ARABE — données de contenu
    3 niveaux × 3 modules × 20 leçons × 10 phrases = 1800 phrases,
-   70 points de grammaire. Champs : fr, ja, ro (rōmaji), lit (mot à mot, niveau 1) — TTS ja-JP.
+   70 points de grammaire. Champs : fr, ja, ro (rōmaji), lit (mot à mot, niveau 1) — TTS ar-SA.
    ============================================================ */
 
 const ICONS = {
@@ -14,1371 +14,1371 @@ const ICONS = {
 
 const level1Module1Lessons = [
  {
-  "title": "Premiers mots à Shinjuku",
+  "title": "Bienvenue à Amman",
   "phrases": [
    {
-    "fr": "Bonjour !",
-    "ja": "こんにちは！",
-    "ro": "Konnichiwa!",
-    "lit": "bonjour (littéralement : quant à aujourd'hui)"
+    "fr": "Bienvenue à Amman !",
+    "ar": "أَهْلًا وَسَهْلًا فِي عَمَّانَ!",
+    "ro": "Ahlan wa-sahlan fī ʿammāna!",
+    "lit": "bienvenue · [et] · aisance · à · Amman !"
    },
    {
-    "fr": "Enchanté.",
-    "ja": "はじめまして。",
-    "ro": "Hajimemashite.",
-    "lit": "pour la première fois"
+    "fr": "Bonjour, je m'appelle Karim.",
+    "ar": "صَبَاحُ الْخَيْرِ، اِسْمِي كَرِيمٌ.",
+    "ro": "Ṣabāḥu al-khayri, ismī Karīmun.",
+    "lit": "matin · [du] bien · nom-de-moi · Karim"
    },
    {
-    "fr": "Je m'appelle Léa.",
-    "ja": "レアです。",
-    "ro": "Rea desu.",
-    "lit": "Léa · être (poli)"
+    "fr": "J'apprends l'arabe.",
+    "ar": "أَتَعَلَّمُ الْعَرَبِيَّةَ.",
+    "ro": "Ataʿallamu al-ʿarabiyyata.",
+    "lit": "j'apprends · [l']arabe"
    },
    {
-    "fr": "Je suis français.",
-    "ja": "フランス人です。",
-    "ro": "Furansujin desu.",
-    "lit": "France-personne · être (poli)"
+    "fr": "L'arabe est une belle langue.",
+    "ar": "الْعَرَبِيَّةُ لُغَةٌ جَمِيلَةٌ.",
+    "ro": "Al-ʿarabiyyatu lughatun jamīlatun.",
+    "lit": "[l']arabe · langue · belle"
    },
    {
-    "fr": "Ravi de faire votre connaissance.",
-    "ja": "よろしくお願いします。",
-    "ro": "Yoroshiku onegaishimasu.",
-    "lit": "bien · je vous le demande humblement"
+    "fr": "Amman est une grande ville.",
+    "ar": "عَمَّانُ مَدِينَةٌ كَبِيرَةٌ.",
+    "ro": "ʿAmmānu madīnatun kabīratun.",
+    "lit": "Amman · ville · grande"
    },
    {
-    "fr": "J'ai sommeil.",
-    "ja": "眠いです。",
-    "ro": "Nemui desu.",
-    "lit": "avoir sommeil · être (poli)"
+    "fr": "La citadelle est là-bas.",
+    "ar": "الْقَلْعَةُ هُنَاكَ.",
+    "ro": "Al-qalʿatu hunāka.",
+    "lit": "[la] citadelle · là-bas"
    },
    {
-    "fr": "J'ai faim.",
-    "ja": "お腹がすきました。",
-    "ro": "Onaka ga sukimashita.",
-    "lit": "honorable-ventre · [sujet] · s'est vidé (poli)"
+    "fr": "Bonsoir, Leïla !",
+    "ar": "مَسَاءُ الْخَيْرِ يَا لَيْلَى!",
+    "ro": "Masāʾu al-khayri yā Laylā!",
+    "lit": "soir · [du] bien · ô · Leïla !"
    },
    {
-    "fr": "Je suis fatiguée.",
-    "ja": "疲れました。",
-    "ro": "Tsukaremashita.",
-    "lit": "s'être fatigué (poli)"
+    "fr": "Il fait beau à Amman.",
+    "ar": "الْجَوُّ جَمِيلٌ فِي عَمَّانَ.",
+    "ro": "Al-jawwu jamīlun fī ʿammāna.",
+    "lit": "[le] temps · beau · à · Amman"
    },
    {
-    "fr": "Je suis tellement content !",
-    "ja": "とてもうれしいです！",
-    "ro": "Totemo ureshii desu!",
-    "lit": "très · content · être (poli)"
+    "fr": "Le livre est ici.",
+    "ar": "الْكِتَابُ هُنَا.",
+    "ro": "Al-kitābu hunā.",
+    "lit": "[le] livre · ici"
    },
    {
-    "fr": "Shinjuku, c'est immense !",
-    "ja": "新宿は大きいですね！",
-    "ro": "Shinjuku wa ōkii desu ne!",
-    "lit": "Shinjuku · [thème] · grand · être (poli) · [n'est-ce pas]"
+    "fr": "À bientôt, Karim !",
+    "ar": "إِلَى اللِّقَاءِ يَا كَرِيمُ!",
+    "ro": "Ilā al-liqāʾi yā Karīmu!",
+    "lit": "jusqu'à · [la] rencontre · ô · Karim !"
    }
   ],
   "tip": {
-   "title": "Pas besoin de « je » : le japonais omet le sujet",
-   "example": "Je suis français. — <b>フランス人です</b>。",
-   "exampleRo": "Furansujin desu.",
-   "lit": "France-personne · être (poli)",
-   "body": "En français, une phrase a presque toujours un sujet : je, tu, il. En japonais, c'est différent : quand on comprend de qui on parle, on ne le dit tout simplement pas. « Furansujin desu » se dit littéralement : France-personne, être. Pas de « je », et pourtant tout le monde comprend que vous parlez de vous. De la même façon, « Nemui desu », c'est : avoir sommeil, être, donc j'ai sommeil. Et « Tsukaremashita », un seul mot, veut dire : je suis fatigué. Le mot « watashi », qui veut dire moi, existe bien, mais si on le répète à chaque phrase, on paraît insistant, un peu comme si on disait moi, moi, moi. Retenez cette astuce : en japonais, c'est le contexte qui fait le sujet, et quand il est clair, on l'efface."
+   "title": "De droite à gauche, et des voyelles en petits signes",
+   "example": "Le livre est ici. — <b>الْكِتَابُ</b> هُنَا.",
+   "exampleRo": "Al-kitābu hunā.",
+   "lit": "[le] livre · ici",
+   "body": "Bienvenue dans l'arabe ! Première surprise : on écrit et on lit de droite à gauche, donc un livre arabe s'ouvre là où un livre français se termine. Deuxième surprise : l'alphabet note surtout les consonnes et les voyelles longues. Les voyelles courtes, a, i et ou, sont de tout petits signes posés au-dessus ou au-dessous des lettres : un petit trait au-dessus pour a, un petit trait au-dessous pour i, une minuscule boucle au-dessus pour ou. Prenons « al-kitabu », le livre : on voit les lettres k, t et b, avec un petit trait sous le k pour le son i, et un a long écrit en toutes lettres. Dans les journaux, ces petits signes disparaissent souvent, mais dans cette app ils sont toujours là pour vous guider, comme dans « ahlan », bienvenue, ou « hunaka », là-bas. Astuce : voyez ces petits signes comme des notes de musique qui disent comment chanter chaque consonne."
   }
  },
  {
-  "title": "Au konbini du quartier",
+  "title": "Un hôtel au centre-ville",
   "phrases": [
    {
-    "fr": "Le konbini est juste là.",
-    "ja": "コンビニはそこです。",
-    "ro": "Konbini wa soko desu.",
-    "lit": "konbini · [thème] · là · être (poli)"
+    "fr": "Je suis étudiant à Amman.",
+    "ar": "أَنَا طَالِبٌ فِي عَمَّانَ.",
+    "ro": "Anā ṭālibun fī ʿammāna.",
+    "lit": "moi · étudiant · à · Amman"
    },
    {
-    "fr": "Le konbini est pratique.",
-    "ja": "コンビニは便利です。",
-    "ro": "Konbini wa benri desu.",
-    "lit": "konbini · [thème] · pratique · être (poli)"
+    "fr": "Je suis fatigué.",
+    "ar": "أَنَا مُتْعَبٌ.",
+    "ro": "Anā mutʿabun.",
+    "lit": "moi · fatigué"
    },
    {
-    "fr": "C'est un onigiri au thon.",
-    "ja": "ツナのおにぎりです。",
-    "ro": "Tsuna no onigiri desu.",
-    "lit": "thon · [de] · onigiri · être (poli)"
+    "fr": "L'hôtel est près du centre-ville.",
+    "ar": "الْفُنْدُقُ قَرِيبٌ مِنْ وَسَطِ الْمَدِينَةِ.",
+    "ro": "Al-funduqu qarībun min wasaṭi al-madīnati.",
+    "lit": "[l']hôtel · proche · de · centre · [de la] ville"
    },
    {
-    "fr": "Le thé vert, c'est cent cinquante yens.",
-    "ja": "お茶は百五十円です。",
-    "ro": "Ocha wa hyakugojū en desu.",
-    "lit": "honorable-thé · [thème] · cent-cinquante yens · être (poli)"
+    "fr": "La chambre est propre.",
+    "ar": "الْغُرْفَةُ نَظِيفَةٌ.",
+    "ro": "Al-ghurfatu naẓīfatun.",
+    "lit": "[la] chambre · propre"
    },
    {
-    "fr": "Mademoiselle Tanaka est vendeuse.",
-    "ja": "田中さんは店員です。",
-    "ro": "Tanaka-san wa ten'in desu.",
-    "lit": "Tanaka-mademoiselle · [thème] · employée de magasin · être (poli)"
+    "fr": "L'employé de l'hôtel est gentil.",
+    "ar": "مُوَظَّفُ الْفُنْدُقِ لَطِيفٌ.",
+    "ro": "Muwaẓẓafu al-funduqi laṭīfun.",
+    "lit": "employé · [de l']hôtel · gentil"
    },
    {
-    "fr": "Le bentō, c'est cinq cents yens.",
-    "ja": "お弁当は五百円です。",
-    "ro": "Obentō wa gohyaku en desu.",
-    "lit": "honorable-bentō · [thème] · cinq-cents yens · être (poli)"
+    "fr": "Le petit-déjeuner est délicieux.",
+    "ar": "الْفُطُورُ لَذِيذٌ.",
+    "ro": "Al-fuṭūru ladhīdhun.",
+    "lit": "[le] petit-déjeuner · délicieux"
    },
    {
-    "fr": "L'onigiri est délicieux.",
-    "ja": "おにぎりはおいしいです。",
-    "ro": "Onigiri wa oishii desu.",
-    "lit": "onigiri · [thème] · délicieux · être (poli)"
+    "fr": "Je suis à l'hôtel.",
+    "ar": "أَنَا فِي الْفُنْدُقِ.",
+    "ro": "Anā fī al-funduqi.",
+    "lit": "moi · dans · [l']hôtel"
    },
    {
-    "fr": "Aujourd'hui, c'est lundi.",
-    "ja": "今日は月曜日です。",
-    "ro": "Kyō wa getsuyōbi desu.",
-    "lit": "aujourd'hui · [thème] · lundi · être (poli)"
+    "fr": "Le prix de la chambre est raisonnable.",
+    "ar": "سِعْرُ الْغُرْفَةِ مُنَاسِبٌ.",
+    "ro": "Siʿru al-ghurfati munāsibun.",
+    "lit": "prix · [de la] chambre · convenable"
    },
    {
-    "fr": "Il est sept heures.",
-    "ja": "七時です。",
-    "ro": "Shichiji desu.",
-    "lit": "sept-heure · être (poli)"
+    "fr": "Moi, c'est Sami, de Paris.",
+    "ar": "أَنَا سَامِي مِنْ بَارِيسَ.",
+    "ro": "Anā Sāmī min Bārīsa.",
+    "lit": "moi · Sami · de · Paris"
    },
    {
-    "fr": "Ce konbini est tout neuf.",
-    "ja": "このコンビニは新しいです。",
-    "ro": "Kono konbini wa atarashii desu.",
-    "lit": "ce · konbini · [thème] · neuf · être (poli)"
+    "fr": "L'ascenseur est là-bas.",
+    "ar": "الْمِصْعَدُ هُنَاكَ.",
+    "ro": "Al-miṣʿadu hunāka.",
+    "lit": "[l']ascenseur · là-bas"
    }
   ],
   "tip": {
-   "title": "« Desu » : le verbe être poli",
-   "example": "Le konbini est pratique. — コンビニは便利<b>です</b>。",
-   "exampleRo": "Konbini wa benri desu.",
-   "lit": "konbini · [thème] · pratique · être (poli)",
-   "body": "« Desu » joue le rôle de notre verbe être, avec une touche de politesse. Il se place toujours à la fin de la phrase, comme un point final poli. Le schéma de base est : X wa Y desu, c'est-à-dire, quant à X, c'est Y. « Konbini wa benri desu » se dit littéralement : konbini, quant à lui, pratique, être. Avec ce seul modèle, vous pouvez déjà dire beaucoup : « Shichiji desu », il est sept heures, ou « Obentō wa gohyaku en desu », le bentō fait cinq cents yens. Notez aussi que « desu » ne change pas selon la personne : je suis, tu es, ils sont, tout se dit « desu ». Petite astuce de prononciation : le « u » final s'entend à peine, on dit presque « dess ». Pensez-y comme à un sourire poli posé en fin de phrase."
+   "title": "Pas de verbe être au présent",
+   "example": "Je suis étudiant à Amman. — <b>أَنَا طَالِبٌ</b> فِي عَمَّانَ.",
+   "exampleRo": "Anā ṭālibun fī ʿammāna.",
+   "lit": "moi · étudiant · à · Amman",
+   "body": "En arabe, au présent, le verbe être n'apparaît tout simplement pas dans la phrase. Pour dire « je suis étudiant », on pose côte à côte « ana », moi, et « talibun », étudiant : « ana talibun », littéralement moi étudiant. C'est ce qu'on appelle une phrase nominale, une phrase sans verbe. De la même façon, « al-funduqu qaribun » veut dire l'hôtel est proche, mot à mot : l'hôtel, proche. Et « ana fi al-funduqi » se comprend comme moi dans l'hôtel, donc je suis à l'hôtel. Le français a besoin de suis, es ou est, l'arabe s'en passe très bien. Astuce : imaginez que vous écrivez un télégramme où l'on ne garde que les mots utiles, et vous obtenez déjà de l'arabe correct."
   }
  },
  {
-  "title": "Le carrefour de Shibuya",
+  "title": "Promenade au centre-ville",
   "phrases": [
    {
-    "fr": "Ici, c'est Shibuya.",
-    "ja": "ここは渋谷です。",
-    "ro": "Koko wa Shibuya desu.",
-    "lit": "ici · [thème] · Shibuya · être (poli)"
+    "fr": "Le centre-ville est bondé.",
+    "ar": "وَسَطُ الْمَدِينَةِ مُزْدَحِمٌ.",
+    "ro": "Wasaṭu al-madīnati muzdaḥimun.",
+    "lit": "centre · [de la] ville · bondé"
    },
    {
-    "fr": "Ce carrefour est très célèbre.",
-    "ja": "この交差点はとても有名です。",
-    "ro": "Kono kōsaten wa totemo yūmei desu.",
-    "lit": "ce · carrefour · [thème] · très · célèbre · être (poli)"
+    "fr": "Le thé est chaud.",
+    "ar": "الشَّايُ سَاخِنٌ.",
+    "ro": "Ash-shāyu sākhinun.",
+    "lit": "[le] thé · chaud"
    },
    {
-    "fr": "Hachikō est un chien.",
-    "ja": "ハチ公は犬です。",
-    "ro": "Hachikō wa inu desu.",
-    "lit": "Hachikō · [thème] · chien · être (poli)"
+    "fr": "Le café est chaud aussi.",
+    "ar": "الْقَهْوَةُ سَاخِنَةٌ أَيْضًا.",
+    "ro": "Al-qahwatu sākhinatun ayḍan.",
+    "lit": "[le] café · chaud · aussi"
    },
    {
-    "fr": "La statue de Hachikō est par là.",
-    "ja": "ハチ公の像はあちらです。",
-    "ro": "Hachikō no zō wa achira desu.",
-    "lit": "Hachikō · [de] · statue · [thème] · par là-bas · être (poli)"
+    "fr": "La rue est longue.",
+    "ar": "الشَّارِعُ طَوِيلٌ.",
+    "ro": "Ash-shāriʿu ṭawīlun.",
+    "lit": "[la] rue · longue"
    },
    {
-    "fr": "Moi, je suis Marc.",
-    "ja": "私はマルクです。",
-    "ro": "Watashi wa Maruku desu.",
-    "lit": "moi · [thème] · Marc · être (poli)"
+    "fr": "Le marché est ouvert.",
+    "ar": "السُّوقُ مَفْتُوحٌ.",
+    "ro": "As-sūqu maftūḥun.",
+    "lit": "[le] marché · ouvert"
    },
    {
-    "fr": "Pour moi, ce sera un café.",
-    "ja": "私はコーヒーです。",
-    "ro": "Watashi wa kōhī desu.",
-    "lit": "moi · [thème] · café · être (poli)"
+    "fr": "Le restaurant est petit.",
+    "ar": "الْمَطْعَمُ صَغِيرٌ.",
+    "ro": "Al-maṭʿamu ṣaghīrun.",
+    "lit": "[le] restaurant · petit"
    },
    {
-    "fr": "Aujourd'hui, il fait beau.",
-    "ja": "今日はいい天気です。",
-    "ro": "Kyō wa ii tenki desu.",
-    "lit": "aujourd'hui · [thème] · bon · temps · être (poli)"
+    "fr": "Le pain est frais.",
+    "ar": "الْخُبْزُ طَازَجٌ.",
+    "ro": "Al-khubzu ṭāzajun.",
+    "lit": "[le] pain · frais"
    },
    {
-    "fr": "Shibuya est très animé.",
-    "ja": "渋谷はとてもにぎやかです。",
-    "ro": "Shibuya wa totemo nigiyaka desu.",
-    "lit": "Shibuya · [thème] · très · animé · être (poli)"
+    "fr": "Le houmous est délicieux.",
+    "ar": "الْحُمُّصُ لَذِيذٌ.",
+    "ro": "Al-ḥummuṣu ladhīdhun.",
+    "lit": "[le] houmous · délicieux"
    },
    {
-    "fr": "Mon ami, c'est Kenji.",
-    "ja": "友達は健二さんです。",
-    "ro": "Tomodachi wa Kenji-san desu.",
-    "lit": "ami · [thème] · Kenji-monsieur · être (poli)"
+    "fr": "Le falafel est bon marché.",
+    "ar": "الْفَلَافِلُ رَخِيصَةٌ.",
+    "ro": "Al-falāfilu rakhīṣatun.",
+    "lit": "[le] falafel · bon-marché"
    },
    {
-    "fr": "Kenji est étudiant.",
-    "ja": "健二さんは学生です。",
-    "ro": "Kenji-san wa gakusei desu.",
-    "lit": "Kenji-monsieur · [thème] · étudiant · être (poli)"
+    "fr": "La nuit est calme.",
+    "ar": "اللَّيْلُ هَادِئٌ.",
+    "ro": "Al-laylu hādiʾun.",
+    "lit": "[la] nuit · calme"
    }
   ],
   "tip": {
-   "title": "« Wa » : la particule du thème, de quoi on parle",
-   "example": "Pour moi, ce sera un café. — 私<b>は</b>コーヒーです。",
-   "exampleRo": "Watashi wa kōhī desu.",
-   "lit": "moi · [thème] · café · être (poli)",
-   "body": "Les particules sont de petits mots qui se placent après un mot pour indiquer son rôle dans la phrase. « Wa » annonce le thème, c'est-à-dire ce dont on parle, un peu comme quant à, ou pour ce qui est de, en français. « Watashi wa kōhī desu » se dit littéralement : moi, quant à moi, café, être. Cela ne veut pas dire je suis un café, mais tout simplement : pour moi, ce sera un café. Autre exemple : « Kyō wa ii tenki desu », aujourd'hui, quant à lui, beau temps, donc il fait beau aujourd'hui. Et « Koko wa Shibuya desu » : ici, c'est Shibuya. Curiosité amusante : à l'écrit, cette particule utilise le signe qui se lit d'habitude « ha », mais on la prononce bien « wa ». Pour retenir, imaginez que « wa » pose un projecteur sur le mot qui le précède : voilà le sujet de la conversation."
+   "title": "L'article al- et les lettres solaires",
+   "example": "Le thé est chaud. — <b>الشَّايُ</b> سَاخِنٌ.",
+   "exampleRo": "Ash-shāyu sākhinun.",
+   "lit": "[le] thé · chaud",
+   "body": "En arabe, l'article « al- » veut dire le, la et les à la fois, et il se colle au mot : « al-qahwa », le café, « al-kitab », le livre. Mais devant certaines consonnes, le son l disparaît et la consonne suivante se double. On les appelle les lettres solaires, parce que le mot soleil, « ash-shams », en fait partie : on ne dit pas al-shams mais ash-shams. Notre exemple, « ash-shayu sakhinun », se lit mot à mot : le thé, chaud, donc le thé est chaud. Comparez avec « al-qahwatu », le café, où le l reste bien audible : le q est une lettre lunaire, comme dans « al-qamar », la lune. D'autres lettres solaires sont s, n, t, d ou r, comme dans « as-suq », le marché, ou « an-nadil », le serveur. Astuce : si la langue touche les dents pour prononcer la première consonne, le l se fond dedans."
   }
  },
  {
-  "title": "Une promenade à Ueno",
+  "title": "Un taxi jaune",
   "phrases": [
    {
-    "fr": "Vous allez bien ?",
-    "ja": "お元気ですか？",
-    "ro": "Ogenki desu ka?",
-    "lit": "honorable-santé · être (poli) · [question]"
+    "fr": "Il est chauffeur de taxi.",
+    "ar": "هُوَ سَائِقُ تَاكْسِي.",
+    "ro": "Huwa sāʾiqu tāksī.",
+    "lit": "lui · chauffeur · [de] taxi"
    },
    {
-    "fr": "Oui, je vais très bien.",
-    "ja": "はい、とても元気です。",
-    "ro": "Hai, totemo genki desu.",
-    "lit": "oui · très · en forme · être (poli)"
+    "fr": "Elle est professeure.",
+    "ar": "هِيَ مُعَلِّمَةٌ.",
+    "ro": "Hiya muʿallimatun.",
+    "lit": "elle · professeure"
    },
    {
-    "fr": "C'est bien ici, le parc d'Ueno ?",
-    "ja": "ここは上野公園ですか？",
-    "ro": "Koko wa Ueno kōen desu ka?",
-    "lit": "ici · [thème] · Ueno-parc · être (poli) · [question]"
+    "fr": "Tu es gentil.",
+    "ar": "أَنْتَ لَطِيفٌ.",
+    "ro": "Anta laṭīfun.",
+    "lit": "toi (masc.) · gentil"
    },
    {
-    "fr": "Oui, c'est ça.",
-    "ja": "はい、そうです。",
-    "ro": "Hai, sō desu.",
-    "lit": "oui · ainsi · être (poli)"
+    "fr": "Tu es gentille, Leïla.",
+    "ar": "أَنْتِ لَطِيفَةٌ يَا لَيْلَى.",
+    "ro": "Anti laṭīfatun yā Laylā.",
+    "lit": "toi (fém.) · gentille · ô · Leïla"
    },
    {
-    "fr": "Où est le musée d'art ?",
-    "ja": "美術館はどこですか？",
-    "ro": "Bijutsukan wa doko desu ka?",
-    "lit": "musée d'art · [thème] · où · être (poli) · [question]"
+    "fr": "Je suis pressé.",
+    "ar": "أَنَا مُسْتَعْجِلٌ.",
+    "ro": "Anā mustaʿjilun.",
+    "lit": "moi · pressé"
    },
    {
-    "fr": "C'est loin ?",
-    "ja": "遠いですか？",
-    "ro": "Tōi desu ka?",
-    "lit": "loin · être (poli) · [question]"
+    "fr": "Elle est d'Amman.",
+    "ar": "هِيَ مِنْ عَمَّانَ.",
+    "ro": "Hiya min ʿammāna.",
+    "lit": "elle · de · Amman"
    },
    {
-    "fr": "Non, c'est tout près.",
-    "ja": "いいえ、すぐそこです。",
-    "ro": "Iie, sugu soko desu.",
-    "lit": "non · tout de suite · là · être (poli)"
+    "fr": "Elle est sur Rainbow Street.",
+    "ar": "هِيَ فِي شَارِعِ الرَّيْنْبُو.",
+    "ro": "Hiya fī shāriʿi ar-raynbū.",
+    "lit": "elle · dans · rue · [le] Rainbow"
    },
    {
-    "fr": "Vous êtes étudiant ?",
-    "ja": "学生ですか？",
-    "ro": "Gakusei desu ka?",
-    "lit": "étudiant · être (poli) · [question]"
+    "fr": "Tu es en retard, Rania.",
+    "ar": "أَنْتِ مُتَأَخِّرَةٌ يَا رَانِيَا.",
+    "ro": "Anti mutaʾakhkhiratun yā Rāniyā.",
+    "lit": "toi (fém.) · en-retard · ô · Rania"
    },
    {
-    "fr": "Non, je suis employé de bureau.",
-    "ja": "いいえ、会社員です。",
-    "ro": "Iie, kaishain desu.",
-    "lit": "non · employé d'entreprise · être (poli)"
+    "fr": "Moi, je suis prêt.",
+    "ar": "أَنَا جَاهِزٌ.",
+    "ro": "Anā jāhizun.",
+    "lit": "moi · prêt"
    },
    {
-    "fr": "L'entrée du parc est gratuite ?",
-    "ja": "公園は無料ですか？",
-    "ro": "Kōen wa muryō desu ka?",
-    "lit": "parc · [thème] · gratuit · être (poli) · [question]"
+    "fr": "Le taxi est jaune.",
+    "ar": "التَّاكْسِي أَصْفَرُ.",
+    "ro": "At-tāksī aṣfaru.",
+    "lit": "[le] taxi · jaune"
    }
   ],
   "tip": {
-   "title": "« Ka » : transformer une phrase en question",
-   "example": "Vous allez bien ? — お元気です<b>か</b>？",
-   "exampleRo": "Ogenki desu ka?",
-   "lit": "honorable-santé · être (poli) · [question]",
-   "body": "Pour poser une question en japonais, rien de plus simple : on prend une phrase affirmative et on ajoute « ka » à la fin. Pas besoin d'inverser les mots comme en français, ni d'ajouter est-ce que. « Ogenki desu ka » se dit littéralement : honorable santé, être, question ? Le « o » du début est une marque de politesse envers la personne à qui l'on parle. Comparez : « Gakusei desu », je suis étudiant, et « Gakusei desu ka », vous êtes étudiant ? De même, « Tōi desu », c'est loin, devient « Tōi desu ka », c'est loin ? Pour répondre, on dit « hai », oui, ou « iie », non. Astuce : voyez « ka » comme un point d'interrogation que l'on prononce à voix haute."
+   "title": "Les pronoms : ana, anta, anti, huwa, hiya",
+   "example": "Tu es gentille, Leïla. — <b>أَنْتِ</b> لَطِيفَةٌ يَا لَيْلَى.",
+   "exampleRo": "Anti laṭīfatun yā Laylā.",
+   "lit": "toi (fém.) · gentille · ô · Leïla",
+   "body": "Voici cinq petits mots qui vont vous servir partout. « Ana » veut dire je ou moi, « huwa » il ou lui, et « hiya » elle. Pour dire tu, l'arabe distingue l'homme et la femme : « anta » quand on parle à un homme, « anti » quand on parle à une femme. Notre exemple, « anti latifatun ya Layla », se lit : toi au féminin, gentille, ô Leïla. Le petit mot « ya » sert à interpeller quelqu'un, un peu comme notre ô ou eh. À un chauffeur de taxi, on dirait donc « anta latifun », et à Leïla « anti latifatun ». Et avec « huwa saiqu taksi », lui chauffeur de taxi, on obtient il est chauffeur de taxi. Astuce : anta et anti ne diffèrent que par la dernière voyelle, a pour un homme, i pour une femme, comme une petite signature."
   }
  },
  {
-  "title": "Sur la ligne Yamanote",
+  "title": "Rencontres à Rainbow Street",
   "phrases": [
    {
-    "fr": "Je prends la ligne Yamanote.",
-    "ja": "山手線に乗ります。",
-    "ro": "Yamanotesen ni norimasu.",
-    "lit": "ligne Yamanote · [dans] · monter (poli)"
+    "fr": "Il est jordanien, elle est jordanienne.",
+    "ar": "هُوَ أُرْدُنِيٌّ وَهِيَ أُرْدُنِيَّةٌ.",
+    "ro": "Huwa urduniyyun wa-hiya urduniyyatun.",
+    "lit": "lui · jordanien · [et] · elle · jordanienne"
    },
    {
-    "fr": "Le train arrive.",
-    "ja": "電車が来ます。",
-    "ro": "Densha ga kimasu.",
-    "lit": "train · [sujet] · venir (poli)"
+    "fr": "Karim est étudiant, Leïla est étudiante.",
+    "ar": "كَرِيمٌ طَالِبٌ وَلَيْلَى طَالِبَةٌ.",
+    "ro": "Karīmun ṭālibun wa-Laylā ṭālibatun.",
+    "lit": "Karim · étudiant · [et] · Leïla · étudiante"
    },
    {
-    "fr": "Je vais à Akihabara.",
-    "ja": "秋葉原に行きます。",
-    "ro": "Akihabara ni ikimasu.",
-    "lit": "Akihabara · [direction] · aller (poli)"
+    "fr": "Le café est petit.",
+    "ar": "الْمَقْهَى صَغِيرٌ.",
+    "ro": "Al-maqhā ṣaghīrun.",
+    "lit": "[le] café (lieu) · petit"
    },
    {
-    "fr": "Je descends à Shinjuku.",
-    "ja": "新宿で降ります。",
-    "ro": "Shinjuku de orimasu.",
-    "lit": "Shinjuku · [lieu] · descendre (poli)"
+    "fr": "La ville est belle.",
+    "ar": "الْمَدِينَةُ جَمِيلَةٌ.",
+    "ro": "Al-madīnatu jamīlatun.",
+    "lit": "[la] ville · belle"
    },
    {
-    "fr": "Je lis un livre dans le train.",
-    "ja": "電車で本を読みます。",
-    "ro": "Densha de hon o yomimasu.",
-    "lit": "train · [lieu] · livre · [objet] · lire (poli)"
+    "fr": "Le professeur est français.",
+    "ar": "الْمُعَلِّمُ فَرَنْسِيٌّ.",
+    "ro": "Al-muʿallimu faransiyyun.",
+    "lit": "[le] professeur · français"
    },
    {
-    "fr": "J'écoute de la musique.",
-    "ja": "音楽を聞きます。",
-    "ro": "Ongaku o kikimasu.",
-    "lit": "musique · [objet] · écouter (poli)"
+    "fr": "La professeure est française.",
+    "ar": "الْمُعَلِّمَةُ فَرَنْسِيَّةٌ.",
+    "ro": "Al-muʿallimatu faransiyyatun.",
+    "lit": "[la] professeure · française"
    },
    {
-    "fr": "Je regarde par la fenêtre.",
-    "ja": "窓の外を見ます。",
-    "ro": "Mado no soto o mimasu.",
-    "lit": "fenêtre · [de] · extérieur · [objet] · regarder (poli)"
+    "fr": "Le serveur est rapide.",
+    "ar": "النَّادِلُ سَرِيعٌ.",
+    "ro": "An-nādilu sarīʿun.",
+    "lit": "[le] serveur · rapide"
    },
    {
-    "fr": "J'attends le prochain train.",
-    "ja": "次の電車を待ちます。",
-    "ro": "Tsugi no densha o machimasu.",
-    "lit": "suivant · [de] · train · [objet] · attendre (poli)"
+    "fr": "La serveuse est rapide aussi.",
+    "ar": "النَّادِلَةُ سَرِيعَةٌ أَيْضًا.",
+    "ro": "An-nādilatu sarīʿatun ayḍan.",
+    "lit": "[la] serveuse · rapide · aussi"
    },
    {
-    "fr": "Je rentre à la maison.",
-    "ja": "家に帰ります。",
-    "ro": "Ie ni kaerimasu.",
-    "lit": "maison · [direction] · rentrer (poli)"
+    "fr": "L'appartement est neuf.",
+    "ar": "الشَّقَّةُ جَدِيدَةٌ.",
+    "ro": "Ash-shaqqatu jadīdatun.",
+    "lit": "[l']appartement · neuf"
    },
    {
-    "fr": "Demain, je vais à Ueno en train.",
-    "ja": "明日、電車で上野に行きます。",
-    "ro": "Ashita, densha de Ueno ni ikimasu.",
-    "lit": "demain · train · [moyen] · Ueno · [direction] · aller (poli)"
+    "fr": "Rainbow Street est très belle le soir.",
+    "ar": "شَارِعُ الرَّيْنْبُو جَمِيلٌ جِدًّا فِي الْمَسَاءِ.",
+    "ro": "Shāriʿu ar-raynbū jamīlun jiddan fī al-masāʾi.",
+    "lit": "rue · [le] Rainbow · beau · très · dans · [le] soir"
    }
   ],
   "tip": {
-   "title": "Le verbe à la fin : l'ordre des mots japonais",
-   "example": "Je lis un livre dans le train. — 電車で本を<b>読みます</b>。",
-   "exampleRo": "Densha de hon o yomimasu.",
-   "lit": "train · [lieu] · livre · [objet] · lire (poli)",
-   "body": "En français, on dit : je lis un livre, avec le verbe au milieu. En japonais, le verbe arrive toujours en dernier, comme la chute d'une histoire. « Densha de hon o yomimasu » se dit littéralement : train, dans, livre, objet, lire. On pose d'abord le décor, puis ce qui est concerné, et l'action vient tout à la fin. C'est pour cela que les particules sont si utiles : elles disent le rôle de chaque mot, alors le début de la phrase reste assez souple. Autres exemples : « Ongaku o kikimasu », musique, objet, écouter, et « Akihabara ni ikimasu », Akihabara, vers, aller. Pour un Français, c'est un peu comme écouter quelqu'un qui garde le suspense jusqu'au bout. Astuce : quand vous construisez une phrase, gardez le verbe en réserve et posez-le en tout dernier."
+   "title": "Masculin et féminin : la terminaison en a",
+   "example": "Il est jordanien, elle est jordanienne. — هُوَ أُرْدُنِيٌّ وَهِيَ <b>أُرْدُنِيَّةٌ</b>.",
+   "exampleRo": "Huwa urduniyyun wa-hiya urduniyyatun.",
+   "lit": "lui · jordanien · [et] · elle · jordanienne",
+   "body": "En arabe, comme en français, les noms et les adjectifs ont un genre. La bonne nouvelle, c'est que le féminin se fabrique presque toujours de la même façon : on ajoute la terminaison « -a » au masculin. « Talib », étudiant, devient « taliba », étudiante, et « jamil », beau, devient « jamila », belle. Cette terminaison s'écrit avec une lettre spéciale, un petit h coiffé de deux points, qu'on appelle ta marbuta. Dans notre exemple, « huwa urduniyyun wa hiya urduniyyatun », on lit : lui jordanien, et elle jordanienne. Attention, le genre ne correspond pas toujours au français : la rue, « ash-shari », est masculine en arabe. Astuce : quand vous entendez un a final, pensez féminin, comme dans « madina », la ville, ou « shaqqa », l'appartement."
   }
  },
  {
-  "title": "Les boutiques d'Akihabara",
+  "title": "Une pause au café",
   "phrases": [
    {
-    "fr": "Qu'est-ce que c'est, ceci ?",
-    "ja": "これは何ですか？",
-    "ro": "Kore wa nan desu ka?",
-    "lit": "ceci · [thème] · quoi · être (poli) · [question]"
+    "fr": "Est-ce que tu es fatigué ?",
+    "ar": "هَلْ أَنْتَ مُتْعَبٌ؟",
+    "ro": "Hal anta mutʿabun?",
+    "lit": "[question] · toi · fatigué ?"
    },
    {
-    "fr": "Cela, c'est un appareil photo.",
-    "ja": "それはカメラです。",
-    "ro": "Sore wa kamera desu.",
-    "lit": "cela · [thème] · appareil photo · être (poli)"
+    "fr": "Tu es jordanien ?",
+    "ar": "هَلْ أَنْتَ أُرْدُنِيٌّ؟",
+    "ro": "Hal anta urduniyyun?",
+    "lit": "[question] · toi · jordanien ?"
    },
    {
-    "fr": "Combien coûte ceci ?",
-    "ja": "これはいくらですか？",
-    "ro": "Kore wa ikura desu ka?",
-    "lit": "ceci · [thème] · combien · être (poli) · [question]"
+    "fr": "Oui, je suis d'Amman.",
+    "ar": "نَعَمْ، أَنَا مِنْ عَمَّانَ.",
+    "ro": "Naʿam, anā min ʿammāna.",
+    "lit": "oui · moi · de · Amman"
    },
    {
-    "fr": "Ça fait trente mille yens.",
-    "ja": "三万円です。",
-    "ro": "Sanman en desu.",
-    "lit": "trois-dix-mille yens · être (poli)"
+    "fr": "Du thé à la menthe ?",
+    "ar": "شَايٌ بِالنَّعْنَاعِ؟",
+    "ro": "Shāyun bi-n-naʿnāʿi?",
+    "lit": "thé · avec · [la] menthe ?"
    },
    {
-    "fr": "C'est cher, dites donc !",
-    "ja": "高いですね！",
-    "ro": "Takai desu ne!",
-    "lit": "cher · être (poli) · [n'est-ce pas]"
+    "fr": "Oui, s'il te plaît.",
+    "ar": "نَعَمْ، مِنْ فَضْلِكَ.",
+    "ro": "Naʿam, min faḍlika.",
+    "lit": "oui · de · faveur-de-toi"
    },
    {
-    "fr": "Et là-bas, qu'est-ce que c'est ?",
-    "ja": "あれは何ですか？",
-    "ro": "Are wa nan desu ka?",
-    "lit": "ce là-bas · [thème] · quoi · être (poli) · [question]"
+    "fr": "Est-ce que c'est loin ?",
+    "ar": "هَلْ هُوَ بَعِيدٌ؟",
+    "ro": "Hal huwa baʿīdun?",
+    "lit": "[question] · lui · loin ?"
    },
    {
-    "fr": "Là-bas, c'est un robot.",
-    "ja": "あれはロボットです。",
-    "ro": "Are wa robotto desu.",
-    "lit": "ce là-bas · [thème] · robot · être (poli)"
+    "fr": "Non, c'est vraiment tout près.",
+    "ar": "لَا، هُوَ قَرِيبٌ جِدًّا.",
+    "ro": "Lā, huwa qarībun jiddan.",
+    "lit": "non · lui · proche · très"
    },
    {
-    "fr": "Ce jeu est amusant.",
-    "ja": "このゲームはおもしろいです。",
-    "ro": "Kono gēmu wa omoshiroi desu.",
-    "lit": "ce · jeu · [thème] · amusant · être (poli)"
+    "fr": "Tu es étudiant ?",
+    "ar": "أَنْتَ طَالِبٌ؟",
+    "ro": "Anta ṭālibun?",
+    "lit": "toi · étudiant ?"
    },
    {
-    "fr": "Celui-ci, s'il vous plaît.",
-    "ja": "これをください。",
-    "ro": "Kore o kudasai.",
-    "lit": "ceci · [objet] · donnez-moi (poli)"
+    "fr": "Est-ce que tu es prête, Leïla ?",
+    "ar": "هَلْ أَنْتِ جَاهِزَةٌ يَا لَيْلَى؟",
+    "ro": "Hal anti jāhizatun yā Laylā?",
+    "lit": "[question] · toi (fém.) · prête · ô · Leïla ?"
    },
    {
-    "fr": "Akihabara est le quartier de l'électronique.",
-    "ja": "秋葉原は電気の町です。",
-    "ro": "Akihabara wa denki no machi desu.",
-    "lit": "Akihabara · [thème] · électricité · [de] · quartier · être (poli)"
+    "fr": "Est-ce que la knafeh est chaude ?",
+    "ar": "هَلِ الْكُنَافَةُ سَاخِنَةٌ؟",
+    "ro": "Hali al-kunāfatu sākhinatun?",
+    "lit": "[question] · [la] knafeh · chaude ?"
    }
   ],
   "tip": {
-   "title": "« Kore, sore, are » : ceci, cela, ce là-bas",
-   "example": "Qu'est-ce que c'est, ceci ? — <b>これ</b>は何ですか？",
-   "exampleRo": "Kore wa nan desu ka?",
-   "lit": "ceci · [thème] · quoi · être (poli) · [question]",
-   "body": "Le japonais a trois mots pour montrer les choses, selon la distance. « Kore », c'est ceci, près de moi. « Sore », c'est cela, près de vous. « Are », c'est ce truc là-bas, loin de nous deux. « Kore wa nan desu ka » se dit littéralement : ceci, quant à lui, quoi, être, question ? Et la réponse peut être : « Sore wa kamera desu », cela, c'est un appareil photo. Les mêmes sons reviennent partout : « koko », « soko », « asoko » veulent dire ici, là, là-bas. Devant un nom, on utilise « kono », « sono », « ano » : « kono gēmu », ce jeu-ci. Astuce : « ko » est près de moi, « so » est près de toi, « a » est au loin, il suffit de retenir ces trois petits sons."
+   "title": "Poser une question avec hal",
+   "example": "Est-ce que tu es fatigué ? — <b>هَلْ</b> أَنْتَ مُتْعَبٌ؟",
+   "exampleRo": "Hal anta mutʿabun?",
+   "lit": "[question] · toi · fatigué ?",
+   "body": "Pour poser une question fermée, celle qui attend oui ou non, l'arabe place le petit mot « hal » tout au début de la phrase. Il joue le rôle de notre est-ce que. « Anta mutabun » veut dire tu es fatigué, et « hal anta mutabun » veut dire est-ce que tu es fatigué ? Mot à mot : question, toi, fatigué. Rien d'autre ne change, ni l'ordre des mots ni les terminaisons. Dans la conversation, on peut aussi simplement faire monter la voix à la fin, comme en français : « anta talibun ? », tu es étudiant ? Devant un mot qui commence par l'article, hal prend un petit i pour faciliter la liaison : « hali al-kunafatu sakhinatun ? ». Pour répondre, « naam » veut dire oui et « la » veut dire non. Astuce : hal, c'est un drapeau qu'on lève au début pour annoncer une question."
   }
  },
  {
-  "title": "Mon petit appartement",
+  "title": "Visite de la citadelle",
+  "phrases": [
+   {
+    "fr": "Voici la citadelle d'Amman.",
+    "ar": "هَذِهِ قَلْعَةُ عَمَّانَ.",
+    "ro": "Hādhihi qalʿatu ʿammāna.",
+    "lit": "celle-ci · citadelle · [d']Amman"
+   },
+   {
+    "fr": "C'est un monument ancien.",
+    "ar": "هَذَا مَعْلَمٌ قَدِيمٌ.",
+    "ro": "Hādhā maʿlamun qadīmun.",
+    "lit": "ceci · monument · ancien"
+   },
+   {
+    "fr": "Ce guide est jordanien.",
+    "ar": "هَذَا الْمُرْشِدُ أُرْدُنِيٌّ.",
+    "ro": "Hādhā al-murshidu urduniyyun.",
+    "lit": "ce · [le] guide · jordanien"
+   },
+   {
+    "fr": "Cette vue est magnifique.",
+    "ar": "هَذَا الْمَنْظَرُ رَائِعٌ.",
+    "ro": "Hādhā al-manẓaru rāʾiʿun.",
+    "lit": "ce · [la] vue · magnifique"
+   },
+   {
+    "fr": "Celle-ci, c'est Leïla.",
+    "ar": "هَذِهِ لَيْلَى.",
+    "ro": "Hādhihi Laylā.",
+    "lit": "celle-ci · Leïla"
+   },
+   {
+    "fr": "Celui-ci, c'est Karim.",
+    "ar": "هَذَا كَرِيمٌ.",
+    "ro": "Hādhā Karīmun.",
+    "lit": "celui-ci · Karim"
+   },
+   {
+    "fr": "Cette ville est ancienne.",
+    "ar": "هَذِهِ الْمَدِينَةُ قَدِيمَةٌ.",
+    "ro": "Hādhihi al-madīnatu qadīmatun.",
+    "lit": "cette · [la] ville · ancienne"
+   },
+   {
+    "fr": "C'est un billet d'entrée.",
+    "ar": "هَذِهِ تَذْكِرَةُ دُخُولٍ.",
+    "ro": "Hādhihi tadhkiratu dukhūlin.",
+    "lit": "celle-ci · billet · [d']entrée"
+   },
+   {
+    "fr": "Ce musée est petit.",
+    "ar": "هَذَا الْمَتْحَفُ صَغِيرٌ.",
+    "ro": "Hādhā al-matḥafu ṣaghīrun.",
+    "lit": "ce · [le] musée · petit"
+   },
+   {
+    "fr": "Cette photo est belle.",
+    "ar": "هَذِهِ الصُّورَةُ جَمِيلَةٌ.",
+    "ro": "Hādhihi aṣ-ṣūratu jamīlatun.",
+    "lit": "cette · [la] photo · belle"
+   }
+  ],
+  "tip": {
+   "title": "Hadha et hadhihi : ceci, celui-ci, celle-ci",
+   "example": "Cette ville est ancienne. — <b>هَذِهِ</b> الْمَدِينَةُ قَدِيمَةٌ.",
+   "exampleRo": "Hādhihi al-madīnatu qadīmatun.",
+   "lit": "cette · [la] ville · ancienne",
+   "body": "Pour montrer quelque chose, l'arabe utilise « hadha » pour le masculin et « hadhihi » pour le féminin. Suivis d'un nom sans article, ils forment une phrase complète : « hadha maalamun », ceci est un monument. Suivis d'un nom avec l'article, ils veulent dire ce ou cette : « hadhihi al-madinatu », cette ville. Notre exemple, « hadhihi al-madinatu qadimatun », se lit donc : cette, la ville, ancienne, c'est-à-dire cette ville est ancienne. Le choix dépend du genre du mot arabe, pas du mot français : « hadha al-manzaru », cette vue, car vue est masculin en arabe. Pour présenter quelqu'un, c'est aussi très pratique : « hadha Karimun », voici Karim, et « hadhihi Layla », voici Leïla. Astuce : hadhihi est plus long que hadha, comme le féminin qui ajoute une syllabe."
+  }
+ },
+ {
+  "title": "Au restaurant de falafel",
+  "phrases": [
+   {
+    "fr": "Je ne suis pas fatigué.",
+    "ar": "لَسْتُ مُتْعَبًا.",
+    "ro": "Lastu mutʿaban.",
+    "lit": "[je ne suis pas] · fatigué"
+   },
+   {
+    "fr": "Le repas n'est pas cher.",
+    "ar": "الطَّعَامُ لَيْسَ غَالِيًا.",
+    "ro": "Aṭ-ṭaʿāmu laysa ghāliyan.",
+    "lit": "[le] repas · [n'est pas] · cher"
+   },
+   {
+    "fr": "Le restaurant n'est pas loin.",
+    "ar": "الْمَطْعَمُ لَيْسَ بَعِيدًا.",
+    "ro": "Al-maṭʿamu laysa baʿīdan.",
+    "lit": "[le] restaurant · [n'est pas] · loin"
+   },
+   {
+    "fr": "Je ne suis pas jordanien, je suis français.",
+    "ar": "لَسْتُ أُرْدُنِيًّا، أَنَا فَرَنْسِيٌّ.",
+    "ro": "Lastu urduniyyan, anā faransiyyun.",
+    "lit": "[je ne suis pas] · jordanien · moi · français"
+   },
+   {
+    "fr": "Le houmous n'est pas froid.",
+    "ar": "الْحُمُّصُ لَيْسَ بَارِدًا.",
+    "ro": "Al-ḥummuṣu laysa bāridan.",
+    "lit": "[le] houmous · [n'est pas] · froid"
+   },
+   {
+    "fr": "Tu n'es pas en retard.",
+    "ar": "لَسْتَ مُتَأَخِّرًا.",
+    "ro": "Lasta mutaʾakhkhiran.",
+    "lit": "[tu n'es pas] · en-retard"
+   },
+   {
+    "fr": "Elle n'est pas là.",
+    "ar": "هِيَ لَيْسَتْ هُنَا.",
+    "ro": "Hiya laysat hunā.",
+    "lit": "elle · [n'est pas] · ici"
+   },
+   {
+    "fr": "La table n'est pas libre.",
+    "ar": "الطَّاوِلَةُ لَيْسَتْ فَارِغَةً.",
+    "ro": "Aṭ-ṭāwilatu laysat fārighatan.",
+    "lit": "[la] table · [n'est pas] · libre"
+   },
+   {
+    "fr": "Ce n'est pas épicé.",
+    "ar": "هَذَا لَيْسَ حَارًّا.",
+    "ro": "Hādhā laysa ḥārran.",
+    "lit": "ceci · [n'est pas] · épicé"
+   },
+   {
+    "fr": "Leïla, tu n'as pas faim ?",
+    "ar": "لَسْتِ جَائِعَةً يَا لَيْلَى؟",
+    "ro": "Lasti jāʾiʿatan yā Laylā?",
+    "lit": "[tu n'es pas] · affamée · ô · Leïla ?"
+   }
+  ],
+  "tip": {
+   "title": "La négation de la phrase sans verbe : laysa",
+   "example": "Le repas n'est pas cher. — الطَّعَامُ <b>لَيْسَ</b> غَالِيًا.",
+   "exampleRo": "Aṭ-ṭaʿāmu laysa ghāliyan.",
+   "lit": "[le] repas · [n'est pas] · cher",
+   "body": "Puisqu'il n'y a pas de verbe être au présent, comment dire n'est pas ? L'arabe utilise un mot spécial, « laysa », qui veut dire ne pas être. Il se conjugue comme un petit verbe : « lastu » pour je ne suis pas, « lasta » pour tu n'es pas à un homme, « lasti » à une femme, « laysa » pour il n'est pas et « laysat » pour elle n'est pas. Notre exemple, « at-taamu laysa ghaliyan », se lit : le repas, n'est pas, cher. Remarquez le petit son an qui apparaît à la fin de l'adjectif après laysa : « baidun », loin, devient « laysa baidan », il n'est pas loin. De même, « ana mutabun », je suis fatigué, devient « lastu mutaban », je ne suis pas fatigué. Astuce : retenez d'abord « lastu », c'est la forme que vous utiliserez le plus pour parler de vous."
+  }
+ },
+ {
+  "title": "Mon appartement à Amman",
   "phrases": [
    {
     "fr": "Voici mon appartement.",
-    "ja": "ここは私のアパートです。",
-    "ro": "Koko wa watashi no apāto desu.",
-    "lit": "ici · [thème] · moi · [possessif] · appartement · être (poli)"
+    "ar": "هَذِهِ شَقَّتِي.",
+    "ro": "Hādhihi shaqqatī.",
+    "lit": "celle-ci · appartement-de-moi"
    },
    {
-    "fr": "C'est ma clé.",
-    "ja": "これは私の鍵です。",
-    "ro": "Kore wa watashi no kagi desu.",
-    "lit": "ceci · [thème] · moi · [possessif] · clé · être (poli)"
+    "fr": "C'est mon livre.",
+    "ar": "هَذَا كِتَابِي.",
+    "ro": "Hādhā kitābī.",
+    "lit": "ceci · livre-de-moi"
    },
    {
-    "fr": "Ma chambre est petite.",
-    "ja": "私の部屋は小さいです。",
-    "ro": "Watashi no heya wa chiisai desu.",
-    "lit": "moi · [possessif] · chambre · [thème] · petit · être (poli)"
+    "fr": "Ton livre est sur la table.",
+    "ar": "كِتَابُكَ عَلَى الطَّاوِلَةِ.",
+    "ro": "Kitābuka ʿalā aṭ-ṭāwilati.",
+    "lit": "livre-de-toi · sur · [la] table"
    },
    {
-    "fr": "C'est le vélo de Monsieur Satō.",
-    "ja": "それは佐藤さんの自転車です。",
-    "ro": "Sore wa Satō-san no jitensha desu.",
-    "lit": "cela · [thème] · Satō-monsieur · [possessif] · vélo · être (poli)"
+    "fr": "Ma chambre est très petite.",
+    "ar": "غُرْفَتِي صَغِيرَةٌ جِدًّا.",
+    "ro": "Ghurfatī ṣaghīratun jiddan.",
+    "lit": "chambre-de-moi · petite · très"
    },
    {
-    "fr": "Mon appartement est près de la gare.",
-    "ja": "私のアパートは駅の近くです。",
-    "ro": "Watashi no apāto wa eki no chikaku desu.",
-    "lit": "moi · [possessif] · appartement · [thème] · gare · [de] · proximité · être (poli)"
+    "fr": "Ta chambre est grande.",
+    "ar": "غُرْفَتُكَ كَبِيرَةٌ.",
+    "ro": "Ghurfatuka kabīratun.",
+    "lit": "chambre-de-toi · grande"
    },
    {
-    "fr": "La salle de bain est neuve.",
-    "ja": "お風呂は新しいです。",
-    "ro": "Ofuro wa atarashii desu.",
-    "lit": "honorable-bain · [thème] · neuf · être (poli)"
+    "fr": "Sa maison est à Amman.",
+    "ar": "بَيْتُهُ فِي عَمَّانَ.",
+    "ro": "Baytuhu fī ʿammāna.",
+    "lit": "maison-de-lui · à · Amman"
    },
    {
-    "fr": "C'est le parapluie de qui ?",
-    "ja": "これはだれの傘ですか？",
-    "ro": "Kore wa dare no kasa desu ka?",
-    "lit": "ceci · [thème] · qui · [possessif] · parapluie · être (poli) · [question]"
+    "fr": "Sa cuisine à elle est moderne.",
+    "ar": "مَطْبَخُهَا حَدِيثٌ.",
+    "ro": "Maṭbakhuhā ḥadīthun.",
+    "lit": "cuisine-d'elle · moderne"
    },
    {
-    "fr": "C'est le mien.",
-    "ja": "私のです。",
-    "ro": "Watashi no desu.",
-    "lit": "moi · [possessif] · être (poli)"
+    "fr": "Mon voisin est sympathique.",
+    "ar": "جَارِي لَطِيفٌ.",
+    "ro": "Jārī laṭīfun.",
+    "lit": "voisin-de-moi · sympathique"
    },
    {
-    "fr": "Le loyer est de quatre-vingt mille yens.",
-    "ja": "家賃は八万円です。",
-    "ro": "Yachin wa hachiman en desu.",
-    "lit": "loyer · [thème] · huit-dix-mille yens · être (poli)"
+    "fr": "Leïla, ta fenêtre est ouverte.",
+    "ar": "نَافِذَتُكِ مَفْتُوحَةٌ يَا لَيْلَى.",
+    "ro": "Nāfidhatuki maftūḥatun yā Laylā.",
+    "lit": "fenêtre-de-toi (fém.) · ouverte · ô · Leïla"
    },
    {
-    "fr": "La propriétaire est gentille.",
-    "ja": "大家さんは優しいです。",
-    "ro": "Ōya-san wa yasashii desu.",
-    "lit": "propriétaire-madame · [thème] · gentil · être (poli)"
+    "fr": "Mon balcon est ensoleillé.",
+    "ar": "شُرْفَتِي مُشْمِسَةٌ.",
+    "ro": "Shurfatī mushmisatun.",
+    "lit": "balcon-de-moi · ensoleillé"
    }
   ],
   "tip": {
-   "title": "« No » : de, à moi, le possessif",
-   "example": "Voici mon appartement. — ここは私<b>の</b>アパートです。",
-   "exampleRo": "Koko wa watashi no apāto desu.",
-   "lit": "ici · [thème] · moi · [possessif] · appartement · être (poli)",
-   "body": "« No » relie deux noms, un peu comme notre « de », mais à l'envers. En français, on dit le vélo de Monsieur Satō ; en japonais, on dit « Satō-san no jitensha », Satō, de, vélo. Le possesseur vient en premier, puis la chose possédée. « Koko wa watashi no apāto desu » se dit littéralement : ici, quant à lui, moi de, appartement, être. Donc « watashi no » veut dire mon, ma, ou à moi. On peut même laisser tomber l'objet : « Watashi no desu », c'est le mien. « No » sert aussi à préciser : « Tōkyō no fuyu », l'hiver de Tokyo, ou « eki no chikaku », près de la gare. Astuce : retenez l'ordre propriétaire, puis « no », puis objet, comme si vous disiez à moi, l'appartement."
+   "title": "Les possessifs collés au nom",
+   "example": "Ton livre est sur la table. — <b>كِتَابُكَ</b> عَلَى الطَّاوِلَةِ.",
+   "exampleRo": "Kitābuka ʿalā aṭ-ṭāwilati.",
+   "lit": "livre-de-toi · sur · [la] table",
+   "body": "En arabe, mon, ton et son ne sont pas des mots séparés : ce sont de petites terminaisons collées à la fin du nom. Avec « kitab », livre, on obtient « kitabi », mon livre, « kitabuka », ton livre quand on parle à un homme, « kitabuki » quand on parle à une femme, « kitabuhu », son livre à lui, et « kitabuha », son livre à elle. Notre exemple, « kitabuka ala at-tawilati », se lit : livre de toi, sur la table, c'est-à-dire ton livre est sur la table. Avec un mot féminin en a, un t caché réapparaît : « ghurfa », chambre, devient « ghurfati », ma chambre, et « shaqqa » devient « shaqqati », mon appartement. Le français place le possessif devant, l'arabe le place derrière. Astuce : le i final, c'est moi, et le ka final, c'est toi."
   }
  },
  {
-  "title": "Un bol de ramen",
+  "title": "Les clés de l'appartement",
   "phrases": [
    {
-    "fr": "Ce restaurant de ramen est célèbre.",
-    "ja": "このラーメン屋は有名です。",
-    "ro": "Kono rāmen-ya wa yūmei desu.",
-    "lit": "ce · ramen-boutique · [thème] · célèbre · être (poli)"
+    "fr": "C'est le livre de l'étudiant.",
+    "ar": "هَذَا كِتَابُ الطَّالِبِ.",
+    "ro": "Hādhā kitābu aṭ-ṭālibi.",
+    "lit": "ceci · livre · [de l']étudiant"
    },
    {
-    "fr": "Mais ce n'est pas un restaurant cher.",
-    "ja": "でも、高い店じゃありません。",
-    "ro": "Demo, takai mise ja arimasen.",
-    "lit": "mais · cher · restaurant · ne pas être (poli)"
+    "fr": "Voici la clé de l'appartement.",
+    "ar": "هَذَا مِفْتَاحُ الشَّقَّةِ.",
+    "ro": "Hādhā miftāḥu ash-shaqqati.",
+    "lit": "ceci · clé · [de l']appartement"
    },
    {
-    "fr": "C'est du ramen au miso, ça ?",
-    "ja": "これは味噌ラーメンですか？",
-    "ro": "Kore wa miso rāmen desu ka?",
-    "lit": "ceci · [thème] · miso-ramen · être (poli) · [question]"
+    "fr": "La porte de la maison est verte.",
+    "ar": "بَابُ الْبَيْتِ أَخْضَرُ.",
+    "ro": "Bābu al-bayti akhḍaru.",
+    "lit": "porte · [de la] maison · verte"
    },
    {
-    "fr": "Non, ce n'est pas du miso.",
-    "ja": "いいえ、味噌じゃありません。",
-    "ro": "Iie, miso ja arimasen.",
-    "lit": "non · miso · ne pas être (poli)"
+    "fr": "Le propriétaire de l'appartement est gentil.",
+    "ar": "صَاحِبُ الشَّقَّةِ لَطِيفٌ.",
+    "ro": "Ṣāḥibu ash-shaqqati laṭīfun.",
+    "lit": "propriétaire · [de l']appartement · gentil"
    },
    {
-    "fr": "C'est du ramen à la sauce soja.",
-    "ja": "醤油ラーメンです。",
-    "ro": "Shōyu rāmen desu.",
-    "lit": "sauce soja-ramen · être (poli)"
+    "fr": "Le loyer de l'appartement est raisonnable.",
+    "ar": "إِيجَارُ الشَّقَّةِ مُنَاسِبٌ.",
+    "ro": "Ījāru ash-shaqqati munāsibun.",
+    "lit": "loyer · [de l']appartement · convenable"
    },
    {
-    "fr": "Ce n'est pas ma commande.",
-    "ja": "それは私の注文じゃありません。",
-    "ro": "Sore wa watashi no chūmon ja arimasen.",
-    "lit": "cela · [thème] · moi · [possessif] · commande · ne pas être (poli)"
+    "fr": "La fenêtre de la cuisine est petite.",
+    "ar": "نَافِذَةُ الْمَطْبَخِ صَغِيرَةٌ.",
+    "ro": "Nāfidhatu al-maṭbakhi ṣaghīratun.",
+    "lit": "fenêtre · [de la] cuisine · petite"
    },
    {
-    "fr": "Pardon, ma commande, ce sont les gyōza.",
-    "ja": "すみません、私のは餃子です。",
-    "ro": "Sumimasen, watashi no wa gyōza desu.",
-    "lit": "pardon · moi · [possessif] · [thème] · gyōza · être (poli)"
+    "fr": "Le nom de la rue est difficile.",
+    "ar": "اِسْمُ الشَّارِعِ صَعْبٌ.",
+    "ro": "Ismu ash-shāriʿi ṣaʿbun.",
+    "lit": "nom · [de la] rue · difficile"
    },
    {
-    "fr": "Ce n'est pas un plat épicé.",
-    "ja": "辛い料理じゃありません。",
-    "ro": "Karai ryōri ja arimasen.",
-    "lit": "épicé · plat · ne pas être (poli)"
+    "fr": "Le toit de l'immeuble est grand.",
+    "ar": "سَطْحُ الْعِمَارَةِ كَبِيرٌ.",
+    "ro": "Saṭḥu al-ʿimārati kabīrun.",
+    "lit": "toit · [de l']immeuble · grand"
    },
    {
-    "fr": "Ce n'est pas la première fois.",
-    "ja": "初めてじゃありません。",
-    "ro": "Hajimete ja arimasen.",
-    "lit": "première fois · ne pas être (poli)"
+    "fr": "Le salon de Karim est confortable.",
+    "ar": "صَالَةُ كَرِيمٍ مُرِيحَةٌ.",
+    "ro": "Ṣālatu Karīmin murīḥatun.",
+    "lit": "salon · [de] Karim · confortable"
    },
    {
-    "fr": "Ça fait neuf cents yens.",
-    "ja": "九百円です。",
-    "ro": "Kyūhyaku en desu.",
-    "lit": "neuf-cents yens · être (poli)"
+    "fr": "La chambre de Leïla est calme.",
+    "ar": "غُرْفَةُ لَيْلَى هَادِئَةٌ.",
+    "ro": "Ghurfatu Laylā hādiʾatun.",
+    "lit": "chambre · [de] Leïla · calme"
    }
   ],
   "tip": {
-   "title": "« Ja arimasen » : dire « ce n'est pas »",
-   "example": "Non, ce n'est pas du miso. — いいえ、味噌<b>じゃありません</b>。",
-   "exampleRo": "Iie, miso ja arimasen.",
-   "lit": "non · miso · ne pas être (poli)",
-   "body": "Pour dire ce n'est pas, on remplace « desu » par « ja arimasen ». « Miso desu », c'est du miso, devient « Miso ja arimasen », ce n'est pas du miso. Littéralement, « ja arimasen » signifie à peu près : en tant que cela, ça n'existe pas. Comme toujours, la négation se place à la fin de la phrase, là où se trouve le verbe. Il faut donc attendre le dernier mot pour savoir si une phrase est positive ou négative. Autres exemples : « Gakusei ja arimasen », je ne suis pas étudiant, et « Hajimete ja arimasen », ce n'est pas la première fois. Dans un registre un peu plus soigné, vous entendrez aussi « dewa arimasen », qui veut dire exactement la même chose. Astuce : en japonais, écoutez toujours jusqu'au bout, c'est la fin qui dit oui ou non."
+   "title": "Le complément du nom : kitab at-talib",
+   "example": "C'est le livre de l'étudiant. — هَذَا <b>كِتَابُ الطَّالِبِ</b>.",
+   "exampleRo": "Hādhā kitābu aṭ-ṭālibi.",
+   "lit": "ceci · livre · [de l']étudiant",
+   "body": "Pour dire le livre de l'étudiant, le français utilise le petit mot de. L'arabe, lui, se contente de coller deux noms l'un derrière l'autre : « kitabu at-talibi », livre, l'étudiant. C'est ce qu'on appelle l'annexion. Une règle importante : le premier nom ne prend jamais l'article, c'est le second qui rend tout l'ensemble précis. On dit donc « miftahu ash-shaqqati », la clé de l'appartement, sans article devant miftah. Le second nom prend aussi une terminaison en i : « at-talibi », « ash-shaqqati ». Cela marche aussi avec un prénom : « ghurfatu Layla », la chambre de Leïla. Astuce : imaginez un petit train où seul le dernier wagon porte l'article, et c'est lui qui donne son sens précis à tout le convoi."
+  }
+ },
+ {
+  "title": "Questions au marché",
+  "phrases": [
+   {
+    "fr": "C'est quoi, ça ?",
+    "ar": "مَا هَذَا؟",
+    "ro": "Mā hādhā?",
+    "lit": "quoi · ceci ?"
+   },
+   {
+    "fr": "Qui est ce vendeur ?",
+    "ar": "مَنْ هَذَا الْبَائِعُ؟",
+    "ro": "Man hādhā al-bāʾiʿu?",
+    "lit": "qui · ce · [le] vendeur ?"
+   },
+   {
+    "fr": "Où est le marché ?",
+    "ar": "أَيْنَ السُّوقُ؟",
+    "ro": "Ayna as-sūqu?",
+    "lit": "où · [le] marché ?"
+   },
+   {
+    "fr": "C'est quand, le rendez-vous ?",
+    "ar": "مَتَى الْمَوْعِدُ؟",
+    "ro": "Matā al-mawʿidu?",
+    "lit": "quand · [le] rendez-vous ?"
+   },
+   {
+    "fr": "Comment vas-tu ?",
+    "ar": "كَيْفَ حَالُكَ؟",
+    "ro": "Kayfa ḥāluka?",
+    "lit": "comment · état-de-toi ?"
+   },
+   {
+    "fr": "Quel est le nom de ce café ?",
+    "ar": "مَا اسْمُ هٰذَا الْمَقْهَى؟",
+    "ro": "Mā ismu hādhā l-maqhā?",
+    "lit": "quoi · nom · ce · [le] café ?"
+   },
+   {
+    "fr": "Où sont les tomates ?",
+    "ar": "أَيْنَ الطَّمَاطِمُ؟",
+    "ro": "Ayna aṭ-ṭamāṭimu?",
+    "lit": "où · [les] tomates ?"
+   },
+   {
+    "fr": "Qui est cette dame ?",
+    "ar": "مَنْ هَذِهِ السَّيِّدَةُ؟",
+    "ro": "Man hādhihi as-sayyidatu?",
+    "lit": "qui · cette · [la] dame ?"
+   },
+   {
+    "fr": "Comment est le temps aujourd'hui ?",
+    "ar": "كَيْفَ الْجَوُّ الْيَوْمَ؟",
+    "ro": "Kayfa al-jawwu al-yawma?",
+    "lit": "comment · [le] temps · [le] jour ?"
+   },
+   {
+    "fr": "Où est le marchand de fruits ?",
+    "ar": "أَيْنَ مَحَلُّ الْفَوَاكِهِ؟",
+    "ro": "Ayna maḥallu al-fawākihi?",
+    "lit": "où · boutique · [des] fruits ?"
+   }
+  ],
+  "tip": {
+   "title": "Les mots interrogatifs : ma, man, ayna, mata, kayfa",
+   "example": "Comment vas-tu ? — <b>كَيْفَ</b> حَالُكَ؟",
+   "exampleRo": "Kayfa ḥāluka?",
+   "lit": "comment · état-de-toi ?",
+   "body": "Pour poser une question ouverte, l'arabe a cinq petits mots à connaître, toujours placés en tête de phrase. « Ma » veut dire quoi, « man » qui, « ayna » où, « mata » quand, et « kayfa » comment. Notre exemple, « kayfa haluka ? », se lit littéralement : comment, ton état ? C'est la façon la plus courante de demander comment ça va. Avec « ayna », on demande son chemin : « ayna as-suqu ? », où est le marché ? Avec « ma », on demande ce qu'est un objet : « ma hadha ? », c'est quoi, ça ? Et avec « man », on demande qui est quelqu'un : « man hadhihi as-sayyidatu ? », qui est cette dame ? Comme d'habitude, pas besoin du verbe être : le mot interrogatif suffit. Astuce : man, avec un n, pour une personne, et ma, sans n, pour une chose."
   }
  },
  {
   "title": "La routine du matin",
   "phrases": [
    {
-    "fr": "Je me lève à six heures.",
-    "ja": "六時に起きます。",
-    "ro": "Rokuji ni okimasu.",
-    "lit": "six-heure · [à : moment] · se lever (poli)"
+    "fr": "J'écris une lettre.",
+    "ar": "أَكْتُبُ رِسَالَةً.",
+    "ro": "Aktubu risālatan.",
+    "lit": "j'écris · lettre"
    },
    {
-    "fr": "Je me brosse les dents.",
-    "ja": "歯を磨きます。",
-    "ro": "Ha o migakimasu.",
-    "lit": "dents · [objet] · brosser (poli)"
+    "fr": "Tu écris en arabe.",
+    "ar": "تَكْتُبُ بِالْعَرَبِيَّةِ.",
+    "ro": "Taktubu bi-l-ʿarabiyyati.",
+    "lit": "tu écris · en · [l']arabe"
    },
    {
-    "fr": "Je prends une douche.",
-    "ja": "シャワーを浴びます。",
-    "ro": "Shawā o abimasu.",
-    "lit": "douche · [objet] · recevoir sur soi (poli)"
+    "fr": "Karim écrit dans son cahier.",
+    "ar": "يَكْتُبُ كَرِيمٌ فِي دَفْتَرِهِ.",
+    "ro": "Yaktubu Karīmun fī daftarihi.",
+    "lit": "il écrit · Karim · dans · cahier-de-lui"
    },
    {
-    "fr": "Je prends mon petit-déjeuner.",
-    "ja": "朝ごはんを食べます。",
-    "ro": "Asagohan o tabemasu.",
-    "lit": "matin-repas · [objet] · manger (poli)"
+    "fr": "Je bois du café le matin.",
+    "ar": "أَشْرَبُ الْقَهْوَةَ فِي الصَّبَاحِ.",
+    "ro": "Ashrabu al-qahwata fī aṣ-ṣabāḥi.",
+    "lit": "je bois · [le] café · dans · [le] matin"
    },
    {
-    "fr": "Je bois du thé vert.",
-    "ja": "お茶を飲みます。",
-    "ro": "Ocha o nomimasu.",
-    "lit": "honorable-thé · [objet] · boire (poli)"
+    "fr": "Elle écrit un court message.",
+    "ar": "هِيَ تَكْتُبُ رِسَالَةً قَصِيرَةً.",
+    "ro": "Hiya taktubu risālatan qaṣīratan.",
+    "lit": "elle · elle écrit · message · court"
    },
    {
-    "fr": "Je sors à huit heures.",
-    "ja": "八時に出かけます。",
-    "ro": "Hachiji ni dekakemasu.",
-    "lit": "huit-heure · [à : moment] · sortir (poli)"
+    "fr": "Je me réveille tôt.",
+    "ar": "أَسْتَيْقِظُ مُبَكِّرًا.",
+    "ro": "Astayqiẓu mubakkiran.",
+    "lit": "je me réveille · tôt"
    },
    {
-    "fr": "Demain, je vais à Asakusa.",
-    "ja": "明日、浅草に行きます。",
-    "ro": "Ashita, Asakusa ni ikimasu.",
-    "lit": "demain · Asakusa · [direction] · aller (poli)"
+    "fr": "Il mange du pain et du houmous.",
+    "ar": "يَأْكُلُ خُبْزًا وَحُمُّصًا.",
+    "ro": "Yaʾkulu khubzan wa-ḥummuṣan.",
+    "lit": "il mange · pain · [et] · houmous"
    },
    {
-    "fr": "Le week-end, je fais le ménage.",
-    "ja": "週末、掃除をします。",
-    "ro": "Shūmatsu, sōji o shimasu.",
-    "lit": "week-end · ménage · [objet] · faire (poli)"
+    "fr": "Je lis le journal.",
+    "ar": "أَقْرَأُ الْجَرِيدَةَ.",
+    "ro": "Aqraʾu al-jarīdata.",
+    "lit": "je lis · [le] journal"
    },
    {
-    "fr": "Ce soir, je regarde la télé.",
-    "ja": "今晩、テレビを見ます。",
-    "ro": "Konban, terebi o mimasu.",
-    "lit": "ce soir · télé · [objet] · regarder (poli)"
+    "fr": "Leïla boit un café à la cardamome.",
+    "ar": "تَشْرَبُ لَيْلَى قَهْوَةً بِالْهَيْلِ.",
+    "ro": "Tashrabu Laylā qahwatan bi-l-hayli.",
+    "lit": "elle boit · Leïla · café · avec · [la] cardamome"
    },
    {
-    "fr": "Je me couche à onze heures.",
-    "ja": "十一時に寝ます。",
-    "ro": "Jūichiji ni nemasu.",
-    "lit": "onze-heure · [à : moment] · dormir (poli)"
+    "fr": "Il écrit son nom.",
+    "ar": "يَكْتُبُ اسْمَهُ.",
+    "ro": "Yaktubu ismahu.",
+    "lit": "il écrit · nom-de-lui"
    }
   ],
   "tip": {
-   "title": "Les verbes polis en « -masu » : présent et futur",
-   "example": "Demain, je vais à Asakusa. — 明日、浅草に<b>行きます</b>。",
-   "exampleRo": "Ashita, Asakusa ni ikimasu.",
-   "lit": "demain · Asakusa · [direction] · aller (poli)",
-   "body": "Les verbes polis japonais se terminent par « masu ». « Ikimasu » veut dire aller, « tabemasu » manger, « nomimasu » boire. Bonne nouvelle : ils ne changent pas selon la personne, je mange, tu manges et ils mangent se disent tous « tabemasu ». Encore mieux, la même forme sert pour le présent et pour le futur. « Ashita, Asakusa ni ikimasu » se dit littéralement : demain, Asakusa, vers, aller. C'est le mot « ashita », demain, qui indique le futur. Sans lui, « Asakusa ni ikimasu » peut vouloir dire je vais à Asakusa, en général ou bientôt. Comme « desu », la terminaison « masu » se prononce presque « mass ». Astuce : imaginez « masu » comme le costume poli que les verbes enfilent pour sortir."
+   "title": "Le verbe au présent : aktubu, taktubu, yaktubu",
+   "example": "Karim écrit dans son cahier. — <b>يَكْتُبُ</b> كَرِيمٌ فِي دَفْتَرِهِ.",
+   "exampleRo": "Yaktubu Karīmun fī daftarihi.",
+   "lit": "il écrit · Karim · dans · cahier-de-lui",
+   "body": "Voici enfin des verbes ! En arabe, le présent se forme en ajoutant une petite syllabe au début du verbe. Avec le verbe écrire, on obtient « aktubu », j'écris, « taktubu », tu écris, qui veut aussi dire elle écrit, et « yaktubu », il écrit. Le a du début, c'est je, le ta, c'est tu ou elle, et le ya, c'est il. Notre exemple, « yaktubu Karimun fi daftarihi », se lit : il écrit Karim dans son cahier. Remarquez l'ordre : en arabe, le verbe vient souvent avant le sujet. C'est pareil pour boire : « ashrabu », je bois, et « tashrabu Layla », Leïla boit. Pas besoin non plus de pronom, le verbe contient déjà la personne. Astuce : écoutez bien le tout début du verbe, c'est lui qui vous dit qui fait l'action."
   }
  },
  {
-  "title": "Un bentō pour midi",
+  "title": "Livres et bureaux",
   "phrases": [
    {
-    "fr": "J'achète un bentō.",
-    "ja": "お弁当を買います。",
-    "ro": "Obentō o kaimasu.",
-    "lit": "honorable-bentō · [objet] · acheter (poli)"
+    "fr": "Le livre est sur le bureau.",
+    "ar": "الْكِتَابُ عَلَى الْمَكْتَبِ.",
+    "ro": "Al-kitābu ʿalā al-maktabi.",
+    "lit": "[le] livre · sur · [le] bureau"
    },
    {
-    "fr": "Je mange un onigiri.",
-    "ja": "おにぎりを食べます。",
-    "ro": "Onigiri o tabemasu.",
-    "lit": "onigiri · [objet] · manger (poli)"
+    "fr": "L'écrivain est à la bibliothèque.",
+    "ar": "الْكَاتِبُ فِي الْمَكْتَبَةِ.",
+    "ro": "Al-kātibu fī al-maktabati.",
+    "lit": "[l']écrivain · dans · [la] bibliothèque"
    },
    {
-    "fr": "Je bois de l'eau.",
-    "ja": "水を飲みます。",
-    "ro": "Mizu o nomimasu.",
-    "lit": "eau · [objet] · boire (poli)"
+    "fr": "La librairie est près du marché.",
+    "ar": "الْمَكْتَبَةُ قَرِيبَةٌ مِنَ السُّوقِ.",
+    "ro": "Al-maktabatu qarībatun mina as-sūqi.",
+    "lit": "[la] librairie · proche · de · [le] marché"
    },
    {
-    "fr": "Je vous réchauffe le bentō ?",
-    "ja": "お弁当を温めますか？",
-    "ro": "Obentō o atatamemasu ka?",
-    "lit": "honorable-bentō · [objet] · réchauffer (poli) · [question]"
+    "fr": "J'écris un livre.",
+    "ar": "أَكْتُبُ كِتَابًا.",
+    "ro": "Aktubu kitāban.",
+    "lit": "j'écris · livre"
    },
    {
-    "fr": "Oui, s'il vous plaît.",
-    "ja": "はい、お願いします。",
-    "ro": "Hai, onegaishimasu.",
-    "lit": "oui · je vous le demande (poli)"
+    "fr": "Le bureau de poste est fermé.",
+    "ar": "مَكْتَبُ الْبَرِيدِ مُغْلَقٌ.",
+    "ro": "Maktabu al-barīdi mughlaqun.",
+    "lit": "bureau · [de la] poste · fermé"
    },
    {
-    "fr": "Je choisis un bentō au poulet frit.",
-    "ja": "唐揚げ弁当を選びます。",
-    "ro": "Karaage bentō o erabimasu.",
-    "lit": "poulet frit-bentō · [objet] · choisir (poli)"
+    "fr": "C'est un écrivain jordanien.",
+    "ar": "هُوَ كَاتِبٌ أُرْدُنِيٌّ.",
+    "ro": "Huwa kātibun urduniyyun.",
+    "lit": "lui · écrivain · jordanien"
    },
    {
-    "fr": "Je sors mon porte-monnaie.",
-    "ja": "財布を出します。",
-    "ro": "Saifu o dashimasu.",
-    "lit": "porte-monnaie · [objet] · sortir (poli)"
+    "fr": "Ses livres sont célèbres.",
+    "ar": "كُتُبُهُ مَشْهُورَةٌ.",
+    "ro": "Kutubuhu mashhūratun.",
+    "lit": "livres-de-lui · célèbres"
    },
    {
-    "fr": "Je regarde les prix.",
-    "ja": "値段を見ます。",
-    "ro": "Nedan o mimasu.",
-    "lit": "prix · [objet] · regarder (poli)"
+    "fr": "Le message est écrit en arabe.",
+    "ar": "الرِّسَالَةُ مَكْتُوبَةٌ بِالْعَرَبِيَّةِ.",
+    "ro": "Ar-risālatu maktūbatun bi-l-ʿarabiyyati.",
+    "lit": "[le] message · écrit · en · [l']arabe"
    },
    {
-    "fr": "Je prends le bentō en photo.",
-    "ja": "お弁当の写真を撮ります。",
-    "ro": "Obentō no shashin o torimasu.",
-    "lit": "honorable-bentō · [de] · photo · [objet] · prendre (poli)"
+    "fr": "Le bureau de Leïla est bien rangé.",
+    "ar": "مَكْتَبُ لَيْلَى مُرَتَّبٌ.",
+    "ro": "Maktabu Laylā murattabun.",
+    "lit": "bureau · [de] Leïla · rangé"
    },
    {
-    "fr": "Qu'est-ce que vous mangez ?",
-    "ja": "何を食べますか？",
-    "ro": "Nani o tabemasu ka?",
-    "lit": "quoi · [objet] · manger (poli) · [question]"
+    "fr": "J'aime la bibliothèque.",
+    "ar": "أُحِبُّ الْمَكْتَبَةَ.",
+    "ro": "Uḥibbu al-maktabata.",
+    "lit": "j'aime · [la] bibliothèque"
    }
   ],
   "tip": {
-   "title": "« O » : la particule du complément d'objet",
-   "example": "J'achète un bentō. — お弁当<b>を</b>買います。",
-   "exampleRo": "Obentō o kaimasu.",
-   "lit": "honorable-bentō · [objet] · acheter (poli)",
-   "body": "La particule « o » marque le complément d'objet, c'est-à-dire la chose sur laquelle porte l'action. On la place juste après cette chose, et juste avant le verbe. « Obentō o kaimasu » se dit littéralement : honorable bentō, objet, acheter. En français, on dirait simplement : j'achète un bentō. Autres exemples : « Mizu o nomimasu », eau, objet, boire, et « Onigiri o tabemasu », onigiri, objet, manger. Pour poser une question, remplacez la chose par « nani », quoi : « Nani o tabemasu ka », qu'est-ce que vous mangez ? À l'écrit, cette particule a son propre signe, qui ne sert presque qu'à cela, mais elle se prononce simplement « o ». Astuce : « o » est comme une flèche qui désigne la cible de l'action."
+   "title": "La racine de trois lettres : k, t, b",
+   "example": "Le livre est sur le bureau. — <b>الْكِتَابُ</b> عَلَى <b>الْمَكْتَبِ</b>.",
+   "exampleRo": "Al-kitābu ʿalā al-maktabi.",
+   "lit": "[le] livre · sur · [le] bureau",
+   "body": "Voici le grand secret de l'arabe : la plupart des mots sont construits sur une racine de trois consonnes, qui porte une idée. Avec k, t et b, l'idée est celle de l'écriture. « Kataba » veut dire il a écrit, « kitab » un livre, « katib » un écrivain, « maktab » un bureau, c'est-à-dire l'endroit où l'on écrit, et « maktaba » une bibliothèque ou une librairie. Notre exemple, « al-kitabu ala al-maktabi », se lit : le livre, sur le bureau, et les deux mots importants partagent la même racine. Même « maktub », écrit, en fait partie. Le début en « ma » indique souvent un lieu : « matam », le restaurant, vient de la racine du verbe manger. Astuce : quand vous découvrez un mot nouveau, cherchez ses trois consonnes, et vous devinerez souvent son sens."
   }
  },
  {
-  "title": "Rendez-vous à Asakusa",
+  "title": "Se déplacer en ville",
   "phrases": [
    {
-    "fr": "Nous allons au temple Sensō-ji.",
-    "ja": "浅草寺へ行きます。",
-    "ro": "Sensōji e ikimasu.",
-    "lit": "temple Sensō-ji · [direction] · aller (poli)"
+    "fr": "Je vais au centre-ville.",
+    "ar": "أَذْهَبُ إِلَى وَسَطِ الْمَدِينَةِ.",
+    "ro": "Adhhabu ilā wasaṭi al-madīnati.",
+    "lit": "je vais · vers · centre · [de la] ville"
    },
    {
-    "fr": "Je pars à dix heures.",
-    "ja": "十時に出ます。",
-    "ro": "Jūji ni demasu.",
-    "lit": "dix-heure · [à : moment] · partir (poli)"
+    "fr": "Le taxi est dans la rue.",
+    "ar": "التَّاكْسِي فِي الشَّارِعِ.",
+    "ro": "At-tāksī fī ash-shāriʿi.",
+    "lit": "[le] taxi · dans · [la] rue"
    },
    {
-    "fr": "J'arrive à Asakusa à dix heures et demie.",
-    "ja": "十時半に浅草に着きます。",
-    "ro": "Jūji han ni Asakusa ni tsukimasu.",
-    "lit": "dix-heure · demie · [à : moment] · Asakusa · [direction] · arriver (poli)"
+    "fr": "Je rentre du marché.",
+    "ar": "أَرْجِعُ مِنَ السُّوقِ.",
+    "ro": "Arjiʿu mina as-sūqi.",
+    "lit": "je reviens · de · [le] marché"
    },
    {
-    "fr": "Mon ami arrive à onze heures.",
-    "ja": "友達は十一時に来ます。",
-    "ro": "Tomodachi wa jūichiji ni kimasu.",
-    "lit": "ami · [thème] · onze-heure · [à : moment] · venir (poli)"
+    "fr": "Les clés sont sur la table.",
+    "ar": "الْمَفَاتِيحُ عَلَى الطَّاوِلَةِ.",
+    "ro": "Al-mafātīḥu ʿalā aṭ-ṭāwilati.",
+    "lit": "[les] clés · sur · [la] table"
    },
    {
-    "fr": "Où allez-vous ?",
-    "ja": "どこへ行きますか？",
-    "ro": "Doko e ikimasu ka?",
-    "lit": "où · [direction] · aller (poli) · [question]"
+    "fr": "Je vais de l'hôtel à la citadelle.",
+    "ar": "أَذْهَبُ مِنَ الْفُنْدُقِ إِلَى الْقَلْعَةِ.",
+    "ro": "Adhhabu mina al-funduqi ilā al-qalʿati.",
+    "lit": "je vais · de · [l']hôtel · vers · [la] citadelle"
    },
    {
-    "fr": "Je vais à la porte Kaminarimon.",
-    "ja": "雷門へ行きます。",
-    "ro": "Kaminarimon e ikimasu.",
-    "lit": "porte du Tonnerre · [direction] · aller (poli)"
+    "fr": "Le chauffeur est dans la voiture.",
+    "ar": "السَّائِقُ فِي السَّيَّارَةِ.",
+    "ro": "As-sāʾiqu fī as-sayyārati.",
+    "lit": "[le] chauffeur · dans · [la] voiture"
    },
    {
-    "fr": "Ensuite, nous allons à la Skytree.",
-    "ja": "それから、スカイツリーに行きます。",
-    "ro": "Sorekara, Sukaitsurī ni ikimasu.",
-    "lit": "ensuite · Skytree · [direction] · aller (poli)"
+    "fr": "Le bus va à l'université.",
+    "ar": "الْحَافِلَةُ تَذْهَبُ إِلَى الْجَامِعَةِ.",
+    "ro": "Al-ḥāfilatu tadhhabu ilā al-jāmiʿati.",
+    "lit": "[le] bus · elle va · vers · [l']université"
    },
    {
-    "fr": "Je rentre chez moi à six heures.",
-    "ja": "六時に家へ帰ります。",
-    "ro": "Rokuji ni ie e kaerimasu.",
-    "lit": "six-heure · [à : moment] · maison · [direction] · rentrer (poli)"
+    "fr": "Le sac est sur le siège.",
+    "ar": "الْحَقِيبَةُ عَلَى الْمَقْعَدِ.",
+    "ro": "Al-ḥaqībatu ʿalā al-maqʿadi.",
+    "lit": "[le] sac · sur · [le] siège"
    },
    {
-    "fr": "Le samedi, je vais à la piscine.",
-    "ja": "土曜日にプールへ行きます。",
-    "ro": "Doyōbi ni pūru e ikimasu.",
-    "lit": "samedi · [à : moment] · piscine · [direction] · aller (poli)"
+    "fr": "Leïla arrive de l'aéroport.",
+    "ar": "تَصِلُ لَيْلَى مِنَ الْمَطَارِ.",
+    "ro": "Taṣilu Laylā mina al-maṭāri.",
+    "lit": "elle arrive · Leïla · de · [l']aéroport"
    },
    {
-    "fr": "Les boutiques de Nakamise ouvrent à dix heures.",
-    "ja": "仲見世のお店は十時に開きます。",
-    "ro": "Nakamise no omise wa jūji ni akimasu.",
-    "lit": "Nakamise · [de] · honorables-boutiques · [thème] · dix-heure · [à : moment] · ouvrir (poli)"
+    "fr": "Nous sommes dans le taxi.",
+    "ar": "نَحْنُ فِي التَّاكْسِي.",
+    "ro": "Naḥnu fī at-tāksī.",
+    "lit": "nous · dans · [le] taxi"
    }
   ],
   "tip": {
-   "title": "« Ni » et « e » : aller vers un lieu, à une heure",
-   "example": "J'arrive à Asakusa à dix heures et demie. — 十時半<b>に</b>浅草<b>に</b>着きます。",
-   "exampleRo": "Jūji han ni Asakusa ni tsukimasu.",
-   "lit": "dix-heure · demie · [à : moment] · Asakusa · [direction] · arriver (poli)",
-   "body": "La particule « ni » a deux usages très fréquents. Après un lieu, elle indique la destination : « Asakusa ni ikimasu », Asakusa, vers, aller. Après une heure précise, elle indique le moment : « Jūji ni demasu », dix heures, à, partir. « Jūji han ni Asakusa ni tsukimasu » se dit donc : dix heures et demie, à, Asakusa, vers, arriver. La particule « e » ressemble beaucoup à « ni » pour les déplacements : « Sensōji e ikimasu », nous allons au temple Sensō-ji. « E » insiste sur la direction, le mouvement vers quelque part, alors que « ni » insiste plutôt sur le point d'arrivée. Pour aller quelque part, les deux sont donc presque toujours possibles, mais pour une heure, seul « ni » fonctionne. Astuce : « e », c'est la flèche du trajet, « ni », c'est la cible."
+   "title": "Les prépositions : fi, ala, min, ila",
+   "example": "Je vais de l'hôtel à la citadelle. — أَذْهَبُ <b>مِنَ</b> الْفُنْدُقِ <b>إِلَى</b> الْقَلْعَةِ.",
+   "exampleRo": "Adhhabu mina al-funduqi ilā al-qalʿati.",
+   "lit": "je vais · de · [l']hôtel · vers · [la] citadelle",
+   "body": "Quatre petits mots suffisent pour se repérer en ville. « Fi » veut dire dans ou à, « ala » sur, « min » de ou depuis, et « ila » vers ou jusqu'à. Notre exemple, « adhhabu mina al-funduqi ila al-qalati », se lit : je vais, de l'hôtel, vers la citadelle. Notez que « min » devient « mina » devant l'article, simplement pour faciliter la prononciation. Après une préposition, le nom prend une terminaison en i : « fi ash-sharii », dans la rue, « ala at-tawilati », sur la table. Ces mots fonctionnent très bien sans verbe : « nahnu fi at-taksi », nous dans le taxi, veut dire nous sommes dans le taxi. Astuce : min et ila vont souvent ensemble, comme le point de départ et le point d'arrivée d'une course en taxi."
   }
  },
  {
-  "title": "Le métro de Tokyo",
+  "title": "Ce que j'ai",
   "phrases": [
    {
-    "fr": "Je vais au travail en métro.",
-    "ja": "地下鉄で会社に行きます。",
-    "ro": "Chikatetsu de kaisha ni ikimasu.",
-    "lit": "métro · [moyen] · entreprise · [direction] · aller (poli)"
+    "fr": "J'ai un téléphone neuf.",
+    "ar": "عِنْدِي هَاتِفٌ جَدِيدٌ.",
+    "ro": "ʿIndī hātifun jadīdun.",
+    "lit": "chez-moi · téléphone · neuf"
    },
    {
-    "fr": "Je change à Ueno.",
-    "ja": "上野で乗り換えます。",
-    "ro": "Ueno de norikaemasu.",
-    "lit": "Ueno · [lieu] · changer de train (poli)"
+    "fr": "Tu as une voiture ?",
+    "ar": "عِنْدَكَ سَيَّارَةٌ؟",
+    "ro": "ʿIndaka sayyāratun?",
+    "lit": "chez-toi · voiture ?"
    },
    {
-    "fr": "J'achète un ticket au distributeur.",
-    "ja": "券売機で切符を買います。",
-    "ro": "Kenbaiki de kippu o kaimasu.",
-    "lit": "distributeur de tickets · [lieu] · ticket · [objet] · acheter (poli)"
+    "fr": "Elle a une sœur.",
+    "ar": "عِنْدَهَا أُخْتٌ.",
+    "ro": "ʿIndahā ukhtun.",
+    "lit": "chez-elle · sœur"
    },
    {
-    "fr": "Je paie avec mon téléphone.",
-    "ja": "スマホで払います。",
-    "ro": "Sumaho de haraimasu.",
-    "lit": "smartphone · [moyen] · payer (poli)"
+    "fr": "Il a un rendez-vous.",
+    "ar": "عِنْدَهُ مَوْعِدٌ.",
+    "ro": "ʿIndahu mawʿidun.",
+    "lit": "chez-lui · rendez-vous"
    },
    {
-    "fr": "Je dors dans le métro.",
-    "ja": "地下鉄で寝ます。",
-    "ro": "Chikatetsu de nemasu.",
-    "lit": "métro · [lieu] · dormir (poli)"
+    "fr": "J'ai une question.",
+    "ar": "عِنْدِي سُؤَالٌ.",
+    "ro": "ʿIndī suʾālun.",
+    "lit": "chez-moi · question"
    },
    {
-    "fr": "Je vais à Ginza en taxi.",
-    "ja": "タクシーで銀座に行きます。",
-    "ro": "Takushī de Ginza ni ikimasu.",
-    "lit": "taxi · [moyen] · Ginza · [direction] · aller (poli)"
+    "fr": "Leïla, tu as un stylo ?",
+    "ar": "عِنْدَكِ قَلَمٌ يَا لَيْلَى؟",
+    "ro": "ʿIndaki qalamun yā Laylā?",
+    "lit": "chez-toi (fém.) · stylo · ô · Leïla ?"
    },
    {
-    "fr": "Je déjeune à la gare de Tokyo.",
-    "ja": "東京駅で昼ごはんを食べます。",
-    "ro": "Tōkyō-eki de hirugohan o tabemasu.",
-    "lit": "Tokyo-gare · [lieu] · midi-repas · [objet] · manger (poli)"
+    "fr": "J'ai beaucoup de travail.",
+    "ar": "عِنْدِي عَمَلٌ كَثِيرٌ.",
+    "ro": "ʿIndī ʿamalun kathīrun.",
+    "lit": "chez-moi · travail · nombreux"
    },
    {
-    "fr": "Je fais les courses à Ikebukuro.",
-    "ja": "池袋で買い物をします。",
-    "ro": "Ikebukuro de kaimono o shimasu.",
-    "lit": "Ikebukuro · [lieu] · courses · [objet] · faire (poli)"
+    "fr": "Karim a un petit appartement.",
+    "ar": "عِنْدَ كَرِيمٍ شَقَّةٌ صَغِيرَةٌ.",
+    "ro": "ʿInda Karīmin shaqqatun ṣaghīratun.",
+    "lit": "chez · Karim · appartement · petit"
    },
    {
-    "fr": "Où est-ce qu'on change ?",
-    "ja": "どこで乗り換えますか？",
-    "ro": "Doko de norikaemasu ka?",
-    "lit": "où · [lieu] · changer de train (poli) · [question]"
+    "fr": "Je n'ai pas le temps.",
+    "ar": "لَيْسَ عِنْدِي وَقْتٌ.",
+    "ro": "Laysa ʿindī waqtun.",
+    "lit": "[il n'est pas] · chez-moi · temps"
    },
    {
-    "fr": "Je vais au konbini à vélo.",
-    "ja": "自転車でコンビニに行きます。",
-    "ro": "Jitensha de konbini ni ikimasu.",
-    "lit": "vélo · [moyen] · konbini · [direction] · aller (poli)"
+    "fr": "Tu as son numéro de téléphone ?",
+    "ar": "عِنْدَكَ رَقْمُ هَاتِفِهِ؟",
+    "ro": "ʿIndaka raqmu hātifihi?",
+    "lit": "chez-toi · numéro · téléphone-de-lui ?"
    }
   ],
   "tip": {
-   "title": "« De » : le lieu où l'on fait quelque chose, et le moyen",
-   "example": "Je vais au travail en métro. — 地下鉄<b>で</b>会社に行きます。",
-   "exampleRo": "Chikatetsu de kaisha ni ikimasu.",
-   "lit": "métro · [moyen] · entreprise · [direction] · aller (poli)",
-   "body": "« De » est une particule très pratique qui a deux grands sens. D'abord, elle indique le lieu où l'on fait une action : « Ikebukuro de kaimono o shimasu », Ikebukuro, à, courses, faire, donc je fais les courses à Ikebukuro. Ensuite, elle indique le moyen, avec quoi on fait quelque chose. « Chikatetsu de kaisha ni ikimasu » se dit littéralement : métro, avec, entreprise, vers, aller. Autrement dit : je vais au travail en métro. On l'utilise aussi pour payer : « Sumaho de haraimasu », je paie avec mon téléphone. Attention à ne pas la confondre avec « ni » : « ni » indique où l'on va, « de » indique où l'action se passe. Astuce : si vous pouvez dire en ou avec en français, ou si quelqu'un agit à un endroit, pensez à « de »."
+   "title": "Indi : j'ai, littéralement chez moi",
+   "example": "J'ai un téléphone neuf. — <b>عِنْدِي</b> هَاتِفٌ جَدِيدٌ.",
+   "exampleRo": "ʿIndī hātifun jadīdun.",
+   "lit": "chez-moi · téléphone · neuf",
+   "body": "L'arabe n'a pas de verbe avoir au présent. Pour dire j'ai, on dit « indi », littéralement chez moi. « Indi hatifun jadidun » se lit donc : chez moi, un téléphone neuf, c'est-à-dire j'ai un téléphone neuf. On y retrouve les terminaisons des possessifs : « indaka », tu as, à un homme, « indaki » à une femme, « indahu », il a, et « indaha », elle a. Avec un prénom, on dit « inda Karimin », chez Karim, donc Karim a. Pour la négation, on ajoute « laysa » devant : « laysa indi waqtun », je n'ai pas le temps. C'est un peu comme si l'on disait en français : chez moi, il y a un téléphone neuf. Astuce : pensez toujours au mot chez, et vous ne vous tromperez jamais."
   }
  },
  {
-  "title": "Un dimanche tranquille",
+  "title": "Les nombres et l'heure",
   "phrases": [
    {
-    "fr": "Aujourd'hui, je ne vais pas au travail.",
-    "ja": "今日は仕事に行きません。",
-    "ro": "Kyō wa shigoto ni ikimasen.",
-    "lit": "aujourd'hui · [thème] · travail · [direction] · ne pas aller (poli)"
-   },
-   {
-    "fr": "Je ne me lève pas tôt.",
-    "ja": "早く起きません。",
-    "ro": "Hayaku okimasen.",
-    "lit": "tôt · ne pas se lever (poli)"
-   },
-   {
-    "fr": "Je ne prends pas le train.",
-    "ja": "電車に乗りません。",
-    "ro": "Densha ni norimasen.",
-    "lit": "train · [dans] · ne pas monter (poli)"
-   },
-   {
-    "fr": "Je ne bois pas d'alcool.",
-    "ja": "お酒を飲みません。",
-    "ro": "Osake o nomimasen.",
-    "lit": "honorable-alcool · [objet] · ne pas boire (poli)"
-   },
-   {
-    "fr": "Ce soir, je ne fais pas la cuisine.",
-    "ja": "今晩は料理をしません。",
-    "ro": "Konban wa ryōri o shimasen.",
-    "lit": "ce soir · [thème] · cuisine · [objet] · ne pas faire (poli)"
-   },
-   {
-    "fr": "Je regarde un film à la maison.",
-    "ja": "家で映画を見ます。",
-    "ro": "Ie de eiga o mimasu.",
-    "lit": "maison · [lieu] · film · [objet] · regarder (poli)"
-   },
-   {
-    "fr": "Je ne regarde pas la télé.",
-    "ja": "テレビは見ません。",
-    "ro": "Terebi wa mimasen.",
-    "lit": "télé · [thème] · ne pas regarder (poli)"
-   },
-   {
-    "fr": "Je ne comprends pas très bien.",
-    "ja": "よくわかりません。",
-    "ro": "Yoku wakarimasen.",
-    "lit": "bien · ne pas comprendre (poli)"
-   },
-   {
-    "fr": "Demain, il ne pleuvra pas.",
-    "ja": "明日は雨が降りません。",
-    "ro": "Ashita wa ame ga furimasen.",
-    "lit": "demain · [thème] · pluie · [sujet] · ne pas tomber (poli)"
-   },
-   {
-    "fr": "Je ne vais nulle part.",
-    "ja": "どこへも行きません。",
-    "ro": "Doko e mo ikimasen.",
-    "lit": "où · [direction] · [même] · ne pas aller (poli)"
-   }
-  ],
-  "tip": {
-   "title": "La négation des verbes : « -masen »",
-   "example": "Aujourd'hui, je ne vais pas au travail. — 今日は仕事に<b>行きません</b>。",
-   "exampleRo": "Kyō wa shigoto ni ikimasen.",
-   "lit": "aujourd'hui · [thème] · travail · [direction] · ne pas aller (poli)",
-   "body": "Pour mettre un verbe poli à la forme négative, c'est très régulier : on remplace « masu » par « masen ». « Ikimasu », je vais, devient « ikimasen », je ne vais pas. « Tabemasu », je mange, devient « tabemasen », je ne mange pas. « Kyō wa shigoto ni ikimasen » se dit littéralement : aujourd'hui, quant à lui, travail, vers, ne pas aller. Comme le verbe est à la fin, la négation arrive aussi en dernier, il faut donc écouter jusqu'au bout. Et comme pour « masu », la forme « masen » vaut aussi pour le futur : « Ashita wa ame ga furimasen », il ne pleuvra pas demain. Une phrase très utile à connaître : « Wakarimasen », je ne comprends pas. Astuce : « masu » dit oui, « masen » dit non, une seule syllabe change tout."
-  }
- },
- {
-  "title": "L'heure et les nombres",
-  "phrases": [
-   {
-    "fr": "Un, deux, trois !",
-    "ja": "いち、に、さん！",
-    "ro": "Ichi, ni, san!",
+    "fr": "Un, deux, trois.",
+    "ar": "وَاحِدٌ، اِثْنَانِ، ثَلَاثَةٌ.",
+    "ro": "Wāḥidun, ithnāni, thalāthatun.",
     "lit": "un · deux · trois"
    },
    {
-    "fr": "Quelle heure est-il maintenant ?",
-    "ja": "今、何時ですか？",
-    "ro": "Ima, nanji desu ka?",
-    "lit": "maintenant · quelle-heure · être (poli) · [question]"
+    "fr": "Quatre, cinq, six.",
+    "ar": "أَرْبَعَةٌ، خَمْسَةٌ، سِتَّةٌ.",
+    "ro": "Arbaʿatun, khamsatun, sittatun.",
+    "lit": "quatre · cinq · six"
    },
    {
-    "fr": "Il est quatre heures.",
-    "ja": "四時です。",
-    "ro": "Yoji desu.",
-    "lit": "quatre-heure · être (poli)"
+    "fr": "Sept, huit, neuf, dix.",
+    "ar": "سَبْعَةٌ، ثَمَانِيَةٌ، تِسْعَةٌ، عَشَرَةٌ.",
+    "ro": "Sabʿatun, thamāniyatun, tisʿatun, ʿasharatun.",
+    "lit": "sept · huit · neuf · dix"
    },
    {
-    "fr": "Il est neuf heures et demie.",
-    "ja": "九時半です。",
-    "ro": "Kuji han desu.",
-    "lit": "neuf-heure · demie · être (poli)"
+    "fr": "Il est cinq heures.",
+    "ar": "السَّاعَةُ الْخَامِسَةُ.",
+    "ro": "As-sāʿatu al-khāmisatu.",
+    "lit": "[l']heure · [la] cinquième"
    },
    {
-    "fr": "Le train part à sept heures.",
-    "ja": "電車は七時に出ます。",
-    "ro": "Densha wa shichiji ni demasu.",
-    "lit": "train · [thème] · sept-heure · [à : moment] · partir (poli)"
+    "fr": "J'ai deux livres.",
+    "ar": "عِنْدِي كِتَابَانِ.",
+    "ro": "ʿIndī kitābāni.",
+    "lit": "chez-moi · deux-livres"
    },
    {
-    "fr": "Quel est votre numéro de téléphone ?",
-    "ja": "電話番号は何番ですか？",
-    "ro": "Denwa bangō wa nanban desu ka?",
-    "lit": "téléphone-numéro · [thème] · quel-numéro · être (poli) · [question]"
+    "fr": "Le falafel coûte un dinar.",
+    "ar": "الْفَلَافِلُ بِدِينَارٍ وَاحِدٍ.",
+    "ro": "Al-falāfilu bi-dīnārin wāḥidin.",
+    "lit": "[le] falafel · pour · dinar · un"
    },
    {
-    "fr": "Un ramen, c'est huit cents yens.",
-    "ja": "ラーメンは八百円です。",
-    "ro": "Rāmen wa happyaku en desu.",
-    "lit": "ramen · [thème] · huit-cents yens · être (poli)"
+    "fr": "Nous sommes cinq.",
+    "ar": "نَحْنُ خَمْسَةٌ.",
+    "ro": "Naḥnu khamsatun.",
+    "lit": "nous · cinq"
    },
    {
-    "fr": "Le cours commence à une heure.",
-    "ja": "授業は一時に始まります。",
-    "ro": "Jugyō wa ichiji ni hajimarimasu.",
-    "lit": "cours · [thème] · une-heure · [à : moment] · commencer (poli)"
+    "fr": "Karim a trois sœurs.",
+    "ar": "عِنْدَ كَرِيمٍ ثَلَاثُ أَخَوَاتٍ.",
+    "ro": "ʿInda Karīmin thalāthu akhawātin.",
+    "lit": "chez · Karim · trois · sœurs"
    },
    {
-    "fr": "Dix, onze, douze.",
-    "ja": "十、十一、十二。",
-    "ro": "Jū, jūichi, jūni.",
-    "lit": "dix · dix-un · dix-deux"
+    "fr": "Le taxi coûte quatre dinars.",
+    "ar": "أُجْرَةُ التَّاكْسِي أَرْبَعَةُ دَنَانِيرَ.",
+    "ro": "Ujratu at-tāksī arbaʿatu danānīra.",
+    "lit": "prix · [du] taxi · quatre · dinars"
    },
    {
-    "fr": "Il est midi pile.",
-    "ja": "ちょうど十二時です。",
-    "ro": "Chōdo jūniji desu.",
-    "lit": "pile · douze-heure · être (poli)"
+    "fr": "Il est dix heures.",
+    "ar": "السَّاعَةُ الْعَاشِرَةُ.",
+    "ro": "As-sāʿatu al-ʿāshiratu.",
+    "lit": "[l']heure · [la] dixième"
    }
   ],
   "tip": {
-   "title": "Compter en japonais : ichi, ni, san, et les heures en « -ji »",
-   "example": "Il est quatre heures. — <b>四時</b>です。",
-   "exampleRo": "Yoji desu.",
-   "lit": "quatre-heure · être (poli)",
-   "body": "Les nombres japonais sont très logiques. De un à dix : ichi, ni, san, yon, go, roku, nana, hachi, kyū, jū. Ensuite, on assemble comme des briques : onze, c'est « jūichi », dix-un, et douze, « jūni », dix-deux. Vingt, c'est « nijū », deux-dix, et trente, « sanjū », trois-dix. Pour l'heure, on ajoute simplement « ji » : « ichiji », une heure, « sanji », trois heures. « Yoji desu » se dit littéralement : quatre-heure, être. Attention à trois exceptions : quatre heures se dit « yoji », sept heures « shichiji », et neuf heures « kuji ». Pour la demie, on ajoute « han » : « kuji han », neuf heures et demie. Astuce : pour demander l'heure, remplacez le nombre par « nan », quoi : « Nanji desu ka », quelle heure est-il ?"
+   "title": "Compter de un à dix",
+   "example": "Un, deux, trois. — <b>وَاحِدٌ، اِثْنَانِ، ثَلَاثَةٌ</b>.",
+   "exampleRo": "Wāḥidun, ithnāni, thalāthatun.",
+   "lit": "un · deux · trois",
+   "body": "Voici les nombres de un à dix : « wahid », un, « ithnan », deux, « thalatha », trois, « arbaa », quatre, « khamsa », cinq, « sitta », six, « saba », sept, « thamaniya », huit, « tisa », neuf, et « ashara », dix. Dans cette app, on les entend avec leur terminaison complète, par exemple « wahidun, ithnani, thalathatun ». Pour deux objets, l'arabe a une forme spéciale, le duel : au lieu de dire deux livres, on ajoute « ani » au nom, « kitabani ». De trois à dix, une règle étonnante s'applique : avec un nom masculin, le nombre garde sa terminaison en a, comme « arbaatu dananira », quatre dinars, et avec un nom féminin, il la perd, comme « thalathu akhawatin », trois sœurs. Pour l'heure, on utilise l'ordinal : « as-saatu al-ashiratu », l'heure la dixième, donc il est dix heures. Astuce : comptez vos pas en arabe en marchant, de wahid à ashara."
   }
  },
  {
-  "title": "Autour de chez moi",
+  "title": "Les vêtements et les couleurs",
   "phrases": [
    {
-    "fr": "Il y a un konbini près de chez moi.",
-    "ja": "家の近くにコンビニがあります。",
-    "ro": "Ie no chikaku ni konbini ga arimasu.",
-    "lit": "maison · [de] · proximité · [lieu] · konbini · [sujet] · il y a, objet (poli)"
+    "fr": "J'ai une chemise blanche.",
+    "ar": "عِنْدِي قَمِيصٌ أَبْيَضُ.",
+    "ro": "ʿIndī qamīṣun abyaḍu.",
+    "lit": "chez-moi · chemise · blanche"
    },
    {
-    "fr": "Il y a aussi un petit parc.",
-    "ja": "小さい公園もあります。",
-    "ro": "Chiisai kōen mo arimasu.",
-    "lit": "petit · parc · [aussi] · il y a, objet (poli)"
+    "fr": "Elle porte une robe rouge.",
+    "ar": "تَلْبَسُ فُسْتَانًا أَحْمَرَ.",
+    "ro": "Talbasu fustānan aḥmara.",
+    "lit": "elle porte · robe · rouge"
    },
    {
-    "fr": "Il y a un chat dans le parc.",
-    "ja": "公園に猫がいます。",
-    "ro": "Kōen ni neko ga imasu.",
-    "lit": "parc · [lieu] · chat · [sujet] · il y a, être vivant (poli)"
+    "fr": "Le pantalon noir est cher.",
+    "ar": "الْبِنْطَالُ الْأَسْوَدُ غَالٍ.",
+    "ro": "Al-binṭālu al-aswadu ghālin.",
+    "lit": "[le] pantalon · [le] noir · cher"
    },
    {
-    "fr": "Il y a beaucoup de monde à la gare.",
-    "ja": "駅に人がたくさんいます。",
-    "ro": "Eki ni hito ga takusan imasu.",
-    "lit": "gare · [lieu] · gens · [sujet] · beaucoup · il y a, être vivant (poli)"
+    "fr": "La veste verte est belle.",
+    "ar": "السُّتْرَةُ الْخَضْرَاءُ جَمِيلَةٌ.",
+    "ro": "As-sutratu al-khaḍrāʾu jamīlatun.",
+    "lit": "[la] veste · [la] verte · belle"
    },
    {
-    "fr": "Est-ce qu'il y a une banque ?",
-    "ja": "銀行はありますか？",
-    "ro": "Ginkō wa arimasu ka?",
-    "lit": "banque · [thème] · il y a, objet (poli) · [question]"
+    "fr": "Je cherche un grand sac.",
+    "ar": "أَبْحَثُ عَنْ حَقِيبَةٍ كَبِيرَةٍ.",
+    "ro": "Abḥathu ʿan ḥaqībatin kabīratin.",
+    "lit": "je cherche · [après] · sac · grand"
    },
    {
-    "fr": "Il n'y a pas de supermarché.",
-    "ja": "スーパーはありません。",
-    "ro": "Sūpā wa arimasen.",
-    "lit": "supermarché · [thème] · il n'y a pas, objet (poli)"
+    "fr": "C'est une petite boutique.",
+    "ar": "هَذَا مَحَلٌّ صَغِيرٌ.",
+    "ro": "Hādhā maḥallun ṣaghīrun.",
+    "lit": "ceci · boutique · petite"
    },
    {
-    "fr": "Mon grand frère est à la maison.",
-    "ja": "兄は家にいます。",
-    "ro": "Ani wa ie ni imasu.",
-    "lit": "grand frère · [thème] · maison · [lieu] · être là, être vivant (poli)"
+    "fr": "Mes chaussures neuves sont confortables.",
+    "ar": "حِذَائِي الْجَدِيدُ مُرِيحٌ.",
+    "ro": "Ḥidhāʾī al-jadīdu murīḥun.",
+    "lit": "chaussures-de-moi · [les] neuves · confortables"
    },
    {
-    "fr": "Il y a une télé dans ma chambre.",
-    "ja": "部屋にテレビがあります。",
-    "ro": "Heya ni terebi ga arimasu.",
-    "lit": "chambre · [lieu] · télé · [sujet] · il y a, objet (poli)"
+    "fr": "Une écharpe bleue, s'il vous plaît.",
+    "ar": "وِشَاحٌ أَزْرَقُ مِنْ فَضْلِكَ.",
+    "ro": "Wishāḥun azraqu min faḍlika.",
+    "lit": "écharpe · bleue · de · faveur-de-toi"
    },
    {
-    "fr": "Il y a un policier au petit poste de police.",
-    "ja": "交番に警察官がいます。",
-    "ro": "Kōban ni keisatsukan ga imasu.",
-    "lit": "poste de police · [lieu] · policier · [sujet] · il y a, être vivant (poli)"
+    "fr": "Leïla aime la couleur jaune.",
+    "ar": "تُحِبُّ لَيْلَى اللَّوْنَ الْأَصْفَرَ.",
+    "ro": "Tuḥibbu Laylā al-lawna al-aṣfara.",
+    "lit": "elle aime · Leïla · [la] couleur · [la] jaune"
    },
    {
-    "fr": "Il y a du lait dans le frigo.",
-    "ja": "冷蔵庫に牛乳があります。",
-    "ro": "Reizōko ni gyūnyū ga arimasu.",
-    "lit": "frigo · [lieu] · lait · [sujet] · il y a, objet (poli)"
+    "fr": "C'est une jolie couleur.",
+    "ar": "هَذَا لَوْنٌ جَمِيلٌ.",
+    "ro": "Hādhā lawnun jamīlun.",
+    "lit": "ceci · couleur · jolie"
    }
   ],
   "tip": {
-   "title": "« Arimasu » et « imasu » : il y a, pour les objets et pour les êtres vivants",
-   "example": "Il y a un chat dans le parc. — 公園に猫が<b>います</b>。",
-   "exampleRo": "Kōen ni neko ga imasu.",
-   "lit": "parc · [lieu] · chat · [sujet] · il y a, être vivant (poli)",
-   "body": "Le japonais a deux verbes pour dire il y a. « Arimasu » s'utilise pour les objets, les plantes et les lieux : « Konbini ga arimasu », il y a un konbini. « Imasu » s'utilise pour les êtres vivants qui bougent, les personnes et les animaux. « Kōen ni neko ga imasu » se dit littéralement : parc, dans, chat, sujet, il y a. Le schéma est toujours le même : le lieu avec « ni », puis la chose avec « ga », et le verbe à la fin. À la forme négative, on obtient « arimasen » et « imasen » : « Sūpā wa arimasen », il n'y a pas de supermarché. Ces mêmes verbes servent aussi à dire où se trouve quelqu'un : « Ani wa ie ni imasu », mon grand frère est à la maison. Astuce : si ça respire et bouge tout seul, c'est « imasu », sinon, c'est « arimasu »."
+   "title": "L'adjectif se place après le nom et s'accorde",
+   "example": "La veste verte est belle. — السُّتْرَةُ <b>الْخَضْرَاءُ</b> جَمِيلَةٌ.",
+   "exampleRo": "As-sutratu al-khaḍrāʾu jamīlatun.",
+   "lit": "[la] veste · [la] verte · belle",
+   "body": "En arabe, l'adjectif se place toujours après le nom, comme souvent en français : « qamisun abyadu », une chemise blanche. Mais il s'accorde en tout : en genre, en nombre, et même avec l'article. Si le nom porte l'article, l'adjectif le prend aussi : « as-sutratu al-khadrau », la veste la verte, c'est-à-dire la veste verte. Sans article sur l'adjectif, on obtient une phrase complète : « as-sutratu jamilatun », la veste est belle. Notre exemple réunit les deux : « as-sutratu al-khadrau jamilatun », la veste verte est belle. Les couleurs ont un féminin particulier : « akhdar », vert, devient « khadra », et « abyad », blanc, devient « bayda ». Astuce : l'article est comme un badge, si le nom le porte, l'adjectif qui l'accompagne doit le porter aussi."
   }
  },
  {
-  "title": "Il fait chaud, il fait froid",
+  "title": "La météo à Amman",
   "phrases": [
    {
-    "fr": "Aujourd'hui, il fait très chaud.",
-    "ja": "今日はとても暑いです。",
-    "ro": "Kyō wa totemo atsui desu.",
-    "lit": "aujourd'hui · [thème] · très · chaud · être (poli)"
+    "fr": "Il y a du soleil aujourd'hui.",
+    "ar": "هُنَاكَ شَمْسٌ الْيَوْمَ.",
+    "ro": "Hunāka shamsun al-yawma.",
+    "lit": "il y a · soleil · [le] jour"
    },
    {
-    "fr": "L'hiver à Tokyo est froid.",
-    "ja": "東京の冬は寒いです。",
-    "ro": "Tōkyō no fuyu wa samui desu.",
-    "lit": "Tokyo · [de] · hiver · [thème] · froid · être (poli)"
+    "fr": "Il y a un vent fort à la citadelle.",
+    "ar": "هُنَاكَ رِيحٌ قَوِيَّةٌ فِي الْقَلْعَةِ.",
+    "ro": "Hunāka rīḥun qawiyyatun fī al-qalʿati.",
+    "lit": "il y a · vent · fort · dans · [la] citadelle"
    },
    {
-    "fr": "Le ciel est bleu.",
-    "ja": "空が青いです。",
-    "ro": "Sora ga aoi desu.",
-    "lit": "ciel · [sujet] · bleu · être (poli)"
+    "fr": "Il y a un marché près d'ici.",
+    "ar": "هُنَاكَ سُوقٌ قَرِيبٌ مِنْ هُنَا.",
+    "ro": "Hunāka sūqun qarībun min hunā.",
+    "lit": "il y a · marché · proche · de · ici"
    },
    {
-    "fr": "Le vent est fort.",
-    "ja": "風が強いです。",
-    "ro": "Kaze ga tsuyoi desu.",
-    "lit": "vent · [sujet] · fort · être (poli)"
+    "fr": "Il y a beaucoup de monde dans la rue.",
+    "ar": "هُنَاكَ نَاسٌ كَثِيرُونَ فِي الشَّارِعِ.",
+    "ro": "Hunāka nāsun kathīrūna fī ash-shāriʿi.",
+    "lit": "il y a · gens · nombreux · dans · [la] rue"
    },
    {
-    "fr": "Une glace bien froide, c'est délicieux.",
-    "ja": "冷たいアイスはおいしいです。",
-    "ro": "Tsumetai aisu wa oishii desu.",
-    "lit": "froid · glace · [thème] · délicieux · être (poli)"
+    "fr": "Il fait froid ce soir.",
+    "ar": "الْجَوُّ بَارِدٌ هَذَا الْمَسَاءَ.",
+    "ro": "Al-jawwu bāridun hādhā al-masāʾa.",
+    "lit": "[le] temps · froid · ce · [le] soir"
    },
    {
-    "fr": "Ce parapluie est cher.",
-    "ja": "この傘は高いです。",
-    "ro": "Kono kasa wa takai desu.",
-    "lit": "ce · parapluie · [thème] · cher · être (poli)"
+    "fr": "Il y a de la neige en hiver.",
+    "ar": "هُنَاكَ ثَلْجٌ فِي الشِّتَاءِ.",
+    "ro": "Hunāka thaljun fī ash-shitāʾi.",
+    "lit": "il y a · neige · dans · [l']hiver"
    },
    {
-    "fr": "Ce parapluie-là est bon marché.",
-    "ja": "あの傘は安いです。",
-    "ro": "Ano kasa wa yasui desu.",
-    "lit": "ce là-bas · parapluie · [thème] · bon marché · être (poli)"
+    "fr": "Il y a des nuages sur Amman.",
+    "ar": "هُنَاكَ غُيُومٌ فَوْقَ عَمَّانَ.",
+    "ro": "Hunāka ghuyūmun fawqa ʿammāna.",
+    "lit": "il y a · nuages · au-dessus-de · Amman"
    },
    {
-    "fr": "Aujourd'hui, il ne fait pas froid.",
-    "ja": "今日は寒くないです。",
-    "ro": "Kyō wa samukunai desu.",
-    "lit": "aujourd'hui · [thème] · pas froid · être (poli)"
+    "fr": "Il y a une pharmacie dans le quartier.",
+    "ar": "هُنَاكَ صَيْدَلِيَّةٌ فِي الْحَيِّ.",
+    "ro": "Hunāka ṣaydaliyyatun fī al-ḥayyi.",
+    "lit": "il y a · pharmacie · dans · [le] quartier"
    },
    {
-    "fr": "En été, les journées sont longues.",
-    "ja": "夏は日が長いです。",
-    "ro": "Natsu wa hi ga nagai desu.",
-    "lit": "été · [thème] · jour · [sujet] · long · être (poli)"
+    "fr": "Il fait chaud en été.",
+    "ar": "الْجَوُّ حَارٌّ فِي الصَّيْفِ.",
+    "ro": "Al-jawwu ḥārrun fī aṣ-ṣayfi.",
+    "lit": "[le] temps · chaud · dans · [l']été"
    },
    {
-    "fr": "Qu'il fait lourd !",
-    "ja": "蒸し暑いですね！",
-    "ro": "Mushiatsui desu ne!",
-    "lit": "chaud et humide · être (poli) · [n'est-ce pas]"
+    "fr": "Y a-t-il de la pluie demain ?",
+    "ar": "هَلْ هُنَاكَ مَطَرٌ غَدًا؟",
+    "ro": "Hal hunāka maṭarun ghadan?",
+    "lit": "[question] · il y a · pluie · demain ?"
    }
   ],
   "tip": {
-   "title": "Les adjectifs en « -i » : takai, oishii",
-   "example": "Une glace bien froide, c'est délicieux. — <b>冷たい</b>アイスは<b>おいしい</b>です。",
-   "exampleRo": "Tsumetai aisu wa oishii desu.",
-   "lit": "froid · glace · [thème] · délicieux · être (poli)",
-   "body": "Beaucoup d'adjectifs japonais se terminent par « i » : « takai », cher, « yasui », bon marché, « oishii », délicieux, « samui », froid. On peut les placer devant un nom : « tsumetai aisu », une glace froide. On peut aussi les placer en fin de phrase, suivis de « desu » : « Kono kasa wa takai desu », ce parapluie est cher. « Tsumetai aisu wa oishii desu » se dit littéralement : froide glace, quant à elle, délicieuse, être. Leur particularité, c'est qu'ils se conjuguent un peu comme des verbes. Pour la négation, on remplace le « i » final par « kunai » : « samui » devient « samukunai », pas froid. Ainsi, « Kyō wa samukunai desu » veut dire : aujourd'hui, il ne fait pas froid. Astuce : un « i » à la fin, c'est le signe d'un adjectif qui sait se conjuguer tout seul."
+   "title": "Hunaka : il y a",
+   "example": "Il y a un marché près d'ici. — <b>هُنَاكَ</b> سُوقٌ قَرِيبٌ مِنْ هُنَا.",
+   "exampleRo": "Hunāka sūqun qarībun min hunā.",
+   "lit": "il y a · marché · proche · de · ici",
+   "body": "Pour dire il y a, l'arabe emploie « hunaka », qui veut dire à l'origine là-bas. On le place en tête de phrase, suivi de ce qui existe : « hunaka suqun », il y a un marché. Notre exemple, « hunaka suqun qaribun min huna », se lit : il y a, un marché, proche, d'ici. Pour parler de la météo, c'est très pratique : « hunaka thaljun fi ash-shitai », il y a de la neige en hiver, ou « hunaka ghuyumun », il y a des nuages. Pour poser la question, on ajoute simplement hal devant : « hal hunaka matarun ? », y a-t-il de la pluie ? Ne confondez pas « hunaka », là-bas ou il y a, avec « huna », ici. Astuce : hunaka est plus long que huna, tout comme là-bas est plus loin qu'ici."
   }
  },
  {
-  "title": "Le jardin de Shinjuku",
+  "title": "Une journée de travail",
   "phrases": [
    {
-    "fr": "Le jardin de Shinjuku est beau.",
-    "ja": "新宿御苑はきれいです。",
-    "ro": "Shinjuku Gyoen wa kirei desu.",
-    "lit": "Shinjuku-jardin impérial · [thème] · beau · être (poli)"
+    "fr": "Je ne bois pas de café le soir.",
+    "ar": "لَا أَشْرَبُ الْقَهْوَةَ فِي الْمَسَاءِ.",
+    "ro": "Lā ashrabu al-qahwata fī al-masāʾi.",
+    "lit": "[ne… pas] · je bois · [le] café · dans · [le] soir"
    },
    {
-    "fr": "C'est un endroit calme.",
-    "ja": "静かな所です。",
-    "ro": "Shizuka na tokoro desu.",
-    "lit": "calme-na · endroit · être (poli)"
+    "fr": "Je ne comprends pas.",
+    "ar": "لَا أَفْهَمُ.",
+    "ro": "Lā afhamu.",
+    "lit": "[ne… pas] · je comprends"
    },
    {
-    "fr": "C'est un jardin très célèbre.",
-    "ja": "とても有名な庭園です。",
-    "ro": "Totemo yūmei na teien desu.",
-    "lit": "très · célèbre-na · jardin · être (poli)"
+    "fr": "Il ne travaille pas le vendredi.",
+    "ar": "لَا يَعْمَلُ يَوْمَ الْجُمُعَةِ.",
+    "ro": "Lā yaʿmalu yawma al-jumuʿati.",
+    "lit": "[ne… pas] · il travaille · jour · [du] vendredi"
    },
    {
-    "fr": "Ici, ce n'est pas animé.",
-    "ja": "ここはにぎやかじゃありません。",
-    "ro": "Koko wa nigiyaka ja arimasen.",
-    "lit": "ici · [thème] · animé · ne pas être (poli)"
+    "fr": "Tu ne manges pas de viande ?",
+    "ar": "لَا تَأْكُلُ اللَّحْمَ؟",
+    "ro": "Lā taʾkulu al-laḥma?",
+    "lit": "[ne… pas] · tu manges · [la] viande ?"
    },
    {
-    "fr": "Les allées sont très propres.",
-    "ja": "道がとてもきれいです。",
-    "ro": "Michi ga totemo kirei desu.",
-    "lit": "chemin · [sujet] · très · propre · être (poli)"
+    "fr": "Leïla ne parle pas français.",
+    "ar": "لَا تَتَكَلَّمُ لَيْلَى الْفَرَنْسِيَّةَ.",
+    "ro": "Lā tatakallamu Laylā al-faransiyyata.",
+    "lit": "[ne… pas] · elle parle · Leïla · [le] français"
    },
    {
-    "fr": "Aujourd'hui, je suis libre.",
-    "ja": "今日は暇です。",
-    "ro": "Kyō wa hima desu.",
-    "lit": "aujourd'hui · [thème] · libre · être (poli)"
+    "fr": "Je ne sais pas.",
+    "ar": "لَا أَعْرِفُ.",
+    "ro": "Lā aʿrifu.",
+    "lit": "[ne… pas] · je sais"
    },
    {
-    "fr": "Le métro de Tokyo est pratique.",
-    "ja": "東京の地下鉄は便利です。",
-    "ro": "Tōkyō no chikatetsu wa benri desu.",
-    "lit": "Tokyo · [de] · métro · [thème] · pratique · être (poli)"
+    "fr": "Le bus ne va pas à la citadelle.",
+    "ar": "الْحَافِلَةُ لَا تَذْهَبُ إِلَى الْقَلْعَةِ.",
+    "ro": "Al-ḥāfilatu lā tadhhabu ilā al-qalʿati.",
+    "lit": "[le] bus · [ne… pas] · elle va · vers · [la] citadelle"
    },
    {
-    "fr": "Mademoiselle Yamada est une personne gentille.",
-    "ja": "山田さんは親切な人です。",
-    "ro": "Yamada-san wa shinsetsu na hito desu.",
-    "lit": "Yamada-mademoiselle · [thème] · gentil-na · personne · être (poli)"
+    "fr": "Je ne travaille pas aujourd'hui.",
+    "ar": "لَا أَعْمَلُ الْيَوْمَ.",
+    "ro": "Lā aʿmalu al-yawma.",
+    "lit": "[ne… pas] · je travaille · [le] jour"
    },
    {
-    "fr": "Quel endroit magnifique !",
-    "ja": "すてきな所ですね！",
-    "ro": "Suteki na tokoro desu ne!",
-    "lit": "magnifique-na · endroit · être (poli) · [n'est-ce pas]"
+    "fr": "Karim n'habite pas au centre-ville.",
+    "ar": "لَا يَسْكُنُ كَرِيمٌ فِي وَسَطِ الْمَدِينَةِ.",
+    "ro": "Lā yaskunu Karīmun fī wasaṭi al-madīnati.",
+    "lit": "[ne… pas] · il habite · Karim · dans · centre · [de la] ville"
    },
    {
-    "fr": "Le japonais, c'est facile ?",
-    "ja": "日本語は簡単ですか？",
-    "ro": "Nihongo wa kantan desu ka?",
-    "lit": "japonais · [thème] · facile · être (poli) · [question]"
+    "fr": "Je ne regarde pas la télévision.",
+    "ar": "لَا أُشَاهِدُ التِّلْفَازَ.",
+    "ro": "Lā ushāhidu at-tilfāza.",
+    "lit": "[ne… pas] · je regarde · [la] télévision"
    }
   ],
   "tip": {
-   "title": "Les adjectifs en « -na » : kirei, shizuka",
-   "example": "C'est un endroit calme. — <b>静かな</b>所です。",
-   "exampleRo": "Shizuka na tokoro desu.",
-   "lit": "calme-na · endroit · être (poli)",
-   "body": "Il existe une deuxième famille d'adjectifs, les adjectifs en « na ». Devant un nom, ils prennent « na » : « Shizuka na tokoro desu » se dit littéralement : calme-na, endroit, être, donc c'est un endroit calme. En fin de phrase, on enlève le « na » et on met simplement « desu » : « Shinjuku Gyoen wa kirei desu », le jardin de Shinjuku est beau. Pour la négation, ils se comportent comme des noms, avec « ja arimasen » : « Koko wa nigiyaka ja arimasen », ici, ce n'est pas animé. Parmi les plus utiles : « kirei », beau ou propre, « shizuka », calme, « benri », pratique, « yūmei », célèbre, et « kantan », facile. Attention au piège : « kirei » se termine par un « i », mais c'est bien un adjectif en « na ». Astuce : traitez ces adjectifs comme des noms, avec juste un petit « na » quand ils se collent devant un autre nom."
-  }
- },
- {
-  "title": "Des vêtements à Shibuya",
-  "phrases": [
-   {
-    "fr": "Cette jupe est mignonne.",
-    "ja": "このスカートはかわいいです。",
-    "ro": "Kono sukāto wa kawaii desu.",
-    "lit": "ce · jupe · [thème] · mignon · être (poli)"
-   },
-   {
-    "fr": "Cette veste aussi est mignonne.",
-    "ja": "このジャケットもかわいいです。",
-    "ro": "Kono jaketto mo kawaii desu.",
-    "lit": "ce · veste · [aussi] · mignon · être (poli)"
-   },
-   {
-    "fr": "J'achète un pull.",
-    "ja": "セーターを買います。",
-    "ro": "Sētā o kaimasu.",
-    "lit": "pull · [objet] · acheter (poli)"
-   },
-   {
-    "fr": "Moi aussi, j'en achète un.",
-    "ja": "私も買います。",
-    "ro": "Watashi mo kaimasu.",
-    "lit": "moi · [aussi] · acheter (poli)"
-   },
-   {
-    "fr": "Je regarde aussi les chaussures.",
-    "ja": "靴も見ます。",
-    "ro": "Kutsu mo mimasu.",
-    "lit": "chaussures · [aussi] · regarder (poli)"
-   },
-   {
-    "fr": "Vous l'avez aussi en bleu ?",
-    "ja": "青もありますか？",
-    "ro": "Ao mo arimasu ka?",
-    "lit": "bleu · [aussi] · il y a, objet (poli) · [question]"
-   },
-   {
-    "fr": "Oui, et aussi en noir.",
-    "ja": "はい、黒もあります。",
-    "ro": "Hai, kuro mo arimasu.",
-    "lit": "oui · noir · [aussi] · il y a, objet (poli)"
-   },
-   {
-    "fr": "Le manteau aussi est cher.",
-    "ja": "コートも高いです。",
-    "ro": "Kōto mo takai desu.",
-    "lit": "manteau · [aussi] · cher · être (poli)"
-   },
-   {
-    "fr": "Où est la cabine d'essayage ?",
-    "ja": "試着室はどこですか？",
-    "ro": "Shichakushitsu wa doko desu ka?",
-    "lit": "cabine d'essayage · [thème] · où · être (poli) · [question]"
-   },
-   {
-    "fr": "Aujourd'hui aussi, il y a foule à Shibuya.",
-    "ja": "今日も渋谷は人が多いです。",
-    "ro": "Kyō mo Shibuya wa hito ga ōi desu.",
-    "lit": "aujourd'hui · [aussi] · Shibuya · [thème] · gens · [sujet] · nombreux · être (poli)"
-   }
-  ],
-  "tip": {
-   "title": "« Mo » : aussi, moi aussi",
-   "example": "Cette veste aussi est mignonne. — このジャケット<b>も</b>かわいいです。",
-   "exampleRo": "Kono jaketto mo kawaii desu.",
-   "lit": "ce · veste · [aussi] · mignon · être (poli)",
-   "body": "La particule « mo » veut dire aussi. Elle se place juste après le mot concerné, et elle prend la place de « wa », de « ga » ou de « o ». « Kono sukāto wa kawaii desu », cette jupe est mignonne, devient pour la veste : « Kono jaketto mo kawaii desu », littéralement cette veste, aussi, mignonne, être. Pour dire moi aussi, il suffit de dire « watashi mo » : « Watashi mo kaimasu », moi aussi, j'achète. Et avec un objet : « Kutsu mo mimasu », je regarde aussi les chaussures. Attention à la place : en français, aussi peut voyager dans la phrase, mais en japonais, « mo » reste collé au mot qu'il concerne. Dans une phrase négative, il prend le sens de non plus. Astuce : « mo », c'est comme un petit et moi aussi qu'on accroche derrière un mot."
-  }
- },
- {
-  "title": "Une soirée à Shinjuku",
-  "phrases": [
-   {
-    "fr": "On mange des ramen ensemble ?",
-    "ja": "一緒にラーメンを食べませんか？",
-    "ro": "Issho ni rāmen o tabemasen ka?",
-    "lit": "ensemble · ramen · [objet] · ne pas manger (poli) · [question]"
-   },
-   {
-    "fr": "Bonne idée, allons-y !",
-    "ja": "いいですね、行きましょう！",
-    "ro": "Ii desu ne, ikimashō!",
-    "lit": "bon · être (poli) · [n'est-ce pas] · allons-y (poli)"
-   },
-   {
-    "fr": "On se retrouve où ?",
-    "ja": "どこで会いましょうか？",
-    "ro": "Doko de aimashō ka?",
-    "lit": "où · [lieu] · retrouvons-nous (poli) · [question]"
-   },
-   {
-    "fr": "Retrouvons-nous à la sortie est de la gare de Shinjuku.",
-    "ja": "新宿駅の東口で会いましょう。",
-    "ro": "Shinjuku-eki no higashiguchi de aimashō.",
-    "lit": "Shinjuku-gare · [de] · est-sortie · [lieu] · retrouvons-nous (poli)"
-   },
-   {
-    "fr": "Sept heures, ça vous va ?",
-    "ja": "七時はどうですか？",
-    "ro": "Shichiji wa dō desu ka?",
-    "lit": "sept-heure · [thème] · comment · être (poli) · [question]"
-   },
-   {
-    "fr": "Ensuite, on va à l'observatoire de la mairie ?",
-    "ja": "それから、都庁の展望台に行きませんか？",
-    "ro": "Sorekara, Tochō no tenbōdai ni ikimasen ka?",
-    "lit": "ensuite · mairie de Tokyo · [de] · observatoire · [direction] · ne pas aller (poli) · [question]"
-   },
-   {
-    "fr": "Prenons un taxi.",
-    "ja": "タクシーに乗りましょう。",
-    "ro": "Takushī ni norimashō.",
-    "lit": "taxi · [dans] · montons (poli)"
-   },
-   {
-    "fr": "On fait une photo ensemble ?",
-    "ja": "一緒に写真を撮りませんか？",
-    "ro": "Issho ni shashin o torimasen ka?",
-    "lit": "ensemble · photo · [objet] · ne pas prendre (poli) · [question]"
-   },
-   {
-    "fr": "Bon, on rentre ?",
-    "ja": "そろそろ帰りましょうか？",
-    "ro": "Sorosoro kaerimashō ka?",
-    "lit": "bientôt · rentrons (poli) · [question]"
-   },
-   {
-    "fr": "Retournons-y la semaine prochaine.",
-    "ja": "来週もまた行きましょう。",
-    "ro": "Raishū mo mata ikimashō.",
-    "lit": "semaine prochaine · [aussi] · encore · allons-y (poli)"
-   }
-  ],
-  "tip": {
-   "title": "« -mashō » et « -masen ka » : proposer et inviter",
-   "example": "On mange des ramen ensemble ? — 一緒にラーメンを<b>食べませんか</b>？",
-   "exampleRo": "Issho ni rāmen o tabemasen ka?",
-   "lit": "ensemble · ramen · [objet] · ne pas manger (poli) · [question]",
-   "body": "Pour inviter quelqu'un poliment, le japonais utilise une question négative : « tabemasen ka », littéralement, ne mangez-vous pas ? « Issho ni rāmen o tabemasen ka » se dit mot à mot : ensemble, ramen, objet, ne pas manger, question ? C'est une manière douce de proposer, qui laisse à l'autre la liberté de refuser. Pour répondre avec enthousiasme, ou pour proposer directement, on utilise « mashō », qui veut dire faisons, ou allons-y : « Ikimashō », allons-y, « Tabemashō », mangeons. On peut aussi y ajouter « ka » : « Kaerimashō ka », et si on rentrait ? En résumé, « masen ka » invite l'autre, et « mashō » lance l'action ensemble. Astuce : pour accepter une invitation, « Ii desu ne, ikimashō », bonne idée, allons-y, marche presque toujours."
+   "title": "La négation du verbe au présent : la",
+   "example": "Je ne bois pas de café le soir. — <b>لَا</b> أَشْرَبُ الْقَهْوَةَ فِي الْمَسَاءِ.",
+   "exampleRo": "Lā ashrabu al-qahwata fī al-masāʾi.",
+   "lit": "[ne… pas] · je bois · [le] café · dans · [le] soir",
+   "body": "Pour dire qu'on ne fait pas quelque chose au présent, c'est très simple : on place « la » juste devant le verbe, et rien d'autre ne change. « Ashrabu », je bois, devient « la ashrabu », je ne bois pas. Notre exemple, « la ashrabu al-qahwata fi al-masai », se lit : ne pas, je bois, le café, dans le soir. Le français a besoin de deux morceaux, ne et pas, autour du verbe, alors que l'arabe se contente d'un seul mot placé devant. Deux phrases très utiles pour débuter : « la afhamu », je ne comprends pas, et « la arifu », je ne sais pas. Attention à ne pas confondre avec « laysa », qui sert pour les phrases sans verbe : « lastu mutaban », je ne suis pas fatigué. Astuce : la, c'est aussi le mot pour dire non, un petit non posé devant le verbe."
   }
  },
  {
@@ -1386,412 +1386,1234 @@ const level1Module1Lessons = [
   "phrases": [
    {
     "fr": "Merci beaucoup !",
-    "ja": "ありがとうございます！",
-    "ro": "Arigatō gozaimasu!",
-    "lit": "merci (poli)"
+    "ar": "شُكْرًا جَزِيلًا!",
+    "ro": "Shukran jazīlan!",
+    "lit": "merci · abondant !"
    },
    {
-    "fr": "Le premier module se termine.",
-    "ja": "最初のモジュールはこれで終わりです。",
-    "ro": "Saisho no mojūru wa kore de owari desu.",
-    "lit": "premier · [de] · module · [thème] · ceci · [moyen] · fin · être (poli)"
+    "fr": "De rien.",
+    "ar": "عَفْوًا.",
+    "ro": "ʿAfwan.",
+    "lit": "de rien"
    },
    {
-    "fr": "Le japonais est difficile, mais amusant.",
-    "ja": "日本語は難しいですが、楽しいです。",
-    "ro": "Nihongo wa muzukashii desu ga, tanoshii desu.",
-    "lit": "japonais · [thème] · difficile · être (poli) · mais · amusant · être (poli)"
+    "fr": "Un thé à la menthe, s'il vous plaît.",
+    "ar": "شَايٌ بِالنَّعْنَاعِ مِنْ فَضْلِكَ.",
+    "ro": "Shāyun bi-n-naʿnāʿi min faḍlika.",
+    "lit": "thé · avec · [la] menthe · de · faveur-de-toi"
    },
    {
-    "fr": "Excusez-moi, encore une fois, s'il vous plaît.",
-    "ja": "すみません、もう一度お願いします。",
-    "ro": "Sumimasen, mō ichido onegaishimasu.",
-    "lit": "excusez-moi · encore · une fois · je vous le demande (poli)"
+    "fr": "Bienvenue à la maison !",
+    "ar": "أَهْلًا وَسَهْلًا فِي الْبَيْتِ!",
+    "ro": "Ahlan wa-sahlan fī al-bayti!",
+    "lit": "bienvenue · [et] · aisance · dans · [la] maison !"
    },
    {
-    "fr": "Je comprends un peu le japonais.",
-    "ja": "日本語が少しわかります。",
-    "ro": "Nihongo ga sukoshi wakarimasu.",
-    "lit": "japonais · [sujet] · un peu · comprendre (poli)"
+    "fr": "Je parle un peu arabe maintenant.",
+    "ar": "أَتَكَلَّمُ الْعَرَبِيَّةَ قَلِيلًا الْآنَ.",
+    "ro": "Atakallamu al-ʿarabiyyata qalīlan al-āna.",
+    "lit": "je parle · [l']arabe · un-peu · maintenant"
    },
    {
-    "fr": "Les particules sont importantes.",
-    "ja": "助詞は大切です。",
-    "ro": "Joshi wa taisetsu desu.",
-    "lit": "particules · [thème] · important · être (poli)"
+    "fr": "J'aime beaucoup Amman.",
+    "ar": "أُحِبُّ عَمَّانَ كَثِيرًا.",
+    "ro": "Uḥibbu ʿammāna kathīran.",
+    "lit": "j'aime · Amman · beaucoup"
    },
    {
-    "fr": "« Sumimasen » est un mot très pratique.",
-    "ja": "「すみません」はとても便利な言葉です。",
-    "ro": "« Sumimasen » wa totemo benri na kotoba desu.",
-    "lit": "« sumimasen » · [thème] · très · pratique-na · mot · être (poli)"
+    "fr": "L'arabe n'est pas difficile.",
+    "ar": "الْعَرَبِيَّةُ لَيْسَتْ صَعْبَةً.",
+    "ro": "Al-ʿarabiyyatu laysat ṣaʿbatan.",
+    "lit": "[l']arabe · [n'est pas] · difficile"
    },
    {
-    "fr": "Un café, s'il vous plaît.",
-    "ja": "コーヒーをお願いします。",
-    "ro": "Kōhī o onegaishimasu.",
-    "lit": "café · [objet] · je vous le demande (poli)"
+    "fr": "Une knafeh, s'il te plaît, Leïla.",
+    "ar": "كُنَافَةٌ مِنْ فَضْلِكِ يَا لَيْلَى.",
+    "ro": "Kunāfatun min faḍliki yā Laylā.",
+    "lit": "knafeh · de · faveur-de-toi (fém.) · ô · Leïla"
    },
    {
-    "fr": "Le prochain module, c'est le voyage.",
-    "ja": "次のモジュールは旅行です。",
-    "ro": "Tsugi no mojūru wa ryokō desu.",
-    "lit": "suivant · [de] · module · [thème] · voyage · être (poli)"
+    "fr": "Merci, et à bientôt !",
+    "ar": "شُكْرًا، وَإِلَى اللِّقَاءِ!",
+    "ro": "Shukran, wa-ilā al-liqāʾi!",
+    "lit": "merci · [et] · jusqu'à · [la] rencontre !"
    },
    {
-    "fr": "Merci pour tout, et à la prochaine !",
-    "ja": "どうもありがとうございました。また会いましょう！",
-    "ro": "Dōmo arigatō gozaimashita. Mata aimashō!",
-    "lit": "vraiment · merci (poli, pour ce qui a été fait) · encore · retrouvons-nous (poli)"
+    "fr": "Pardon, où est le taxi ?",
+    "ar": "عَفْوًا، أَيْنَ التَّاكْسِي؟",
+    "ro": "ʿAfwan, ayna at-tāksī?",
+    "lit": "pardon · où · [le] taxi ?"
    }
   ],
   "tip": {
-   "title": "Les mots magiques : sumimasen, onegaishimasu, arigatō gozaimasu",
-   "example": "Excusez-moi, encore une fois, s'il vous plaît. — <b>すみません</b>、もう一度<b>お願いします</b>。",
-   "exampleRo": "Sumimasen, mō ichido onegaishimasu.",
-   "lit": "excusez-moi · encore · une fois · je vous le demande (poli)",
-   "body": "Trois expressions vous ouvriront presque toutes les portes au Japon. « Sumimasen » veut dire excusez-moi, mais aussi pardon, et même merci quand on a dérangé quelqu'un. On l'utilise pour appeler un serveur ou pour se frayer un chemin dans le métro. « Onegaishimasu » veut dire littéralement : je vous fais humblement une demande. On le place après ce qu'on souhaite : « Kōhī o onegaishimasu », un café, s'il vous plaît. « Sumimasen, mō ichido onegaishimasu » se dit mot à mot : excusez-moi, encore, une fois, je vous le demande. Enfin, « arigatō gozaimasu » est le merci poli, souvent accompagné d'une petite inclinaison de la tête. Avec ces trois expressions et tout ce que vous avez appris dans ce module, vous pouvez déjà vous débrouiller à Tokyo, bravo ! Astuce : dans le doute, commencez par « sumimasen », vous ne vous tromperez presque jamais."
+   "title": "Les mots de politesse",
+   "example": "Un thé à la menthe, s'il vous plaît. — شَايٌ بِالنَّعْنَاعِ <b>مِنْ فَضْلِكَ</b>.",
+   "exampleRo": "Shāyun bi-n-naʿnāʿi min faḍlika.",
+   "lit": "thé · avec · [la] menthe · de · faveur-de-toi",
+   "body": "Pour finir ce module, voici les mots magiques de la politesse arabe. « Min fadlik » veut dire s'il te plaît ou s'il vous plaît, littéralement de ta faveur, et l'on dit « min fadliki » à une femme. « Shukran » veut dire merci, et « shukran jazilan », merci beaucoup. On répond « afwan », de rien, un mot qui sert aussi à dire pardon pour attirer l'attention. Enfin, « ahlan wa sahlan » est la belle formule d'accueil : bienvenue. Notre exemple, « shayun bin-nanai min fadlika », se lit : thé à la menthe, de ta faveur. Bravo, vous avez maintenant les bases pour vous débrouiller à Amman, du marché jusqu'au taxi. Astuce : glissez min fadlik et shukran dans chaque échange, les sourires suivront."
   }
  }
 ];
 
 const level1Module2Lessons = [
  {
-  "title": "Arrivée à l'aéroport du Kansai",
+  "title": "Arrivée à l'aéroport de Marrakech",
   "phrases": [
    {
-    "fr": "Votre passeport, s'il vous plaît.",
-    "ja": "パスポートをお願いします。",
-    "ro": "Pasupōto o onegaishimasu.",
-    "lit": "passeport · [objet] · s'il vous plaît (poli)"
+    "fr": "Bienvenue au Maroc.",
+    "ar": "مَرْحَبًا بِكَ فِي الْمَغْرِبِ.",
+    "ro": "Marḥaban bika fī l-Maghribi.",
+    "lit": "bienvenue · [avec] toi · dans · le-Maroc"
    },
    {
-    "fr": "Oui, le voici.",
-    "ja": "はい、どうぞ。",
-    "ro": "Hai, dōzo.",
-    "lit": "oui · je vous en prie"
+    "fr": "C'est l'aéroport de Marrakech.",
+    "ar": "هَذَا مَطَارُ مُرَّاكُشَ.",
+    "ro": "Hādhā maṭāru Murrākusha.",
+    "lit": "ceci · aéroport · [de] Marrakech"
    },
    {
-    "fr": "Vous venez pour du tourisme ?",
-    "ja": "観光ですか？",
-    "ro": "Kankō desu ka?",
-    "lit": "tourisme · être (poli) · [question]"
+    "fr": "Où est mon passeport ?",
+    "ar": "أَيْنَ جَوَازُ سَفَرِي؟",
+    "ro": "Ayna jawāzu safarī?",
+    "lit": "où · permis · [de] voyage-de-moi ?"
    },
    {
-    "fr": "Oui, c'est pour du tourisme.",
-    "ja": "はい、観光です。",
-    "ro": "Hai, kankō desu.",
-    "lit": "oui · tourisme · être (poli)"
+    "fr": "Mon passeport est dans mon sac.",
+    "ar": "جَوَازُ سَفَرِي فِي حَقِيبَتِي.",
+    "ro": "Jawāzu safarī fī ḥaqībatī.",
+    "lit": "permis · [de] voyage-de-moi · dans · sac-de-moi"
    },
    {
-    "fr": "Je reste dix jours au Japon.",
-    "ja": "日本に十日間います。",
-    "ro": "Nihon ni tōkakan imasu.",
-    "lit": "Japon · [lieu] · dix-jours (durée) · être (vivants, poli)"
+    "fr": "Je suis un touriste français.",
+    "ar": "أَنَا سَائِحٌ فَرَنْسِيٌّ.",
+    "ro": "Anā sāʾiḥun faransiyyun.",
+    "lit": "moi · touriste · français"
    },
    {
-    "fr": "Les bagages sont là-bas.",
-    "ja": "荷物はあそこです。",
-    "ro": "Nimotsu wa asoko desu.",
-    "lit": "bagages · [thème] · là-bas · être (poli)"
+    "fr": "La file d'attente à la douane est longue.",
+    "ar": "طَابُورُ الْجَمَارِكِ طَوِيلٌ.",
+    "ro": "Ṭābūru l-jamāriki ṭawīlun.",
+    "lit": "file · [de] la-douane · longue"
    },
    {
-    "fr": "Ma valise est rouge.",
-    "ja": "私のスーツケースは赤いです。",
-    "ro": "Watashi no sūtsukēsu wa akai desu.",
-    "lit": "moi · [possessif] · valise · [thème] · rouge · être (poli)"
+    "fr": "Où est la sortie de l'aéroport ?",
+    "ar": "أَيْنَ مَخْرَجُ الْمَطَارِ؟",
+    "ro": "Ayna makhraju l-maṭāri?",
+    "lit": "où · sortie · [de] l'aéroport ?"
    },
    {
-    "fr": "Je vais à Kyoto en train.",
-    "ja": "電車で京都へ行きます。",
-    "ro": "Densha de Kyōto e ikimasu.",
-    "lit": "train · [moyen] · Kyoto · [direction] · aller (poli)"
+    "fr": "La sortie est à droite, après la douane.",
+    "ar": "الْمَخْرَجُ عَلَى الْيَمِينِ بَعْدَ الْجَمَارِكِ.",
+    "ro": "Al-makhraju ʿalā l-yamīni baʿda l-jamāriki.",
+    "lit": "la-sortie · sur · la-droite · après · la-douane"
    },
    {
-    "fr": "Le train part à trois heures.",
-    "ja": "電車は三時に出ます。",
-    "ro": "Densha wa sanji ni demasu.",
-    "lit": "train · [thème] · trois-heures · [moment] · partir (poli)"
+    "fr": "Il fait chaud à Marrakech.",
+    "ar": "الْجَوُّ حَارٌّ فِي مُرَّاكُشَ.",
+    "ro": "Al-jawwu ḥārrun fī Murrākusha.",
+    "lit": "le-temps · chaud · dans · Marrakech"
    },
    {
-    "fr": "Bienvenue au Japon !",
-    "ja": "日本へようこそ！",
-    "ro": "Nihon e yōkoso!",
-    "lit": "Japon · [direction] · bienvenue"
+    "fr": "J'ai une réservation dans un riad.",
+    "ar": "عِنْدِي حَجْزٌ فِي رِيَاضٍ.",
+    "ro": "ʿIndī ḥajzun fī riyāḍin.",
+    "lit": "chez-moi · réservation · dans · riad"
    }
   ]
  },
  {
-  "title": "Dans le train pour Kyoto",
+  "title": "Le taxi vers la ville rouge",
   "phrases": [
    {
-    "fr": "Ce train va à Kyoto ?",
-    "ja": "この電車は京都へ行きますか？",
-    "ro": "Kono densha wa Kyōto e ikimasu ka?",
-    "lit": "ce · train · [thème] · Kyoto · [direction] · aller (poli) · [question]"
+    "fr": "Le taxi est devant l'aéroport.",
+    "ar": "سَيَّارَةُ الْأُجْرَةِ أَمَامَ الْمَطَارِ.",
+    "ro": "Sayyāratu l-ujrati amāma l-maṭāri.",
+    "lit": "voiture · [de] la-location · devant · l'aéroport"
    },
    {
-    "fr": "Oui, il y va.",
-    "ja": "はい、行きます。",
-    "ro": "Hai, ikimasu.",
-    "lit": "oui · aller (poli)"
+    "fr": "Vers la médina, s'il vous plaît.",
+    "ar": "إِلَى الْمَدِينَةِ الْقَدِيمَةِ، مِنْ فَضْلِكَ.",
+    "ro": "Ilā l-madīnati l-qadīmati, min faḍlika.",
+    "lit": "vers · la-ville · l'ancienne, · de · faveur-de-toi"
    },
    {
-    "fr": "Je peux m'asseoir ici ?",
-    "ja": "この席、いいですか？",
-    "ro": "Kono seki, ii desu ka?",
-    "lit": "ce · siège · bien · être (poli) · [question]"
+    "fr": "La valise est lourde.",
+    "ar": "الْحَقِيبَةُ ثَقِيلَةٌ.",
+    "ro": "Al-ḥaqībatu thaqīlatun.",
+    "lit": "la-valise · lourde"
    },
    {
-    "fr": "Bien sûr, allez-y.",
-    "ja": "ええ、どうぞ。",
-    "ro": "Ee, dōzo.",
-    "lit": "oui · je vous en prie"
+    "fr": "Le chauffeur est sympathique.",
+    "ar": "السَّائِقُ لَطِيفٌ.",
+    "ro": "As-sāʾiqu laṭīfun.",
+    "lit": "le-chauffeur · sympathique"
    },
    {
-    "fr": "Le café est à trois cents yens.",
-    "ja": "コーヒーは三百円です。",
-    "ro": "Kōhī wa sanbyaku en desu.",
-    "lit": "café · [thème] · trois-cents-yens · être (poli)"
+    "fr": "Le ciel est bleu et clair.",
+    "ar": "السَّمَاءُ زَرْقَاءُ وَصَافِيَةٌ.",
+    "ro": "As-samāʾu zarqāʾu wa-ṣāfiyatun.",
+    "lit": "le-ciel · bleu · [et] clair"
    },
    {
-    "fr": "Un thé vert, s'il vous plaît.",
-    "ja": "お茶をお願いします。",
-    "ro": "Ocha o onegaishimasu.",
-    "lit": "honorable-thé · [objet] · s'il vous plaît (poli)"
+    "fr": "Le riad est loin ?",
+    "ar": "هَلِ الرِّيَاضُ بَعِيدٌ؟",
+    "ro": "Hali r-riyāḍu baʿīdun?",
+    "lit": "[question] · le-riad · loin ?"
    },
    {
-    "fr": "Les kanji sont difficiles.",
-    "ja": "漢字は難しいです。",
-    "ro": "Kanji wa muzukashii desu.",
-    "lit": "kanji · [thème] · difficile · être (poli)"
+    "fr": "Non, il est près de la place.",
+    "ar": "لَا، هُوَ قَرِيبٌ مِنَ السَّاحَةِ.",
+    "ro": "Lā, huwa qarībun mina s-sāḥati.",
+    "lit": "non, · lui · proche · de · la-place"
    },
    {
-    "fr": "Mais les hiragana sont faciles.",
-    "ja": "でも、ひらがなは易しいです。",
-    "ro": "Demo, hiragana wa yasashii desu.",
-    "lit": "mais · hiragana · [thème] · facile · être (poli)"
+    "fr": "La ville est rouge et belle.",
+    "ar": "الْمَدِينَةُ حَمْرَاءُ وَجَمِيلَةٌ.",
+    "ro": "Al-madīnatu ḥamrāʾu wa-jamīlatun.",
+    "lit": "la-ville · rouge · [et] belle"
    },
    {
-    "fr": "La prochaine gare, c'est Kyoto.",
-    "ja": "次は京都です。",
-    "ro": "Tsugi wa Kyōto desu.",
-    "lit": "prochain · [thème] · Kyoto · être (poli)"
+    "fr": "Voici la place Jemaa el-Fna.",
+    "ar": "هَذِهِ سَاحَةُ جَامِعِ الْفَنَاءِ.",
+    "ro": "Hādhihi sāḥatu Jāmiʿi l-Fanāʾi.",
+    "lit": "celle-ci · place · [de] Jemaa · el-Fna"
    },
    {
-    "fr": "On descend ici ?",
-    "ja": "ここで降りますか？",
-    "ro": "Koko de orimasu ka?",
-    "lit": "ici · [lieu] · descendre (poli) · [question]"
+    "fr": "Le riad est calme à l'intérieur.",
+    "ar": "الرِّيَاضُ هَادِئٌ مِنَ الدَّاخِلِ.",
+    "ro": "Ar-riyāḍu hādiʾun mina d-dākhili.",
+    "lit": "le-riad · calme · de · l'intérieur"
    }
   ],
   "tip": {
-   "title": "Trois écritures : hiragana, katakana et kanji",
-   "example": "Le café est à trois cents yens. — <b>コーヒー</b>は<b>三百円</b>です。",
-   "exampleRo": "Kōhī wa sanbyaku en desu.",
-   "lit": "café · [thème] · trois-cents-yens · être (poli)",
-   "body": "Le japonais mélange trois écritures dans une même phrase, et c'est moins effrayant qu'il n'y paraît. Les hiragana, aux formes arrondies, notent des syllabes et servent surtout aux petits mots de grammaire, comme « wa » (thème) ou « desu » (être, poli). Les katakana, plus anguleux, notent les mêmes sons mais servent aux mots venus de l'étranger, comme « kōhī » (café), « basu » (bus) ou « pasupōto » (passeport). Les kanji, eux, sont des caractères qui portent un sens : un seul signe peut vouloir dire montagne, gare ou argent. Dans « Kōhī wa sanbyaku en desu », les trois se côtoient : « kōhī » en katakana, « sanbyaku en » (trois cents yens) en kanji, « wa » et « desu » en hiragana. Mot à mot, cela donne : café, thème, trois cents yens, être poli. Pour parler, vous n'avez pas besoin de tout lire : le rōmaji est là pour vous accompagner. Une astuce pour retenir : hiragana tout rond comme un mot de chez soi, katakana pointu comme un mot venu d'ailleurs, et kanji comme une petite image."
+   "title": "Les sons propres à l'arabe : ha profond, ayn, kha, qaf",
+   "example": "La valise est lourde. — <b>الْحَقِيبَةُ</b> <b>ثَقِيلَةٌ</b>.",
+   "exampleRo": "Al-ḥaqībatu thaqīlatun.",
+   "lit": "la-valise · lourde",
+   "body": "L'arabe possède quelques sons qui n'existent pas en français, et ils changent vraiment le sens des mots. Le « ha profond » est un h soufflé du fond de la gorge, comme quand on souffle sur une vitre pour l'embuer : on l'entend au début de « al-haqiba », la valise. Le « ayn » vient encore plus bas : on serre doucement la gorge, comme pour un petit « a » étranglé ; on l'entend dans « baiid », loin. Le « kha » est un raclement de gorge léger, proche du r parisien mais sans voix, comme dans « ad-dakhil », l'intérieur. Le « qaf », enfin, est un k prononcé tout au fond de la bouche, contre la luette, comme dans « thaqila », lourde, ou « qarib », proche. Notre phrase « al-haqibatu thaqilatun » se dit littéralement : la valise, lourde, sans verbe être. Astuce : exagérez ces sons au début, en imitant le chauffeur de taxi ; avec la répétition, ils deviendront naturels."
   }
  },
  {
-  "title": "À la gare de Kyoto",
+  "title": "Un riad dans la médina",
   "phrases": [
    {
-    "fr": "La gare de Kyoto est très grande.",
-    "ja": "京都駅はとても大きいです。",
-    "ro": "Kyōto eki wa totemo ōkii desu.",
-    "lit": "Kyoto-gare · [thème] · très · grand · être (poli)"
+    "fr": "Le riad a un beau patio.",
+    "ar": "فِي الرِّيَاضِ فِنَاءٌ جَمِيلٌ.",
+    "ro": "Fī r-riyāḍi fināʾun jamīlun.",
+    "lit": "dans · le-riad · patio · beau"
    },
    {
-    "fr": "Il y a énormément de gens.",
-    "ja": "人がたくさんいます。",
-    "ro": "Hito ga takusan imasu.",
-    "lit": "gens · [sujet] · beaucoup · il y a (vivants, poli)"
+    "fr": "Il y a une fontaine au milieu.",
+    "ar": "هُنَاكَ نَافُورَةٌ فِي الْوَسَطِ.",
+    "ro": "Hunāka nāfūratun fī l-wasaṭi.",
+    "lit": "il-y-a · fontaine · dans · le-milieu"
    },
    {
-    "fr": "Les casiers à bagages sont au sous-sol.",
-    "ja": "コインロッカーは地下にあります。",
-    "ro": "Koin rokkā wa chika ni arimasu.",
-    "lit": "casier-à-pièces · [thème] · sous-sol · [lieu] · se trouver (objets, poli)"
+    "fr": "Ma chambre est au premier étage.",
+    "ar": "غُرْفَتِي فِي الطَّابِقِ الْأَوَّلِ.",
+    "ro": "Ghurfatī fī ṭ-ṭābiqi l-awwali.",
+    "lit": "chambre-de-moi · dans · l'étage · le-premier"
    },
    {
-    "fr": "Je laisse ma valise ici.",
-    "ja": "ここにスーツケースを置きます。",
-    "ro": "Koko ni sūtsukēsu o okimasu.",
-    "lit": "ici · [lieu] · valise · [objet] · poser (poli)"
+    "fr": "Voici la clé de la chambre.",
+    "ar": "هَذَا مِفْتَاحُ الْغُرْفَةِ.",
+    "ro": "Hādhā miftāḥu l-ghurfati.",
+    "lit": "ceci · clé · [de] la-chambre"
    },
    {
-    "fr": "Ça coûte sept cents yens.",
-    "ja": "七百円です。",
-    "ro": "Nanahyaku en desu.",
-    "lit": "sept-cents-yens · être (poli)"
+    "fr": "La chambre est propre et calme.",
+    "ar": "الْغُرْفَةُ نَظِيفَةٌ وَهَادِئَةٌ.",
+    "ro": "Al-ghurfatu naẓīfatun wa-hādiʾatun.",
+    "lit": "la-chambre · propre · [et] calme"
    },
    {
-    "fr": "Le bus cent un va au Kinkaku-ji.",
-    "ja": "百一番のバスは金閣寺へ行きます。",
-    "ro": "Hyakuichi ban no basu wa Kinkakuji e ikimasu.",
-    "lit": "numéro-cent-un · [possessif] · bus · [thème] · Kinkaku-ji · [direction] · aller (poli)"
+    "fr": "Est-ce qu'il y a une terrasse sur le toit ?",
+    "ar": "هَلْ هُنَاكَ سَطْحٌ؟",
+    "ro": "Hal hunāka saṭḥun?",
+    "lit": "[question] · il-y-a · terrasse ?"
    },
    {
-    "fr": "On prend le bus ?",
-    "ja": "バスに乗りましょうか？",
-    "ro": "Basu ni norimashō ka?",
-    "lit": "bus · [dans] · monter (proposition) · [question]"
+    "fr": "Oui, la terrasse est en haut.",
+    "ar": "نَعَمْ، السَّطْحُ فِي الْأَعْلَى.",
+    "ro": "Naʿam, as-saṭḥu fī l-aʿlā.",
+    "lit": "oui, · la-terrasse · dans · le-haut"
    },
    {
-    "fr": "Non, allons-y en métro.",
-    "ja": "いいえ、地下鉄で行きましょう。",
-    "ro": "Iie, chikatetsu de ikimashō.",
-    "lit": "non · métro · [moyen] · aller (proposition)"
+    "fr": "Le petit-déjeuner est servi sur la terrasse.",
+    "ar": "الْفُطُورُ عَلَى السَّطْحِ.",
+    "ro": "Al-fuṭūru ʿalā s-saṭḥi.",
+    "lit": "le-petit-déjeuner · sur · la-terrasse"
    },
    {
-    "fr": "Le métro est pratique.",
-    "ja": "地下鉄は便利です。",
-    "ro": "Chikatetsu wa benri desu.",
-    "lit": "métro · [thème] · pratique · être (poli)"
+    "fr": "La propriétaire du riad s'appelle Nadia.",
+    "ar": "اسْمُ الْمَالِكَةِ نَادِيَةُ.",
+    "ro": "Ismu l-mālikati Nādiyatu.",
+    "lit": "nom · [de] la-propriétaire · Nadia"
    },
    {
-    "fr": "Allez, on y va !",
-    "ja": "行きましょう！",
-    "ro": "Ikimashō!",
-    "lit": "aller (proposition)"
+    "fr": "Merci, le riad est magnifique.",
+    "ar": "شُكْرًا، الرِّيَاضُ رَائِعٌ.",
+    "ro": "Shukran, ar-riyāḍu rāʾiʿun.",
+    "lit": "merci, · le-riad · magnifique"
    }
   ]
  },
  {
-  "title": "Au guichet des billets",
+  "title": "Un thé à la menthe sur la place",
   "phrases": [
    {
-    "fr": "Excusez-moi, un billet, s'il vous plaît.",
-    "ja": "すみません、切符をください。",
-    "ro": "Sumimasen, kippu o kudasai.",
-    "lit": "excusez-moi · billet · [objet] · donnez-moi"
+    "fr": "Je veux un thé à la menthe.",
+    "ar": "أُرِيدُ شَايًا بِالنَّعْنَاعِ.",
+    "ro": "Urīdu shāyan bi-n-naʿnāʿi.",
+    "lit": "je-veux · thé · avec · la-menthe"
    },
    {
-    "fr": "Deux billets pour Nara, s'il vous plaît.",
-    "ja": "奈良の切符を二枚ください。",
-    "ro": "Nara no kippu o nimai kudasai.",
-    "lit": "Nara · [possessif] · billet · [objet] · deux-feuilles · donnez-moi"
+    "fr": "Tu veux du sucre ?",
+    "ar": "هَلْ تُرِيدُ سُكَّرًا؟",
+    "ro": "Hal turīdu sukkaran?",
+    "lit": "[question] · tu-veux · sucre ?"
    },
    {
-    "fr": "Un aller simple ?",
-    "ja": "片道ですか？",
-    "ro": "Katamichi desu ka?",
-    "lit": "aller-simple · être (poli) · [question]"
+    "fr": "Oui, je veux un peu de sucre.",
+    "ar": "نَعَمْ، أُرِيدُ قَلِيلًا مِنَ السُّكَّرِ.",
+    "ro": "Naʿam, urīdu qalīlan mina s-sukkari.",
+    "lit": "oui, · je-veux · peu · de · le-sucre"
    },
    {
-    "fr": "Non, un aller-retour.",
-    "ja": "いいえ、往復です。",
-    "ro": "Iie, ōfuku desu.",
-    "lit": "non · aller-retour · être (poli)"
+    "fr": "Je ne veux pas de café.",
+    "ar": "لَا أُرِيدُ قَهْوَةً.",
+    "ro": "Lā urīdu qahwatan.",
+    "lit": "[ne… pas] · je-veux · café"
    },
    {
-    "fr": "Ça fait deux mille huit cent quatre-vingts yens.",
-    "ja": "二千八百八十円です。",
-    "ro": "Nisen happyaku hachijū en desu.",
-    "lit": "deux-mille-huit-cent-quatre-vingts-yens · être (poli)"
+    "fr": "Mon amie veut un jus d'orange.",
+    "ar": "صَدِيقَتِي تُرِيدُ عَصِيرَ بُرْتُقَالٍ.",
+    "ro": "Ṣadīqatī turīdu ʿaṣīra burtuqālin.",
+    "lit": "amie-de-moi · elle-veut · jus · [d'] orange"
    },
    {
-    "fr": "Tenez, trois mille yens.",
-    "ja": "はい、三千円です。",
-    "ro": "Hai, sanzen en desu.",
-    "lit": "oui · trois-mille-yens · être (poli)"
+    "fr": "Qu'est-ce que tu veux, Karim ?",
+    "ar": "مَاذَا تُرِيدُ يَا كَرِيمُ؟",
+    "ro": "Mādhā turīdu yā Karīmu?",
+    "lit": "quoi · tu-veux · [ô] Karim ?"
    },
    {
-    "fr": "Voici votre monnaie.",
-    "ja": "おつりです。",
-    "ro": "Otsuri desu.",
-    "lit": "honorable-monnaie · être (poli)"
+    "fr": "Je veux une table sur la terrasse.",
+    "ar": "أُرِيدُ طَاوِلَةً عَلَى السَّطْحِ.",
+    "ro": "Urīdu ṭāwilatan ʿalā s-saṭḥi.",
+    "lit": "je-veux · table · sur · la-terrasse"
    },
    {
-    "fr": "Un plan du métro aussi, s'il vous plaît.",
-    "ja": "地下鉄の地図もください。",
-    "ro": "Chikatetsu no chizu mo kudasai.",
-    "lit": "métro · [possessif] · plan · [aussi] · donnez-moi"
+    "fr": "Nous voulons une vue sur la place.",
+    "ar": "نُرِيدُ مَنْظَرًا عَلَى السَّاحَةِ.",
+    "ro": "Nurīdu manẓaran ʿalā s-sāḥati.",
+    "lit": "nous-voulons · vue · sur · la-place"
    },
    {
-    "fr": "Et deux bentō aussi, s'il vous plaît.",
-    "ja": "お弁当も二つください。",
-    "ro": "Obentō mo futatsu kudasai.",
-    "lit": "honorable-bentō · [aussi] · deux (objets) · donnez-moi"
+    "fr": "Il veut de l'eau bien froide.",
+    "ar": "هُوَ يُرِيدُ مَاءً بَارِدًا.",
+    "ro": "Huwa yurīdu māʾan bāridan.",
+    "lit": "lui · il-veut · eau · froide"
    },
    {
-    "fr": "Le train est sur la voie deux.",
-    "ja": "電車は二番線です。",
-    "ro": "Densha wa nibansen desu.",
-    "lit": "train · [thème] · voie-numéro-deux · être (poli)"
+    "fr": "Le thé d'ici est délicieux.",
+    "ar": "الشَّايُ هُنَا لَذِيذٌ.",
+    "ro": "Ash-shāyu hunā ladhīdhun.",
+    "lit": "le-thé · ici · délicieux"
    }
   ],
   "tip": {
-   "title": "« Kudasai » : donnez-moi, s'il vous plaît",
-   "example": "Deux billets pour Nara, s'il vous plaît. — 奈良の切符を二枚<b>ください</b>。",
-   "exampleRo": "Nara no kippu o nimai kudasai.",
-   "lit": "Nara · [possessif] · billet · [objet] · deux-feuilles · donnez-moi",
-   "body": "« Kudasai » veut dire « donnez-moi, s'il vous plaît », et c'est sans doute le mot le plus utile en voyage. La construction est toute simple : on dit la chose, puis la particule « o » (objet), et on termine par « kudasai ». Comme le verbe japonais, la demande arrive à la fin de la phrase. « Nara no kippu o nimai kudasai » se dit littéralement : Nara, de, billet, objet, deux feuilles, donnez-moi. Remarquez que la quantité, « nimai » (deux, pour des objets plats comme des billets), se place juste avant « kudasai ». Quelques exemples : « Kore o kudasai » (ceci, s'il vous plaît), « Kōhī o kudasai » (un café, s'il vous plaît), « Chizu mo kudasai » (le plan aussi, s'il vous plaît). « Onegaishimasu », que vous connaissez déjà, est plus large et plus doux ; « kudasai » sert surtout à demander un objet concret qu'on vous tend. Une astuce pour retenir : imaginez votre main tendue au guichet au moment où vous prononcez « kudasai »."
+   "title": "« Uridu » : je veux",
+   "example": "Je veux un thé à la menthe. — <b>أُرِيدُ</b> شَايًا بِالنَّعْنَاعِ.",
+   "exampleRo": "Urīdu shāyan bi-n-naʿnāʿi.",
+   "lit": "je-veux · thé · avec · la-menthe",
+   "body": "Voici sans doute le verbe le plus utile du voyageur : « urid », vouloir. Pour dire je veux, on dit simplement « uridu », et l'on n'a même pas besoin du pronom « ana », moi, car le petit « u » du début indique déjà que c'est je. Tu veux se dit « turidu », il veut « yuridu », et nous voulons « nuridu » : seule la première syllabe change. Ensuite, on pose directement la chose voulue, sans article : « uridu shayan », je veux un thé. Notre phrase « uridu shayan bin-nanaa » se dit littéralement : je veux, thé, avec la menthe. Pour la négation, on place « la » devant : « la uridu qahwatan », je ne veux pas de café. Pour poser la question, on ajoute « hal » au début : « hal turidu sukkaran », est-ce que tu veux du sucre. Astuce : pensez à « u » comme un « je » collé au verbe, et commandez votre thé à voix haute."
   }
  },
  {
-  "title": "Une nuit au ryokan",
+  "title": "Jemaa el-Fna à la tombée du jour",
   "phrases": [
    {
-    "fr": "Bonsoir, je suis Martin, j'ai une réservation.",
-    "ja": "こんばんは。予約のマルタンです。",
-    "ro": "Konbanwa. Yoyaku no Marutan desu.",
-    "lit": "bonsoir · réservation · [possessif] · Martin · être (poli)"
+    "fr": "Le soir, la place est pleine de monde.",
+    "ar": "السَّاحَةُ مُزْدَحِمَةٌ فِي الْمَسَاءِ.",
+    "ro": "As-sāḥatu muzdaḥimatun fī l-masāʾi.",
+    "lit": "la-place · bondée · dans · le-soir"
    },
    {
-    "fr": "Bienvenue, entrez donc.",
-    "ja": "いらっしゃいませ。どうぞ。",
-    "ro": "Irasshaimase. Dōzo.",
-    "lit": "bienvenue (poli) · je vous en prie"
+    "fr": "Il y a de la musique partout.",
+    "ar": "هُنَاكَ مُوسِيقَى فِي كُلِّ مَكَانٍ.",
+    "ro": "Hunāka mūsīqā fī kulli makānin.",
+    "lit": "il-y-a · musique · dans · chaque · endroit"
    },
    {
-    "fr": "Ici, on enlève ses chaussures.",
-    "ja": "ここで靴を脱ぎます。",
-    "ro": "Koko de kutsu o nugimasu.",
-    "lit": "ici · [lieu] · chaussures · [objet] · enlever (poli)"
+    "fr": "Ce musicien est très doué.",
+    "ar": "هَذَا الْمُوسِيقِيُّ مَاهِرٌ جِدًّا.",
+    "ro": "Hādhā l-mūsīqiyyu māhirun jiddan.",
+    "lit": "ce · le-musicien · doué · très"
    },
    {
-    "fr": "La chambre est très jolie.",
-    "ja": "部屋はとてもきれいです。",
-    "ro": "Heya wa totemo kirei desu.",
-    "lit": "chambre · [thème] · très · joli · être (poli)"
+    "fr": "Ce stand vend des escargots.",
+    "ar": "هَذَا الْكُشْكُ يَبِيعُ الْحَلَزُونَ.",
+    "ro": "Hādhā l-kushku yabīʿu l-ḥalazūna.",
+    "lit": "ce · le-stand · il-vend · l'escargot"
    },
    {
-    "fr": "Il y a des tatamis et un futon.",
-    "ja": "畳と布団があります。",
-    "ro": "Tatami to futon ga arimasu.",
-    "lit": "tatami · [et] · futon · [sujet] · il y a (objets, poli)"
+    "fr": "Le jus d'orange coûte quatre dirhams.",
+    "ar": "عَصِيرُ الْبُرْتُقَالِ بِأَرْبَعَةِ دَرَاهِمَ.",
+    "ro": "ʿAṣīru l-burtuqāli bi-arbaʿati darāhima.",
+    "lit": "jus · [de] l'orange · [à] quatre · dirhams"
    },
    {
-    "fr": "Le dîner est à sept heures.",
-    "ja": "夕食は七時です。",
-    "ro": "Yūshoku wa shichiji desu.",
-    "lit": "dîner · [thème] · sept-heures · être (poli)"
+    "fr": "L'odeur des grillades est forte.",
+    "ar": "رَائِحَةُ الشِّوَاءِ قَوِيَّةٌ.",
+    "ro": "Rāʾiḥatu sh-shiwāʾi qawiyyatun.",
+    "lit": "odeur · [de] la-grillade · forte"
    },
    {
-    "fr": "Le bain est au premier étage.",
-    "ja": "お風呂は二階です。",
-    "ro": "Ofuro wa nikai desu.",
-    "lit": "honorable-bain · [thème] · deuxième-niveau · être (poli)"
+    "fr": "Pour l'instant, je n'ai pas faim.",
+    "ar": "الْآنَ لَسْتُ جَائِعًا.",
+    "ro": "Al-āna lastu jāʾiʿan.",
+    "lit": "maintenant · [ne… pas]-je-suis · affamé"
    },
    {
-    "fr": "Au ryokan, on porte un yukata.",
-    "ja": "旅館では浴衣を着ます。",
-    "ro": "Ryokan de wa yukata o kimasu.",
-    "lit": "ryokan · [lieu] · [thème] · yukata · [objet] · porter (poli)"
+    "fr": "Nous sommes sur la terrasse d'un café.",
+    "ar": "نَحْنُ عَلَى سَطْحِ مَقْهًى.",
+    "ro": "Naḥnu ʿalā saṭḥi maqhan.",
+    "lit": "nous · sur · terrasse · [d'un] café"
    },
    {
-    "fr": "Le petit-déjeuner est japonais ?",
-    "ja": "朝ご飯は和食ですか？",
-    "ro": "Asagohan wa washoku desu ka?",
-    "lit": "petit-déjeuner · [thème] · cuisine-japonaise · être (poli) · [question]"
+    "fr": "D'ici, la vue est magnifique.",
+    "ar": "الْمَنْظَرُ رَائِعٌ مِنْ هُنَا.",
+    "ro": "Al-manẓaru rāʾiʿun min hunā.",
+    "lit": "la-vue · magnifique · de · ici"
    },
    {
-    "fr": "Oui, du riz et une soupe miso.",
-    "ja": "はい、ご飯とみそ汁です。",
-    "ro": "Hai, gohan to misoshiru desu.",
-    "lit": "oui · riz · [et] · soupe-miso · être (poli)"
+    "fr": "Marrakech ne dort pas la nuit.",
+    "ar": "مُرَّاكُشُ لَا تَنَامُ فِي اللَّيْلِ.",
+    "ro": "Murrākushu lā tanāmu fī l-layli.",
+    "lit": "Marrakech · [ne… pas] · elle-dort · dans · la-nuit"
+   }
+  ]
+ },
+ {
+  "title": "Une journée dans les souks",
+  "phrases": [
+   {
+    "fr": "Ce matin, j'ai visité le souk.",
+    "ar": "زُرْتُ السُّوقَ هَذَا الصَّبَاحَ.",
+    "ro": "Zurtu s-sūqa hādhā ṣ-ṣabāḥa.",
+    "lit": "j'ai-visité · le-souk · ce · le-matin"
+   },
+   {
+    "fr": "J'ai écrit une carte postale.",
+    "ar": "كَتَبْتُ بِطَاقَةً بَرِيدِيَّةً.",
+    "ro": "Katabtu biṭāqatan barīdiyyatan.",
+    "lit": "j'ai-écrit · carte · postale"
+   },
+   {
+    "fr": "Ma sœur a acheté un tapis.",
+    "ar": "اشْتَرَتْ أُخْتِي سَجَّادَةً.",
+    "ro": "Ishtarat ukhtī sajjādatan.",
+    "lit": "elle-a-acheté · sœur-de-moi · tapis"
+   },
+   {
+    "fr": "Nous avons bu le thé chez le marchand.",
+    "ar": "شَرِبْنَا الشَّايَ عِنْدَ التَّاجِرِ.",
+    "ro": "Sharibnā sh-shāya ʿinda t-tājiri.",
+    "lit": "nous-avons-bu · le-thé · chez · le-marchand"
+   },
+   {
+    "fr": "Le marchand a souri.",
+    "ar": "ابْتَسَمَ التَّاجِرُ.",
+    "ro": "Ibtasama t-tājiru.",
+    "lit": "il-a-souri · le-marchand"
+   },
+   {
+    "fr": "Tu as trouvé ton chemin ?",
+    "ar": "هَلْ وَجَدْتَ طَرِيقَكَ؟",
+    "ro": "Hal wajadta ṭarīqaka?",
+    "lit": "[question] · tu-as-trouvé · chemin-de-toi ?"
+   },
+   {
+    "fr": "Non, je me suis perdu dans la médina.",
+    "ar": "لَا، ضِعْتُ فِي الْمَدِينَةِ الْقَدِيمَةِ.",
+    "ro": "Lā, ḍiʿtu fī l-madīnati l-qadīmati.",
+    "lit": "non, · je-me-suis-perdu · dans · la-ville · l'ancienne"
+   },
+   {
+    "fr": "Un garçon m'a aidé.",
+    "ar": "سَاعَدَنِي وَلَدٌ.",
+    "ro": "Sāʿadanī waladun.",
+    "lit": "il-a-aidé-moi · garçon"
+   },
+   {
+    "fr": "Il a écrit l'adresse sur un papier.",
+    "ar": "كَتَبَ الْعُنْوَانَ عَلَى وَرَقَةٍ.",
+    "ro": "Kataba l-ʿunwāna ʿalā waraqatin.",
+    "lit": "il-a-écrit · l'adresse · sur · papier"
+   },
+   {
+    "fr": "Hier, nous avons mangé un tajine.",
+    "ar": "أَمْسِ أَكَلْنَا طَاجِينًا.",
+    "ro": "Amsi akalnā ṭājīnan.",
+    "lit": "hier · nous-avons-mangé · tajine"
+   }
+  ],
+  "tip": {
+   "title": "Le verbe au passé : kataba, katabtu",
+   "example": "J'ai écrit une carte postale. — <b>كَتَبْتُ</b> بِطَاقَةً بَرِيدِيَّةً.",
+   "exampleRo": "Katabtu biṭāqatan barīdiyyatan.",
+   "lit": "j'ai-écrit · carte · postale",
+   "body": "Au passé, le verbe arabe part d'une forme de base très simple : « kataba », il a écrit, construite sur la racine k, t, b de l'écriture. Pour changer de personne, on ne met pas de pronom devant, on colle une petite terminaison à la fin. « Katabtu », avec « tu », veut dire j'ai écrit ; « katabta », tu as écrit ; « katabat », elle a écrit ; et « katabna », nous avons écrit. Notre phrase « katabtu bitaqatan baridiyyatan » se dit littéralement : j'ai écrit, carte, postale. Le même moule fonctionne pour d'autres verbes : « sharibna », nous avons bu, ou « akalna », nous avons mangé. Remarquez aussi que l'arabe aime commencer par le verbe : « ishtarat ukhti », a acheté ma sœur. Astuce : retenez « tu » comme le je du passé, et « na » comme le nous, puis racontez votre journée à voix basse."
+  }
+ },
+ {
+  "title": "En train de Marrakech à Fès",
+  "phrases": [
+   {
+    "fr": "Le train pour Fès part le matin.",
+    "ar": "يَنْطَلِقُ الْقِطَارُ إِلَى فَاسَ صَبَاحًا.",
+    "ro": "Yanṭaliqu l-qiṭāru ilā Fāsa ṣabāḥan.",
+    "lit": "il-part · le-train · vers · Fès · [le] matin"
+   },
+   {
+    "fr": "Où est le guichet des billets ?",
+    "ar": "أَيْنَ شُبَّاكُ التَّذَاكِرِ؟",
+    "ro": "Ayna shubbāku t-tadhākiri?",
+    "lit": "où · guichet · [de] les-billets ?"
+   },
+   {
+    "fr": "Un billet pour Fès, s'il vous plaît.",
+    "ar": "تَذْكِرَةٌ إِلَى فَاسَ، مِنْ فَضْلِكَ.",
+    "ro": "Tadhkiratun ilā Fāsa, min faḍlika.",
+    "lit": "billet · vers · Fès, · de · faveur-de-toi"
+   },
+   {
+    "fr": "En première ou en deuxième classe ?",
+    "ar": "فِي الدَّرَجَةِ الْأُولَى أَمِ الثَّانِيَةِ؟",
+    "ro": "Fī d-darajati l-ūlā ami th-thāniyati?",
+    "lit": "dans · la-classe · la-première · [ou] · la-deuxième ?"
+   },
+   {
+    "fr": "La deuxième classe est moins chère.",
+    "ar": "الدَّرَجَةُ الثَّانِيَةُ أَرْخَصُ.",
+    "ro": "Ad-darajatu th-thāniyatu arkhaṣu.",
+    "lit": "la-classe · la-deuxième · moins-chère"
+   },
+   {
+    "fr": "Aujourd'hui, le train est à l'heure.",
+    "ar": "الْقِطَارُ فِي مَوْعِدِهِ الْيَوْمَ.",
+    "ro": "Al-qiṭāru fī mawʿidihi l-yawma.",
+    "lit": "le-train · dans · horaire-de-lui · aujourd'hui"
+   },
+   {
+    "fr": "Ma place est près de la fenêtre.",
+    "ar": "مَقْعَدِي قُرْبَ النَّافِذَةِ.",
+    "ro": "Maqʿadī qurba n-nāfidhati.",
+    "lit": "siège-de-moi · près · [de] la-fenêtre"
+   },
+   {
+    "fr": "Le trajet est long et agréable.",
+    "ar": "الرِّحْلَةُ طَوِيلَةٌ وَمُمْتِعَةٌ.",
+    "ro": "Ar-riḥlatu ṭawīlatun wa-mumtiʿatun.",
+    "lit": "le-trajet · long · [et] agréable"
+   },
+   {
+    "fr": "Mon voisin lit un journal.",
+    "ar": "جَارِي يَقْرَأُ جَرِيدَةً.",
+    "ro": "Jārī yaqraʾu jarīdatan.",
+    "lit": "voisin-de-moi · il-lit · journal"
+   },
+   {
+    "fr": "Nous voilà enfin à Fès !",
+    "ar": "نَحْنُ فِي فَاسَ أَخِيرًا!",
+    "ro": "Naḥnu fī Fāsa akhīran!",
+    "lit": "nous · dans · Fès · enfin !"
+   }
+  ]
+ },
+ {
+  "title": "Deux valises pour Fès",
+  "phrases": [
+   {
+    "fr": "J'ai deux valises.",
+    "ar": "عِنْدِي حَقِيبَتَانِ.",
+    "ro": "ʿIndī ḥaqībatāni.",
+    "lit": "chez-moi · deux-valises"
+   },
+   {
+    "fr": "Les deux valises sont lourdes.",
+    "ar": "الْحَقِيبَتَانِ ثَقِيلَتَانِ.",
+    "ro": "Al-ḥaqībatāni thaqīlatāni.",
+    "lit": "les-deux-valises · deux-lourdes"
+   },
+   {
+    "fr": "Je veux deux billets pour le musée.",
+    "ar": "أُرِيدُ تَذْكِرَتَيْنِ لِلْمَتْحَفِ.",
+    "ro": "Urīdu tadhkiratayni li-l-matḥafi.",
+    "lit": "je-veux · deux-billets · pour · le-musée"
+   },
+   {
+    "fr": "Nous restons deux nuits à Fès.",
+    "ar": "نَبْقَى لَيْلَتَيْنِ فِي فَاسَ.",
+    "ro": "Nabqā laylatayni fī Fāsa.",
+    "lit": "nous-restons · deux-nuits · dans · Fès"
+   },
+   {
+    "fr": "Le riad a deux portes.",
+    "ar": "لِلرِّيَاضِ بَابَانِ.",
+    "ro": "Li-r-riyāḍi bābāni.",
+    "lit": "[à] le-riad · deux-portes"
+   },
+   {
+    "fr": "Deux guides nous attendent.",
+    "ar": "يَنْتَظِرُنَا مُرْشِدَانِ.",
+    "ro": "Yantaẓirunā murshidāni.",
+    "lit": "il-attend-nous · deux-guides"
+   },
+   {
+    "fr": "Mes deux amis sont étudiants.",
+    "ar": "صَدِيقَايَ طَالِبَانِ.",
+    "ro": "Ṣadīqāya ṭālibāni.",
+    "lit": "deux-amis-de-moi · deux-étudiants"
+   },
+   {
+    "fr": "Un livre ou deux livres ?",
+    "ar": "كِتَابٌ أَمْ كِتَابَانِ؟",
+    "ro": "Kitābun am kitābāni?",
+    "lit": "livre · [ou] · deux-livres ?"
+   },
+   {
+    "fr": "J'ai acheté deux livres sur Fès.",
+    "ar": "اشْتَرَيْتُ كِتَابَيْنِ عَنْ فَاسَ.",
+    "ro": "Ishtaraytu kitābayni ʿan Fāsa.",
+    "lit": "j'ai-acheté · deux-livres · sur · Fès"
+   },
+   {
+    "fr": "Ces deux portes sont anciennes.",
+    "ar": "هَذَانِ الْبَابَانِ قَدِيمَانِ.",
+    "ro": "Hādhāni l-bābāni qadīmāni.",
+    "lit": "ces-deux · les-deux-portes · deux-anciennes"
+   }
+  ],
+  "tip": {
+   "title": "Le duel : deux, kitabani",
+   "example": "Un livre ou deux livres ? — <b>كِتَابٌ</b> أَمْ <b>كِتَابَانِ</b>؟",
+   "exampleRo": "Kitābun am kitābāni?",
+   "lit": "livre · [ou] · deux-livres ?",
+   "body": "En français, on passe directement du singulier au pluriel. L'arabe, lui, possède une forme spéciale pour exactement deux choses : c'est le duel. Pas besoin du mot deux, il suffit d'ajouter « ani » à la fin du nom. « Kitab », un livre, devient « kitabani », deux livres ; « haqiba », une valise, devient « haqibatani », deux valises. Notre phrase « kitabun am kitabani » se dit littéralement : un livre, ou, deux livres. Après un verbe ou une préposition, la terminaison devient « ayni » : « ishtaraytu kitabayni », j'ai acheté deux livres, ou « laylatayni », pendant deux nuits. L'adjectif suit le même modèle : « al-haqibatani thaqilatani », les deux valises, deux lourdes. Astuce : imaginez que « ani » sonne comme une paire de mains qui tiennent deux objets."
+  }
+ },
+ {
+  "title": "Perdus dans la médina de Fès",
+  "phrases": [
+   {
+    "fr": "La médina de Fès est très ancienne.",
+    "ar": "مَدِينَةُ فَاسَ الْقَدِيمَةُ عَرِيقَةٌ جِدًّا.",
+    "ro": "Madīnatu Fāsa l-qadīmatu ʿarīqatun jiddan.",
+    "lit": "ville · [de] Fès · l'ancienne · vénérable · très"
+   },
+   {
+    "fr": "Les ruelles sont très étroites.",
+    "ar": "الْأَزِقَّةُ ضَيِّقَةٌ جِدًّا.",
+    "ro": "Al-aziqqatu ḍayyiqatun jiddan.",
+    "lit": "les-ruelles · étroite · très"
+   },
+   {
+    "fr": "Il y a des ânes dans les ruelles.",
+    "ar": "هُنَاكَ حَمِيرٌ فِي الْأَزِقَّةِ.",
+    "ro": "Hunāka ḥamīrun fī l-aziqqati.",
+    "lit": "il-y-a · ânes · dans · les-ruelles"
+   },
+   {
+    "fr": "Voici la célèbre tannerie.",
+    "ar": "هَذِهِ هِيَ الدَّبَّاغَةُ الْمَشْهُورَةُ.",
+    "ro": "Hādhihi hiya d-dabbāghatu l-mashhūratu.",
+    "lit": "celle-ci · elle · la-tannerie · la-célèbre"
+   },
+   {
+    "fr": "L'odeur est un peu forte.",
+    "ar": "الرَّائِحَةُ قَوِيَّةٌ قَلِيلًا.",
+    "ro": "Ar-rāʾiḥatu qawiyyatun qalīlan.",
+    "lit": "l'odeur · forte · un-peu"
+   },
+   {
+    "fr": "Le cuir de Fès est célèbre.",
+    "ar": "جِلْدُ فَاسَ مَشْهُورٌ.",
+    "ro": "Jildu Fāsa mashhūrun.",
+    "lit": "cuir · [de] Fès · célèbre"
+   },
+   {
+    "fr": "Ce sac en cuir est joli.",
+    "ar": "هَذِهِ الْحَقِيبَةُ الْجِلْدِيَّةُ جَمِيلَةٌ.",
+    "ro": "Hādhihi l-ḥaqībatu l-jildiyyatu jamīlatun.",
+    "lit": "ce · le-sac · le-en-cuir · joli"
+   },
+   {
+    "fr": "Notre guide s'appelle Youssef.",
+    "ar": "اسْمُ مُرْشِدِنَا يُوسُفُ.",
+    "ro": "Ismu murshidinā Yūsufu.",
+    "lit": "nom · guide-de-nous · Youssef"
+   },
+   {
+    "fr": "Il connaît chaque ruelle.",
+    "ar": "يَعْرِفُ كُلَّ زُقَاقٍ.",
+    "ro": "Yaʿrifu kulla zuqāqin.",
+    "lit": "il-connaît · chaque · ruelle"
+   },
+   {
+    "fr": "La médina est un vrai labyrinthe.",
+    "ar": "الْمَدِينَةُ الْقَدِيمَةُ مَتَاهَةٌ حَقِيقِيَّةٌ.",
+    "ro": "Al-madīnatu l-qadīmatu matāhatun ḥaqīqiyyatun.",
+    "lit": "la-ville · l'ancienne · labyrinthe · vrai"
+   }
+  ]
+ },
+ {
+  "title": "Au souk des artisans",
+  "phrases": [
+   {
+    "fr": "J'aime les livres anciens.",
+    "ar": "أُحِبُّ الْكُتُبَ الْقَدِيمَةَ.",
+    "ro": "Uḥibbu l-kutuba l-qadīmata.",
+    "lit": "j'aime · les-livres · les-anciens"
+   },
+   {
+    "fr": "Ce marchand vend des livres.",
+    "ar": "هَذَا التَّاجِرُ يَبِيعُ كُتُبًا.",
+    "ro": "Hādhā t-tājiru yabīʿu kutuban.",
+    "lit": "ce · le-marchand · il-vend · livres"
+   },
+   {
+    "fr": "Les souks de Fès sont nombreux.",
+    "ar": "أَسْوَاقُ فَاسَ كَثِيرَةٌ.",
+    "ro": "Aswāqu Fāsa kathīratun.",
+    "lit": "souks · [de] Fès · nombreux"
+   },
+   {
+    "fr": "Je cherche des cadeaux pour mes amis.",
+    "ar": "أَبْحَثُ عَنْ هَدَايَا لِأَصْدِقَائِي.",
+    "ro": "Abḥathu ʿan hadāyā li-aṣdiqāʾī.",
+    "lit": "je-cherche · [après] · cadeaux · pour · amis-de-moi"
+   },
+   {
+    "fr": "Ces tapis sont magnifiques.",
+    "ar": "هَذِهِ السَّجَاجِيدُ رَائِعَةٌ.",
+    "ro": "Hādhihi s-sajājīdu rāʾiʿatun.",
+    "lit": "ces · les-tapis · magnifique"
+   },
+   {
+    "fr": "Les enfants jouent dans la ruelle.",
+    "ar": "الْأَوْلَادُ يَلْعَبُونَ فِي الزُّقَاقِ.",
+    "ro": "Al-awlādu yalʿabūna fī z-zuqāqi.",
+    "lit": "les-enfants · ils-jouent · dans · la-ruelle"
+   },
+   {
+    "fr": "Les portes sont ornées de motifs.",
+    "ar": "الْأَبْوَابُ مُزَخْرَفَةٌ.",
+    "ro": "Al-abwābu muzakhrafatun.",
+    "lit": "les-portes · ornée"
+   },
+   {
+    "fr": "J'ai acheté trois livres.",
+    "ar": "اشْتَرَيْتُ ثَلَاثَةَ كُتُبٍ.",
+    "ro": "Ishtaraytu thalāthata kutubin.",
+    "lit": "j'ai-acheté · trois · livres"
+   },
+   {
+    "fr": "Les touristes sont nombreux aujourd'hui.",
+    "ar": "السُّيَّاحُ كَثِيرُونَ الْيَوْمَ.",
+    "ro": "As-suyyāḥu kathīrūna l-yawma.",
+    "lit": "les-touristes · nombreux · aujourd'hui"
+   },
+   {
+    "fr": "Les rues de Fès sont pleines de monde.",
+    "ar": "شَوَارِعُ فَاسَ مُزْدَحِمَةٌ.",
+    "ro": "Shawāriʿu Fāsa muzdaḥimatun.",
+    "lit": "rues · [de] Fès · bondée"
+   }
+  ],
+  "tip": {
+   "title": "Les pluriels « brisés » : kitab, kutub",
+   "example": "J'aime les livres anciens. — أُحِبُّ <b>الْكُتُبَ</b> الْقَدِيمَةَ.",
+   "exampleRo": "Uḥibbu l-kutuba l-qadīmata.",
+   "lit": "j'aime · les-livres · les-anciens",
+   "body": "En français, on forme le pluriel en ajoutant un s qu'on n'entend même pas. En arabe, très souvent, on casse le mot de l'intérieur : on garde les consonnes de la racine et on change les voyelles. C'est pour cela qu'on parle de pluriel brisé. « Kitab », un livre, devient « kutub », des livres : les lettres k, t, b restent, seule la mélodie change. De même, « suq » donne « aswaq », les souks, et « bab », une porte, donne « abwab », les portes. Notre phrase « uhibbu l-kutuba l-qadimata » se dit littéralement : j'aime, les livres, les anciens. Détail surprenant : pour des objets au pluriel, l'adjectif se met au féminin singulier, comme si on parlait d'un ensemble. Astuce : apprenez toujours le mot par paire, « kitab, kutub », comme une petite chanson."
+  }
+ },
+ {
+  "title": "Chefchaouen, la ville bleue",
+  "phrases": [
+   {
+    "fr": "Chefchaouen est une ville bleue.",
+    "ar": "شَفْشَاوَنُ مَدِينَةٌ زَرْقَاءُ.",
+    "ro": "Shafshāwanu madīnatun zarqāʾu.",
+    "lit": "Chefchaouen · ville · bleue"
+   },
+   {
+    "fr": "Les murs sont peints en bleu.",
+    "ar": "الْجُدْرَانُ زَرْقَاءُ.",
+    "ro": "Al-judrānu zarqāʾu.",
+    "lit": "les-murs · bleue"
+   },
+   {
+    "fr": "La ville est dans les montagnes.",
+    "ar": "الْمَدِينَةُ فِي الْجِبَالِ.",
+    "ro": "Al-madīnatu fī l-jibāli.",
+    "lit": "la-ville · dans · les-montagnes"
+   },
+   {
+    "fr": "Ici, l'air est vraiment frais.",
+    "ar": "الْهَوَاءُ هُنَا مُنْعِشٌ حَقًّا.",
+    "ro": "Al-hawāʾu hunā munʿishun ḥaqqan.",
+    "lit": "l'air · ici · rafraîchissant · vraiment"
+   },
+   {
+    "fr": "Nous prenons des photos partout.",
+    "ar": "نَلْتَقِطُ صُوَرًا فِي كُلِّ مَكَانٍ.",
+    "ro": "Naltaqiṭu ṣuwaran fī kulli makānin.",
+    "lit": "nous-prenons · photos · dans · chaque · endroit"
+   },
+   {
+    "fr": "Le chat dort sur les marches.",
+    "ar": "الْقِطُّ نَائِمٌ عَلَى الدَّرَجِ.",
+    "ro": "Al-qiṭṭu nāʾimun ʿalā d-daraji.",
+    "lit": "le-chat · endormi · sur · l'escalier"
+   },
+   {
+    "fr": "Il y a une source près de la ville.",
+    "ar": "هُنَاكَ نَبْعُ مَاءٍ قُرْبَ الْمَدِينَةِ.",
+    "ro": "Hunāka nabʿu māʾin qurba l-madīnati.",
+    "lit": "il-y-a · source · [d'] eau · près · [de] la-ville"
+   },
+   {
+    "fr": "Le fromage de chèvre est délicieux ici.",
+    "ar": "جُبْنُ الْمَاعِزِ لَذِيذٌ هُنَا.",
+    "ro": "Jubnu l-māʿizi ladhīdhun hunā.",
+    "lit": "fromage · [de] la-chèvre · délicieux · ici"
+   },
+   {
+    "fr": "Les habitants sont gentils.",
+    "ar": "السُّكَّانُ لُطَفَاءُ.",
+    "ro": "As-sukkānu luṭafāʾu.",
+    "lit": "les-habitants · gentils"
+   },
+   {
+    "fr": "Je veux rester ici une semaine.",
+    "ar": "أُرِيدُ الْبَقَاءَ هُنَا أُسْبُوعًا.",
+    "ro": "Urīdu l-baqāʾa hunā usbūʿan.",
+    "lit": "je-veux · le-séjour · ici · semaine"
+   }
+  ]
+ },
+ {
+  "title": "Demander son chemin dans le Rif",
+  "phrases": [
+   {
+    "fr": "De Fès à Chefchaouen en car.",
+    "ar": "مِنْ فَاسَ إِلَى شَفْشَاوَنَ بِالْحَافِلَةِ.",
+    "ro": "Min Fāsa ilā Shafshāwana bi-l-ḥāfilati.",
+    "lit": "de · Fès · à · Chefchaouen · avec · le-car"
+   },
+   {
+    "fr": "Le bus va de la gare à la place.",
+    "ar": "الْحَافِلَةُ تَذْهَبُ مِنَ الْمَحَطَّةِ إِلَى السَّاحَةِ.",
+    "ro": "Al-ḥāfilatu tadhhabu mina l-maḥaṭṭati ilā s-sāḥati.",
+    "lit": "le-bus · il-va · de · la-gare · à · la-place"
+   },
+   {
+    "fr": "Où est la place principale ?",
+    "ar": "أَيْنَ السَّاحَةُ الرَّئِيسِيَّةُ؟",
+    "ro": "Ayna s-sāḥatu r-raʾīsiyyatu?",
+    "lit": "où · la-place · la-principale ?"
+   },
+   {
+    "fr": "Tout droit, puis à gauche.",
+    "ar": "إِلَى الْأَمَامِ، ثُمَّ إِلَى الْيَسَارِ.",
+    "ro": "Ilā l-amāmi, thumma ilā l-yasāri.",
+    "lit": "vers · l'avant, · puis · vers · la-gauche"
+   },
+   {
+    "fr": "Le restaurant est à droite de la fontaine.",
+    "ar": "الْمَطْعَمُ عَلَى يَمِينِ النَّافُورَةِ.",
+    "ro": "Al-maṭʿamu ʿalā yamīni n-nāfūrati.",
+    "lit": "le-restaurant · sur · droite · [de] la-fontaine"
+   },
+   {
+    "fr": "Le petit musée est à gauche.",
+    "ar": "الْمَتْحَفُ الصَّغِيرُ عَلَى الْيَسَارِ.",
+    "ro": "Al-matḥafu ṣ-ṣaghīru ʿalā l-yasāri.",
+    "lit": "le-musée · le-petit · sur · la-gauche"
+   },
+   {
+    "fr": "Je marche du matin au soir.",
+    "ar": "أَمْشِي مِنَ الصَّبَاحِ إِلَى الْمَسَاءِ.",
+    "ro": "Amshī mina ṣ-ṣabāḥi ilā l-masāʾi.",
+    "lit": "je-marche · de · le-matin · à · le-soir"
+   },
+   {
+    "fr": "Tanger est au nord.",
+    "ar": "طَنْجَةُ فِي الشَّمَالِ.",
+    "ro": "Ṭanjatu fī sh-shamāli.",
+    "lit": "Tanger · dans · le-nord"
+   },
+   {
+    "fr": "Le désert est au sud.",
+    "ar": "الصَّحْرَاءُ فِي الْجَنُوبِ.",
+    "ro": "Aṣ-ṣaḥrāʾu fī l-janūbi.",
+    "lit": "le-désert · dans · le-sud"
+   },
+   {
+    "fr": "La cascade est loin d'ici ?",
+    "ar": "هَلِ الشَّلَّالُ بَعِيدٌ مِنْ هُنَا؟",
+    "ro": "Hali sh-shallālu baʿīdun min hunā?",
+    "lit": "[question] · la-cascade · loin · de · ici ?"
+   }
+  ],
+  "tip": {
+   "title": "« Min… ila » : de… à, et les directions",
+   "example": "De Fès à Chefchaouen en car. — <b>مِنْ</b> فَاسَ <b>إِلَى</b> شَفْشَاوَنَ بِالْحَافِلَةِ.",
+   "exampleRo": "Min Fāsa ilā Shafshāwana bi-l-ḥāfilati.",
+   "lit": "de · Fès · à · Chefchaouen · avec · le-car",
+   "body": "Pour parler d'un trajet, l'arabe utilise deux petits mots très pratiques : « min », qui veut dire de ou depuis, et « ila », qui veut dire vers ou jusqu'à. Ils fonctionnent comme en français, l'un marque le point de départ, l'autre la destination. Notre phrase « min Fasa ila Shafshawana bil-hafilati » se dit littéralement : de Fès, à Chefchaouen, avec le car. On peut aussi les utiliser pour le temps : « mina s-sabahi ila l-masai », du matin au soir. Pour les directions, retenez « al-yamin », la droite, et « al-yasar », la gauche, avec « ala », sur : « ala l-yasari », à gauche. « Ila l-amami » veut dire tout droit, littéralement vers l'avant. Pour les points cardinaux, « ash-shamal » est le nord et « al-janub » le sud. Astuce : « min » commence comme « mine de départ », et « ila » sonne comme « il y va »."
+  }
+ },
+ {
+  "title": "Essaouira, au bord de l'océan",
+  "phrases": [
+   {
+    "fr": "Essaouira est au bord de l'océan.",
+    "ar": "الصَّوِيرَةُ عَلَى شَاطِئِ الْمُحِيطِ.",
+    "ro": "Aṣ-Ṣawīratu ʿalā shāṭiʾi l-muḥīṭi.",
+    "lit": "Essaouira · sur · rivage · [de] l'océan"
+   },
+   {
+    "fr": "Aujourd'hui, le vent est fort.",
+    "ar": "الْيَوْمَ الرِّيحُ قَوِيَّةٌ.",
+    "ro": "Al-yawma r-rīḥu qawiyyatun.",
+    "lit": "aujourd'hui · le-vent · fort"
+   },
+   {
+    "fr": "Les barques bleues sont dans le port.",
+    "ar": "الْقَوَارِبُ الزَّرْقَاءُ فِي الْمِينَاءِ.",
+    "ro": "Al-qawāribu z-zarqāʾu fī l-mīnāʾi.",
+    "lit": "les-barques · la-bleue · dans · le-port"
+   },
+   {
+    "fr": "Le poisson est très frais.",
+    "ar": "السَّمَكُ طَازَجٌ جِدًّا.",
+    "ro": "As-samaku ṭāzajun jiddan.",
+    "lit": "le-poisson · frais · très"
+   },
+   {
+    "fr": "Je veux du poisson grillé.",
+    "ar": "أُرِيدُ سَمَكًا مَشْوِيًّا.",
+    "ro": "Urīdu samakan mashwiyyan.",
+    "lit": "je-veux · poisson · grillé"
+   },
+   {
+    "fr": "Les mouettes volent au-dessus du port.",
+    "ar": "تَطِيرُ النَّوَارِسُ فَوْقَ الْمِينَاءِ.",
+    "ro": "Taṭīru n-nawārisu fawqa l-mīnāʾi.",
+    "lit": "elle-vole · les-mouettes · au-dessus · [de] le-port"
+   },
+   {
+    "fr": "La plage est longue et large.",
+    "ar": "الشَّاطِئُ طَوِيلٌ وَوَاسِعٌ.",
+    "ro": "Ash-shāṭiʾu ṭawīlun wa-wāsiʿun.",
+    "lit": "la-plage · longue · [et] large"
+   },
+   {
+    "fr": "L'eau de l'océan est froide.",
+    "ar": "مَاءُ الْمُحِيطِ بَارِدٌ.",
+    "ro": "Māʾu l-muḥīṭi bāridun.",
+    "lit": "eau · [de] l'océan · froide"
+   },
+   {
+    "fr": "La médina d'Essaouira est blanche.",
+    "ar": "مَدِينَةُ الصَّوِيرَةِ الْقَدِيمَةُ بَيْضَاءُ.",
+    "ro": "Madīnatu ṣ-Ṣawīrati l-qadīmatu bayḍāʾu.",
+    "lit": "ville · [d'] Essaouira · l'ancienne · blanche"
+   },
+   {
+    "fr": "Je me sens bien ici.",
+    "ar": "أَشْعُرُ بِالرَّاحَةِ هُنَا.",
+    "ro": "Ashʿuru bi-r-rāḥati hunā.",
+    "lit": "je-ressens · [avec] le-bien-être · ici"
+   }
+  ]
+ },
+ {
+  "title": "Marchander au souk d'Essaouira",
+  "phrases": [
+   {
+    "fr": "Combien coûte ce plat en céramique ?",
+    "ar": "بِكَمْ هَذَا الطَّبَقُ الْخَزَفِيُّ؟",
+    "ro": "Bi-kam hādhā ṭ-ṭabaqu l-khazafiyyu?",
+    "lit": "[à] combien · ce · le-plat · le-en-céramique ?"
+   },
+   {
+    "fr": "Il coûte cinquante dirhams.",
+    "ar": "ثَمَنُهُ خَمْسُونَ دِرْهَمًا.",
+    "ro": "Thamanuhu khamsūna dirhaman.",
+    "lit": "prix-de-lui · cinquante · dirham"
+   },
+   {
+    "fr": "C'est beaucoup trop cher !",
+    "ar": "هَذَا غَالٍ جِدًّا!",
+    "ro": "Hādhā ghālin jiddan!",
+    "lit": "ceci · cher · très !"
+   },
+   {
+    "fr": "Je vous en donne trente dirhams.",
+    "ar": "أُعْطِيكَ ثَلَاثِينَ دِرْهَمًا.",
+    "ro": "Uʿṭīka thalāthīna dirhaman.",
+    "lit": "je-donne-toi · trente · dirham"
+   },
+   {
+    "fr": "D'accord, quarante dirhams.",
+    "ar": "حَسَنًا، أَرْبَعُونَ دِرْهَمًا.",
+    "ro": "Ḥasanan, arbaʿūna dirhaman.",
+    "lit": "bien, · quarante · dirham"
+   },
+   {
+    "fr": "Ce tapis coûte mille dirhams.",
+    "ar": "هَذِهِ السَّجَّادَةُ بِأَلْفِ دِرْهَمٍ.",
+    "ro": "Hādhihi s-sajjādatu bi-alfi dirhamin.",
+    "lit": "ce · le-tapis · [à] mille · dirham"
+   },
+   {
+    "fr": "Notre groupe compte quinze personnes.",
+    "ar": "فِي مَجْمُوعَتِنَا خَمْسَةَ عَشَرَ شَخْصًا.",
+    "ro": "Fī majmūʿatinā khamsata ʿashara shakhṣan.",
+    "lit": "dans · groupe-de-nous · quinze · personne"
+   },
+   {
+    "fr": "Le billet coûte vingt-cinq dirhams.",
+    "ar": "التَّذْكِرَةُ بِخَمْسَةٍ وَعِشْرِينَ دِرْهَمًا.",
+    "ro": "At-tadhkiratu bi-khamsatin wa-ʿishrīna dirhaman.",
+    "lit": "le-billet · [à] cinq · [et] vingt · dirham"
+   },
+   {
+    "fr": "Voici cent dirhams.",
+    "ar": "هَذِهِ مِئَةُ دِرْهَمٍ.",
+    "ro": "Hādhihi miʾatu dirhamin.",
+    "lit": "celle-ci · cent · dirham"
+   },
+   {
+    "fr": "Votre monnaie : onze dirhams.",
+    "ar": "الْبَاقِي أَحَدَ عَشَرَ دِرْهَمًا.",
+    "ro": "Al-bāqī aḥada ʿashara dirhaman.",
+    "lit": "le-reste · onze · dirham"
+   }
+  ],
+  "tip": {
+   "title": "Les nombres au-delà de dix et les prix",
+   "example": "Il coûte cinquante dirhams. — ثَمَنُهُ <b>خَمْسُونَ</b> <b>دِرْهَمًا</b>.",
+   "exampleRo": "Thamanuhu khamsūna dirhaman.",
+   "lit": "prix-de-lui · cinquante · dirham",
+   "body": "Au souk, les prix dépassent vite dix, alors voici la logique. Les dizaines se forment en ajoutant « una » à un chiffre que vous connaissez déjà : « thalatha », trois, donne « thalathuna », trente ; « arbaa », quatre, donne « arbauna », quarante ; et « khamsa », cinq, donne « khamsuna », cinquante. Seul vingt est un peu à part : « ishruna ». Pour vingt-cinq, on dit comme autrefois en français, cinq et vingt : « khamsatun wa ishruna ». Surprise : après onze, le nom reste au singulier ! Notre phrase « thamanuhu khamsuna dirhaman » se dit littéralement : son prix, cinquante, dirham. Retenez aussi « mia », cent, et « alf », mille. Pour demander le prix, la question magique est « bikam », à combien. Astuce : entraînez-vous en lisant à voix haute les prix sur les étiquettes de vos courses."
+  }
+ },
+ {
+  "title": "Route vers le désert de Merzouga",
+  "phrases": [
+   {
+    "fr": "Nous partons vers le désert de Merzouga.",
+    "ar": "نَذْهَبُ إِلَى صَحْرَاءِ مَرْزُوكَةَ.",
+    "ro": "Nadhhabu ilā ṣaḥrāʾi Marzūkata.",
+    "lit": "nous-allons · vers · désert · [de] Merzouga"
+   },
+   {
+    "fr": "La route traverse l'Atlas.",
+    "ar": "الطَّرِيقُ يَعْبُرُ جِبَالَ الْأَطْلَسِ.",
+    "ro": "Aṭ-ṭarīqu yaʿburu jibāla l-Aṭlasi.",
+    "lit": "la-route · elle-traverse · montagnes · [de] l'Atlas"
+   },
+   {
+    "fr": "Le paysage change beaucoup.",
+    "ar": "يَتَغَيَّرُ الْمَنْظَرُ كَثِيرًا.",
+    "ro": "Yataghayyaru l-manẓaru kathīran.",
+    "lit": "il-change · le-paysage · beaucoup"
+   },
+   {
+    "fr": "Le chauffeur connaît bien la route.",
+    "ar": "السَّائِقُ يَعْرِفُ الطَّرِيقَ جَيِّدًا.",
+    "ro": "As-sāʾiqu yaʿrifu ṭ-ṭarīqa jayyidan.",
+    "lit": "le-chauffeur · il-connaît · la-route · bien"
+   },
+   {
+    "fr": "Nous faisons une pause à Ouarzazate.",
+    "ar": "نَتَوَقَّفُ فِي وَرْزَازَاتَ.",
+    "ro": "Natawaqqafu fī Warzāzāta.",
+    "lit": "nous-nous-arrêtons · dans · Ouarzazate"
+   },
+   {
+    "fr": "Il fait très chaud dans la voiture.",
+    "ar": "الْجَوُّ حَارٌّ جِدًّا فِي السَّيَّارَةِ.",
+    "ro": "Al-jawwu ḥārrun jiddan fī s-sayyārati.",
+    "lit": "le-temps · chaud · très · dans · la-voiture"
+   },
+   {
+    "fr": "Tu as de l'eau avec toi ?",
+    "ar": "هَلْ عِنْدَكَ مَاءٌ؟",
+    "ro": "Hal ʿindaka māʾun?",
+    "lit": "[question] · chez-toi · eau ?"
+   },
+   {
+    "fr": "Oui, j'ai deux bouteilles.",
+    "ar": "نَعَمْ، عِنْدِي زُجَاجَتَانِ.",
+    "ro": "Naʿam, ʿindī zujājatāni.",
+    "lit": "oui, · chez-moi · deux-bouteilles"
+   },
+   {
+    "fr": "Les dunes sont dorées.",
+    "ar": "الْكُثْبَانُ ذَهَبِيَّةٌ.",
+    "ro": "Al-kuthbānu dhahabiyyatun.",
+    "lit": "les-dunes · dorée"
+   },
+   {
+    "fr": "Le silence du désert est impressionnant.",
+    "ar": "صَمْتُ الصَّحْرَاءِ مُدْهِشٌ.",
+    "ro": "Ṣamtu ṣ-ṣaḥrāʾi mudhishun.",
+    "lit": "silence · [du] le-désert · impressionnant"
+   }
+  ]
+ },
+ {
+  "title": "Une nuit sous les étoiles",
+  "phrases": [
+   {
+    "fr": "Nous allons dormir sous une tente.",
+    "ar": "سَنَنَامُ فِي خَيْمَةٍ.",
+    "ro": "Sananāmu fī khaymatin.",
+    "lit": "nous-dormirons · dans · tente"
+   },
+   {
+    "fr": "Demain, je monterai sur un chameau.",
+    "ar": "غَدًا سَأَرْكَبُ جَمَلًا.",
+    "ro": "Ghadan saʾarkabu jamalan.",
+    "lit": "demain · je-monterai · chameau"
+   },
+   {
+    "fr": "Nous verrons le lever du soleil.",
+    "ar": "سَنَرَى شُرُوقَ الشَّمْسِ.",
+    "ro": "Sanarā shurūqa sh-shamsi.",
+    "lit": "nous-verrons · lever · [de] le-soleil"
+   },
+   {
+    "fr": "Le guide préparera le dîner.",
+    "ar": "سَيُحَضِّرُ الْمُرْشِدُ الْعَشَاءَ.",
+    "ro": "Sayuḥaḍḍiru l-murshidu l-ʿashāʾa.",
+    "lit": "il-préparera · le-guide · le-dîner"
+   },
+   {
+    "fr": "Nous mangerons un tajine sous les étoiles.",
+    "ar": "سَنَأْكُلُ طَاجِينًا تَحْتَ النُّجُومِ.",
+    "ro": "Sanaʾkulu ṭājīnan taḥta n-nujūmi.",
+    "lit": "nous-mangerons · tajine · sous · les-étoiles"
+   },
+   {
+    "fr": "La nuit, il fera froid.",
+    "ar": "سَيَكُونُ الْجَوُّ بَارِدًا فِي اللَّيْلِ.",
+    "ro": "Sayakūnu l-jawwu bāridan fī l-layli.",
+    "lit": "il-sera · le-temps · froid · dans · la-nuit"
+   },
+   {
+    "fr": "Je prendrai une veste chaude.",
+    "ar": "سَآخُذُ سُتْرَةً دَافِئَةً.",
+    "ro": "Saʾākhudhu sutratan dāfiʾatan.",
+    "lit": "je-prendrai · veste · chaude"
+   },
+   {
+    "fr": "J'écrirai sur ce voyage.",
+    "ar": "سَوْفَ أَكْتُبُ عَنْ هَذِهِ الرِّحْلَةِ.",
+    "ro": "Sawfa aktubu ʿan hādhihi r-riḥlati.",
+    "lit": "[futur] · j'écris · sur · ce · le-voyage"
+   },
+   {
+    "fr": "Nous partirons à l'aube.",
+    "ar": "سَوْفَ نَنْطَلِقُ عِنْدَ الْفَجْرِ.",
+    "ro": "Sawfa nanṭaliqu ʿinda l-fajri.",
+    "lit": "[futur] · nous-partons · à · l'aube"
+   },
+   {
+    "fr": "Le ciel sera plein d'étoiles.",
+    "ar": "سَتَكُونُ السَّمَاءُ مَلِيئَةً بِالنُّجُومِ.",
+    "ro": "Satakūnu s-samāʾu malīʾatan bi-n-nujūmi.",
+    "lit": "elle-sera · le-ciel · plein · [de] les-étoiles"
+   }
+  ],
+  "tip": {
+   "title": "Le futur avec « sa- » et « sawfa »",
+   "example": "Nous allons dormir sous une tente. — <b>سَنَنَامُ</b> فِي خَيْمَةٍ.",
+   "exampleRo": "Sananāmu fī khaymatin.",
+   "lit": "nous-dormirons · dans · tente",
+   "body": "Bonne nouvelle : pour parler du futur en arabe, il n'y a presque rien à apprendre de nouveau. On prend le verbe au présent, que vous connaissez déjà, et on colle simplement « sa » devant. « Nanamu », nous dormons, devient « sananamu », nous dormirons. « Arkabu », je monte, devient « saarkabu », je monterai. Notre phrase « sananamu fi khaymatin » se dit littéralement : nous dormirons, dans, une tente. Il existe aussi un petit mot séparé, « sawfa », qui a le même sens et se place devant le verbe : « sawfa aktubu », j'écrirai. « Sa » est court et très courant à l'oral, « sawfa » sonne un peu plus solennel, comme une promesse. Astuce : pensez au « sa » comme à un petit pas en avant, qui pousse le verbe vers demain."
+  }
+ },
+ {
+  "title": "Un petit souci à la pharmacie",
+  "phrases": [
+   {
+    "fr": "Depuis hier, j'ai mal au ventre.",
+    "ar": "مُنْذُ أَمْسِ عِنْدِي أَلَمٌ فِي الْبَطْنِ.",
+    "ro": "Mundhu amsi ʿindī alamun fī l-baṭni.",
+    "lit": "depuis · hier · chez-moi · douleur · dans · le-ventre"
+   },
+   {
+    "fr": "Où est la pharmacie la plus proche ?",
+    "ar": "أَيْنَ أَقْرَبُ صَيْدَلِيَّةٍ؟",
+    "ro": "Ayna aqrabu ṣaydaliyyatin?",
+    "lit": "où · plus-proche · pharmacie ?"
+   },
+   {
+    "fr": "La pharmacie est en face de l'office du tourisme.",
+    "ar": "الصَّيْدَلِيَّةُ أَمَامَ مَكْتَبِ السِّيَاحَةِ.",
+    "ro": "Aṣ-ṣaydaliyyatu amāma maktabi s-siyāḥati.",
+    "lit": "la-pharmacie · devant · bureau · [de] le-tourisme"
+   },
+   {
+    "fr": "J'ai peut-être trop mangé de couscous.",
+    "ar": "رُبَّمَا أَكَلْتُ كَثِيرًا مِنَ الْكُسْكُسِ.",
+    "ro": "Rubbamā akaltu kathīran mina l-kuskusi.",
+    "lit": "peut-être · j'ai-mangé · beaucoup · de · le-couscous"
+   },
+   {
+    "fr": "Vous avez un médicament pour le ventre ?",
+    "ar": "هَلْ عِنْدَكَ دَوَاءٌ لِلْبَطْنِ؟",
+    "ro": "Hal ʿindaka dawāʾun li-l-baṭni?",
+    "lit": "[question] · chez-toi · médicament · pour · le-ventre ?"
+   },
+   {
+    "fr": "Un comprimé après chaque repas.",
+    "ar": "قُرْصٌ بَعْدَ كُلِّ وَجْبَةٍ.",
+    "ro": "Qurṣun baʿda kulli wajbatin.",
+    "lit": "comprimé · après · chaque · repas"
+   },
+   {
+    "fr": "L'eau est importante en été.",
+    "ar": "الْمَاءُ مُهِمٌّ فِي الصَّيْفِ.",
+    "ro": "Al-māʾu muhimmun fī ṣ-ṣayfi.",
+    "lit": "l'eau · importante · dans · l'été"
+   },
+   {
+    "fr": "J'ai aussi un coup de soleil.",
+    "ar": "عِنْدِي أَيْضًا حُرُوقُ شَمْسٍ.",
+    "ro": "ʿIndī ayḍan ḥurūqu shamsin.",
+    "lit": "chez-moi · aussi · brûlures · [de] soleil"
+   },
+   {
+    "fr": "Cette pommade est très efficace.",
+    "ar": "هَذَا الْمَرْهَمُ فَعَّالٌ جِدًّا.",
+    "ro": "Hādhā l-marhamu faʿʿālun jiddan.",
+    "lit": "cette · la-pommade · efficace · très"
+   },
+   {
+    "fr": "Merci, le pharmacien est très gentil.",
+    "ar": "شُكْرًا، الصَّيْدَلِيُّ لَطِيفٌ جِدًّا.",
+    "ro": "Shukran, aṣ-ṣaydaliyyu laṭīfun jiddan.",
+    "lit": "merci, · le-pharmacien · gentil · très"
    }
   ]
  },
@@ -1799,2812 +2621,2100 @@ const level1Module2Lessons = [
   "title": "À l'office du tourisme",
   "phrases": [
    {
-    "fr": "Où est l'office du tourisme ?",
-    "ja": "観光案内所はどこですか？",
-    "ro": "Kankō annaijo wa doko desu ka?",
-    "lit": "tourisme-bureau-d'information · [thème] · où · être (poli) · [question]"
+    "fr": "Est-ce que je peux prendre un plan ?",
+    "ar": "هَلْ يُمْكِنُنِي أَنْ آخُذَ خَرِيطَةً؟",
+    "ro": "Hal yumkinunī an ākhudha kharīṭatan?",
+    "lit": "[question] · il-m'est-possible · [que] · je-prenne · plan ?"
    },
    {
-    "fr": "Il est dans la gare.",
-    "ja": "駅の中です。",
-    "ro": "Eki no naka desu.",
-    "lit": "gare · [possessif] · intérieur · être (poli)"
+    "fr": "Est-ce que je peux poser une question ?",
+    "ar": "هَلْ يُمْكِنُنِي أَنْ أَسْأَلَ سُؤَالًا؟",
+    "ro": "Hal yumkinunī an asʾala suʾālan?",
+    "lit": "[question] · il-m'est-possible · [que] · je-demande · question ?"
    },
    {
-    "fr": "Qu'est-ce qu'il y a à voir à Kyoto ?",
-    "ja": "京都には何がありますか？",
-    "ro": "Kyōto ni wa nani ga arimasu ka?",
-    "lit": "Kyoto · [lieu] · [thème] · quoi · [sujet] · il y a (objets, poli) · [question]"
+    "fr": "Bien sûr, je vous en prie.",
+    "ar": "طَبْعًا، تَفَضَّلْ.",
+    "ro": "Ṭabʿan, tafaḍḍal.",
+    "lit": "bien-sûr, · je-t'en-prie"
    },
    {
-    "fr": "Il y a beaucoup de temples.",
-    "ja": "お寺がたくさんあります。",
-    "ro": "Otera ga takusan arimasu.",
-    "lit": "honorable-temple · [sujet] · beaucoup · il y a (objets, poli)"
+    "fr": "Est-ce que je peux visiter le palais aujourd'hui ?",
+    "ar": "هَلْ يُمْكِنُنِي أَنْ أَزُورَ الْقَصْرَ الْيَوْمَ؟",
+    "ro": "Hal yumkinunī an azūra l-qaṣra l-yawma?",
+    "lit": "[question] · il-m'est-possible · [que] · je-visite · le-palais · aujourd'hui ?"
    },
    {
-    "fr": "Combien coûte l'entrée du Kinkaku-ji ?",
-    "ja": "金閣寺の入場料はいくらですか？",
-    "ro": "Kinkakuji no nyūjōryō wa ikura desu ka?",
-    "lit": "Kinkaku-ji · [possessif] · droit-d'entrée · [thème] · combien · être (poli) · [question]"
+    "fr": "Est-ce que nous pouvons payer par carte ?",
+    "ar": "هَلْ يُمْكِنُنَا أَنْ نَدْفَعَ بِالْبِطَاقَةِ؟",
+    "ro": "Hal yumkinunā an nadfaʿa bi-l-biṭāqati?",
+    "lit": "[question] · il-nous-est-possible · [que] · nous-payions · avec · la-carte ?"
    },
    {
-    "fr": "C'est cinq cents yens.",
-    "ja": "五百円です。",
-    "ro": "Gohyaku en desu.",
-    "lit": "cinq-cents-yens · être (poli)"
+    "fr": "Est-ce que je peux laisser mon bagage ici ?",
+    "ar": "هَلْ يُمْكِنُنِي أَنْ أَتْرُكَ حَقِيبَتِي هُنَا؟",
+    "ro": "Hal yumkinunī an atruka ḥaqībatī hunā?",
+    "lit": "[question] · il-m'est-possible · [que] · je-laisse · bagage-de-moi · ici ?"
    },
    {
-    "fr": "Quand a lieu la fête de Gion ?",
-    "ja": "祇園祭はいつですか？",
-    "ro": "Gion matsuri wa itsu desu ka?",
-    "lit": "Gion-fête · [thème] · quand · être (poli) · [question]"
+    "fr": "Oui, c'est gratuit.",
+    "ar": "نَعَمْ، هَذَا مَجَّانِيٌّ.",
+    "ro": "Naʿam, hādhā majjāniyyun.",
+    "lit": "oui, · ceci · gratuit"
    },
    {
-    "fr": "C'est en juillet.",
-    "ja": "七月です。",
-    "ro": "Shichigatsu desu.",
-    "lit": "juillet · être (poli)"
+    "fr": "Est-ce que je peux réserver une excursion ?",
+    "ar": "هَلْ يُمْكِنُنِي أَنْ أَحْجِزَ جَوْلَةً؟",
+    "ro": "Hal yumkinunī an aḥjiza jawlatan?",
+    "lit": "[question] · il-m'est-possible · [que] · je-réserve · excursion ?"
    },
    {
-    "fr": "Qui est la personne sur cette affiche ?",
-    "ja": "このポスターの人は誰ですか？",
-    "ro": "Kono posutā no hito wa dare desu ka?",
-    "lit": "ce · affiche · [possessif] · personne · [thème] · qui · être (poli) · [question]"
+    "fr": "Est-ce que tu peux écrire l'adresse du riad ?",
+    "ar": "هَلْ يُمْكِنُكَ أَنْ تَكْتُبَ عُنْوَانَ الرِّيَاضِ؟",
+    "ro": "Hal yumkinuka an taktuba ʿunwāna r-riyāḍi?",
+    "lit": "[question] · il-t'est-possible · [que] · tu-écrives · adresse · [de] le-riad ?"
    },
    {
-    "fr": "C'est une maiko de Gion.",
-    "ja": "祇園の舞妓さんです。",
-    "ro": "Gion no maiko san desu.",
-    "lit": "Gion · [possessif] · maiko · madame · être (poli)"
+    "fr": "Merci beaucoup pour le plan.",
+    "ar": "شُكْرًا جَزِيلًا عَلَى الْخَرِيطَةِ.",
+    "ro": "Shukran jazīlan ʿalā l-kharīṭati.",
+    "lit": "merci · abondant · pour · le-plan"
    }
   ],
   "tip": {
-   "title": "Les mots interrogatifs : doko, nani, itsu, dare, ikura",
-   "example": "Où est l'office du tourisme ? — 観光案内所は<b>どこ</b>ですか？",
-   "exampleRo": "Kankō annaijo wa doko desu ka?",
-   "lit": "tourisme-bureau-d'information · [thème] · où · être (poli) · [question]",
-   "body": "En japonais, poser une question avec un mot interrogatif est d'une grande simplicité : on ne change pas l'ordre des mots, on met le mot interrogatif à la place de la réponse attendue, et on ajoute « ka » (question) à la fin. Voici les cinq indispensables : « doko » (où), « nani » ou « nan » (quoi), « itsu » (quand), « dare » (qui) et « ikura » (combien, pour un prix). « Kankō annaijo wa doko desu ka » se dit littéralement : office du tourisme, thème, où, être poli, question ? Pour répondre, il suffit de remplacer « doko » par le lieu : « Eki no naka desu », c'est dans la gare. De même : « Ikura desu ka ? » (c'est combien ?), « Itsu desu ka ? » (c'est quand ?), « Dare desu ka ? » (qui est-ce ?). Le schéma reste toujours le même : le sujet avec « wa », le mot interrogatif, puis « desu ka ». Une astuce pour retenir « ikura » : c'est aussi le nom des œufs de saumon, un mets plutôt cher, alors on demande toujours combien ça coûte !"
+   "title": "Demander poliment : « hal yumkinuni », est-ce que je peux",
+   "example": "Est-ce que je peux prendre un plan ? — <b>هَلْ</b> <b>يُمْكِنُنِي</b> أَنْ آخُذَ خَرِيطَةً؟",
+   "exampleRo": "Hal yumkinunī an ākhudha kharīṭatan?",
+   "lit": "[question] · il-m'est-possible · [que] · je-prenne · plan ?",
+   "body": "Pour demander quelque chose avec politesse, l'arabe utilise une formule toute faite qu'il vaut mieux apprendre d'un bloc : « hal yumkinuni an », est-ce que je peux. Vous connaissez déjà « hal », le mot qui transforme une phrase en question. « Yumkinuni » veut dire littéralement : il m'est possible, avec « ni », moi, collé à la fin. Puis vient « an », que, suivi du verbe au présent, avec un petit « a » final. Notre phrase « hal yumkinuni an akhudha kharitatan » se dit donc mot à mot : est-ce que, il m'est possible, que je prenne, un plan. Pour dire nous, on remplace « ni » par « na » : « hal yumkinuna », est-ce que nous pouvons. Pour demander à quelqu'un, on dit « hal yumkinuka », est-ce que tu peux. Astuce : prononcez la formule comme un seul long mot, et changez seulement le verbe à la fin."
   }
  },
  {
-  "title": "Au Kinkaku-ji, le pavillon d'or",
+  "title": "Un bagage égaré et un train en retard",
   "phrases": [
    {
-    "fr": "Le Kinkaku-ji est vraiment beau.",
-    "ja": "金閣寺は本当にきれいです。",
-    "ro": "Kinkakuji wa hontō ni kirei desu.",
-    "lit": "Kinkaku-ji · [thème] · vraiment · beau · être (poli)"
+    "fr": "Ma valise a disparu.",
+    "ar": "حَقِيبَتِي ضَائِعَةٌ.",
+    "ro": "Ḥaqībatī ḍāʾiʿatun.",
+    "lit": "valise-de-moi · perdue"
    },
    {
-    "fr": "Il est couleur or.",
-    "ja": "金色です。",
-    "ro": "Kin'iro desu.",
-    "lit": "or-couleur · être (poli)"
+    "fr": "Elle est rouge et grande.",
+    "ar": "هِيَ حَمْرَاءُ وَكَبِيرَةٌ.",
+    "ro": "Hiya ḥamrāʾu wa-kabīratun.",
+    "lit": "elle · rouge · [et] grande"
    },
    {
-    "fr": "L'étang est très calme.",
-    "ja": "池はとても静かです。",
-    "ro": "Ike wa totemo shizuka desu.",
-    "lit": "étang · [thème] · très · calme · être (poli)"
+    "fr": "Voici mon nom et mon adresse.",
+    "ar": "هَذَا اسْمِي وَعُنْوَانِي.",
+    "ro": "Hādhā smī wa-ʿunwānī.",
+    "lit": "ceci · nom-de-moi · [et] adresse-de-moi"
    },
    {
-    "fr": "On prend une photo ?",
-    "ja": "写真を撮りましょうか？",
-    "ro": "Shashin o torimashō ka?",
-    "lit": "photo · [objet] · prendre (proposition) · [question]"
+    "fr": "Mon riad est dans la médina de Marrakech.",
+    "ar": "رِيَاضِي فِي مَدِينَةِ مُرَّاكُشَ الْقَدِيمَةِ.",
+    "ro": "Riyāḍī fī madīnati Murrākusha l-qadīmati.",
+    "lit": "riad-de-moi · dans · ville · [de] Marrakech · l'ancienne"
    },
    {
-    "fr": "Aujourd'hui, il y a beaucoup de touristes.",
-    "ja": "今日は観光客が多いです。",
-    "ro": "Kyō wa kankōkyaku ga ōi desu.",
-    "lit": "aujourd'hui · [thème] · touristes · [sujet] · nombreux · être (poli)"
+    "fr": "Nous allons chercher votre valise.",
+    "ar": "سَنَبْحَثُ عَنْ حَقِيبَتِكَ.",
+    "ro": "Sanabḥathu ʿan ḥaqībatika.",
+    "lit": "nous-chercherons · [après] · valise-de-toi"
    },
    {
-    "fr": "On n'entre pas dans le pavillon.",
-    "ja": "建物には入りません。",
-    "ro": "Tatemono ni wa hairimasen.",
-    "lit": "bâtiment · [direction] · [thème] · entrer (négatif, poli)"
+    "fr": "Elle arrivera demain matin.",
+    "ar": "سَتَصِلُ غَدًا صَبَاحًا.",
+    "ro": "Sataṣilu ghadan ṣabāḥan.",
+    "lit": "elle-arrivera · demain · matin"
    },
    {
-    "fr": "Le jardin aussi est magnifique.",
-    "ja": "庭もすばらしいです。",
-    "ro": "Niwa mo subarashii desu.",
-    "lit": "jardin · [aussi] · magnifique · être (poli)"
+    "fr": "Le train pour Casablanca est en retard.",
+    "ar": "قِطَارُ الدَّارِ الْبَيْضَاءِ مُتَأَخِّرٌ.",
+    "ro": "Qiṭāru d-Dāri l-Bayḍāʾi mutaʾakhkhirun.",
+    "lit": "train · [de] Casablanca · en-retard"
    },
    {
-    "fr": "Et si on achetait une amulette ?",
-    "ja": "お守りを買いませんか？",
-    "ro": "Omamori o kaimasen ka?",
-    "lit": "honorable-protection · [objet] · acheter (négatif, poli) · [question]"
+    "fr": "Il a une heure de retard.",
+    "ar": "هُوَ مُتَأَخِّرٌ سَاعَةً.",
+    "ro": "Huwa mutaʾakhkhirun sāʿatan.",
+    "lit": "lui · en-retard · heure"
    },
    {
-    "fr": "Cette amulette coûte huit cents yens.",
-    "ja": "このお守りは八百円です。",
-    "ro": "Kono omamori wa happyaku en desu.",
-    "lit": "ce · honorable-protection · [thème] · huit-cents-yens · être (poli)"
+    "fr": "Pas de problème, nous attendons.",
+    "ar": "لَا بَأْسَ، نَنْتَظِرُ.",
+    "ro": "Lā baʾsa, nantaẓiru.",
+    "lit": "[pas] · mal, · nous-attendons"
    },
    {
-    "fr": "C'est un joli souvenir de Kyoto.",
-    "ja": "京都のいいお土産です。",
-    "ro": "Kyōto no ii omiyage desu.",
-    "lit": "Kyoto · [possessif] · bon · souvenir-cadeau · être (poli)"
+    "fr": "Les imprévus font partie du voyage.",
+    "ar": "الْمُفَاجَآتُ جُزْءٌ مِنَ السَّفَرِ.",
+    "ro": "Al-mufājaʾātu juzʾun mina s-safari.",
+    "lit": "les-surprises · partie · de · le-voyage"
    }
   ]
  },
  {
-  "title": "Les mille torii de Fushimi Inari",
+  "title": "Fin du module : un bilan",
   "phrases": [
    {
-    "fr": "De Kyoto à Inari, c'est à deux gares.",
-    "ja": "京都から稲荷まで二駅です。",
-    "ro": "Kyōto kara Inari made futaeki desu.",
-    "lit": "Kyoto · [de… à… : depuis] · Inari · [de… à… : jusqu'à] · deux-gares · être (poli)"
+    "fr": "Il est trois heures.",
+    "ar": "السَّاعَةُ الثَّالِثَةُ.",
+    "ro": "As-sāʿatu th-thālithatu.",
+    "lit": "l'heure · la-troisième"
    },
    {
-    "fr": "En train, c'est cinq minutes.",
-    "ja": "電車で五分です。",
-    "ro": "Densha de gofun desu.",
-    "lit": "train · [moyen] · cinq-minutes · être (poli)"
+    "fr": "Mon avion décolle à cinq heures.",
+    "ar": "تُقْلِعُ طَائِرَتِي فِي السَّاعَةِ الْخَامِسَةِ.",
+    "ro": "Tuqliʿu ṭāʾiratī fī s-sāʿati l-khāmisati.",
+    "lit": "elle-décolle · avion-de-moi · dans · l'heure · la-cinquième"
    },
    {
-    "fr": "La gare est juste devant le sanctuaire.",
-    "ja": "駅は神社の前です。",
-    "ro": "Eki wa jinja no mae desu.",
-    "lit": "gare · [thème] · sanctuaire · [possessif] · devant · être (poli)"
+    "fr": "Quelle heure est-il à Marrakech ?",
+    "ar": "كَمِ السَّاعَةُ فِي مُرَّاكُشَ؟",
+    "ro": "Kami s-sāʿatu fī Murrākusha?",
+    "lit": "combien · l'heure · dans · Marrakech ?"
    },
    {
-    "fr": "Il y a énormément de torii.",
-    "ja": "鳥居がたくさんあります。",
-    "ro": "Torii ga takusan arimasu.",
-    "lit": "torii · [sujet] · beaucoup · il y a (objets, poli)"
+    "fr": "Il est quatre heures et demie.",
+    "ar": "السَّاعَةُ الرَّابِعَةُ وَالنِّصْفُ.",
+    "ro": "As-sāʿatu r-rābiʿatu wa-n-niṣfu.",
+    "lit": "l'heure · la-quatrième · [et] la-moitié"
    },
    {
-    "fr": "Ils sont tous orange.",
-    "ja": "全部オレンジ色です。",
-    "ro": "Zenbu orenji iro desu.",
-    "lit": "tout · orange-couleur · être (poli)"
+    "fr": "Mon voyage au Maroc était magnifique.",
+    "ar": "كَانَتْ رِحْلَتِي إِلَى الْمَغْرِبِ رَائِعَةً.",
+    "ro": "Kānat riḥlatī ilā l-Maghribi rāʾiʿatan.",
+    "lit": "elle-était · voyage-de-moi · vers · le-Maroc · magnifique"
    },
    {
-    "fr": "On monte jusqu'en haut de la montagne ?",
-    "ja": "山の上まで登りましょうか？",
-    "ro": "Yama no ue made noborimashō ka?",
-    "lit": "montagne · [possessif] · dessus · [de… à… : jusqu'à] · grimper (proposition) · [question]"
+    "fr": "J'ai appris beaucoup de mots en arabe.",
+    "ar": "تَعَلَّمْتُ كَلِمَاتٍ كَثِيرَةً بِالْعَرَبِيَّةِ.",
+    "ro": "Taʿallamtu kalimātin kathīratan bi-l-ʿarabiyyati.",
+    "lit": "j'ai-appris · mots · nombreux · en · l'arabe"
    },
    {
-    "fr": "Du bas jusqu'en haut, ça prend deux heures.",
-    "ja": "下から上まで二時間かかります。",
-    "ro": "Shita kara ue made nijikan kakarimasu.",
-    "lit": "bas · [de… à… : depuis] · haut · [de… à… : jusqu'à] · deux-heures (durée) · prendre du temps (poli)"
+    "fr": "Maintenant, je parle un peu l'arabe.",
+    "ar": "الْآنَ أَتَكَلَّمُ الْعَرَبِيَّةَ قَلِيلًا.",
+    "ro": "Al-āna atakallamu l-ʿarabiyyata qalīlan.",
+    "lit": "maintenant · je-parle · l'arabe · un-peu"
    },
    {
-    "fr": "Les boutiques ouvrent de neuf heures à cinq heures.",
-    "ja": "店は九時から五時までです。",
-    "ro": "Mise wa kuji kara goji made desu.",
-    "lit": "boutique · [thème] · neuf-heures · [de… à… : depuis] · cinq-heures · [de… à… : jusqu'à] · être (poli)"
+    "fr": "Le prochain module parle de rencontres.",
+    "ar": "الْوَحْدَةُ الْقَادِمَةُ عَنِ اللِّقَاءَاتِ.",
+    "ro": "Al-waḥdatu l-qādimatu ʿani l-liqāʾāti.",
+    "lit": "le-module · le-prochain · sur · les-rencontres"
    },
    {
-    "fr": "Et si on se reposait ici ?",
-    "ja": "ここで休みましょうか？",
-    "ro": "Koko de yasumimashō ka?",
-    "lit": "ici · [lieu] · se reposer (proposition) · [question]"
+    "fr": "Je reviendrai au Maroc un jour.",
+    "ar": "سَأَعُودُ إِلَى الْمَغْرِبِ يَوْمًا مَا.",
+    "ro": "Saʾaʿūdu ilā l-Maghribi yawman mā.",
+    "lit": "je-reviendrai · vers · le-Maroc · jour · [un]"
    },
    {
-    "fr": "D'ici, la vue est superbe.",
-    "ja": "ここからの景色はすばらしいです。",
-    "ro": "Koko kara no keshiki wa subarashii desu.",
-    "lit": "ici · [de… à… : depuis] · [possessif] · paysage · [thème] · superbe · être (poli)"
+    "fr": "À bientôt pour la suite !",
+    "ar": "إِلَى اللِّقَاءِ قَرِيبًا!",
+    "ro": "Ilā l-liqāʾi qarīban!",
+    "lit": "à · la-rencontre · bientôt !"
    }
   ],
   "tip": {
-   "title": "« Kara » et « made » : de… à…",
-   "example": "Du bas jusqu'en haut, ça prend deux heures. — 下<b>から</b>上<b>まで</b>二時間かかります。",
-   "exampleRo": "Shita kara ue made nijikan kakarimasu.",
-   "lit": "bas · [de… à… : depuis] · haut · [de… à… : jusqu'à] · deux-heures (durée) · prendre du temps (poli)",
-   "body": "Pour dire « de… à… », le japonais utilise deux particules : « kara », qui marque le point de départ, et « made », qui marque le point d'arrivée. Comme toutes les particules, elles se placent après le mot, et non avant comme nos prépositions. On dit donc « Kyōto kara », littéralement Kyoto depuis, et « Inari made », Inari jusqu'à. « Shita kara ue made nijikan kakarimasu » se décompose ainsi : bas, depuis, haut, jusqu'à, deux heures, ça prend. Le plus pratique, c'est que cela marche aussi bien pour les lieux que pour les heures : « Kuji kara goji made desu », c'est de neuf heures à cinq heures. On peut aussi les utiliser seuls : « Kyōto eki made onegaishimasu », jusqu'à la gare de Kyoto, s'il vous plaît, est la phrase idéale en taxi. Une astuce pour retenir l'ordre : « kara » comme un car qui démarre, « made » comme un arrêt bien marqué au bout du trajet."
-  }
- },
- {
-  "title": "Une soirée à Gion",
-  "phrases": [
-   {
-    "fr": "Ce soir, on va à Gion.",
-    "ja": "今晩、祇園へ行きます。",
-    "ro": "Konban, Gion e ikimasu.",
-    "lit": "ce soir · Gion · [direction] · aller (poli)"
-   },
-   {
-    "fr": "Les vieilles maisons sont très belles.",
-    "ja": "古い家はとてもきれいです。",
-    "ro": "Furui ie wa totemo kirei desu.",
-    "lit": "vieux · maison · [thème] · très · beau · être (poli)"
-   },
-   {
-    "fr": "Regarde, il y a une maiko là-bas !",
-    "ja": "あそこに舞妓さんがいます！",
-    "ro": "Asoko ni maiko san ga imasu!",
-    "lit": "là-bas · [lieu] · maiko · madame · [sujet] · il y a (vivants, poli)"
-   },
-   {
-    "fr": "Dans cette rue, les photos sont interdites.",
-    "ja": "この道では写真はだめです。",
-    "ro": "Kono michi de wa shashin wa dame desu.",
-    "lit": "ce · rue · [lieu] · [thème] · photo · [thème] · interdit · être (poli)"
-   },
-   {
-    "fr": "On dîne dans un petit restaurant.",
-    "ja": "小さいレストランで晩ご飯を食べます。",
-    "ro": "Chiisai resutoran de bangohan o tabemasu.",
-    "lit": "petit · restaurant · [lieu] · dîner · [objet] · manger (poli)"
-   },
-   {
-    "fr": "Le tofu de Kyoto est délicieux.",
-    "ja": "京都の豆腐はおいしいです。",
-    "ro": "Kyōto no tōfu wa oishii desu.",
-    "lit": "Kyoto · [possessif] · tofu · [thème] · délicieux · être (poli)"
-   },
-   {
-    "fr": "Le saké aussi est bon.",
-    "ja": "お酒もおいしいです。",
-    "ro": "Osake mo oishii desu.",
-    "lit": "honorable-alcool · [aussi] · bon · être (poli)"
-   },
-   {
-    "fr": "Je ne bois pas beaucoup.",
-    "ja": "あまり飲みません。",
-    "ro": "Amari nomimasen.",
-    "lit": "pas beaucoup · boire (négatif, poli)"
-   },
-   {
-    "fr": "La rivière Kamo est juste là.",
-    "ja": "鴨川はすぐそこです。",
-    "ro": "Kamogawa wa sugu soko desu.",
-    "lit": "Kamo-rivière · [thème] · tout près · là · être (poli)"
-   },
-   {
-    "fr": "Et si on marchait un peu ?",
-    "ja": "少し歩きませんか？",
-    "ro": "Sukoshi arukimasen ka?",
-    "lit": "un peu · marcher (négatif, poli) · [question]"
-   }
-  ]
- },
- {
-  "title": "Une journée chez les daims de Nara",
-  "phrases": [
-   {
-    "fr": "Hier, je suis allé à Nara.",
-    "ja": "昨日、奈良へ行きました。",
-    "ro": "Kinō, Nara e ikimashita.",
-    "lit": "hier · Nara · [direction] · aller (passé, poli)"
-   },
-   {
-    "fr": "J'ai vu beaucoup de daims.",
-    "ja": "鹿をたくさん見ました。",
-    "ro": "Shika o takusan mimashita.",
-    "lit": "daim · [objet] · beaucoup · voir (passé, poli)"
-   },
-   {
-    "fr": "J'ai acheté des galettes pour les daims.",
-    "ja": "鹿せんべいを買いました。",
-    "ro": "Shika senbei o kaimashita.",
-    "lit": "daim-galette · [objet] · acheter (passé, poli)"
-   },
-   {
-    "fr": "Un daim a fait une révérence.",
-    "ja": "鹿がおじぎをしました。",
-    "ro": "Shika ga ojigi o shimashita.",
-    "lit": "daim · [sujet] · révérence · [objet] · faire (passé, poli)"
-   },
-   {
-    "fr": "Ensuite, j'ai vu le Tōdai-ji.",
-    "ja": "それから、東大寺を見ました。",
-    "ro": "Sorekara, Tōdaiji o mimashita.",
-    "lit": "ensuite · Tōdai-ji · [objet] · voir (passé, poli)"
-   },
-   {
-    "fr": "Le grand bouddha est immense.",
-    "ja": "大仏はとても大きいです。",
-    "ro": "Daibutsu wa totemo ōkii desu.",
-    "lit": "grand-bouddha · [thème] · très · grand · être (poli)"
-   },
-   {
-    "fr": "Je n'ai pas pris de photo.",
-    "ja": "写真は撮りませんでした。",
-    "ro": "Shashin wa torimasen deshita.",
-    "lit": "photo · [thème] · prendre (négatif passé, poli)"
-   },
-   {
-    "fr": "Je n'ai pas mangé à midi.",
-    "ja": "昼ご飯は食べませんでした。",
-    "ro": "Hirugohan wa tabemasen deshita.",
-    "lit": "déjeuner · [thème] · manger (négatif passé, poli)"
-   },
-   {
-    "fr": "Je suis rentré à Kyoto à six heures.",
-    "ja": "六時に京都へ帰りました。",
-    "ro": "Rokuji ni Kyōto e kaerimashita.",
-    "lit": "six-heures · [moment] · Kyoto · [direction] · rentrer (passé, poli)"
-   },
-   {
-    "fr": "C'était une très bonne journée.",
-    "ja": "とてもいい一日でした。",
-    "ro": "Totemo ii ichinichi deshita.",
-    "lit": "très · bon · une-journée · être (passé, poli)"
-   }
-  ],
-  "tip": {
-   "title": "Le passé poli : « -mashita » et « -masen deshita »",
-   "example": "J'ai vu beaucoup de daims. — 鹿をたくさん<b>見ました</b>。",
-   "exampleRo": "Shika o takusan mimashita.",
-   "lit": "daim · [objet] · beaucoup · voir (passé, poli)",
-   "body": "Bonne nouvelle : le passé poli japonais est très régulier. Il suffit de remplacer la terminaison « -masu » par « -mashita ». « Mimasu », je vois, devient « mimashita », j'ai vu ; « ikimasu », je vais, devient « ikimashita », je suis allé. Pour la négation, on part de « -masen » et on ajoute simplement « deshita » : « tabemasen », je ne mange pas, devient « tabemasen deshita », je n'ai pas mangé. « Shika o takusan mimashita » se dit littéralement : daim, objet, beaucoup, avoir vu poliment. Et comme en japonais le verbe ne change jamais selon la personne, « mimashita » veut dire aussi bien j'ai vu, tu as vu ou nous avons vu : c'est le contexte qui décide. Enfin, « desu » a lui aussi son passé : « deshita », c'était, comme dans « Ii ichinichi deshita », c'était une bonne journée. Une astuce pour retenir : « shita » sonne comme une porte qui se referme, l'action est terminée."
-  }
- },
- {
-  "title": "Un bagage égaré",
-  "phrases": [
-   {
-    "fr": "Excusez-moi, ma valise n'est pas arrivée.",
-    "ja": "すみません、スーツケースが来ませんでした。",
-    "ro": "Sumimasen, sūtsukēsu ga kimasen deshita.",
-    "lit": "excusez-moi · valise · [sujet] · venir (négatif passé, poli)"
-   },
-   {
-    "fr": "Votre nom, s'il vous plaît.",
-    "ja": "お名前をお願いします。",
-    "ro": "Onamae o onegaishimasu.",
-    "lit": "honorable-nom · [objet] · s'il vous plaît (poli)"
-   },
-   {
-    "fr": "Je m'appelle Claire Dubois.",
-    "ja": "クレール・デュボワです。",
-    "ro": "Kurēru Dyubowa desu.",
-    "lit": "Claire Dubois · être (poli)"
-   },
-   {
-    "fr": "La valise est de quelle couleur ?",
-    "ja": "スーツケースは何色ですか？",
-    "ro": "Sūtsukēsu wa naniiro desu ka?",
-    "lit": "valise · [thème] · quelle-couleur · être (poli) · [question]"
-   },
-   {
-    "fr": "Elle est bleue.",
-    "ja": "青いです。",
-    "ro": "Aoi desu.",
-    "lit": "bleu · être (poli)"
-   },
-   {
-    "fr": "Et elle est assez grande.",
-    "ja": "かなり大きいです。",
-    "ro": "Kanari ōkii desu.",
-    "lit": "assez · grand · être (poli)"
-   },
-   {
-    "fr": "J'ai pris l'avion à Paris.",
-    "ja": "パリで飛行機に乗りました。",
-    "ro": "Pari de hikōki ni norimashita.",
-    "lit": "Paris · [lieu] · avion · [dans] · monter (passé, poli)"
-   },
-   {
-    "fr": "Nous la livrerons à votre hôtel demain.",
-    "ja": "明日、ホテルに届けます。",
-    "ro": "Ashita, hoteru ni todokemasu.",
-    "lit": "demain · hôtel · [direction] · livrer (poli)"
-   },
-   {
-    "fr": "Voici l'adresse de mon hôtel.",
-    "ja": "これはホテルの住所です。",
-    "ro": "Kore wa hoteru no jūsho desu.",
-    "lit": "ceci · [thème] · hôtel · [possessif] · adresse · être (poli)"
-   },
-   {
-    "fr": "Merci, me voilà rassurée.",
-    "ja": "ありがとうございます。安心しました。",
-    "ro": "Arigatō gozaimasu. Anshin shimashita.",
-    "lit": "merci (très poli) · soulagement · faire (passé, poli)"
-   }
-  ]
- },
- {
-  "title": "Dōtonbori, le soir",
-  "phrases": [
-   {
-    "fr": "Je veux voir Dōtonbori.",
-    "ja": "道頓堀を見たいです。",
-    "ro": "Dōtonbori o mitai desu.",
-    "lit": "Dōtonbori · [objet] · voir-vouloir · être (poli)"
-   },
-   {
-    "fr": "Les néons sont vraiment lumineux.",
-    "ja": "ネオンは本当に明るいです。",
-    "ro": "Neon wa hontō ni akarui desu.",
-    "lit": "néon · [thème] · vraiment · lumineux · être (poli)"
-   },
-   {
-    "fr": "Je veux une photo devant la grande enseigne.",
-    "ja": "大きい看板の前で写真を撮りたいです。",
-    "ro": "Ōkii kanban no mae de shashin o toritai desu.",
-    "lit": "grand · enseigne · [possessif] · devant · [lieu] · photo · [objet] · prendre-vouloir · être (poli)"
-   },
-   {
-    "fr": "J'ai un petit creux.",
-    "ja": "おなかがすきました。",
-    "ro": "Onaka ga sukimashita.",
-    "lit": "ventre · [sujet] · se vider (passé, poli)"
-   },
-   {
-    "fr": "Qu'est-ce que tu veux manger ?",
-    "ja": "何を食べたいですか？",
-    "ro": "Nani o tabetai desu ka?",
-    "lit": "quoi · [objet] · manger-vouloir · être (poli) · [question]"
-   },
-   {
-    "fr": "Je veux manger des takoyaki.",
-    "ja": "たこ焼きを食べたいです。",
-    "ro": "Takoyaki o tabetai desu.",
-    "lit": "takoyaki · [objet] · manger-vouloir · être (poli)"
-   },
-   {
-    "fr": "Moi, je veux boire une bière.",
-    "ja": "私はビールを飲みたいです。",
-    "ro": "Watashi wa bīru o nomitai desu.",
-    "lit": "moi · [thème] · bière · [objet] · boire-vouloir · être (poli)"
-   },
-   {
-    "fr": "Je ne veux pas faire une longue queue.",
-    "ja": "長い列には並びたくないです。",
-    "ro": "Nagai retsu ni wa narabitakunai desu.",
-    "lit": "long · file · [lieu] · [thème] · faire-la-queue-ne-pas-vouloir · être (poli)"
-   },
-   {
-    "fr": "Je veux monter sur le bateau.",
-    "ja": "船に乗りたいです。",
-    "ro": "Fune ni noritai desu.",
-    "lit": "bateau · [dans] · monter-vouloir · être (poli)"
-   },
-   {
-    "fr": "Osaka est vraiment animée.",
-    "ja": "大阪は本当ににぎやかです。",
-    "ro": "Ōsaka wa hontō ni nigiyaka desu.",
-    "lit": "Osaka · [thème] · vraiment · animé · être (poli)"
-   }
-  ],
-  "tip": {
-   "title": "« -tai desu » : dire ce qu'on veut faire",
-   "example": "Je veux manger des takoyaki. — たこ焼きを<b>食べたい</b>です。",
-   "exampleRo": "Takoyaki o tabetai desu.",
-   "lit": "takoyaki · [objet] · manger-vouloir · être (poli)",
-   "body": "Pour dire « je veux faire quelque chose », le japonais n'utilise pas un verbe vouloir séparé : il colle l'envie directement au verbe. On prend la forme en « -masu », on enlève « -masu », et on met « -tai » à la place. « Tabemasu », manger, devient « tabetai », vouloir manger ; « mimasu », voir, devient « mitai », vouloir voir. On ajoute ensuite « desu » pour rester poli. « Takoyaki o tabetai desu » se dit littéralement : takoyaki, objet, manger-vouloir, être poli. Pour la négation, « -tai » devient « -takunai » : « Narabitakunai desu », je ne veux pas faire la queue. Et pour demander à quelqu'un ce qu'il veut, on ajoute simplement « ka » : « Nani o tabetai desu ka ? », qu'est-ce que tu veux manger ? Attention, on utilise surtout « -tai » pour parler de soi, ou dans une question directe à la personne concernée. Une astuce pour retenir : « tai » ressemble à « j'ai envie », un petit cri de désir au bout du verbe."
-  }
- },
- {
-  "title": "Takoyaki et okonomiyaki",
-  "phrases": [
-   {
-    "fr": "Deux barquettes de takoyaki, s'il vous plaît.",
-    "ja": "たこ焼きを二つください。",
-    "ro": "Takoyaki o futatsu kudasai.",
-    "lit": "takoyaki · [objet] · deux (objets) · donnez-moi"
-   },
-   {
-    "fr": "Attention, c'est brûlant !",
-    "ja": "とても熱いです！",
-    "ro": "Totemo atsui desu!",
-    "lit": "très · chaud · être (poli)"
-   },
-   {
-    "fr": "À l'intérieur, c'est du poulpe.",
-    "ja": "中はたこです。",
-    "ro": "Naka wa tako desu.",
-    "lit": "intérieur · [thème] · poulpe · être (poli)"
-   },
-   {
-    "fr": "Ce soir, on mange des okonomiyaki.",
-    "ja": "今晩はお好み焼きを食べます。",
-    "ro": "Konban wa okonomiyaki o tabemasu.",
-    "lit": "ce soir · [thème] · okonomiyaki · [objet] · manger (poli)"
-   },
-   {
-    "fr": "On les fait cuire soi-même.",
-    "ja": "自分で焼きます。",
-    "ro": "Jibun de yakimasu.",
-    "lit": "soi-même · [moyen] · faire cuire (poli)"
-   },
-   {
-    "fr": "Je mets du chou et du porc.",
-    "ja": "キャベツと豚肉を入れます。",
-    "ro": "Kyabetsu to butaniku o iremasu.",
-    "lit": "chou · [et] · porc · [objet] · mettre (poli)"
-   },
-   {
-    "fr": "Ensuite, on verse la sauce.",
-    "ja": "それから、ソースをかけます。",
-    "ro": "Sorekara, sōsu o kakemasu.",
-    "lit": "ensuite · sauce · [objet] · verser (poli)"
-   },
-   {
-    "fr": "Ça sent vraiment bon.",
-    "ja": "いいにおいです。",
-    "ro": "Ii nioi desu.",
-    "lit": "bon · odeur · être (poli)"
-   },
-   {
-    "fr": "C'est la spécialité d'Osaka.",
-    "ja": "大阪の名物です。",
-    "ro": "Ōsaka no meibutsu desu.",
-    "lit": "Osaka · [possessif] · spécialité · être (poli)"
-   },
-   {
-    "fr": "J'ai envie d'en remanger demain.",
-    "ja": "明日もまた食べたいです。",
-    "ro": "Ashita mo mata tabetai desu.",
-    "lit": "demain · [aussi] · encore · manger-vouloir · être (poli)"
-   }
-  ]
- },
- {
-  "title": "À la pharmacie",
-  "phrases": [
-   {
-    "fr": "Il y a une pharmacie près d'ici ?",
-    "ja": "この近くに薬局がありますか？",
-    "ro": "Kono chikaku ni yakkyoku ga arimasu ka?",
-    "lit": "ce · environs · [lieu] · pharmacie · [sujet] · il y a (objets, poli) · [question]"
-   },
-   {
-    "fr": "Oui, à côté de la gare.",
-    "ja": "はい、駅の隣にあります。",
-    "ro": "Hai, eki no tonari ni arimasu.",
-    "lit": "oui · gare · [possessif] · à côté · [lieu] · se trouver (objets, poli)"
-   },
-   {
-    "fr": "J'ai mal à la tête.",
-    "ja": "頭が痛いです。",
-    "ro": "Atama ga itai desu.",
-    "lit": "tête · [sujet] · douloureux · être (poli)"
-   },
-   {
-    "fr": "J'ai aussi un peu de fièvre.",
-    "ja": "少し熱もあります。",
-    "ro": "Sukoshi netsu mo arimasu.",
-    "lit": "un peu · fièvre · [aussi] · il y a (objets, poli)"
-   },
-   {
-    "fr": "Depuis quand ?",
-    "ja": "いつからですか？",
-    "ro": "Itsu kara desu ka?",
-    "lit": "quand · [de… à… : depuis] · être (poli) · [question]"
-   },
-   {
-    "fr": "Depuis hier soir.",
-    "ja": "昨日の夜からです。",
-    "ro": "Kinō no yoru kara desu.",
-    "lit": "hier · [possessif] · soir · [de… à… : depuis] · être (poli)"
-   },
-   {
-    "fr": "C'est ce médicament-ci qu'il vous faut.",
-    "ja": "この薬がいいです。",
-    "ro": "Kono kusuri ga ii desu.",
-    "lit": "ce · médicament · [sujet] · bon · être (poli)"
-   },
-   {
-    "fr": "On en prend un après chaque repas.",
-    "ja": "食後に一錠飲みます。",
-    "ro": "Shokugo ni ichijō nomimasu.",
-    "lit": "après-repas · [moment] · un-comprimé · avaler (poli)"
-   },
-   {
-    "fr": "Mon ami, lui, a mal au ventre.",
-    "ja": "友達はおなかが痛いです。",
-    "ro": "Tomodachi wa onaka ga itai desu.",
-    "lit": "ami · [thème] · ventre · [sujet] · douloureux · être (poli)"
-   },
-   {
-    "fr": "Qui va à la pharmacie ?",
-    "ja": "誰が薬局へ行きますか？",
-    "ro": "Dare ga yakkyoku e ikimasu ka?",
-    "lit": "qui · [sujet] · pharmacie · [direction] · aller (poli) · [question]"
-   }
-  ],
-  "tip": {
-   "title": "« Ga » : la particule du sujet, et la différence avec « wa »",
-   "example": "J'ai mal à la tête. — 頭<b>が</b>痛いです。",
-   "exampleRo": "Atama ga itai desu.",
-   "lit": "tête · [sujet] · douloureux · être (poli)",
-   "body": "Vous connaissez « wa », qui annonce le thème, ce dont on parle, un peu comme « quant à ». « Ga », lui, désigne le sujet précis d'une action ou d'un état, souvent une information nouvelle sur laquelle on met l'accent. « Atama ga itai desu » se dit littéralement : tête, sujet, douloureux, être poli ; autrement dit, c'est la tête qui fait mal. Les deux peuvent même cohabiter : « Tomodachi wa onaka ga itai desu », quant à mon ami, c'est le ventre qui lui fait mal. Retenez trois cas où « ga » s'impose : après un mot interrogatif, comme « Dare ga ikimasu ka ? », qui y va ; avec « arimasu » et « imasu » pour dire ce qui se trouve quelque part, comme « Yakkyoku ga arimasu » ; et pour les sensations, comme « Onaka ga itai desu ». Dans le doute, pas de panique : on vous comprendra toujours, même si vous confondez. Une astuce pour retenir : « wa » allume le décor de la scène, « ga » pointe le doigt sur l'acteur."
-  }
- },
- {
-  "title": "Changer de l'argent",
-  "phrases": [
-   {
-    "fr": "Je voudrais changer des euros en yens.",
-    "ja": "ユーロを円に両替したいです。",
-    "ro": "Yūro o en ni ryōgae shitai desu.",
-    "lit": "euro · [objet] · yen · [direction] · change · faire-vouloir · être (poli)"
-   },
-   {
-    "fr": "Le bureau de change est au premier étage.",
-    "ja": "両替所は二階です。",
-    "ro": "Ryōgaejo wa nikai desu.",
-    "lit": "bureau-de-change · [thème] · deuxième-niveau · être (poli)"
-   },
-   {
-    "fr": "Cent euros, ça fait combien de yens ?",
-    "ja": "百ユーロは何円ですか？",
-    "ro": "Hyaku yūro wa nan'en desu ka?",
-    "lit": "cent-euros · [thème] · combien-de-yens · être (poli) · [question]"
-   },
-   {
-    "fr": "Environ seize mille yens.",
-    "ja": "約一万六千円です。",
-    "ro": "Yaku ichiman rokusen en desu.",
-    "lit": "environ · seize-mille-yens · être (poli)"
-   },
-   {
-    "fr": "Au Japon, on paie souvent en liquide.",
-    "ja": "日本では現金をよく使います。",
-    "ro": "Nihon de wa genkin o yoku tsukaimasu.",
-    "lit": "Japon · [lieu] · [thème] · argent-liquide · [objet] · souvent · utiliser (poli)"
-   },
-   {
-    "fr": "Il y a une banque près de la gare.",
-    "ja": "駅の近くに銀行があります。",
-    "ro": "Eki no chikaku ni ginkō ga arimasu.",
-    "lit": "gare · [possessif] · environs · [lieu] · banque · [sujet] · il y a (objets, poli)"
-   },
-   {
-    "fr": "Cette carte ne marche pas ?",
-    "ja": "このカードはだめですか？",
-    "ro": "Kono kādo wa dame desu ka?",
-    "lit": "ce · carte · [thème] · pas bon · être (poli) · [question]"
-   },
-   {
-    "fr": "Alors je paie en espèces.",
-    "ja": "じゃあ、現金で払います。",
-    "ro": "Jā, genkin de haraimasu.",
-    "lit": "alors · argent-liquide · [moyen] · payer (poli)"
-   },
-   {
-    "fr": "Je n'ai pas de petite monnaie.",
-    "ja": "小銭がありません。",
-    "ro": "Kozeni ga arimasen.",
-    "lit": "petite-monnaie · [sujet] · il y a (négatif, poli)"
-   },
-   {
-    "fr": "Un billet de dix mille yens, ça va ?",
-    "ja": "一万円札でいいですか？",
-    "ro": "Ichiman en satsu de ii desu ka?",
-    "lit": "dix-mille-yens-billet · [moyen] · bien · être (poli) · [question]"
-   }
-  ]
- },
- {
-  "title": "En bus ou en taxi ?",
-  "phrases": [
-   {
-    "fr": "Je vais à l'hôtel en bus.",
-    "ja": "バスでホテルへ行きます。",
-    "ro": "Basu de hoteru e ikimasu.",
-    "lit": "bus · [moyen] · hôtel · [direction] · aller (poli)"
-   },
-   {
-    "fr": "L'arrêt de bus est en face.",
-    "ja": "バス停は向こうです。",
-    "ro": "Basutei wa mukō desu.",
-    "lit": "bus-arrêt · [thème] · en face · être (poli)"
-   },
-   {
-    "fr": "Le bus coûte deux cent trente yens.",
-    "ja": "バスは二百三十円です。",
-    "ro": "Basu wa nihyaku sanjū en desu.",
-    "lit": "bus · [thème] · deux-cent-trente-yens · être (poli)"
-   },
-   {
-    "fr": "On monte par la porte arrière.",
-    "ja": "後ろのドアから乗ります。",
-    "ro": "Ushiro no doa kara norimasu.",
-    "lit": "arrière · [possessif] · porte · [de… à… : depuis] · monter (poli)"
-   },
-   {
-    "fr": "Oh non, le bus est plein.",
-    "ja": "あ、バスは満員です。",
-    "ro": "A, basu wa man'in desu.",
-    "lit": "oh · bus · [thème] · plein · être (poli)"
-   },
-   {
-    "fr": "Alors, prenons un taxi.",
-    "ja": "じゃあ、タクシーに乗りましょう。",
-    "ro": "Jā, takushī ni norimashō.",
-    "lit": "alors · taxi · [dans] · monter (proposition)"
-   },
-   {
-    "fr": "La portière est automatique.",
-    "ja": "ドアは自動です。",
-    "ro": "Doa wa jidō desu.",
-    "lit": "portière · [thème] · automatique · être (poli)"
-   },
-   {
-    "fr": "À la gare de Kyoto, s'il vous plaît.",
-    "ja": "京都駅までお願いします。",
-    "ro": "Kyōto eki made onegaishimasu.",
-    "lit": "Kyoto-gare · [de… à… : jusqu'à] · s'il vous plaît (poli)"
-   },
-   {
-    "fr": "La carte de crédit, c'est possible ?",
-    "ja": "クレジットカードは大丈夫ですか？",
-    "ro": "Kurejitto kādo wa daijōbu desu ka?",
-    "lit": "carte-de-crédit · [thème] · ça va · être (poli) · [question]"
-   },
-   {
-    "fr": "Oui, aucun problème.",
-    "ja": "はい、大丈夫です。",
-    "ro": "Hai, daijōbu desu.",
-    "lit": "oui · ça va · être (poli)"
-   }
-  ],
-  "tip": {
-   "title": "Les mots étrangers en katakana : hoteru, basu, takushī",
-   "example": "Je vais à l'hôtel en bus. — <b>バス</b>で<b>ホテル</b>へ行きます。",
-   "exampleRo": "Basu de hoteru e ikimasu.",
-   "lit": "bus · [moyen] · hôtel · [direction] · aller (poli)",
-   "body": "Le japonais a emprunté des milliers de mots à l'étranger, et il les écrit en katakana. C'est une excellente nouvelle pour vous : beaucoup de ces mots vous sembleront familiers, à condition de les écouter avec une oreille japonaise. En effet, une syllabe japonaise se termine presque toujours par une voyelle, alors on en ajoute une là où le mot d'origine n'en a pas. Le bus devient « basu », l'hôtel devient « hoteru », le taxi devient « takushī ». Comme le son « l » n'existe pas, il devient un « r ». « Basu de hoteru e ikimasu » se dit littéralement : bus, moyen, hôtel, direction, aller poliment. Le japonais a même emprunté quelques mots au français, comme « kurowassan », le croissant. D'autres exemples utiles en voyage : « doa » (la porte), « kādo » (la carte), « sūtsukēsu » (la valise). Une astuce : quand un mot vous manque, essayez de dire le mot français lentement en ajoutant un petit « u » ou un « o » à la fin ; ça marche étonnamment souvent."
-  }
- },
- {
-  "title": "Un retard de shinkansen",
-  "phrases": [
-   {
-    "fr": "Le shinkansen est en retard.",
-    "ja": "新幹線が遅れました。",
-    "ro": "Shinkansen ga okuremashita.",
-    "lit": "shinkansen · [sujet] · prendre du retard (passé, poli)"
-   },
-   {
-    "fr": "Le vent est fort aujourd'hui.",
-    "ja": "今日は風が強いです。",
-    "ro": "Kyō wa kaze ga tsuyoi desu.",
-    "lit": "aujourd'hui · [thème] · vent · [sujet] · fort · être (poli)"
-   },
-   {
-    "fr": "Combien de minutes de retard ?",
-    "ja": "何分遅れますか？",
-    "ro": "Nanpun okuremasu ka?",
-    "lit": "combien-de-minutes · prendre du retard (poli) · [question]"
-   },
-   {
-    "fr": "Environ trente minutes.",
-    "ja": "三十分ぐらいです。",
-    "ro": "Sanjuppun gurai desu.",
-    "lit": "trente-minutes · environ · être (poli)"
-   },
-   {
-    "fr": "Au Japon, c'est rare.",
-    "ja": "日本ではめずらしいです。",
-    "ro": "Nihon de wa mezurashii desu.",
-    "lit": "Japon · [lieu] · [thème] · rare · être (poli)"
-   },
-   {
-    "fr": "Je vais rater ma correspondance.",
-    "ja": "乗り換えに間に合いません。",
-    "ro": "Norikae ni maniaimasen.",
-    "lit": "correspondance · [pour] · être à temps (négatif, poli)"
-   },
-   {
-    "fr": "Allons au guichet.",
-    "ja": "窓口へ行きましょう。",
-    "ro": "Madoguchi e ikimashō.",
-    "lit": "guichet · [direction] · aller (proposition)"
-   },
-   {
-    "fr": "Le prochain train est à quelle heure ?",
-    "ja": "次の電車は何時ですか？",
-    "ro": "Tsugi no densha wa nanji desu ka?",
-    "lit": "prochain · [possessif] · train · [thème] · quelle-heure · être (poli) · [question]"
-   },
-   {
-    "fr": "C'est à quatre heures dix.",
-    "ja": "四時十分です。",
-    "ro": "Yoji juppun desu.",
-    "lit": "quatre-heures · dix-minutes · être (poli)"
-   },
-   {
-    "fr": "Bon, j'attends au café.",
-    "ja": "じゃあ、喫茶店で待ちます。",
-    "ro": "Jā, kissaten de machimasu.",
-    "lit": "alors · café · [lieu] · attendre (poli)"
-   }
-  ]
- },
- {
-  "title": "Perdu dans Osaka",
-  "phrases": [
-   {
-    "fr": "Excusez-moi, je me suis perdu.",
-    "ja": "すみません、道に迷いました。",
-    "ro": "Sumimasen, michi ni mayoimashita.",
-    "lit": "excusez-moi · chemin · [lieu] · s'égarer (passé, poli)"
-   },
-   {
-    "fr": "Le château d'Osaka, c'est par où ?",
-    "ja": "大阪城はどちらですか？",
-    "ro": "Ōsakajō wa dochira desu ka?",
-    "lit": "Osaka-château · [thème] · quelle direction · être (poli) · [question]"
-   },
-   {
-    "fr": "Attendez un petit instant, s'il vous plaît.",
-    "ja": "ちょっと待ってください。",
-    "ro": "Chotto matte kudasai.",
-    "lit": "un peu · attendre (forme en -te) · s'il vous plaît"
-   },
-   {
-    "fr": "Montrez-moi sur le plan, s'il vous plaît.",
-    "ja": "地図で教えてください。",
-    "ro": "Chizu de oshiete kudasai.",
-    "lit": "plan · [moyen] · indiquer (forme en -te) · s'il vous plaît"
-   },
-   {
-    "fr": "Répétez encore une fois, s'il vous plaît.",
-    "ja": "もう一度言ってください。",
-    "ro": "Mō ichido itte kudasai.",
-    "lit": "encore · une-fois · dire (forme en -te) · s'il vous plaît"
-   },
-   {
-    "fr": "Parlez lentement, s'il vous plaît.",
-    "ja": "ゆっくり話してください。",
-    "ro": "Yukkuri hanashite kudasai.",
-    "lit": "lentement · parler (forme en -te) · s'il vous plaît"
-   },
-   {
-    "fr": "Allez tout droit.",
-    "ja": "まっすぐ行ってください。",
-    "ro": "Massugu itte kudasai.",
-    "lit": "tout droit · aller (forme en -te) · s'il vous plaît"
-   },
-   {
-    "fr": "Au feu, tournez à droite.",
-    "ja": "信号を右に曲がってください。",
-    "ro": "Shingō o migi ni magatte kudasai.",
-    "lit": "feu · [objet : lieu traversé] · droite · [direction] · tourner (forme en -te) · s'il vous plaît"
-   },
-   {
-    "fr": "Le temple est loin d'ici ?",
-    "ja": "お寺はここから遠いですか？",
-    "ro": "Otera wa koko kara tōi desu ka?",
-    "lit": "honorable-temple · [thème] · ici · [à partir de] · loin · être (poli) · [question]"
-   },
-   {
-    "fr": "Non, c'est à dix minutes à pied.",
-    "ja": "いいえ、歩いて十分です。",
-    "ro": "Iie, aruite juppun desu.",
-    "lit": "non · en marchant · dix-minutes · être (poli)"
-   }
-  ],
-  "tip": {
-   "title": "La forme en « -te » + « kudasai » : demander poliment",
-   "example": "Répétez encore une fois, s'il vous plaît. — もう一度<b>言ってください</b>。",
-   "exampleRo": "Mō ichido itte kudasai.",
-   "lit": "encore · une-fois · dire (forme en -te) · s'il vous plaît",
-   "body": "Vous savez déjà demander un objet avec « kudasai ». Pour demander à quelqu'un de faire une action, on place devant « kudasai » le verbe à une forme spéciale, la forme en « -te ». Pour beaucoup de verbes, c'est facile : « tabemasu », manger, donne « tabete » ; « mimasu », regarder, donne « mite ». D'autres changent un peu : « machimasu », attendre, donne « matte » ; « iimasu », dire, donne « itte » ; « hanashimasu », parler, donne « hanashite ». « Mō ichido itte kudasai » se dit littéralement : encore, une fois, dire, s'il vous plaît. Petite curiosité : « ikimasu », aller, donne aussi « itte », d'où « Massugu itte kudasai », allez tout droit ; c'est le contexte qui fait la différence. Gardez sous la main ces trois phrases de survie : « Chotto matte kudasai », attendez un instant, « Yukkuri hanashite kudasai », parlez lentement, et « Mō ichido itte kudasai ». Une astuce pour retenir : la forme en « -te » tend la main vers l'autre, et « kudasai » dit merci d'avance."
-  }
- },
- {
-  "title": "Des souvenirs pour la famille",
-  "phrases": [
-   {
-    "fr": "Je veux acheter des souvenirs.",
-    "ja": "お土産を買いたいです。",
-    "ro": "Omiyage o kaitai desu.",
-    "lit": "souvenir-cadeau · [objet] · acheter-vouloir · être (poli)"
-   },
-   {
-    "fr": "Les gâteaux de Kyoto ont beaucoup de succès.",
-    "ja": "京都のお菓子は人気があります。",
-    "ro": "Kyōto no okashi wa ninki ga arimasu.",
-    "lit": "Kyoto · [possessif] · honorable-gâteau · [thème] · popularité · [sujet] · il y a (objets, poli)"
-   },
-   {
-    "fr": "Ces yatsuhashi, s'il vous plaît.",
-    "ja": "この八つ橋をください。",
-    "ro": "Kono yatsuhashi o kudasai.",
-    "lit": "ce · yatsuhashi · [objet] · donnez-moi"
-   },
-   {
-    "fr": "C'est un cadeau pour ma famille.",
-    "ja": "家族のお土産です。",
-    "ro": "Kazoku no omiyage desu.",
-    "lit": "famille · [possessif] · souvenir-cadeau · être (poli)"
-   },
-   {
-    "fr": "Pouvez-vous l'emballer, s'il vous plaît ?",
-    "ja": "包んでください。",
-    "ro": "Tsutsunde kudasai.",
-    "lit": "emballer (forme en -te) · s'il vous plaît"
-   },
-   {
-    "fr": "Un sac de plus, s'il vous plaît.",
-    "ja": "袋をもう一枚ください。",
-    "ro": "Fukuro o mō ichimai kudasai.",
-    "lit": "sac · [objet] · encore · une-feuille · donnez-moi"
-   },
-   {
-    "fr": "Cet éventail est très joli.",
-    "ja": "この扇子はとてもきれいです。",
-    "ro": "Kono sensu wa totemo kirei desu.",
-    "lit": "ce · éventail · [thème] · très · joli · être (poli)"
-   },
-   {
-    "fr": "Il coûte trois mille cinq cents yens.",
-    "ja": "三千五百円です。",
-    "ro": "Sanzen gohyaku en desu.",
-    "lit": "trois-mille-cinq-cents-yens · être (poli)"
-   },
-   {
-    "fr": "Hum, c'est un peu cher.",
-    "ja": "うーん、ちょっと高いです。",
-    "ro": "Ūn, chotto takai desu.",
-    "lit": "hum · un peu · cher · être (poli)"
-   },
-   {
-    "fr": "Tant pis, je l'achète !",
-    "ja": "でも、買います！",
-    "ro": "Demo, kaimasu!",
-    "lit": "mais · acheter (poli)"
-   }
-  ]
- },
- {
-  "title": "Fin du module : un bilan de voyage",
-  "phrases": [
-   {
-    "fr": "C'était un beau voyage, hein ?",
-    "ja": "いい旅行でしたね。",
-    "ro": "Ii ryokō deshita ne.",
-    "lit": "bon · voyage · être (passé, poli) · [n'est-ce pas]"
-   },
-   {
-    "fr": "Les daims de Nara sont mignons, hein ?",
-    "ja": "奈良の鹿はかわいいですね。",
-    "ro": "Nara no shika wa kawaii desu ne.",
-    "lit": "Nara · [possessif] · daim · [thème] · mignon · être (poli) · [n'est-ce pas]"
-   },
-   {
-    "fr": "Et les takoyaki sont délicieux, tu sais !",
-    "ja": "たこ焼きもおいしいですよ。",
-    "ro": "Takoyaki mo oishii desu yo.",
-    "lit": "takoyaki · [aussi] · délicieux · être (poli) · [tu sais]"
-   },
-   {
-    "fr": "J'ai retenu beaucoup de mots japonais.",
-    "ja": "日本語の言葉をたくさん覚えました。",
-    "ro": "Nihongo no kotoba o takusan oboemashita.",
-    "lit": "japonais · [possessif] · mot · [objet] · beaucoup · retenir (passé, poli)"
-   },
-   {
-    "fr": "Les katakana, maintenant, ça va.",
-    "ja": "カタカナはもう大丈夫です。",
-    "ro": "Katakana wa mō daijōbu desu.",
-    "lit": "katakana · [thème] · désormais · ça va · être (poli)"
-   },
-   {
-    "fr": "Le japonais, c'est difficile, hein ?",
-    "ja": "日本語は難しいですね。",
-    "ro": "Nihongo wa muzukashii desu ne.",
-    "lit": "japonais · [thème] · difficile · être (poli) · [n'est-ce pas]"
-   },
-   {
-    "fr": "Mais c'est passionnant, je t'assure !",
-    "ja": "でも、おもしろいですよ。",
-    "ro": "Demo, omoshiroi desu yo.",
-    "lit": "mais · intéressant · être (poli) · [tu sais]"
-   },
-   {
-    "fr": "J'ai souvent utilisé « kudasai ».",
-    "ja": "「ください」をよく使いました。",
-    "ro": "« Kudasai » o yoku tsukaimashita.",
-    "lit": "kudasai · [objet] · souvent · utiliser (passé, poli)"
-   },
-   {
-    "fr": "La prochaine fois, je veux rester plus longtemps.",
-    "ja": "今度はもっと長くいたいです。",
-    "ro": "Kondo wa motto nagaku itai desu.",
-    "lit": "la prochaine fois · [thème] · plus · longtemps · rester-vouloir · être (poli)"
-   },
-   {
-    "fr": "On aimerait bien revenir un jour, hein ?",
-    "ja": "またいつか来たいですね。",
-    "ro": "Mata itsuka kitai desu ne.",
-    "lit": "encore · un jour · venir-vouloir · être (poli) · [n'est-ce pas]"
-   }
-  ],
-  "tip": {
-   "title": "« Yo » et « ne » : les petites particules de fin de phrase",
-   "example": "Mais c'est passionnant, je t'assure ! — でも、おもしろいです<b>よ</b>。",
-   "exampleRo": "Demo, omoshiroi desu yo.",
-   "lit": "mais · intéressant · être (poli) · [tu sais]",
-   "body": "Les Japonais terminent très souvent leurs phrases par une petite particule qui ajoute une émotion, un peu comme notre « hein » ou notre « tu sais ». « Ne » cherche l'accord de l'autre : on partage un sentiment, comme dans « Muzukashii desu ne », c'est difficile, hein ? « Yo », au contraire, apporte une information que l'autre ne connaît pas encore, avec une pointe d'insistance. « Demo, omoshiroi desu yo » se dit littéralement : mais, intéressant, être poli, tu sais. Vous entendrez aussi « Oishii desu yo », c'est bon, je vous assure, ou « Ii ryokō deshita ne », c'était un beau voyage, n'est-ce pas ? Attention à ne pas abuser de « yo » : trop souvent répété, il peut sonner un peu donneur de leçons. « Ne », lui, rend la conversation chaleureuse et vous fera paraître tout de suite plus naturel. Une astuce pour retenir : « ne », c'est nous deux, d'accord ensemble ; « yo », c'est moi qui te l'apprends."
+   "title": "Dire l'heure : « as-saa ath-thalitha »",
+   "example": "Il est trois heures. — <b>السَّاعَةُ</b> <b>الثَّالِثَةُ</b>.",
+   "exampleRo": "As-sāʿatu th-thālithatu.",
+   "lit": "l'heure · la-troisième",
+   "body": "Pour dire l'heure, l'arabe ne compte pas les heures comme nous, il les range dans l'ordre. Au lieu de dire il est trois heures, on dit littéralement : l'heure, la troisième. Notre phrase « as-saatu th-thalithatu » se décompose ainsi : « as-saa », l'heure, puis « ath-thalitha », la troisième. Comme « saa » est féminin, le nombre prend lui aussi la forme féminine en « a ». Quatre heures se dit « as-saatu r-rabia », cinq heures « as-saatu l-khamisa ». Pour la demie, on ajoute « wa n-nisf », et la moitié ; pour le quart, « wa r-rub ». Et pour demander l'heure, on dit « kami s-saa », combien l'heure. Astuce : imaginez que les heures font la queue devant vous, la première, la deuxième, la troisième, et appelez simplement la bonne."
   }
  }
 ];
 
 const level1Module3Lessons = [
  {
-  "title": "Se présenter à Yokohama",
+  "title": "Faire connaissance à Sidi Bou Saïd",
   "phrases": [
    {
-    "fr": "Enchantée, je m'appelle Marie.",
-    "ja": "はじめまして、マリーです。",
-    "ro": "Hajimemashite, Marī desu.",
-    "lit": "enchanté (première fois) · Marie · être (poli)"
+    "fr": "Bonjour, moi c'est Karim.",
+    "ar": "مَرْحَبًا، أَنَا كَرِيمٌ.",
+    "ro": "Marḥaban, anā Karīmun.",
+    "lit": "bonjour · moi · Karim"
    },
    {
-    "fr": "Je suis française, je viens de Lyon.",
-    "ja": "フランス人です。リヨンから来ました。",
-    "ro": "Furansujin desu. Riyon kara kimashita.",
-    "lit": "Français-personne · être (poli) · Lyon · [depuis] · venir (passé poli)"
+    "fr": "Ravie de te rencontrer, je suis Leïla.",
+    "ar": "فُرْصَةٌ سَعِيدَةٌ، أَنَا لَيْلَى.",
+    "ro": "Furṣatun saʿīdatun, anā Laylā.",
+    "lit": "occasion · heureuse · moi · Leïla"
    },
    {
-    "fr": "Moi, c'est Kenji Tanaka.",
-    "ja": "田中健二です。",
-    "ro": "Tanaka Kenji desu.",
-    "lit": "Tanaka Kenji · être (poli)"
+    "fr": "Tu es d'ici ?",
+    "ar": "هَلْ أَنْتَ مِنْ هُنَا؟",
+    "ro": "Hal anta min hunā?",
+    "lit": "[question] · toi · de · ici ?"
    },
    {
-    "fr": "Vous êtes de Yokohama ?",
-    "ja": "横浜の人ですか？",
-    "ro": "Yokohama no hito desu ka?",
-    "lit": "Yokohama · [possessif] · personne · être (poli) · [question]"
+    "fr": "Oui, je suis de Tunis.",
+    "ar": "نَعَمْ، أَنَا مِنْ تُونِسَ.",
+    "ro": "Naʿam, anā min Tūnisa.",
+    "lit": "oui · moi · de · Tunis"
    },
    {
-    "fr": "Oui, je suis né à Yokohama.",
-    "ja": "はい、横浜生まれです。",
-    "ro": "Hai, Yokohama umare desu.",
-    "lit": "oui · Yokohama · naissance · être (poli)"
+    "fr": "Et toi, tu es français ?",
+    "ar": "وَأَنْتَ، هَلْ أَنْتَ فَرَنْسِيٌّ؟",
+    "ro": "Wa anta, hal anta faransiyyun?",
+    "lit": "[et] toi · [question] · toi · français ?"
    },
    {
-    "fr": "Vous êtes venue au Japon pour le travail ?",
-    "ja": "仕事で日本に来ましたか？",
-    "ro": "Shigoto de Nihon ni kimashita ka?",
-    "lit": "travail · [moyen] · Japon · [direction] · venir (passé poli) · [question]"
+    "fr": "Oui, je viens de Marseille.",
+    "ar": "نَعَمْ، أَنَا مِنْ مَرْسِيلْيَا.",
+    "ro": "Naʿam, anā min Marsīliyā.",
+    "lit": "oui · moi · de · Marseille"
    },
    {
-    "fr": "Oui, je travaille pour une entreprise de Yokohama.",
-    "ja": "はい、横浜の会社員です。",
-    "ro": "Hai, Yokohama no kaishain desu.",
-    "lit": "oui · Yokohama · [possessif] · employé d'entreprise · être (poli)"
+    "fr": "Sidi Bou Saïd est un très joli village.",
+    "ar": "سِيدِي بُو سَعِيدْ قَرْيَةٌ جَمِيلَةٌ جِدًّا.",
+    "ro": "Sīdī Bū Saʿīd qaryatun jamīlatun jiddan.",
+    "lit": "Sidi Bou Saïd · village · joli · très"
    },
    {
-    "fr": "C'est la première fois que je viens au Japon.",
-    "ja": "日本は初めてです。",
-    "ro": "Nihon wa hajimete desu.",
-    "lit": "Japon · [thème] · première fois · être (poli)"
+    "fr": "Les maisons sont blanches et bleues.",
+    "ar": "الْبُيُوتُ بَيْضَاءُ وَزَرْقَاءُ.",
+    "ro": "Al-buyūtu bayḍāʾu wa zarqāʾu.",
+    "lit": "les-maisons · blanche · [et] bleue"
    },
    {
-    "fr": "Je parle un petit peu japonais.",
-    "ja": "日本語を少し話します。",
-    "ro": "Nihongo o sukoshi hanashimasu.",
-    "lit": "japonais · [objet] · un peu · parler (poli)"
+    "fr": "Tu es ici en vacances ?",
+    "ar": "هَلْ أَنْتَ هُنَا فِي عُطْلَةٍ؟",
+    "ro": "Hal anta hunā fī ʿuṭlatin?",
+    "lit": "[question] · toi · ici · dans · vacances ?"
    },
    {
-    "fr": "Je compte sur votre bienveillance.",
-    "ja": "どうぞよろしくお願いします。",
-    "ro": "Dōzo yoroshiku onegaishimasu.",
-    "lit": "je vous en prie · bien · je vous le demande (poli)"
+    "fr": "Non, je suis ici pour le travail.",
+    "ar": "لَا، أَنَا هُنَا لِلْعَمَلِ.",
+    "ro": "Lā, anā hunā lil-ʿamali.",
+    "lit": "non · moi · ici · pour-le-travail"
    }
   ]
  },
  {
-  "title": "Les collègues du bureau",
+  "title": "Mon nom est…",
   "phrases": [
    {
-    "fr": "Voici Monsieur Satō, mon chef.",
-    "ja": "こちらは佐藤さんです。私の上司です。",
-    "ro": "Kochira wa Satō-san desu. Watashi no jōshi desu.",
-    "lit": "ce côté-ci · [thème] · Satō-monsieur · être (poli) · moi · [possessif] · chef · être (poli)"
+    "fr": "Quel est ton nom ?",
+    "ar": "مَا اسْمُكَ؟",
+    "ro": "Mā ismuka?",
+    "lit": "quoi · nom-de-toi ?"
    },
    {
-    "fr": "Madame Yamada est très gentille.",
-    "ja": "山田さんはとても親切です。",
-    "ro": "Yamada-san wa totemo shinsetsu desu.",
-    "lit": "Yamada-madame · [thème] · très · gentil · être (poli)"
+    "fr": "Mon nom est Sami.",
+    "ar": "اِسْمِي سَامِي.",
+    "ro": "Ismī Sāmī.",
+    "lit": "nom-de-moi · Sami"
    },
    {
-    "fr": "Kenta, on déjeune ensemble ?",
-    "ja": "健太くん、一緒に昼ご飯を食べませんか？",
-    "ro": "Kenta-kun, issho ni hirugohan o tabemasen ka?",
-    "lit": "Kenta-kun · ensemble · déjeuner · [objet] · manger (négatif poli) · [question]"
+    "fr": "Et toi, quel est ton nom ?",
+    "ar": "وَأَنْتَ، مَا اسْمُكَ؟",
+    "ro": "Wa anta, mā ismuka?",
+    "lit": "[et] toi · quoi · nom-de-toi ?"
    },
    {
-    "fr": "Kenta vient d'entrer dans l'entreprise.",
-    "ja": "健太くんは新入社員です。",
-    "ro": "Kenta-kun wa shinnyū shain desu.",
-    "lit": "Kenta-kun · [thème] · nouvel employé · être (poli)"
+    "fr": "Mon nom est Hichem, enchanté.",
+    "ar": "اِسْمِي هِشَامٌ، فُرْصَةٌ سَعِيدَةٌ.",
+    "ro": "Ismī Hishāmun, furṣatun saʿīdatun.",
+    "lit": "nom-de-moi · Hichem · occasion · heureuse"
    },
    {
-    "fr": "La fille de Monsieur Satō s'appelle Yui.",
-    "ja": "佐藤さんの娘さんはゆいちゃんです。",
-    "ro": "Satō-san no musume-san wa Yui-chan desu.",
-    "lit": "Satō-monsieur · [possessif] · fille-honorable · [thème] · Yui-chan · être (poli)"
+    "fr": "Quel est le nom de ton ami ?",
+    "ar": "مَا اسْمُ صَدِيقِكَ؟",
+    "ro": "Mā ismu ṣadīqika?",
+    "lit": "quoi · nom · ami-de-toi ?"
    },
    {
-    "fr": "La petite Yui a cinq ans.",
-    "ja": "ゆいちゃんは五歳です。",
-    "ro": "Yui-chan wa gosai desu.",
-    "lit": "Yui-chan · [thème] · cinq-ans · être (poli)"
+    "fr": "Son nom est Amine.",
+    "ar": "اِسْمُهُ أَمِينٌ.",
+    "ro": "Ismuhu Amīnun.",
+    "lit": "nom-de-lui · Amine"
    },
    {
-    "fr": "Le client arrive à trois heures.",
-    "ja": "お客様は三時に来ます。",
-    "ro": "Okyakusama wa sanji ni kimasu.",
-    "lit": "honorable-client-sama · [thème] · trois-heures · [temps] · venir (poli)"
+    "fr": "Et elle, quel est son nom ?",
+    "ar": "وَمَا اسْمُهَا؟",
+    "ro": "Wa mā ismuhā?",
+    "lit": "[et] · quoi · nom-d'elle ?"
    },
    {
-    "fr": "Notre directeur s'appelle Monsieur Mori.",
-    "ja": "部長は森さんです。",
-    "ro": "Buchō wa Mori-san desu.",
-    "lit": "directeur · [thème] · Mori-monsieur · être (poli)"
+    "fr": "Elle s'appelle Salma.",
+    "ar": "اِسْمُهَا سَلْمَى.",
+    "ro": "Ismuhā Salmā.",
+    "lit": "nom-d'elle · Salma"
    },
    {
-    "fr": "Appelez-moi simplement Marie.",
-    "ja": "マリーと呼んでください。",
-    "ro": "Marī to yonde kudasai.",
-    "lit": "Marie · [citation] · appeler (forme -te) · s'il vous plaît"
+    "fr": "Mon nom de famille est Haddad.",
+    "ar": "اِسْمُ عَائِلَتِي حَدَّادٌ.",
+    "ro": "Ismu ʿāʾilatī Ḥaddādun.",
+    "lit": "nom · famille-de-moi · Haddad"
    },
    {
-    "fr": "Madame Yamada, merci encore pour aujourd'hui.",
-    "ja": "山田さん、今日もありがとうございます。",
-    "ro": "Yamada-san, kyō mo arigatō gozaimasu.",
-    "lit": "Yamada-madame · aujourd'hui · [aussi] · merci (très poli)"
+    "fr": "Ton prénom est très joli.",
+    "ar": "اِسْمُكَ جَمِيلٌ جِدًّا.",
+    "ro": "Ismuka jamīlun jiddan.",
+    "lit": "nom-de-toi · joli · très"
    }
   ],
   "tip": {
-   "title": "« San, kun, chan, sama » : les suffixes après les noms",
-   "example": "La fille de Monsieur Satō s'appelle Yui. — 佐藤<b>さん</b>の娘<b>さん</b>はゆい<b>ちゃん</b>です。",
-   "exampleRo": "Satō-san no musume-san wa Yui-chan desu.",
-   "lit": "Satō-monsieur · [possessif] · fille-honorable · [thème] · Yui-chan · être (poli)",
-   "body": "En japonais, on ajoute presque toujours un petit suffixe après le nom des autres personnes. Le plus courant est « san » : il remplace à la fois monsieur, madame et mademoiselle, et il se colle au nom de famille comme au prénom. Notre phrase se dit littéralement : Satō-monsieur, de, fille-honorable, thème, Yui-petite, être. « Kun » s'emploie pour les garçons et les jeunes collègues, comme « Kenta-kun », tandis que « chan » est affectueux et va aux enfants et aux proches, comme « Yui-chan ». « Sama » est le plus respectueux : on l'entend pour les clients, « okyakusama ». Attention, on ne met jamais de suffixe à son propre nom : on dit simplement « Marī desu ». Pour retenir, imaginez une échelle : « chan » en bas pour les petits, « kun » et « san » au milieu, et « sama » tout en haut pour les clients."
+   "title": "Se présenter : « ismi », mon nom",
+   "example": "Mon nom est Sami. — <b>اِسْمِي</b> سَامِي.",
+   "exampleRo": "Ismī Sāmī.",
+   "lit": "nom-de-moi · Sami",
+   "body": "Pour dire comment on s'appelle, l'arabe ne dit pas « je m'appelle » : il dit simplement « mon nom, Sami ». Le mot « ism » veut dire nom, et on lui colle la petite terminaison « i », qui signifie « à moi ». « Ismi Sami » se dit donc littéralement : nom de moi, Sami. Il n'y a pas de verbe être au présent, la phrase est complète ainsi. Pour demander, on dit « ma ismuka ? », mot à mot : quoi, ton nom ? On peut aussi parler des autres : « ismuhu Amine », son nom à lui est Amine, et « ismuha Salma », son nom à elle est Salma. Astuce pour retenir : « ismi », c'est « ism » suivi d'un petit « i » qui vous désigne, comme une étiquette que vous portez sur vous."
   }
  },
  {
   "title": "Parler de son travail",
   "phrases": [
    {
-    "fr": "Quel est votre métier ?",
-    "ja": "お仕事は何ですか？",
-    "ro": "Oshigoto wa nan desu ka?",
-    "lit": "honorable-travail · [thème] · quoi · être (poli) · [question]"
+    "fr": "Quel est ton travail ?",
+    "ar": "مَا عَمَلُكَ؟",
+    "ro": "Mā ʿamaluka?",
+    "lit": "quoi · travail-de-toi ?"
    },
    {
-    "fr": "Je suis ingénieure.",
-    "ja": "エンジニアです。",
-    "ro": "Enjinia desu.",
-    "lit": "ingénieur · être (poli)"
+    "fr": "Je suis ingénieur à Tunis.",
+    "ar": "أَنَا مُهَنْدِسٌ فِي تُونِسَ.",
+    "ro": "Anā muhandisun fī Tūnisa.",
+    "lit": "moi · ingénieur · dans · Tunis"
    },
    {
-    "fr": "Moi, je suis employé de banque.",
-    "ja": "私は銀行員です。",
-    "ro": "Watashi wa ginkōin desu.",
-    "lit": "moi · [thème] · employé de banque · être (poli)"
+    "fr": "Je travaille dans une banque.",
+    "ar": "أَعْمَلُ فِي بَنْكٍ.",
+    "ro": "Aʿmalu fī bankin.",
+    "lit": "je-travaille · dans · banque"
    },
    {
-    "fr": "Où se trouve votre entreprise ?",
-    "ja": "会社はどこですか？",
-    "ro": "Kaisha wa doko desu ka?",
-    "lit": "entreprise · [thème] · où · être (poli) · [question]"
+    "fr": "Mon bureau est près de la médina.",
+    "ar": "مَكْتَبِي قَرِيبٌ مِنَ الْمَدِينَةِ الْعَتِيقَةِ.",
+    "ro": "Maktabī qarībun mina al-madīnati al-ʿatīqati.",
+    "lit": "bureau-de-moi · proche · de · la-médina · l'-ancienne"
    },
    {
-    "fr": "Elle est près de la gare de Yokohama.",
-    "ja": "横浜駅の近くです。",
-    "ro": "Yokohama eki no chikaku desu.",
-    "lit": "Yokohama-gare · [possessif] · proximité · être (poli)"
+    "fr": "Ma sœur est médecin à La Marsa.",
+    "ar": "أُخْتِي طَبِيبَةٌ فِي الْمَرْسَى.",
+    "ro": "Ukhtī ṭabībatun fī al-Marsā.",
+    "lit": "sœur-de-moi · médecin · dans · La Marsa"
    },
    {
-    "fr": "Je prends le train chaque matin.",
-    "ja": "毎朝、電車に乗ります。",
-    "ro": "Maiasa, densha ni norimasu.",
-    "lit": "chaque matin · train · [dans] · monter (poli)"
+    "fr": "Ton travail est difficile ?",
+    "ar": "هَلْ عَمَلُكَ صَعْبٌ؟",
+    "ro": "Hal ʿamaluka ṣaʿbun?",
+    "lit": "[question] · travail-de-toi · difficile ?"
    },
    {
-    "fr": "Je commence le travail à neuf heures.",
-    "ja": "九時から働きます。",
-    "ro": "Kuji kara hatarakimasu.",
-    "lit": "neuf-heures · [depuis] · travailler (poli)"
+    "fr": "Non, il est facile et agréable.",
+    "ar": "لَا، هُوَ سَهْلٌ وَمُمْتِعٌ.",
+    "ro": "Lā, huwa sahlun wa mumtiʿun.",
+    "lit": "non · lui · facile · [et] agréable"
    },
    {
-    "fr": "Le travail finit à sept heures du soir.",
-    "ja": "仕事は夜七時までです。",
-    "ro": "Shigoto wa yoru shichiji made desu.",
-    "lit": "travail · [thème] · soir · sept-heures · [jusqu'à] · être (poli)"
+    "fr": "Je commence le travail à huit heures.",
+    "ar": "أَبْدَأُ الْعَمَلَ فِي السَّاعَةِ الثَّامِنَةِ.",
+    "ro": "Abdaʾu al-ʿamala fī as-sāʿati ath-thāminati.",
+    "lit": "je-commence · le-travail · dans · l'-heure · la-huitième"
    },
    {
-    "fr": "Votre travail est intéressant ?",
-    "ja": "仕事はおもしろいですか？",
-    "ro": "Shigoto wa omoshiroi desu ka?",
-    "lit": "travail · [thème] · intéressant · être (poli) · [question]"
+    "fr": "Mon collègue Karim est très gentil.",
+    "ar": "زَمِيلِي كَرِيمٌ لَطِيفٌ جِدًّا.",
+    "ro": "Zamīlī Karīmun laṭīfun jiddan.",
+    "lit": "collègue-de-moi · Karim · gentil · très"
    },
    {
-    "fr": "Oui, mais c'est un peu dur.",
-    "ja": "はい、でも少し大変です。",
-    "ro": "Hai, demo sukoshi taihen desu.",
-    "lit": "oui · mais · un peu · pénible · être (poli)"
+    "fr": "Nous déjeunons ensemble au bureau.",
+    "ar": "نَتَغَدَّى مَعًا فِي الْمَكْتَبِ.",
+    "ro": "Nataghaddā maʿan fī al-maktabi.",
+    "lit": "nous-déjeunons · ensemble · dans · le-bureau"
    }
   ]
  },
  {
-  "title": "Ce qu'on aime manger",
+  "title": "Une amie de La Marsa",
   "phrases": [
    {
-    "fr": "Vous aimez la cuisine japonaise ?",
-    "ja": "日本料理が好きですか？",
-    "ro": "Nihon ryōri ga suki desu ka?",
-    "lit": "Japon-cuisine · [sujet] · aimé · être (poli) · [question]"
+    "fr": "Salma, tu es de La Marsa ?",
+    "ar": "سَلْمَى، هَلْ أَنْتِ مِنَ الْمَرْسَى؟",
+    "ro": "Salmā, hal anti mina al-Marsā?",
+    "lit": "Salma · [question] · toi (f.) · de · La Marsa ?"
    },
    {
-    "fr": "Oui, j'adore les sushis.",
-    "ja": "はい、お寿司が大好きです。",
-    "ro": "Hai, osushi ga daisuki desu.",
-    "lit": "oui · honorable-sushi · [sujet] · très aimé · être (poli)"
+    "fr": "Oui, j'habite à La Marsa.",
+    "ar": "نَعَمْ، أَسْكُنُ فِي الْمَرْسَى.",
+    "ro": "Naʿam, askunu fī al-Marsā.",
+    "lit": "oui · j'habite · dans · La Marsa"
    },
    {
-    "fr": "Le nattō, je déteste ça.",
-    "ja": "納豆は嫌いです。",
-    "ro": "Nattō wa kirai desu.",
-    "lit": "nattō · [thème] · détesté · être (poli)"
+    "fr": "Tu es étudiante, Leïla ?",
+    "ar": "هَلْ أَنْتِ طَالِبَةٌ يَا لَيْلَى؟",
+    "ro": "Hal anti ṭālibatun yā Laylā?",
+    "lit": "[question] · toi (f.) · étudiante · [ô] · Leïla ?"
    },
    {
-    "fr": "Quel plat n'aimez-vous pas ?",
-    "ja": "嫌いな料理は何ですか？",
-    "ro": "Kirai na ryōri wa nan desu ka?",
-    "lit": "détesté · [na] · plat · [thème] · quoi · être (poli) · [question]"
+    "fr": "Non, je suis professeure.",
+    "ar": "لَا، أَنَا مُعَلِّمَةٌ.",
+    "ro": "Lā, anā muʿallimatun.",
+    "lit": "non · moi · professeure"
    },
    {
-    "fr": "Je n'aime pas trop le poisson cru.",
-    "ja": "生の魚はあまり好きじゃありません。",
-    "ro": "Nama no sakana wa amari suki ja arimasen.",
-    "lit": "cru · [possessif] · poisson · [thème] · pas tellement · aimé · ne pas être (poli)"
+    "fr": "Comment vas-tu, Houda ?",
+    "ar": "كَيْفَ حَالُكِ يَا هُدَى؟",
+    "ro": "Kayfa ḥāluki yā Hudā?",
+    "lit": "comment · état-de-toi (f.) · [ô] · Houda ?"
    },
    {
-    "fr": "Ma femme adore les douceurs.",
-    "ja": "妻は甘いものが大好きです。",
-    "ro": "Tsuma wa amai mono ga daisuki desu.",
-    "lit": "ma femme · [thème] · sucré · chose · [sujet] · très aimé · être (poli)"
+    "fr": "Où travailles-tu, Mouna ?",
+    "ar": "أَيْنَ تَعْمَلِينَ يَا مُنَى؟",
+    "ro": "Ayna taʿmalīna yā Munā?",
+    "lit": "où · tu-travailles (f.) · [ô] · Mouna ?"
    },
    {
-    "fr": "Quel est votre plat préféré ?",
-    "ja": "好きな料理は何ですか？",
-    "ro": "Suki na ryōri wa nan desu ka?",
-    "lit": "aimé · [na] · plat · [thème] · quoi · être (poli) · [question]"
+    "fr": "Ta robe est très jolie, Salma.",
+    "ar": "فُسْتَانُكِ جَمِيلٌ جِدًّا يَا سَلْمَى.",
+    "ro": "Fustānuki jamīlun jiddan yā Salmā.",
+    "lit": "robe-de-toi (f.) · jolie · très · [ô] · Salma"
    },
    {
-    "fr": "C'est la soupe miso de ma mère.",
-    "ja": "母の味噌汁です。",
-    "ro": "Haha no misoshiru desu.",
-    "lit": "ma mère · [possessif] · soupe miso · être (poli)"
+    "fr": "Tu parles bien le français !",
+    "ar": "تَتَكَلَّمِينَ الْفَرَنْسِيَّةَ جَيِّدًا!",
+    "ro": "Tatakallamīna al-faransiyyata jayyidan!",
+    "lit": "tu-parles (f.) · le-français · bien !"
    },
    {
-    "fr": "Et la bière, vous aimez ?",
-    "ja": "ビールは好きですか？",
-    "ro": "Bīru wa suki desu ka?",
-    "lit": "bière · [thème] · aimé · être (poli) · [question]"
+    "fr": "Tu es tunisienne ?",
+    "ar": "هَلْ أَنْتِ تُونِسِيَّةٌ؟",
+    "ro": "Hal anti tūnisiyyatun?",
+    "lit": "[question] · toi (f.) · tunisienne ?"
    },
    {
-    "fr": "Oui, une bière bien fraîche, c'est parfait !",
-    "ja": "はい、冷たいビールは最高です！",
-    "ro": "Hai, tsumetai bīru wa saikō desu!",
-    "lit": "oui · froid · bière · [thème] · le top · être (poli)"
+    "fr": "Bienvenue chez nous, Leïla.",
+    "ar": "أَهْلًا بِكِ عِنْدَنَا يَا لَيْلَى.",
+    "ro": "Ahlan biki ʿindanā yā Laylā.",
+    "lit": "bienvenue · à-toi (f.) · chez-nous · [ô] · Leïla"
    }
   ],
   "tip": {
-   "title": "« Suki » et « kirai » : dire ce qu'on aime",
-   "example": "Oui, j'adore les sushis. — はい、お寿司が<b>大好き</b>です。",
-   "exampleRo": "Hai, osushi ga daisuki desu.",
-   "lit": "oui · honorable-sushi · [sujet] · très aimé · être (poli)",
-   "body": "En japonais, « aimer » n'est pas un verbe : « suki » est un adjectif qui veut dire « aimé », « qui plaît ». On ne dit donc pas « j'aime les sushis », mais plutôt « les sushis me plaisent ». C'est pour cela que la chose aimée prend la particule « ga », et non « o ». Notre phrase se décompose ainsi : oui, honorable sushi, sujet, très aimé, être. Le petit « dai » devant « suki » renforce le sens : « daisuki », c'est adorer. Le contraire est « kirai », détesté, un mot assez fort ; pour rester poli, on dit souvent « amari suki ja arimasen », pas tellement aimé. Quelques exemples : « Bīru ga suki desu », j'aime la bière, « Nattō wa kirai desu », je déteste le nattō, et « Suki na ryōri wa nan desu ka ? », quel est votre plat préféré ? Pour retenir, pensez à l'expression « ça me plaît » : la chose qui plaît est le sujet, donc elle prend « ga »."
+   "title": "Parler à une femme : « anti » et les terminaisons féminines",
+   "example": "Tu es étudiante, Leïla ? — هَلْ <b>أَنْتِ</b> <b>طَالِبَةٌ</b> يَا لَيْلَى؟",
+   "exampleRo": "Hal anti ṭālibatun yā Laylā?",
+   "lit": "[question] · toi (f.) · étudiante · [ô] · Leïla ?",
+   "body": "En arabe, le « tu » change selon qu'on parle à un homme ou à une femme. À un homme, on dit « anta » ; à une femme, on dit « anti ». Les petites terminaisons suivent la même logique : « kayfa haluka » pour un homme devient « kayfa haluki » pour une femme, littéralement : comment, ton état ? Avec les verbes, on ajoute « ina » à la fin : « taamalina », tu travailles, quand on parle à une femme. Les adjectifs prennent aussi la marque du féminin, un petit « a » final : « talib », étudiant, devient « taliba », étudiante. Ainsi « hal anti taliba, ya Layla ? » se dit mot à mot : est-ce que, toi, étudiante, ô Leïla ? Le petit mot « ya » sert à appeler quelqu'un par son prénom. Astuce : le son « i » est la signature du féminin quand on s'adresse à quelqu'un, anti, haluki, taamalina."
   }
  },
  {
-  "title": "Une soirée à l'izakaya",
+  "title": "Les loisirs à La Marsa",
   "phrases": [
    {
-    "fr": "Ce soir, on va à l'izakaya ?",
-    "ja": "今晩、居酒屋に行きませんか？",
-    "ro": "Konban, izakaya ni ikimasen ka?",
-    "lit": "ce soir · izakaya · [direction] · aller (négatif poli) · [question]"
+    "fr": "Que fais-tu pendant le week-end ?",
+    "ar": "مَاذَا تَفْعَلُ فِي عُطْلَةِ نِهَايَةِ الْأُسْبُوعِ؟",
+    "ro": "Mādhā tafʿalu fī ʿuṭlati nihāyati al-usbūʿi?",
+    "lit": "quoi · tu-fais · dans · congé · fin · la-semaine ?"
    },
    {
-    "fr": "Bonne idée, allons-y tous ensemble !",
-    "ja": "いいですね。みんなで行きましょう！",
-    "ro": "Ii desu ne. Minna de ikimashō!",
-    "lit": "bien · être (poli) · [n'est-ce pas] · tout le monde · [avec] · aller (proposition)"
+    "fr": "Je marche sur la corniche de La Marsa.",
+    "ar": "أَمْشِي عَلَى كُورْنِيشِ الْمَرْسَى.",
+    "ro": "Amshī ʿalā kūrnīshi al-Marsā.",
+    "lit": "je-marche · sur · corniche · La Marsa"
    },
    {
-    "fr": "Deux pressions, s'il vous plaît.",
-    "ja": "生ビールを二つください。",
-    "ro": "Nama bīru o futatsu kudasai.",
-    "lit": "bière pression · [objet] · deux (objets) · donnez-moi"
+    "fr": "Je lis beaucoup le soir.",
+    "ar": "أَقْرَأُ كَثِيرًا فِي الْمَسَاءِ.",
+    "ro": "Aqraʾu kathīran fī al-masāʾi.",
+    "lit": "je-lis · beaucoup · dans · le-soir"
    },
    {
-    "fr": "À la santé de toute l'équipe !",
-    "ja": "みなさん、乾杯！",
-    "ro": "Minasan, kanpai!",
-    "lit": "tout le monde · coupe vidée (santé)"
+    "fr": "Mon frère joue au football.",
+    "ar": "أَخِي يَلْعَبُ كُرَةَ الْقَدَمِ.",
+    "ro": "Akhī yalʿabu kurata al-qadami.",
+    "lit": "frère-de-moi · il-joue · ballon · le-pied"
    },
    {
-    "fr": "Les brochettes de poulet sont délicieuses.",
-    "ja": "焼き鳥がおいしいですね。",
-    "ro": "Yakitori ga oishii desu ne.",
-    "lit": "brochettes de poulet · [sujet] · délicieux · être (poli) · [n'est-ce pas]"
+    "fr": "Tu nages en été ?",
+    "ar": "هَلْ تَسْبَحُ فِي الصَّيْفِ؟",
+    "ro": "Hal tasbaḥu fī aṣ-ṣayfi?",
+    "lit": "[question] · tu-nages · dans · l'-été ?"
    },
    {
-    "fr": "Encore un peu d'edamame ?",
-    "ja": "枝豆、もう少しどうですか？",
-    "ro": "Edamame, mō sukoshi dō desu ka?",
-    "lit": "edamame · encore · un peu · comment · être (poli) · [question]"
+    "fr": "Oui, la mer est tout près.",
+    "ar": "نَعَمْ، الْبَحْرُ قَرِيبٌ جِدًّا.",
+    "ro": "Naʿam, al-baḥru qarībun jiddan.",
+    "lit": "oui · la-mer · proche · très"
    },
    {
-    "fr": "On commande du saké chaud ?",
-    "ja": "熱燗を頼みましょうか？",
-    "ro": "Atsukan o tanomimashō ka?",
-    "lit": "saké chaud · [objet] · commander (proposition) · [question]"
+    "fr": "Ma sœur dessine dans le jardin.",
+    "ar": "أُخْتِي تَرْسُمُ فِي الْحَدِيقَةِ.",
+    "ro": "Ukhtī tarsumu fī al-ḥadīqati.",
+    "lit": "sœur-de-moi · elle-dessine · dans · le-jardin"
    },
    {
-    "fr": "Tous les collègues sont là ce soir.",
-    "ja": "今晩は同僚がみんないます。",
-    "ro": "Konban wa dōryō ga minna imasu.",
-    "lit": "ce soir · [thème] · collègues · [sujet] · tous · être présent (poli)"
+    "fr": "Le vendredi, je fais du vélo.",
+    "ar": "يَوْمَ الْجُمُعَةِ أَرْكَبُ الدَّرَّاجَةَ.",
+    "ro": "Yawma al-jumuʿati arkabu ad-darrājata.",
+    "lit": "jour · le-vendredi · je-monte · la-bicyclette"
    },
    {
-    "fr": "Le patron de l'izakaya est très drôle.",
-    "ja": "居酒屋のマスターはとてもおもしろいです。",
-    "ro": "Izakaya no masutā wa totemo omoshiroi desu.",
-    "lit": "izakaya · [possessif] · patron · [thème] · très · amusant · être (poli)"
+    "fr": "Quel est ton loisir préféré ?",
+    "ar": "مَا هِوَايَتُكَ الْمُفَضَّلَةُ؟",
+    "ro": "Mā hiwāyatuka al-mufaḍḍalatu?",
+    "lit": "quoi · loisir-de-toi · le-préféré ?"
    },
    {
-    "fr": "On partage l'addition ?",
-    "ja": "割り勘にしましょうか？",
-    "ro": "Warikan ni shimashō ka?",
-    "lit": "addition partagée · [résultat] · faire (proposition) · [question]"
+    "fr": "Mon loisir préféré, c'est la photographie.",
+    "ar": "هِوَايَتِي الْمُفَضَّلَةُ هِيَ التَّصْوِيرُ.",
+    "ro": "Hiwāyatī al-mufaḍḍalatu hiya at-taṣwīru.",
+    "lit": "loisir-de-moi · le-préféré · elle · la-photographie"
    }
   ]
  },
  {
-  "title": "Au karaoké",
+  "title": "Ce que j'aime",
   "phrases": [
    {
-    "fr": "Après, on va au karaoké ?",
-    "ja": "このあと、カラオケに行きませんか？",
-    "ro": "Kono ato, karaoke ni ikimasen ka?",
-    "lit": "ce · après · karaoké · [direction] · aller (négatif poli) · [question]"
+    "fr": "J'aime le thé à la menthe.",
+    "ar": "أُحِبُّ الشَّايَ بِالنَّعْنَاعِ.",
+    "ro": "Uḥibbu ash-shāya bin-naʿnāʿi.",
+    "lit": "j'aime · le-thé · avec-la-menthe"
    },
    {
-    "fr": "Je chante vraiment mal.",
-    "ja": "歌がとても下手です。",
-    "ro": "Uta ga totemo heta desu.",
-    "lit": "chant · [sujet] · très · maladroit · être (poli)"
+    "fr": "J'aime beaucoup Sidi Bou Saïd.",
+    "ar": "أُحِبُّ سِيدِي بُو سَعِيدْ كَثِيرًا.",
+    "ro": "Uḥibbu Sīdī Bū Saʿīd kathīran.",
+    "lit": "j'aime · Sidi Bou Saïd · beaucoup"
    },
    {
-    "fr": "Mais non, vous chantez bien !",
-    "ja": "いいえ、歌が上手ですよ！",
-    "ro": "Iie, uta ga jōzu desu yo!",
-    "lit": "non · chant · [sujet] · habile · être (poli) · [tu sais]"
+    "fr": "Tu aimes le couscous ?",
+    "ar": "هَلْ تُحِبُّ الْكُسْكُسَ؟",
+    "ro": "Hal tuḥibbu al-kuskusa?",
+    "lit": "[question] · tu-aimes · le-couscous ?"
    },
    {
-    "fr": "Monsieur Satō chante vraiment bien.",
-    "ja": "佐藤さんは歌がとても上手です。",
-    "ro": "Satō-san wa uta ga totemo jōzu desu.",
-    "lit": "Satō-monsieur · [thème] · chant · [sujet] · très · habile · être (poli)"
+    "fr": "Oui, j'aime le couscous au poisson.",
+    "ar": "نَعَمْ، أُحِبُّ الْكُسْكُسَ بِالسَّمَكِ.",
+    "ro": "Naʿam, uḥibbu al-kuskusa bis-samaki.",
+    "lit": "oui · j'aime · le-couscous · avec-le-poisson"
    },
    {
-    "fr": "Vous savez jouer de la guitare ?",
-    "ja": "ギターができますか？",
-    "ro": "Gitā ga dekimasu ka?",
-    "lit": "guitare · [sujet] · savoir faire (poli) · [question]"
+    "fr": "Je n'aime pas le café sans sucre.",
+    "ar": "لَا أُحِبُّ الْقَهْوَةَ بِدُونِ سُكَّرٍ.",
+    "ro": "Lā uḥibbu al-qahwata bidūni sukkarin.",
+    "lit": "[ne… pas] · j'aime · le-café · sans · sucre"
    },
    {
-    "fr": "Oui, je sais en jouer un peu.",
-    "ja": "はい、少しできます。",
-    "ro": "Hai, sukoshi dekimasu.",
-    "lit": "oui · un peu · savoir faire (poli)"
+    "fr": "Ma mère aime les fleurs de jasmin.",
+    "ar": "أُمِّي تُحِبُّ زُهُورَ الْيَاسَمِينِ.",
+    "ro": "Ummī tuḥibbu zuhūra al-yāsamīni.",
+    "lit": "mère-de-moi · elle-aime · fleurs · le-jasmin"
    },
    {
-    "fr": "La danse, je ne sais pas du tout.",
-    "ja": "ダンスは全然できません。",
-    "ro": "Dansu wa zenzen dekimasen.",
-    "lit": "danse · [thème] · pas du tout · savoir faire (négatif poli)"
+    "fr": "Est-ce que tu aimes la mer ?",
+    "ar": "هَلْ تُحِبُّ الْبَحْرَ؟",
+    "ro": "Hal tuḥibbu al-baḥra?",
+    "lit": "[question] · tu-aimes · la-mer ?"
    },
    {
-    "fr": "La petite Yui dessine très bien.",
-    "ja": "ゆいちゃんは絵がとても上手です。",
-    "ro": "Yui-chan wa e ga totemo jōzu desu.",
-    "lit": "Yui-chan · [thème] · dessin · [sujet] · très · habile · être (poli)"
+    "fr": "J'aime nager le matin.",
+    "ar": "أُحِبُّ السِّبَاحَةَ فِي الصَّبَاحِ.",
+    "ro": "Uḥibbu as-sibāḥata fī aṣ-ṣabāḥi.",
+    "lit": "j'aime · la-natation · dans · le-matin"
    },
    {
-    "fr": "Votre japonais est vraiment bon !",
-    "ja": "日本語が本当に上手ですね！",
-    "ro": "Nihongo ga hontō ni jōzu desu ne!",
-    "lit": "japonais · [sujet] · vraiment · habile · être (poli) · [n'est-ce pas]"
+    "fr": "Sami aime la musique tunisienne.",
+    "ar": "سَامِي يُحِبُّ الْمُوسِيقَى التُّونِسِيَّةَ.",
+    "ro": "Sāmī yuḥibbu al-mūsīqā at-tūnisiyyata.",
+    "lit": "Sami · il-aime · la-musique · la-tunisienne"
    },
    {
-    "fr": "Oh non, j'ai encore beaucoup à apprendre.",
-    "ja": "いいえ、まだまだです。",
-    "ro": "Iie, mada mada desu.",
-    "lit": "non · encore encore · être (poli)"
+    "fr": "Leïla, tu aimes le thé ?",
+    "ar": "هَلْ تُحِبِّينَ الشَّايَ يَا لَيْلَى؟",
+    "ro": "Hal tuḥibbīna ash-shāya yā Laylā?",
+    "lit": "[question] · tu-aimes (f.) · le-thé · [ô] · Leïla ?"
    }
   ],
   "tip": {
-   "title": "« Jōzu », « heta » et « dekimasu » : dire ce qu'on sait faire",
-   "example": "Monsieur Satō chante vraiment bien. — 佐藤さんは歌がとても<b>上手</b>です。",
-   "exampleRo": "Satō-san wa uta ga totemo jōzu desu.",
-   "lit": "Satō-monsieur · [thème] · chant · [sujet] · très · habile · être (poli)",
-   "body": "Pour dire que quelqu'un fait bien quelque chose, le japonais utilise « jōzu », habile, et son contraire « heta », maladroit. Comme « suki », ce sont des adjectifs, et l'activité prend la particule « ga ». Notre phrase se dit mot à mot : Satō-monsieur, thème, chant, sujet, très, habile, être. On parle d'abord de la personne avec « wa », puis du domaine avec « ga ». Pour dire qu'on sait faire, ou qu'on peut faire quelque chose, on emploie « dekimasu », avec « ga » lui aussi : « Gitā ga dekimasu », je sais jouer de la guitare, et « Dansu wa dekimasen », la danse, je ne sais pas. Petit point de culture très important : on ne dit jamais de soi-même qu'on est « jōzu ». Si on vous complimente avec « Nihongo ga jōzu desu ne », répondez modestement « Iie, mada mada desu », non, pas encore. Pour retenir : « jōzu » rime avec réussi, « heta » sonne comme une petite chute."
+   "title": "« Uhibbu » : j'aime",
+   "example": "J'aime le thé à la menthe. — <b>أُحِبُّ</b> الشَّايَ بِالنَّعْنَاعِ.",
+   "exampleRo": "Uḥibbu ash-shāya bin-naʿnāʿi.",
+   "lit": "j'aime · le-thé · avec-la-menthe",
+   "body": "Pour dire « j'aime », l'arabe utilise un seul mot : « uhibbu ». Le « u » du début signifie déjà « je », il n'est donc pas nécessaire d'ajouter « ana ». Ensuite, on met directement la chose aimée, avec son article « al » : « uhibbu ash-shay », j'aime le thé. Mot à mot, « uhibbu ash-shay bin-nanaa » donne : j'aime, le thé, avec la menthe. Pour « tu aimes », on change seulement le début : « tuhibbu » pour un homme, et « tuhibbina » pour une femme. Pour « il aime », on dit « yuhibbu ». Pour dire qu'on n'aime pas, on place simplement « la » devant : « la uhibbu », je n'aime pas. Astuce : beaucoup de Français connaissent déjà le mot « habibi », mon chéri ; il vient de la même racine que « uhibbu »."
   }
  },
  {
-  "title": "Parler de ses loisirs",
+  "title": "Les saisons à Tunis",
   "phrases": [
    {
-    "fr": "Que faites-vous le week-end, en général ?",
-    "ja": "週末は何をしますか？",
-    "ro": "Shūmatsu wa nani o shimasu ka?",
-    "lit": "week-end · [thème] · quoi · [objet] · faire (poli) · [question]"
+    "fr": "L'été est très chaud à Tunis.",
+    "ar": "الصَّيْفُ حَارٌّ جِدًّا فِي تُونِسَ.",
+    "ro": "Aṣ-ṣayfu ḥārrun jiddan fī Tūnisa.",
+    "lit": "l'-été · chaud · très · dans · Tunis"
    },
    {
-    "fr": "Je joue souvent au tennis.",
-    "ja": "よくテニスをします。",
-    "ro": "Yoku tenisu o shimasu.",
-    "lit": "souvent · tennis · [objet] · faire (poli)"
+    "fr": "L'hiver est doux et pluvieux.",
+    "ar": "الشِّتَاءُ مُعْتَدِلٌ وَمُمْطِرٌ.",
+    "ro": "Ash-shitāʾu muʿtadilun wa mumṭirun.",
+    "lit": "l'-hiver · doux · [et] pluvieux"
    },
    {
-    "fr": "À la maison, je lis des mangas.",
-    "ja": "うちで漫画を読みます。",
-    "ro": "Uchi de manga o yomimasu.",
-    "lit": "maison · [lieu] · manga · [objet] · lire (poli)"
+    "fr": "Quelle est ta saison préférée ?",
+    "ar": "مَا فَصْلُكَ الْمُفَضَّلُ؟",
+    "ro": "Mā faṣluka al-mufaḍḍalu?",
+    "lit": "quoi · saison-de-toi · la-préférée ?"
    },
    {
-    "fr": "Le dimanche, je cours le long de la mer.",
-    "ja": "日曜日は海のそばを走ります。",
-    "ro": "Nichiyōbi wa umi no soba o hashirimasu.",
-    "lit": "dimanche · [thème] · mer · [possessif] · bord · [parcours] · courir (poli)"
+    "fr": "Je préfère le printemps.",
+    "ar": "أُفَضِّلُ الرَّبِيعَ.",
+    "ro": "Ufaḍḍilu ar-rabīʿa.",
+    "lit": "je-préfère · le-printemps"
    },
    {
-    "fr": "Vous allez parfois au cinéma ?",
-    "ja": "ときどき映画館に行きますか？",
-    "ro": "Tokidoki eigakan ni ikimasu ka?",
-    "lit": "parfois · cinéma · [direction] · aller (poli) · [question]"
+    "fr": "Au printemps, il y a des fleurs partout.",
+    "ar": "فِي الرَّبِيعِ الزُّهُورُ فِي كُلِّ مَكَانٍ.",
+    "ro": "Fī ar-rabīʿi az-zuhūru fī kulli makānin.",
+    "lit": "dans · le-printemps · les-fleurs · dans · chaque · endroit"
    },
    {
-    "fr": "Je fais du yoga avec une amie.",
-    "ja": "友達とヨガをします。",
-    "ro": "Tomodachi to yoga o shimasu.",
-    "lit": "ami · [avec] · yoga · [objet] · faire (poli)"
+    "fr": "En automne, il fait beau.",
+    "ar": "الطَّقْسُ جَمِيلٌ فِي الْخَرِيفِ.",
+    "ro": "Aṭ-ṭaqsu jamīlun fī al-kharīfi.",
+    "lit": "le-temps · beau · dans · l'-automne"
    },
    {
-    "fr": "Le week-end dernier, je suis allée à Kamakura.",
-    "ja": "先週末、鎌倉に行きました。",
-    "ro": "Senshūmatsu, Kamakura ni ikimashita.",
-    "lit": "week-end dernier · Kamakura · [direction] · aller (passé poli)"
+    "fr": "Il pleut beaucoup en janvier ?",
+    "ar": "هَلْ تُمْطِرُ كَثِيرًا فِي يَنَايِرَ؟",
+    "ro": "Hal tumṭiru kathīran fī yanāyira?",
+    "lit": "[question] · il-pleut · beaucoup · dans · janvier ?"
    },
    {
-    "fr": "J'ai pris plein de photos là-bas.",
-    "ja": "そこで写真をたくさん撮りました。",
-    "ro": "Soko de shashin o takusan torimashita.",
-    "lit": "là · [lieu] · photo · [objet] · beaucoup · prendre (passé poli)"
+    "fr": "Non, pas tellement.",
+    "ar": "لَا، لَيْسَ كَثِيرًا.",
+    "ro": "Lā, laysa kathīran.",
+    "lit": "non · [ne… pas] · beaucoup"
    },
    {
-    "fr": "Mon passe-temps, c'est la photo.",
-    "ja": "趣味は写真です。",
-    "ro": "Shumi wa shashin desu.",
-    "lit": "passe-temps · [thème] · photo · être (poli)"
+    "fr": "En août, la plage est bondée.",
+    "ar": "فِي أُغُسْطُسَ الشَّاطِئُ مُزْدَحِمٌ.",
+    "ro": "Fī ughusṭusa ash-shāṭiʾu muzdaḥimun.",
+    "lit": "dans · août · la-plage · bondée"
    },
    {
-    "fr": "Et vous, quel est votre passe-temps ?",
-    "ja": "ご趣味は何ですか？",
-    "ro": "Goshumi wa nan desu ka?",
-    "lit": "honorable-passe-temps · [thème] · quoi · être (poli) · [question]"
+    "fr": "Le ciel est bleu aujourd'hui.",
+    "ar": "السَّمَاءُ زَرْقَاءُ الْيَوْمَ.",
+    "ro": "As-samāʾu zarqāʾu al-yawma.",
+    "lit": "le-ciel · bleu · aujourd'hui"
    }
   ]
  },
  {
-  "title": "Parler de sa famille",
+  "title": "Ma famille",
   "phrases": [
    {
-    "fr": "Combien êtes-vous dans votre famille ?",
-    "ja": "何人家族ですか？",
-    "ro": "Nannin kazoku desu ka?",
-    "lit": "combien-personnes · famille · être (poli) · [question]"
+    "fr": "Voici mon père.",
+    "ar": "هَذَا أَبِي.",
+    "ro": "Hādhā abī.",
+    "lit": "voici · père-de-moi"
    },
    {
-    "fr": "Nous sommes quatre à la maison.",
-    "ja": "四人家族です。",
-    "ro": "Yonin kazoku desu.",
-    "lit": "quatre-personnes · famille · être (poli)"
+    "fr": "Mon père est pêcheur à Hammamet.",
+    "ar": "أَبِي صَيَّادٌ فِي الْحَمَّامَاتِ.",
+    "ro": "Abī ṣayyādun fī al-Ḥammāmāti.",
+    "lit": "père-de-moi · pêcheur · dans · Hammamet"
    },
    {
-    "fr": "Ma mère est enseignante.",
-    "ja": "母は教師です。",
-    "ro": "Haha wa kyōshi desu.",
-    "lit": "ma mère · [thème] · enseignant · être (poli)"
+    "fr": "Ma mère est infirmière.",
+    "ar": "أُمِّي مُمَرِّضَةٌ.",
+    "ro": "Ummī mumarriḍatun.",
+    "lit": "mère-de-moi · infirmière"
    },
    {
-    "fr": "Et votre mère, que fait-elle ?",
-    "ja": "お母さんのお仕事は何ですか？",
-    "ro": "Okāsan no oshigoto wa nan desu ka?",
-    "lit": "votre mère · [possessif] · honorable-travail · [thème] · quoi · être (poli) · [question]"
+    "fr": "Mon frère s'appelle Amine.",
+    "ar": "أَخِي اسْمُهُ أَمِينٌ.",
+    "ro": "Akhī ismuhu Amīnun.",
+    "lit": "frère-de-moi · nom-de-lui · Amine"
    },
    {
-    "fr": "Mon père est salarié à Yokohama.",
-    "ja": "父は横浜の会社員です。",
-    "ro": "Chichi wa Yokohama no kaishain desu.",
-    "lit": "mon père · [thème] · Yokohama · [possessif] · employé d'entreprise · être (poli)"
+    "fr": "Tu as des frères ?",
+    "ar": "هَلْ عِنْدَكَ إِخْوَةٌ؟",
+    "ro": "Hal ʿindaka ikhwatun?",
+    "lit": "[question] · chez-toi · frères ?"
    },
    {
-    "fr": "Votre père va bien ?",
-    "ja": "お父さんはお元気ですか？",
-    "ro": "Otōsan wa ogenki desu ka?",
-    "lit": "votre père · [thème] · honorable-santé · être (poli) · [question]"
+    "fr": "J'ai un frère et une sœur.",
+    "ar": "عِنْدِي أَخٌ وَأُخْتٌ.",
+    "ro": "ʿIndī akhun wa ukhtun.",
+    "lit": "chez-moi · frère · [et] sœur"
    },
    {
-    "fr": "J'ai un grand frère et une petite sœur.",
-    "ja": "兄と妹がいます。",
-    "ro": "Ani to imōto ga imasu.",
-    "lit": "mon grand frère · [et] · ma petite sœur · [sujet] · il y a (êtres vivants, poli)"
+    "fr": "Ma sœur habite à Carthage.",
+    "ar": "أُخْتِي تَسْكُنُ فِي قَرْطَاجَ.",
+    "ro": "Ukhtī taskunu fī Qarṭāja.",
+    "lit": "sœur-de-moi · elle-habite · dans · Carthage"
    },
    {
-    "fr": "Votre grand frère est à Tokyo ?",
-    "ja": "お兄さんは東京ですか？",
-    "ro": "Onīsan wa Tōkyō desu ka?",
-    "lit": "votre grand frère · [thème] · Tokyo · être (poli) · [question]"
+    "fr": "Comment va ton père ?",
+    "ar": "كَيْفَ حَالُ أَبِيكَ؟",
+    "ro": "Kayfa ḥālu abīka?",
+    "lit": "comment · état · père-de-toi ?"
    },
    {
-    "fr": "Non, il est à Kamakura.",
-    "ja": "いいえ、鎌倉にいます。",
-    "ro": "Iie, Kamakura ni imasu.",
-    "lit": "non · Kamakura · [lieu] · être présent (poli)"
+    "fr": "Ma grand-mère vit avec nous.",
+    "ar": "جَدَّتِي تَسْكُنُ مَعَنَا.",
+    "ro": "Jaddatī taskunu maʿanā.",
+    "lit": "grand-mère-de-moi · elle-habite · avec-nous"
    },
    {
-    "fr": "Ma petite sœur a vingt ans.",
-    "ja": "妹は二十歳です。",
-    "ro": "Imōto wa hatachi desu.",
-    "lit": "ma petite sœur · [thème] · vingt ans · être (poli)"
+    "fr": "Ma famille est grande.",
+    "ar": "عَائِلَتِي كَبِيرَةٌ.",
+    "ro": "ʿĀʾilatī kabīratun.",
+    "lit": "famille-de-moi · grande"
    }
   ],
   "tip": {
-   "title": "La famille : « haha » pour ma mère, « okāsan » pour la vôtre",
-   "example": "Ma mère est enseignante. — <b>母</b>は教師です。",
-   "exampleRo": "Haha wa kyōshi desu.",
-   "lit": "ma mère · [thème] · enseignant · être (poli)",
-   "body": "En japonais, les mots de la famille changent selon qu'il s'agit de la vôtre ou de celle des autres. Pour parler de sa propre famille, on reste humble et on emploie des mots simples : « haha », ma mère, « chichi », mon père, « ani », mon grand frère. Pour la famille de quelqu'un d'autre, on utilise des mots plus respectueux, souvent avec « o » devant et « san » derrière : « okāsan », votre mère, « otōsan », votre père, « onīsan », votre grand frère. Notre phrase se dit littéralement : ma mère, thème, enseignant, être. Remarquez qu'il n'y a pas besoin de « ma » : le mot « haha » contient déjà l'idée que c'est la mienne. À l'inverse, « Okāsan wa ogenki desu ka ? » veut dire : votre mère va bien ? À la maison, on appelle quand même sa propre mère « okāsan ». Pour retenir : la forme courte et sèche pour les miens, la forme longue et polie, avec « san », pour les vôtres."
+   "title": "La famille et les possessifs : abi, ummi, akhi",
+   "example": "Mon père est pêcheur à Hammamet. — <b>أَبِي</b> صَيَّادٌ فِي الْحَمَّامَاتِ.",
+   "exampleRo": "Abī ṣayyādun fī al-Ḥammāmāti.",
+   "lit": "père-de-moi · pêcheur · dans · Hammamet",
+   "body": "Les mots de la famille fonctionnent avec les possessifs collés que vous connaissez déjà. « Ab » veut dire père et devient « abi », mon père ; « umm » veut dire mère et devient « ummi », ma mère ; « akh », le frère, devient « akhi », mon frère. La sœur se dit « ukht », et ma sœur, « ukhti ». Ainsi « abi sayyad fi al-Hammamat » se dit mot à mot : père de moi, pêcheur, dans Hammamet. Il n'y a ni « est » ni « un » : l'arabe pose simplement les mots côte à côte. Pour « ton père », on entend souvent « abika », comme dans « kayfa halu abika ? », comment va ton père ? Astuce : le petit « i » final veut toujours dire « mon » ou « ma », que ce soit pour le père, la mère, le frère ou la sœur."
   }
  },
  {
-  "title": "Parler de ses enfants",
+  "title": "Un café entre amis à Sidi Bou Saïd",
   "phrases": [
    {
-    "fr": "Vous avez des enfants ?",
-    "ja": "お子さんはいますか？",
-    "ro": "Okosan wa imasu ka?",
-    "lit": "honorable-enfant · [thème] · il y a (êtres vivants, poli) · [question]"
+    "fr": "On prend un café à Sidi Bou Saïd ?",
+    "ar": "هَلْ نَشْرَبُ قَهْوَةً فِي سِيدِي بُو سَعِيدْ؟",
+    "ro": "Hal nashrabu qahwatan fī Sīdī Bū Saʿīd?",
+    "lit": "[question] · nous-buvons · café · dans · Sidi Bou Saïd ?"
    },
    {
-    "fr": "Oui, un garçon et une fille.",
-    "ja": "はい、息子と娘がいます。",
-    "ro": "Hai, musuko to musume ga imasu.",
-    "lit": "oui · mon fils · [et] · ma fille · [sujet] · il y a (êtres vivants, poli)"
+    "fr": "Bonne idée, j'arrive !",
+    "ar": "فِكْرَةٌ جَيِّدَةٌ، أَنَا قَادِمٌ!",
+    "ro": "Fikratun jayyidatun, anā qādimun!",
+    "lit": "idée · bonne · moi · arrivant !"
    },
    {
-    "fr": "Mon fils a sept ans.",
-    "ja": "息子は七歳です。",
-    "ro": "Musuko wa nanasai desu.",
-    "lit": "mon fils · [thème] · sept-ans · être (poli)"
+    "fr": "Le café a une belle vue sur la mer.",
+    "ar": "لِلْمَقْهَى مَنْظَرٌ جَمِيلٌ عَلَى الْبَحْرِ.",
+    "ro": "Lil-maqhā manẓarun jamīlun ʿalā al-baḥri.",
+    "lit": "à-le-café · vue · belle · sur · la-mer"
    },
    {
-    "fr": "Il est fou des trains.",
-    "ja": "電車が大好きです。",
-    "ro": "Densha ga daisuki desu.",
-    "lit": "train · [sujet] · très aimé · être (poli)"
+    "fr": "Qu'est-ce que tu bois ?",
+    "ar": "مَاذَا تَشْرَبُ؟",
+    "ro": "Mādhā tashrabu?",
+    "lit": "quoi · tu-bois ?"
    },
    {
-    "fr": "Ma fille est encore toute petite.",
-    "ja": "娘はまだ小さいです。",
-    "ro": "Musume wa mada chiisai desu.",
-    "lit": "ma fille · [thème] · encore · petit · être (poli)"
+    "fr": "Un thé aux pignons, s'il te plaît.",
+    "ar": "شَايٌ بِالصَّنَوْبَرِ مِنْ فَضْلِكَ.",
+    "ro": "Shāyun biṣ-ṣanawbari min faḍlika.",
+    "lit": "thé · avec-les-pignons · de · faveur-de-toi"
    },
    {
-    "fr": "Le dimanche, nous allons tous au parc.",
-    "ja": "日曜日はみんなで公園に行きます。",
-    "ro": "Nichiyōbi wa minna de kōen ni ikimasu.",
-    "lit": "dimanche · [thème] · tout le monde · [avec] · parc · [direction] · aller (poli)"
+    "fr": "Tu veux un makroud ?",
+    "ar": "هَلْ تُرِيدُ مَقْرُوضًا؟",
+    "ro": "Hal turīdu maqrūḍan?",
+    "lit": "[question] · tu-veux · makroud ?"
    },
    {
-    "fr": "On déjeune chez mes grands-parents.",
-    "ja": "祖父母の家で昼ご飯を食べます。",
-    "ro": "Sofubo no ie de hirugohan o tabemasu.",
-    "lit": "mes grands-parents · [possessif] · maison · [lieu] · déjeuner · [objet] · manger (poli)"
+    "fr": "Non merci, je n'ai pas faim.",
+    "ar": "لَا شُكْرًا، لَسْتُ جَائِعًا.",
+    "ro": "Lā shukran, lastu jāʾiʿan.",
+    "lit": "non · merci · [ne… pas]-je-suis · affamé"
    },
    {
-    "fr": "Ma grand-mère cuisine à merveille.",
-    "ja": "祖母は料理がとても上手です。",
-    "ro": "Sobo wa ryōri ga totemo jōzu desu.",
-    "lit": "ma grand-mère · [thème] · cuisine · [sujet] · très · habile · être (poli)"
+    "fr": "Le café est plein à craquer ce soir.",
+    "ar": "الْمَقْهَى مُزْدَحِمٌ هَذَا الْمَسَاءَ.",
+    "ro": "Al-maqhā muzdaḥimun hādhā al-masāʾa.",
+    "lit": "le-café · bondé · ce · le-soir"
    },
    {
-    "fr": "Votre fille est vraiment mignonne.",
-    "ja": "娘さんは本当にかわいいですね。",
-    "ro": "Musume-san wa hontō ni kawaii desu ne.",
-    "lit": "votre fille · [thème] · vraiment · mignon · être (poli) · [n'est-ce pas]"
+    "fr": "Où est le serveur ?",
+    "ar": "أَيْنَ النَّادِلُ؟",
+    "ro": "Ayna an-nādilu?",
+    "lit": "où · le-serveur ?"
    },
    {
-    "fr": "Merci, mais elle est très bruyante !",
-    "ja": "ありがとうございます。でも、とてもうるさいですよ。",
-    "ro": "Arigatō gozaimasu. Demo, totemo urusai desu yo.",
-    "lit": "merci (très poli) · mais · très · bruyant · être (poli) · [tu sais]"
+    "fr": "C'est moi qui paie aujourd'hui.",
+    "ar": "أَنَا أَدْفَعُ الْيَوْمَ.",
+    "ro": "Anā adfaʿu al-yawma.",
+    "lit": "moi · je-paie · aujourd'hui"
    }
   ]
  },
  {
-  "title": "Au téléphone : que faites-vous ?",
+  "title": "Souvenirs de Carthage",
   "phrases": [
    {
-    "fr": "Allô, ici Marie.",
-    "ja": "もしもし、マリーです。",
-    "ro": "Moshi moshi, Marī desu.",
-    "lit": "allô · Marie · être (poli)"
+    "fr": "Hier, j'étais à Carthage.",
+    "ar": "كُنْتُ فِي قَرْطَاجَ أَمْسِ.",
+    "ro": "Kuntu fī Qarṭāja amsi.",
+    "lit": "j'étais · dans · Carthage · hier"
    },
    {
-    "fr": "Qu'est-ce que vous faites en ce moment ?",
-    "ja": "今、何をしていますか？",
-    "ro": "Ima, nani o shite imasu ka?",
-    "lit": "maintenant · quoi · [objet] · faire (forme -te) · être en train (poli) · [question]"
+    "fr": "Le site était magnifique.",
+    "ar": "كَانَ الْمَوْقِعُ رَائِعًا.",
+    "ro": "Kāna al-mawqiʿu rāʾiʿan.",
+    "lit": "était · le-site · magnifique"
    },
    {
-    "fr": "Je regarde la mer à Kamakura.",
-    "ja": "鎌倉で海を見ています。",
-    "ro": "Kamakura de umi o mite imasu.",
-    "lit": "Kamakura · [lieu] · mer · [objet] · regarder (forme -te) · être en train (poli)"
+    "fr": "Il faisait très chaud.",
+    "ar": "كَانَ الْجَوُّ حَارًّا جِدًّا.",
+    "ro": "Kāna al-jawwu ḥārran jiddan.",
+    "lit": "était · le-temps · chaud · très"
    },
    {
-    "fr": "Mon mari est en train de cuisiner.",
-    "ja": "夫は料理をしています。",
-    "ro": "Otto wa ryōri o shite imasu.",
-    "lit": "mon mari · [thème] · cuisine · [objet] · faire (forme -te) · être en train (poli)"
+    "fr": "Tu étais avec ta famille ?",
+    "ar": "هَلْ كُنْتَ مَعَ عَائِلَتِكَ؟",
+    "ro": "Hal kunta maʿa ʿāʾilatika?",
+    "lit": "[question] · tu-étais · avec · famille-de-toi ?"
    },
    {
-    "fr": "Les enfants dorment déjà.",
-    "ja": "子どもはもう寝ています。",
-    "ro": "Kodomo wa mō nete imasu.",
-    "lit": "enfants · [thème] · déjà · dormir (forme -te) · être en train (poli)"
+    "fr": "Non, j'étais avec un collègue.",
+    "ar": "لَا، كُنْتُ مَعَ زَمِيلٍ.",
+    "ro": "Lā, kuntu maʿa zamīlin.",
+    "lit": "non · j'étais · avec · collègue"
    },
    {
-    "fr": "J'habite à Yokohama.",
-    "ja": "横浜に住んでいます。",
-    "ro": "Yokohama ni sunde imasu.",
-    "lit": "Yokohama · [lieu] · habiter (forme -te) · être (état, poli)"
+    "fr": "Le musée était fermé.",
+    "ar": "كَانَ الْمَتْحَفُ مُغْلَقًا.",
+    "ro": "Kāna al-matḥafu mughlaqan.",
+    "lit": "était · le-musée · fermé"
    },
    {
-    "fr": "Mon grand frère est marié.",
-    "ja": "兄は結婚しています。",
-    "ro": "Ani wa kekkon shite imasu.",
-    "lit": "mon grand frère · [thème] · mariage · faire (forme -te) · être (état, poli)"
+    "fr": "Ma grand-mère était professeure.",
+    "ar": "كَانَتْ جَدَّتِي مُعَلِّمَةً.",
+    "ro": "Kānat jaddatī muʿallimatan.",
+    "lit": "était (f.) · grand-mère-de-moi · professeure"
    },
    {
-    "fr": "Vous connaissez Monsieur Mori ?",
-    "ja": "森さんを知っていますか？",
-    "ro": "Mori-san o shitte imasu ka?",
-    "lit": "Mori-monsieur · [objet] · savoir (forme -te) · être (état, poli) · [question]"
+    "fr": "Carthage était une grande ville.",
+    "ar": "كَانَتْ قَرْطَاجُ مَدِينَةً كَبِيرَةً.",
+    "ro": "Kānat Qarṭāju madīnatan kabīratan.",
+    "lit": "était (f.) · Carthage · ville · grande"
    },
    {
-    "fr": "Aujourd'hui, il pleut sur Yokohama.",
-    "ja": "今日、横浜は雨が降っています。",
-    "ro": "Kyō, Yokohama wa ame ga futte imasu.",
-    "lit": "aujourd'hui · Yokohama · [thème] · pluie · [sujet] · tomber (forme -te) · être en train (poli)"
+    "fr": "Où étais-tu ce matin ?",
+    "ar": "أَيْنَ كُنْتَ هَذَا الصَّبَاحَ؟",
+    "ro": "Ayna kunta hādhā aṣ-ṣabāḥa?",
+    "lit": "où · tu-étais · ce · le-matin ?"
    },
    {
-    "fr": "Je vous rappelle ce soir.",
-    "ja": "今晩、また電話します。",
-    "ro": "Konban, mata denwa shimasu.",
-    "lit": "ce soir · de nouveau · téléphone · faire (poli)"
+    "fr": "J'étais au souk de la médina.",
+    "ar": "كُنْتُ فِي سُوقِ الْمَدِينَةِ.",
+    "ro": "Kuntu fī sūqi al-madīnati.",
+    "lit": "j'étais · dans · souk · la-médina"
    }
   ],
   "tip": {
-   "title": "« -te imasu » : être en train de, ou un état",
-   "example": "Je regarde la mer à Kamakura. — 鎌倉で海を<b>見ています</b>。",
-   "exampleRo": "Kamakura de umi o mite imasu.",
-   "lit": "Kamakura · [lieu] · mer · [objet] · regarder (forme -te) · être en train (poli)",
-   "body": "Vous connaissez déjà la forme en « -te » grâce à « -te kudasai ». En lui ajoutant « imasu », on obtient une construction très utile. Premier sens : une action en cours, comme notre « être en train de ». Notre phrase se décompose ainsi : Kamakura, lieu, mer, objet, regardant, être en train. « Mimasu », c'est « je regarde » en général, tandis que « mite imasu », c'est « je suis en train de regarder », là, maintenant. De même, « Otto wa ryōri o shite imasu » : mon mari est en train de cuisiner. Deuxième sens, plus surprenant : un état qui dure, le résultat d'une action. « Kekkon shite imasu » ne veut pas dire « il est en train de se marier », mais « il est marié ». Et « Yokohama ni sunde imasu », c'est « j'habite à Yokohama ». Pour retenir, imaginez une photo : « -te imasu » décrit ce qu'on voit sur l'image à cet instant, une action ou une situation."
+   "title": "« Kana » : le verbe être au passé",
+   "example": "Le site était magnifique. — <b>كَانَ</b> الْمَوْقِعُ رَائِعًا.",
+   "exampleRo": "Kāna al-mawqiʿu rāʾiʿan.",
+   "lit": "était · le-site · magnifique",
+   "body": "Au présent, l'arabe n'a pas besoin du verbe être : on dit « al-jaww harr », mot à mot : le temps, chaud. Mais au passé, il faut un verbe, et c'est « kana », il était. On le place en général au début de la phrase : « kana al-mawqiu raian », le site était magnifique, se dit mot à mot : était, le site, magnifique. Remarquez que l'adjectif change un peu de terminaison et finit par « an » après « kana ». Pour « j'étais », on dit « kuntu », et pour « tu étais », « kunta ». Au féminin, « kana » devient « kanat », comme dans « kanat jaddati muallima », ma grand-mère était professeure. Astuce : « kuntu » commence comme le mot « content » ; hier, j'étais à Carthage, et j'étais content."
   }
  },
  {
-  "title": "Les saisons au Japon",
+  "title": "Entre collègues",
   "phrases": [
    {
-    "fr": "Quelle saison aimez-vous ?",
-    "ja": "どの季節が好きですか？",
-    "ro": "Dono kisetsu ga suki desu ka?",
-    "lit": "quel · saison · [sujet] · aimé · être (poli) · [question]"
+    "fr": "Voici ma nouvelle collègue, Houda.",
+    "ar": "هَذِهِ زَمِيلَتِي الْجَدِيدَةُ هُدَى.",
+    "ro": "Hādhihi zamīlatī al-jadīdatu Hudā.",
+    "lit": "voici · collègue-de-moi · la-nouvelle · Houda"
    },
    {
-    "fr": "J'aime le printemps et ses cerisiers.",
-    "ja": "春と桜が好きです。",
-    "ro": "Haru to sakura ga suki desu.",
-    "lit": "printemps · [et] · cerisier · [sujet] · aimé · être (poli)"
+    "fr": "Elle travaille avec nous depuis lundi.",
+    "ar": "تَعْمَلُ مَعَنَا مُنْذُ يَوْمِ الِاثْنَيْنِ.",
+    "ro": "Taʿmalu maʿanā mundhu yawmi al-ithnayni.",
+    "lit": "elle-travaille · avec-nous · depuis · jour · le-lundi"
    },
    {
-    "fr": "L'été à Kamakura est très chaud.",
-    "ja": "鎌倉の夏はとても暑いです。",
-    "ro": "Kamakura no natsu wa totemo atsui desu.",
-    "lit": "Kamakura · [possessif] · été · [thème] · très · chaud · être (poli)"
+    "fr": "Mes collègues sont sympathiques.",
+    "ar": "زُمَلَائِي لُطَفَاءُ.",
+    "ro": "Zumalāʾī luṭafāʾu.",
+    "lit": "collègues-de-moi · gentils"
    },
    {
-    "fr": "En été, on se baigne dans la mer.",
-    "ja": "夏は海で泳ぎます。",
-    "ro": "Natsu wa umi de oyogimasu.",
-    "lit": "été · [thème] · mer · [lieu] · nager (poli)"
+    "fr": "Mon chef est très sérieux.",
+    "ar": "مُدِيرِي جَادٌّ جِدًّا.",
+    "ro": "Mudīrī jāddun jiddan.",
+    "lit": "directeur-de-moi · sérieux · très"
    },
    {
-    "fr": "L'automne, c'est la saison des feuilles rouges.",
-    "ja": "秋は紅葉の季節です。",
-    "ro": "Aki wa kōyō no kisetsu desu.",
-    "lit": "automne · [thème] · feuilles rouges · [possessif] · saison · être (poli)"
+    "fr": "La réunion est à dix heures.",
+    "ar": "الِاجْتِمَاعُ فِي السَّاعَةِ الْعَاشِرَةِ.",
+    "ro": "Al-ijtimāʿu fī as-sāʿati al-ʿāshirati.",
+    "lit": "la-réunion · dans · l'-heure · la-dixième"
    },
    {
-    "fr": "À Kamakura, les érables rouges sont superbes.",
-    "ja": "鎌倉の紅葉はとてもきれいです。",
-    "ro": "Kamakura no kōyō wa totemo kirei desu.",
-    "lit": "Kamakura · [possessif] · feuilles rouges · [thème] · très · beau · être (poli)"
+    "fr": "Karim, tu as un stylo ?",
+    "ar": "هَلْ عِنْدَكَ قَلَمٌ يَا كَرِيمُ؟",
+    "ro": "Hal ʿindaka qalamun yā Karīmu?",
+    "lit": "[question] · chez-toi · stylo · [ô] · Karim ?"
    },
    {
-    "fr": "L'hiver à Yokohama n'est pas très froid.",
-    "ja": "横浜の冬はあまり寒くありません。",
-    "ro": "Yokohama no fuyu wa amari samuku arimasen.",
-    "lit": "Yokohama · [possessif] · hiver · [thème] · pas tellement · froid · ne pas être (poli)"
+    "fr": "Oui, prends celui-ci.",
+    "ar": "نَعَمْ، خُذْ هَذَا.",
+    "ro": "Naʿam, khudh hādhā.",
+    "lit": "oui · prends · celui-ci"
    },
    {
-    "fr": "Il fait lourd aujourd'hui, hein ?",
-    "ja": "今日は蒸し暑いですね。",
-    "ro": "Kyō wa mushiatsui desu ne.",
-    "lit": "aujourd'hui · [thème] · chaud et humide · être (poli) · [n'est-ce pas]"
+    "fr": "Nous prenons un café à midi.",
+    "ar": "نَشْرَبُ قَهْوَةً عِنْدَ الظُّهْرِ.",
+    "ro": "Nashrabu qahwatan ʿinda aẓ-ẓuhri.",
+    "lit": "nous-buvons · café · à · le-midi"
    },
    {
-    "fr": "La saison des pluies commence en juin.",
-    "ja": "梅雨は六月からです。",
-    "ro": "Tsuyu wa rokugatsu kara desu.",
-    "lit": "saison des pluies · [thème] · juin · [depuis] · être (poli)"
+    "fr": "Mon collègue habite à Hammamet.",
+    "ar": "زَمِيلِي يَسْكُنُ فِي الْحَمَّامَاتِ.",
+    "ro": "Zamīlī yaskunu fī al-Ḥammāmāti.",
+    "lit": "collègue-de-moi · il-habite · dans · Hammamet"
    },
    {
-    "fr": "Vivement les cerisiers en fleur !",
-    "ja": "早く桜が見たいです。",
-    "ro": "Hayaku sakura ga mitai desu.",
-    "lit": "vite · cerisier · [objet du désir] · vouloir voir (poli)"
+    "fr": "Le bureau est fermé le dimanche.",
+    "ar": "الْمَكْتَبُ مُغْلَقٌ يَوْمَ الْأَحَدِ.",
+    "ro": "Al-maktabu mughlaqun yawma al-aḥadi.",
+    "lit": "le-bureau · fermé · jour · le-dimanche"
    }
   ]
  },
  {
-  "title": "Yokohama ou Kamakura ?",
+  "title": "Comparer Hammamet et La Marsa",
   "phrases": [
    {
-    "fr": "Yokohama est plus grand que Kamakura.",
-    "ja": "横浜は鎌倉より大きいです。",
-    "ro": "Yokohama wa Kamakura yori ōkii desu.",
-    "lit": "Yokohama · [thème] · Kamakura · [plus que] · grand · être (poli)"
+    "fr": "Tunis est plus grande que Hammamet.",
+    "ar": "تُونِسُ أَكْبَرُ مِنَ الْحَمَّامَاتِ.",
+    "ro": "Tūnisu akbaru mina al-Ḥammāmāti.",
+    "lit": "Tunis · plus-grande · de · Hammamet"
    },
    {
-    "fr": "Kamakura est plus calme que Yokohama.",
-    "ja": "鎌倉は横浜より静かです。",
-    "ro": "Kamakura wa Yokohama yori shizuka desu.",
-    "lit": "Kamakura · [thème] · Yokohama · [plus que] · calme · être (poli)"
+    "fr": "Mon frère est plus âgé que moi.",
+    "ar": "أَخِي أَكْبَرُ مِنِّي.",
+    "ro": "Akhī akbaru minnī.",
+    "lit": "frère-de-moi · plus-grand · de-moi"
    },
    {
-    "fr": "La mer ou la montagne, que préférez-vous ?",
-    "ja": "海と山と、どちらが好きですか？",
-    "ro": "Umi to yama to, dochira ga suki desu ka?",
-    "lit": "mer · [et] · montagne · [et] · lequel · [sujet] · aimé · être (poli) · [question]"
+    "fr": "La Marsa est plus proche que Hammamet.",
+    "ar": "الْمَرْسَى أَقْرَبُ مِنَ الْحَمَّامَاتِ.",
+    "ro": "Al-Marsā aqrabu mina al-Ḥammāmāti.",
+    "lit": "La Marsa · plus-proche · de · Hammamet"
    },
    {
-    "fr": "Moi, je préfère la mer.",
-    "ja": "海のほうが好きです。",
-    "ro": "Umi no hō ga suki desu.",
-    "lit": "mer · [possessif] · côté · [sujet] · aimé · être (poli)"
+    "fr": "La mer est plus chaude en août.",
+    "ar": "الْبَحْرُ أَدْفَأُ فِي أُغُسْطُسَ.",
+    "ro": "Al-baḥru adfaʾu fī ughusṭusa.",
+    "lit": "la-mer · plus-chaude · dans · août"
    },
    {
-    "fr": "Le train est plus rapide que le bus.",
-    "ja": "電車はバスより速いです。",
-    "ro": "Densha wa basu yori hayai desu.",
-    "lit": "train · [thème] · bus · [plus que] · rapide · être (poli)"
+    "fr": "Le thé est moins cher que le café.",
+    "ar": "الشَّايُ أَرْخَصُ مِنَ الْقَهْوَةِ.",
+    "ro": "Ash-shāyu arkhaṣu mina al-qahwati.",
+    "lit": "le-thé · moins-cher · de · le-café"
    },
    {
-    "fr": "Thé vert ou café, qu'est-ce qui vous ferait plaisir ?",
-    "ja": "緑茶とコーヒーと、どちらがいいですか？",
-    "ro": "Ryokucha to kōhī to, dochira ga ii desu ka?",
-    "lit": "thé vert · [et] · café · [et] · lequel · [sujet] · bien · être (poli) · [question]"
+    "fr": "Ma sœur est plus jeune que moi.",
+    "ar": "أُخْتِي أَصْغَرُ مِنِّي.",
+    "ro": "Ukhtī aṣgharu minnī.",
+    "lit": "sœur-de-moi · plus-petite · de-moi"
    },
    {
-    "fr": "Plutôt du thé vert, merci.",
-    "ja": "緑茶のほうがいいです。",
-    "ro": "Ryokucha no hō ga ii desu.",
-    "lit": "thé vert · [possessif] · côté · [sujet] · bien · être (poli)"
+    "fr": "Cette plage est plus belle.",
+    "ar": "هَذَا الشَّاطِئُ أَجْمَلُ.",
+    "ro": "Hādhā ash-shāṭiʾu ajmalu.",
+    "lit": "cette · la-plage · plus-belle"
    },
    {
-    "fr": "Ce restaurant-ci est moins cher.",
-    "ja": "こちらの店のほうが安いです。",
-    "ro": "Kochira no mise no hō ga yasui desu.",
-    "lit": "ce côté-ci · [possessif] · restaurant · [possessif] · côté · [sujet] · bon marché · être (poli)"
+    "fr": "L'été est plus long que l'hiver.",
+    "ar": "الصَّيْفُ أَطْوَلُ مِنَ الشِّتَاءِ.",
+    "ro": "Aṣ-ṣayfu aṭwalu mina ash-shitāʾi.",
+    "lit": "l'-été · plus-long · de · l'-hiver"
    },
    {
-    "fr": "J'aime mieux le printemps que l'été.",
-    "ja": "夏より春のほうが好きです。",
-    "ro": "Natsu yori haru no hō ga suki desu.",
-    "lit": "été · [plus que] · printemps · [possessif] · côté · [sujet] · aimé · être (poli)"
+    "fr": "Quelle ville est la plus belle ?",
+    "ar": "أَيُّ مَدِينَةٍ أَجْمَلُ؟",
+    "ro": "Ayyu madīnatin ajmalu?",
+    "lit": "quelle · ville · plus-belle ?"
    },
    {
-    "fr": "Finalement, les deux sont bien !",
-    "ja": "どちらもいいですね。",
-    "ro": "Dochira mo ii desu ne.",
-    "lit": "lequel · [aussi] · bien · être (poli) · [n'est-ce pas]"
+    "fr": "Sidi Bou Saïd est plus calme que la médina.",
+    "ar": "سِيدِي بُو سَعِيدْ أَهْدَأُ مِنَ الْمَدِينَةِ.",
+    "ro": "Sīdī Bū Saʿīd ahdaʾu mina al-madīnati.",
+    "lit": "Sidi Bou Saïd · plus-calme · de · la-médina"
    }
   ],
   "tip": {
-   "title": "Comparer : « yori » et « no hō ga »",
-   "example": "J'aime mieux le printemps que l'été. — 夏<b>より</b>春<b>のほうが</b>好きです。",
-   "exampleRo": "Natsu yori haru no hō ga suki desu.",
-   "lit": "été · [plus que] · printemps · [possessif] · côté · [sujet] · aimé · être (poli)",
-   "body": "Pour comparer, le japonais n'a pas de mot pour « plus » placé devant l'adjectif. Il utilise la particule « yori », qui veut dire « par rapport à », et qui se place après l'élément qu'on dépasse. « Yokohama wa Kamakura yori ōkii desu » se dit littéralement : Yokohama, thème, Kamakura, par rapport à, grand, être. Autrement dit, Yokohama est plus grand que Kamakura. Pour désigner le gagnant, on ajoute « no hō ga », qui signifie « le côté de ». Notre phrase se décompose ainsi : l'été, par rapport à, le côté du printemps, sujet, aimé, être. Pour demander une préférence, on dit « A to B to, dochira ga suki desu ka ? », A et B, lequel préférez-vous ? On répond simplement : « Umi no hō ga suki desu », je préfère la mer. Pour retenir, imaginez une balance : « yori » marque le plateau qui monte, et « no hō ga » celui qui penche, le vainqueur."
+   "title": "Comparer : « akbar min », plus grand que",
+   "example": "Tunis est plus grande que Hammamet. — تُونِسُ <b>أَكْبَرُ</b> <b>مِنَ</b> الْحَمَّامَاتِ.",
+   "exampleRo": "Tūnisu akbaru mina al-Ḥammāmāti.",
+   "lit": "Tunis · plus-grande · de · Hammamet",
+   "body": "Pour comparer, l'arabe transforme l'adjectif selon un moule très régulier, qui commence toujours par un « a ». « Kabir », grand, devient « akbar », plus grand ; « saghir », petit, devient « asghar », plus petit ; « jamil », beau, devient « ajmal », plus beau. Ensuite, on ajoute « min », qui veut dire « de », et qui joue ici le rôle de notre « que ». « Tunis akbar mina al-Hammamat » se dit donc mot à mot : Tunis, plus grande, de Hammamet. Il n'y a pas de verbe être, et la forme ne change pas au féminin : Tunis est une ville, mais on dit quand même « akbar ». Pour « que moi », on colle le pronom : « minni ». Ainsi « akhi akbar minni » veut dire : mon frère est plus âgé que moi. Astuce : entendez le « a » du début comme un « encore plus » : akbar, ajmal, aqrab."
   }
  },
  {
-  "title": "Une invitation chez des amis",
+  "title": "Une invitation à dîner",
   "phrases": [
    {
-    "fr": "Vous venez dîner à la maison samedi ?",
-    "ja": "土曜日、うちで晩ご飯を食べませんか？",
-    "ro": "Doyōbi, uchi de bangohan o tabemasen ka?",
-    "lit": "samedi · maison · [lieu] · dîner · [objet] · manger (négatif poli) · [question]"
+    "fr": "Tu es libre ce samedi soir ?",
+    "ar": "هَلْ أَنْتَ مُتَفَرِّغٌ مَسَاءَ السَّبْتِ؟",
+    "ro": "Hal anta mutafarrighun masāʾa as-sabti?",
+    "lit": "[question] · toi · libre · soir · le-samedi ?"
    },
    {
-    "fr": "Avec joie, c'est très gentil.",
-    "ja": "ぜひ。ありがとうございます。",
-    "ro": "Zehi. Arigatō gozaimasu.",
-    "lit": "absolument · merci (très poli)"
+    "fr": "Je t'invite à dîner chez moi.",
+    "ar": "أَدْعُوكَ إِلَى الْعَشَاءِ فِي بَيْتِي.",
+    "ro": "Adʿūka ilā al-ʿashāʾi fī baytī.",
+    "lit": "je-t'invite · à · le-dîner · dans · maison-de-moi"
    },
    {
-    "fr": "C'est où, chez vous ?",
-    "ja": "おうちはどこですか？",
-    "ro": "Ouchi wa doko desu ka?",
-    "lit": "honorable-maison · [thème] · où · être (poli) · [question]"
+    "fr": "Merci beaucoup, avec grand plaisir !",
+    "ar": "شُكْرًا جَزِيلًا، بِكُلِّ سُرُورٍ!",
+    "ro": "Shukran jazīlan, bikulli surūrin!",
+    "lit": "merci · abondant · avec-tout · plaisir !"
    },
    {
-    "fr": "Tout près de la gare de Kita-Kamakura.",
-    "ja": "北鎌倉駅のすぐ近くです。",
-    "ro": "Kita-Kamakura eki no sugu chikaku desu.",
-    "lit": "Kita-Kamakura-gare · [possessif] · tout · proximité · être (poli)"
+    "fr": "Ma mère prépare le couscous.",
+    "ar": "أُمِّي تُحَضِّرُ الْكُسْكُسَ.",
+    "ro": "Ummī tuḥaḍḍiru al-kuskusa.",
+    "lit": "mère-de-moi · elle-prépare · le-couscous"
    },
    {
-    "fr": "À quelle heure est-ce que je viens ?",
-    "ja": "何時に行きましょうか？",
-    "ro": "Nanji ni ikimashō ka?",
-    "lit": "quelle-heure · [temps] · aller (proposition) · [question]"
+    "fr": "Je viens à quelle heure ?",
+    "ar": "مَتَى آتِي؟",
+    "ro": "Matā ātī?",
+    "lit": "quand · je-viens ?"
    },
    {
-    "fr": "Vers six heures, ça vous va ?",
-    "ja": "六時ごろはどうですか？",
-    "ro": "Rokuji goro wa dō desu ka?",
-    "lit": "six-heures · environ · [thème] · comment · être (poli) · [question]"
+    "fr": "Viens à huit heures.",
+    "ar": "تَعَالَ فِي السَّاعَةِ الثَّامِنَةِ.",
+    "ro": "Taʿāla fī as-sāʿati ath-thāminati.",
+    "lit": "viens · dans · l'-heure · la-huitième"
    },
    {
-    "fr": "Qu'est-ce que je peux apporter ?",
-    "ja": "何を持って行きましょうか？",
-    "ro": "Nani o motte ikimashō ka?",
-    "lit": "quoi · [objet] · tenir (forme -te) · aller (proposition) · [question]"
+    "fr": "Où est ta maison ?",
+    "ar": "أَيْنَ بَيْتُكَ؟",
+    "ro": "Ayna baytuka?",
+    "lit": "où · maison-de-toi ?"
    },
    {
-    "fr": "Rien du tout, ce n'est pas la peine.",
-    "ja": "何もいりませんよ。",
-    "ro": "Nani mo irimasen yo.",
-    "lit": "rien · [aussi] · être nécessaire (négatif poli) · [tu sais]"
+    "fr": "Ma maison est près de la plage de La Marsa.",
+    "ar": "بَيْتِي قُرْبَ شَاطِئِ الْمَرْسَى.",
+    "ro": "Baytī qurba shāṭiʾi al-Marsā.",
+    "lit": "maison-de-moi · près · plage · La Marsa"
    },
    {
-    "fr": "Ma femme va préparer un sukiyaki.",
-    "ja": "妻がすき焼きを作ります。",
-    "ro": "Tsuma ga sukiyaki o tsukurimasu.",
-    "lit": "ma femme · [sujet] · sukiyaki · [objet] · préparer (poli)"
+    "fr": "J'apporte le dessert ?",
+    "ar": "هَلْ أُحْضِرُ الْحَلْوَى؟",
+    "ro": "Hal uḥḍiru al-ḥalwā?",
+    "lit": "[question] · j'apporte · le-dessert ?"
    },
    {
-    "fr": "Je me réjouis déjà pour samedi.",
-    "ja": "土曜日が楽しみです。",
-    "ro": "Doyōbi ga tanoshimi desu.",
-    "lit": "samedi · [sujet] · plaisir attendu · être (poli)"
+    "fr": "Non, ta présence suffit.",
+    "ar": "لَا، حُضُورُكَ يَكْفِي.",
+    "ro": "Lā, ḥuḍūruka yakfī.",
+    "lit": "non · présence-de-toi · suffit"
    }
   ]
  },
  {
-  "title": "Décliner et donner une raison",
+  "title": "Pourquoi j'aime Tunis",
   "phrases": [
    {
-    "fr": "Désolée, samedi, ça va être difficile…",
-    "ja": "すみません、土曜日はちょっと…。",
-    "ro": "Sumimasen, doyōbi wa chotto…",
-    "lit": "pardon · samedi · [thème] · un peu…"
+    "fr": "J'aime Tunis parce que c'est une ville vivante.",
+    "ar": "أُحِبُّ تُونِسَ لِأَنَّهَا مَدِينَةٌ حَيَّةٌ.",
+    "ro": "Uḥibbu Tūnisa li-annahā madīnatun ḥayyatun.",
+    "lit": "j'aime · Tunis · parce-que-elle · ville · vivante"
    },
    {
-    "fr": "C'est que j'ai du travail ce jour-là.",
-    "ja": "その日は仕事がありますから。",
-    "ro": "Sono hi wa shigoto ga arimasu kara.",
-    "lit": "ce · jour · [thème] · travail · [sujet] · il y a (poli) · [parce que]"
+    "fr": "Pourquoi est-ce que tu apprends l'arabe ?",
+    "ar": "لِمَاذَا تَتَعَلَّمُ الْعَرَبِيَّةَ؟",
+    "ro": "Limādhā tataʿallamu al-ʿarabiyyata?",
+    "lit": "pourquoi · tu-apprends · l'-arabe ?"
    },
    {
-    "fr": "Pourquoi apprenez-vous le japonais ?",
-    "ja": "どうして日本語を勉強していますか？",
-    "ro": "Dōshite Nihongo o benkyō shite imasu ka?",
-    "lit": "pourquoi · japonais · [objet] · étude · faire (forme -te) · être en train (poli) · [question]"
+    "fr": "Parce que j'aime cette langue.",
+    "ar": "لِأَنَّنِي أُحِبُّ هَذِهِ اللُّغَةَ.",
+    "ro": "Li-annanī uḥibbu hādhihi al-lughata.",
+    "lit": "parce-que-moi · j'aime · cette · la-langue"
    },
    {
-    "fr": "Parce que j'adore les mangas.",
-    "ja": "漫画が大好きですから。",
-    "ro": "Manga ga daisuki desu kara.",
-    "lit": "manga · [sujet] · très aimé · être (poli) · [parce que]"
+    "fr": "Je suis fatigué parce que je travaille beaucoup.",
+    "ar": "أَنَا مُتْعَبٌ لِأَنَّنِي أَعْمَلُ كَثِيرًا.",
+    "ro": "Anā mutʿabun li-annanī aʿmalu kathīran.",
+    "lit": "moi · fatigué · parce-que-moi · je-travaille · beaucoup"
    },
    {
-    "fr": "Il fait froid, fermons la fenêtre.",
-    "ja": "寒いですから、窓を閉めましょう。",
-    "ro": "Samui desu kara, mado o shimemashō.",
-    "lit": "froid · être (poli) · [parce que] · fenêtre · [objet] · fermer (proposition)"
+    "fr": "Je vais à la plage parce qu'il fait chaud.",
+    "ar": "أَذْهَبُ إِلَى الشَّاطِئِ لِأَنَّ الْجَوَّ حَارٌّ.",
+    "ro": "Adhhabu ilā ash-shāṭiʾi li-anna al-jawwa ḥārrun.",
+    "lit": "je-vais · vers · la-plage · parce-que · le-temps · chaud"
    },
    {
-    "fr": "Je me lève tôt demain, alors pas d'alcool pour moi.",
-    "ja": "明日は早いですから、お酒は飲みません。",
-    "ro": "Ashita wa hayai desu kara, osake wa nomimasen.",
-    "lit": "demain · [thème] · tôt · être (poli) · [parce que] · alcool · [thème] · boire (négatif poli)"
+    "fr": "Pourquoi es-tu en retard ?",
+    "ar": "لِمَاذَا أَنْتَ مُتَأَخِّرٌ؟",
+    "ro": "Limādhā anta mutaʾakhkhirun?",
+    "lit": "pourquoi · toi · en-retard ?"
    },
    {
-    "fr": "Il est tard, alors je vais y aller.",
-    "ja": "もう遅いですから、そろそろ失礼します。",
-    "ro": "Mō osoi desu kara, sorosoro shitsurei shimasu.",
-    "lit": "déjà · tard · être (poli) · [parce que] · bientôt · impolitesse · faire (poli)"
+    "fr": "Parce que la route était encombrée.",
+    "ar": "لِأَنَّ الطَّرِيقَ كَانَ مُزْدَحِمًا.",
+    "ro": "Li-anna aṭ-ṭarīqa kāna muzdaḥiman.",
+    "lit": "parce-que · la-route · était · encombrée"
    },
    {
-    "fr": "Quel dommage, une autre fois alors.",
-    "ja": "残念ですね。また今度。",
-    "ro": "Zannen desu ne. Mata kondo.",
-    "lit": "regrettable · être (poli) · [n'est-ce pas] · de nouveau · la prochaine fois"
+    "fr": "Sami est content parce qu'il est en vacances.",
+    "ar": "سَامِي سَعِيدٌ لِأَنَّهُ فِي عُطْلَةٍ.",
+    "ro": "Sāmī saʿīdun li-annahu fī ʿuṭlatin.",
+    "lit": "Sami · content · parce-que-lui · dans · vacances"
    },
    {
-    "fr": "Et dimanche, ça vous irait ?",
-    "ja": "日曜日はどうですか？",
-    "ro": "Nichiyōbi wa dō desu ka?",
-    "lit": "dimanche · [thème] · comment · être (poli) · [question]"
+    "fr": "J'aime La Marsa parce qu'elle est calme.",
+    "ar": "أُحِبُّ الْمَرْسَى لِأَنَّهَا هَادِئَةٌ.",
+    "ro": "Uḥibbu al-Marsā li-annahā hādiʾatun.",
+    "lit": "j'aime · La Marsa · parce-que-elle · calme"
    },
    {
-    "fr": "Dimanche, pas de problème !",
-    "ja": "日曜日は大丈夫です！",
-    "ro": "Nichiyōbi wa daijōbu desu!",
-    "lit": "dimanche · [thème] · sans problème · être (poli)"
+    "fr": "Je ne mange pas, parce que j'ai mangé tout à l'heure.",
+    "ar": "لَا آكُلُ لِأَنَّنِي أَكَلْتُ قَبْلَ قَلِيلٍ.",
+    "ro": "Lā ākulu li-annanī akaltu qabla qalīlin.",
+    "lit": "[ne… pas] · je-mange · parce-que-moi · j'ai-mangé · avant · peu"
    }
   ],
   "tip": {
-   "title": "« Kara » : parce que, donner une raison",
-   "example": "Parce que j'adore les mangas. — 漫画が大好きです<b>から</b>。",
-   "exampleRo": "Manga ga daisuki desu kara.",
-   "lit": "manga · [sujet] · très aimé · être (poli) · [parce que]",
-   "body": "Vous connaissez déjà « kara » au sens de « depuis » ou « à partir de ». Placé à la fin d'une phrase, il prend un autre sens : « parce que ». La grande différence avec le français, c'est l'ordre : en japonais, la raison vient d'abord, puis « kara », puis la conséquence. « Samui desu kara, mado o shimemashō » se dit littéralement : froid, être, parce que, fenêtre, objet, fermons. En français, on dirait : il fait froid, donc fermons la fenêtre. Notre phrase, elle, se décompose ainsi : manga, sujet, très aimé, être, parce que. Elle répond à la question « Dōshite ? », pourquoi ? On peut aussi s'arrêter juste après « kara » pour s'excuser en douceur : « Sono hi wa shigoto ga arimasu kara », c'est que j'ai du travail ce jour-là, et l'autre comprend tout seul. Pour retenir : « kara » est comme une flèche qui part de la cause et pointe vers ce qui suit."
+   "title": "« Li-anna » : parce que",
+   "example": "Je vais à la plage parce qu'il fait chaud. — أَذْهَبُ إِلَى الشَّاطِئِ <b>لِأَنَّ</b> الْجَوَّ حَارٌّ.",
+   "exampleRo": "Adhhabu ilā ash-shāṭiʾi li-anna al-jawwa ḥārrun.",
+   "lit": "je-vais · vers · la-plage · parce-que · le-temps · chaud",
+   "body": "Pour donner une raison, on utilise « li-anna », qui veut dire parce que. Ce mot est formé de « li », pour, et de « anna », que, un peu comme « parce que » colle deux petits mots en français. Juste après « li-anna », on met le sujet : « li-anna al-jawwa harr », parce que le temps est chaud, se dit mot à mot : parce que, le temps, chaud. Si le sujet est un pronom, il se colle directement au mot : « li-annani », parce que je, « li-annahu », parce que lui, « li-annaha », parce qu'elle. Pour poser la question, on dit « limadha », pourquoi. Voici une mini-conversation : « limadha ? », pourquoi ? « li-annani mutab », parce que je suis fatigué. Astuce : « limadha » demande et « li-anna » répond, et les deux commencent par le même petit « li »."
   }
- },
- {
-  "title": "Le grand bouddha de Kamakura",
-  "phrases": [
-   {
-    "fr": "Voici le grand bouddha de Kamakura.",
-    "ja": "これが鎌倉の大仏です。",
-    "ro": "Kore ga Kamakura no Daibutsu desu.",
-    "lit": "ceci · [sujet] · Kamakura · [possessif] · grand bouddha · être (poli)"
-   },
-   {
-    "fr": "Il est vraiment immense !",
-    "ja": "本当に大きいですね！",
-    "ro": "Hontō ni ōkii desu ne!",
-    "lit": "vraiment · grand · être (poli) · [n'est-ce pas]"
-   },
-   {
-    "fr": "L'entrée coûte trois cents yens.",
-    "ja": "入場料は三百円です。",
-    "ro": "Nyūjōryō wa sanbyaku en desu.",
-    "lit": "droit d'entrée · [thème] · trois-cents-yens · être (poli)"
-   },
-   {
-    "fr": "Il y a beaucoup de visiteurs aujourd'hui.",
-    "ja": "今日は観光客が多いですね。",
-    "ro": "Kyō wa kankōkyaku ga ōi desu ne.",
-    "lit": "aujourd'hui · [thème] · touristes · [sujet] · nombreux · être (poli) · [n'est-ce pas]"
-   },
-   {
-    "fr": "Prenons une photo devant le bouddha.",
-    "ja": "大仏の前で写真を撮りましょう。",
-    "ro": "Daibutsu no mae de shashin o torimashō.",
-    "lit": "grand bouddha · [possessif] · devant · [lieu] · photo · [objet] · prendre (proposition)"
-   },
-   {
-    "fr": "Pardon, prenez-nous en photo, s'il vous plaît.",
-    "ja": "すみません、写真を撮ってください。",
-    "ro": "Sumimasen, shashin o totte kudasai.",
-    "lit": "pardon · photo · [objet] · prendre (forme -te) · s'il vous plaît"
-   },
-   {
-    "fr": "Ensuite, on va au temple Hase-dera ?",
-    "ja": "それから、長谷寺に行きませんか？",
-    "ro": "Sore kara, Hasedera ni ikimasen ka?",
-    "lit": "ensuite · Hase-temple · [direction] · aller (négatif poli) · [question]"
-   },
-   {
-    "fr": "Le temple est à cinq minutes à pied.",
-    "ja": "長谷寺は歩いて五分です。",
-    "ro": "Hasedera wa aruite gofun desu.",
-    "lit": "Hase-temple · [thème] · en marchant · cinq-minutes · être (poli)"
-   },
-   {
-    "fr": "En juin, les hortensias y sont magnifiques.",
-    "ja": "六月はあじさいがとてもきれいです。",
-    "ro": "Rokugatsu wa ajisai ga totemo kirei desu.",
-    "lit": "juin · [thème] · hortensias · [sujet] · très · beau · être (poli)"
-   },
-   {
-    "fr": "Kamakura est vraiment une ville agréable.",
-    "ja": "鎌倉は本当にいい町です。",
-    "ro": "Kamakura wa hontō ni ii machi desu.",
-    "lit": "Kamakura · [thème] · vraiment · bon · ville · être (poli)"
-   }
-  ]
- },
- {
-  "title": "Une journée au bord de la mer",
-  "phrases": [
-   {
-    "fr": "Hier, nous sommes allés à la plage de Yuigahama.",
-    "ja": "昨日、由比ヶ浜に行きました。",
-    "ro": "Kinō, Yuigahama ni ikimashita.",
-    "lit": "hier · Yuigahama · [direction] · aller (passé poli)"
-   },
-   {
-    "fr": "Il faisait un temps splendide.",
-    "ja": "とてもいい天気でした。",
-    "ro": "Totemo ii tenki deshita.",
-    "lit": "très · bon · temps · être (passé poli)"
-   },
-   {
-    "fr": "La mer était un peu froide.",
-    "ja": "海は少し冷たかったです。",
-    "ro": "Umi wa sukoshi tsumetakatta desu.",
-    "lit": "mer · [thème] · un peu · froid (passé) · (poli)"
-   },
-   {
-    "fr": "Le sable était brûlant.",
-    "ja": "砂はとても熱かったです。",
-    "ro": "Suna wa totemo atsukatta desu.",
-    "lit": "sable · [thème] · très · brûlant (passé) · (poli)"
-   },
-   {
-    "fr": "Le coucher de soleil était superbe.",
-    "ja": "夕日はとてもきれいでした。",
-    "ro": "Yūhi wa totemo kirei deshita.",
-    "lit": "soleil couchant · [thème] · très · beau · être (passé poli)"
-   },
-   {
-    "fr": "Le bol de shirasu était délicieux.",
-    "ja": "しらす丼はおいしかったです。",
-    "ro": "Shirasudon wa oishikatta desu.",
-    "lit": "bol de shirasu · [thème] · délicieux (passé) · (poli)"
-   },
-   {
-    "fr": "Et ce n'était pas cher du tout.",
-    "ja": "全然高くなかったです。",
-    "ro": "Zenzen takaku nakatta desu.",
-    "lit": "pas du tout · cher · ne pas (passé) · (poli)"
-   },
-   {
-    "fr": "Il y avait beaucoup de monde ?",
-    "ja": "人が多かったですか？",
-    "ro": "Hito ga ōkatta desu ka?",
-    "lit": "gens · [sujet] · nombreux (passé) · (poli) · [question]"
-   },
-   {
-    "fr": "Non, la plage était tranquille.",
-    "ja": "いいえ、浜辺は静かでした。",
-    "ro": "Iie, hamabe wa shizuka deshita.",
-    "lit": "non · plage · [thème] · calme · être (passé poli)"
-   },
-   {
-    "fr": "On s'est vraiment bien amusés.",
-    "ja": "本当に楽しかったです。",
-    "ro": "Hontō ni tanoshikatta desu.",
-    "lit": "vraiment · amusant (passé) · (poli)"
-   }
-  ],
-  "tip": {
-   "title": "Le passé des adjectifs : takakatta, kirei deshita",
-   "example": "La mer était un peu froide. — 海は少し<b>冷たかった</b>です。",
-   "exampleRo": "Umi wa sukoshi tsumetakatta desu.",
-   "lit": "mer · [thème] · un peu · froid (passé) · (poli)",
-   "body": "En japonais, ce n'est pas seulement le verbe qui se met au passé : les adjectifs en « -i » se conjuguent eux-mêmes ! On remplace le « i » final par « katta ». « Tsumetai », froid, devient « tsumetakatta », était froid. On garde ensuite « desu » juste pour la politesse, sans le mettre au passé. Notre phrase se dit donc littéralement : mer, thème, un peu, froid-passé, poli. De même, « oishii » donne « oishikatta », c'était délicieux, et « tanoshii » donne « tanoshikatta », c'était amusant. Attention à l'exception : « ii », bon, devient « yokatta ». Pour les adjectifs en « -na », comme « kirei » ou « shizuka », c'est plus simple : on met « desu » au passé, « deshita ». « Yūhi wa kirei deshita », le coucher de soleil était beau. Pour retenir : les adjectifs en « -i » portent le passé sur leur dos avec « katta », les adjectifs en « -na » le confient à « deshita »."
-  }
- },
- {
-  "title": "Arriver chez quelqu'un",
-  "phrases": [
-   {
-    "fr": "Bienvenue, entrez donc !",
-    "ja": "いらっしゃい。どうぞ、上がってください。",
-    "ro": "Irasshai. Dōzo, agatte kudasai.",
-    "lit": "bienvenue · je vous en prie · monter (forme -te) · s'il vous plaît"
-   },
-   {
-    "fr": "Merci, pardon de vous déranger.",
-    "ja": "お邪魔します。",
-    "ro": "Ojama shimasu.",
-    "lit": "honorable-dérangement · faire (poli)"
-   },
-   {
-    "fr": "J'enlève mes chaussures ici ?",
-    "ja": "靴はここで脱ぎますか？",
-    "ro": "Kutsu wa koko de nugimasu ka?",
-    "lit": "chaussures · [thème] · ici · [lieu] · enlever (poli) · [question]"
-   },
-   {
-    "fr": "Oui, voici des pantoufles.",
-    "ja": "はい、スリッパをどうぞ。",
-    "ro": "Hai, surippa o dōzo.",
-    "lit": "oui · pantoufles · [objet] · je vous en prie"
-   },
-   {
-    "fr": "Quelle jolie maison !",
-    "ja": "すてきなお宅ですね。",
-    "ro": "Suteki na otaku desu ne.",
-    "lit": "charmant · [na] · honorable-maison · être (poli) · [n'est-ce pas]"
-   },
-   {
-    "fr": "Asseyez-vous ici, je vous en prie.",
-    "ja": "どうぞ、こちらに座ってください。",
-    "ro": "Dōzo, kochira ni suwatte kudasai.",
-    "lit": "je vous en prie · ce côté-ci · [lieu] · s'asseoir (forme -te) · s'il vous plaît"
-   },
-   {
-    "fr": "Je vous sers un peu de thé ?",
-    "ja": "お茶はいかがですか？",
-    "ro": "Ocha wa ikaga desu ka?",
-    "lit": "honorable-thé · [thème] · comment (poli) · être (poli) · [question]"
-   },
-   {
-    "fr": "Merci pour ce repas, je commence.",
-    "ja": "いただきます。",
-    "ro": "Itadakimasu.",
-    "lit": "recevoir humblement (poli)"
-   },
-   {
-    "fr": "Tout est vraiment délicieux.",
-    "ja": "全部本当においしいです。",
-    "ro": "Zenbu hontō ni oishii desu.",
-    "lit": "tout · vraiment · délicieux · être (poli)"
-   },
-   {
-    "fr": "C'était un vrai festin, merci.",
-    "ja": "ごちそうさまでした。",
-    "ro": "Gochisōsama deshita.",
-    "lit": "honorable-festin · être (passé poli)"
-   }
-  ]
  },
  {
   "title": "Offrir un cadeau",
   "phrases": [
    {
-    "fr": "Voici un petit quelque chose pour vous.",
-    "ja": "つまらないものですが、どうぞ。",
-    "ro": "Tsumaranai mono desu ga, dōzo.",
-    "lit": "sans intérêt · chose · être (poli) · [mais] · je vous en prie"
+    "fr": "C'est un cadeau pour toi.",
+    "ar": "هَذِهِ هَدِيَّةٌ لَكَ.",
+    "ro": "Hādhihi hadiyyatun laka.",
+    "lit": "ceci · cadeau · pour-toi"
    },
    {
-    "fr": "Oh, il ne fallait pas, merci beaucoup !",
-    "ja": "あ、すみません。ありがとうございます。",
-    "ro": "A, sumimasen. Arigatō gozaimasu.",
-    "lit": "ah · pardon · merci (très poli)"
+    "fr": "Merci, tu es vraiment gentil !",
+    "ar": "شُكْرًا، أَنْتَ لَطِيفٌ جِدًّا!",
+    "ro": "Shukran, anta laṭīfun jiddan!",
+    "lit": "merci · toi · gentil · très !"
    },
    {
-    "fr": "J'ai offert du vin à Madame Yamada.",
-    "ja": "山田さんにワインをあげました。",
-    "ro": "Yamada-san ni wain o agemashita.",
-    "lit": "Yamada-madame · [à] · vin · [objet] · donner (passé poli)"
+    "fr": "J'ai acheté ce plat à Nabeul.",
+    "ar": "اِشْتَرَيْتُ هَذَا الصَّحْنَ فِي نَابُلَ.",
+    "ro": "Ishtaraytu hādhā aṣ-ṣaḥna fī Nābula.",
+    "lit": "j'ai-acheté · ce · le-plat · dans · Nabeul"
    },
    {
-    "fr": "Monsieur Satō m'a offert un éventail.",
-    "ja": "佐藤さんが扇子をくれました。",
-    "ro": "Satō-san ga sensu o kuremashita.",
-    "lit": "Satō-monsieur · [sujet] · éventail · [objet] · donner à moi (passé poli)"
+    "fr": "Il est fait à la main.",
+    "ar": "هُوَ مَصْنُوعٌ بِالْيَدِ.",
+    "ro": "Huwa maṣnūʿun bil-yadi.",
+    "lit": "lui · fabriqué · avec-la-main"
    },
    {
-    "fr": "Mon mari m'a offert des fleurs.",
-    "ja": "夫に花をもらいました。",
-    "ro": "Otto ni hana o moraimashita.",
-    "lit": "mon mari · [de la part de] · fleurs · [objet] · recevoir (passé poli)"
+    "fr": "J'offre des fleurs à ma mère.",
+    "ar": "أُهْدِي أُمِّي زُهُورًا.",
+    "ro": "Uhdī ummī zuhūran.",
+    "lit": "j'offre · mère-de-moi · fleurs"
    },
    {
-    "fr": "Mon fils m'a fait un dessin.",
-    "ja": "息子が絵をくれました。",
-    "ro": "Musuko ga e o kuremashita.",
-    "lit": "mon fils · [sujet] · dessin · [objet] · donner à moi (passé poli)"
+    "fr": "Un parfum au jasmin pour Leïla.",
+    "ar": "عِطْرٌ بِالْيَاسَمِينِ لِلَيْلَى.",
+    "ro": "ʿIṭrun bil-yāsamīni li-Laylā.",
+    "lit": "parfum · avec-le-jasmin · pour-Leïla"
    },
    {
-    "fr": "Qu'est-ce qu'on offre à Kenta pour son anniversaire ?",
-    "ja": "健太くんの誕生日に何をあげましょうか？",
-    "ro": "Kenta-kun no tanjōbi ni nani o agemashō ka?",
-    "lit": "Kenta-kun · [possessif] · anniversaire · [temps] · quoi · [objet] · donner (proposition) · [question]"
+    "fr": "Le cadeau était cher ?",
+    "ar": "هَلْ كَانَتِ الْهَدِيَّةُ غَالِيَةً؟",
+    "ro": "Hal kānati al-hadiyyatu ghāliyatan?",
+    "lit": "[question] · était (f.) · le-cadeau · cher ?"
    },
    {
-    "fr": "Pourquoi pas un livre ?",
-    "ja": "本はどうですか？",
-    "ro": "Hon wa dō desu ka?",
-    "lit": "livre · [thème] · comment · être (poli) · [question]"
+    "fr": "Non, seulement dix dinars.",
+    "ar": "لَا، عَشَرَةُ دَنَانِيرَ فَقَطْ.",
+    "ro": "Lā, ʿasharatu danānīra faqaṭ.",
+    "lit": "non · dix · dinars · seulement"
    },
    {
-    "fr": "En France, on ouvre les cadeaux tout de suite.",
-    "ja": "フランスではプレゼントをすぐ開けます。",
-    "ro": "Furansu de wa purezento o sugu akemasu.",
-    "lit": "France · [lieu] · [thème] · cadeau · [objet] · tout de suite · ouvrir (poli)"
+    "fr": "J'aime beaucoup ce cadeau.",
+    "ar": "أُحِبُّ هَذِهِ الْهَدِيَّةَ كَثِيرًا.",
+    "ro": "Uḥibbu hādhihi al-hadiyyata kathīran.",
+    "lit": "j'aime · ce · le-cadeau · beaucoup"
    },
    {
-    "fr": "Au Japon, on les ouvre souvent plus tard.",
-    "ja": "日本ではよくあとで開けます。",
-    "ro": "Nihon de wa yoku ato de akemasu.",
-    "lit": "Japon · [lieu] · [thème] · souvent · plus tard · ouvrir (poli)"
-   }
-  ],
-  "tip": {
-   "title": "Donner et recevoir : « agemasu », « kuremasu », « moraimasu »",
-   "example": "Monsieur Satō m'a offert un éventail. — 佐藤さんが扇子を<b>くれました</b>。",
-   "exampleRo": "Satō-san ga sensu o kuremashita.",
-   "lit": "Satō-monsieur · [sujet] · éventail · [objet] · donner à moi (passé poli)",
-   "body": "En français, on a un seul verbe « donner ». Le japonais en a deux, selon la direction du cadeau, plus un verbe pour « recevoir ». « Agemasu » veut dire donner vers l'extérieur, de moi vers les autres : « Yamada-san ni wain o agemashita », j'ai offert du vin à Madame Yamada. « Kuremasu », au contraire, veut dire donner vers moi, ou vers ma famille. Notre phrase se décompose ainsi : Satō-monsieur, sujet, éventail, objet, donner-à-moi, passé poli. Pas besoin de dire « me » : le verbe « kuremashita » indique déjà que le cadeau est arrivé chez moi. Enfin, « moraimasu » veut dire recevoir, et la personne qui donne prend « ni » : « Otto ni hana o moraimashita », j'ai reçu des fleurs de mon mari. Pour retenir, pensez à une porte : « agemasu » sort de chez moi, « kuremasu » entre chez moi, et « moraimasu », c'est moi qui tends les mains pour recevoir."
-  }
- },
- {
-  "title": "Se dire au revoir après la soirée",
-  "phrases": [
-   {
-    "fr": "Oh, il est déjà onze heures !",
-    "ja": "あ、もう十一時ですね。",
-    "ro": "A, mō jūichiji desu ne.",
-    "lit": "ah · déjà · onze-heures · être (poli) · [n'est-ce pas]"
-   },
-   {
-    "fr": "Je rentre bientôt, à cause du dernier train.",
-    "ja": "終電がありますから、そろそろ帰ります。",
-    "ro": "Shūden ga arimasu kara, sorosoro kaerimasu.",
-    "lit": "dernier train · [sujet] · il y a (poli) · [parce que] · bientôt · rentrer (poli)"
-   },
-   {
-    "fr": "Merci infiniment pour aujourd'hui.",
-    "ja": "今日は本当にありがとうございました。",
-    "ro": "Kyō wa hontō ni arigatō gozaimashita.",
-    "lit": "aujourd'hui · [thème] · vraiment · merci (passé, très poli)"
-   },
-   {
-    "fr": "Votre cuisine était délicieuse.",
-    "ja": "お料理、とてもおいしかったです。",
-    "ro": "Oryōri, totemo oishikatta desu.",
-    "lit": "honorable-cuisine · très · délicieux (passé) · (poli)"
-   },
-   {
-    "fr": "Revenez quand vous voulez.",
-    "ja": "またいつでも来てください。",
-    "ro": "Mata itsu demo kite kudasai.",
-    "lit": "de nouveau · n'importe quand · venir (forme -te) · s'il vous plaît"
-   },
-   {
-    "fr": "La prochaine fois, venez chez nous.",
-    "ja": "今度はうちに来てください。",
-    "ro": "Kondo wa uchi ni kite kudasai.",
-    "lit": "la prochaine fois · [thème] · maison · [direction] · venir (forme -te) · s'il vous plaît"
-   },
-   {
-    "fr": "Rentrez bien, soyez prudents.",
-    "ja": "気をつけて帰ってください。",
-    "ro": "Ki o tsukete kaette kudasai.",
-    "lit": "attention · [objet] · porter (forme -te) · rentrer (forme -te) · s'il vous plaît"
-   },
-   {
-    "fr": "Mes amitiés à votre épouse.",
-    "ja": "奥さんによろしくお伝えください。",
-    "ro": "Okusan ni yoroshiku otsutae kudasai.",
-    "lit": "votre épouse · [à] · bien · honorable-transmettre · s'il vous plaît"
-   },
-   {
-    "fr": "Bonne nuit à tous !",
-    "ja": "みなさん、おやすみなさい。",
-    "ro": "Minasan, oyasuminasai.",
-    "lit": "tout le monde · bonne nuit"
-   },
-   {
-    "fr": "Allez, à lundi au bureau !",
-    "ja": "じゃあ、また月曜日に会社で。",
-    "ro": "Jā, mata getsuyōbi ni kaisha de.",
-    "lit": "alors · de nouveau · lundi · [temps] · bureau · [lieu]"
+    "fr": "Tu as un cadeau pour Sami ?",
+    "ar": "هَلْ عِنْدَكَ هَدِيَّةٌ لِسَامِي؟",
+    "ro": "Hal ʿindaka hadiyyatun li-Sāmī?",
+    "lit": "[question] · chez-toi · cadeau · pour-Sami ?"
    }
   ]
  },
  {
-  "title": "Fin du module : bilan du niveau 1",
+  "title": "Nous, vous, ils",
   "phrases": [
    {
-    "fr": "Le niveau débutant est terminé !",
-    "ja": "初級が終わりました！",
-    "ro": "Shokyū ga owarimashita!",
-    "lit": "niveau débutant · [sujet] · se terminer (passé poli)"
+    "fr": "Nous sommes de Tunis.",
+    "ar": "نَحْنُ مِنْ تُونِسَ.",
+    "ro": "Naḥnu min Tūnisa.",
+    "lit": "nous · de · Tunis"
    },
    {
-    "fr": "Le japonais, c'est difficile, n'est-ce pas ?",
-    "ja": "日本語は難しいですね。",
-    "ro": "Nihongo wa muzukashii desu ne.",
-    "lit": "japonais · [thème] · difficile · être (poli) · [n'est-ce pas]"
+    "fr": "Et vous, vous êtes d'où ?",
+    "ar": "وَأَنْتُمْ، مِنْ أَيْنَ أَنْتُمْ؟",
+    "ro": "Wa antum, min ayna antum?",
+    "lit": "[et] vous · de · où · vous ?"
    },
    {
-    "fr": "Oui, c'est vrai, mais c'est passionnant.",
-    "ja": "そうですね。でも、おもしろいです。",
-    "ro": "Sō desu ne. Demo, omoshiroi desu.",
-    "lit": "ainsi · être (poli) · [n'est-ce pas] · mais · intéressant · être (poli)"
+    "fr": "Nous sommes français.",
+    "ar": "نَحْنُ فَرَنْسِيُّونَ.",
+    "ro": "Naḥnu faransiyyūna.",
+    "lit": "nous · français"
    },
    {
-    "fr": "Je comprends les phrases simples en japonais.",
-    "ja": "日本語の簡単な文がわかります。",
-    "ro": "Nihongo no kantan na bun ga wakarimasu.",
-    "lit": "japonais · [possessif] · simple · [na] · phrase · [sujet] · comprendre (poli)"
+    "fr": "Ce sont nos voisins à La Marsa.",
+    "ar": "هُمْ جِيرَانُنَا فِي الْمَرْسَى.",
+    "ro": "Hum jīrānunā fī al-Marsā.",
+    "lit": "eux · voisins-de-nous · dans · La Marsa"
    },
    {
-    "fr": "Je sais me présenter en japonais.",
-    "ja": "日本語で自己紹介ができます。",
-    "ro": "Nihongo de jiko shōkai ga dekimasu.",
-    "lit": "japonais · [moyen] · présentation de soi · [sujet] · savoir faire (poli)"
+    "fr": "Vous êtes en vacances ?",
+    "ar": "هَلْ أَنْتُمْ فِي عُطْلَةٍ؟",
+    "ro": "Hal antum fī ʿuṭlatin?",
+    "lit": "[question] · vous · dans · vacances ?"
    },
    {
-    "fr": "Je connais les hiragana et les katakana.",
-    "ja": "ひらがなとカタカナがわかります。",
-    "ro": "Hiragana to katakana ga wakarimasu.",
-    "lit": "hiragana · [et] · katakana · [sujet] · comprendre (poli)"
+    "fr": "Oui, nous sommes ici pour une semaine.",
+    "ar": "نَعَمْ، نَحْنُ هُنَا لِأُسْبُوعٍ.",
+    "ro": "Naʿam, naḥnu hunā li-usbūʿin.",
+    "lit": "oui · nous · ici · pour-semaine"
    },
    {
-    "fr": "Les particules sont plus faciles qu'avant.",
-    "ja": "助詞は前より簡単です。",
-    "ro": "Joshi wa mae yori kantan desu.",
-    "lit": "particules · [thème] · avant · [plus que] · facile · être (poli)"
+    "fr": "Ils travaillent à Hammamet.",
+    "ar": "هُمْ يَعْمَلُونَ فِي الْحَمَّامَاتِ.",
+    "ro": "Hum yaʿmalūna fī al-Ḥammāmāti.",
+    "lit": "eux · ils-travaillent · dans · Hammamet"
    },
    {
-    "fr": "Ah bon ? Vraiment ?",
-    "ja": "へえ、本当ですか？",
-    "ro": "Hē, hontō desu ka?",
-    "lit": "oh · vrai · être (poli) · [question]"
+    "fr": "Nous aimons beaucoup la médina.",
+    "ar": "نُحِبُّ الْمَدِينَةَ الْعَتِيقَةَ كَثِيرًا.",
+    "ro": "Nuḥibbu al-madīnata al-ʿatīqata kathīran.",
+    "lit": "nous-aimons · la-médina · l'-ancienne · beaucoup"
    },
    {
-    "fr": "Bientôt, le niveau intermédiaire !",
-    "ja": "もうすぐ中級です。",
-    "ro": "Mō sugu chūkyū desu.",
-    "lit": "bientôt · niveau intermédiaire · être (poli)"
+    "fr": "Vous parlez arabe, vous ?",
+    "ar": "هَلْ تَتَكَلَّمُونَ الْعَرَبِيَّةَ؟",
+    "ro": "Hal tatakallamūna al-ʿarabiyyata?",
+    "lit": "[question] · vous-parlez · l'-arabe ?"
    },
    {
-    "fr": "Continuons nos efforts ensemble !",
-    "ja": "これからも一緒にがんばりましょう！",
-    "ro": "Kore kara mo issho ni ganbarimashō!",
-    "lit": "à partir de maintenant · [aussi] · ensemble · faire des efforts (proposition)"
+    "fr": "Ils sont très généreux.",
+    "ar": "هُمْ كُرَمَاءُ جِدًّا.",
+    "ro": "Hum kuramāʾu jiddan.",
+    "lit": "eux · généreux · très"
    }
   ],
   "tip": {
-   "title": "« Sō desu ne » et les petites réactions qui rythment la conversation",
-   "example": "Oui, c'est vrai, mais c'est passionnant. — <b>そうですね</b>。でも、おもしろいです。",
-   "exampleRo": "Sō desu ne. Demo, omoshiroi desu.",
-   "lit": "ainsi · être (poli) · [n'est-ce pas] · mais · intéressant · être (poli)",
-   "body": "Une conversation japonaise est pleine de petites réactions qui montrent qu'on écoute. La plus célèbre est « sō desu ne ». Mot à mot, elle veut dire : ainsi, être, n'est-ce pas ? Autrement dit : oui, c'est vrai, je suis d'accord avec vous. Dans notre phrase, quelqu'un dit que le japonais est difficile, et on répond « Sō desu ne », avant d'ajouter « demo, omoshiroi desu », mais c'est passionnant. Dite lentement, en allongeant le « ne », elle sert aussi à gagner du temps, comme notre « voyons voir ». D'autres réactions sont très utiles : « Sō desu ka », ah bon, je vois, « Hē », oh, vraiment, et « Naruhodo », je comprends, c'est logique. Les Japonais en placent beaucoup plus que nous, c'est une forme de politesse. Pour retenir : en japonais, écouter, c'est aussi parler un peu. Bravo pour ce premier niveau, à très vite pour la suite !"
+   "title": "Le pluriel des personnes : nahnu, antum, hum",
+   "example": "Nous sommes de Tunis. — <b>نَحْنُ</b> مِنْ تُونِسَ.",
+   "exampleRo": "Naḥnu min Tūnisa.",
+   "lit": "nous · de · Tunis",
+   "body": "Vous connaissez déjà « ana », « anta », « huwa » et « hiya ». Au pluriel, on dit « nahnu » pour nous, « antum » pour vous, et « hum » pour ils. Comme au singulier, il n'y a pas de verbe être au présent : « nahnu min Tunis » se dit mot à mot : nous, de Tunis. Les verbes, eux, portent la marque du pluriel : « nuhibbu », nous aimons, commence par un « n » comme « nahnu » ; « yamaluna », ils travaillent, et « tatakallamuna », vous parlez, se terminent par « una ». Les adjectifs se mettent aussi au pluriel, parfois avec « una », comme « faransiyyuna », Français, parfois par un pluriel brisé, comme « kurama », généreux. Astuce : « nahnu » et « nuhibbu » commencent tous les deux par « n », la lettre du nous, comme en français."
+  }
+ },
+ {
+  "title": "Parler de musique",
+  "phrases": [
+   {
+    "fr": "Quelle musique écoutes-tu ?",
+    "ar": "أَيَّ مُوسِيقَى تَسْمَعُ؟",
+    "ro": "Ayya mūsīqā tasmaʿu?",
+    "lit": "quelle · musique · tu-écoutes ?"
+   },
+   {
+    "fr": "J'écoute le malouf tunisien.",
+    "ar": "أَسْمَعُ الْمَالُوفَ التُّونِسِيَّ.",
+    "ro": "Asmaʿu al-mālūfa at-tūnisiyya.",
+    "lit": "j'écoute · le-malouf · le-tunisien"
+   },
+   {
+    "fr": "Mon père joue du oud.",
+    "ar": "أَبِي يَعْزِفُ عَلَى الْعُودِ.",
+    "ro": "Abī yaʿzifu ʿalā al-ʿūdi.",
+    "lit": "père-de-moi · il-joue · sur · le-oud"
+   },
+   {
+    "fr": "Ce chanteur est célèbre.",
+    "ar": "هَذَا الْمُغَنِّي مَشْهُورٌ.",
+    "ro": "Hādhā al-mughannī mashhūrun.",
+    "lit": "ce · le-chanteur · célèbre"
+   },
+   {
+    "fr": "Il y a un concert à Carthage ce soir.",
+    "ar": "هُنَاكَ حَفْلَةٌ فِي قَرْطَاجَ هَذَا الْمَسَاءَ.",
+    "ro": "Hunāka ḥaflatun fī Qarṭāja hādhā al-masāʾa.",
+    "lit": "il-y-a · concert · dans · Carthage · ce · le-soir"
+   },
+   {
+    "fr": "Le festival de Carthage a lieu en été.",
+    "ar": "مِهْرَجَانُ قَرْطَاجَ فِي الصَّيْفِ.",
+    "ro": "Mihrajānu Qarṭāja fī aṣ-ṣayfi.",
+    "lit": "festival · Carthage · dans · l'-été"
+   },
+   {
+    "fr": "Tu as une belle voix !",
+    "ar": "صَوْتُكَ جَمِيلٌ!",
+    "ro": "Ṣawtuka jamīlun!",
+    "lit": "voix-de-toi · belle !"
+   },
+   {
+    "fr": "Ma sœur apprend le piano.",
+    "ar": "أُخْتِي تَتَعَلَّمُ الْبِيَانُو.",
+    "ro": "Ukhtī tataʿallamu al-biyānū.",
+    "lit": "sœur-de-moi · elle-apprend · le-piano"
+   },
+   {
+    "fr": "La musique est forte ici.",
+    "ar": "الْمُوسِيقَى عَالِيَةٌ هُنَا.",
+    "ro": "Al-mūsīqā ʿāliyatun hunā.",
+    "lit": "la-musique · haute · ici"
+   },
+   {
+    "fr": "J'adore cette chanson !",
+    "ar": "أُحِبُّ هَذِهِ الْأُغْنِيَةَ كَثِيرًا!",
+    "ro": "Uḥibbu hādhihi al-ughniyata kathīran!",
+    "lit": "j'aime · cette · la-chanson · beaucoup !"
+   }
+  ]
+ },
+ {
+  "title": "Une journée à la plage de Hammamet",
+  "phrases": [
+   {
+    "fr": "Je vais à la plage avec mes amis.",
+    "ar": "أَذْهَبُ إِلَى الشَّاطِئِ مَعَ أَصْدِقَائِي.",
+    "ro": "Adhhabu ilā ash-shāṭiʾi maʿa aṣdiqāʾī.",
+    "lit": "je-vais · vers · la-plage · avec · amis-de-moi"
+   },
+   {
+    "fr": "Tu viens avec nous ?",
+    "ar": "هَلْ تَأْتِي مَعَنَا؟",
+    "ro": "Hal taʾtī maʿanā?",
+    "lit": "[question] · tu-viens · avec-nous ?"
+   },
+   {
+    "fr": "Oui, je viens avec ma sœur.",
+    "ar": "نَعَمْ، آتِي مَعَ أُخْتِي.",
+    "ro": "Naʿam, ātī maʿa ukhtī.",
+    "lit": "oui · je-viens · avec · sœur-de-moi"
+   },
+   {
+    "fr": "Le poisson grillé au citron, c'est délicieux.",
+    "ar": "السَّمَكُ الْمَشْوِيُّ مَعَ اللَّيْمُونِ لَذِيذٌ.",
+    "ro": "As-samaku al-mashwiyyu maʿa al-laymūni ladhīdhun.",
+    "lit": "le-poisson · le-grillé · avec · le-citron · délicieux"
+   },
+   {
+    "fr": "Sami est avec sa famille à Hammamet.",
+    "ar": "سَامِي مَعَ عَائِلَتِهِ فِي الْحَمَّامَاتِ.",
+    "ro": "Sāmī maʿa ʿāʾilatihi fī al-Ḥammāmāti.",
+    "lit": "Sami · avec · famille-de-lui · dans · Hammamet"
+   },
+   {
+    "fr": "Avec qui es-tu ?",
+    "ar": "مَعَ مَنْ أَنْتَ؟",
+    "ro": "Maʿa man anta?",
+    "lit": "avec · qui · toi ?"
+   },
+   {
+    "fr": "Je suis avec Karim et Leïla.",
+    "ar": "أَنَا مَعَ كَرِيمٍ وَلَيْلَى.",
+    "ro": "Anā maʿa Karīmin wa Laylā.",
+    "lit": "moi · avec · Karim · [et] Leïla"
+   },
+   {
+    "fr": "Je nage avec mon frère le matin.",
+    "ar": "أَسْبَحُ مَعَ أَخِي فِي الصَّبَاحِ.",
+    "ro": "Asbaḥu maʿa akhī fī aṣ-ṣabāḥi.",
+    "lit": "je-nage · avec · frère-de-moi · dans · le-matin"
+   },
+   {
+    "fr": "Je joue au ballon avec les enfants.",
+    "ar": "أَلْعَبُ بِالْكُرَةِ مَعَ الْأَطْفَالِ.",
+    "ro": "Alʿabu bil-kurati maʿa al-aṭfāli.",
+    "lit": "je-joue · avec-le-ballon · avec · les-enfants"
+   },
+   {
+    "fr": "Viens avec moi au port !",
+    "ar": "تَعَالَ مَعِي إِلَى الْمِينَاءِ!",
+    "ro": "Taʿāla maʿī ilā al-mīnāʾi!",
+    "lit": "viens · avec-moi · vers · le-port !"
+   }
+  ],
+  "tip": {
+   "title": "« Maa » : avec",
+   "example": "Je vais à la plage avec mes amis. — أَذْهَبُ إِلَى الشَّاطِئِ <b>مَعَ</b> أَصْدِقَائِي.",
+   "exampleRo": "Adhhabu ilā ash-shāṭiʾi maʿa aṣdiqāʾī.",
+   "lit": "je-vais · vers · la-plage · avec · amis-de-moi",
+   "body": "« Maa » veut dire avec. C'est un petit mot très simple qui se place devant le nom, exactement comme en français : « maa ukhti », avec ma sœur. Ainsi « adhhabu ila ash-shati maa asdiqai » se dit mot à mot : je vais, vers, la plage, avec, mes amis. On peut aussi lui coller directement les pronoms : « maï », avec moi, « maaka », avec toi, et « maana », avec nous. Pour demander avec qui, on dit « maa man ? ». Vous retrouverez aussi ce mot dans la formule « maa as-salama », au revoir, qui veut dire littéralement : avec la paix. Astuce : imaginez deux amis sur la plage de Hammamet ; l'un demande « maa man ? », avec qui, et l'autre répond « maaka », avec toi."
+  }
+ },
+ {
+  "title": "Se dire au revoir après une soirée",
+  "phrases": [
+   {
+    "fr": "Il est tard, j'y vais.",
+    "ar": "الْوَقْتُ مُتَأَخِّرٌ، أَنَا ذَاهِبٌ.",
+    "ro": "Al-waqtu mutaʾakhkhirun, anā dhāhibun.",
+    "lit": "le-temps · tardif · moi · partant"
+   },
+   {
+    "fr": "Merci pour le délicieux dîner.",
+    "ar": "شُكْرًا عَلَى الْعَشَاءِ اللَّذِيذِ.",
+    "ro": "Shukran ʿalā al-ʿashāʾi al-ladhīdhi.",
+    "lit": "merci · sur · le-dîner · le-délicieux"
+   },
+   {
+    "fr": "La soirée était très belle.",
+    "ar": "كَانَتِ السَّهْرَةُ جَمِيلَةً جِدًّا.",
+    "ro": "Kānati as-sahratu jamīlatan jiddan.",
+    "lit": "était (f.) · la-soirée · belle · très"
+   },
+   {
+    "fr": "Merci d'être venu.",
+    "ar": "شُكْرًا عَلَى حُضُورِكَ.",
+    "ro": "Shukran ʿalā ḥuḍūrika.",
+    "lit": "merci · sur · présence-de-toi"
+   },
+   {
+    "fr": "Comment tu rentres chez toi ?",
+    "ar": "كَيْفَ تَرْجِعُ إِلَى الْبَيْتِ؟",
+    "ro": "Kayfa tarjiʿu ilā al-bayti?",
+    "lit": "comment · tu-rentres · vers · la-maison ?"
+   },
+   {
+    "fr": "Je prends le train jusqu'à La Marsa.",
+    "ar": "آخُذُ الْقِطَارَ إِلَى الْمَرْسَى.",
+    "ro": "Ākhudhu al-qiṭāra ilā al-Marsā.",
+    "lit": "je-prends · le-train · vers · La Marsa"
+   },
+   {
+    "fr": "Bonne nuit, Leïla.",
+    "ar": "تُصْبِحِينَ عَلَى خَيْرٍ يَا لَيْلَى.",
+    "ro": "Tuṣbiḥīna ʿalā khayrin yā Laylā.",
+    "lit": "tu-te-réveilles (f.) · sur · bien · [ô] · Leïla"
+   },
+   {
+    "fr": "Bonne nuit à toi aussi.",
+    "ar": "وَأَنْتَ مِنْ أَهْلِهِ.",
+    "ro": "Wa anta min ahlihi.",
+    "lit": "[et] toi · de · gens-de-lui"
+   },
+   {
+    "fr": "À bientôt à Sidi Bou Saïd !",
+    "ar": "نَرَاكَ قَرِيبًا فِي سِيدِي بُو سَعِيدْ!",
+    "ro": "Narāka qarīban fī Sīdī Bū Saʿīd!",
+    "lit": "nous-te-voyons · bientôt · dans · Sidi Bou Saïd !"
+   },
+   {
+    "fr": "Salue ta famille de ma part.",
+    "ar": "سَلِّمْ لِي عَلَى عَائِلَتِكَ.",
+    "ro": "Sallim lī ʿalā ʿāʾilatika.",
+    "lit": "salue · pour-moi · sur · famille-de-toi"
+   }
+  ]
+ },
+ {
+  "title": "Fin du module : un bilan",
+  "phrases": [
+   {
+    "fr": "Enchanté, Sami.",
+    "ar": "تَشَرَّفْنَا يَا سَامِي.",
+    "ro": "Tasharrafnā yā Sāmī.",
+    "lit": "nous-avons-été-honorés · [ô] · Sami"
+   },
+   {
+    "fr": "Au revoir, et à demain !",
+    "ar": "مَعَ السَّلَامَةِ، وَإِلَى الْغَدِ!",
+    "ro": "Maʿa as-salāmati, wa ilā al-ghadi!",
+    "lit": "avec · la-paix · [et] jusqu'à · demain !"
+   },
+   {
+    "fr": "Au revoir, à la semaine prochaine.",
+    "ar": "إِلَى اللِّقَاءِ فِي الْأُسْبُوعِ الْقَادِمِ.",
+    "ro": "Ilā al-liqāʾi fī al-usbūʿi al-qādimi.",
+    "lit": "jusqu'à · la-rencontre · dans · la-semaine · la-prochaine"
+   },
+   {
+    "fr": "Maintenant, je parle un peu arabe.",
+    "ar": "الْآنَ أَتَكَلَّمُ الْعَرَبِيَّةَ قَلِيلًا.",
+    "ro": "Al-āna atakallamu al-ʿarabiyyata qalīlan.",
+    "lit": "maintenant · je-parle · l'-arabe · un-peu"
+   },
+   {
+    "fr": "Je sais me présenter en arabe.",
+    "ar": "أَعْرِفُ كَيْفَ أُقَدِّمُ نَفْسِي بِالْعَرَبِيَّةِ.",
+    "ro": "Aʿrifu kayfa uqaddimu nafsī bil-ʿarabiyyati.",
+    "lit": "je-sais · comment · je-présente · moi-même · en-l'-arabe"
+   },
+   {
+    "fr": "Je parle de ma famille et de mon travail.",
+    "ar": "أَتَكَلَّمُ عَنْ عَائِلَتِي وَعَنْ عَمَلِي.",
+    "ro": "Atakallamu ʿan ʿāʾilatī wa ʿan ʿamalī.",
+    "lit": "je-parle · de · famille-de-moi · [et] de · travail-de-moi"
+   },
+   {
+    "fr": "L'arabe est une langue magnifique.",
+    "ar": "الْعَرَبِيَّةُ لُغَةٌ رَائِعَةٌ.",
+    "ro": "Al-ʿarabiyyatu lughatun rāʾiʿatun.",
+    "lit": "l'-arabe · langue · magnifique"
+   },
+   {
+    "fr": "J'aime apprendre l'arabe chaque jour.",
+    "ar": "أُحِبُّ تَعَلُّمَ الْعَرَبِيَّةِ كُلَّ يَوْمٍ.",
+    "ro": "Uḥibbu taʿalluma al-ʿarabiyyati kulla yawmin.",
+    "lit": "j'aime · apprentissage · l'-arabe · chaque · jour"
+   },
+   {
+    "fr": "Le niveau un est terminé !",
+    "ar": "اِنْتَهَى الْمُسْتَوَى الْأَوَّلُ!",
+    "ro": "Intahā al-mustawā al-awwalu!",
+    "lit": "s'est-terminé · le-niveau · le-premier !"
+   },
+   {
+    "fr": "Bravo, et à bientôt !",
+    "ar": "أَحْسَنْتَ، وَإِلَى اللِّقَاءِ!",
+    "ro": "Aḥsanta, wa ilā al-liqāʾi!",
+    "lit": "tu-as-bien-fait · [et] jusqu'à · la-rencontre !"
+   }
+  ],
+  "tip": {
+   "title": "Les formules de la conversation : tasharrafna, maa as-salama, ila al-liqa",
+   "example": "Au revoir, et à demain ! — <b>مَعَ السَّلَامَةِ</b>، وَإِلَى الْغَدِ!",
+   "exampleRo": "Maʿa as-salāmati, wa ilā al-ghadi!",
+   "lit": "avec · la-paix · [et] jusqu'à · demain !",
+   "body": "Pour finir ce premier niveau, voici les formules qui ouvrent et ferment une conversation. Quand on rencontre quelqu'un, on dit « tasharrafna », qui veut dire mot à mot : nous avons été honorés ; c'est notre « enchanté ». Pour partir, on dit « maa as-salama », littéralement : avec la paix, et la personne qui reste répond souvent la même chose. On peut aussi dire « ila al-liqa », jusqu'à la rencontre, c'est-à-dire au revoir et à bientôt. On remplace volontiers la rencontre par un moment précis : « ila al-ghad », à demain. Ces petites phrases rendent votre arabe chaleureux et poli, et on vous les rendra toujours avec un sourire, à Tunis comme ailleurs. Astuce : « liqa » ressemble un peu à « lien » ; on se quitte en gardant le lien jusqu'à la prochaine rencontre."
   }
  }
 ];
 
 const level2Module1Lessons = [
  {
-  "title": "Emménager à Osaka",
+  "title": "Un appartement à Zamalek",
   "phrases": [
    {
-    "fr": "La semaine dernière, j'ai emménagé dans un appartement à Osaka.",
-    "ja": "先週、大阪のアパートに引っ越しました。",
-    "ro": "Senshū, Ōsaka no apāto ni hikkoshimashita."
+    "fr": "Nous avons loué un appartement à Zamalek.",
+    "ar": "اِسْتَأْجَرْنَا شَقَّةً فِي الزَّمَالِكِ.",
+    "ro": "Istaʾjarnā shaqqatan fī az-Zamāliki."
    },
    {
-    "fr": "La pièce est étroite, mais très lumineuse.",
-    "ja": "部屋は狭いですが、とても明るいです。",
-    "ro": "Heya wa semai desu ga, totemo akarui desu."
+    "fr": "L'appartement est au quatrième étage.",
+    "ar": "الشَّقَّةُ فِي الطَّابِقِ الرَّابِعِ.",
+    "ro": "Ash-shaqqatu fī aṭ-ṭābiqi ar-rābiʿi."
    },
    {
-    "fr": "La gare de Tennōji est à cinq minutes à pied.",
-    "ja": "天王寺駅まで歩いて五分です。",
-    "ro": "Tennōji eki made aruite gofun desu."
+    "fr": "Il a un grand balcon qui donne sur le Nil.",
+    "ar": "فِيهَا شُرْفَةٌ كَبِيرَةٌ تُطِلُّ عَلَى النِّيلِ.",
+    "ro": "Fīhā shurfatun kabīratun tuṭillu ʿalā an-Nīli."
    },
    {
-    "fr": "Le loyer est de soixante-cinq mille yens par mois.",
-    "ja": "家賃は一か月六万五千円です。",
-    "ro": "Yachin wa ikkagetsu rokuman gosen en desu."
+    "fr": "Le loyer est de huit mille livres par mois.",
+    "ar": "الْإِيجَارُ ثَمَانِيَةُ آلَافِ جُنَيْهٍ فِي الشَّهْرِ.",
+    "ro": "Al-ījāru thamāniyatu ālāfi junayhin fī ash-shahri."
    },
    {
-    "fr": "Enlève tes chaussures dans l'entrée, s'il te plaît.",
-    "ja": "靴は玄関で脱いでください。",
-    "ro": "Kutsu wa genkan de nuide kudasai."
+    "fr": "Le propriétaire habite dans le même immeuble.",
+    "ar": "يَسْكُنُ الْمَالِكُ فِي الْعِمَارَةِ نَفْسِهَا.",
+    "ro": "Yaskunu al-māliku fī al-ʿimārati nafsihā."
    },
    {
-    "fr": "Le propriétaire m'a remis deux clés.",
-    "ja": "大家さんが鍵を二つくれました。",
-    "ro": "Ōya-san ga kagi o futatsu kuremashita."
+    "fr": "Les meubles sont anciens mais confortables.",
+    "ar": "الْأَثَاثُ قَدِيمٌ لَكِنَّهُ مُرِيحٌ.",
+    "ro": "Al-athāthu qadīmun lākinnahu murīḥun."
    },
    {
-    "fr": "Les murs sont fins, alors faites attention au bruit.",
-    "ja": "壁が薄いですから、音に気をつけてください。",
-    "ro": "Kabe ga usui desu kara, oto ni ki o tsukete kudasai."
+    "fr": "La cuisine est petite mais très propre.",
+    "ar": "الْمَطْبَخُ صَغِيرٌ لَكِنَّهُ نَظِيفٌ جِدًّا.",
+    "ro": "Al-maṭbakhu ṣaghīrun lākinnahu naẓīfun jiddan."
    },
    {
-    "fr": "Il n'y a pas encore de rideaux aux fenêtres.",
-    "ja": "窓にまだカーテンがありません。",
-    "ro": "Mado ni mada kāten ga arimasen."
+    "fr": "Hier, nous avons acheté des rideaux neufs.",
+    "ar": "أَمْسِ، اِشْتَرَيْنَا سَتَائِرَ جَدِيدَةً.",
+    "ro": "Amsi, ishtaraynā satāʾira jadīdatan."
    },
    {
-    "fr": "Demain, j'irai acheter un frigo et un lave-linge.",
-    "ja": "明日、冷蔵庫と洗濯機を買いに行きます。",
-    "ro": "Ashita, reizōko to sentakki o kai ni ikimasu."
+    "fr": "Le quartier est calme et plein d'arbres.",
+    "ar": "الْحَيُّ هَادِئٌ وَمَلِيءٌ بِالْأَشْجَارِ.",
+    "ro": "Al-ḥayyu hādiʾun wa-malīʾun bil-ashjāri."
    },
    {
-    "fr": "Je m'habitue peu à peu à la vie ici.",
-    "ja": "ここの生活にだんだん慣れてきました。",
-    "ro": "Koko no seikatsu ni dandan narete kimashita."
+    "fr": "Ici, je me sens vraiment chez moi.",
+    "ar": "أَشْعُرُ هُنَا حَقًّا أَنَّنِي فِي بَيْتِي.",
+    "ro": "Ashʿuru hunā ḥaqqan annanī fī baytī."
    }
   ]
  },
  {
-  "title": "À la mairie du quartier",
+  "title": "Ouvrir un compte à la banque",
   "phrases": [
    {
-    "fr": "Demain, je passe à la mairie avant d'aller au travail.",
-    "ja": "明日、仕事に行く前に市役所に寄ります。",
-    "ro": "Ashita, shigoto ni iku mae ni shiyakusho ni yorimasu."
+    "fr": "Je veux ouvrir un compte en banque.",
+    "ar": "أُرِيدُ أَنْ أَفْتَحَ حِسَابًا فِي الْبَنْكِ.",
+    "ro": "Urīdu an aftaḥa ḥisāban fī al-banki."
    },
    {
-    "fr": "Aujourd'hui, je compte déclarer ma nouvelle adresse.",
-    "ja": "今日、住所の届け出をするつもりです。",
-    "ro": "Kyō, jūsho no todokede o suru tsumori desu."
+    "fr": "Vous devez d'abord remplir ce formulaire.",
+    "ar": "يَجِبُ أَنْ تَمْلَأَ هَذِهِ الِاسْتِمَارَةَ أَوَّلًا.",
+    "ro": "Yajibu an tamlaʾa hādhihi al-istimārata awwalan."
    },
    {
-    "fr": "Peut-on changer l'adresse de la carte de résident ici ?",
-    "ja": "在留カードの住所は、ここで変えることができますか。",
-    "ro": "Zairyū kādo no jūsho wa, koko de kaeru koto ga dekimasu ka."
+    "fr": "Je voudrais aussi demander une carte bancaire.",
+    "ar": "أَوَدُّ أَيْضًا أَنْ أَطْلُبَ بِطَاقَةً مَصْرِفِيَّةً.",
+    "ro": "Awaddu ayḍan an aṭluba biṭāqatan maṣrifiyyatan."
    },
    {
-    "fr": "Oui, remplissez d'abord ce formulaire.",
-    "ja": "はい、まずこの用紙に書いてください。",
-    "ro": "Hai, mazu kono yōshi ni kaite kudasai."
+    "fr": "Pouvez-vous me donner votre passeport ?",
+    "ar": "هَلْ يُمْكِنُكَ أَنْ تُعْطِيَنِي جَوَازَ سَفَرِكَ؟",
+    "ro": "Hal yumkinuka an tuʿṭiyanī jawāza safarika?"
    },
    {
-    "fr": "Prenez un ticket numéroté et patientez, s'il vous plaît.",
-    "ja": "番号札を取って、お待ちください。",
-    "ro": "Bangōfuda o totte, omachi kudasai."
+    "fr": "L'employé va vous aider tout de suite.",
+    "ar": "سَيُسَاعِدُكَ الْمُوَظَّفُ حَالًا.",
+    "ro": "Sayusāʿiduka al-muwaẓẓafu ḥālan."
    },
    {
-    "fr": "Je ne sais pas lire les kanji difficiles.",
-    "ja": "難しい漢字を読むことができません。",
-    "ro": "Muzukashii kanji o yomu koto ga dekimasen."
+    "fr": "Il faut attendre une semaine pour la carte.",
+    "ar": "يَجِبُ أَنْ تَنْتَظِرَ أُسْبُوعًا لِلْبِطَاقَةِ.",
+    "ro": "Yajibu an tantaẓira usbūʿan lil-biṭāqati."
    },
    {
-    "fr": "Voulez-vous que je vous aide à écrire ?",
-    "ja": "書くのを手伝いましょうか。",
-    "ro": "Kaku no o tetsudaimashō ka."
+    "fr": "Je préfère retirer l'argent au guichet.",
+    "ar": "أُفَضِّلُ أَنْ أَسْحَبَ الْمَالَ مِنَ الشُّبَّاكِ.",
+    "ro": "Ufaḍḍilu an asḥaba al-māla mina ash-shubbāki."
    },
    {
-    "fr": "Il suffit de signer ici.",
-    "ja": "ここにサインをするだけです。",
-    "ro": "Koko ni sain o suru dake desu."
+    "fr": "Ma femme aimerait ouvrir un compte, elle aussi.",
+    "ar": "تُحِبُّ زَوْجَتِي أَنْ تَفْتَحَ حِسَابًا أَيْضًا.",
+    "ro": "Tuḥibbu zawjatī an taftaḥa ḥisāban ayḍan."
    },
    {
-    "fr": "L'essentiel, c'est d'avoir toujours sa carte sur soi.",
-    "ja": "大切なのは、カードをいつも持つことです。",
-    "ro": "Taisetsu na no wa, kādo o itsumo motsu koto desu."
+    "fr": "Nous ne voulons pas payer de frais mensuels.",
+    "ar": "لَا نُرِيدُ أَنْ نَدْفَعَ رُسُومًا شَهْرِيَّةً.",
+    "ro": "Lā nurīdu an nadfaʿa rusūman shahriyyatan."
    },
    {
-    "fr": "La semaine prochaine, je compte m'inscrire aussi à l'assurance santé nationale.",
-    "ja": "来週、国民健康保険にも入るつもりです。",
-    "ro": "Raishū, kokumin kenkō hoken ni mo hairu tsumori desu."
+    "fr": "Merci, je reviendrai demain avec les papiers.",
+    "ar": "شُكْرًا، سَأَعُودُ غَدًا مَعَ الْأَوْرَاقِ.",
+    "ro": "Shukran, saʾaʿūdu ghadan maʿa al-awrāqi."
    }
   ],
   "tip": {
-   "title": "La forme du dictionnaire : le verbe « nu », sans politesse",
-   "example": "Aujourd'hui, je compte déclarer ma nouvelle adresse. — 今日、住所の届け出を<b>する</b>つもりです。",
-   "exampleRo": "Kyō, jūsho no todokede o suru tsumori desu.",
-   "lit": "aujourd'hui · adresse · [possessif] · déclaration · [objet] · faire (forme du dictionnaire) · intention · être (poli)",
-   "body": "Jusqu'ici, vous avez toujours conjugué les verbes en « -masu ». Mais chaque verbe a aussi une forme « nue », sans politesse, celle qu'on trouve dans le dictionnaire : « suru » pour « shimasu » (faire), « iku » pour « ikimasu » (aller), « taberu » pour « tabemasu » (manger). Cette forme sert entre amis, mais surtout devant des petits mots qui la réclament, même dans une phrase polie : « tsumori desu » (j'ai l'intention de), « mae ni » (avant de), « koto ga dekimasu » (pouvoir faire). Ainsi, « todokede o suru tsumori desu » se dit littéralement : déclaration, faire, intention, c'est. Autres exemples : « neru mae ni » (avant de dormir), « yomu koto ga dekimasu » (je sais lire). Astuce : la politesse se place toujours à la toute fin de la phrase, donc le verbe du milieu peut rester nu."
+   "title": "« An » suivi du subjonctif",
+   "example": "Je veux ouvrir un compte en banque. — أُرِيدُ <b>أَنْ أَفْتَحَ</b> حِسَابًا فِي الْبَنْكِ.",
+   "exampleRo": "Urīdu an aftaḥa ḥisāban fī al-banki.",
+   "lit": "je-veux · [que] · j'ouvre · compte · dans · la-banque",
+   "body": "Après des verbes comme « urīdu » (je veux) ou « yajibu » (il faut), l'arabe n'a pas d'infinitif : il dit « que », puis un verbe conjugué. Ce « que » se dit « an », et le verbe qui le suit passe au subjonctif : sa dernière voyelle « ou » devient « a ». Ainsi « aftahu » (j'ouvre) devient « an aftaha », et « Urīdu an aftaha hisāban » se dit littéralement : je veux que j'ouvre un compte. De la même façon, « urīdu an adhhaba » veut dire je veux aller, et « yajibu an tashraba » veut dire tu dois boire. Pour retenir : derrière « an », le verbe ouvre la bouche et finit sur un « a »."
   }
  },
  {
-  "title": "Ouvrir un compte en banque",
+  "title": "À la clinique du quartier",
   "phrases": [
    {
-    "fr": "Je souhaiterais ouvrir un compte avec ma carte de résident.",
-    "ja": "在留カードで口座を作りたいです。",
-    "ro": "Zairyū kādo de kōza o tsukuritai desu."
+    "fr": "J'ai mal à la tête depuis trois jours.",
+    "ar": "أَشْعُرُ بِصُدَاعٍ مُنْذُ ثَلَاثَةِ أَيَّامٍ.",
+    "ro": "Ashʿuru bi-ṣudāʿin mundhu thalāthati ayyāmin."
    },
    {
-    "fr": "Avez-vous votre sceau personnel ?",
-    "ja": "印鑑をお持ちですか。",
-    "ro": "Inkan o omochi desu ka."
+    "fr": "Le médecin est disponible à dix heures.",
+    "ar": "الطَّبِيبُ مُتَاحٌ فِي السَّاعَةِ الْعَاشِرَةِ.",
+    "ro": "Aṭ-ṭabību mutāḥun fī as-sāʿati al-ʿāshirati."
    },
    {
-    "fr": "Non. Est-ce qu'une signature convient aussi ?",
-    "ja": "いいえ。サインでも大丈夫ですか。",
-    "ro": "Iie. Sain demo daijōbu desu ka."
+    "fr": "Avez-vous de la fièvre ou de la toux ?",
+    "ar": "هَلْ عِنْدَكَ حُمَّى أَوْ سُعَالٌ؟",
+    "ro": "Hal ʿindaka ḥummā aw suʿālun?"
    },
    {
-    "fr": "Oui, mais il faut aussi un numéro de téléphone japonais.",
-    "ja": "はい、でも日本の電話番号も必要です。",
-    "ro": "Hai, demo Nihon no denwa bangō mo hitsuyō desu."
+    "fr": "J'ai un peu de fièvre depuis hier soir.",
+    "ar": "عِنْدِي حُمَّى خَفِيفَةٌ مُنْذُ مَسَاءِ أَمْسِ.",
+    "ro": "ʿIndī ḥummā khafīfatun mundhu masāʾi amsi."
    },
    {
-    "fr": "Mon entreprise versera mon salaire sur ce compte.",
-    "ja": "会社がこの口座に給料を振り込みます。",
-    "ro": "Kaisha ga kono kōza ni kyūryō o furikomimasu."
+    "fr": "L'infirmière a vérifié ma tension.",
+    "ar": "فَحَصَتِ الْمُمَرِّضَةُ ضَغْطِي.",
+    "ro": "Faḥaṣati al-mumarriḍatu ḍaghṭī."
    },
    {
-    "fr": "La carte de retrait arrivera par la poste d'ici une semaine environ.",
-    "ja": "キャッシュカードは一週間ぐらいで郵便で届きます。",
-    "ro": "Kyasshu kādo wa isshūkan gurai de yūbin de todokimasu."
+    "fr": "C'est peut-être à cause de la chaleur.",
+    "ar": "رُبَّمَا بِسَبَبِ الْحَرِّ.",
+    "ro": "Rubbamā bi-sababi al-ḥarri."
    },
    {
-    "fr": "Peut-on retirer de l'argent au distributeur le dimanche aussi ?",
-    "ja": "日曜日も機械でお金を下ろすことができますか。",
-    "ro": "Nichiyōbi mo kikai de okane o orosu koto ga dekimasu ka."
+    "fr": "Vous devez boire beaucoup d'eau.",
+    "ar": "يَجِبُ أَنْ تَشْرَبَ مَاءً كَثِيرًا.",
+    "ro": "Yajibu an tashraba māʾan kathīran."
    },
    {
-    "fr": "Oui, mais il y a des frais de cent dix yens.",
-    "ja": "はい、でも手数料が百十円かかります。",
-    "ro": "Hai, demo tesūryō ga hyakujū en kakarimasu."
+    "fr": "Je vais vous prescrire un médicament léger.",
+    "ar": "سَأَكْتُبُ لَكَ دَوَاءً خَفِيفًا.",
+    "ro": "Saʾaktubu laka dawāʾan khafīfan."
    },
    {
-    "fr": "Au Japon, on paie encore souvent en liquide.",
-    "ja": "日本ではまだよく現金で払います。",
-    "ro": "Nihon de wa mada yoku genkin de haraimasu."
+    "fr": "Vous irez mieux dans deux jours.",
+    "ar": "سَتَتَحَسَّنُ بَعْدَ يَوْمَيْنِ.",
+    "ro": "Satataḥassanu baʿda yawmayni."
    },
    {
-    "fr": "Merci, je reviendrai avec mon sceau la prochaine fois.",
-    "ja": "ありがとうございます。今度は印鑑を持ってきます。",
-    "ro": "Arigatō gozaimasu. Kondo wa inkan o motte kimasu."
+    "fr": "Merci docteur, je suis rassuré maintenant.",
+    "ar": "شُكْرًا يَا دُكْتُورُ، أَنَا مُطْمَئِنٌّ الْآنَ.",
+    "ro": "Shukran yā duktūru, anā muṭmaʾinnun al-āna."
    }
   ]
  },
  {
-  "title": "Le tri des déchets",
+  "title": "Un koshari au centre-ville",
   "phrases": [
    {
-    "fr": "À Osaka, le tri des déchets est très strict.",
-    "ja": "大阪はごみの分別がとても厳しいです。",
-    "ro": "Ōsaka wa gomi no bunbetsu ga totemo kibishii desu."
+    "fr": "On mange un koshari ce midi ?",
+    "ar": "هَلْ نَأْكُلُ الْكُشَرِي عَلَى الْغَدَاءِ؟",
+    "ro": "Hal naʾkulu al-kusharī ʿalā al-ghadāʾi?"
    },
    {
-    "fr": "Les ordures ménagères se sortent le lundi et le jeudi.",
-    "ja": "普通ごみは月曜日と木曜日に出します。",
-    "ro": "Futsū gomi wa getsuyōbi to mokuyōbi ni dashimasu."
+    "fr": "Je connais un restaurant célèbre au centre-ville.",
+    "ar": "أَعْرِفُ مَطْعَمًا مَشْهُورًا فِي وَسَطِ الْبَلَدِ.",
+    "ro": "Aʿrifu maṭʿaman mashhūran fī wasaṭi al-baladi."
    },
    {
-    "fr": "Les bouteilles en plastique, c'est le mercredi.",
-    "ja": "ペットボトルは水曜日です。",
-    "ro": "Petto botoru wa suiyōbi desu."
+    "fr": "Le koshari mélange riz, lentilles et pâtes.",
+    "ar": "يَجْمَعُ الْكُشَرِي الْأَرُزَّ وَالْعَدَسَ وَالْمَعْكَرُونَةَ.",
+    "ro": "Yajmaʿu al-kusharī al-aruzza wal-ʿadasa wal-maʿkarūnata."
    },
    {
-    "fr": "Enlevez le bouchon et l'étiquette, s'il vous plaît.",
-    "ja": "キャップとラベルを取ってください。",
-    "ro": "Kyappu to raberu o totte kudasai."
+    "fr": "On ajoute une sauce tomate épicée.",
+    "ar": "نُضِيفُ صَلْصَةَ طَمَاطِمَ حَارَّةً.",
+    "ro": "Nuḍīfu ṣalṣata ṭamāṭima ḥārratan."
    },
    {
-    "fr": "Rince les canettes avant de les jeter.",
-    "ja": "缶は洗ってから捨ててください。",
-    "ro": "Kan wa aratte kara sutete kudasai."
+    "fr": "La grande assiette coûte trente livres.",
+    "ar": "الطَّبَقُ الْكَبِيرُ بِثَلَاثِينَ جُنَيْهًا.",
+    "ro": "Aṭ-ṭabaqu al-kabīru bi-thalāthīna junayhan."
    },
    {
-    "fr": "Les poubelles doivent être sorties avant huit heures du matin.",
-    "ja": "ごみは朝八時までに出してください。",
-    "ro": "Gomi wa asa hachiji made ni dashite kudasai."
+    "fr": "Le serveur a apporté l'eau rapidement.",
+    "ar": "أَحْضَرَ النَّادِلُ الْمَاءَ بِسُرْعَةٍ.",
+    "ro": "Aḥḍara an-nādilu al-māʾa bi-surʿatin."
    },
    {
-    "fr": "Pour les encombrants, on appelle la mairie pour faire une demande.",
-    "ja": "大きいごみは市役所に電話して申し込みます。",
-    "ro": "Ōkii gomi wa shiyakusho ni denwa shite mōshikomimasu."
+    "fr": "Le restaurant était plein d'étudiants et d'employés.",
+    "ar": "كَانَ الْمَطْعَمُ مَلِيئًا بِالطُّلَّابِ وَالْمُوَظَّفِينَ.",
+    "ro": "Kāna al-maṭʿamu malīʾan biṭ-ṭullābi wal-muwaẓẓafīna."
    },
    {
-    "fr": "Le voisin m'a montré le calendrier des collectes.",
-    "ja": "隣の人がごみの日のカレンダーを見せてくれました。",
-    "ro": "Tonari no hito ga gomi no hi no karendā o misete kuremashita."
+    "fr": "Tu veux encore un peu d'oignons frits ?",
+    "ar": "هَلْ تُرِيدُ مَزِيدًا مِنَ الْبَصَلِ الْمَقْلِيِّ؟",
+    "ro": "Hal turīdu mazīdan mina al-baṣali al-maqliyyi?"
    },
    {
-    "fr": "Je l'ai collé sur la porte du frigo.",
-    "ja": "冷蔵庫のドアに貼りました。",
-    "ro": "Reizōko no doa ni harimashita."
+    "fr": "C'est le meilleur plat pour un petit budget.",
+    "ar": "هَذَا أَفْضَلُ طَبَقٍ لِمِيزَانِيَّةٍ صَغِيرَةٍ.",
+    "ro": "Hādhā afḍalu ṭabaqin li-mīzāniyyatin ṣaghīratin."
    },
    {
-    "fr": "Au début, c'est pénible, mais on s'y habitue vite.",
-    "ja": "最初は大変ですが、すぐ慣れます。",
-    "ro": "Saisho wa taihen desu ga, sugu naremasu."
+    "fr": "Je reviendrai ici la semaine prochaine.",
+    "ar": "سَأَعُودُ إِلَى هُنَا الْأُسْبُوعَ الْقَادِمَ.",
+    "ro": "Saʾaʿūdu ilā hunā al-usbūʿa al-qādima."
    }
   ]
  },
  {
-  "title": "Un matin pressé",
+  "title": "Hier au bureau",
   "phrases": [
    {
-    "fr": "Le matin, je me lève à six heures et je prends une douche.",
-    "ja": "朝は六時に起きて、シャワーを浴びます。",
-    "ro": "Asa wa rokuji ni okite, shawā o abimasu."
+    "fr": "Hier, j'ai marché jusqu'au bureau.",
+    "ar": "أَمْسِ، مَشَيْتُ إِلَى الْمَكْتَبِ.",
+    "ro": "Amsi, mashaytu ilā al-maktabi."
    },
    {
-    "fr": "Ensuite, je fais du café et je lis les nouvelles.",
-    "ja": "それから、コーヒーをいれて、ニュースを読みます。",
-    "ro": "Sore kara, kōhī o irete, nyūsu o yomimasu."
+    "fr": "Je marche chaque matin au bord du Nil.",
+    "ar": "أَمْشِي كُلَّ صَبَاحٍ عَلَى ضِفَّةِ النِّيلِ.",
+    "ro": "Amshī kulla ṣabāḥin ʿalā ḍiffati an-Nīli."
    },
    {
-    "fr": "Je sors les poubelles, puis je pars à la gare.",
-    "ja": "ごみを出して、駅へ行きます。",
-    "ro": "Gomi o dashite, eki e ikimasu."
+    "fr": "Le directeur a dit que la réunion était annulée.",
+    "ar": "قَالَ الْمُدِيرُ إِنَّ الِاجْتِمَاعَ مُلْغًى.",
+    "ro": "Qāla al-mudīru inna al-ijtimāʿa mulghan."
    },
    {
-    "fr": "Je prends la ligne Midōsuji et je change à Umeda.",
-    "ja": "御堂筋線に乗って、梅田で乗り換えます。",
-    "ro": "Midōsuji-sen ni notte, Umeda de norikaemasu."
+    "fr": "Qu'est-ce qu'il dit dans son message ?",
+    "ar": "مَاذَا يَقُولُ فِي رِسَالَتِهِ؟",
+    "ro": "Mādhā yaqūlu fī risālatihi?"
    },
    {
-    "fr": "J'achète un onigiri au konbini et je le mange au bureau.",
-    "ja": "コンビニでおにぎりを買って、会社で食べます。",
-    "ro": "Konbini de onigiri o katte, kaisha de tabemasu."
+    "fr": "Il dit que le projet avance bien.",
+    "ar": "يَقُولُ إِنَّ الْمَشْرُوعَ يَتَقَدَّمُ جَيِّدًا.",
+    "ro": "Yaqūlu inna al-mashrūʿa yataqaddamu jayyidan."
    },
    {
-    "fr": "Ce matin, je ne me suis pas réveillé et j'ai couru jusqu'à la gare.",
-    "ja": "今朝は寝坊して、駅まで走りました。",
-    "ro": "Kesa wa nebō shite, eki made hashirimashita."
+    "fr": "Je suis rentré à la maison à sept heures.",
+    "ar": "عُدْتُ إِلَى الْبَيْتِ فِي السَّاعَةِ السَّابِعَةِ.",
+    "ro": "ʿUdtu ilā al-bayti fī as-sāʿati as-sābiʿati."
    },
    {
-    "fr": "Je me suis habillé en vitesse et je suis sorti de chez moi.",
-    "ja": "急いで着替えて、家を出ました。",
-    "ro": "Isoide kigaete, ie o demashita."
+    "fr": "Ma collègue est restée tard au bureau.",
+    "ar": "بَقِيَتْ زَمِيلَتِي فِي الْمَكْتَبِ حَتَّى وَقْتٍ مُتَأَخِّرٍ.",
+    "ro": "Baqiyat zamīlatī fī al-maktabi ḥattā waqtin mutaʾakhkhirin."
    },
    {
-    "fr": "Heureusement, je suis arrivé juste à temps.",
-    "ja": "幸い、時間に間に合いました。",
-    "ro": "Saiwai, jikan ni maniaimashita."
+    "fr": "J'ai dormi tôt parce que j'étais fatigué.",
+    "ar": "نِمْتُ مُبَكِّرًا لِأَنَّنِي كُنْتُ مُتْعَبًا.",
+    "ro": "Nimtu mubakkiran li-annanī kuntu mutʿaban."
    },
    {
-    "fr": "Le soir, je rentre, je prends un bain et je me couche tôt.",
-    "ja": "夜は家に帰って、お風呂に入って、早く寝ます。",
-    "ro": "Yoru wa ie ni kaette, ofuro ni haitte, hayaku nemasu."
+    "fr": "Qu'as-tu dit au directeur ?",
+    "ar": "مَاذَا قُلْتَ لِلْمُدِيرِ؟",
+    "ro": "Mādhā qulta lil-mudīri?"
    },
    {
-    "fr": "Demain, je vais me lever un peu plus tôt.",
-    "ja": "明日はもう少し早く起きます。",
-    "ro": "Ashita wa mō sukoshi hayaku okimasu."
+    "fr": "J'ai dit que j'étais prêt pour demain.",
+    "ar": "قُلْتُ إِنَّنِي مُسْتَعِدٌّ لِلْغَدِ.",
+    "ro": "Qultu innanī mustaʿiddun lil-ghadi."
    }
   ],
   "tip": {
-   "title": "La forme en « -te » pour enchaîner les actions",
-   "example": "Le soir, je rentre, je prends un bain et je me couche tôt. — 夜は家に<b>帰って</b>、お風呂に<b>入って</b>、早く寝ます。",
-   "exampleRo": "Yoru wa ie ni kaette, ofuro ni haitte, hayaku nemasu.",
-   "lit": "soir · [thème] · maison · [direction] · rentrer (forme -te) · bain · [dans] · entrer (forme -te) · tôt · se coucher (poli)",
-   "body": "Vous connaissez déjà la forme en « -te » avec « kudasai ». Elle sert aussi à enchaîner plusieurs actions, comme nos virgules et nos « puis ». Seul le dernier verbe porte le temps et la politesse : les autres restent en « -te », comme en attente. « Yoru wa ie ni kaette, ofuro ni haitte, hayaku nemasu » se dit littéralement : soir, maison vers, rentrer et, bain dans, entrer et, tôt, se coucher. Autres exemples : « okite, shawā o abimasu » (je me lève et je me douche), « katte, tabemasu » (j'achète et je mange). Astuce : imaginez des wagons en « -te » accrochés à une locomotive en « -masu », qui décide de tout le train."
+   "title": "Les verbes à voyelle longue",
+   "example": "Hier, j'ai marché jusqu'au bureau. — أَمْسِ، <b>مَشَيْتُ</b> إِلَى الْمَكْتَبِ.",
+   "exampleRo": "Amsi, mashaytu ilā al-maktabi.",
+   "lit": "hier · j'ai-marché · vers · le-bureau",
+   "body": "Certains verbes très fréquents ont une voyelle longue au cœur de leur racine. « Qāla » (il a dit) devient « yaqūlu » au présent (il dit) : le « ā » se change en « ū ». Quand une consonne suit, cette voyelle se raccourcit : « qultu », j'ai dit. D'autres verbes finissent par une voyelle longue, comme « mashā » (il a marché) et « yamshī » (il marche) ; au passé avec « je », on entend un « y » : « mashaytu ». Ainsi « Amsi, mashaytu ilā al-maktabi » se dit littéralement : hier, j'ai marché vers le bureau. Astuce : vous connaissez déjà « kāna » et « kuntu », qui suivent exactement la même logique que « qāla » et « qultu »."
   }
  },
  {
-  "title": "Entre colocataires",
+  "title": "Le chemin du métro",
   "phrases": [
    {
-    "fr": "Ce soir, tu ne viens pas au sentō ?",
-    "ja": "今夜、銭湯に行かない？",
-    "ro": "Kon'ya, sentō ni ikanai?"
+    "fr": "Pardon, où se trouve la station de métro la plus proche ?",
+    "ar": "عَفْوًا، أَيْنَ أَقْرَبُ مَحَطَّةِ مِتْرُو؟",
+    "ro": "ʿAfwan, ayna aqrabu maḥaṭṭati mitrū?"
    },
    {
-    "fr": "Non, je n'y vais pas, je suis vraiment crevé.",
-    "ja": "ううん、行かない。すごく疲れてるから。",
-    "ro": "Uun, ikanai. Sugoku tsukareteru kara."
+    "fr": "Va tout droit, puis prends la première rue à gauche.",
+    "ar": "اِذْهَبْ مُبَاشَرَةً، ثُمَّ خُذْ أَوَّلَ شَارِعٍ عَلَى الْيَسَارِ.",
+    "ro": "Idhhab mubāsharatan, thumma khudh awwala shāriʿin ʿalā al-yasāri."
    },
    {
-    "fr": "Tu ne manges pas ? Il reste du curry, tu sais.",
-    "ja": "食べないの？カレーが残ってるよ。",
-    "ro": "Tabenai no? Karē ga nokotteru yo."
+    "fr": "Marche environ cinq minutes.",
+    "ar": "اِمْشِ حَوَالَيْ خَمْسِ دَقَائِقَ.",
+    "ro": "Imshi ḥawālay khamsi daqāʾiqa."
    },
    {
-    "fr": "Je n'ai pas faim, merci quand même.",
-    "ja": "お腹すいてない。でも、ありがとう。",
-    "ro": "Onaka suitenai. Demo, arigatō."
+    "fr": "Écris-moi l'adresse sur ce papier, s'il te plaît.",
+    "ar": "اُكْتُبْ لِي الْعُنْوَانَ عَلَى هَذِهِ الْوَرَقَةِ مِنْ فَضْلِكَ.",
+    "ro": "Uktub lī al-ʿunwāna ʿalā hādhihi al-waraqati min faḍlika."
    },
    {
-    "fr": "Je ne comprends pas bien cette lettre de la mairie.",
-    "ja": "市役所の手紙、よく分からない。",
-    "ro": "Shiyakusho no tegami, yoku wakaranai."
+    "fr": "Tenez, voici votre ticket.",
+    "ar": "تَفَضَّلْ، هَذِهِ تَذْكِرَتُكَ.",
+    "ro": "Tafaḍḍal, hādhihi tadhkiratuka."
    },
    {
-    "fr": "Ne t'inquiète pas, on va la lire ensemble.",
-    "ja": "心配しないで。一緒に読もう。",
-    "ro": "Shinpai shinaide. Issho ni yomō."
+    "fr": "Descends à la station Attaba.",
+    "ar": "اِنْزِلْ فِي مَحَطَّةِ الْعَتَبَةِ.",
+    "ro": "Inzil fī maḥaṭṭati al-ʿAtabati."
    },
    {
-    "fr": "N'ouvre pas la fenêtre, d'accord ? Il pleut aujourd'hui.",
-    "ja": "窓は開けないでね。今日は雨だから。",
-    "ro": "Mado wa akenaide ne. Kyō wa ame da kara."
+    "fr": "Ne prends pas de taxi, c'est cher.",
+    "ar": "لَا تَأْخُذْ سَيَّارَةَ أُجْرَةٍ، إِنَّهَا غَالِيَةٌ.",
+    "ro": "Lā taʾkhudh sayyārata ujratin, innahā ghāliyatun."
    },
    {
-    "fr": "Ne fumez pas dans l'appartement, s'il vous plaît.",
-    "ja": "部屋でたばこを吸わないでください。",
-    "ro": "Heya de tabako o suwanaide kudasai."
+    "fr": "Demande au gardien si tu te perds.",
+    "ar": "اِسْأَلِ الْحَارِسَ إِذَا ضَلَلْتَ الطَّرِيقَ.",
+    "ro": "Isʾali al-ḥārisa idhā ḍalalta aṭ-ṭarīqa."
    },
    {
-    "fr": "Je n'ai pas encore décidé, je te recontacte demain.",
-    "ja": "まだ決めてない。明日連絡するね。",
-    "ro": "Mada kimetenai. Ashita renraku suru ne."
+    "fr": "Entre, assieds-toi un moment.",
+    "ar": "تَفَضَّلْ، اِجْلِسْ قَلِيلًا.",
+    "ro": "Tafaḍḍal, ijlis qalīlan."
    },
    {
-    "fr": "T'en fais pas, ce n'est pas bien grave.",
-    "ja": "大丈夫、大したことないよ。",
-    "ro": "Daijōbu, taishita koto nai yo."
+    "fr": "Merci, tu m'as vraiment aidé.",
+    "ar": "شُكْرًا، لَقَدْ سَاعَدْتَنِي كَثِيرًا.",
+    "ro": "Shukran, laqad sāʿadtanī kathīran."
    }
   ],
   "tip": {
-   "title": "La forme en « -nai » : la négation familière",
-   "example": "Ce soir, tu ne viens pas au sentō ? — 今夜、銭湯に<b>行かない</b>？",
-   "exampleRo": "Kon'ya, sentō ni ikanai?",
-   "lit": "ce soir · bain public · [direction] · aller (forme -nai) · (intonation montante)",
-   "body": "Entre amis, « ikimasen » (je ne vais pas) devient simplement « ikanai ». Pour les verbes en « -u », on remplace le « u » final par « anai » : « kaku » devient « kakanai », « yomu » devient « yomanai », et « kau » devient « kawanai ». Pour les verbes en « -ru » comme « taberu », on enlève « ru » et on ajoute « nai » : « tabenai ». Les deux irréguliers : « suru » donne « shinai », et « kuru » donne « konai ». Avec une intonation montante, « Sentō ni ikanai ? » se dit littéralement : bain public vers, ne pas aller ? C'est une invitation, comme notre « tu ne viendrais pas ? ». Astuce : ajoutez « -de kudasai » et vous obtenez une demande polie de ne pas faire : « suwanaide kudasai », ne fumez pas, s'il vous plaît."
+   "title": "L'impératif",
+   "example": "Va tout droit, puis prends la première rue à gauche. — <b>اِذْهَبْ</b> مُبَاشَرَةً، ثُمَّ <b>خُذْ</b> أَوَّلَ شَارِعٍ عَلَى الْيَسَارِ.",
+   "exampleRo": "Idhhab mubāsharatan, thumma khudh awwala shāriʿin ʿalā al-yasāri.",
+   "lit": "va · directement · puis · prends · première · rue · sur · la-gauche",
+   "body": "Pour donner un ordre ou un conseil, l'arabe part du présent. Prenez « tadhhabu » (tu vas) : on enlève le « ta » du début et le « u » final, puis on ajoute une petite voyelle d'appui devant, ce qui donne « idhhab », va ! De la même façon, « taktubu » (tu écris) devient « uktub », écris : quand la voyelle du milieu est un « u », la voyelle d'appui est aussi un « u ». « Idhhab mubāsharatan » se dit littéralement : va directement. Certains impératifs sont tout courts, comme « khudh » (prends). Et retenez le précieux « tafaddal », qui veut dire tenez, entrez ou je vous en prie, selon la situation."
   }
  },
  {
-  "title": "À la clinique",
+  "title": "Au marché du quartier",
   "phrases": [
    {
-    "fr": "Depuis hier, j'ai de la fièvre et mal à la gorge.",
-    "ja": "昨日から熱があって、喉が痛いです。",
-    "ro": "Kinō kara netsu ga atte, nodo ga itai desu."
+    "fr": "Le marché ouvre très tôt le matin.",
+    "ar": "تَفْتَحُ السُّوقُ أَبْوَابَهَا مُبَكِّرًا جِدًّا.",
+    "ro": "Taftaḥu as-sūqu abwābahā mubakkiran jiddan."
    },
    {
-    "fr": "C'est votre première visite dans cette clinique ?",
-    "ja": "このクリニックは初めてですか。",
-    "ro": "Kono kurinikku wa hajimete desu ka."
+    "fr": "Les tomates sont moins chères aujourd'hui.",
+    "ar": "الطَّمَاطِمُ أَرْخَصُ الْيَوْمَ.",
+    "ro": "Aṭ-ṭamāṭimu arkhaṣu al-yawma."
    },
    {
-    "fr": "Oui, voici ma carte d'assurance maladie.",
-    "ja": "はい、これが保険証です。",
-    "ro": "Hai, kore ga hokenshō desu."
+    "fr": "Combien coûte le kilo de mangues ?",
+    "ar": "بِكَمْ كِيلُو الْمَانْجُو؟",
+    "ro": "Bi-kam kīlū al-mānjū?"
    },
    {
-    "fr": "Remplissez ce questionnaire en attendant, s'il vous plaît.",
-    "ja": "待っている間に、この問診票を書いてください。",
-    "ro": "Matte iru aida ni, kono monshinhyō o kaite kudasai."
+    "fr": "Le vendeur m'a fait un bon prix.",
+    "ar": "أَعْطَانِي الْبَائِعُ سِعْرًا جَيِّدًا.",
+    "ro": "Aʿṭānī al-bāʾiʿu siʿran jayyidan."
    },
    {
-    "fr": "Ouvrez la bouche et dites « a ».",
-    "ja": "口を開けて、「あー」と言ってください。",
-    "ro": "Kuchi o akete, \"ā\" to itte kudasai."
+    "fr": "Je voudrais deux kilos de pommes de terre.",
+    "ar": "أُرِيدُ كِيلُوَيْنِ مِنَ الْبَطَاطِسِ.",
+    "ro": "Urīdu kīlūwayni mina al-baṭāṭisi."
    },
    {
-    "fr": "C'est juste un rhume, ne vous inquiétez pas.",
-    "ja": "ただの風邪ですね。心配ありません。",
-    "ro": "Tada no kaze desu ne. Shinpai arimasen."
+    "fr": "Ces oranges viennent de la campagne.",
+    "ar": "هَذَا الْبُرْتُقَالُ مِنَ الرِّيفِ.",
+    "ro": "Hādhā al-burtuqālu mina ar-rīfi."
    },
    {
-    "fr": "Reposez-vous bien pendant deux ou trois jours.",
-    "ja": "二、三日ゆっくり休んでください。",
-    "ro": "Ni-sannichi yukkuri yasunde kudasai."
+    "fr": "On trouve les herbes fraîches au fond du marché.",
+    "ar": "نَجِدُ الْأَعْشَابَ الطَّازَجَةَ فِي آخِرِ السُّوقِ.",
+    "ro": "Najidu al-aʿshāba aṭ-ṭāzajata fī ākhiri as-sūqi."
    },
    {
-    "fr": "Je vous donne une ordonnance : apportez-la à la pharmacie d'à côté.",
-    "ja": "処方箋を出しますから、隣の薬局に持っていってください。",
-    "ro": "Shohōsen o dashimasu kara, tonari no yakkyoku ni motte itte kudasai."
+    "fr": "J'ai oublié mon panier à la maison.",
+    "ar": "نَسِيتُ سَلَّتِي فِي الْبَيْتِ.",
+    "ro": "Nasītu sallatī fī al-bayti."
    },
    {
-    "fr": "Combien coûte la consultation ?",
-    "ja": "診察代はいくらですか。",
-    "ro": "Shinsatsudai wa ikura desu ka."
+    "fr": "Par chance, le vendeur a des sacs en papier.",
+    "ar": "لِحُسْنِ الْحَظِّ، عِنْدَ الْبَائِعِ أَكْيَاسٌ وَرَقِيَّةٌ.",
+    "ro": "Li-ḥusni al-ḥaẓẓi, ʿinda al-bāʾiʿi akyāsun waraqiyyatun."
    },
    {
-    "fr": "Avec l'assurance, cela fait mille deux cents yens.",
-    "ja": "保険で千二百円です。",
-    "ro": "Hoken de sen nihyaku en desu."
+    "fr": "Le samedi, le marché est toujours bondé.",
+    "ar": "يَوْمَ السَّبْتِ، تَكُونُ السُّوقُ مُزْدَحِمَةً دَائِمًا.",
+    "ro": "Yawma as-sabti, takūnu as-sūqu muzdaḥimatan dāʾiman."
+   }
+  ]
+ },
+ {
+  "title": "Les voisins de l'immeuble",
+  "phrases": [
+   {
+    "fr": "Notre voisin du dessus est très gentil.",
+    "ar": "جَارُنَا فِي الطَّابِقِ الْعُلْوِيِّ لَطِيفٌ جِدًّا.",
+    "ro": "Jārunā fī aṭ-ṭābiqi al-ʿulwiyyi laṭīfun jiddan."
+   },
+   {
+    "fr": "Il nous a invités à prendre le thé.",
+    "ar": "دَعَانَا إِلَى شُرْبِ الشَّايِ.",
+    "ro": "Daʿānā ilā shurbi ash-shāyi."
+   },
+   {
+    "fr": "Sa femme prépare de délicieuses pâtisseries.",
+    "ar": "تُحَضِّرُ زَوْجَتُهُ حَلَوِيَّاتٍ لَذِيذَةً.",
+    "ro": "Tuḥaḍḍiru zawjatuhu ḥalawiyyātin ladhīdhatan."
+   },
+   {
+    "fr": "Leurs enfants jouent dans l'escalier.",
+    "ar": "يَلْعَبُ أَوْلَادُهُمَا عَلَى الدَّرَجِ.",
+    "ro": "Yalʿabu awlāduhumā ʿalā ad-daraji."
+   },
+   {
+    "fr": "Le gardien de l'immeuble s'appelle Am Saïd.",
+    "ar": "اِسْمُ بَوَّابِ الْعِمَارَةِ عَمُّ سَعِيدٍ.",
+    "ro": "Ismu bawwābi al-ʿimārati ʿammu Saʿīdin."
+   },
+   {
+    "fr": "Il porte nos courses jusqu'à l'ascenseur.",
+    "ar": "يَحْمِلُ مُشْتَرَيَاتِنَا إِلَى الْمِصْعَدِ.",
+    "ro": "Yaḥmilu mushtarayātinā ilā al-miṣʿadi."
+   },
+   {
+    "fr": "Hier, nos voisins ont fait beaucoup de bruit.",
+    "ar": "أَمْسِ، أَحْدَثَ جِيرَانُنَا ضَجِيجًا كَبِيرًا.",
+    "ro": "Amsi, aḥdatha jīrānunā ḍajījan kabīran."
+   },
+   {
+    "fr": "Ils fêtaient l'anniversaire de leur fille.",
+    "ar": "كَانُوا يَحْتَفِلُونَ بِعِيدِ مِيلَادِ بِنْتِهِمْ.",
+    "ro": "Kānū yaḥtafilūna bi-ʿīdi mīlādi bintihim."
+   },
+   {
+    "fr": "Ils nous ont apporté un morceau de gâteau.",
+    "ar": "أَحْضَرُوا لَنَا قِطْعَةً مِنَ الْكَعْكَةِ.",
+    "ro": "Aḥḍarū lanā qiṭʿatan mina al-kaʿkati."
+   },
+   {
+    "fr": "C'est agréable d'avoir de bons voisins.",
+    "ar": "مِنَ الْجَمِيلِ أَنْ يَكُونَ لَنَا جِيرَانٌ طَيِّبُونَ.",
+    "ro": "Mina al-jamīli an yakūna lanā jīrānun ṭayyibūna."
+   }
+  ]
+ },
+ {
+  "title": "La chaleur de l'été",
+  "phrases": [
+   {
+    "fr": "En août, il fait quarante degrés au Caire.",
+    "ar": "فِي أُغُسْطُسَ، تَبْلُغُ الْحَرَارَةُ أَرْبَعِينَ دَرَجَةً فِي الْقَاهِرَةِ.",
+    "ro": "Fī ughusṭusa, tablughu al-ḥarāratu arbaʿīna darajatan fī al-Qāhirati."
+   },
+   {
+    "fr": "Je ne sors pas l'après-midi à cause de la chaleur.",
+    "ar": "لَا أَخْرُجُ بَعْدَ الظُّهْرِ بِسَبَبِ الْحَرِّ.",
+    "ro": "Lā akhruju baʿda aẓ-ẓuhri bi-sababi al-ḥarri."
+   },
+   {
+    "fr": "Le climatiseur de la chambre est en panne.",
+    "ar": "الْمُكَيِّفُ فِي الْغُرْفَةِ مُعَطَّلٌ.",
+    "ro": "Al-mukayyifu fī al-ghurfati muʿaṭṭalun."
+   },
+   {
+    "fr": "Le technicien viendra demain matin.",
+    "ar": "سَيَأْتِي الْفَنِّيُّ صَبَاحَ الْغَدِ.",
+    "ro": "Sayaʾtī al-fanniyyu ṣabāḥa al-ghadi."
+   },
+   {
+    "fr": "Nous dormons sur le balcon quand il fait trop chaud.",
+    "ar": "نَنَامُ عَلَى الشُّرْفَةِ عِنْدَمَا يَشْتَدُّ الْحَرُّ.",
+    "ro": "Nanāmu ʿalā ash-shurfati ʿindamā yashtaddu al-ḥarru."
+   },
+   {
+    "fr": "Le soir, les familles se promènent au bord du Nil.",
+    "ar": "فِي الْمَسَاءِ، تَتَنَزَّهُ الْعَائِلَاتُ عَلَى ضِفَّةِ النِّيلِ.",
+    "ro": "Fī al-masāʾi, tatanazzahu al-ʿāʾilātu ʿalā ḍiffati an-Nīli."
+   },
+   {
+    "fr": "Je bois un jus de canne à sucre bien frais.",
+    "ar": "أَشْرَبُ عَصِيرَ قَصَبِ السُّكَّرِ الْبَارِدَ.",
+    "ro": "Ashrabu ʿaṣīra qaṣabi as-sukkari al-bārida."
+   },
+   {
+    "fr": "Tu dois toujours avoir une bouteille d'eau sur toi.",
+    "ar": "يَجِبُ أَنْ تَحْمِلَ دَائِمًا زُجَاجَةَ مَاءٍ.",
+    "ro": "Yajibu an taḥmila dāʾiman zujājata māʾin."
+   },
+   {
+    "fr": "L'été dernier était encore plus chaud.",
+    "ar": "كَانَ الصَّيْفُ الْمَاضِي أَشَدَّ حَرًّا.",
+    "ro": "Kāna aṣ-ṣayfu al-māḍī ashadda ḥarran."
+   },
+   {
+    "fr": "Heureusement, les nuits sont un peu plus fraîches.",
+    "ar": "لِحُسْنِ الْحَظِّ، اللَّيَالِي أَبْرَدُ قَلِيلًا.",
+    "ro": "Li-ḥusni al-ḥaẓẓi, al-layālī abradu qalīlan."
    }
   ]
  },
@@ -4612,336 +4722,281 @@ const level2Module1Lessons = [
   "title": "À la pharmacie",
   "phrases": [
    {
-    "fr": "Je cherche un médicament contre le rhume.",
-    "ja": "風邪薬を探しています。",
-    "ro": "Kazegusuri o sagashite imasu."
+    "fr": "Bonsoir, avez-vous quelque chose contre la toux ?",
+    "ar": "مَسَاءَ الْخَيْرِ، هَلْ عِنْدَكُمْ دَوَاءٌ لِلسُّعَالِ؟",
+    "ro": "Masāʾa al-khayri, hal ʿindakum dawāʾun lis-suʿāli?"
    },
    {
-    "fr": "Avez-vous de la fièvre ou de la toux ?",
-    "ja": "熱や咳がありますか。",
-    "ro": "Netsu ya seki ga arimasu ka."
+    "fr": "Voici un sirop très efficace.",
+    "ar": "هَذَا شَرَابٌ فَعَّالٌ جِدًّا.",
+    "ro": "Hādhā sharābun faʿʿālun jiddan."
    },
    {
-    "fr": "Je tousse un peu, surtout la nuit.",
-    "ja": "少し咳が出ます。特に夜です。",
-    "ro": "Sukoshi seki ga demasu. Toku ni yoru desu."
+    "fr": "Prenez-en une cuillère trois fois par jour.",
+    "ar": "خُذْ مِنْهُ مِلْعَقَةً ثَلَاثَ مَرَّاتٍ فِي الْيَوْمِ.",
+    "ro": "Khudh minhu milʿaqatan thalātha marrātin fī al-yawmi."
    },
    {
-    "fr": "Ce sirop marche très bien, vous savez.",
-    "ja": "このシロップはよく効きますよ。",
-    "ro": "Kono shiroppu wa yoku kikimasu yo."
+    "fr": "Faut-il une ordonnance pour ce médicament ?",
+    "ar": "هَلْ يَحْتَاجُ هَذَا الدَّوَاءُ إِلَى وَصْفَةٍ طِبِّيَّةٍ؟",
+    "ro": "Hal yaḥtāju hādhā ad-dawāʾu ilā waṣfatin ṭibbiyyatin?"
    },
    {
-    "fr": "Prenez-le trois fois par jour, après les repas.",
-    "ja": "一日三回、食後に飲んでください。",
-    "ro": "Ichinichi sankai, shokugo ni nonde kudasai."
+    "fr": "Non, vous pouvez l'acheter sans ordonnance.",
+    "ar": "لَا، يُمْكِنُكَ أَنْ تَشْتَرِيَهُ بِدُونِ وَصْفَةٍ.",
+    "ro": "Lā, yumkinuka an tashtariyahu bi-dūni waṣfatin."
    },
    {
-    "fr": "Je prends déjà un médicament pour l'estomac.",
-    "ja": "胃の薬をもう飲んでいます。",
-    "ro": "I no kusuri o mō nonde imasu."
+    "fr": "Je voudrais aussi de la crème solaire.",
+    "ar": "أُرِيدُ أَيْضًا وَاقِيًا مِنَ الشَّمْسِ.",
+    "ro": "Urīdu ayḍan wāqiyan mina ash-shamsi."
    },
    {
-    "fr": "Dans ce cas, je vais demander au pharmacien.",
-    "ja": "それなら、薬剤師に聞いてみます。",
-    "ro": "Sore nara, yakuzaishi ni kiite mimasu."
+    "fr": "Le pharmacien parle un peu français.",
+    "ar": "يَتَكَلَّمُ الصَّيْدَلِيُّ الْفَرَنْسِيَّةَ قَلِيلًا.",
+    "ro": "Yatakallamu aṣ-ṣaydaliyyu al-faransiyyata qalīlan."
    },
    {
-    "fr": "Cette pharmacie vend aussi des cosmétiques et des boissons.",
-    "ja": "このドラッグストアは化粧品や飲み物も売っています。",
-    "ro": "Kono doraggu sutoa wa keshōhin ya nomimono mo utte imasu."
+    "fr": "Cette pharmacie est ouverte toute la nuit.",
+    "ar": "هَذِهِ الصَّيْدَلِيَّةُ مَفْتُوحَةٌ طُوَالَ اللَّيْلِ.",
+    "ro": "Hādhihi aṣ-ṣaydaliyyatu maftūḥatun ṭuwāla al-layli."
    },
    {
-    "fr": "Avez-vous une carte de fidélité ?",
-    "ja": "ポイントカードはお持ちですか。",
-    "ro": "Pointo kādo wa omochi desu ka."
+    "fr": "Ça fait combien pour le sirop et la crème ?",
+    "ar": "كَمْ ثَمَنُ الشَّرَابِ وَالْوَاقِي؟",
+    "ro": "Kam thamanu ash-sharābi wal-wāqī?"
    },
    {
-    "fr": "Non, mais j'aimerais bien en faire une.",
-    "ja": "いいえ、でも作りたいです。",
-    "ro": "Iie, demo tsukuritai desu."
+    "fr": "Soixante-cinq livres, s'il vous plaît.",
+    "ar": "خَمْسَةٌ وَسِتُّونَ جُنَيْهًا مِنْ فَضْلِكَ.",
+    "ro": "Khamsatun wa-sittūna junayhan min faḍlika."
    }
   ]
  },
  {
-  "title": "Au supermarché du quartier",
+  "title": "Une felouque sur le Nil",
   "phrases": [
    {
-    "fr": "Le supermarché près de chez moi est ouvert jusqu'à vingt-deux heures.",
-    "ja": "家の近くのスーパーは夜十時まで開いています。",
-    "ro": "Ie no chikaku no sūpā wa yoru jūji made aite imasu."
+    "fr": "Dimanche, nous avons loué une felouque.",
+    "ar": "يَوْمَ الْأَحَدِ، اِسْتَأْجَرْنَا فَلُوكَةً.",
+    "ro": "Yawma al-aḥadi, istaʾjarnā falūkatan."
    },
    {
-    "fr": "À partir de dix-neuf heures, les bentō deviennent moins chers.",
-    "ja": "夜七時から、お弁当が安くなります。",
-    "ro": "Yoru shichiji kara, obentō ga yasuku narimasu."
+    "fr": "Le batelier connaît très bien le fleuve.",
+    "ar": "يَعْرِفُ صَاحِبُ الْقَارِبِ النَّهْرَ جَيِّدًا.",
+    "ro": "Yaʿrifu ṣāḥibu al-qāribi an-nahra jayyidan."
    },
    {
-    "fr": "On y colle des étiquettes « moitié prix ».",
-    "ja": "半額のシールが貼ってあります。",
-    "ro": "Hangaku no shīru ga hatte arimasu."
+    "fr": "Le vent était doux et rafraîchissant.",
+    "ar": "كَانَتِ الرِّيحُ لَطِيفَةً وَمُنْعِشَةً.",
+    "ro": "Kānati ar-rīḥu laṭīfatan wa-munʿishatan."
    },
    {
-    "fr": "Ces fraises de Nara sont sucrées et délicieuses.",
-    "ja": "この奈良のいちごは甘くておいしいです。",
-    "ro": "Kono Nara no ichigo wa amakute oishii desu."
+    "fr": "On voyait la tour du Caire au loin.",
+    "ar": "كُنَّا نَرَى بُرْجَ الْقَاهِرَةِ مِنْ بَعِيدٍ.",
+    "ro": "Kunnā narā burja al-Qāhirati min baʿīdin."
    },
    {
-    "fr": "Où se trouve le rayon du tofu ?",
-    "ja": "豆腐の売り場はどこですか。",
-    "ro": "Tōfu no uriba wa doko desu ka."
+    "fr": "Les enfants ont salué les autres bateaux.",
+    "ar": "لَوَّحَ الْأَطْفَالُ لِلْقَوَارِبِ الْأُخْرَى.",
+    "ro": "Lawwaḥa al-aṭfālu lil-qawāribi al-ukhrā."
    },
    {
-    "fr": "Au fond, à côté du lait.",
-    "ja": "奥の、牛乳の隣です。",
-    "ro": "Oku no, gyūnyū no tonari desu."
+    "fr": "Nous avons apporté des sandwichs et des fruits.",
+    "ar": "أَحْضَرْنَا شَطَائِرَ وَفَوَاكِهَ.",
+    "ro": "Aḥḍarnā shaṭāʾira wa-fawākiha."
    },
    {
-    "fr": "Vous voulez un sac en plastique ?",
-    "ja": "レジ袋はご利用ですか。",
-    "ro": "Rejibukuro wa goriyō desu ka."
+    "fr": "Le coucher de soleil sur le fleuve était magnifique.",
+    "ar": "كَانَ غُرُوبُ الشَّمْسِ عَلَى النَّهْرِ رَائِعًا.",
+    "ro": "Kāna ghurūbu ash-shamsi ʿalā an-nahri rāʾiʿan."
    },
    {
-    "fr": "Non merci, j'ai apporté mon propre sac.",
-    "ja": "いいえ、マイバッグがあります。",
-    "ro": "Iie, mai baggu ga arimasu."
+    "fr": "La promenade a duré deux heures.",
+    "ar": "اِسْتَمَرَّتِ النُّزْهَةُ سَاعَتَيْنِ.",
+    "ro": "Istamarrati an-nuzhatu sāʿatayni."
    },
    {
-    "fr": "Est-ce qu'on peut payer avec son téléphone ?",
-    "ja": "スマホで払うことができますか。",
-    "ro": "Sumaho de harau koto ga dekimasu ka."
+    "fr": "Chaque passager a payé cinquante livres.",
+    "ar": "دَفَعَ كُلُّ رَاكِبٍ خَمْسِينَ جُنَيْهًا.",
+    "ro": "Dafaʿa kullu rākibin khamsīna junayhan."
    },
    {
-    "fr": "Oui, et en plus vous cumulez des points.",
-    "ja": "はい、ポイントもたまりますよ。",
-    "ro": "Hai, pointo mo tamarimasu yo."
+    "fr": "Nous referons cette promenade avec nos amis.",
+    "ar": "سَنُكَرِّرُ هَذِهِ النُّزْهَةَ مَعَ أَصْدِقَائِنَا.",
+    "ro": "Sanukarriru hādhihi an-nuzhata maʿa aṣdiqāʾinā."
    }
   ]
  },
  {
-  "title": "Le sentō du quartier",
+  "title": "Au Khan el-Khalili",
   "phrases": [
    {
-    "fr": "Il y a un vieux sentō à deux pas de chez moi.",
-    "ja": "家のすぐ近くに古い銭湯があります。",
-    "ro": "Ie no sugu chikaku ni furui sentō ga arimasu."
+    "fr": "J'ai vu un joli coffret en bois sculpté.",
+    "ar": "رَأَيْتُ صُنْدُوقًا جَمِيلًا مِنَ الْخَشَبِ الْمَنْقُوشِ.",
+    "ro": "Raʾaytu ṣundūqan jamīlan mina al-khashabi al-manqūshi."
    },
    {
-    "fr": "L'entrée coûte cinq cent vingt yens pour un adulte.",
-    "ja": "入浴料は大人五百二十円です。",
-    "ro": "Nyūyokuryō wa otona gohyaku nijū en desu."
+    "fr": "Je l'ai vu hier dans cette boutique.",
+    "ar": "رَأَيْتُهُ أَمْسِ فِي هَذَا الدُّكَّانِ.",
+    "ro": "Raʾaytuhu amsi fī hādhā ad-dukkāni."
    },
    {
-    "fr": "Le rideau bleu, c'est pour les hommes, le rouge pour les femmes.",
-    "ja": "青いのれんは男湯、赤いのれんは女湯です。",
-    "ro": "Aoi noren wa otokoyu, akai noren wa onnayu desu."
+    "fr": "Le vendeur nous a accueillis chaleureusement.",
+    "ar": "اِسْتَقْبَلَنَا الْبَائِعُ بِحَرَارَةٍ.",
+    "ro": "Istaqbalanā al-bāʾiʿu bi-ḥarāratin."
    },
    {
-    "fr": "Avant d'entrer dans l'eau, on se lave soigneusement.",
-    "ja": "お湯に入る前に、体をよく洗います。",
-    "ro": "Oyu ni hairu mae ni, karada o yoku araimasu."
+    "fr": "Il nous a servi un thé à la menthe.",
+    "ar": "قَدَّمَ لَنَا شَايًا بِالنَّعْنَاعِ.",
+    "ro": "Qaddama lanā shāyan bin-naʿnāʿi."
    },
    {
-    "fr": "Ne mettez pas votre serviette dans l'eau, s'il vous plaît.",
-    "ja": "タオルはお湯に入れないでください。",
-    "ro": "Taoru wa oyu ni irenaide kudasai."
+    "fr": "Ce collier est magnifique, je le prends.",
+    "ar": "هَذِهِ الْقِلَادَةُ رَائِعَةٌ، سَآخُذُهَا.",
+    "ro": "Hādhihi al-qilādatu rāʾiʿatun, saʾākhudhuhā."
    },
    {
-    "fr": "L'eau est vraiment brûlante aujourd'hui !",
-    "ja": "今日のお湯は本当に熱いですね。",
-    "ro": "Kyō no oyu wa hontō ni atsui desu ne."
+    "fr": "Ma sœur va l'adorer.",
+    "ar": "سَتُحِبُّهَا أُخْتِي كَثِيرًا.",
+    "ro": "Satuḥibbuhā ukhtī kathīran."
    },
    {
-    "fr": "Au mur, il y a une grande peinture du mont Fuji.",
-    "ja": "壁に大きな富士山の絵があります。",
-    "ro": "Kabe ni ōkina Fujisan no e ga arimasu."
+    "fr": "Le vendeur l'a emballé dans du papier.",
+    "ar": "لَفَّهَا الْبَائِعُ فِي وَرَقٍ.",
+    "ro": "Laffahā al-bāʾiʿu fī waraqin."
    },
    {
-    "fr": "Les habitués bavardent tranquillement entre eux.",
-    "ja": "常連さんたちがのんびり話しています。",
-    "ro": "Jōren-san-tachi ga nonbiri hanashite imasu."
+    "fr": "Tu connais le café le plus célèbre du Khan el-Khalili ?",
+    "ar": "هَلْ تَعْرِفُ أَشْهَرَ مَقْهًى فِي خَانِ الْخَلِيلِيِّ؟",
+    "ro": "Hal taʿrifu ashhara maqhan fī Khāni al-Khalīliyyi?"
    },
    {
-    "fr": "Après le bain, on boit un lait au café bien frais.",
-    "ja": "お風呂の後は、冷たいコーヒー牛乳を飲みます。",
-    "ro": "Ofuro no ato wa, tsumetai kōhī gyūnyū o nomimasu."
+    "fr": "Oui, je le connais depuis mon enfance.",
+    "ar": "نَعَمْ، أَعْرِفُهُ مُنْذُ طُفُولَتِي.",
+    "ro": "Naʿam, aʿrifuhu mundhu ṭufūlatī."
    },
    {
-    "fr": "C'est le moment le plus heureux de ma semaine.",
-    "ja": "これが一週間で一番幸せな時間です。",
-    "ro": "Kore ga isshūkan de ichiban shiawase na jikan desu."
-   }
-  ]
- },
- {
-  "title": "Un petit boulot à Kobe",
-  "phrases": [
-   {
-    "fr": "Je travaille à mi-temps dans un café de Kobe.",
-    "ja": "神戸のカフェでアルバイトをしています。",
-    "ro": "Kōbe no kafe de arubaito o shite imasu."
-   },
-   {
-    "fr": "Je travaille trois jours par semaine, de midi à dix-huit heures.",
-    "ja": "週に三日、十二時から六時まで働いています。",
-    "ro": "Shū ni mikka, jūniji kara rokuji made hataraite imasu."
-   },
-   {
-    "fr": "Le salaire horaire est de mille cent cinquante yens.",
-    "ja": "時給は千百五十円です。",
-    "ro": "Jikyū wa sen hyaku gojū en desu."
-   },
-   {
-    "fr": "Le gérant est exigeant, mais gentil.",
-    "ja": "店長は厳しいですが、優しいです。",
-    "ro": "Tenchō wa kibishii desu ga, yasashii desu."
-   },
-   {
-    "fr": "On dit « irasshaimase » à chaque client.",
-    "ja": "お客さんに「いらっしゃいませ」と言います。",
-    "ro": "Okyakusan ni \"irasshaimase\" to iimasu."
-   },
-   {
-    "fr": "Au début, je me trompais souvent dans les commandes.",
-    "ja": "最初は、よく注文を間違えました。",
-    "ro": "Saisho wa, yoku chūmon o machigaemashita."
-   },
-   {
-    "fr": "Maintenant, je sais préparer un bon café au lait.",
-    "ja": "今は、おいしいカフェラテをいれることができます。",
-    "ro": "Ima wa, oishii kafe rate o ireru koto ga dekimasu."
-   },
-   {
-    "fr": "Mes collègues sont tous étudiants à l'université.",
-    "ja": "同僚はみんな大学生です。",
-    "ro": "Dōryō wa minna daigakusei desu."
-   },
-   {
-    "fr": "Après le service, on mange souvent ensemble.",
-    "ja": "仕事の後、よく一緒にご飯を食べます。",
-    "ro": "Shigoto no ato, yoku issho ni gohan o tabemasu."
-   },
-   {
-    "fr": "Grâce à ce travail, mon japonais s'améliore de jour en jour.",
-    "ja": "この仕事のおかげで、日本語がどんどん上手になります。",
-    "ro": "Kono shigoto no okage de, nihongo ga dondon jōzu ni narimasu."
-   }
-  ]
- },
- {
-  "title": "Le week-end dernier à Kobe",
-  "phrases": [
-   {
-    "fr": "Le week-end dernier, tu as fait quoi ?",
-    "ja": "先週末、何した？",
-    "ro": "Senshūmatsu, nani shita?"
-   },
-   {
-    "fr": "Je suis allé à Kobe avec des amis.",
-    "ja": "友達と神戸に行った。",
-    "ro": "Tomodachi to Kōbe ni itta."
-   },
-   {
-    "fr": "On a mangé du bœuf de Kobe à Sannomiya.",
-    "ja": "三宮で神戸牛を食べたよ。",
-    "ro": "Sannomiya de Kōbegyū o tabeta yo."
-   },
-   {
-    "fr": "C'était cher, mais vraiment délicieux.",
-    "ja": "高かったけど、本当においしかった。",
-    "ro": "Takakatta kedo, hontō ni oishikatta."
-   },
-   {
-    "fr": "Ensuite, on s'est baladés au parc Meriken, près du port.",
-    "ja": "それから、港のメリケンパークを散歩した。",
-    "ro": "Sore kara, minato no Meriken pāku o sanpo shita."
-   },
-   {
-    "fr": "Tu as vu la tour du port de Kobe ?",
-    "ja": "神戸ポートタワー、見た？",
-    "ro": "Kōbe pōto tawā, mita?"
-   },
-   {
-    "fr": "Oui, et le soir, on est allés au mont Rokkō.",
-    "ja": "うん。夜は六甲山に行った。",
-    "ro": "Un. Yoru wa Rokkōsan ni itta."
-   },
-   {
-    "fr": "La vue de nuit était superbe.",
-    "ja": "夜景がすごくきれいだった。",
-    "ro": "Yakei ga sugoku kirei datta."
-   },
-   {
-    "fr": "Moi, je ne suis allé nulle part, j'ai fait le ménage.",
-    "ja": "僕はどこにも行かなかった。掃除をした。",
-    "ro": "Boku wa doko ni mo ikanakatta. Sōji o shita."
-   },
-   {
-    "fr": "Tu n'es jamais monté au mont Rokkō ?",
-    "ja": "六甲山に行ったことない？",
-    "ro": "Rokkōsan ni itta koto nai?"
+    "fr": "Mon père m'y emmenait souvent.",
+    "ar": "كَانَ أَبِي يَأْخُذُنِي إِلَيْهِ كَثِيرًا.",
+    "ro": "Kāna abī yaʾkhudhunī ilayhi kathīran."
    }
   ],
   "tip": {
-   "title": "La forme en « -ta » : le passé familier",
-   "example": "Je suis allé à Kobe avec des amis. — 友達と神戸に<b>行った</b>。",
-   "exampleRo": "Tomodachi to Kōbe ni itta.",
-   "lit": "amis · [avec] · Kobe · [direction] · aller (passé familier)",
-   "body": "Entre amis, « ikimashita » (je suis allé) devient « itta ». Bonne nouvelle : si vous connaissez la forme en « -te », vous connaissez déjà la forme en « -ta », il suffit de changer la dernière voyelle. « Itte » donne « itta », « tabete » donne « tabeta », « shite » donne « shita ». Ainsi, « Tomodachi to Kōbe ni itta » se dit littéralement : amis avec, Kobe vers, être allé. Pour les adjectifs, on garde « takakatta » (c'était cher), et pour les noms ou les adjectifs en « -na », on dit « datta » : « kirei datta », c'était beau. Astuce : suivi de « koto ga aru », ce passé veut dire « avoir déjà fait » : « itta koto aru ? », tu y es déjà allé ?"
+   "title": "Les pronoms compléments collés au verbe",
+   "example": "Je l'ai vu hier dans cette boutique. — <b>رَأَيْتُهُ</b> أَمْسِ فِي هَذَا الدُّكَّانِ.",
+   "exampleRo": "Raʾaytuhu amsi fī hādhā ad-dukkāni.",
+   "lit": "j'ai-vu-le · hier · dans · cette · la-boutique",
+   "body": "En arabe, les pronoms « le », « la », « me » ou « nous » ne se placent pas devant le verbe comme en français : ils se collent à la fin du verbe. « Raaytu » veut dire j'ai vu ; en ajoutant « hu » (le), on obtient « raaytuhu », je l'ai vu. Avec « hā » (la), on dit « raaytuhā », je l'ai vue, et avec « nā » (nous), « istaqbalanā », il nous a accueillis. La phrase « Raaytuhu amsi » se dit donc littéralement : j'ai vu-le hier. Astuce pour retenir : ce sont presque les mêmes terminaisons que les possessifs, comme dans « baytuhu », sa maison ; seul « moi » change, avec « nī » au lieu de « ī »."
   }
  },
  {
-  "title": "Les voisins de l'immeuble",
+  "title": "Coupures d'eau et d'électricité",
   "phrases": [
    {
-    "fr": "Pour saluer mes voisins après le déménagement, je leur ai apporté des serviettes.",
-    "ja": "引っ越しのあいさつに、タオルを持っていきました。",
-    "ro": "Hikkoshi no aisatsu ni, taoru o motte ikimashita."
+    "fr": "L'eau a été coupée ce matin dans tout l'immeuble.",
+    "ar": "اِنْقَطَعَ الْمَاءُ هَذَا الصَّبَاحَ فِي الْعِمَارَةِ كُلِّهَا.",
+    "ro": "Inqaṭaʿa al-māʾu hādhā aṣ-ṣabāḥa fī al-ʿimārati kullihā."
    },
    {
-    "fr": "La dame de l'étage du dessus est très aimable.",
-    "ja": "上の階の奥さんはとても親切です。",
-    "ro": "Ue no kai no okusan wa totemo shinsetsu desu."
+    "fr": "Le gardien a appelé la compagnie des eaux.",
+    "ar": "اِتَّصَلَ الْبَوَّابُ بِشَرِكَةِ الْمِيَاهِ.",
+    "ro": "Ittaṣala al-bawwābu bi-sharikati al-miyāhi."
    },
    {
-    "fr": "Elle m'a donné des légumes de la campagne.",
-    "ja": "田舎の野菜をくれました。",
-    "ro": "Inaka no yasai o kuremashita."
+    "fr": "Ils disent que la réparation prendra trois heures.",
+    "ar": "يَقُولُونَ إِنَّ الْإِصْلَاحَ سَيَسْتَغْرِقُ ثَلَاثَ سَاعَاتٍ.",
+    "ro": "Yaqūlūna inna al-iṣlāḥa sayastaghriqu thalātha sāʿātin."
    },
    {
-    "fr": "Le vieux monsieur d'en face promène son chien tous les matins.",
-    "ja": "向かいのおじいさんは毎朝犬の散歩をしています。",
-    "ro": "Mukai no ojiisan wa maiasa inu no sanpo o shite imasu."
+    "fr": "Nous avons rempli quelques seaux hier soir.",
+    "ar": "مَلَأْنَا بَعْضَ الدِّلَاءِ مَسَاءَ أَمْسِ.",
+    "ro": "Malaʾnā baʿḍa ad-dilāʾi masāʾa amsi."
    },
    {
-    "fr": "À Osaka, les gens adressent volontiers la parole aux inconnus.",
-    "ja": "大阪の人は知らない人にもよく話しかけます。",
-    "ro": "Ōsaka no hito wa shiranai hito ni mo yoku hanashikakemasu."
+    "fr": "En plus, l'électricité est coupée depuis une heure.",
+    "ar": "وَفَوْقَ ذَلِكَ، الْكَهْرَبَاءُ مَقْطُوعَةٌ مُنْذُ سَاعَةٍ.",
+    "ro": "Wa-fawqa dhālika, al-kahrabāʾu maqṭūʿatun mundhu sāʿatin."
    },
    {
-    "fr": "Les commerçants disent souvent « maido » au lieu de « konnichiwa ».",
-    "ja": "お店の人は、よく「こんにちは」の代わりに「まいど」と言います。",
-    "ro": "Omise no hito wa, yoku \"konnichiwa\" no kawari ni \"maido\" to iimasu."
+    "fr": "Où sont les bougies et la lampe de poche ?",
+    "ar": "أَيْنَ الشُّمُوعُ وَالْمِصْبَاحُ الْيَدَوِيُّ؟",
+    "ro": "Ayna ash-shumūʿu wal-miṣbāḥu al-yadawiyyu?"
    },
    {
-    "fr": "Hier soir, la musique d'à côté était un peu forte.",
-    "ja": "昨日の夜、隣の音楽が少しうるさかったです。",
-    "ro": "Kinō no yoru, tonari no ongaku ga sukoshi urusakatta desu."
+    "fr": "Garde le réfrigérateur bien fermé.",
+    "ar": "أَبْقِ الثَّلَّاجَةَ مُغْلَقَةً.",
+    "ro": "Abqi ath-thallājata mughlaqatan."
    },
    {
-    "fr": "Je suis allé lui en parler poliment.",
-    "ja": "丁寧に話しに行きました。",
-    "ro": "Teinei ni hanashi ni ikimashita."
+    "fr": "Les voisins sont descendus dans la rue.",
+    "ar": "نَزَلَ الْجِيرَانُ إِلَى الشَّارِعِ.",
+    "ro": "Nazala al-jīrānu ilā ash-shāriʿi."
    },
    {
-    "fr": "Il s'est excusé tout de suite.",
-    "ja": "すぐに謝ってくれました。",
-    "ro": "Sugu ni ayamatte kuremashita."
+    "fr": "Le courant est revenu vers midi.",
+    "ar": "عَادَتِ الْكَهْرَبَاءُ نَحْوَ الظُّهْرِ.",
+    "ro": "ʿĀdati al-kahrabāʾu naḥwa aẓ-ẓuhri."
    },
    {
-    "fr": "Depuis, on se salue à chaque fois.",
-    "ja": "それからは、毎回あいさつをしています。",
-    "ro": "Sore kara wa, maikai aisatsu o shite imasu."
+    "fr": "Tout le monde a applaudi dans l'immeuble.",
+    "ar": "صَفَّقَ الْجَمِيعُ فِي الْعِمَارَةِ.",
+    "ro": "Ṣaffaqa al-jamīʿu fī al-ʿimārati."
+   }
+  ]
+ },
+ {
+  "title": "Le métro aux heures de pointe",
+  "phrases": [
+   {
+    "fr": "Je prends le métro chaque jour pour aller au travail.",
+    "ar": "أَرْكَبُ الْمِتْرُو كُلَّ يَوْمٍ إِلَى الْعَمَلِ.",
+    "ro": "Arkabu al-mitrū kulla yawmin ilā al-ʿamali."
+   },
+   {
+    "fr": "À huit heures, les rames sont bondées.",
+    "ar": "فِي السَّاعَةِ الثَّامِنَةِ، تَكُونُ الْقِطَارَاتُ مُزْدَحِمَةً.",
+    "ro": "Fī as-sāʿati ath-thāminati, takūnu al-qiṭārātu muzdaḥimatan."
+   },
+   {
+    "fr": "Il y a une voiture réservée aux femmes.",
+    "ar": "هُنَاكَ عَرَبَةٌ مُخَصَّصَةٌ لِلنِّسَاءِ.",
+    "ro": "Hunāka ʿarabatun mukhaṣṣaṣatun lin-nisāʾi."
+   },
+   {
+    "fr": "Le ticket ne coûte que quelques livres.",
+    "ar": "ثَمَنُ التَّذْكِرَةِ بِضْعَةُ جُنَيْهَاتٍ فَقَطْ.",
+    "ro": "Thamanu at-tadhkirati biḍʿatu junayhātin faqaṭ."
+   },
+   {
+    "fr": "Ma station est la troisième après Attaba.",
+    "ar": "مَحَطَّتِي هِيَ الثَّالِثَةُ بَعْدَ الْعَتَبَةِ.",
+    "ro": "Maḥaṭṭatī hiya ath-thālithatu baʿda al-ʿAtabati."
+   },
+   {
+    "fr": "Un jeune homme m'a laissé sa place.",
+    "ar": "تَرَكَ لِي شَابٌّ مَكَانَهُ.",
+    "ro": "Taraka lī shābbun makānahu."
+   },
+   {
+    "fr": "Ici, le métro est bien plus rapide que le bus.",
+    "ar": "الْمِتْرُو هُنَا أَسْرَعُ بِكَثِيرٍ مِنَ الْحَافِلَةِ.",
+    "ro": "Al-mitrū hunā asraʿu bi-kathīrin mina al-ḥāfilati."
+   },
+   {
+    "fr": "J'écoute des podcasts en arabe dans le métro.",
+    "ar": "أَسْتَمِعُ إِلَى بَرَامِجَ صَوْتِيَّةٍ بِالْعَرَبِيَّةِ فِي الْمِتْرُو.",
+    "ro": "Astamiʿu ilā barāmija ṣawtiyyatin bil-ʿarabiyyati fī al-mitrū."
+   },
+   {
+    "fr": "Attention, les portes vont se fermer !",
+    "ar": "اِنْتَبِهْ، سَتَنْغَلِقُ الْأَبْوَابُ!",
+    "ro": "Intabih, satanghaliqu al-abwābu!"
+   },
+   {
+    "fr": "Je suis arrivé au bureau juste à l'heure.",
+    "ar": "وَصَلْتُ إِلَى الْمَكْتَبِ فِي الْوَقْتِ تَمَامًا.",
+    "ro": "Waṣaltu ilā al-maktabi fī al-waqti tamāman."
    }
   ]
  },
@@ -4949,391 +5004,336 @@ const level2Module1Lessons = [
   "title": "Souvenirs d'enfance",
   "phrases": [
    {
-    "fr": "Quand j'étais petit, j'habitais à la campagne en France.",
-    "ja": "子供のころ、フランスの田舎に住んでいました。",
-    "ro": "Kodomo no koro, Furansu no inaka ni sunde imashita."
+    "fr": "Quand j'étais petit, nous habitions à Choubra.",
+    "ar": "عِنْدَمَا كُنْتُ صَغِيرًا، كُنَّا نَسْكُنُ فِي شُبْرَا.",
+    "ro": "ʿIndamā kuntu ṣaghīran, kunnā naskunu fī Shubrā."
    },
    {
-    "fr": "Je jouais dehors tous les jours avec mon grand frère.",
-    "ja": "毎日、兄と外で遊んでいました。",
-    "ro": "Mainichi, ani to soto de asonde imashita."
+    "fr": "Notre maison était près d'un grand jardin.",
+    "ar": "كَانَ بَيْتُنَا قَرِيبًا مِنْ حَدِيقَةٍ كَبِيرَةٍ.",
+    "ro": "Kāna baytunā qarīban min ḥadīqatin kabīratin."
    },
    {
-    "fr": "Et vous, monsieur Tanaka, où avez-vous grandi ?",
-    "ja": "田中さんはどこで育ちましたか。",
-    "ro": "Tanaka-san wa doko de sodachimashita ka."
+    "fr": "Je jouais au football avec mes cousins.",
+    "ar": "كُنْتُ أَلْعَبُ كُرَةَ الْقَدَمِ مَعَ أَبْنَاءِ عَمِّي.",
+    "ro": "Kuntu alʿabu kurata al-qadami maʿa abnāʾi ʿammī."
    },
    {
-    "fr": "J'ai grandi près d'une rue commerçante d'Osaka.",
-    "ja": "大阪の商店街の近くで育ちました。",
-    "ro": "Ōsaka no shōtengai no chikaku de sodachimashita."
+    "fr": "Ma grand-mère racontait de belles histoires.",
+    "ar": "كَانَتْ جَدَّتِي تَحْكِي قِصَصًا جَمِيلَةً.",
+    "ro": "Kānat jaddatī taḥkī qiṣaṣan jamīlatan."
    },
    {
-    "fr": "Mes parents tenaient une petite boutique de takoyaki.",
-    "ja": "両親が小さいたこ焼き屋をやっていました。",
-    "ro": "Ryōshin ga chiisai takoyakiya o yatte imashita."
+    "fr": "L'été, nous allions à Alexandrie.",
+    "ar": "فِي الصَّيْفِ، كُنَّا نَذْهَبُ إِلَى الْإِسْكَنْدَرِيَّةِ.",
+    "ro": "Fī aṣ-ṣayfi, kunnā nadhhabu ilā al-Iskandariyyati."
    },
    {
-    "fr": "Après l'école, j'aidais souvent au magasin.",
-    "ja": "学校の後、よく店を手伝いました。",
-    "ro": "Gakkō no ato, yoku mise o tetsudaimashita."
+    "fr": "Mon père m'achetait des glaces sur la corniche.",
+    "ar": "كَانَ أَبِي يَشْتَرِي لِي الْمُثَلَّجَاتِ عَلَى الْكُورْنِيشِ.",
+    "ro": "Kāna abī yashtarī lī al-muthallajāti ʿalā al-kūrnīshi."
    },
    {
-    "fr": "Enfant, je n'aimais pas du tout les légumes.",
-    "ja": "子供のころは、野菜が全然好きじゃありませんでした。",
-    "ro": "Kodomo no koro wa, yasai ga zenzen suki ja arimasen deshita."
+    "fr": "J'avais peur des chiens du quartier.",
+    "ar": "كُنْتُ أَخَافُ مِنْ كِلَابِ الْحَيِّ.",
+    "ro": "Kuntu akhāfu min kilābi al-ḥayyi."
    },
    {
-    "fr": "Le soir, ma grand-mère me racontait des contes d'autrefois.",
-    "ja": "祖母は夜に昔話をしてくれました。",
-    "ro": "Sobo wa yoru ni mukashibanashi o shite kuremashita."
+    "fr": "L'école était à dix minutes à pied.",
+    "ar": "كَانَتِ الْمَدْرَسَةُ عَلَى بُعْدِ عَشْرِ دَقَائِقَ سَيْرًا.",
+    "ro": "Kānati al-madrasatu ʿalā buʿdi ʿashri daqāʾiqa sayran."
    },
    {
-    "fr": "Les étés étaient longs et très chauds.",
-    "ja": "夏は長くて、とても暑かったです。",
-    "ro": "Natsu wa nagakute, totemo atsukatta desu."
+    "fr": "Hassan, mon ami d'enfance, habite toujours à Choubra.",
+    "ar": "صَدِيقُ طُفُولَتِي حَسَنٌ مَا زَالَ يَسْكُنُ فِي شُبْرَا.",
+    "ro": "Ṣadīqu ṭufūlatī Ḥasanun mā zāla yaskunu fī Shubrā."
    },
    {
-    "fr": "Que de souvenirs, ça me rend nostalgique.",
-    "ja": "本当に懐かしいですね。",
-    "ro": "Hontō ni natsukashii desu ne."
+    "fr": "Ces souvenirs me rendent heureux.",
+    "ar": "هَذِهِ الذِّكْرَيَاتُ تُسْعِدُنِي.",
+    "ro": "Hādhihi adh-dhikrayātu tusʿidunī."
    }
   ]
  },
  {
-  "title": "Un typhon approche",
+  "title": "Un document à l'administration",
   "phrases": [
    {
-    "fr": "Un gros typhon arrive demain soir sur le Kansai.",
-    "ja": "明日の夜、大きい台風が関西に来ます。",
-    "ro": "Ashita no yoru, ōkii taifū ga Kansai ni kimasu."
+    "fr": "Je dois renouveler mon permis de séjour.",
+    "ar": "يَجِبُ أَنْ أُجَدِّدَ إِقَامَتِي.",
+    "ro": "Yajibu an ujaddida iqāmatī."
    },
    {
-    "fr": "Les trains vont sans doute s'arrêter.",
-    "ja": "電車はたぶん止まるでしょう。",
-    "ro": "Densha wa tabun tomaru deshō."
+    "fr": "Le bureau ouvre à neuf heures et ferme à deux heures.",
+    "ar": "يَفْتَحُ الْمَكْتَبُ فِي التَّاسِعَةِ وَيُغْلِقُ فِي الثَّانِيَةِ.",
+    "ro": "Yaftaḥu al-maktabu fī at-tāsiʿati wa-yughliqu fī ath-thāniyati."
    },
    {
-    "fr": "Rentrez tout ce qui traîne sur le balcon.",
-    "ja": "ベランダの物を中に入れてください。",
-    "ro": "Beranda no mono o naka ni irete kudasai."
+    "fr": "Il y avait une longue file devant la porte.",
+    "ar": "كَانَ هُنَاكَ طَابُورٌ طَوِيلٌ أَمَامَ الْبَابِ.",
+    "ro": "Kāna hunāka ṭābūrun ṭawīlun amāma al-bābi."
    },
    {
-    "fr": "J'ai acheté de l'eau et des piles au konbini.",
-    "ja": "コンビニで水と電池を買いました。",
-    "ro": "Konbini de mizu to denchi o kaimashita."
+    "fr": "Prenez un numéro et attendez votre tour.",
+    "ar": "خُذْ رَقْمًا وَانْتَظِرْ دَوْرَكَ.",
+    "ro": "Khudh raqman wa-ntaẓir dawraka."
    },
    {
-    "fr": "J'ai aussi rechargé mon portable.",
-    "ja": "スマホも充電しました。",
-    "ro": "Sumaho mo jūden shimashita."
+    "fr": "L'employée a demandé deux photos d'identité.",
+    "ar": "طَلَبَتِ الْمُوَظَّفَةُ صُورَتَيْنِ شَخْصِيَّتَيْنِ.",
+    "ro": "Ṭalabati al-muwaẓẓafatu ṣūratayni shakhṣiyyatayni."
    },
    {
-    "fr": "L'entreprise a prévenu : demain, télétravail.",
-    "ja": "会社から「明日は在宅勤務」と連絡がありました。",
-    "ro": "Kaisha kara \"ashita wa zaitaku kinmu\" to renraku ga arimashita."
+    "fr": "Il me manque une copie du contrat de location.",
+    "ar": "تَنْقُصُنِي نُسْخَةٌ مِنْ عَقْدِ الْإِيجَارِ.",
+    "ro": "Tanquṣunī nuskhatun min ʿaqdi al-ījāri."
    },
    {
-    "fr": "Le vent souffle déjà très fort.",
-    "ja": "もう風がとても強いです。",
-    "ro": "Mō kaze ga totemo tsuyoi desu."
+    "fr": "Il y a une photocopieuse au rez-de-chaussée.",
+    "ar": "تُوجَدُ آلَةُ تَصْوِيرٍ فِي الطَّابِقِ الْأَرْضِيِّ.",
+    "ro": "Tūjadu ālatu taṣwīrin fī aṭ-ṭābiqi al-arḍiyyi."
    },
    {
-    "fr": "Ne sortez pas pendant le typhon.",
-    "ja": "台風の間は外に出ないでください。",
-    "ro": "Taifū no aida wa soto ni denaide kudasai."
+    "fr": "Revenez la semaine prochaine pour le récupérer.",
+    "ar": "عُدْ فِي الْأُسْبُوعِ الْقَادِمِ لِتَسْتَلِمَهُ.",
+    "ro": "ʿUd fī al-usbūʿi al-qādimi li-tastalimahu."
    },
    {
-    "fr": "Où se trouve le centre d'évacuation le plus proche ?",
-    "ja": "一番近い避難所はどこですか。",
-    "ro": "Ichiban chikai hinanjo wa doko desu ka."
+    "fr": "Cette démarche m'a pris toute la matinée.",
+    "ar": "اِسْتَغْرَقَ هَذَا الْإِجْرَاءُ الصَّبَاحَ كُلَّهُ.",
+    "ro": "Istaghraqa hādhā al-ijrāʾu aṣ-ṣabāḥa kullahu."
    },
    {
-    "fr": "C'est l'école primaire, derrière la mairie.",
-    "ja": "市役所の裏の小学校です。",
-    "ro": "Shiyakusho no ura no shōgakkō desu."
+    "fr": "Mais finalement, tout est en règle.",
+    "ar": "لَكِنْ فِي النِّهَايَةِ، كُلُّ شَيْءٍ عَلَى مَا يُرَامُ.",
+    "ro": "Lākin fī an-nihāyati, kullu shayʾin ʿalā mā yurāmu."
    }
   ]
  },
  {
-  "title": "Le lendemain du typhon",
+  "title": "Un petit-déjeuner de foul",
   "phrases": [
    {
-    "fr": "Le typhon est passé dans la nuit.",
-    "ja": "台風は夜の間に過ぎました。",
-    "ro": "Taifū wa yoru no aida ni sugimashita."
+    "fr": "Le matin, je mange du foul avec du pain.",
+    "ar": "فِي الصَّبَاحِ، آكُلُ الْفُولَ مَعَ الْخُبْزِ.",
+    "ro": "Fī aṣ-ṣabāḥi, ākulu al-fūla maʿa al-khubzi."
    },
    {
-    "fr": "Ce matin, le ciel est d'un bleu parfait.",
-    "ja": "今朝は空が真っ青です。",
-    "ro": "Kesa wa sora ga massao desu."
+    "fr": "Le vendeur de foul est au coin de la rue.",
+    "ar": "بَائِعُ الْفُولِ عِنْدَ زَاوِيَةِ الشَّارِعِ.",
+    "ro": "Bāʾiʿu al-fūli ʿinda zāwiyati ash-shāriʿi."
    },
    {
-    "fr": "Des branches sont tombées un peu partout dans la rue.",
-    "ja": "道のあちこちに枝が落ちています。",
-    "ro": "Michi no achikochi ni eda ga ochite imasu."
+    "fr": "Il fait cuire les fèves toute la nuit.",
+    "ar": "يَطْبُخُ الْفُولَ طُوَالَ اللَّيْلِ.",
+    "ro": "Yaṭbukhu al-fūla ṭuwāla al-layli."
    },
    {
-    "fr": "Il y a eu une coupure de courant d'environ trois heures.",
-    "ja": "三時間ぐらい停電しました。",
-    "ro": "Sanjikan gurai teiden shimashita."
+    "fr": "On ajoute de l'huile d'olive et du cumin.",
+    "ar": "نُضِيفُ زَيْتَ الزَّيْتُونِ وَالْكَمُّونَ.",
+    "ro": "Nuḍīfu zayta az-zaytūni wal-kammūna."
    },
    {
-    "fr": "Heureusement, notre maison n'a subi aucun dégât.",
-    "ja": "幸い、家には被害がありませんでした。",
-    "ro": "Saiwai, ie ni wa higai ga arimasen deshita."
+    "fr": "Je prends aussi deux falafels bien chauds.",
+    "ar": "آخُذُ أَيْضًا قِطْعَتَيْنِ مِنَ الْفَلَافِلِ السَّاخِنَةِ.",
+    "ro": "Ākhudhu ayḍan qiṭʿatayni mina al-falāfili as-sākhinati."
    },
    {
-    "fr": "Le parapluie de la voisine s'est envolé.",
-    "ja": "隣の奥さんの傘が飛んでいきました。",
-    "ro": "Tonari no okusan no kasa ga tonde ikimashita."
+    "fr": "Le sandwich coûte cinq livres seulement.",
+    "ar": "ثَمَنُ السَّنْدَوِيتْشِ خَمْسَةُ جُنَيْهَاتٍ فَقَطْ.",
+    "ro": "Thamanu as-sandawītshi khamsatu junayhātin faqaṭ."
    },
    {
-    "fr": "Tout le quartier nettoie la rue ensemble.",
-    "ja": "町内のみんなで道を掃除しています。",
-    "ro": "Chōnai no minna de michi o sōji shite imasu."
+    "fr": "Les ouvriers mangent debout près du chariot.",
+    "ar": "يَأْكُلُ الْعُمَّالُ وَاقِفِينَ قُرْبَ الْعَرَبَةِ.",
+    "ro": "Yaʾkulu al-ʿummālu wāqifīna qurba al-ʿarabati."
    },
    {
-    "fr": "Je vais aider aussi, attendez-moi une seconde.",
-    "ja": "私も手伝います。ちょっと待ってください。",
-    "ro": "Watashi mo tetsudaimasu. Chotto matte kudasai."
+    "fr": "Donne-moi un peu plus de citron, s'il te plaît.",
+    "ar": "أَعْطِنِي قَلِيلًا مِنَ اللَّيْمُونِ مِنْ فَضْلِكَ.",
+    "ro": "Aʿṭinī qalīlan mina al-laymūni min faḍlika."
    },
    {
-    "fr": "Les trains ont recommencé à circuler vers midi.",
-    "ja": "電車は昼ごろ動き始めました。",
-    "ro": "Densha wa hiru goro ugokihajimemashita."
+    "fr": "Ce petit-déjeuner me donne de l'énergie jusqu'au soir.",
+    "ar": "هَذَا الْفُطُورُ يُعْطِينِي طَاقَةً حَتَّى الْمَسَاءِ.",
+    "ro": "Hādhā al-fuṭūru yuʿṭīnī ṭāqatan ḥattā al-masāʾi."
    },
    {
-    "fr": "Au Japon, il est important de savoir vivre avec les typhons.",
-    "ja": "日本では、台風とうまく付き合うことが大切です。",
-    "ro": "Nihon de wa, taifū to umaku tsukiau koto ga taisetsu desu."
+    "fr": "Ici, riches et pauvres mangent du foul.",
+    "ar": "هُنَا، يَأْكُلُ الْفُولَ الْأَغْنِيَاءُ وَالْفُقَرَاءُ.",
+    "ro": "Hunā, yaʾkulu al-fūla al-aghniyāʾu wal-fuqarāʾu."
    }
   ]
  },
  {
-  "title": "Une journée à Kobe",
+  "title": "Une réunion au travail",
   "phrases": [
    {
-    "fr": "Samedi prochain, je vais visiter le quartier de Kitano, à Kobe.",
-    "ja": "今度の土曜日、神戸の北野を見に行きます。",
-    "ro": "Kondo no doyōbi, Kōbe no Kitano o mi ni ikimasu."
+    "fr": "La réunion importante commence à onze heures.",
+    "ar": "يَبْدَأُ الِاجْتِمَاعُ الْمُهِمُّ فِي السَّاعَةِ الْحَادِيَةَ عَشْرَةَ.",
+    "ro": "Yabdaʾu al-ijtimāʿu al-muhimmu fī as-sāʿati al-ḥādiyata ʿashrata."
    },
    {
-    "fr": "Depuis Osaka, c'est à une demi-heure de train environ.",
-    "ja": "大阪から電車で三十分ぐらいです。",
-    "ro": "Ōsaka kara densha de sanjuppun gurai desu."
+    "fr": "La directrice a présenté les résultats du premier trimestre.",
+    "ar": "قَدَّمَتِ الْمُدِيرَةُ نَتَائِجَ الرُّبْعِ الْأَوَّلِ.",
+    "ro": "Qaddamati al-mudīratu natāʾija ar-rubʿi al-awwali."
    },
    {
-    "fr": "On y trouve beaucoup d'anciennes maisons de style occidental.",
-    "ja": "古い洋館がたくさんあります。",
-    "ro": "Furui yōkan ga takusan arimasu."
+    "fr": "Les ventes ont augmenté de dix pour cent.",
+    "ar": "اِرْتَفَعَتِ الْمَبِيعَاتُ بِنِسْبَةِ عَشَرَةٍ فِي الْمِئَةِ.",
+    "ro": "Irtafaʿati al-mabīʿātu bi-nisbati ʿasharatin fī al-miʾati."
    },
    {
-    "fr": "Les rues montent beaucoup, venez avec de bonnes chaussures.",
-    "ja": "坂が多いですから、歩きやすい靴で来てください。",
-    "ro": "Saka ga ōi desu kara, arukiyasui kutsu de kite kudasai."
+    "fr": "Mon collègue Karim prend des notes.",
+    "ar": "يُدَوِّنُ زَمِيلِي كَرِيمٌ الْمُلَاحَظَاتِ.",
+    "ro": "Yudawwinu zamīlī Karīmun al-mulāḥaẓāti."
    },
    {
-    "fr": "Ensuite, on descendra à Nankinmachi pour grignoter dans la rue.",
-    "ja": "それから、南京町に下りて食べ歩きをします。",
-    "ro": "Sore kara, Nankinmachi ni orite tabearuki o shimasu."
+    "fr": "Nous devons finir le rapport avant jeudi.",
+    "ar": "يَجِبُ أَنْ نُنْهِيَ التَّقْرِيرَ قَبْلَ يَوْمِ الْخَمِيسِ.",
+    "ro": "Yajibu an nunhiya at-taqrīra qabla yawmi al-khamīsi."
    },
    {
-    "fr": "Le soir, les lumières du port sont magnifiques.",
-    "ja": "夜は港の明かりがとてもきれいです。",
-    "ro": "Yoru wa minato no akari ga totemo kirei desu."
+    "fr": "Qui va présenter le projet aux clients ?",
+    "ar": "مَنْ سَيُقَدِّمُ الْمَشْرُوعَ لِلْعُمَلَاءِ؟",
+    "ro": "Man sayuqaddimu al-mashrūʿa lil-ʿumalāʾi?"
    },
    {
-    "fr": "Après le grand séisme, la ville de Kobe a fait peau neuve.",
-    "ja": "大震災の後、神戸の町はきれいに生まれ変わりました。",
-    "ro": "Daishinsai no ato, Kōbe no machi wa kirei ni umarekawarimashita."
+    "fr": "Je m'en occupe, je connais bien le dossier.",
+    "ar": "سَأَتَوَلَّى ذَلِكَ، فَأَنَا أَعْرِفُ الْمَلَفَّ جَيِّدًا.",
+    "ro": "Saʾatawallā dhālika, fa-anā aʿrifu al-malaffa jayyidan."
    },
    {
-    "fr": "Près de la mer, il y a un musée consacré au séisme.",
-    "ja": "海の近くに、震災の博物館があります。",
-    "ro": "Umi no chikaku ni, shinsai no hakubutsukan ga arimasu."
+    "fr": "La climatisation de la salle est trop forte.",
+    "ar": "التَّكْيِيفُ فِي الْقَاعَةِ قَوِيٌّ جِدًّا.",
+    "ro": "At-takyīfu fī al-qāʿati qawiyyun jiddan."
    },
    {
-    "fr": "N'oubliez pas d'acheter des gâteaux de Kobe.",
-    "ja": "神戸のケーキを買うのを忘れないでください。",
-    "ro": "Kōbe no kēki o kau no o wasurenaide kudasai."
+    "fr": "Après la réunion, nous avons déjeuné ensemble.",
+    "ar": "بَعْدَ الِاجْتِمَاعِ، تَنَاوَلْنَا الْغَدَاءَ مَعًا.",
+    "ro": "Baʿda al-ijtimāʿi, tanāwalnā al-ghadāʾa maʿan."
    },
    {
-    "fr": "Kobe et Osaka sont proches, mais l'ambiance est complètement différente.",
-    "ja": "神戸と大阪は近いですが、雰囲気が全然違います。",
-    "ro": "Kōbe to Ōsaka wa chikai desu ga, fun'iki ga zenzen chigaimasu."
+    "fr": "C'était une journée longue mais utile.",
+    "ar": "كَانَ يَوْمًا طَوِيلًا لَكِنَّهُ مُفِيدٌ.",
+    "ro": "Kāna yawman ṭawīlan lākinnahu mufīdun."
    }
   ]
  },
  {
-  "title": "Des okonomiyaki à la maison",
+  "title": "Chercher un nouvel appartement",
   "phrases": [
    {
-    "fr": "Ce soir, on fait des okonomiyaki à la maison.",
-    "ja": "今晩、家でお好み焼きを作ります。",
-    "ro": "Konban, ie de okonomiyaki o tsukurimasu."
+    "fr": "Je n'ai pas encore trouvé d'appartement.",
+    "ar": "لَمْ أَجِدْ شَقَّةً بَعْدُ.",
+    "ro": "Lam ajid shaqqatan baʿdu."
    },
    {
-    "fr": "Coupe le chou en petits morceaux, s'il te plaît.",
-    "ja": "キャベツを細かく切ってください。",
-    "ro": "Kyabetsu o komakaku kitte kudasai."
+    "fr": "L'agent immobilier n'a pas répondu hier.",
+    "ar": "لَمْ يَرُدَّ السِّمْسَارُ أَمْسِ.",
+    "ro": "Lam yarudda as-simsāru amsi."
    },
    {
-    "fr": "On mélange la farine, l'œuf et le bouillon dashi.",
-    "ja": "小麦粉と卵とだしを混ぜます。",
-    "ro": "Komugiko to tamago to dashi o mazemasu."
+    "fr": "Le premier appartement ne m'a pas plu.",
+    "ar": "لَمْ تُعْجِبْنِي الشَّقَّةُ الْأُولَى.",
+    "ro": "Lam tuʿjibnī ash-shaqqatu al-ūlā."
    },
    {
-    "fr": "On chauffe la plaque et on met un peu d'huile.",
-    "ja": "ホットプレートを温めて、油を少し引きます。",
-    "ro": "Hotto purēto o atatamete, abura o sukoshi hikimasu."
+    "fr": "La cuisine n'avait pas de fenêtre.",
+    "ar": "لَمْ يَكُنْ فِي الْمَطْبَخِ نَافِذَةٌ.",
+    "ro": "Lam yakun fī al-maṭbakhi nāfidhatun."
    },
    {
-    "fr": "On pose des tranches de porc sur la pâte.",
-    "ja": "生地の上に豚肉をのせます。",
-    "ro": "Kiji no ue ni butaniku o nosemasu."
+    "fr": "Nous n'avons pas encore visité le quartier de Maadi.",
+    "ar": "لَمْ نَزُرْ حَيَّ الْمَعَادِي بَعْدُ.",
+    "ro": "Lam nazur ḥayya al-Maʿādī baʿdu."
    },
    {
-    "fr": "Allez, c'est le moment de la retourner !",
-    "ja": "さあ、ひっくり返しますよ！",
-    "ro": "Sā, hikkurikaeshimasu yo!"
+    "fr": "Pourquoi n'as-tu pas signé le contrat ?",
+    "ar": "لِمَاذَا لَمْ تُوَقِّعِ الْعَقْدَ؟",
+    "ro": "Limādhā lam tuwaqqiʿi al-ʿaqda?"
    },
    {
-    "fr": "À Osaka, chaque famille a sa propre recette.",
-    "ja": "大阪では、家ごとに作り方が違います。",
-    "ro": "Ōsaka de wa, ie goto ni tsukurikata ga chigaimasu."
+    "fr": "Le propriétaire n'a pas accepté de baisser le loyer.",
+    "ar": "لَمْ يَقْبَلِ الْمَالِكُ أَنْ يُخَفِّضَ الْإِيجَارَ.",
+    "ro": "Lam yaqbali al-māliku an yukhaffiḍa al-ījāra."
    },
    {
-    "fr": "Mettez beaucoup de sauce et de mayonnaise.",
-    "ja": "ソースとマヨネーズをたっぷりかけてください。",
-    "ro": "Sōsu to mayonēzu o tappuri kakete kudasai."
+    "fr": "Je n'ai pas dormi de la nuit à cause du bruit.",
+    "ar": "لَمْ أَنَمْ طُوَالَ اللَّيْلِ بِسَبَبِ الضَّجِيجِ.",
+    "ro": "Lam anam ṭuwāla al-layli bi-sababi aḍ-ḍajīji."
    },
    {
-    "fr": "Les copeaux de bonite dansent avec la chaleur.",
-    "ja": "かつお節が熱で踊っています。",
-    "ro": "Katsuobushi ga netsu de odotte imasu."
+    "fr": "Il n'a rien dit au sujet des charges.",
+    "ar": "لَمْ يَقُلْ شَيْئًا عَنِ الْمَصَارِيفِ.",
+    "ro": "Lam yaqul shayʾan ʿani al-maṣārīfi."
    },
    {
-    "fr": "Franchement, c'est meilleur que celui du restaurant !",
-    "ja": "正直、お店のよりおいしいです！",
-    "ro": "Shōjiki, omise no yori oishii desu!"
-   }
-  ]
- },
- {
-  "title": "Est-ce que je peux… ?",
-  "phrases": [
-   {
-    "fr": "Puis-je garer mon vélo devant l'immeuble ?",
-    "ja": "マンションの前に自転車を置いてもいいですか。",
-    "ro": "Manshon no mae ni jitensha o oite mo ii desu ka."
-   },
-   {
-    "fr": "Non, utilisez le parking à vélos derrière, s'il vous plaît.",
-    "ja": "いいえ、裏の駐輪場を使ってください。",
-    "ro": "Iie, ura no chūrinjō o tsukatte kudasai."
-   },
-   {
-    "fr": "Ai-je le droit d'avoir un chat dans l'appartement ?",
-    "ja": "部屋で猫を飼ってもいいですか。",
-    "ro": "Heya de neko o katte mo ii desu ka."
-   },
-   {
-    "fr": "Désolé, les animaux sont interdits ici.",
-    "ja": "すみません、ここはペット禁止です。",
-    "ro": "Sumimasen, koko wa petto kinshi desu."
-   },
-   {
-    "fr": "Aujourd'hui, est-ce que je peux finir une heure plus tôt ?",
-    "ja": "今日、一時間早く帰ってもいいですか。",
-    "ro": "Kyō, ichijikan hayaku kaette mo ii desu ka."
-   },
-   {
-    "fr": "J'ai un rendez-vous à la clinique à dix-sept heures.",
-    "ja": "五時にクリニックの予約があります。",
-    "ro": "Goji ni kurinikku no yoyaku ga arimasu."
-   },
-   {
-    "fr": "Bien sûr, vas-y, aucun souci.",
-    "ja": "もちろん、いいですよ。",
-    "ro": "Mochiron, ii desu yo."
-   },
-   {
-    "fr": "Je peux prendre un de ces prospectus ?",
-    "ja": "このチラシを一枚もらってもいいですか。",
-    "ro": "Kono chirashi o ichimai moratte mo ii desu ka."
-   },
-   {
-    "fr": "Est-ce que je peux régler le loyer par virement ?",
-    "ja": "家賃は振り込みで払ってもいいですか。",
-    "ro": "Yachin wa furikomi de haratte mo ii desu ka."
-   },
-   {
-    "fr": "Oui, mais n'oubliez pas d'indiquer votre numéro d'appartement.",
-    "ja": "はい、でも部屋番号を書くのを忘れないでください。",
-    "ro": "Hai, demo heya bangō o kaku no o wasurenaide kudasai."
+    "fr": "Finalement, nous avons trouvé un appartement à Dokki.",
+    "ar": "أَخِيرًا، وَجَدْنَا شَقَّةً فِي الدُّقِّي.",
+    "ro": "Akhīran, wajadnā shaqqatan fī ad-Duqqī."
    }
   ],
   "tip": {
-   "title": "« -te mo ii desu ka » : demander la permission",
-   "example": "Ai-je le droit d'avoir un chat dans l'appartement ? — 部屋で猫を<b>飼ってもいいですか</b>。",
-   "exampleRo": "Heya de neko o katte mo ii desu ka.",
-   "lit": "appartement · [lieu] · chat · [objet] · élever (forme -te) · même si · bien · être (poli) · [question]",
-   "body": "Pour demander la permission, le japonais utilise une petite formule très logique : la forme en « -te », puis « mo ii desu ka ». « Mo » veut dire « même si », et « ii » veut dire « bien ». « Neko o katte mo ii desu ka » se dit donc littéralement : chat, élever même si, c'est bien ? Autrement dit : est-ce que ça va si j'ai un chat ? Autres exemples : « suwatte mo ii desu ka » (puis-je m'asseoir ?), « shashin o totte mo ii desu ka » (puis-je prendre une photo ?). Pour répondre oui, on dit simplement « ii desu yo », c'est bien. Astuce : retenez « mo ii » comme un petit « ça ira ? » collé au verbe."
+   "title": "« Lam » : la négation du passé",
+   "example": "Je n'ai pas encore trouvé d'appartement. — <b>لَمْ أَجِدْ</b> شَقَّةً بَعْدُ.",
+   "exampleRo": "Lam ajid shaqqatan baʿdu.",
+   "lit": "[ne… pas] · je-trouve · appartement · encore",
+   "body": "Pour dire qu'une action n'a pas eu lieu, l'arabe littéraire utilise un petit mot surprenant : « lam ». Le plus étonnant, c'est qu'on ne le met pas devant un verbe au passé, mais devant le présent, dont on retire la dernière voyelle. « Ajidu » (je trouve) devient ainsi « lam ajid », je n'ai pas trouvé. La phrase « Lam ajid shaqqatan badu » se dit littéralement : ne pas je trouve appartement encore. Avec les verbes à voyelle longue, le mot se raccourcit aussi : « yaqūlu » devient « lam yaqul », il n'a pas dit, et « anāmu » devient « lam anam », je n'ai pas dormi. Retenez simplement : « lam » plus un présent raccourci, cela donne un passé négatif."
   }
  },
  {
   "title": "Fin du module : un bilan",
   "phrases": [
    {
-    "fr": "Ce module nous a fait vivre le quotidien d'Osaka et de Kobe.",
-    "ja": "このモジュールでは、大阪と神戸の毎日の生活を体験しました。",
-    "ro": "Kono mojūru de wa, Ōsaka to Kōbe no mainichi no seikatsu o taiken shimashita."
+    "fr": "Ce module sur la vie quotidienne au Caire est terminé.",
+    "ar": "اِنْتَهَتْ هَذِهِ الْوَحْدَةُ عَنِ الْحَيَاةِ الْيَوْمِيَّةِ فِي الْقَاهِرَةِ.",
+    "ro": "Intahat hādhihi al-waḥdatu ʿani al-ḥayāti al-yawmiyyati fī al-Qāhirati."
    },
    {
-    "fr": "Nous savons désormais nous débrouiller à la mairie, à la banque et à la clinique.",
-    "ja": "市役所や銀行やクリニックで話すことができるようになりました。",
-    "ro": "Shiyakusho ya ginkō ya kurinikku de hanasu koto ga dekiru yō ni narimashita."
+    "fr": "Tu sais maintenant parler de ton appartement.",
+    "ar": "أَصْبَحْتَ الْآنَ تَعْرِفُ كَيْفَ تَتَحَدَّثُ عَنْ شَقَّتِكَ.",
+    "ro": "Aṣbaḥta al-āna taʿrifu kayfa tataḥaddathu ʿan shaqqatika."
    },
    {
-    "fr": "Les formes familières du japonais ne nous font plus peur.",
-    "ja": "日本語の普通形も、もう怖くありません。",
-    "ro": "Nihongo no futsūkei mo, mō kowaku arimasen."
+    "fr": "Tu peux aller seul à la banque et à la pharmacie.",
+    "ar": "يُمْكِنُكَ أَنْ تَذْهَبَ وَحْدَكَ إِلَى الْبَنْكِ وَالصَّيْدَلِيَّةِ.",
+    "ro": "Yumkinuka an tadhhaba waḥdaka ilā al-banki waṣ-ṣaydaliyyati."
    },
    {
-    "fr": "Forme du dictionnaire, en « -te », en « -nai » et en « -ta » : quatre formes essentielles.",
-    "ja": "辞書形、て形、ない形、た形は、とても大切な形です。",
-    "ro": "Jishokei, tekei, naikei, takei wa, totemo taisetsu na katachi desu."
+    "fr": "Tu as appris à raconter ce que tu as fait hier.",
+    "ar": "تَعَلَّمْتَ أَنْ تَحْكِيَ مَا فَعَلْتَهُ أَمْسِ.",
+    "ro": "Taʿallamta an taḥkiya mā faʿaltahu amsi."
    },
    {
-    "fr": "Grâce à elles, on comprend aussi les conversations entre amis.",
-    "ja": "これで、友達同士の会話も分かります。",
-    "ro": "Kore de, tomodachi dōshi no kaiwa mo wakarimasu."
+    "fr": "L'impératif t'aide à donner des conseils.",
+    "ar": "يُسَاعِدُكَ فِعْلُ الْأَمْرِ عَلَى تَقْدِيمِ النَّصَائِحِ.",
+    "ro": "Yusāʿiduka fiʿlu al-amri ʿalā taqdīmi an-naṣāʾiḥi."
    },
    {
-    "fr": "Demander poliment la permission est devenu facile.",
-    "ja": "丁寧に許可をもらうのも簡単になりました。",
-    "ro": "Teinei ni kyoka o morau no mo kantan ni narimashita."
+    "fr": "Tu comprends maintenant la négation du passé.",
+    "ar": "أَنْتَ تَفْهَمُ الْآنَ نَفْيَ الْمَاضِي.",
+    "ro": "Anta tafhamu al-āna nafya al-māḍī."
    },
    {
-    "fr": "Dans le prochain module, nous voyagerons à Hokkaido et dans le Tohoku.",
-    "ja": "次のモジュールでは、北海道や東北を旅します。",
-    "ro": "Tsugi no mojūru de wa, Hokkaidō ya Tōhoku o tabi shimasu."
+    "fr": "L'arabe devient plus clair chaque jour.",
+    "ar": "تُصْبِحُ الْعَرَبِيَّةُ أَوْضَحَ كُلَّ يَوْمٍ.",
+    "ro": "Tuṣbiḥu al-ʿarabiyyatu awḍaḥa kulla yawmin."
    },
    {
-    "fr": "Réécoutez tranquillement les leçons difficiles.",
-    "ja": "難しいレッスンは、もう一度ゆっくり聞いてください。",
-    "ro": "Muzukashii ressun wa, mō ichido yukkuri kiite kudasai."
+    "fr": "Écoute ces leçons encore une fois dans le métro.",
+    "ar": "اِسْتَمِعْ إِلَى هَذِهِ الدُّرُوسِ مَرَّةً أُخْرَى فِي الْمِتْرُو.",
+    "ro": "Istamiʿ ilā hādhihi ad-durūsi marratan ukhrā fī al-mitrū."
    },
    {
-    "fr": "Le secret, c'est de continuer un peu chaque jour.",
-    "ja": "毎日少しずつ続けることが大切です。",
-    "ro": "Mainichi sukoshi zutsu tsuzukeru koto ga taisetsu desu."
+    "fr": "Je n'ai pas regretté une seule minute.",
+    "ar": "لَمْ أَنْدَمْ عَلَى دَقِيقَةٍ وَاحِدَةٍ.",
+    "ro": "Lam andam ʿalā daqīqatin wāḥidatin."
    },
    {
-    "fr": "Bravo pour ce travail, et à très vite pour la suite !",
-    "ja": "お疲れさまでした。また次で会いましょう！",
-    "ro": "Otsukaresama deshita. Mata tsugi de aimashō!"
+    "fr": "Prochain module : le voyage !",
+    "ar": "الْوَحْدَةُ الْقَادِمَةُ: السَّفَرُ!",
+    "ro": "Al-waḥdatu al-qādimatu: as-safaru!"
    }
   ]
  }
@@ -5341,1082 +5341,1082 @@ const level2Module1Lessons = [
 
 const level2Module2Lessons = [
  {
-  "title": "Arrivée à Sapporo",
+  "title": "Arrivée à Louxor",
   "phrases": [
    {
-    "fr": "Nous avons atterri à l'aéroport de Shin-Chitose ce matin.",
-    "ja": "今朝、新千歳空港に着きました。",
-    "ro": "Kesa, Shinchitose kūkō ni tsukimashita."
+    "fr": "Notre avion a atterri à Louxor ce matin.",
+    "ar": "هَبَطَتْ طَائِرَتُنَا فِي الْأُقْصُرِ هَذَا الصَّبَاحَ.",
+    "ro": "Habaṭat ṭāʾiratunā fī al-Uqṣuri hādhā aṣ-ṣabāḥa."
    },
    {
-    "fr": "Il fait bien plus froid ici qu'à Tokyo, hein ?",
-    "ja": "東京よりずっと寒いですね。",
-    "ro": "Tōkyō yori zutto samui desu ne."
+    "fr": "Il fait très chaud dès la sortie de l'aéroport.",
+    "ar": "الْحَرُّ شَدِيدٌ عِنْدَ الْخُرُوجِ مِنَ الْمَطَارِ.",
+    "ro": "Al-ḥarru shadīdun ʿinda al-khurūji mina al-maṭāri."
    },
    {
-    "fr": "Prenons le train rapide jusqu'à Sapporo.",
-    "ja": "札幌まで快速電車に乗りましょう。",
-    "ro": "Sapporo made kaisoku densha ni norimashō."
+    "fr": "Un chauffeur de l'hôtel nous attend avec une pancarte.",
+    "ar": "يَنْتَظِرُنَا سَائِقٌ مِنَ الْفُنْدُقِ وَمَعَهُ لَافِتَةٌ.",
+    "ro": "Yantaẓirunā sāʾiqun mina al-funduqi wa-maʿahu lāfitatun."
    },
    {
-    "fr": "Le trajet prend à peu près quarante minutes.",
-    "ja": "四十分ぐらいかかります。",
-    "ro": "Yonjuppun gurai kakarimasu."
+    "fr": "Le trajet jusqu'à l'hôtel dure vingt minutes.",
+    "ar": "الرِّحْلَةُ إِلَى الْفُنْدُقِ تَسْتَغْرِقُ عِشْرِينَ دَقِيقَةً.",
+    "ro": "Ar-riḥlatu ilā al-funduqi tastaghriqu ʿishrīna daqīqatan."
    },
    {
-    "fr": "Il y a beaucoup de neige des deux côtés des voies.",
-    "ja": "線路の両側に雪がたくさん積もっています。",
-    "ro": "Senro no ryōgawa ni yuki ga takusan tsumotte imasu."
+    "fr": "Notre chambre donne directement sur le Nil.",
+    "ar": "تُطِلُّ غُرْفَتُنَا مُبَاشَرَةً عَلَى النِّيلِ.",
+    "ro": "Tuṭillu ghurfatunā mubāsharatan ʿalā an-Nīli."
    },
    {
-    "fr": "J'ai oublié mes gants dans l'avion.",
-    "ja": "飛行機に手袋を忘れました。",
-    "ro": "Hikōki ni tebukuro o wasuremashita."
+    "fr": "Le réceptionniste nous donne les clés et un plan de la ville.",
+    "ar": "يُعْطِينَا مُوَظَّفُ الِاسْتِقْبَالِ الْمَفَاتِيحَ وَخَرِيطَةً لِلْمَدِينَةِ.",
+    "ro": "Yuʿṭīnā muwaẓẓafu al-istiqbāli al-mafātīḥa wa-kharīṭatan lil-madīnati."
    },
    {
-    "fr": "J'en achèterai des neufs à la gare de Sapporo.",
-    "ja": "札幌駅で新しいのを買います。",
-    "ro": "Sapporo eki de atarashii no o kaimasu."
+    "fr": "Le petit-déjeuner est sur la terrasse à partir de sept heures.",
+    "ar": "الْفُطُورُ عَلَى الشُّرْفَةِ مِنَ السَّاعَةِ السَّابِعَةِ.",
+    "ro": "Al-fuṭūru ʿalā ash-shurfati mina as-sāʿati as-sābiʿati."
    },
    {
-    "fr": "Notre hôtel est tout près de la tour de télévision.",
-    "ja": "ホテルはテレビ塔のすぐ近くです。",
-    "ro": "Hoteru wa terebitō no sugu chikaku desu."
+    "fr": "On se repose un peu avant de sortir.",
+    "ar": "نَرْتَاحُ قَلِيلًا قَبْلَ الْخُرُوجِ.",
+    "ro": "Nartāḥu qalīlan qabla al-khurūji."
    },
    {
-    "fr": "Ce soir, on mange un ramen au miso.",
-    "ja": "今晩は味噌ラーメンを食べます。",
-    "ro": "Konban wa miso rāmen o tabemasu."
+    "fr": "Ce soir, nous dînerons au bord du Nil.",
+    "ar": "سَنَتَعَشَّى اللَّيْلَةَ عَلَى ضِفَّةِ النِّيلِ.",
+    "ro": "Sanataʿashshā al-laylata ʿalā ḍiffati an-Nīli."
    },
    {
-    "fr": "Sapporo est la vraie patrie du ramen au miso.",
-    "ja": "札幌は味噌ラーメンの本場です。",
-    "ro": "Sapporo wa miso rāmen no honba desu."
+    "fr": "Louxor est vraiment une ville magnifique.",
+    "ar": "الْأُقْصُرُ مَدِينَةٌ رَائِعَةٌ حَقًّا.",
+    "ro": "Al-Uqṣuru madīnatun rāʾiʿatun ḥaqqan."
    }
   ]
  },
  {
-  "title": "Le festival de neige de Sapporo",
+  "title": "Le temple de Karnak",
   "phrases": [
    {
-    "fr": "Le festival de neige commence demain au parc Ōdōri.",
-    "ja": "雪まつりは明日、大通公園で始まります。",
-    "ro": "Yuki matsuri wa ashita, Ōdōri kōen de hajimarimasu."
+    "fr": "Nous visitons le temple de Karnak avec un guide.",
+    "ar": "نَزُورُ مَعْبَدَ الْكَرْنَكِ مَعَ مُرْشِدٍ.",
+    "ro": "Nazūru maʿbada al-Karnaki maʿa murshidin."
    },
    {
-    "fr": "D'immenses sculptures de neige bordent l'avenue.",
-    "ja": "大きな雪像が通りに並んでいます。",
-    "ro": "Ōkina setsuzō ga tōri ni narande imasu."
+    "fr": "Notre guide s'appelle Ahmed, il parle bien français.",
+    "ar": "اسْمُ مُرْشِدِنَا أَحْمَدُ، وَهُوَ يَتَكَلَّمُ الْفَرَنْسِيَّةَ جَيِّدًا.",
+    "ro": "Ismu murshidinā Aḥmadu, wa-huwa yatakallamu al-faransiyyata jayyidan."
    },
    {
-    "fr": "Cette sculpture a la forme d'un château célèbre.",
-    "ja": "この雪像は有名なお城の形です。",
-    "ro": "Kono setsuzō wa yūmei na oshiro no katachi desu."
+    "fr": "Les colonnes sont immenses et très anciennes.",
+    "ar": "الْأَعْمِدَةُ ضَخْمَةٌ وَقَدِيمَةٌ جِدًّا.",
+    "ro": "Al-aʿmidatu ḍakhmatun wa-qadīmatun jiddan."
    },
    {
-    "fr": "Ils ont mis un mois entier à la construire.",
-    "ja": "一か月かけて作りました。",
-    "ro": "Ikkagetsu kakete tsukurimashita."
+    "fr": "Ce temple a plus de quatre mille ans.",
+    "ar": "عُمْرُ هَذَا الْمَعْبَدِ أَكْثَرُ مِنْ أَرْبَعَةِ آلَافِ سَنَةٍ.",
+    "ro": "ʿUmru hādhā al-maʿbadi aktharu min arbaʿati ālāfi sanatin."
    },
    {
-    "fr": "Le soir, les sculptures éclairées sont superbes.",
-    "ja": "夜は雪像にライトが当たって、とてもきれいです。",
-    "ro": "Yoru wa setsuzō ni raito ga atatte, totemo kirei desu."
+    "fr": "Regarde ces dessins sur les murs !",
+    "ar": "انْظُرْ إِلَى هَذِهِ الرُّسُومِ عَلَى الْجُدْرَانِ!",
+    "ro": "Unẓur ilā hādhihi ar-rusūmi ʿalā al-judrāni!"
    },
    {
-    "fr": "Il y a plein de stands de nourriture chaude.",
-    "ja": "温かい食べ物の屋台がたくさんあります。",
-    "ro": "Atatakai tabemono no yatai ga takusan arimasu."
+    "fr": "Les couleurs sont encore visibles par endroits.",
+    "ar": "مَا زَالَتِ الْأَلْوَانُ وَاضِحَةً فِي بَعْضِ الْأَمَاكِنِ.",
+    "ro": "Mā zālati al-alwānu wāḍiḥatan fī baʿḍi al-amākini."
    },
    {
-    "fr": "J'ai bu de l'amazake pour me réchauffer.",
-    "ja": "甘酒を飲んで、体を温めました。",
-    "ro": "Amazake o nonde, karada o atatamemashita."
+    "fr": "Il y a beaucoup de touristes à midi.",
+    "ar": "هُنَاكَ سُيَّاحٌ كَثِيرُونَ عِنْدَ الظُّهْرِ.",
+    "ro": "Hunāka suyyāḥun kathīrūna ʿinda aẓ-ẓuhri."
    },
    {
-    "fr": "Les enfants s'amusent sur un toboggan de glace.",
-    "ja": "子供たちが氷の滑り台で遊んでいます。",
-    "ro": "Kodomotachi ga kōri no suberidai de asonde imasu."
+    "fr": "On cherche un peu d'ombre près de l'obélisque.",
+    "ar": "نَبْحَثُ عَنْ قَلِيلٍ مِنَ الظِّلِّ قُرْبَ الْمِسَلَّةِ.",
+    "ro": "Nabḥathu ʿan qalīlin mina aẓ-ẓilli qurba al-misallati."
    },
    {
-    "fr": "J'ai les pieds complètement glacés.",
-    "ja": "足がとても冷たいです。",
-    "ro": "Ashi ga totemo tsumetai desu."
+    "fr": "Je prends des photos de chaque statue.",
+    "ar": "أَلْتَقِطُ صُوَرًا لِكُلِّ تِمْثَالٍ.",
+    "ro": "Altaqiṭu ṣuwaran li-kulli timthālin."
    },
    {
-    "fr": "On rentre à l'hôtel pour prendre un bain bien chaud.",
-    "ja": "ホテルに帰って、熱いお風呂に入ります。",
-    "ro": "Hoteru ni kaette, atsui ofuro ni hairimasu."
+    "fr": "Le soir, nous reviendrons pour le spectacle son et lumière.",
+    "ar": "فِي الْمَسَاءِ، سَنَعُودُ لِعَرْضِ الصَّوْتِ وَالضَّوْءِ.",
+    "ro": "Fī al-masāʾi, sanaʿūdu li-ʿarḍi aṣ-ṣawti wa-aḍ-ḍawʾi."
    }
   ]
  },
  {
-  "title": "Conduire sous la neige",
+  "title": "En route pour Abou Simbel",
   "phrases": [
    {
-    "fr": "Nous avons loué une voiture pour trois jours.",
-    "ja": "三日間、車を借りました。",
-    "ro": "Mikkakan, kuruma o karimashita."
+    "fr": "Il faut se lever à trois heures du matin.",
+    "ar": "يَجِبُ أَنْ نَسْتَيْقِظَ فِي السَّاعَةِ الثَّالِثَةِ صَبَاحًا.",
+    "ro": "Yajibu an nastayqiẓa fī as-sāʿati ath-thālithati ṣabāḥan."
    },
    {
-    "fr": "Il faut montrer le permis de conduire international.",
-    "ja": "国際運転免許証を見せなければなりません。",
-    "ro": "Kokusai unten menkyoshō o misenakereba narimasen."
+    "fr": "Le bus part d'Assouan à quatre heures.",
+    "ar": "تَنْطَلِقُ الْحَافِلَةُ مِنْ أَسْوَانَ فِي السَّاعَةِ الرَّابِعَةِ.",
+    "ro": "Tanṭaliqu al-ḥāfilatu min Aswāna fī as-sāʿati ar-rābiʿati."
    },
    {
-    "fr": "En hiver, on doit rouler avec des pneus neige.",
-    "ja": "冬はスタッドレスタイヤで走らなければなりません。",
-    "ro": "Fuyu wa sutaddoresu taiya de hashiranakereba narimasen."
+    "fr": "Il faut prendre de l'eau et un chapeau.",
+    "ar": "يَجِبُ أَنْ نَأْخُذَ مَاءً وَقُبَّعَةً.",
+    "ro": "Yajibu an naʾkhudha māʾan wa-qubbaʿatan."
    },
    {
-    "fr": "Il faut rendre la voiture avec le plein d'essence.",
-    "ja": "ガソリンを満タンにして返さなければなりません。",
-    "ro": "Gasorin o mantan ni shite kaesanakereba narimasen."
+    "fr": "Tu dois garder ton passeport sur toi.",
+    "ar": "يَجِبُ أَنْ تَحْمِلَ جَوَازَ سَفَرِكَ مَعَكَ.",
+    "ro": "Yajibu an taḥmila jawāza safarika maʿaka."
    },
    {
-    "fr": "Au Japon, on roule du côté gauche.",
-    "ja": "日本では左側を走ります。",
-    "ro": "Nihon de wa hidarigawa o hashirimasu."
+    "fr": "La route traverse le désert pendant trois heures.",
+    "ar": "يَمُرُّ الطَّرِيقُ عَبْرَ الصَّحْرَاءِ لِمُدَّةِ ثَلَاثِ سَاعَاتٍ.",
+    "ro": "Yamurru aṭ-ṭarīqu ʿabra aṣ-ṣaḥrāʾi li-muddati thalāthi sāʿātin."
    },
    {
-    "fr": "Je dois m'habituer à la conduite à gauche.",
-    "ja": "左側通行に慣れなければなりません。",
-    "ro": "Hidarigawa tsūkō ni narenakereba narimasen."
+    "fr": "Il faut arriver avant la chaleur.",
+    "ar": "يَجِبُ أَنْ نَصِلَ قَبْلَ الْحَرِّ.",
+    "ro": "Yajibu an naṣila qabla al-ḥarri."
    },
    {
-    "fr": "La route est glissante, roulez doucement.",
-    "ja": "道が滑りやすいので、ゆっくり走ってください。",
-    "ro": "Michi ga suberiyasui node, yukkuri hashitte kudasai."
+    "fr": "Le guide dit qu'il faut rester avec le groupe.",
+    "ar": "يَقُولُ الْمُرْشِدُ إِنَّهُ يَجِبُ أَنْ نَبْقَى مَعَ الْمَجْمُوعَةِ.",
+    "ro": "Yaqūlu al-murshidu innahu yajibu an nabqā maʿa al-majmūʿati."
    },
    {
-    "fr": "À ce panneau, on doit marquer l'arrêt complet.",
-    "ja": "この標識では必ず止まらなければなりません。",
-    "ro": "Kono hyōshiki de wa kanarazu tomaranakereba narimasen."
+    "fr": "Tu ne dois pas oublier ton billet.",
+    "ar": "يَجِبُ أَلَّا تَنْسَى تَذْكِرَتَكَ.",
+    "ro": "Yajibu allā tansā tadhkirataka."
    },
    {
-    "fr": "Le GPS de la voiture ne parle que japonais.",
-    "ja": "カーナビは日本語だけです。",
-    "ro": "Kānabi wa nihongo dake desu."
+    "fr": "Je dois dormir tôt ce soir.",
+    "ar": "يَجِبُ أَنْ أَنَامَ مُبَكِّرًا اللَّيْلَةَ.",
+    "ro": "Yajibu an anāma mubakkiran al-laylata."
    },
    {
-    "fr": "Nous devons arriver à Furano avant la nuit.",
-    "ja": "暗くなる前に富良野に着かなければなりません。",
-    "ro": "Kuraku naru mae ni Furano ni tsukanakereba narimasen."
+    "fr": "Nous devons payer l'entrée en livres égyptiennes.",
+    "ar": "يَجِبُ أَنْ نَدْفَعَ ثَمَنَ الدُّخُولِ بِالْجُنَيْهِ الْمِصْرِيِّ.",
+    "ro": "Yajibu an nadfaʿa thamana ad-dukhūli bil-junayhi al-miṣriyyi."
    }
   ],
   "tip": {
-   "title": "« -nakereba narimasen » : il faut, l'obligation",
-   "example": "Il faut montrer le permis de conduire international. — 国際運転免許証を<b>見せなければなりません</b>。",
-   "exampleRo": "Kokusai unten menkyoshō o misenakereba narimasen.",
-   "lit": "international · permis de conduire · [objet] · montrer-si-ne-pas · ne-pas-aller (poli)",
-   "body": "Pour dire « il faut » ou « je dois », le japonais utilise une tournure surprenante : « nakereba narimasen ». On part de la forme négative en « nai », on remplace le « i » final par « kereba », qui veut dire « si », puis on ajoute « narimasen », « ça ne va pas ». Ainsi « misenakereba narimasen » se dit littéralement : si je ne montre pas, ça ne va pas. Autres exemples : « ikanakereba narimasen », je dois y aller, « tabenakereba narimasen », je dois manger, « kaesanakereba narimasen », je dois rendre. Pour retenir, pensez à une double négation : ne pas le faire, ce n'est pas possible, donc il faut le faire."
+   "title": "Yajibu an : il faut",
+   "example": "Il faut se lever à trois heures du matin. — <b>يَجِبُ أَنْ</b> نَسْتَيْقِظَ فِي السَّاعَةِ الثَّالِثَةِ صَبَاحًا.",
+   "exampleRo": "Yajibu an nastayqiẓa fī as-sāʿati ath-thālithati ṣabāḥan.",
+   "lit": "il-faut · que · nous-nous-réveillions · à · l'heure · la-troisième · au-matin",
+   "body": "Pour dire « il faut », l'arabe utilise « yajibu », qui veut dire à peu près « il est nécessaire », suivi de « an » et d'un verbe au subjonctif, comme vous l'avez déjà vu. « Yajibu an nastayqiza » se dit littéralement : il faut que nous nous réveillions. Le verbe change selon la personne qui doit agir : « yajibu an anama », je dois dormir, « yajibu an tahmila », tu dois porter. Pour une interdiction, « an » et « la » se soudent en « alla » : « yajibu alla tansa », tu ne dois pas oublier. Astuce : imaginez « yajibu » comme une porte qui s'ouvre toujours sur « an »."
   }
  },
  {
-  "title": "Une journée de ski à Furano",
+  "title": "La vallée des Rois",
   "phrases": [
    {
-    "fr": "Furano est réputée pour sa neige poudreuse.",
-    "ja": "富良野はパウダースノーで有名です。",
-    "ro": "Furano wa paudā sunō de yūmei desu."
+    "fr": "La vallée des Rois se trouve sur la rive ouest.",
+    "ar": "يَقَعُ وَادِي الْمُلُوكِ عَلَى الضِّفَّةِ الْغَرْبِيَّةِ.",
+    "ro": "Yaqaʿu wādī al-mulūki ʿalā aḍ-ḍiffati al-gharbiyyati."
    },
    {
-    "fr": "J'ai loué des skis et des chaussures à l'hôtel.",
-    "ja": "ホテルでスキー板とブーツを借りました。",
-    "ro": "Hoteru de sukī ita to būtsu o karimashita."
+    "fr": "On traverse le Nil en petit bateau.",
+    "ar": "نَعْبُرُ النِّيلَ فِي قَارِبٍ صَغِيرٍ.",
+    "ro": "Naʿburu an-Nīla fī qāribin ṣaghīrin."
    },
    {
-    "fr": "Le forfait d'une journée coûte six mille yens.",
-    "ja": "一日券は六千円です。",
-    "ro": "Ichinichiken wa rokusen'en desu."
+    "fr": "Le billet permet de voir trois tombeaux.",
+    "ar": "تَسْمَحُ التَّذْكِرَةُ بِزِيَارَةِ ثَلَاثِ مَقَابِرَ.",
+    "ro": "Tasmaḥu at-tadhkiratu bi-ziyārati thalāthi maqābira."
    },
    {
-    "fr": "Je ne suis pas très doué à ski.",
-    "ja": "スキーはあまり上手じゃありません。",
-    "ro": "Sukī wa amari jōzu ja arimasen."
+    "fr": "La photo est interdite dans certaines tombes.",
+    "ar": "التَّصْوِيرُ مَمْنُوعٌ فِي بَعْضِ الْمَقَابِرِ.",
+    "ro": "At-taṣwīru mamnūʿun fī baʿḍi al-maqābiri."
    },
    {
-    "fr": "Je vais skier sur les pistes pour débutants.",
-    "ja": "初心者コースで滑ります。",
-    "ro": "Shoshinsha kōsu de suberimasu."
+    "fr": "L'air est lourd à l'intérieur.",
+    "ar": "الْهَوَاءُ ثَقِيلٌ فِي الدَّاخِلِ.",
+    "ro": "Al-hawāʾu thaqīlun fī ad-dākhili."
    },
    {
-    "fr": "La vue depuis le télésiège est splendide.",
-    "ja": "リフトからの景色がすばらしいです。",
-    "ro": "Rifuto kara no keshiki ga subarashii desu."
+    "fr": "Les peintures du plafond sont incroyables.",
+    "ar": "رُسُومُ السَّقْفِ مُدْهِشَةٌ.",
+    "ro": "Rusūmu as-saqfi mudhishatun."
    },
    {
-    "fr": "Je suis tombé trois fois ce matin.",
-    "ja": "今朝、三回転びました。",
-    "ro": "Kesa, sankai korobimashita."
+    "fr": "J'ai enfin vu le tombeau de Toutânkhamon.",
+    "ar": "أَخِيرًا رَأَيْتُ مَقْبَرَةَ تُوتْ عَنْخْ آمُونَ.",
+    "ro": "Akhīran raʾaytu maqbarata Tūt ʿAnkh Āmūna."
    },
    {
-    "fr": "Faisons une pause au restaurant en bas des pistes.",
-    "ja": "ふもとのレストハウスで休みましょう。",
-    "ro": "Fumoto no resuto hausu de yasumimashō."
+    "fr": "En sortant, nous avons bu un thé à l'ombre.",
+    "ar": "عِنْدَ الْخُرُوجِ، شَرِبْنَا شَايًا فِي الظِّلِّ.",
+    "ro": "ʿInda al-khurūji, sharibnā shāyan fī aẓ-ẓilli."
    },
    {
-    "fr": "La soupe au curry d'ici est un régal.",
-    "ja": "ここのスープカレーはとてもおいしいです。",
-    "ro": "Koko no sūpu karē wa totemo oishii desu."
+    "fr": "Un vendeur m'a proposé un petit scarabée en pierre.",
+    "ar": "عَرَضَ عَلَيَّ بَائِعٌ جُعْرَانًا صَغِيرًا مِنَ الْحَجَرِ.",
+    "ro": "ʿAraḍa ʿalayya bāʾiʿun juʿrānan ṣaghīran mina al-ḥajari."
    },
    {
-    "fr": "Demain, je prendrai un cours de ski.",
-    "ja": "明日はスキーのレッスンを受けます。",
-    "ro": "Ashita wa sukī no ressun o ukemasu."
+    "fr": "Je ne l'ai pas acheté, c'était trop cher.",
+    "ar": "لَمْ أَشْتَرِهِ، فَقَدْ كَانَ غَالِيًا جِدًّا.",
+    "ro": "Lam ashtarihi, fa-qad kāna ghāliyan jiddan."
    }
   ]
  },
  {
-  "title": "Flâner à Otaru",
+  "title": "Le guide raconte son enfance",
   "phrases": [
    {
-    "fr": "Aujourd'hui, on part à Otaru pour la journée.",
-    "ja": "今日は小樽へ日帰り旅行です。",
-    "ro": "Kyō wa Otaru e higaeri ryokō desu."
+    "fr": "Ahmed a grandi dans un village près d'Assouan.",
+    "ar": "نَشَأَ أَحْمَدُ فِي قَرْيَةٍ قُرْبَ أَسْوَانَ.",
+    "ro": "Nashaʾa Aḥmadu fī qaryatin qurba Aswāna."
    },
    {
-    "fr": "À Otaru, on se promène le long du canal, on regarde les boutiques de verre…",
-    "ja": "小樽では運河沿いを散歩したり、ガラスの店を見たりします。",
-    "ro": "Otaru de wa unga zoi o sanpo shitari, garasu no mise o mitari shimasu."
+    "fr": "Enfant, il nageait dans le Nil chaque été.",
+    "ar": "فِي طُفُولَتِهِ، كَانَ يَسْبَحُ فِي النِّيلِ كُلَّ صَيْفٍ.",
+    "ro": "Fī ṭufūlatihi, kāna yasbaḥu fī an-Nīli kulla ṣayfin."
    },
    {
-    "fr": "Le soir, on mange des sushis, on boit un peu de saké…",
-    "ja": "夜はお寿司を食べたり、お酒を飲んだりします。",
-    "ro": "Yoru wa osushi o tabetari, osake o nondari shimasu."
+    "fr": "Son père travaillait sur une felouque.",
+    "ar": "كَانَ أَبُوهُ يَعْمَلُ عَلَى فَلُوكَةٍ.",
+    "ro": "Kāna abūhu yaʿmalu ʿalā falūkatin."
    },
    {
-    "fr": "Ces entrepôts en pierre ont plus de cent ans.",
-    "ja": "石造りの倉庫は百年以上前のものです。",
-    "ro": "Ishizukuri no sōko wa hyakunen ijō mae no mono desu."
+    "fr": "Il transportait les touristes d'une rive à l'autre.",
+    "ar": "كَانَ يَنْقُلُ السُّيَّاحَ مِنْ ضِفَّةٍ إِلَى أُخْرَى.",
+    "ro": "Kāna yanqulu as-suyyāḥa min ḍiffatin ilā ukhrā."
    },
    {
-    "fr": "Dans cet atelier, j'ai fabriqué un petit verre.",
-    "ja": "この工房で小さいグラスを作りました。",
-    "ro": "Kono kōbō de chiisai gurasu o tsukurimashita."
+    "fr": "Le soir, la famille mangeait ensemble dans la cour.",
+    "ar": "فِي الْمَسَاءِ، كَانَتِ الْعَائِلَةُ تَأْكُلُ مَعًا فِي الْفِنَاءِ.",
+    "ro": "Fī al-masāʾi, kānati al-ʿāʾilatu taʾkulu maʿan fī al-fināʾi."
    },
    {
-    "fr": "Dans le train, je regarde le paysage ou je fais une sieste.",
-    "ja": "電車では景色を見たり、昼寝をしたりします。",
-    "ro": "Densha de wa keshiki o mitari, hirune o shitari shimasu."
+    "fr": "Sa grand-mère racontait de vieilles histoires.",
+    "ar": "كَانَتْ جَدَّتُهُ تَحْكِي قِصَصًا قَدِيمَةً.",
+    "ro": "Kānat jaddatuhu taḥkī qiṣaṣan qadīmatan."
    },
    {
-    "fr": "Les boîtes à musique sont la spécialité du quartier.",
-    "ja": "オルゴールはこの辺りの名物です。",
-    "ro": "Orugōru wa kono atari no meibutsu desu."
+    "fr": "Il apprenait le français à l'école.",
+    "ar": "كَانَ يَتَعَلَّمُ الْفَرَنْسِيَّةَ فِي الْمَدْرَسَةِ.",
+    "ro": "Kāna yataʿallamu al-faransiyyata fī al-madrasati."
    },
    {
-    "fr": "Rue Sakaimachi, on a goûté des pâtisseries, acheté des souvenirs…",
-    "ja": "堺町通りでお菓子を食べたり、お土産を買ったりしました。",
-    "ro": "Sakaimachi dōri de okashi o tabetari, omiyage o kattari shimashita."
+    "fr": "Il parlait avec les touristes pour s'entraîner.",
+    "ar": "كَانَ يَتَحَدَّثُ مَعَ السُّيَّاحِ لِيَتَدَرَّبَ.",
+    "ro": "Kāna yataḥaddathu maʿa as-suyyāḥi li-yatadarraba."
    },
    {
-    "fr": "Le canal est encore plus joli en fin de journée.",
-    "ja": "運河は夕方のほうがもっときれいです。",
-    "ro": "Unga wa yūgata no hō ga motto kirei desu."
+    "fr": "Moi, je passais mes vacances à la montagne.",
+    "ar": "وَأَنَا كُنْتُ أَقْضِي عُطْلَتِي فِي الْجِبَالِ.",
+    "ro": "Wa-anā kuntu aqḍī ʿuṭlatī fī al-jibāli."
    },
    {
-    "fr": "On reprend le train pour Sapporo vers huit heures.",
-    "ja": "八時ごろ電車で札幌に戻ります。",
-    "ro": "Hachiji goro densha de Sapporo ni modorimasu."
+    "fr": "Aujourd'hui encore, il aime beaucoup le fleuve.",
+    "ar": "مَا زَالَ يُحِبُّ النَّهْرَ كَثِيرًا حَتَّى الْيَوْمَ.",
+    "ro": "Mā zāla yuḥibbu an-nahra kathīran ḥattā al-yawma."
    }
   ],
   "tip": {
-   "title": "« -tari -tari shimasu » : faire des choses comme…",
-   "example": "À Otaru, on se promène le long du canal, on regarde les boutiques de verre… — 小樽では運河沿いを<b>散歩したり</b>、ガラスの店を<b>見たり</b>します。",
-   "exampleRo": "Otaru de wa unga zoi o sanpo shitari, garasu no mise o mitari shimasu.",
-   "lit": "Otaru · [lieu] [thème] · canal-le long · [objet] · promenade-faire-entre autres · verre · [possessif] · boutique · [objet] · regarder-entre autres · faire (poli)",
-   "body": "Quand on veut citer quelques activités parmi d'autres, sans faire une liste complète, on utilise « tari, tari shimasu ». On prend le verbe au passé familier en « ta », on ajoute « ri », et on termine par « shimasu », faire. « Sanpo shitari, mitari shimasu » se dit littéralement : se promener entre autres, regarder entre autres, faire. C'est l'équivalent de notre « on fait des choses comme ». Par exemple « tabetari nondari shimasu », on mange, on boit, ou « yondari netari shimasu », on lit, on dort. Pour le passé, il suffit de changer la fin en « shimashita ». Astuce : imaginez « tari » comme un petit tiroir qu'on ouvre pour sortir un exemple."
+   "title": "Kana suivi du présent : l'habitude au passé",
+   "example": "Son père travaillait sur une felouque. — <b>كَانَ</b> أَبُوهُ <b>يَعْمَلُ</b> عَلَى فَلُوكَةٍ.",
+   "exampleRo": "Kāna abūhu yaʿmalu ʿalā falūkatin.",
+   "lit": "était · son-père · travaille · sur · une-felouque",
+   "body": "L'arabe n'a pas d'imparfait comme le français. Pour dire qu'une chose se répétait dans le passé, on place « kana », était, devant un verbe au présent. « Kana abuhu yamalu » se dit littéralement : était son père, il travaille, autrement dit son père travaillait. « Kana » s'accorde avec le sujet : « kuntu aqdi », je passais, « kanat tahki », elle racontait, « kunna nadhhabu », nous allions. Astuce : « kana » pose le décor dans le passé, et le verbe au présent montre l'action qui se répète, comme un film qu'on rembobine."
   }
  },
  {
-  "title": "Un train bloqué par la neige",
+  "title": "Une felouque sur le Nil",
   "phrases": [
    {
-    "fr": "Notre train local est à l'arrêt à cause de la neige.",
-    "ja": "雪のせいで、普通列車が止まっています。",
-    "ro": "Yuki no sei de, futsū ressha ga tomatte imasu."
+    "fr": "Nous louons une felouque cet après-midi.",
+    "ar": "نَسْتَأْجِرُ فَلُوكَةً بَعْدَ الظُّهْرِ.",
+    "ro": "Nastaʾjiru falūkatan baʿda aẓ-ẓuhri."
    },
    {
-    "fr": "Le contrôleur a annoncé un départ dans une heure.",
-    "ja": "車掌さんは「一時間後に出発します」と言いました。",
-    "ro": "Shashō san wa \"ichijikan go ni shuppatsu shimasu\" to iimashita."
+    "fr": "Le capitaine demande deux cents livres.",
+    "ar": "يَطْلُبُ الرُّبَّانُ مِئَتَيْ جُنَيْهٍ.",
+    "ro": "Yaṭlubu ar-rubbānu miʾatay junayhin."
    },
    {
-    "fr": "On n'a pas le choix, on attend.",
-    "ja": "しかたがないので、待ちます。",
-    "ro": "Shikata ga nai node, machimasu."
+    "fr": "On négocie un peu, puis on accepte.",
+    "ar": "نُفَاوِضُ قَلِيلًا ثُمَّ نَقْبَلُ.",
+    "ro": "Nufāwiḍu qalīlan thumma naqbalu."
    },
    {
-    "fr": "Heureusement, le chauffage du wagon marche.",
-    "ja": "幸い、車内の暖房はついています。",
-    "ro": "Saiwai, shanai no danbō wa tsuite imasu."
+    "fr": "Il n'y a pas de moteur, seulement le vent.",
+    "ar": "لَا يُوجَدُ مُحَرِّكٌ، بَلِ الرِّيحُ فَقَطْ.",
+    "ro": "Lā yūjadu muḥarrikun, bali ar-rīḥu faqaṭ."
    },
    {
-    "fr": "Une vieille dame m'a donné une mandarine.",
-    "ja": "おばあさんがみかんをくれました。",
-    "ro": "Obāsan ga mikan o kuremashita."
+    "fr": "La voile blanche se gonfle doucement.",
+    "ar": "يَنْتَفِخُ الشِّرَاعُ الْأَبْيَضُ بِهُدُوءٍ.",
+    "ro": "Yantafikhu ash-shirāʿu al-abyaḍu bi-hudūʾin."
    },
    {
-    "fr": "Elle va voir sa fille qui habite à Asahikawa.",
-    "ja": "旭川に住んでいる娘さんに会いに行きます。",
-    "ro": "Asahikawa ni sunde iru musume san ni ai ni ikimasu."
+    "fr": "Nous passons devant de petites îles vertes.",
+    "ar": "نَمُرُّ أَمَامَ جُزُرٍ صَغِيرَةٍ خَضْرَاءَ.",
+    "ro": "Namurru amāma juzurin ṣaghīratin khaḍrāʾa."
    },
    {
-    "fr": "Je préviens l'auberge qu'on aura du retard.",
-    "ja": "旅館に遅れると連絡します。",
-    "ro": "Ryokan ni okureru to renraku shimasu."
+    "fr": "Des enfants nous saluent depuis la rive.",
+    "ar": "يُحَيِّينَا أَطْفَالٌ مِنَ الضِّفَّةِ.",
+    "ro": "Yuḥayyīnā aṭfālun mina aḍ-ḍiffati."
    },
    {
-    "fr": "Le train est reparti avec deux heures de retard.",
-    "ja": "列車は二時間遅れで動き出しました。",
-    "ro": "Ressha wa nijikan okure de ugokidashimashita."
+    "fr": "Le capitaine chante une chanson nubienne.",
+    "ar": "يُغَنِّي الرُّبَّانُ أُغْنِيَةً نُوبِيَّةً.",
+    "ro": "Yughannī ar-rubbānu ughniyatan nūbiyyatan."
    },
    {
-    "fr": "Ici, en hiver, ce genre de chose arrive souvent.",
-    "ja": "冬はこういうことがよくあります。",
-    "ro": "Fuyu wa kō iu koto ga yoku arimasu."
+    "fr": "Le soleil se couche derrière les dunes.",
+    "ar": "تَغْرُبُ الشَّمْسُ خَلْفَ الْكُثْبَانِ.",
+    "ro": "Taghrubu ash-shamsu khalfa al-kuthbāni."
    },
    {
-    "fr": "Au bout du compte, ce voyage au ralenti était agréable.",
-    "ja": "結局、のんびりした旅も楽しかったです。",
-    "ro": "Kekkyoku, nonbiri shita tabi mo tanoshikatta desu."
+    "fr": "Je n'oublierai jamais ce moment.",
+    "ar": "لَنْ أَنْسَى هَذِهِ اللَّحْظَةَ أَبَدًا.",
+    "ro": "Lan ansā hādhihi al-laḥẓata abadan."
    }
   ]
  },
  {
-  "title": "Le marché du matin de Hakodate",
+  "title": "Un village nubien",
   "phrases": [
    {
-    "fr": "Nous sommes descendus en train jusqu'à Hakodate.",
-    "ja": "函館まで電車で行きました。",
-    "ro": "Hakodate made densha de ikimashita."
+    "fr": "Le bateau nous dépose dans un village nubien.",
+    "ar": "يُنْزِلُنَا الْقَارِبُ فِي قَرْيَةٍ نُوبِيَّةٍ.",
+    "ro": "Yunzilunā al-qāribu fī qaryatin nūbiyyatin."
    },
    {
-    "fr": "Le marché du matin ouvre dès cinq heures.",
-    "ja": "朝市は朝五時から開いています。",
-    "ro": "Asaichi wa asa goji kara aite imasu."
+    "fr": "Les maisons sont peintes en bleu et en jaune.",
+    "ar": "الْبُيُوتُ مُلَوَّنَةٌ بِالْأَزْرَقِ وَالْأَصْفَرِ.",
+    "ro": "Al-buyūtu mulawwanatun bil-azraqi wa-al-aṣfari."
    },
    {
-    "fr": "Les crabes d'ici sont énormes.",
-    "ja": "ここのカニはとても大きいです。",
-    "ro": "Koko no kani wa totemo ōkii desu."
+    "fr": "Une famille nous invite à boire le thé.",
+    "ar": "تَدْعُونَا عَائِلَةٌ إِلَى شُرْبِ الشَّايِ.",
+    "ro": "Tadʿūnā ʿāʾilatun ilā shurbi ash-shāyi."
    },
    {
-    "fr": "Au petit-déjeuner, j'ai mangé un bol de riz aux oursins.",
-    "ja": "朝ごはんにウニ丼を食べました。",
-    "ro": "Asagohan ni unidon o tabemashita."
+    "fr": "Ils élèvent un petit crocodile chez eux !",
+    "ar": "يُرَبُّونَ تِمْسَاحًا صَغِيرًا فِي الْبَيْتِ!",
+    "ro": "Yurabbūna timsāḥan ṣaghīran fī al-bayti!"
    },
    {
-    "fr": "Le vendeur m'a donné un petit bout de crabe à goûter.",
-    "ja": "店の人に、カニを少しもらいました。",
-    "ro": "Mise no hito ni, kani o sukoshi moraimashita."
+    "fr": "N'aie pas peur, il est très calme.",
+    "ar": "لَا تَخَفْ، إِنَّهُ هَادِئٌ جِدًّا.",
+    "ro": "Lā takhaf, innahu hādiʾun jiddan."
    },
    {
-    "fr": "Le soir, on monte au mont Hakodate en téléphérique.",
-    "ja": "夜はロープウェイで函館山に登ります。",
-    "ro": "Yoru wa rōpuwei de Hakodateyama ni noborimasu."
+    "fr": "Les femmes vendent des colliers et des tissus.",
+    "ar": "تَبِيعُ النِّسَاءُ قَلَائِدَ وَأَقْمِشَةً.",
+    "ro": "Tabīʿu an-nisāʾu qalāʾida wa-aqmishatan."
    },
    {
-    "fr": "La vue nocturne de Hakodate est célèbre dans tout le Japon.",
-    "ja": "函館の夜景は日本中で有名です。",
-    "ro": "Hakodate no yakei wa nihonjū de yūmei desu."
+    "fr": "J'achète un foulard pour ma sœur.",
+    "ar": "أَشْتَرِي وِشَاحًا لِأُخْتِي.",
+    "ro": "Ashtarī wishāḥan li-ukhtī."
    },
    {
-    "fr": "Il y avait un monde fou au sommet !",
-    "ja": "山頂は人がとても多かったです。",
-    "ro": "Sanchō wa hito ga totemo ōkatta desu."
+    "fr": "La langue nubienne est différente de l'arabe.",
+    "ar": "اللُّغَةُ النُّوبِيَّةُ مُخْتَلِفَةٌ عَنِ الْعَرَبِيَّةِ.",
+    "ro": "Al-lughatu an-nūbiyyatu mukhtalifatun ʿani al-ʿarabiyyati."
    },
    {
-    "fr": "Là-haut, le vent était glacial.",
-    "ja": "上は風がとても冷たかったです。",
-    "ro": "Ue wa kaze ga totemo tsumetakatta desu."
+    "fr": "Notre hôte nous apprend quelques mots.",
+    "ar": "يُعَلِّمُنَا مُضِيفُنَا بَعْضَ الْكَلِمَاتِ.",
+    "ro": "Yuʿallimunā muḍīfunā baʿḍa al-kalimāti."
    },
    {
-    "fr": "Demain, on passe dans le Tohoku en shinkansen.",
-    "ja": "明日は新幹線で東北へ渡ります。",
-    "ro": "Ashita wa shinkansen de Tōhoku e watarimasu."
+    "fr": "Nous rentrons avant la tombée de la nuit.",
+    "ar": "نَعُودُ قَبْلَ حُلُولِ اللَّيْلِ.",
+    "ro": "Naʿūdu qabla ḥulūli al-layli."
    }
   ]
  },
  {
-  "title": "Le village thermal de Ginzan",
+  "title": "Les temples d'Abou Simbel",
   "phrases": [
    {
-    "fr": "Ginzan Onsen est un village thermal dans les montagnes de Yamagata.",
-    "ja": "銀山温泉は山形の山の中にある温泉街です。",
-    "ro": "Ginzan onsen wa Yamagata no yama no naka ni aru onsengai desu."
+    "fr": "Voici le temple que le roi Ramsès a construit.",
+    "ar": "هَذَا هُوَ الْمَعْبَدُ الَّذِي بَنَاهُ الْمَلِكُ رَمْسِيسُ.",
+    "ro": "Hādhā huwa al-maʿbadu alladhī banāhu al-maliku Ramsīsu."
    },
    {
-    "fr": "Je pense que c'est le plus bel endroit du voyage.",
-    "ja": "ここは今回の旅で一番きれいな所だと思います。",
-    "ro": "Koko wa konkai no tabi de ichiban kirei na tokoro da to omoimasu."
+    "fr": "Les statues qui gardent l'entrée mesurent vingt mètres.",
+    "ar": "التَّمَاثِيلُ الَّتِي تَحْرُسُ الْمَدْخَلَ طُولُهَا عِشْرُونَ مِتْرًا.",
+    "ro": "At-tamāthīlu allatī taḥrusu al-madkhala ṭūluhā ʿishrūna mitran."
    },
    {
-    "fr": "De vieilles auberges en bois bordent la rivière.",
-    "ja": "古い木造の旅館が川沿いに並んでいます。",
-    "ro": "Furui mokuzō no ryokan ga kawazoi ni narande imasu."
+    "fr": "Le petit temple est celui qu'il a offert à la reine Néfertari.",
+    "ar": "الْمَعْبَدُ الصَّغِيرُ هُوَ الَّذِي أَهْدَاهُ إِلَى الْمَلِكَةِ نِفِرْتَارِي.",
+    "ro": "Al-maʿbadu aṣ-ṣaghīru huwa alladhī ahdāhu ilā al-malikati Nifirtārī."
    },
    {
-    "fr": "À la nuit tombée, les lampes à gaz s'allument.",
-    "ja": "夜になると、ガス灯がつきます。",
-    "ro": "Yoru ni naru to, gasutō ga tsukimasu."
+    "fr": "La femme qui vend les billets parle français.",
+    "ar": "الْمَرْأَةُ الَّتِي تَبِيعُ التَّذَاكِرَ تَتَكَلَّمُ الْفَرَنْسِيَّةَ.",
+    "ro": "Al-marʾatu allatī tabīʿu at-tadhākira tatakallamu al-faransiyyata."
    },
    {
-    "fr": "Je pense qu'il va encore neiger cette nuit.",
-    "ja": "今夜もまた雪が降ると思います。",
-    "ro": "Kon'ya mo mata yuki ga furu to omoimasu."
+    "fr": "Le guide qui nous accompagne connaît tous les détails.",
+    "ar": "الْمُرْشِدُ الَّذِي يُرَافِقُنَا يَعْرِفُ كُلَّ التَّفَاصِيلِ.",
+    "ro": "Al-murshidu alladhī yurāfiqunā yaʿrifu kulla at-tafāṣīli."
    },
    {
-    "fr": "Je pense qu'il y aura peu de touristes demain matin.",
-    "ja": "明日の朝は観光客が少ないと思います。",
-    "ro": "Ashita no asa wa kankōkyaku ga sukunai to omoimasu."
+    "fr": "Des ingénieurs ont déplacé le temple, qui était menacé par les eaux.",
+    "ar": "نَقَلَ الْمُهَنْدِسُونَ الْمَعْبَدَ الَّذِي كَانَ مُهَدَّدًا بِالْمِيَاهِ.",
+    "ro": "Naqala al-muhandisūna al-maʿbada alladhī kāna muhaddadan bil-miyāhi."
    },
    {
-    "fr": "Mon ami pense qu'il vaut mieux venir en semaine.",
-    "ja": "友達は平日に来たほうがいいと思っています。",
-    "ro": "Tomodachi wa heijitsu ni kita hō ga ii to omotte imasu."
+    "fr": "Le lac que tu vois derrière nous, c'est le lac Nasser.",
+    "ar": "الْبُحَيْرَةُ الَّتِي تَرَاهَا خَلْفَنَا هِيَ بُحَيْرَةُ نَاصِرٍ.",
+    "ro": "Al-buḥayratu allatī tarāhā khalfanā hiya buḥayratu Nāṣirin."
    },
    {
-    "fr": "Cette auberge est un peu chère, mais je pense qu'elle le vaut.",
-    "ja": "この旅館は少し高いですが、その価値があると思います。",
-    "ro": "Kono ryokan wa sukoshi takai desu ga, sono kachi ga aru to omoimasu."
+    "fr": "La lumière qui entre dans le temple est magique.",
+    "ar": "الضَّوْءُ الَّذِي يَدْخُلُ الْمَعْبَدَ سَاحِرٌ.",
+    "ro": "Aḍ-ḍawʾu alladhī yadkhulu al-maʿbada sāḥirun."
    },
    {
-    "fr": "Le bain de pieds au bord de la rivière est gratuit.",
-    "ja": "川沿いの足湯は無料です。",
-    "ro": "Kawazoi no ashiyu wa muryō desu."
+    "fr": "C'est la photo que je préfère.",
+    "ar": "هَذِهِ هِيَ الصُّورَةُ الَّتِي أُفَضِّلُهَا.",
+    "ro": "Hādhihi hiya aṣ-ṣūratu allatī ufaḍḍiluhā."
    },
    {
-    "fr": "Je pense qu'on reviendra un jour en été.",
-    "ja": "いつか夏にまた来ると思います。",
-    "ro": "Itsuka natsu ni mata kuru to omoimasu."
+    "fr": "Le bus qui nous ramène part à midi.",
+    "ar": "الْحَافِلَةُ الَّتِي تُعِيدُنَا تَنْطَلِقُ ظُهْرًا.",
+    "ro": "Al-ḥāfilatu allatī tuʿīdunā tanṭaliqu ẓuhran."
    }
   ],
   "tip": {
-   "title": "« -to omoimasu » : je pense que",
-   "example": "Je pense que c'est le plus bel endroit du voyage. — ここは今回の旅で一番きれいな所<b>だと思います</b>。",
-   "exampleRo": "Koko wa konkai no tabi de ichiban kirei na tokoro da to omoimasu.",
-   "lit": "ici · [thème] · cette fois · [possessif] · voyage · [dans] · le plus · beau · endroit · être (neutre) · [citation] · penser (poli)",
-   "body": "Pour donner son avis, on place « to omoimasu », je pense, tout à la fin de la phrase. Devant « to », la phrase se met à la forme neutre : « da » au lieu de « desu », « furu » au lieu de « furimasu ». « Kirei na tokoro da to omoimasu » se dit littéralement : bel endroit, c'est, entre guillemets, je pense. Le petit mot « to » joue le rôle de guillemets autour de votre pensée. Exemples : « yuki ga furu to omoimasu », je pense qu'il va neiger, ou « takai to omoimasu », je pense que c'est cher. Astuce : en français on commence par « je pense », en japonais on le garde pour la fin, comme une signature."
+   "title": "Les relatifs : alladhi et allati",
+   "example": "La femme qui vend les billets parle français. — الْمَرْأَةُ <b>الَّتِي</b> تَبِيعُ التَّذَاكِرَ تَتَكَلَّمُ الْفَرَنْسِيَّةَ.",
+   "exampleRo": "Al-marʾatu allatī tabīʿu at-tadhākira tatakallamu al-faransiyyata.",
+   "lit": "la-femme · qui · vend · les-billets · parle · le-français",
+   "body": "Pour dire « qui » ou « que », l'arabe utilise « alladhi » après un nom masculin et « allati » après un nom féminin. Le relatif s'accorde donc avec le nom qu'il complète : « al-murshidu alladhi », le guide qui, mais « al-maratu allati », la femme qui. Attention, un pluriel de choses compte comme un féminin : « at-tamathilu allati », les statues qui. Quand le relatif veut dire « que », l'arabe rappelle le nom par un petit pronom collé au verbe : « as-suratu allati ufaddiluha » se dit littéralement : la photo que je la préfère. Astuce : ces mots ne s'emploient qu'après un nom défini, celui qui porte « al »."
   }
  },
  {
-  "title": "Le long de la mer en train local",
+  "title": "Arrivée à Amman",
   "phrases": [
    {
-    "fr": "La ligne Gonō longe la mer du Japon.",
-    "ja": "五能線は日本海沿いを走ります。",
-    "ro": "Gonōsen wa Nihonkai zoi o hashirimasu."
+    "fr": "Nous prenons l'avion du Caire à Amman.",
+    "ar": "نُسَافِرُ بِالطَّائِرَةِ مِنَ الْقَاهِرَةِ إِلَى عَمَّانَ.",
+    "ro": "Nusāfiru biṭ-ṭāʾirati mina al-Qāhirati ilā ʿAmmāna."
    },
    {
-    "fr": "Ce train local ne passe que quelques fois par jour.",
-    "ja": "この普通列車は一日に数本しかありません。",
-    "ro": "Kono futsū ressha wa ichinichi ni sūhon shika arimasen."
+    "fr": "Le vol ne dure qu'une heure et demie.",
+    "ar": "تَسْتَغْرِقُ الرِّحْلَةُ سَاعَةً وَنِصْفًا فَقَطْ.",
+    "ro": "Tastaghriqu ar-riḥlatu sāʿatan wa-niṣfan faqaṭ."
    },
    {
-    "fr": "Surtout, ne ratez pas le suivant.",
-    "ja": "次の列車に乗り遅れないでください。",
-    "ro": "Tsugi no ressha ni noriokurenaide kudasai."
+    "fr": "À l'aéroport, j'achète un visa au guichet.",
+    "ar": "فِي الْمَطَارِ، أَشْتَرِي تَأْشِيرَةً مِنَ الشُّبَّاكِ.",
+    "ro": "Fī al-maṭāri, ashtarī taʾshīratan mina ash-shubbāki."
    },
    {
-    "fr": "Les vagues se brisent juste à côté des rails.",
-    "ja": "線路のすぐそばで波が砕けています。",
-    "ro": "Senro no sugu soba de nami ga kudakete imasu."
+    "fr": "L'employé me demande : combien de jours vas-tu rester ?",
+    "ar": "يَسْأَلُنِي الْمُوَظَّفُ: كَمْ يَوْمًا سَتَبْقَى؟",
+    "ro": "Yasʾalunī al-muwaẓẓafu: kam yawman satabqā?"
    },
    {
-    "fr": "Le train ralentit aux plus beaux endroits.",
-    "ja": "景色のいい所では、列車がゆっくり走ります。",
-    "ro": "Keshiki no ii tokoro de wa, ressha ga yukkuri hashirimasu."
+    "fr": "Je réponds : deux semaines en tout.",
+    "ar": "أُجِيبُ: أُسْبُوعَيْنِ فِي الْمَجْمُوعِ.",
+    "ro": "Ujību: usbūʿayni fī al-majmūʿi."
    },
    {
-    "fr": "On s'est arrêtés dans une petite gare sans personnel.",
-    "ja": "小さな無人駅に止まりました。",
-    "ro": "Chiisana mujin'eki ni tomarimashita."
+    "fr": "Amman est construite sur plusieurs collines.",
+    "ar": "عَمَّانُ مَبْنِيَّةٌ عَلَى عِدَّةِ تِلَالٍ.",
+    "ro": "ʿAmmānu mabniyyatun ʿalā ʿiddati tilālin."
    },
    {
-    "fr": "Avant le départ, on a acheté un bentō au calamar.",
-    "ja": "出発前にイカのお弁当を買いました。",
-    "ro": "Shuppatsu mae ni ika no obentō o kaimashita."
+    "fr": "Nous changeons nos euros en dinars jordaniens.",
+    "ar": "نُصَرِّفُ الْيُورُو إِلَى دَنَانِيرَ أُرْدُنِيَّةٍ.",
+    "ro": "Nuṣarrifu al-yūrū ilā danānīra urduniyyatin."
    },
    {
-    "fr": "Le contrôleur nous a raconté l'histoire de la région.",
-    "ja": "車掌さんがこの地方の話をしてくれました。",
-    "ro": "Shashō san ga kono chihō no hanashi o shite kuremashita."
+    "fr": "Un taxi jaune nous emmène à l'hôtel.",
+    "ar": "تَأْخُذُنَا سَيَّارَةُ أُجْرَةٍ صَفْرَاءُ إِلَى الْفُنْدُقِ.",
+    "ro": "Taʾkhudhunā sayyāratu ujratin ṣafrāʾu ilā al-funduqi."
    },
    {
-    "fr": "Au loin, on aperçoit le mont Iwaki.",
-    "ja": "遠くに岩木山が見えます。",
-    "ro": "Tōku ni Iwakisan ga miemasu."
+    "fr": "Le chauffeur nous conseille un restaurant de falafels.",
+    "ar": "يَنْصَحُنَا السَّائِقُ بِمَطْعَمٍ لِلْفَلَافِلِ.",
+    "ro": "Yanṣaḥunā as-sāʾiqu bi-maṭʿamin lil-falāfili."
    },
    {
-    "fr": "Prendre ce train est déjà un plaisir de voyage en soi.",
-    "ja": "この列車に乗ること自体が旅の楽しみです。",
-    "ro": "Kono ressha ni noru koto jitai ga tabi no tanoshimi desu."
+    "fr": "Demain, nous partons vers le sud du pays.",
+    "ar": "غَدًا نَنْطَلِقُ نَحْوَ جَنُوبِ الْبِلَادِ.",
+    "ro": "Ghadan nanṭaliqu naḥwa janūbi al-bilādi."
    }
   ]
  },
  {
-  "title": "Les sanctuaires de Nikko",
+  "title": "Le bus de nuit vers Pétra",
   "phrases": [
    {
-    "fr": "Nikko est à environ deux heures de Tokyo.",
-    "ja": "日光は東京から二時間ぐらいです。",
-    "ro": "Nikkō wa Tōkyō kara nijikan gurai desu."
+    "fr": "Nous prenons le bus de nuit pour Pétra.",
+    "ar": "نَرْكَبُ حَافِلَةَ اللَّيْلِ إِلَى الْبَتْرَاءِ.",
+    "ro": "Narkabu ḥāfilata al-layli ilā al-Batrāʾi."
    },
    {
-    "fr": "Le sanctuaire Tōshōgū est couvert de décorations dorées.",
-    "ja": "東照宮は金色の飾りでいっぱいです。",
-    "ro": "Tōshōgū wa kin'iro no kazari de ippai desu."
+    "fr": "Le départ est à onze heures du soir.",
+    "ar": "الِانْطِلَاقُ فِي السَّاعَةِ الْحَادِيَةَ عَشْرَةَ لَيْلًا.",
+    "ro": "Al-inṭilāqu fī as-sāʿati al-ḥādiyata ʿashrata laylan."
    },
    {
-    "fr": "Voici les fameux trois singes.",
-    "ja": "これが有名な三猿です。",
-    "ro": "Kore ga yūmei na sanzaru desu."
+    "fr": "J'ai réservé deux places près de la fenêtre.",
+    "ar": "حَجَزْتُ مَقْعَدَيْنِ قُرْبَ النَّافِذَةِ.",
+    "ro": "Ḥajaztu maqʿadayni qurba an-nāfidhati."
    },
    {
-    "fr": "Ne pas voir, ne pas dire, ne pas entendre.",
-    "ja": "見ざる、言わざる、聞かざる。",
-    "ro": "Mizaru, iwazaru, kikazaru."
+    "fr": "Mets ton sac sous le siège.",
+    "ar": "ضَعْ حَقِيبَتَكَ تَحْتَ الْمَقْعَدِ.",
+    "ro": "Ḍaʿ ḥaqībataka taḥta al-maqʿadi."
    },
    {
-    "fr": "Il y a une quantité de marches à grimper.",
-    "ja": "上る階段がとても多いです。",
-    "ro": "Noboru kaidan ga totemo ōi desu."
+    "fr": "La climatisation est trop forte, j'ai froid.",
+    "ar": "التَّكْيِيفُ قَوِيٌّ جِدًّا، أَشْعُرُ بِالْبَرْدِ.",
+    "ro": "At-takyīfu qawiyyun jiddan, ashʿuru bil-bardi."
    },
    {
-    "fr": "Au-dessus d'une porte, il y a la sculpture du chat endormi.",
-    "ja": "門の上に眠り猫の彫刻があります。",
-    "ro": "Mon no ue ni nemurineko no chōkoku ga arimasu."
+    "fr": "Heureusement, j'ai pris une couverture.",
+    "ar": "لِحُسْنِ الْحَظِّ، أَخَذْتُ بَطَّانِيَّةً.",
+    "ro": "Li-ḥusni al-ḥaẓẓi, akhadhtu baṭṭāniyyatan."
    },
    {
-    "fr": "À l'intérieur, les photos sont interdites.",
-    "ja": "中で写真を撮ってはいけません。",
-    "ro": "Naka de shashin o totte wa ikemasen."
+    "fr": "Le bus s'arrête une seule fois pour une pause.",
+    "ar": "تَتَوَقَّفُ الْحَافِلَةُ مَرَّةً وَاحِدَةً لِلِاسْتِرَاحَةِ.",
+    "ro": "Tatawaqqafu al-ḥāfilatu marratan wāḥidatan lil-istirāḥati."
    },
    {
-    "fr": "Ce pont rouge s'appelle le pont Shinkyō.",
-    "ja": "この赤い橋は神橋といいます。",
-    "ro": "Kono akai hashi wa Shinkyō to iimasu."
+    "fr": "Je n'ai pas réussi à dormir.",
+    "ar": "لَمْ أَسْتَطِعْ أَنْ أَنَامَ.",
+    "ro": "Lam astaṭiʿ an anāma."
    },
    {
-    "fr": "Les cèdres de l'allée ont plusieurs siècles.",
-    "ja": "杉並木の杉は何百年も前からあります。",
-    "ro": "Suginamiki no sugi wa nanbyakunen mo mae kara arimasu."
+    "fr": "Par la fenêtre, on voit des milliers d'étoiles.",
+    "ar": "مِنَ النَّافِذَةِ نَرَى آلَافَ النُّجُومِ.",
+    "ro": "Mina an-nāfidhati narā ālāfa an-nujūmi."
    },
    {
-    "fr": "On a goûté au yuba, la spécialité de Nikko.",
-    "ja": "日光名物の湯葉を食べました。",
-    "ro": "Nikkō meibutsu no yuba o tabemashita."
+    "fr": "Nous arrivons à Wadi Moussa à l'aube.",
+    "ar": "نَصِلُ إِلَى وَادِي مُوسَى عِنْدَ الْفَجْرِ.",
+    "ro": "Naṣilu ilā Wādī Mūsā ʿinda al-fajri."
    }
   ]
  },
  {
-  "title": "Randonnée au lac Chūzenji",
+  "title": "Pétra : le Siq et le Trésor",
   "phrases": [
    {
-    "fr": "Le bus grimpe la route en lacets d'Irohazaka.",
-    "ja": "バスはいろは坂を上ります。",
-    "ro": "Basu wa Irohazaka o noborimasu."
+    "fr": "On entre dans Pétra par un long canyon, le Siq.",
+    "ar": "نَدْخُلُ الْبَتْرَاءَ عَبْرَ مَمَرٍّ طَوِيلٍ اسْمُهُ السِّيقُ.",
+    "ro": "Nadkhulu al-Batrāʾa ʿabra mamarrin ṭawīlin ismuhu as-Sīqu."
    },
    {
-    "fr": "Le lac Chūzenji est à presque mille trois cents mètres d'altitude.",
-    "ja": "中禅寺湖は標高千三百メートル近くにあります。",
-    "ro": "Chūzenjiko wa hyōkō sen sanbyaku mētoru chikaku ni arimasu."
+    "fr": "Les parois de roche sont roses et très hautes.",
+    "ar": "جُدْرَانُ الصَّخْرِ وَرْدِيَّةٌ وَعَالِيَةٌ جِدًّا.",
+    "ro": "Judrānu aṣ-ṣakhri wardiyyatun wa-ʿāliyatun jiddan."
    },
    {
-    "fr": "Aujourd'hui, on longe le lac à pied.",
-    "ja": "今日は湖のまわりを歩きます。",
-    "ro": "Kyō wa mizuumi no mawari o arukimasu."
+    "fr": "On marche presque deux kilomètres.",
+    "ar": "نَمْشِي حَوَالَيْ كِيلُومِتْرَيْنِ.",
+    "ro": "Namshī ḥawālay kīlūmitrayni."
    },
    {
-    "fr": "N'oubliez pas l'eau et l'imperméable.",
-    "ja": "水とレインコートを忘れないでください。",
-    "ro": "Mizu to reinkōto o wasurenaide kudasai."
+    "fr": "Soudain, le Trésor apparaît devant nous.",
+    "ar": "فَجْأَةً تَظْهَرُ الْخَزْنَةُ أَمَامَنَا.",
+    "ro": "Fajʾatan taẓharu al-Khaznatu amāmanā."
    },
    {
-    "fr": "Après la pluie, le sentier est boueux.",
-    "ja": "雨の後で、道がぬかるんでいます。",
-    "ro": "Ame no ato de, michi ga nukarunde imasu."
+    "fr": "Sa façade est sculptée dans la roche.",
+    "ar": "وَاجِهَتُهَا مَنْحُوتَةٌ فِي الصَّخْرِ.",
+    "ro": "Wājihatuhā manḥūtatun fī aṣ-ṣakhri."
    },
    {
-    "fr": "Attention, des panneaux signalent des ours.",
-    "ja": "気をつけて。クマ注意の看板があります。",
-    "ro": "Ki o tsukete. Kuma chūi no kanban ga arimasu."
+    "fr": "Les Nabatéens ont fondé cette ville il y a très longtemps.",
+    "ar": "أَسَّسَ الْأَنْبَاطُ هَذِهِ الْمَدِينَةَ مُنْذُ زَمَنٍ بَعِيدٍ.",
+    "ro": "Assasa al-Anbāṭu hādhihi al-madīnata mundhu zamanin baʿīdin."
    },
    {
-    "fr": "J'ai accroché une clochette à mon sac à dos.",
-    "ja": "リュックに鈴をつけました。",
-    "ro": "Ryukku ni suzu o tsukemashita."
+    "fr": "Un Bédouin propose une balade à dos d'âne.",
+    "ar": "يَعْرِضُ بَدَوِيٌّ جَوْلَةً عَلَى ظَهْرِ حِمَارٍ.",
+    "ro": "Yaʿriḍu badawiyyun jawlatan ʿalā ẓahri ḥimārin."
    },
    {
-    "fr": "Les chutes de Kegon font presque cent mètres de haut.",
-    "ja": "華厳の滝は高さ百メートル近くあります。",
-    "ro": "Kegon no taki wa takasa hyaku mētoru chikaku arimasu."
+    "fr": "Non merci, nous préférons marcher.",
+    "ar": "لَا، شُكْرًا، نُفَضِّلُ الْمَشْيَ.",
+    "ro": "Lā, shukran, nufaḍḍilu al-mashya."
    },
    {
-    "fr": "On descend en ascenseur jusqu'au pied de la cascade.",
-    "ja": "エレベーターで滝の下まで降ります。",
-    "ro": "Erebētā de taki no shita made orimasu."
+    "fr": "Le site est immense, il faut au moins deux jours.",
+    "ar": "الْمَوْقِعُ وَاسِعٌ جِدًّا، يَلْزَمُ يَوْمَانِ عَلَى الْأَقَلِّ.",
+    "ro": "Al-mawqiʿu wāsiʿun jiddan, yalzamu yawmāni ʿalā al-aqalli."
    },
    {
-    "fr": "J'ai les jambes en compote, mais je suis comblé.",
-    "ja": "足は疲れましたが、満足です。",
-    "ro": "Ashi wa tsukaremashita ga, manzoku desu."
+    "fr": "Nous achetons un billet pour deux jours.",
+    "ar": "نَشْتَرِي تَذْكِرَةً لِيَوْمَيْنِ.",
+    "ro": "Nashtarī tadhkiratan li-yawmayni."
    }
   ]
  },
  {
-  "title": "Hakone en une journée",
+  "title": "Le Monastère, au sommet de Pétra",
   "phrases": [
    {
-    "fr": "Avec le pass de Hakone, on peut prendre tous les transports.",
-    "ja": "箱根フリーパスで、全部の乗り物に乗れます。",
-    "ro": "Hakone furī pasu de, zenbu no norimono ni noremasu."
+    "fr": "Aujourd'hui, nous montons au Monastère.",
+    "ar": "الْيَوْمَ نَصْعَدُ إِلَى الدَّيْرِ.",
+    "ro": "Al-yawma naṣʿadu ilā ad-Dayri."
    },
    {
-    "fr": "Par beau temps, on peut voir le Fuji depuis le téléphérique.",
-    "ja": "晴れた日は、ロープウェイから富士山が見られます。",
-    "ro": "Hareta hi wa, rōpuwei kara Fujisan ga miraremasu."
+    "fr": "C'est la plus longue marche de notre voyage.",
+    "ar": "هَذِهِ أَطْوَلُ مَسِيرَةٍ فِي رِحْلَتِنَا.",
+    "ro": "Hādhihi aṭwalu masīratin fī riḥlatinā."
    },
    {
-    "fr": "À Ōwakudani, on peut manger des œufs noirs.",
-    "ja": "大涌谷では黒たまごが食べられます。",
-    "ro": "Ōwakudani de wa kuro tamago ga taberaremasu."
+    "fr": "Il y a plus de huit cents marches.",
+    "ar": "هُنَاكَ أَكْثَرُ مِنْ ثَمَانِمِئَةِ دَرَجَةٍ.",
+    "ro": "Hunāka aktharu min thamānimiʾati darajatin."
    },
    {
-    "fr": "D'après la légende, un œuf noir donne sept ans de vie en plus.",
-    "ja": "伝説では、黒たまごを一つ食べると七年長生きします。",
-    "ro": "Densetsu de wa, kuro tamago o hitotsu taberu to nananen nagaiki shimasu."
+    "fr": "C'est la partie la plus difficile.",
+    "ar": "هَذَا هُوَ الْجُزْءُ الْأَصْعَبُ.",
+    "ro": "Hādhā huwa al-juzʾu al-aṣʿabu."
    },
    {
-    "fr": "Je ne peux pas en manger plus de deux.",
-    "ja": "二つ以上は食べられません。",
-    "ro": "Futatsu ijō wa taberaremasen."
+    "fr": "Le Monastère est plus grand que le Trésor.",
+    "ar": "الدَّيْرُ أَكْبَرُ مِنَ الْخَزْنَةِ.",
+    "ro": "Ad-Dayru akbaru mina al-Khaznati."
    },
    {
-    "fr": "Ici, l'odeur de soufre est assez forte.",
-    "ja": "ここは硫黄のにおいがかなり強いです。",
-    "ro": "Koko wa iō no nioi ga kanari tsuyoi desu."
+    "fr": "C'est le plus grand monument de Pétra.",
+    "ar": "هُوَ أَكْبَرُ مَعْلَمٍ فِي الْبَتْرَاءِ.",
+    "ro": "Huwa akbaru maʿlamin fī al-Batrāʾi."
    },
    {
-    "fr": "Est-ce qu'on peut traverser le lac Ashi en bateau pirate ?",
-    "ja": "芦ノ湖は海賊船で渡れますか？",
-    "ro": "Ashinoko wa kaizokusen de wataremasu ka?"
+    "fr": "C'est la plus belle vue de toute la région.",
+    "ar": "هَذَا أَجْمَلُ مَنْظَرٍ فِي الْمِنْطَقَةِ كُلِّهَا.",
+    "ro": "Hādhā ajmalu manẓarin fī al-minṭaqati kullihā."
    },
    {
-    "fr": "Je n'arrive pas à lire ce panneau en kanji.",
-    "ja": "この漢字の看板が読めません。",
-    "ro": "Kono kanji no kanban ga yomemasen."
+    "fr": "Le meilleur moment, c'est la fin de la journée.",
+    "ar": "أَفْضَلُ وَقْتٍ هُوَ آخِرُ النَّهَارِ.",
+    "ro": "Afḍalu waqtin huwa ākhiru an-nahāri."
    },
    {
-    "fr": "Ici, on peut payer avec la carte de transport.",
-    "ja": "ここは交通カードで払えます。",
-    "ro": "Koko wa kōtsū kādo de haraemasu."
+    "fr": "Le thé de ce petit café est le plus sucré du monde !",
+    "ar": "شَايُ هَذَا الْمَقْهَى الصَّغِيرِ أَحْلَى شَايٍ فِي الْعَالَمِ!",
+    "ro": "Shāyu hādhā al-maqhā aṣ-ṣaghīri aḥlā shāyin fī al-ʿālami!"
    },
    {
-    "fr": "Avec ce pass, on peut faire tout le tour de Hakone en une journée.",
-    "ja": "このパスで、一日で箱根を一周できます。",
-    "ro": "Kono pasu de, ichinichi de Hakone o isshū dekimasu."
+    "fr": "Pétra est le plus bel endroit que j'aie jamais vu.",
+    "ar": "الْبَتْرَاءُ أَجْمَلُ مَكَانٍ رَأَيْتُهُ فِي حَيَاتِي.",
+    "ro": "Al-Batrāʾu ajmalu makānin raʾaytuhu fī ḥayātī."
    }
   ],
   "tip": {
-   "title": "La forme potentielle : pouvoir faire",
-   "example": "À Ōwakudani, on peut manger des œufs noirs. — 大涌谷では黒たまごが<b>食べられます</b>。",
-   "exampleRo": "Ōwakudani de wa kuro tamago ga taberaremasu.",
-   "lit": "Ōwakudani · [lieu] [thème] · noir · œuf · [sujet] · pouvoir manger (poli)",
-   "body": "Pour dire « pouvoir faire », le japonais transforme le verbe lui-même. Pour les verbes comme « taberu », manger, on remplace « ru » par « rareru » : « taberareru », et au poli « taberaremasu ». Pour les autres verbes, le son final passe en « e » puis on ajoute « ru » : « yomu » devient « yomeru », « noru » devient « noreru », « aruku » devient « arukeru ». « Kuro tamago ga taberaremasu » se dit littéralement : œuf noir, sujet, mangeable. Remarquez que l'objet prend souvent « ga » au lieu de « o ». Et « suru », faire, devient tout simplement « dekiru ». Astuce : retenez le « e » du potentiel comme le « e » de « c'est possible »."
+   "title": "Le superlatif : akbar, ajmal",
+   "example": "Pétra est le plus bel endroit que j'aie jamais vu. — الْبَتْرَاءُ <b>أَجْمَلُ</b> مَكَانٍ رَأَيْتُهُ فِي حَيَاتِي.",
+   "exampleRo": "Al-Batrāʾu ajmalu makānin raʾaytuhu fī ḥayātī.",
+   "lit": "Pétra · le-plus-beau · endroit · je-l'ai-vu · dans · ma-vie",
+   "body": "En arabe, beaucoup d'adjectifs ont une forme spéciale qui commence par « a » : « kabir », grand, donne « akbar », « jamil », beau, donne « ajmal », « tawil », long, donne « atwal ». Suivie de « min », cette forme veut dire plus que : « ad-dayru akbaru mina al-khazna », le Monastère est plus grand que le Trésor. Placée juste devant un nom sans article, elle devient un superlatif : « ajmalu makanin » se dit littéralement : le plus beau d'endroit, c'est-à-dire le plus bel endroit. On peut aussi la mettre après un nom défini, avec l'article : « al-funduqu al-akbaru », le plus grand hôtel. Astuce : retenez le moule « a, consonne, consonne, a, consonne », que l'on retrouve dans akbar, ajmal et aqrab."
   }
  },
  {
-  "title": "Une nuit dans un ryokan",
+  "title": "Une nuit dans le Wadi Rum",
   "phrases": [
    {
-    "fr": "L'hôtesse nous accueille agenouillée dans l'entrée.",
-    "ja": "仲居さんが玄関で正座して迎えてくれます。",
-    "ro": "Nakai san ga genkan de seiza shite mukaete kuremasu."
+    "fr": "Le Wadi Rum ressemble à la planète Mars.",
+    "ar": "يُشْبِهُ وَادِي رَمّ كَوْكَبَ الْمِرِّيخِ.",
+    "ro": "Yushbihu Wādī Ramm kawkaba al-Mirrīkhi."
    },
    {
-    "fr": "On retire ses chaussures avant de marcher sur les tatamis.",
-    "ja": "畳に上がる前に靴を脱ぎます。",
-    "ro": "Tatami ni agaru mae ni kutsu o nugimasu."
+    "fr": "Un Bédouin nous conduit en jeep dans le désert.",
+    "ar": "يَقُودُنَا بَدَوِيٌّ بِسَيَّارَةِ جِيبٍ فِي الصَّحْرَاءِ.",
+    "ro": "Yaqūdunā badawiyyun bi-sayyārati jībin fī aṣ-ṣaḥrāʾi."
    },
    {
-    "fr": "De notre chambre, on voit un petit jardin.",
-    "ja": "部屋から小さな庭が見えます。",
-    "ro": "Heya kara chiisana niwa ga miemasu."
+    "fr": "Le sable est rouge, presque orange.",
+    "ar": "الرَّمْلُ أَحْمَرُ، بَلْ بُرْتُقَالِيٌّ تَقْرِيبًا.",
+    "ro": "Ar-ramlu aḥmaru, bal burtuqāliyyun taqrīban."
    },
    {
-    "fr": "Du thé vert et des douceurs nous attendent sur la table.",
-    "ja": "テーブルに緑茶とお菓子が置いてあります。",
-    "ro": "Tēburu ni ryokucha to okashi ga oite arimasu."
+    "fr": "Nous grimpons sur une grande dune.",
+    "ar": "نَتَسَلَّقُ كَثِيبًا كَبِيرًا.",
+    "ro": "Natasallaqu kathīban kabīran."
    },
    {
-    "fr": "On porte le yukata avec le pan gauche par-dessus.",
-    "ja": "浴衣は左側を上にして着ます。",
-    "ro": "Yukata wa hidarigawa o ue ni shite kimasu."
+    "fr": "Ce soir, nous dormons dans un camp bédouin.",
+    "ar": "نَنَامُ اللَّيْلَةَ فِي مُخَيَّمٍ بَدَوِيٍّ.",
+    "ro": "Nanāmu al-laylata fī mukhayyamin badawiyyin."
    },
    {
-    "fr": "À sept heures, on dîne dans la chambre.",
-    "ja": "七時に部屋で夕食をいただきます。",
-    "ro": "Shichiji ni heya de yūshoku o itadakimasu."
+    "fr": "Le dîner cuit sous le sable.",
+    "ar": "يَنْضَجُ الْعَشَاءُ تَحْتَ الرَّمْلِ.",
+    "ro": "Yanḍaju al-ʿashāʾu taḥta ar-ramli."
    },
    {
-    "fr": "Il y a plus de dix petits plats différents.",
-    "ja": "小さな料理が十品以上あります。",
-    "ro": "Chiisana ryōri ga juppin ijō arimasu."
+    "fr": "Nos hôtes servent du thé à la sauge.",
+    "ar": "يُقَدِّمُ مُضِيفُونَا شَايًا بِالْمَرْيَمِيَّةِ.",
+    "ro": "Yuqaddimu muḍīfūnā shāyan bil-maryamiyyati."
    },
    {
-    "fr": "Pendant notre bain, on nous a préparé les futons.",
-    "ja": "お風呂の間に、布団を敷いてくれました。",
-    "ro": "Ofuro no aida ni, futon o shiite kuremashita."
+    "fr": "Les nuits sont froides dans le désert.",
+    "ar": "اللَّيَالِي بَارِدَةٌ فِي الصَّحْرَاءِ.",
+    "ro": "Al-layālī bāridatun fī aṣ-ṣaḥrāʾi."
    },
    {
-    "fr": "Le petit-déjeuner japonais comporte poisson grillé et soupe miso.",
-    "ja": "和朝食には焼き魚と味噌汁があります。",
-    "ro": "Wachōshoku ni wa yakizakana to misoshiru ga arimasu."
+    "fr": "Autour du feu, quelqu'un joue du oud.",
+    "ar": "حَوْلَ النَّارِ، يَعْزِفُ أَحَدُهُمْ عَلَى الْعُودِ.",
+    "ro": "Ḥawla an-nāri, yaʿzifu aḥaduhum ʿalā al-ʿūdi."
    },
    {
-    "fr": "On a dormi comme des loirs sur ces futons.",
-    "ja": "布団でぐっすり眠れました。",
-    "ro": "Futon de gussuri nemuremashita."
+    "fr": "Je n'ai jamais vu un ciel aussi pur.",
+    "ar": "لَمْ أَرَ سَمَاءً صَافِيَةً هَكَذَا مِنْ قَبْلُ.",
+    "ro": "Lam ara samāʾan ṣāfiyatan hākadhā min qablu."
    }
   ]
  },
  {
-  "title": "Les règles de l'onsen",
+  "title": "Randonnée dans le désert",
   "phrases": [
    {
-    "fr": "On se lave entièrement avant d'entrer dans l'eau.",
-    "ja": "お湯に入る前に、体をきれいに洗います。",
-    "ro": "Oyu ni hairu mae ni, karada o kirei ni araimasu."
+    "fr": "Nous partons marcher tôt le matin.",
+    "ar": "نَنْطَلِقُ فِي رِحْلَةِ مَشْيٍ فِي الصَّبَاحِ الْبَاكِرِ.",
+    "ro": "Nanṭaliqu fī riḥlati mashyin fī aṣ-ṣabāḥi al-bākiri."
    },
    {
-    "fr": "La serviette ne doit pas toucher l'eau du bain.",
-    "ja": "タオルをお湯に入れてはいけません。",
-    "ro": "Taoru o oyu ni irete wa ikemasen."
+    "fr": "Notre guide connaît tous les sentiers.",
+    "ar": "يَعْرِفُ مُرْشِدُنَا كُلَّ الْمَسَالِكِ.",
+    "ro": "Yaʿrifu murshidunā kulla al-masāliki."
    },
    {
-    "fr": "Beaucoup de gens la posent sur leur tête.",
-    "ja": "頭の上にタオルをのせる人が多いです。",
-    "ro": "Atama no ue ni taoru o noseru hito ga ōi desu."
+    "fr": "Prends assez d'eau, au moins trois litres.",
+    "ar": "خُذْ مَاءً كَافِيًا، ثَلَاثَةَ لِتْرَاتٍ عَلَى الْأَقَلِّ.",
+    "ro": "Khudh māʾan kāfiyan, thalāthata litrātin ʿalā al-aqalli."
    },
    {
-    "fr": "Les bains des hommes et des femmes sont séparés.",
-    "ja": "男湯と女湯は分かれています。",
-    "ro": "Otokoyu to onnayu wa wakarete imasu."
+    "fr": "Le chemin monte entre les rochers.",
+    "ar": "يَصْعَدُ الطَّرِيقُ بَيْنَ الصُّخُورِ.",
+    "ro": "Yaṣʿadu aṭ-ṭarīqu bayna aṣ-ṣukhūri."
    },
    {
-    "fr": "Le rideau bleu, c'est le côté des hommes.",
-    "ja": "青いのれんが男湯です。",
-    "ro": "Aoi noren ga otokoyu desu."
+    "fr": "Nous traversons un pont de pierre naturel.",
+    "ar": "نَعْبُرُ جِسْرًا صَخْرِيًّا طَبِيعِيًّا.",
+    "ro": "Naʿburu jisran ṣakhriyyan ṭabīʿiyyan."
    },
    {
-    "fr": "Depuis le bain en plein air, on voit les montagnes sous la neige.",
-    "ja": "露天風呂から雪の山が見えます。",
-    "ro": "Rotenburo kara yuki no yama ga miemasu."
+    "fr": "Attention, la pente est glissante ici.",
+    "ar": "انْتَبِهْ، الْمُنْحَدَرُ زَلِقٌ هُنَا.",
+    "ro": "Intabih, al-munḥadaru zaliqun hunā."
    },
    {
-    "fr": "L'eau dépasse les quarante-deux degrés.",
-    "ja": "お湯は四十二度以上あります。",
-    "ro": "Oyu wa yonjūni do ijō arimasu."
+    "fr": "On fait une pause à l'ombre d'un rocher.",
+    "ar": "نَسْتَرِيحُ فِي ظِلِّ صَخْرَةٍ.",
+    "ro": "Nastarīḥu fī ẓilli ṣakhratin."
    },
    {
-    "fr": "Ne restez pas trop longtemps, vous risquez un malaise.",
-    "ja": "長く入りすぎないでください。のぼせますよ。",
-    "ro": "Nagaku hairisuginaide kudasai. Nobosemasu yo."
+    "fr": "Le guide nous montre des inscriptions anciennes.",
+    "ar": "يُرِينَا الْمُرْشِدُ نُقُوشًا قَدِيمَةً.",
+    "ro": "Yurīnā al-murshidu nuqūshan qadīmatan."
    },
    {
-    "fr": "Après le bain, rien de tel qu'un café au lait bien frais !",
-    "ja": "お風呂の後は冷たいコーヒー牛乳です！",
-    "ro": "Ofuro no ato wa tsumetai kōhī gyūnyū desu!"
+    "fr": "Mes jambes sont fatiguées, mais je suis heureux.",
+    "ar": "سَاقَايَ مُتْعَبَتَانِ، لَكِنِّي سَعِيدٌ.",
+    "ro": "Sāqāya mutʿabatāni, lākinnī saʿīdun."
    },
    {
-    "fr": "Certains onsen refusent les personnes tatouées.",
-    "ja": "タトゥーがあると、入れない温泉もあります。",
-    "ro": "Tatū ga aru to, hairenai onsen mo arimasu."
+    "fr": "Nous rentrons au camp au coucher du soleil.",
+    "ar": "نَعُودُ إِلَى الْمُخَيَّمِ عِنْدَ الْغُرُوبِ.",
+    "ro": "Naʿūdu ilā al-mukhayyami ʿinda al-ghurūbi."
    }
   ]
  },
  {
-  "title": "Le mont Fuji à Kawaguchiko",
+  "title": "Flotter sur la mer Morte",
   "phrases": [
    {
-    "fr": "Ce matin, le mont Fuji se voit très nettement.",
-    "ja": "今朝は富士山がはっきり見えます。",
-    "ro": "Kesa wa Fujisan ga hakkiri miemasu."
+    "fr": "La mer Morte est le point le plus bas de la Terre.",
+    "ar": "الْبَحْرُ الْمَيِّتُ أَخْفَضُ نُقْطَةٍ عَلَى الْأَرْضِ.",
+    "ro": "Al-Baḥru al-Mayyitu akhfaḍu nuqṭatin ʿalā al-arḍi."
    },
    {
-    "fr": "Le Fuji se reflète dans le lac.",
-    "ja": "湖に富士山が映っています。",
-    "ro": "Mizuumi ni Fujisan ga utsutte imasu."
+    "fr": "L'eau est très salée, alors on flotte sans effort.",
+    "ar": "الْمَاءُ مَالِحٌ جِدًّا، فَنَطْفُو دُونَ جُهْدٍ.",
+    "ro": "Al-māʾu māliḥun jiddan, fa-naṭfū dūna juhdin."
    },
    {
-    "fr": "Kawaguchiko est l'un des cinq lacs du Fuji.",
-    "ja": "河口湖は富士五湖の一つです。",
-    "ro": "Kawaguchiko wa Fuji goko no hitotsu desu."
+    "fr": "Ne mets pas la tête sous l'eau !",
+    "ar": "لَا تَضَعْ رَأْسَكَ تَحْتَ الْمَاءِ!",
+    "ro": "Lā taḍaʿ raʾsaka taḥta al-māʾi!"
    },
    {
-    "fr": "On a loué des vélos et fait le tour du lac.",
-    "ja": "自転車を借りて、湖を一周しました。",
-    "ro": "Jitensha o karite, mizuumi o isshū shimashita."
+    "fr": "Le sel fait mal aux yeux.",
+    "ar": "الْمِلْحُ يُؤْلِمُ الْعُيُونَ.",
+    "ro": "Al-milḥu yuʾlimu al-ʿuyūna."
    },
    {
-    "fr": "La vue depuis la pagode Chūreitō est la plus célèbre.",
-    "ja": "忠霊塔からの景色が一番有名です。",
-    "ro": "Chūreitō kara no keshiki ga ichiban yūmei desu."
+    "fr": "Les gens se couvrent le corps de boue noire.",
+    "ar": "يُغَطِّي النَّاسُ أَجْسَامَهُمْ بِالطِّينِ الْأَسْوَدِ.",
+    "ro": "Yughaṭṭī an-nāsu ajsāmahum biṭ-ṭīni al-aswadi."
    },
    {
-    "fr": "Pour y arriver, on gravit presque quatre cents marches.",
-    "ja": "四百段近くの階段を上ります。",
-    "ro": "Yonhyakudan chikaku no kaidan o noborimasu."
+    "fr": "On dit que c'est bon pour la peau.",
+    "ar": "يُقَالُ إِنَّهُ مُفِيدٌ لِلْبَشَرَةِ.",
+    "ro": "Yuqālu innahu mufīdun lil-basharati."
    },
    {
-    "fr": "Au printemps, on voit les cerisiers et le Fuji ensemble.",
-    "ja": "春は桜と富士山がいっしょに見えます。",
-    "ro": "Haru wa sakura to Fujisan ga issho ni miemasu."
+    "fr": "Il fait trente-cinq degrés à l'ombre.",
+    "ar": "دَرَجَةُ الْحَرَارَةِ خَمْسٌ وَثَلَاثُونَ فِي الظِّلِّ.",
+    "ro": "Darajatu al-ḥarārati khamsun wa-thalāthūna fī aẓ-ẓilli."
    },
    {
-    "fr": "J'ai pris plus de cent photos ce matin.",
-    "ja": "今朝、写真を百枚以上撮りました。",
-    "ro": "Kesa, shashin o hyakumai ijō torimashita."
+    "fr": "Après la baignade, on prend une douche d'eau douce.",
+    "ar": "بَعْدَ السِّبَاحَةِ، نَسْتَحِمُّ بِمَاءٍ عَذْبٍ.",
+    "ro": "Baʿda as-sibāḥati, nastaḥimmu bi-māʾin ʿadhbin."
    },
    {
-    "fr": "À midi, des nuages ont caché le sommet.",
-    "ja": "昼に、雲が山頂を隠しました。",
-    "ro": "Hiru ni, kumo ga sanchō o kakushimashita."
+    "fr": "J'ai acheté du savon au sel de la mer Morte.",
+    "ar": "اشْتَرَيْتُ صَابُونًا بِمِلْحِ الْبَحْرِ الْمَيِّتِ.",
+    "ro": "Ishtaraytu ṣābūnan bi-milḥi al-Baḥri al-Mayyiti."
    },
    {
-    "fr": "Ce soir, on mange des hōtō, les grosses nouilles de la région.",
-    "ja": "今晩は名物のほうとうを食べます。",
-    "ro": "Konban wa meibutsu no hōtō o tabemasu."
+    "fr": "Le niveau de la mer baisse chaque année.",
+    "ar": "يَنْخَفِضُ مُسْتَوَى الْبَحْرِ كُلَّ عَامٍ.",
+    "ro": "Yankhafiḍu mustawā al-baḥri kulla ʿāmin."
    }
   ]
  },
  {
-  "title": "Préparer l'ascension du Fuji",
+  "title": "Plongée à Aqaba",
   "phrases": [
    {
-    "fr": "La saison d'ascension du Fuji, c'est surtout juillet et août.",
-    "ja": "富士山の登山シーズンは主に七月と八月です。",
-    "ro": "Fujisan no tozan shīzun wa omo ni shichigatsu to hachigatsu desu."
+    "fr": "Nous arrivons à Aqaba, au bord de la mer Rouge.",
+    "ar": "نَصِلُ إِلَى الْعَقَبَةِ عَلَى شَاطِئِ الْبَحْرِ الْأَحْمَرِ.",
+    "ro": "Naṣilu ilā al-ʿAqabati ʿalā shāṭiʾi al-Baḥri al-Aḥmari."
    },
    {
-    "fr": "On commence à monter depuis la cinquième station en fin d'après-midi.",
-    "ja": "夕方、五合目から登り始めます。",
-    "ro": "Yūgata, gogōme kara noborihajimemasu."
+    "fr": "Si tu aimes la mer, tu vas adorer cette ville.",
+    "ar": "إِذَا كُنْتَ تُحِبُّ الْبَحْرَ، فَسَتُحِبُّ هَذِهِ الْمَدِينَةَ كَثِيرًا.",
+    "ro": "Idhā kunta tuḥibbu al-baḥra, fa-satuḥibbu hādhihi al-madīnata kathīran."
    },
    {
-    "fr": "Si on arrive au refuge à huit heures du soir, on pourra dormir un peu.",
-    "ja": "夜八時に山小屋に着いたら、少し寝られます。",
-    "ro": "Yoru hachiji ni yamagoya ni tsuitara, sukoshi neraremasu."
+    "fr": "Si le temps est beau demain, nous ferons de la plongée.",
+    "ar": "إِذَا كَانَ الْجَوُّ جَمِيلًا غَدًا، فَسَنَغُوصُ.",
+    "ro": "Idhā kāna al-jawwu jamīlan ghadan, fa-sanaghūṣu."
    },
    {
-    "fr": "Une fois au sommet, on regardera le lever du soleil.",
-    "ja": "頂上に着いたら、ご来光を見ます。",
-    "ro": "Chōjō ni tsuitara, goraikō o mimasu."
+    "fr": "Quand on plonge, on voit des poissons de toutes les couleurs.",
+    "ar": "إِذَا غُصْنَا، نَرَى أَسْمَاكًا بِكُلِّ الْأَلْوَانِ.",
+    "ro": "Idhā ghuṣnā, narā asmākan bi-kulli al-alwāni."
    },
    {
-    "fr": "S'il pleut, on annule l'ascension.",
-    "ja": "雨が降ったら、登山はやめます。",
-    "ro": "Ame ga futtara, tozan wa yamemasu."
+    "fr": "Si tu as peur, reste près du moniteur.",
+    "ar": "إِذَا خِفْتَ، فَابْقَ قُرْبَ الْمُدَرِّبِ.",
+    "ro": "Idhā khifta, fa-ibqa qurba al-mudarribi."
    },
    {
-    "fr": "Si vous avez mal à la tête, redescendez tout de suite.",
-    "ja": "頭が痛くなったら、すぐに下りてください。",
-    "ro": "Atama ga itaku nattara, sugu ni orite kudasai."
+    "fr": "Si tu ne sais pas nager, prends un gilet de sauvetage.",
+    "ar": "إِذَا كُنْتَ لَا تَعْرِفُ السِّبَاحَةَ، فَخُذْ سُتْرَةَ نَجَاةٍ.",
+    "ro": "Idhā kunta lā taʿrifu as-sibāḥata, fa-khudh sutrata najātin."
    },
    {
-    "fr": "Même en été, il fait près de zéro degré au sommet.",
-    "ja": "夏でも頂上は零度近くになります。",
-    "ro": "Natsu demo chōjō wa reido chikaku ni narimasu."
+    "fr": "Ne touche pas le corail, il est fragile.",
+    "ar": "لَا تَلْمِسِ الْمَرْجَانَ، فَهُوَ هَشٌّ.",
+    "ro": "Lā talmisi al-marjāna, fa-huwa hashshun."
    },
    {
-    "fr": "J'ai acheté un bâton de marche en bois.",
-    "ja": "木の杖を買いました。",
-    "ro": "Ki no tsue o kaimashita."
+    "fr": "Quand il fait trop chaud, nous restons à l'ombre.",
+    "ar": "إِذَا اشْتَدَّ الْحَرُّ، نَبْقَى فِي الظِّلِّ.",
+    "ro": "Idhā ishtadda al-ḥarru, nabqā fī aẓ-ẓilli."
    },
    {
-    "fr": "Dans les refuges, on peut faire marquer son bâton au fer chaud.",
-    "ja": "山小屋で杖に焼き印を押してもらえます。",
-    "ro": "Yamagoya de tsue ni yakiin o oshite moraemasu."
+    "fr": "Si nous avons le temps, nous prendrons un bateau à fond de verre.",
+    "ar": "إِذَا كَانَ لَدَيْنَا وَقْتٌ، فَسَنَرْكَبُ قَارِبًا ذَا قَاعٍ زُجَاجِيٍّ.",
+    "ro": "Idhā kāna ladaynā waqtun, fa-sanarkabu qāriban dhā qāʿin zujājiyyin."
    },
    {
-    "fr": "Une fois rentrés, on file directement à l'onsen !",
-    "ja": "帰ったら、すぐ温泉に行きましょう！",
-    "ro": "Kaettara, sugu onsen ni ikimashō!"
+    "fr": "Le soir, on mange du poisson grillé sur le port.",
+    "ar": "فِي الْمَسَاءِ، نَأْكُلُ سَمَكًا مَشْوِيًّا فِي الْمِينَاءِ.",
+    "ro": "Fī al-masāʾi, naʾkulu samakan mashwiyyan fī al-mīnāʾi."
    }
   ],
   "tip": {
-   "title": "« -tara » : si, quand, la condition",
-   "example": "S'il pleut, on annule l'ascension. — 雨が<b>降ったら</b>、登山はやめます。",
-   "exampleRo": "Ame ga futtara, tozan wa yamemasu.",
-   "lit": "pluie · [sujet] · tomber-si · ascension · [thème] · arrêter (poli)",
-   "body": "Pour dire « si » ou « quand », on prend le verbe au passé familier en « ta » et on ajoute simplement « ra ». « Futta », il a plu, devient « futtara », s'il pleut. « Ame ga futtara, tozan wa yamemasu » se dit littéralement : pluie, sujet, si elle tombe, ascension, thème, on arrête. La même forme sert aussi pour « quand » : « tsuitara », une fois arrivés, ou « kaettara », une fois rentrés. Ça marche aussi avec les adjectifs : « itakattara », si ça fait mal. Astuce : « tara » veut dire « une fois que c'est fait », comme si l'action était déjà passée dans votre tête."
+   "title": "Idha : si, quand",
+   "example": "Si le temps est beau demain, nous ferons de la plongée. — <b>إِذَا</b> كَانَ الْجَوُّ جَمِيلًا غَدًا، فَسَنَغُوصُ.",
+   "exampleRo": "Idhā kāna al-jawwu jamīlan ghadan, fa-sanaghūṣu.",
+   "lit": "si · était · le-temps · beau · demain · [alors]-nous-plongerons",
+   "body": "Le mot « idha » veut dire à la fois si et quand : il présente une situation que l'on attend ou qui arrive souvent. Particularité étonnante, après « idha » le verbe se met en général au passé, même quand on parle de l'avenir. « Idha ghusna » se dit littéralement : si nous avons plongé, et signifie quand on plonge. Quand la suite commence par un futur ou par un ordre, on ajoute « fa », alors : « fa-sanaghusu », alors nous plongerons, « fa-khudh », alors prends. Astuce : « idha » regarde vers ce qui va probablement arriver, et le petit « fa » fait le pont entre la condition et sa conséquence."
   }
  },
  {
-  "title": "Une cheville tordue en randonnée",
+  "title": "Un sac oublié dans le taxi",
   "phrases": [
    {
-    "fr": "Je me suis tordu la cheville dans la descente.",
-    "ja": "下りで足首をひねりました。",
-    "ro": "Kudari de ashikubi o hinerimashita."
+    "fr": "Zut, j'ai oublié mon sac dans le taxi !",
+    "ar": "لَقَدْ نَسِيتُ حَقِيبَتِي فِي سَيَّارَةِ الْأُجْرَةِ!",
+    "ro": "Laqad nasītu ḥaqībatī fī sayyārati al-ujrati!"
    },
    {
-    "fr": "Tu arrives à marcher ?",
-    "ja": "歩けますか？",
-    "ro": "Arukemasu ka?"
+    "fr": "Mon appareil photo était dedans.",
+    "ar": "كَانَتْ آلَةُ تَصْوِيرِي فِيهَا.",
+    "ro": "Kānat ālatu taṣwīrī fīhā."
    },
    {
-    "fr": "Un peu, mais ça fait vraiment mal.",
-    "ja": "少しは歩けますが、とても痛いです。",
-    "ro": "Sukoshi wa arukemasu ga, totemo itai desu."
+    "fr": "Tu te souviens du numéro de la voiture ?",
+    "ar": "هَلْ تَتَذَكَّرُ رَقْمَ السَّيَّارَةِ؟",
+    "ro": "Hal tatadhakkaru raqma as-sayyārati?"
    },
    {
-    "fr": "Asseyons-nous un moment sur ce rocher.",
-    "ja": "ちょっとこの岩に座りましょう。",
-    "ro": "Chotto kono iwa ni suwarimashō."
+    "fr": "Non, mais j'ai gardé le reçu.",
+    "ar": "لَا، لَكِنِّي احْتَفَظْتُ بِالْإِيصَالِ.",
+    "ro": "Lā, lākinnī iḥtafaẓtu bil-īṣāli."
    },
    {
-    "fr": "J'ai une bande dans mon sac à dos.",
-    "ja": "リュックに包帯があります。",
-    "ro": "Ryukku ni hōtai ga arimasu."
+    "fr": "Le réceptionniste appelle la compagnie de taxis.",
+    "ar": "يَتَّصِلُ مُوَظَّفُ الِاسْتِقْبَالِ بِشَرِكَةِ سَيَّارَاتِ الْأُجْرَةِ.",
+    "ro": "Yattaṣilu muwaẓẓafu al-istiqbāli bi-sharikati sayyārāti al-ujrati."
    },
    {
-    "fr": "Un autre randonneur est venu nous aider.",
-    "ja": "ほかの登山者が手伝ってくれました。",
-    "ro": "Hoka no tozansha ga tetsudatte kuremashita."
+    "fr": "Le chauffeur a trouvé le sac sur le siège arrière.",
+    "ar": "وَجَدَ السَّائِقُ الْحَقِيبَةَ عَلَى الْمَقْعَدِ الْخَلْفِيِّ.",
+    "ro": "Wajada as-sāʾiqu al-ḥaqībata ʿalā al-maqʿadi al-khalfiyyi."
    },
    {
-    "fr": "On redescend doucement jusqu'au parking.",
-    "ja": "駐車場までゆっくり下ります。",
-    "ro": "Chūshajō made yukkuri orimasu."
+    "fr": "Il va la rapporter dans une heure.",
+    "ar": "سَيُعِيدُهَا بَعْدَ سَاعَةٍ.",
+    "ro": "Sayuʿīduhā baʿda sāʿatin."
    },
    {
-    "fr": "Y a-t-il un médecin ouvert le dimanche près d'ici ?",
-    "ja": "この近くに日曜日もやっている病院はありますか？",
-    "ro": "Kono chikaku ni nichiyōbi mo yatte iru byōin wa arimasu ka?"
+    "fr": "Je veux lui donner un pourboire pour le remercier.",
+    "ar": "أُرِيدُ أَنْ أُعْطِيَهُ إِكْرَامِيَّةً لِأَشْكُرَهُ.",
+    "ro": "Urīdu an uʿṭiyahu ikrāmiyyatan li-ashkurahu."
    },
    {
-    "fr": "Le médecin a dit que ce n'était pas cassé.",
-    "ja": "お医者さんは骨折ではないと言いました。",
-    "ro": "Oishasan wa kossetsu de wa nai to iimashita."
+    "fr": "Ici, les gens sont vraiment honnêtes.",
+    "ar": "النَّاسُ هُنَا أُمَنَاءُ حَقًّا.",
+    "ro": "An-nāsu hunā umanāʾu ḥaqqan."
    },
    {
-    "fr": "Je dois me reposer deux ou trois jours.",
-    "ja": "二、三日休まなければなりません。",
-    "ro": "Ni, sannichi yasumanakereba narimasen."
+    "fr": "La prochaine fois, je ferai plus attention.",
+    "ar": "فِي الْمَرَّةِ الْقَادِمَةِ، سَأَنْتَبِهُ أَكْثَرَ.",
+    "ro": "Fī al-marrati al-qādimati, sa-antabihu akthara."
    }
   ]
  },
  {
-  "title": "Un sac oublié dans le train",
+  "title": "Une insolation à la pharmacie",
   "phrases": [
    {
-    "fr": "J'ai laissé mon sac dans le train local.",
-    "ja": "普通電車にかばんを忘れました。",
-    "ro": "Futsū densha ni kaban o wasuremashita."
+    "fr": "J'ai pris une insolation à la plage.",
+    "ar": "أُصِبْتُ بِضَرْبَةِ شَمْسٍ عَلَى الشَّاطِئِ.",
+    "ro": "Uṣibtu bi-ḍarbati shamsin ʿalā ash-shāṭiʾi."
    },
    {
-    "fr": "Je m'en suis aperçu sur le quai.",
-    "ja": "ホームで気がつきました。",
-    "ro": "Hōmu de ki ga tsukimashita."
+    "fr": "J'ai mal à la tête et un peu de fièvre.",
+    "ar": "عِنْدِي صُدَاعٌ وَحُمَّى خَفِيفَةٌ.",
+    "ro": "ʿIndī ṣudāʿun wa-ḥummā khafīfatun."
    },
    {
-    "fr": "Allons tout de suite au bureau de la gare.",
-    "ja": "すぐ駅の事務室に行きましょう。",
-    "ro": "Sugu eki no jimushitsu ni ikimashō."
+    "fr": "Où se trouve la pharmacie la plus proche d'ici ?",
+    "ar": "أَيْنَ أَقْرَبُ صَيْدَلِيَّةٍ مِنْ هُنَا؟",
+    "ro": "Ayna aqrabu ṣaydaliyyatin min hunā?"
    },
    {
-    "fr": "Dans quelle voiture étiez-vous ?",
-    "ja": "何号車に乗っていましたか？",
-    "ro": "Nangōsha ni notte imashita ka?"
+    "fr": "Le pharmacien me pose quelques questions.",
+    "ar": "يَطْرَحُ عَلَيَّ الصَّيْدَلِيُّ بَعْضَ الْأَسْئِلَةِ.",
+    "ro": "Yaṭraḥu ʿalayya aṣ-ṣaydaliyyu baʿḍa al-asʾilati."
    },
    {
-    "fr": "Dans la voiture trois, près de la porte.",
-    "ja": "三号車の、ドアの近くです。",
-    "ro": "Sangōsha no, doa no chikaku desu."
+    "fr": "Tu as bu assez d'eau aujourd'hui ?",
+    "ar": "هَلْ شَرِبْتَ مَاءً كَافِيًا الْيَوْمَ؟",
+    "ro": "Hal sharibta māʾan kāfiyan al-yawma?"
    },
    {
-    "fr": "Il ressemble à quoi, votre sac ?",
-    "ja": "どんなかばんですか？",
-    "ro": "Donna kaban desu ka?"
+    "fr": "Prends ce médicament deux fois par jour.",
+    "ar": "خُذْ هَذَا الدَّوَاءَ مَرَّتَيْنِ فِي الْيَوْمِ.",
+    "ro": "Khudh hādhā ad-dawāʾa marratayni fī al-yawmi."
    },
    {
-    "fr": "C'est un sac à dos noir avec un porte-clés en forme d'ours.",
-    "ja": "クマのキーホルダーがついた黒いリュックです。",
-    "ro": "Kuma no kīhorudā ga tsuita kuroi ryukku desu."
+    "fr": "Repose-toi dans une chambre fraîche.",
+    "ar": "اسْتَرِحْ فِي غُرْفَةٍ بَارِدَةٍ.",
+    "ro": "Istariḥ fī ghurfatin bāridatin."
    },
    {
-    "fr": "L'employé téléphone à la gare du terminus.",
-    "ja": "駅員さんが終点の駅に電話します。",
-    "ro": "Ekiin san ga shūten no eki ni denwa shimasu."
+    "fr": "Et évite le soleil pendant deux jours.",
+    "ar": "وَتَجَنَّبِ الشَّمْسَ لِمُدَّةِ يَوْمَيْنِ.",
+    "ro": "Wa-tajannabi ash-shamsa li-muddati yawmayni."
    },
    {
-    "fr": "Il a été retrouvé ! Vous pourrez le récupérer en gare d'Otaru.",
-    "ja": "見つかりました！小樽駅で受け取れます。",
-    "ro": "Mitsukarimashita! Otaru eki de uketoremasu."
+    "fr": "Le médicament coûte trois dinars.",
+    "ar": "يُكَلِّفُ الدَّوَاءُ ثَلَاثَةَ دَنَانِيرَ.",
+    "ro": "Yukallifu ad-dawāʾu thalāthata danānīra."
    },
    {
-    "fr": "Au Japon, les objets perdus réapparaissent presque toujours.",
-    "ja": "日本では、なくした物がたいてい見つかります。",
-    "ro": "Nihon de wa, nakushita mono ga taitei mitsukarimasu."
+    "fr": "Le lendemain, je me sens beaucoup mieux.",
+    "ar": "فِي الْيَوْمِ التَّالِي، أَشْعُرُ بِتَحَسُّنٍ كَبِيرٍ.",
+    "ro": "Fī al-yawmi at-tālī, ashʿuru bi-taḥassunin kabīrin."
    }
   ]
  },
  {
-  "title": "Les derniers souvenirs",
+  "title": "Les derniers souvenirs à Amman",
   "phrases": [
    {
-    "fr": "Je dois acheter des souvenirs pour mes collègues.",
-    "ja": "同僚にお土産を買わなければなりません。",
-    "ro": "Dōryō ni omiyage o kawanakereba narimasen."
+    "fr": "Avant de partir, on fait un tour au souk d'Amman.",
+    "ar": "قَبْلَ السَّفَرِ، نَتَجَوَّلُ فِي سُوقِ عَمَّانَ.",
+    "ro": "Qabla as-safari, natajawwalu fī sūqi ʿAmmāna."
    },
    {
-    "fr": "Ces biscuits blancs sont le grand classique de Hokkaido.",
-    "ja": "この白いクッキーは北海道の名物です。",
-    "ro": "Kono shiroi kukkī wa Hokkaidō no meibutsu desu."
+    "fr": "Je cherche un cadeau pour mes parents.",
+    "ar": "أَبْحَثُ عَنْ هَدِيَّةٍ لِوَالِدَيَّ.",
+    "ro": "Abḥathu ʿan hadiyyatin li-wālidayya."
    },
    {
-    "fr": "Chaque boîte contient douze biscuits emballés un par un.",
-    "ja": "一箱に十二枚入っていて、一枚ずつ包んであります。",
-    "ro": "Hitohako ni jūnimai haitte ite, ichimai zutsu tsutsunde arimasu."
+    "fr": "Ces bouteilles de sable coloré sont magnifiques.",
+    "ar": "زُجَاجَاتُ الرَّمْلِ الْمُلَوَّنِ هَذِهِ رَائِعَةٌ.",
+    "ro": "Zujājātu ar-ramli al-mulawwani hādhihi rāʾiʿatun."
    },
    {
-    "fr": "Ma mère adore le fromage de Furano.",
-    "ja": "母は富良野のチーズが大好きです。",
-    "ro": "Haha wa Furano no chīzu ga daisuki desu."
+    "fr": "L'artisan dessine un chameau avec du sable.",
+    "ar": "يَرْسُمُ الْحِرَفِيُّ جَمَلًا بِالرَّمْلِ.",
+    "ro": "Yarsumu al-ḥirafiyyu jamalan bir-ramli."
    },
    {
-    "fr": "Il faut le garder au frais pendant le voyage.",
-    "ja": "旅行中は冷やしておかなければなりません。",
-    "ro": "Ryokōchū wa hiyashite okanakereba narimasen."
+    "fr": "Il peut écrire mon prénom dans la bouteille.",
+    "ar": "يَسْتَطِيعُ أَنْ يَكْتُبَ اسْمِي فِي الزُّجَاجَةِ.",
+    "ro": "Yastaṭīʿu an yaktuba ismī fī az-zujājati."
    },
    {
-    "fr": "Pourriez-vous me faire un paquet cadeau ?",
-    "ja": "プレゼント用に包んでもらえますか？",
-    "ro": "Purezento yō ni tsutsunde moraemasu ka?"
+    "fr": "J'achète aussi du café à la cardamome.",
+    "ar": "أَشْتَرِي أَيْضًا قَهْوَةً بِالْهَيْلِ.",
+    "ro": "Ashtarī ayḍan qahwatan bil-hayli."
    },
    {
-    "fr": "La valise est déjà presque pleine.",
-    "ja": "スーツケースはもうほとんどいっぱいです。",
-    "ro": "Sūtsukēsu wa mō hotondo ippai desu."
+    "fr": "Le vendeur me fait goûter des dattes.",
+    "ar": "يُذِيقُنِي الْبَائِعُ بَعْضَ التَّمْرِ.",
+    "ro": "Yudhīqunī al-bāʾiʿu baʿḍa at-tamri."
    },
    {
-    "fr": "On envoie un carton jusqu'à l'aéroport par livraison.",
-    "ja": "段ボールを一つ空港まで宅配便で送ります。",
-    "ro": "Danbōru o hitotsu kūkō made takuhaibin de okurimasu."
+    "fr": "Fais-moi un bon prix, j'en prends deux.",
+    "ar": "أَعْطِنِي سِعْرًا خَاصًّا، سَآخُذُ اثْنَتَيْنِ.",
+    "ro": "Aʿṭinī siʿran khāṣṣan, saʾākhudhu ithnatayni."
    },
    {
-    "fr": "Ce service de livraison est vraiment pratique.",
-    "ja": "この宅配サービスはとても便利です。",
-    "ro": "Kono takuhai sābisu wa totemo benri desu."
+    "fr": "D'accord, dix dinars pour les deux.",
+    "ar": "حَسَنًا، عَشَرَةُ دَنَانِيرَ لِلِاثْنَتَيْنِ.",
+    "ro": "Ḥasanan, ʿasharatu danānīra lil-ithnatayni."
    },
    {
-    "fr": "Je pense que ce voyage dans le nord va me manquer.",
-    "ja": "北の旅がなつかしくなると思います。",
-    "ro": "Kita no tabi ga natsukashiku naru to omoimasu."
+    "fr": "Ma valise est maintenant bien trop lourde !",
+    "ar": "أَصْبَحَتْ حَقِيبَتِي ثَقِيلَةً جِدًّا الْآنَ!",
+    "ro": "Aṣbaḥat ḥaqībatī thaqīlatan jiddan al-āna!"
    }
   ]
  },
@@ -6424,54 +6424,54 @@ const level2Module2Lessons = [
   "title": "Fin du module : un bilan",
   "phrases": [
    {
-    "fr": "Ce voyage nous a menés de Hokkaido jusqu'au pied du Fuji.",
-    "ja": "この旅で、北海道から富士山のふもとまで行きました。",
-    "ro": "Kono tabi de, Hokkaidō kara Fujisan no fumoto made ikimashita."
+    "fr": "Ce voyage nous a menés de Louxor à Aqaba.",
+    "ar": "أَخَذَتْنَا هَذِهِ الرِّحْلَةُ مِنَ الْأُقْصُرِ إِلَى الْعَقَبَةِ.",
+    "ro": "Akhadhatnā hādhihi ar-riḥlatu mina al-Uqṣuri ilā al-ʿAqabati."
    },
    {
-    "fr": "Je sais maintenant exprimer l'obligation en japonais.",
-    "ja": "日本語で「〜なければなりません」が言えるようになりました。",
-    "ro": "Nihongo de \"nakereba narimasen\" ga ieru yō ni narimashita."
+    "fr": "Nous avons appris à dire ce qu'il faut faire.",
+    "ar": "تَعَلَّمْنَا أَنْ نَقُولَ مَا يَجِبُ أَنْ نَفْعَلَهُ.",
+    "ro": "Taʿallamnā an naqūla mā yajibu an nafʿalahu."
    },
    {
-    "fr": "La forme potentielle nous a beaucoup servi en voyage.",
-    "ja": "可能形は旅行でとても役に立ちました。",
-    "ro": "Kanōkei wa ryokō de totemo yaku ni tachimashita."
+    "fr": "Nous savons aussi raconter nos anciennes habitudes.",
+    "ar": "نَعْرِفُ أَيْضًا كَيْفَ نَحْكِي عَنْ عَادَاتِنَا الْقَدِيمَةِ.",
+    "ro": "Naʿrifu ayḍan kayfa naḥkī ʿan ʿādātinā al-qadīmati."
    },
    {
-    "fr": "Avec « tara », on peut parler de ce qui arrivera si…",
-    "ja": "「〜たら」で、もしもの話ができます。",
-    "ro": "\"Tara\" de, moshimo no hanashi ga dekimasu."
+    "fr": "Nous utilisons maintenant les relatifs sans difficulté.",
+    "ar": "نَسْتَعْمِلُ الْآنَ الْأَسْمَاءَ الْمَوْصُولَةَ بِسُهُولَةٍ.",
+    "ro": "Nastaʿmilu al-āna al-asmāʾa al-mawṣūlata bi-suhūlatin."
    },
    {
-    "fr": "Je pense que mon japonais a vraiment progressé.",
-    "ja": "私の日本語はかなり上手になったと思います。",
-    "ro": "Watashi no nihongo wa kanari jōzu ni natta to omoimasu."
+    "fr": "L'arabe devient un peu plus familier chaque jour.",
+    "ar": "تُصْبِحُ الْعَرَبِيَّةُ مَأْلُوفَةً أَكْثَرَ كُلَّ يَوْمٍ.",
+    "ro": "Tuṣbiḥu al-ʿarabiyyatu maʾlūfatan akthara kulla yawmin."
    },
    {
-    "fr": "Les imprévus ne me font plus peur.",
-    "ja": "もう予定外のことも怖くありません。",
-    "ro": "Mō yoteigai no koto mo kowaku arimasen."
+    "fr": "Le plus beau souvenir, c'est peut-être la nuit dans le désert.",
+    "ar": "أَجْمَلُ ذِكْرَى هِيَ رُبَّمَا اللَّيْلَةُ فِي الصَّحْرَاءِ.",
+    "ro": "Ajmalu dhikrā hiya rubbamā al-laylatu fī aṣ-ṣaḥrāʾi."
    },
    {
-    "fr": "J'ai envie de retourner dans un onsen du Tohoku.",
-    "ja": "また東北の温泉に行きたいです。",
-    "ro": "Mata Tōhoku no onsen ni ikitai desu."
+    "fr": "Si tu révises un peu chaque jour, tu progresseras vite.",
+    "ar": "إِذَا رَاجَعْتَ قَلِيلًا كُلَّ يَوْمٍ، فَسَتَتَقَدَّمُ بِسُرْعَةٍ.",
+    "ro": "Idhā rājaʿta qalīlan kulla yawmin, fa-satataqaddamu bi-surʿatin."
    },
    {
-    "fr": "Le prochain module parlera de conversation entre amis.",
-    "ja": "次は友達との会話を勉強します。",
-    "ro": "Tsugi wa tomodachi to no kaiwa o benkyō shimasu."
+    "fr": "Félicitations, tu as fait un grand pas.",
+    "ar": "مَبْرُوكٌ، لَقَدْ خَطَوْتَ خُطْوَةً كَبِيرَةً.",
+    "ro": "Mabrūkun, laqad khaṭawta khuṭwatan kabīratan."
    },
    {
-    "fr": "Prenons le temps de souffler un peu avant la suite.",
-    "ja": "次に進む前に、少し休みましょう。",
-    "ro": "Tsugi ni susumu mae ni, sukoshi yasumimashō."
+    "fr": "Prends le temps de te reposer un peu.",
+    "ar": "خُذْ وَقْتَكَ لِتَرْتَاحَ قَلِيلًا.",
+    "ro": "Khudh waqtaka li-tartāḥa qalīlan."
    },
    {
-    "fr": "Bravo pour ce beau voyage, et à très bientôt !",
-    "ja": "おつかれさまでした。またすぐに会いましょう！",
-    "ro": "Otsukaresama deshita. Mata sugu ni aimashō!"
+    "fr": "Rendez-vous au prochain module pour parler avec les gens.",
+    "ar": "نَلْتَقِي فِي الْوَحْدَةِ الْقَادِمَةِ لِنَتَحَدَّثَ مَعَ النَّاسِ.",
+    "ro": "Naltaqī fī al-waḥdati al-qādimati li-nataḥaddatha maʿa an-nāsi."
    }
   ]
  }
@@ -6479,1082 +6479,1082 @@ const level2Module2Lessons = [
 
 const level2Module3Lessons = [
  {
-  "title": "Retrouvailles à Fukuoka",
+  "title": "Un café sur la corniche",
   "phrases": [
    {
-    "fr": "Ça fait vraiment longtemps, Kenta !",
-    "ja": "健太さん、本当にお久しぶりです。",
-    "ro": "Kenta-san, hontō ni ohisashiburi desu."
+    "fr": "On se retrouve sur la corniche ce soir ?",
+    "ar": "هَلْ نَلْتَقِي عَلَى الْكُورْنِيشِ هَذَا الْمَسَاءَ؟",
+    "ro": "Hal naltaqī ʿalā al-kūrnīshi hādhā al-masāʾa?"
    },
    {
-    "fr": "Je suis arrivé à Fukuoka hier soir.",
-    "ja": "昨日の夜、福岡に着きました。",
-    "ro": "Kinō no yoru, Fukuoka ni tsukimashita."
+    "fr": "Oui, vers six heures, près du phare.",
+    "ar": "نَعَمْ، نَحْوَ السَّاعَةِ السَّادِسَةِ، قُرْبَ الْمَنَارَةِ.",
+    "ro": "Naʿam, naḥwa as-sāʿati as-sādisati, qurba al-manārati."
    },
    {
-    "fr": "Tu n'as pas changé du tout.",
-    "ja": "全然変わっていませんね。",
-    "ro": "Zenzen kawatte imasen ne."
+    "fr": "J'adore marcher au bord de la mer à Beyrouth.",
+    "ar": "أُحِبُّ الْمَشْيَ عَلَى شَاطِئِ الْبَحْرِ فِي بَيْرُوتَ.",
+    "ro": "Uḥibbu al-mashya ʿalā shāṭiʾi al-baḥri fī bayrūta."
    },
    {
-    "fr": "Tu habites toujours près de la gare de Hakata ?",
-    "ja": "まだ博多駅の近くに住んでいますか？",
-    "ro": "Mada Hakata eki no chikaku ni sunde imasu ka?"
+    "fr": "L'endroit est bondé le dimanche.",
+    "ar": "يَكُونُ الْمَكَانُ مُزْدَحِمًا يَوْمَ الْأَحَدِ.",
+    "ro": "Yakūnu al-makānu muzdaḥiman yawma al-aḥadi."
    },
    {
-    "fr": "Non, j'ai déménagé à Tenjin l'année dernière.",
-    "ja": "いいえ、去年天神に引っ越しました。",
-    "ro": "Iie, kyonen Tenjin ni hikkoshimashita."
+    "fr": "Allez, on boit un café chez le vendeur ambulant.",
+    "ar": "هَيَّا نَشْرَبُ قَهْوَةً عِنْدَ الْبَائِعِ الْمُتَجَوِّلِ.",
+    "ro": "Hayyā nashrabu qahwatan ʿinda al-bāʾiʿi al-mutajawwili."
    },
    {
-    "fr": "Tenjin, c'est pratique pour sortir le soir.",
-    "ja": "天神は夜出かけるのに便利です。",
-    "ro": "Tenjin wa yoru dekakeru no ni benri desu."
+    "fr": "Le coucher de soleil est magnifique d'ici.",
+    "ar": "غُرُوبُ الشَّمْسِ رَائِعٌ مِنْ هُنَا.",
+    "ro": "Ghurūbu ash-shamsi rāʾiʿun min hunā."
    },
    {
-    "fr": "Tu as le temps de prendre un café maintenant ?",
-    "ja": "今、コーヒーを飲む時間がありますか？",
-    "ro": "Ima, kōhī o nomu jikan ga arimasu ka?"
+    "fr": "Tu viens souvent ici avec tes amis ?",
+    "ar": "هَلْ تَأْتِي إِلَى هُنَا كَثِيرًا مَعَ أَصْدِقَائِكَ؟",
+    "ro": "Hal taʾtī ilā hunā kathīran maʿa aṣdiqāʾika?"
    },
    {
-    "fr": "Bien sûr, je connais un bon café près d'ici.",
-    "ja": "もちろんです。この近くにいい喫茶店を知っています。",
-    "ro": "Mochiron desu. Kono chikaku ni ii kissaten o shitte imasu."
+    "fr": "Oui, c'est notre endroit préféré depuis l'époque de l'université.",
+    "ar": "نَعَمْ، هَذَا مَكَانُنَا الْمُفَضَّلُ مُنْذُ أَيَّامِ الْجَامِعَةِ.",
+    "ro": "Naʿam, hādhā makānunā al-mufaḍḍalu mundhu ayyāmi al-jāmiʿati."
    },
    {
-    "fr": "On a tellement de choses à se raconter.",
-    "ja": "話したいことがたくさんあります。",
-    "ro": "Hanashitai koto ga takusan arimasu."
+    "fr": "Regarde, les pêcheurs rentrent au port.",
+    "ar": "اُنْظُرْ، الصَّيَّادُونَ يَعُودُونَ إِلَى الْمِينَاءِ.",
+    "ro": "Unẓur, aṣ-ṣayyādūna yaʿūdūna ilā al-mīnāʾi."
    },
    {
-    "fr": "Je suis vraiment content de te revoir.",
-    "ja": "また会えて本当にうれしいです。",
-    "ro": "Mata aete hontō ni ureshii desu."
+    "fr": "Cette promenade me fait toujours du bien.",
+    "ar": "هَذِهِ النُّزْهَةُ تُرِيحُنِي دَائِمًا.",
+    "ro": "Hādhihi an-nuzhatu turīḥunī dāʾiman."
    }
   ]
  },
  {
-  "title": "Parler comme entre amis",
+  "title": "Que penses-tu de Beyrouth ?",
   "phrases": [
    {
-    "fr": "Salut Yui, tu vas bien ?",
-    "ja": "ゆい、元気？",
-    "ro": "Yui, genki?"
+    "fr": "Je pense que Beyrouth est une ville unique.",
+    "ar": "أَظُنُّ أَنَّ بَيْرُوتَ مَدِينَةٌ فَرِيدَةٌ.",
+    "ro": "Aẓunnu anna bayrūta madīnatun farīdatun."
    },
    {
-    "fr": "Ouais, ça va. J'ai fini le boulot.",
-    "ja": "うん、元気。仕事が終わったよ。",
-    "ro": "Un, genki. Shigoto ga owatta yo."
+    "fr": "Je pense que la vie ici est un peu chère.",
+    "ar": "أَظُنُّ أَنَّ الْحَيَاةَ هُنَا غَالِيَةٌ قَلِيلًا.",
+    "ro": "Aẓunnu anna al-ḥayāta hunā ghāliyatun qalīlan."
    },
    {
-    "fr": "Ça te dit d'aller manger des ramen ce soir ?",
-    "ja": "今晩、ラーメン食べに行かない？",
-    "ro": "Konban, rāmen tabe ni ikanai?"
+    "fr": "Tu penses que les gens sont généreux ?",
+    "ar": "هَلْ تَظُنُّ أَنَّ النَّاسَ كُرَمَاءُ؟",
+    "ro": "Hal taẓunnu anna an-nāsa kuramāʾu?"
    },
    {
-    "fr": "Bonne idée, j'ai trop faim !",
-    "ja": "いいね、おなかすいた！",
-    "ro": "Ii ne, onaka suita!"
+    "fr": "Oui, je pense qu'ils adorent recevoir des invités.",
+    "ar": "نَعَمْ، أَظُنُّ أَنَّهُمْ يُحِبُّونَ اسْتِقْبَالَ الضُّيُوفِ كَثِيرًا.",
+    "ro": "Naʿam, aẓunnu annahum yuḥibbūna istiqbāla aḍ-ḍuyūfi kathīran."
    },
    {
-    "fr": "Tu connais une bonne adresse à Nakasu ?",
-    "ja": "中洲でおいしい店、知ってる？",
-    "ro": "Nakasu de oishii mise, shitte ru?"
+    "fr": "Ma sœur pense que la circulation est terrible.",
+    "ar": "تَظُنُّ أُخْتِي أَنَّ زَحْمَةَ السَّيْرِ فَظِيعَةٌ.",
+    "ro": "Taẓunnu ukhtī anna zaḥmata as-sayri faẓīʿatun."
    },
    {
-    "fr": "Oui, il y a un super stand de ramen tonkotsu.",
-    "ja": "うん、すごくおいしい豚骨ラーメンの屋台があるよ。",
-    "ro": "Un, sugoku oishii tonkotsu rāmen no yatai ga aru yo."
+    "fr": "Je ne pense pas que ce soit un problème le soir.",
+    "ar": "لَا أَظُنُّ أَنَّ ذَلِكَ مُشْكِلَةٌ فِي الْمَسَاءِ.",
+    "ro": "Lā aẓunnu anna dhālika mushkilatun fī al-masāʾi."
    },
    {
-    "fr": "On se retrouve à sept heures devant la gare ?",
-    "ja": "七時に駅の前で待ち合わせる？",
-    "ro": "Shichiji ni eki no mae de machiawaseru?"
+    "fr": "Nous pensons que le quartier de Gemmayzé est le plus vivant.",
+    "ar": "نَظُنُّ أَنَّ حَيَّ الْجُمَّيْزَةِ هُوَ الْأَكْثَرُ حَيَوِيَّةً.",
+    "ro": "Naẓunnu anna ḥayya al-jummayzati huwa al-aktharu ḥayawiyyatan."
    },
    {
-    "fr": "Ça marche, je ne serai pas en retard.",
-    "ja": "了解、遅れないよ。",
-    "ro": "Ryōkai, okurenai yo."
+    "fr": "Mes parents pensent que la ville a beaucoup changé.",
+    "ar": "يَظُنُّ وَالِدَايَ أَنَّ الْمَدِينَةَ تَغَيَّرَتْ كَثِيرًا.",
+    "ro": "Yaẓunnu wālidāya anna al-madīnata taghayyarat kathīran."
    },
    {
-    "fr": "Avec toi, pas besoin de parler poliment.",
-    "ja": "ゆいとは丁寧に話さなくてもいいね。",
-    "ro": "Yui to wa teinei ni hanasanakute mo ii ne."
+    "fr": "Je pense que tu vas aimer le vieux quartier.",
+    "ar": "أَظُنُّ أَنَّكَ سَتُحِبُّ الْحَيَّ الْقَدِيمَ.",
+    "ro": "Aẓunnu annaka satuḥibbu al-ḥayya al-qadīma."
    },
    {
-    "fr": "Bon, à plus tard alors !",
-    "ja": "じゃあ、またあとでね！",
-    "ro": "Jā, mata ato de ne!"
+    "fr": "Moi aussi, je pense que c'est le cœur de la ville.",
+    "ar": "أَنَا أَيْضًا أَظُنُّ أَنَّهُ قَلْبُ الْمَدِينَةِ.",
+    "ro": "Anā ayḍan aẓunnu annahu qalbu al-madīnati."
    }
   ],
   "tip": {
-   "title": "Le registre familier entre amis",
-   "example": "Ça te dit d'aller manger des ramen ce soir ? — 今晩、ラーメン食べに<b>行かない</b>？",
-   "exampleRo": "Konban, rāmen tabe ni ikanai?",
-   "lit": "ce soir · ramen · manger · [but] · aller-pas · [question montante]",
-   "body": "Entre amis ou en famille, les Japonais abandonnent les terminaisons polies « desu » et « masu » et parlent avec les formes simples que vous connaissez déjà : forme du dictionnaire, forme en « -nai », forme en « -ta ». Ainsi « ikimasen ka », on n'y va pas, devient simplement « ikanai », dit avec une intonation montante et sans le « ka » de la question. Konban, rāmen tabe ni ikanai se décompose ainsi : ce soir, ramen, manger, pour, ne pas aller ? Les particules comme « o » disparaissent souvent, « desu » saute ou devient « da », et on ajoute volontiers « yo » ou « ne » : « genki » pour ça va, « un, genki da yo » pour ouais, ça va, « oishii ne » pour c'est bon, hein. Attention, ce registre est réservé aux proches : avec un collègue plus âgé ou un inconnu, restez à la forme polie. Pour retenir : plus on est proche, plus la phrase raccourcit."
+   "title": "« Azunnu anna » : je pense que",
+   "example": "Je pense que Beyrouth est une ville unique. — <b>أَظُنُّ أَنَّ</b> بَيْرُوتَ مَدِينَةٌ فَرِيدَةٌ.",
+   "exampleRo": "Aẓunnu anna bayrūta madīnatun farīdatun.",
+   "lit": "je-pense · que · Beyrouth · ville · unique",
+   "body": "Pour donner ton avis, l'arabe utilise « azunnu », je pense, suivi de « anna », que. Notre exemple se lit littéralement : je pense que Beyrouth, ville unique, sans verbe être, comme toujours au présent. Après « anna », le nom prend la terminaison en a : on dit « anna Bayrouta », et non « Bayroutou ». Avec un pronom, « anna » se soude à lui : « annahu », qu'il, « annaka », que tu, « annahum », qu'ils. Le verbe se conjugue normalement : « tazunnu », tu penses, « nazunnu », nous pensons, et pour la négation on ajoute « la » devant : « la azunnu », je ne pense pas. Astuce : retiens « azunnu anna » comme une petite porte qui s'ouvre sur ton opinion."
   }
  },
  {
-  "title": "Une soirée au yatai",
+  "title": "Une soirée mezzé",
   "phrases": [
    {
-    "fr": "Les yatai de Nakasu sont alignés le long de la rivière.",
-    "ja": "中洲の屋台は川沿いに並んでいます。",
-    "ro": "Nakasu no yatai wa kawazoi ni narande imasu."
+    "fr": "Ce soir, on dîne dans un restaurant libanais.",
+    "ar": "اللَّيْلَةَ نَتَعَشَّى فِي مَطْعَمٍ لُبْنَانِيٍّ.",
+    "ro": "Al-laylata nataʿashshā fī maṭʿamin lubnāniyyin."
    },
    {
-    "fr": "Il n'y a que huit places, serrons-nous un peu.",
-    "ja": "席は八つしかありませんから、詰めて座りましょう。",
-    "ro": "Seki wa yattsu shika arimasen kara, tsumete suwarimashō."
+    "fr": "Nous allons commander beaucoup de mezzé à partager.",
+    "ar": "سَنَطْلُبُ أَطْبَاقًا كَثِيرَةً مِنَ الْمَازَةِ لِنَتَقَاسَمَهَا.",
+    "ro": "Sanaṭlubu aṭbāqan kathīratan mina al-māzati li-nataqāsamahā."
    },
    {
-    "fr": "Le patron est bavard et très gentil.",
-    "ja": "店の主人はおしゃべりで、とても親切です。",
-    "ro": "Mise no shujin wa oshaberi de, totemo shinsetsu desu."
+    "fr": "Le houmous et le moutabal sont délicieux ici.",
+    "ar": "الْحُمُّصُ وَالْمُتَبَّلُ لَذِيذَانِ هُنَا.",
+    "ro": "Al-ḥummuṣu wa-l-mutabbalu ladhīdhāni hunā."
    },
    {
-    "fr": "Pour moi, des yakitori et une bière pression.",
-    "ja": "私は焼き鳥と生ビールにします。",
-    "ro": "Watashi wa yakitori to nama bīru ni shimasu."
+    "fr": "N'oublie pas de goûter les feuilles de vigne.",
+    "ar": "لَا تَنْسَ أَنْ تَتَذَوَّقَ وَرَقَ الْعِنَبِ.",
+    "ro": "Lā tansa an tatadhawwaqa waraqa al-ʿinabi."
    },
    {
-    "fr": "On a discuté avec des employés de bureau assis à côté.",
-    "ja": "隣に座っていた会社員と話しました。",
-    "ro": "Tonari ni suwatte ita kaishain to hanashimashita."
+    "fr": "Le pain est chaud, il vient de sortir du four.",
+    "ar": "الْخُبْزُ سَاخِنٌ، خَرَجَ مِنَ الْفُرْنِ الْآنَ.",
+    "ro": "Al-khubzu sākhinun, kharaja mina al-furni al-āna."
    },
    {
-    "fr": "Ils nous ont recommandé les ramen d'un yatai voisin.",
-    "ja": "近くの屋台のラーメンを勧めてくれました。",
-    "ro": "Chikaku no yatai no rāmen o susumete kuremashita."
+    "fr": "Qui veut encore du fattouche ?",
+    "ar": "مَنْ يُرِيدُ مَزِيدًا مِنَ الْفَتُّوشِ؟",
+    "ro": "Man yurīdu mazīdan mina al-fattūshi?"
    },
    {
-    "fr": "Ici, le bouillon tonkotsu est très épais.",
-    "ja": "ここの豚骨スープはとても濃いです。",
-    "ro": "Koko no tonkotsu sūpu wa totemo koi desu."
+    "fr": "Au Liban, on mange lentement et on parle beaucoup.",
+    "ar": "فِي لُبْنَانَ نَأْكُلُ بِبُطْءٍ وَنَتَكَلَّمُ كَثِيرًا.",
+    "ro": "Fī lubnāna naʾkulu bi-buṭʾin wa-natakallamu kathīran."
    },
    {
-    "fr": "On peut commander une portion de nouilles en plus.",
-    "ja": "替え玉を頼むことができます。",
-    "ro": "Kaedama o tanomu koto ga dekimasu."
+    "fr": "Ce repas dure souvent plusieurs heures.",
+    "ar": "تَسْتَمِرُّ هَذِهِ الْوَجْبَةُ عِدَّةَ سَاعَاتٍ غَالِبًا.",
+    "ro": "Tastamirru hādhihi al-wajbatu ʿiddata sāʿātin ghāliban."
    },
    {
-    "fr": "Je n'avais jamais mangé dehors comme ça.",
-    "ja": "こんなふうに外で食べたことはありませんでした。",
-    "ro": "Konna fū ni soto de tabeta koto wa arimasen deshita."
+    "fr": "Pour le dessert, je recommande les fruits frais.",
+    "ar": "لِلْحَلْوَى أَنْصَحُ بِالْفَوَاكِهِ الطَّازَجَةِ.",
+    "ro": "Li-l-ḥalwā anṣaḥu bi-l-fawākihi aṭ-ṭāzajati."
    },
    {
-    "fr": "C'était une soirée vraiment inoubliable.",
-    "ja": "本当に忘れられない夜でした。",
-    "ro": "Hontō ni wasurerarenai yoru deshita."
+    "fr": "Quelle belle soirée, merci de nous avoir invités !",
+    "ar": "يَا لَهَا مِنْ سَهْرَةٍ جَمِيلَةٍ، شُكْرًا لِأَنَّكَ دَعَوْتَنَا!",
+    "ro": "Yā lahā min sahratin jamīlatin, shukran li-annaka daʿawtanā!"
    }
   ]
  },
  {
-  "title": "Le hanami au parc Maizuru",
+  "title": "Préparer le taboulé",
   "phrases": [
    {
-    "fr": "Les cerisiers du parc Maizuru sont en pleine floraison.",
-    "ja": "舞鶴公園の桜が満開です。",
-    "ro": "Maizuru kōen no sakura ga mankai desu."
+    "fr": "Ma grand-mère fait le meilleur taboulé du monde.",
+    "ar": "جَدَّتِي تُحَضِّرُ أَطْيَبَ تَبُّولَةٍ فِي الْعَالَمِ.",
+    "ro": "Jaddatī tuḥaḍḍiru aṭyaba tabbūlatin fī al-ʿālami."
    },
    {
-    "fr": "Faisons un hanami samedi avec les collègues.",
-    "ja": "土曜日に同僚とお花見をしましょう。",
-    "ro": "Doyōbi ni dōryō to ohanami o shimashō."
+    "fr": "Elle m'a donné sa recette quand j'étais petit.",
+    "ar": "أَعْطَتْنِي وَصْفَتَهَا عِنْدَمَا كُنْتُ صَغِيرًا.",
+    "ro": "Aʿṭatnī waṣfatahā ʿindamā kuntu ṣaghīran."
    },
    {
-    "fr": "Si on n'arrive pas tôt, on n'aura pas de bonne place.",
-    "ja": "早く行かなかったら、いい場所が取れません。",
-    "ro": "Hayaku ikanakattara, ii basho ga toremasen."
+    "fr": "Il faut mettre beaucoup de persil et un peu de boulgour.",
+    "ar": "يَجِبُ أَنْ نَضَعَ كَثِيرًا مِنَ الْبَقْدُونِسِ وَقَلِيلًا مِنَ الْبُرْغُلِ.",
+    "ro": "Yajibu an naḍaʿa kathīran mina al-baqdūnisi wa-qalīlan mina al-burghuli."
    },
    {
-    "fr": "J'apporte une bâche bleue et des boissons.",
-    "ja": "ブルーシートと飲み物を持っていきます。",
-    "ro": "Burū shīto to nomimono o motte ikimasu."
+    "fr": "Coupe les tomates en petits morceaux.",
+    "ar": "قَطِّعِ الطَّمَاطِمَ قِطَعًا صَغِيرَةً.",
+    "ro": "Qaṭṭiʿi aṭ-ṭamāṭima qiṭaʿan ṣaghīratan."
    },
    {
-    "fr": "Qui s'occupe des bentō ?",
-    "ja": "お弁当はだれが用意しますか？",
-    "ro": "Obentō wa dare ga yōi shimasu ka?"
+    "fr": "Ajoute le jus de citron et l'huile d'olive.",
+    "ar": "أَضِفْ عَصِيرَ اللَّيْمُونِ وَزَيْتَ الزَّيْتُونِ.",
+    "ro": "Aḍif ʿaṣīra al-laymūni wa-zayta az-zaytūni."
    },
    {
-    "fr": "Mme Tanaka a dit qu'elle ferait des onigiri.",
-    "ja": "田中さんがおにぎりを作ると言っていました。",
-    "ro": "Tanaka-san ga onigiri o tsukuru to itte imashita."
+    "fr": "Le secret, c'est la menthe fraîche.",
+    "ar": "السِّرُّ هُوَ النَّعْنَاعُ الطَّازَجُ.",
+    "ro": "As-sirru huwa an-naʿnāʿu aṭ-ṭāzaju."
    },
    {
-    "fr": "Les pétales tombent comme de la neige.",
-    "ja": "花びらが雪のように散っています。",
-    "ro": "Hanabira ga yuki no yō ni chitte imasu."
+    "fr": "Goûte et dis-moi s'il manque du sel.",
+    "ar": "ذُقْ وَقُلْ لِي إِنْ كَانَ يَنْقُصُهُ الْمِلْحُ.",
+    "ro": "Dhuq wa-qul lī in kāna yanquṣuhu al-milḥu."
    },
    {
-    "fr": "Le soir, les cerisiers sont illuminés.",
-    "ja": "夜は桜のライトアップがあります。",
-    "ro": "Yoru wa sakura no raitoappu ga arimasu."
+    "fr": "C'est parfait, il n'a besoin de rien.",
+    "ar": "إِنَّهُ مُمْتَازٌ، لَا يَحْتَاجُ إِلَى شَيْءٍ.",
+    "ro": "Innahu mumtāzun, lā yaḥtāju ilā shayʾin."
    },
    {
-    "fr": "Le hanami, c'est une bonne excuse pour boire entre amis.",
-    "ja": "お花見は友達と飲むいい口実です。",
-    "ro": "Ohanami wa tomodachi to nomu ii kōjitsu desu."
+    "fr": "On le sert avec des feuilles de laitue.",
+    "ar": "نُقَدِّمُهُ مَعَ أَوْرَاقِ الْخَسِّ.",
+    "ro": "Nuqaddimuhu maʿa awrāqi al-khassi."
    },
    {
-    "fr": "N'oubliez pas de remporter vos déchets en partant.",
-    "ja": "帰るとき、ごみを持って帰るのを忘れないでください。",
-    "ro": "Kaeru toki, gomi o motte kaeru no o wasurenaide kudasai."
+    "fr": "Tu me montreras comment le préparer la prochaine fois ?",
+    "ar": "هَلْ سَتُرِينِي كَيْفَ أُحَضِّرُهُ فِي الْمَرَّةِ الْقَادِمَةِ؟",
+    "ro": "Hal saturīnī kayfa uḥaḍḍiruhu fī al-marrati al-qādimati?"
    }
   ]
  },
  {
-  "title": "Un week-end incertain",
+  "title": "Une journée à Byblos",
   "phrases": [
    {
-    "fr": "Demain, il pleuvra peut-être sur Fukuoka.",
-    "ja": "明日、福岡は雨が降るかもしれません。",
-    "ro": "Ashita, Fukuoka wa ame ga furu kamoshiremasen."
+    "fr": "J'ai déjà visité Byblos deux fois.",
+    "ar": "قَدْ زُرْتُ جُبَيْلَ مَرَّتَيْنِ.",
+    "ro": "Qad zurtu jubayla marratayni."
    },
    {
-    "fr": "Dans ce cas, le hanami sera peut-être annulé.",
-    "ja": "そうしたら、お花見は中止かもしれません。",
-    "ro": "Sō shitara, ohanami wa chūshi kamoshiremasen."
+    "fr": "Le port a vraiment gardé son charme d'autrefois.",
+    "ar": "لَقَدْ حَافَظَ الْمِينَاءُ عَلَى سِحْرِهِ الْقَدِيمِ.",
+    "ro": "Laqad ḥāfaẓa al-mīnāʾu ʿalā siḥrihi al-qadīmi."
    },
    {
-    "fr": "Kenta arrivera peut-être un peu en retard.",
-    "ja": "健太さんは少し遅れるかもしれません。",
-    "ro": "Kenta-san wa sukoshi okureru kamoshiremasen."
+    "fr": "Les archéologues ont déjà découvert des trésors ici.",
+    "ar": "قَدِ اكْتَشَفَ عُلَمَاءُ الْآثَارِ كُنُوزًا هُنَا.",
+    "ro": "Qadi ktashafa ʿulamāʾu al-āthāri kunūzan hunā."
    },
    {
-    "fr": "Il a peut-être oublié notre rendez-vous.",
-    "ja": "約束を忘れたかもしれません。",
-    "ro": "Yakusoku o wasureta kamoshiremasen."
+    "fr": "On dit que c'est l'une des plus vieilles villes du monde.",
+    "ar": "يُقَالُ إِنَّهَا مِنْ أَقْدَمِ الْمُدُنِ فِي الْعَالَمِ.",
+    "ro": "Yuqālu innahā min aqdami al-muduni fī al-ʿālami."
    },
    {
-    "fr": "Je ne pourrai peut-être pas venir dimanche.",
-    "ja": "日曜日は行けないかもしれません。",
-    "ro": "Nichiyōbi wa ikenai kamoshiremasen."
+    "fr": "Est-ce que tu as déjà vu le vieux château ?",
+    "ar": "هَلْ سَبَقَ أَنْ رَأَيْتَ الْقَلْعَةَ الْقَدِيمَةَ؟",
+    "ro": "Hal sabaqa an raʾayta al-qalʿata al-qadīmata?"
    },
    {
-    "fr": "J'aurai peut-être du travail dimanche aussi.",
-    "ja": "日曜日も仕事があるかもしれません。",
-    "ro": "Nichiyōbi mo shigoto ga aru kamoshiremasen."
+    "fr": "Oui, je l'ai déjà visité avec ma classe.",
+    "ar": "نَعَمْ، قَدْ زُرْتُهَا مَعَ صَفِّي.",
+    "ro": "Naʿam, qad zurtuhā maʿa ṣaffī."
    },
    {
-    "fr": "Ce restaurant est peut-être fermé le lundi.",
-    "ja": "あのレストランは月曜日、休みかもしれません。",
-    "ro": "Ano resutoran wa getsuyōbi, yasumi kamoshiremasen."
+    "fr": "Le poisson était vraiment délicieux.",
+    "ar": "لَقَدْ كَانَ السَّمَكُ لَذِيذًا حَقًّا.",
+    "ro": "Laqad kāna as-samaku ladhīdhan ḥaqqan."
    },
    {
-    "fr": "Je vais d'abord leur téléphoner.",
-    "ja": "先に電話してみます。",
-    "ro": "Saki ni denwa shite mimasu."
+    "fr": "Les boutiques du souk ont déjà fermé.",
+    "ar": "قَدْ أَغْلَقَتْ مَحَلَّاتُ السُّوقِ أَبْوَابَهَا.",
+    "ro": "Qad aghlaqat maḥallātu as-sūqi abwābahā."
    },
    {
-    "fr": "L'après-midi, ce sera peut-être plus calme.",
-    "ja": "午後のほうが静かかもしれません。",
-    "ro": "Gogo no hō ga shizuka kamoshiremasen."
+    "fr": "Heureusement, j'ai déjà acheté un souvenir ce matin.",
+    "ar": "لِحُسْنِ الْحَظِّ، قَدِ اشْتَرَيْتُ تِذْكَارًا هَذَا الصَّبَاحَ.",
+    "ro": "Li-ḥusni al-ḥaẓẓi, qadi shtaraytu tidhkāran hādhā aṣ-ṣabāḥa."
    },
    {
-    "fr": "Décidons ensemble ce soir, d'accord ?",
-    "ja": "今晩、一緒に決めましょうか。",
-    "ro": "Konban, issho ni kimemashō ka."
+    "fr": "Cette journée à Byblos m'a vraiment plu.",
+    "ar": "لَقَدْ أَعْجَبَنِي هَذَا الْيَوْمُ فِي جُبَيْلَ كَثِيرًا.",
+    "ro": "Laqad aʿjabanī hādhā al-yawmu fī jubayla kathīran."
    }
   ],
   "tip": {
-   "title": "« -kamoshiremasen » : peut-être",
-   "example": "Kenta arrivera peut-être un peu en retard. — 健太さんは少し遅れる<b>かもしれません</b>。",
-   "exampleRo": "Kenta-san wa sukoshi okureru kamoshiremasen.",
-   "lit": "Kenta-monsieur · [thème] · un peu · être en retard · peut-être (poli)",
-   "body": "Pour dire « peut-être », le japonais ajoute « kamoshiremasen » à la fin de la phrase, après un verbe à la forme simple, un adjectif ou un nom. Kenta-san wa sukoshi okureru kamoshiremasen se lit mot à mot : Kenta, thème, un peu, être en retard, peut-être. En français, « peut-être » se promène dans la phrase ; en japonais, il arrive toujours tout à la fin, comme un petit doute qu'on ajoute au dernier moment. Il marche avec tous les temps et avec la négation : « furu kamoshiremasen », il pleuvra peut-être, « ikenai kamoshiremasen », je ne pourrai peut-être pas y aller, « wasureta kamoshiremasen », il a peut-être oublié. Avec un nom, on le colle directement : « yasumi kamoshiremasen », c'est peut-être fermé. Astuce : les Japonais l'adorent pour adoucir un refus, alors pensez-y chaque fois que vous hésitez."
+   "title": "« Qad » suivi du passé : déjà, vraiment",
+   "example": "J'ai déjà visité Byblos deux fois. — <b>قَدْ</b> زُرْتُ جُبَيْلَ مَرَّتَيْنِ.",
+   "exampleRo": "Qad zurtu jubayla marratayni.",
+   "lit": "[déjà] · j'ai-visité · Byblos · deux-fois",
+   "body": "Le petit mot « qad », placé devant un verbe au passé, insiste sur le fait que l'action est bien accomplie. Selon le contexte, on le traduit par déjà ou par vraiment. Notre exemple se décompose ainsi : « qad », déjà, « zurtu », j'ai visité, « Jubayla », Byblos, « marratayni », deux fois. Tu entendras aussi « laqad », encore plus fort, au début d'une phrase : « laqad kana ladhidhan », c'était vraiment délicieux. Quand le mot suivant commence par une voyelle muette, « qad » devient « qadi » pour la liaison, comme dans « qadi shtaraytu », j'ai déjà acheté. Astuce : pense à « qad » comme à un tampon qui certifie que c'est fait."
   }
  },
  {
-  "title": "Le festival Hakata Gion Yamakasa",
+  "title": "Le festival de Baalbek",
   "phrases": [
    {
-    "fr": "En juillet, Fukuoka fête le Hakata Gion Yamakasa.",
-    "ja": "七月に、福岡で博多祇園山笠があります。",
-    "ro": "Shichigatsu ni, Fukuoka de Hakata Gion Yamakasa ga arimasu."
+    "fr": "Cet été, nous irons au festival de Baalbek.",
+    "ar": "فِي هَذَا الصَّيْفِ سَنَذْهَبُ إِلَى مِهْرَجَانِ بَعْلَبَكَّ.",
+    "ro": "Fī hādhā aṣ-ṣayfi sanadhhabu ilā mihrajāni baʿlabakka."
    },
    {
-    "fr": "Des hommes portent d'énormes chars en courant dans les rues.",
-    "ja": "男の人たちが大きな山笠を担いで町を走ります。",
-    "ro": "Otoko no hitotachi ga ōkina yamakasa o katsuide machi o hashirimasu."
+    "fr": "Les concerts ont lieu au milieu des ruines romaines.",
+    "ar": "تُقَامُ الْحَفَلَاتُ بَيْنَ الْآثَارِ الرُّومَانِيَّةِ.",
+    "ro": "Tuqāmu al-ḥafalātu bayna al-āthāri ar-rūmāniyyati."
    },
    {
-    "fr": "La course finale commence à quatre heures cinquante-neuf du matin.",
-    "ja": "最後のレースは朝四時五十九分に始まります。",
-    "ro": "Saigo no rēsu wa asa yoji gojūkyūfun ni hajimarimasu."
+    "fr": "Les colonnes sont immenses, tu verras.",
+    "ar": "الْأَعْمِدَةُ ضَخْمَةٌ جِدًّا، سَتَرَى.",
+    "ro": "Al-aʿmidatu ḍakhmatun jiddan, satarā."
    },
    {
-    "fr": "Si tu veux la voir, il faut te lever très tôt.",
-    "ja": "それを見たかったら、とても早く起きなければなりません。",
-    "ro": "Sore o mitakattara, totemo hayaku okinakereba narimasen."
+    "fr": "Quel chanteur va chanter cette année ?",
+    "ar": "أَيُّ مُغَنٍّ سَيُغَنِّي هَذَا الْعَامَ؟",
+    "ro": "Ayyu mughannin sayughannī hādhā al-ʿāma?"
    },
    {
-    "fr": "Les spectateurs jettent de l'eau sur les porteurs.",
-    "ja": "見物人が担ぎ手に水をかけます。",
-    "ro": "Kenbutsunin ga katsugite ni mizu o kakemasu."
+    "fr": "Je ne sais pas encore, le programme n'est pas sorti.",
+    "ar": "لَا أَعْرِفُ بَعْدُ، فَالْبَرْنَامَجُ لَمْ يَصْدُرْ.",
+    "ro": "Lā aʿrifu baʿdu, fa-l-barnāmaju lam yaṣdur."
    },
    {
-    "fr": "Mon collègue y participe depuis qu'il est enfant.",
-    "ja": "同僚は子どものころから参加しています。",
-    "ro": "Dōryō wa kodomo no koro kara sanka shite imasu."
+    "fr": "Il faut réserver les billets très tôt.",
+    "ar": "يَجِبُ أَنْ نَحْجِزَ التَّذَاكِرَ مُبَكِّرًا جِدًّا.",
+    "ro": "Yajibu an naḥjiza at-tadhākira mubakkiran jiddan."
    },
    {
-    "fr": "Les participants portent une tenue traditionnelle.",
-    "ja": "参加者は伝統的な衣装を着ています。",
-    "ro": "Sankasha wa dentōteki na ishō o kite imasu."
+    "fr": "La route vers la Békaa prend environ deux heures.",
+    "ar": "تَسْتَغْرِقُ الطَّرِيقُ إِلَى الْبِقَاعِ نَحْوَ سَاعَتَيْنِ.",
+    "ro": "Tastaghriqu aṭ-ṭarīqu ilā al-biqāʿi naḥwa sāʿatayni."
    },
    {
-    "fr": "Pendant deux semaines, l'ambiance du quartier est incroyable.",
-    "ja": "二週間、町の雰囲気がすごいです。",
-    "ro": "Nishūkan, machi no fun'iki ga sugoi desu."
+    "fr": "On pourrait dormir chez mon oncle à Zahlé.",
+    "ar": "يُمْكِنُنَا أَنْ نَنَامَ عِنْدَ عَمِّي فِي زَحْلَةَ.",
+    "ro": "Yumkinunā an nanāma ʿinda ʿammī fī zaḥlata."
    },
    {
-    "fr": "Je l'ai vu une fois, il y a trois ans.",
-    "ja": "三年前に一度見ました。",
-    "ro": "Sannen mae ni ichido mimashita."
+    "fr": "La musique sous les étoiles, c'est magique.",
+    "ar": "الْمُوسِيقَى تَحْتَ النُّجُومِ شَيْءٌ سِحْرِيٌّ.",
+    "ro": "Al-mūsīqā taḥta an-nujūmi shayʾun siḥriyyun."
    },
    {
-    "fr": "Cette année aussi, je veux absolument y aller.",
-    "ja": "今年もぜひ見に行きたいです。",
-    "ro": "Kotoshi mo zehi mi ni ikitai desu."
+    "fr": "J'ai vraiment hâte d'y être !",
+    "ar": "أَنَا مُتَشَوِّقٌ جِدًّا لِذَلِكَ!",
+    "ro": "Anā mutashawwiqun jiddan li-dhālika!"
    }
   ]
  },
  {
-  "title": "Porter un yukata",
+  "title": "Un week-end à la montagne",
   "phrases": [
    {
-    "fr": "Pour le feu d'artifice, on y va en yukata.",
-    "ja": "花火大会には浴衣を着ていきます。",
-    "ro": "Hanabi taikai ni wa yukata o kite ikimasu."
+    "fr": "Ce week-end, nous montons à la montagne.",
+    "ar": "فِي عُطْلَةِ نِهَايَةِ الْأُسْبُوعِ نَصْعَدُ إِلَى الْجَبَلِ.",
+    "ro": "Fī ʿuṭlati nihāyati al-usbūʿi naṣʿadu ilā al-jabali."
    },
    {
-    "fr": "Je n'ai jamais porté de yukata.",
-    "ja": "浴衣を着たことがありません。",
-    "ro": "Yukata o kita koto ga arimasen."
+    "fr": "Il fait plus frais là-haut qu'à Beyrouth.",
+    "ar": "الْجَوُّ هُنَاكَ أَبْرَدُ مِنْ بَيْرُوتَ.",
+    "ro": "Al-jawwu hunāka abradu min bayrūta."
    },
    {
-    "fr": "Ma collègue va m'aider à l'enfiler.",
-    "ja": "同僚が着るのを手伝ってくれます。",
-    "ro": "Dōryō ga kiru no o tetsudatte kuremasu."
+    "fr": "Mes cousins ont une maison en pierre près de la forêt des cèdres.",
+    "ar": "لِأَبْنَاءِ عَمِّي بَيْتٌ حَجَرِيٌّ قُرْبَ غَابَةِ الْأَرْزِ.",
+    "ro": "Li-abnāʾi ʿammī baytun ḥajariyyun qurba ghābati al-arzi."
    },
    {
-    "fr": "Le côté gauche se met par-dessus le droit.",
-    "ja": "左側を右側の上に重ねます。",
-    "ro": "Hidarigawa o migigawa no ue ni kasanemasu."
+    "fr": "Le matin, on boit le café sur la terrasse.",
+    "ar": "فِي الصَّبَاحِ نَشْرَبُ الْقَهْوَةَ عَلَى الشُّرْفَةِ.",
+    "ro": "Fī aṣ-ṣabāḥi nashrabu al-qahwata ʿalā ash-shurfati."
    },
    {
-    "fr": "L'inverse, c'est la façon d'habiller les défunts.",
-    "ja": "逆は亡くなった人の着方です。",
-    "ro": "Gyaku wa nakunatta hito no kikata desu."
+    "fr": "L'après-midi, on fait une longue randonnée à pied.",
+    "ar": "بَعْدَ الظُّهْرِ نَقُومُ بِنُزْهَةٍ طَوِيلَةٍ سَيْرًا عَلَى الْأَقْدَامِ.",
+    "ro": "Baʿda aẓ-ẓuhri naqūmu bi-nuzhatin ṭawīlatin sayran ʿalā al-aqdāmi."
    },
    {
-    "fr": "Cette ceinture rouge te va très bien.",
-    "ja": "この赤い帯、よく似合っていますね。",
-    "ro": "Kono akai obi, yoku niatte imasu ne."
+    "fr": "De là-haut, on voit la mer et les villages.",
+    "ar": "مِنْ هُنَاكَ نَرَى الْبَحْرَ وَالْقُرَى.",
+    "ro": "Min hunāka narā al-baḥra wa-l-qurā."
    },
    {
-    "fr": "Les sandales en bois font un peu mal aux pieds.",
-    "ja": "下駄は少し足が痛くなります。",
-    "ro": "Geta wa sukoshi ashi ga itaku narimasu."
+    "fr": "En hiver, il neige souvent sur les sommets.",
+    "ar": "فِي الشِّتَاءِ يَتَسَاقَطُ الثَّلْجُ كَثِيرًا عَلَى الْقِمَمِ.",
+    "ro": "Fī ash-shitāʾi yatasāqaṭu ath-thalju kathīran ʿalā al-qimami."
    },
    {
-    "fr": "On peut louer un yukata près de la gare.",
-    "ja": "駅の近くで浴衣を借りることができます。",
-    "ro": "Eki no chikaku de yukata o kariru koto ga dekimasu."
+    "fr": "On peut skier le matin et nager l'après-midi.",
+    "ar": "يُمْكِنُ أَنْ نَتَزَلَّجَ صَبَاحًا وَأَنْ نَسْبَحَ بَعْدَ الظُّهْرِ.",
+    "ro": "Yumkinu an natazallaja ṣabāḥan wa-an nasbaḥa baʿda aẓ-ẓuhri."
    },
    {
-    "fr": "Prenons une photo ensemble avant de partir.",
-    "ja": "出かける前に、一緒に写真を撮りましょう。",
-    "ro": "Dekakeru mae ni, issho ni shashin o torimashō."
+    "fr": "Le soir, on joue aux cartes près du feu.",
+    "ar": "فِي الْمَسَاءِ نَلْعَبُ الْوَرَقَ قُرْبَ النَّارِ.",
+    "ro": "Fī al-masāʾi nalʿabu al-waraqa qurba an-nāri."
    },
    {
-    "fr": "Quand on porte un yukata, on se sent vraiment en été.",
-    "ja": "浴衣を着たら、本当に夏の気分になります。",
-    "ro": "Yukata o kitara, hontō ni natsu no kibun ni narimasu."
+    "fr": "Le calme de la montagne me repose vraiment.",
+    "ar": "هُدُوءُ الْجَبَلِ يُرِيحُنِي حَقًّا.",
+    "ro": "Hudūʾu al-jabali yurīḥunī ḥaqqan."
    }
   ]
  },
  {
-  "title": "Parler baseball",
+  "title": "Parler de cinéma",
   "phrases": [
    {
-    "fr": "Tu es supporter de quelle équipe de baseball ?",
-    "ja": "どの野球チームのファンですか？",
-    "ro": "Dono yakyū chīmu no fan desu ka?"
+    "fr": "Tu as vu le nouveau film libanais ?",
+    "ar": "هَلْ شَاهَدْتَ الْفِيلْمَ اللُّبْنَانِيَّ الْجَدِيدَ؟",
+    "ro": "Hal shāhadta al-fīlma al-lubnāniyya al-jadīda?"
    },
    {
-    "fr": "Moi, je soutiens les Hawks de Fukuoka.",
-    "ja": "私は福岡のホークスを応援しています。",
-    "ro": "Watashi wa Fukuoka no Hōkusu o ōen shite imasu."
+    "fr": "Je ne l'ai pas encore vu, il est bien ?",
+    "ar": "لَمْ أُشَاهِدْهُ بَعْدُ، هَلْ هُوَ جَيِّدٌ؟",
+    "ro": "Lam ushāhidhu baʿdu, hal huwa jayyidun?"
    },
    {
-    "fr": "Mon collègue de Hiroshima est fan des Carp.",
-    "ja": "広島出身の同僚はカープのファンです。",
-    "ro": "Hiroshima shusshin no dōryō wa Kāpu no fan desu."
+    "fr": "Il raconte l'histoire d'une famille de Beyrouth.",
+    "ar": "يَحْكِي قِصَّةَ عَائِلَةٍ مِنْ بَيْرُوتَ.",
+    "ro": "Yaḥkī qiṣṣata ʿāʾilatin min bayrūta."
    },
    {
-    "fr": "Hier soir, les Hawks ont gagné cinq à trois.",
-    "ja": "昨日の夜、ホークスが五対三で勝ちました。",
-    "ro": "Kinō no yoru, Hōkusu ga go tai san de kachimashita."
+    "fr": "Les acteurs jouent de façon très naturelle.",
+    "ar": "يُمَثِّلُ الْمُمَثِّلُونَ بِطَرِيقَةٍ طَبِيعِيَّةٍ جِدًّا.",
+    "ro": "Yumaththilu al-mumaththilūna bi-ṭarīqatin ṭabīʿiyyatin jiddan."
    },
    {
-    "fr": "Le stade était plein à craquer.",
-    "ja": "球場は満員でした。",
-    "ro": "Kyūjō wa man'in deshita."
+    "fr": "La fin m'a fait pleurer.",
+    "ar": "النِّهَايَةُ جَعَلَتْنِي أَبْكِي.",
+    "ro": "An-nihāyatu jaʿalatnī abkī."
    },
    {
-    "fr": "À la septième manche, tout le monde lâche des ballons.",
-    "ja": "七回に、みんなで風船を飛ばします。",
-    "ro": "Nanakai ni, minna de fūsen o tobashimasu."
+    "fr": "Je préfère les comédies, j'ai besoin de rire.",
+    "ar": "أُفَضِّلُ الْأَفْلَامَ الْكُومِيدِيَّةَ، أَحْتَاجُ إِلَى الضَّحِكِ.",
+    "ro": "Ufaḍḍilu al-aflāma al-kūmīdiyyata, aḥtāju ilā aḍ-ḍaḥiki."
+   },
+   {
+    "fr": "On va au cinéma de Hamra samedi ?",
+    "ar": "هَلْ نَذْهَبُ إِلَى سِينَمَا الْحَمْرَاءِ يَوْمَ السَّبْتِ؟",
+    "ro": "Hal nadhhabu ilā sīnamā al-ḥamrāʾi yawma as-sabti?"
+   },
+   {
+    "fr": "La séance commence à neuf heures.",
+    "ar": "يَبْدَأُ الْعَرْضُ فِي السَّاعَةِ التَّاسِعَةِ.",
+    "ro": "Yabdaʾu al-ʿarḍu fī as-sāʿati at-tāsiʿati."
+   },
+   {
+    "fr": "J'achèterai le pop-corn, et toi les boissons.",
+    "ar": "سَأَشْتَرِي الْفُشَارَ، وَأَنْتَ تَشْتَرِي الْمَشْرُوبَاتِ.",
+    "ro": "Saʾashtarī al-fushāra, wa-anta tashtarī al-mashrūbāti."
+   },
+   {
+    "fr": "Après le film, on en discutera autour d'un dîner.",
+    "ar": "بَعْدَ الْفِيلْمِ سَنَتَحَدَّثُ عَنْهُ عَلَى الْعَشَاءِ.",
+    "ro": "Baʿda al-fīlmi sanataḥaddathu ʿanhu ʿalā al-ʿashāʾi."
+   }
+  ]
+ },
+ {
+  "title": "Un match de basket",
+  "phrases": [
+   {
+    "fr": "Le basket est très populaire au Liban.",
+    "ar": "كُرَةُ السَّلَّةِ شَعْبِيَّةٌ جِدًّا فِي لُبْنَانَ.",
+    "ro": "Kuratu as-sallati shaʿbiyyatun jiddan fī lubnāna."
+   },
+   {
+    "fr": "Ce soir, il y a un grand match à Beyrouth.",
+    "ar": "هُنَاكَ مُبَارَاةٌ كَبِيرَةٌ فِي بَيْرُوتَ هَذَا الْمَسَاءَ.",
+    "ro": "Hunāka mubārātun kabīratun fī bayrūta hādhā al-masāʾa."
+   },
+   {
+    "fr": "Quelle équipe est-ce que tu soutiens ?",
+    "ar": "أَيَّ فَرِيقٍ تُشَجِّعُ؟",
+    "ro": "Ayya farīqin tushajjiʿu?"
+   },
+   {
+    "fr": "Je soutiens l'équipe de mon quartier depuis mon enfance.",
+    "ar": "أُشَجِّعُ فَرِيقَ حَيِّي مُنْذُ الصِّغَرِ.",
+    "ro": "Ushajjiʿu farīqa ḥayyī mundhu aṣ-ṣighari."
+   },
+   {
+    "fr": "L'ambiance dans la salle est incroyable.",
+    "ar": "الْأَجْوَاءُ فِي الْقَاعَةِ مُذْهِلَةٌ.",
+    "ro": "Al-ajwāʾu fī al-qāʿati mudhhilatun."
    },
    {
     "fr": "Les supporters chantent pendant tout le match.",
-    "ja": "ファンは試合中ずっと歌っています。",
-    "ro": "Fan wa shiaichū zutto utatte imasu."
+    "ar": "يُغَنِّي الْمُشَجِّعُونَ طَوَالَ الْمُبَارَاةِ.",
+    "ro": "Yughannī al-mushajjiʿūna ṭawāla al-mubārāti."
    },
    {
-    "fr": "Les places au premier rang coûtent cher.",
-    "ja": "一列目の席は高いです。",
-    "ro": "Ichiretsume no seki wa takai desu."
+    "fr": "Tu joues au basket, toi aussi ?",
+    "ar": "هَلْ تَلْعَبُ كُرَةَ السَّلَّةِ أَنْتَ أَيْضًا؟",
+    "ro": "Hal talʿabu kurata as-sallati anta ayḍan?"
    },
    {
-    "fr": "Tu veux venir voir un match avec moi le mois prochain ?",
-    "ja": "来月、一緒に試合を見に行きませんか？",
-    "ro": "Raigetsu, issho ni shiai o mi ni ikimasen ka?"
+    "fr": "Non, moi je préfère le football et la natation.",
+    "ar": "لَا، أَنَا أُفَضِّلُ كُرَةَ الْقَدَمِ وَالسِّبَاحَةَ.",
+    "ro": "Lā, anā ufaḍḍilu kurata al-qadami wa-s-sibāḥata."
    },
    {
-    "fr": "Avec plaisir, mais je porterai la casquette des Carp !",
-    "ja": "いいですね。でも、カープの帽子をかぶっていきます！",
-    "ro": "Ii desu ne. Demo, Kāpu no bōshi o kabutte ikimasu!"
+    "fr": "Nous avons gagné de trois points seulement !",
+    "ar": "فُزْنَا بِفَارِقِ ثَلَاثِ نِقَاطٍ فَقَطْ!",
+    "ro": "Fuznā bi-fāriqi thalāthi niqāṭin faqaṭ!"
+   },
+   {
+    "fr": "Allons fêter la victoire avec les autres.",
+    "ar": "هَيَّا نَحْتَفِلُ بِالْفَوْزِ مَعَ الْآخَرِينَ.",
+    "ro": "Hayyā naḥtafilu bi-l-fawzi maʿa al-ākharīna."
    }
   ]
  },
  {
-  "title": "Le sumō, un sujet de conversation",
+  "title": "Une invitation à un mariage",
   "phrases": [
    {
-    "fr": "En novembre, le tournoi de sumō a lieu à Fukuoka.",
-    "ja": "十一月に、福岡で大相撲の九州場所があります。",
-    "ro": "Jūichigatsu ni, Fukuoka de ōzumō no Kyūshū basho ga arimasu."
+    "fr": "Rami et Lina vont se marier en juin.",
+    "ar": "سَيَتَزَوَّجُ رَامِي وَلِينَا فِي شَهْرِ حُزَيْرَانَ.",
+    "ro": "Sayatazawwaju rāmī wa-līnā fī shahri ḥuzayrāna."
    },
    {
-    "fr": "Tu as regardé le combat d'hier à la télé ?",
-    "ja": "昨日の取組をテレビで見ましたか？",
-    "ro": "Kinō no torikumi o terebi de mimashita ka?"
+    "fr": "J'ai reçu leur invitation ce matin.",
+    "ar": "وَصَلَتْنِي دَعْوَتُهُمَا هَذَا الصَّبَاحَ.",
+    "ro": "Waṣalatnī daʿwatuhumā hādhā aṣ-ṣabāḥa."
    },
    {
-    "fr": "Oui, le combat a duré moins de dix secondes.",
-    "ja": "はい、十秒もかかりませんでした。",
-    "ro": "Hai, jūbyō mo kakarimasen deshita."
+    "fr": "La fête aura lieu dans un jardin à la montagne.",
+    "ar": "سَيُقَامُ الْحَفْلُ فِي حَدِيقَةٍ فِي الْجَبَلِ.",
+    "ro": "Sayuqāmu al-ḥaflu fī ḥadīqatin fī al-jabali."
    },
    {
-    "fr": "Avant le combat, les lutteurs jettent du sel.",
-    "ja": "取組の前に、力士は塩をまきます。",
-    "ro": "Torikumi no mae ni, rikishi wa shio o makimasu."
+    "fr": "Qu'est-ce que tu vas porter ce jour-là ?",
+    "ar": "مَاذَا سَتَلْبَسُ فِي ذَلِكَ الْيَوْمِ؟",
+    "ro": "Mādhā satalbasu fī dhālika al-yawmi?"
    },
    {
-    "fr": "Avec le sel, ils purifient le cercle de combat.",
-    "ja": "塩で土俵を清めます。",
-    "ro": "Shio de dohyō o kiyomemasu."
+    "fr": "Je dois acheter un costume neuf.",
+    "ar": "يَجِبُ أَنْ أَشْتَرِيَ بَدْلَةً جَدِيدَةً.",
+    "ro": "Yajibu an ashtariya badlatan jadīdatan."
    },
    {
-    "fr": "Le lutteur qui sort du cercle a perdu.",
-    "ja": "土俵から出た力士が負けです。",
-    "ro": "Dohyō kara deta rikishi ga make desu."
+    "fr": "Et quel cadeau allons-nous leur offrir ?",
+    "ar": "وَأَيَّ هَدِيَّةٍ سَنُقَدِّمُ لَهُمَا؟",
+    "ro": "Wa-ayya hadiyyatin sanuqaddimu lahumā?"
    },
    {
-    "fr": "Ma grand-mère connaît le nom de tous les lutteurs.",
-    "ja": "祖母は力士の名前を全部知っています。",
-    "ro": "Sobo wa rikishi no namae o zenbu shitte imasu."
+    "fr": "Ils ont une liste de cadeaux dans un magasin.",
+    "ar": "لَدَيْهِمَا قَائِمَةُ هَدَايَا فِي مَتْجَرٍ.",
+    "ro": "Ladayhimā qāʾimatu hadāyā fī matjarin."
    },
    {
-    "fr": "Je ne comprends pas encore toutes les règles.",
-    "ja": "まだルールが全部わかりません。",
-    "ro": "Mada rūru ga zenbu wakarimasen."
+    "fr": "Il y aura au moins trois cents invités.",
+    "ar": "سَيَكُونُ هُنَاكَ ثَلَاثُمِئَةِ ضَيْفٍ عَلَى الْأَقَلِّ.",
+    "ro": "Sayakūnu hunāka thalāthumiʾati ḍayfin ʿalā al-aqalli."
    },
    {
-    "fr": "Le grade le plus élevé s'appelle « yokozuna ».",
-    "ja": "一番上の位は横綱といいます。",
-    "ro": "Ichiban ue no kurai wa yokozuna to iimasu."
+    "fr": "Les mariages libanais sont célèbres pour leur ambiance.",
+    "ar": "الْأَعْرَاسُ اللُّبْنَانِيَّةُ مَشْهُورَةٌ بِأَجْوَائِهَا.",
+    "ro": "Al-aʿrāsu al-lubnāniyyatu mashhūratun bi-ajwāʾihā."
    },
    {
-    "fr": "Le sumō, c'est un bon sujet pour lancer la conversation.",
-    "ja": "相撲の話は、会話のきっかけになります。",
-    "ro": "Sumō no hanashi wa, kaiwa no kikkake ni narimasu."
+    "fr": "Prépare-toi à danser toute la nuit !",
+    "ar": "اِسْتَعِدَّ لِلرَّقْصِ طَوَالَ اللَّيْلِ!",
+    "ro": "Istaʿidda li-r-raqṣi ṭawāla al-layli!"
    }
   ]
  },
  {
-  "title": "L'anniversaire d'une collègue",
+  "title": "Le soir du mariage",
   "phrases": [
    {
-    "fr": "Vendredi, c'est l'anniversaire de Mme Mori.",
-    "ja": "金曜日は森さんの誕生日です。",
-    "ro": "Kin'yōbi wa Mori-san no tanjōbi desu."
+    "fr": "La mariée est arrivée sous les applaudissements.",
+    "ar": "وَصَلَتِ الْعَرُوسُ وَسَطَ التَّصْفِيقِ.",
+    "ro": "Waṣalati al-ʿarūsu wasaṭa at-taṣfīqi."
    },
    {
-    "fr": "Et si on lui faisait une surprise ?",
-    "ja": "サプライズをしませんか？",
-    "ro": "Sapuraizu o shimasen ka?"
+    "fr": "Elle portait une longue robe blanche.",
+    "ar": "كَانَتْ تَلْبَسُ فُسْتَانًا أَبْيَضَ طَوِيلًا.",
+    "ro": "Kānat talbasu fustānan abyaḍa ṭawīlan."
    },
    {
-    "fr": "Pour le cadeau, c'est mille yens par personne.",
-    "ja": "プレゼント代は一人千円ずつです。",
-    "ro": "Purezento dai wa hitori sen'en zutsu desu."
+    "fr": "Les musiciens jouaient de la derbouka et du oud.",
+    "ar": "كَانَ الْمُوسِيقِيُّونَ يَعْزِفُونَ عَلَى الدِّرْبَكَّةِ وَالْعُودِ.",
+    "ro": "Kāna al-mūsīqiyyūna yaʿzifūna ʿalā ad-dirbakkati wa-l-ʿūdi."
    },
    {
-    "fr": "À ton avis, qu'est-ce qu'elle aime ?",
-    "ja": "森さんは何が好きだと思いますか？",
-    "ro": "Mori-san wa nani ga suki da to omoimasu ka?"
+    "fr": "Tout le monde a dansé la dabké en cercle.",
+    "ar": "رَقَصَ الْجَمِيعُ الدَّبْكَةَ فِي دَائِرَةٍ.",
+    "ro": "Raqaṣa al-jamīʿu ad-dabkata fī dāʾiratin."
    },
    {
-    "fr": "Je crois qu'elle adore les fleurs et le thé.",
-    "ja": "花とお茶が大好きだと思います。",
-    "ro": "Hana to ocha ga daisuki da to omoimasu."
+    "fr": "Le père du marié a fait un discours émouvant.",
+    "ar": "أَلْقَى وَالِدُ الْعَرِيسِ كَلِمَةً مُؤَثِّرَةً.",
+    "ro": "Alqā wālidu al-ʿarīsi kalimatan muʾaththiratan."
    },
    {
-    "fr": "J'ai commandé un gâteau à la pâtisserie d'en face.",
-    "ja": "向かいのケーキ屋さんにケーキを注文しました。",
-    "ro": "Mukai no kēkiya-san ni kēki o chūmon shimashita."
+    "fr": "Le gâteau avait sept étages !",
+    "ar": "كَانَتْ لِلْكَعْكَةِ سَبْعُ طَبَقَاتٍ!",
+    "ro": "Kānat li-l-kaʿkati sabʿu ṭabaqātin!"
    },
    {
-    "fr": "Cache la carte, elle arrive !",
-    "ja": "カードを隠してください。森さんが来ます！",
-    "ro": "Kādo o kakushite kudasai. Mori-san ga kimasu!"
+    "fr": "J'ai retrouvé des amis que je n'avais pas vus depuis longtemps.",
+    "ar": "اِلْتَقَيْتُ أَصْدِقَاءَ لَمْ أَرَهُمْ مُنْذُ زَمَنٍ طَوِيلٍ.",
+    "ro": "Iltaqaytu aṣdiqāʾa lam arahum mundhu zamanin ṭawīlin."
    },
    {
-    "fr": "Joyeux anniversaire, madame Mori !",
-    "ja": "森さん、お誕生日おめでとうございます！",
-    "ro": "Mori-san, otanjōbi omedetō gozaimasu!"
+    "fr": "Nous avons pris beaucoup de photos ensemble.",
+    "ar": "اِلْتَقَطْنَا صُوَرًا كَثِيرَةً مَعًا.",
+    "ro": "Iltaqaṭnā ṣuwaran kathīratan maʿan."
    },
    {
-    "fr": "Elle a été très touchée par la surprise.",
-    "ja": "サプライズにとても感動していました。",
-    "ro": "Sapuraizu ni totemo kandō shite imashita."
+    "fr": "La fête s'est terminée à trois heures du matin.",
+    "ar": "اِنْتَهَى الْحَفْلُ فِي السَّاعَةِ الثَّالِثَةِ فَجْرًا.",
+    "ro": "Intahā al-ḥaflu fī as-sāʿati ath-thālithati fajran."
    },
    {
-    "fr": "Ça fait combien d'années que vous travaillez ensemble ?",
-    "ja": "一緒に働いて何年になりますか？",
-    "ro": "Issho ni hataraite nannen ni narimasu ka?"
+    "fr": "Je souhaite beaucoup de bonheur aux mariés.",
+    "ar": "أَتَمَنَّى لِلْعَرُوسَيْنِ سَعَادَةً كَبِيرَةً.",
+    "ro": "Atamannā li-l-ʿarūsayni saʿādatan kabīratan."
    }
   ]
  },
  {
-  "title": "Les séries du moment",
+  "title": "Des promesses entre amis",
   "phrases": [
    {
-    "fr": "Tu regardes une série en ce moment ?",
-    "ja": "今、何かドラマを見ていますか？",
-    "ro": "Ima, nanika dorama o mite imasu ka?"
+    "fr": "Je n'oublierai jamais cette soirée.",
+    "ar": "لَنْ أَنْسَى هَذِهِ السَّهْرَةَ أَبَدًا.",
+    "ro": "Lan ansā hādhihi as-sahrata abadan."
    },
    {
-    "fr": "Je regarde une série policière très populaire.",
-    "ja": "人気の刑事ドラマを見ています。",
-    "ro": "Ninki no keiji dorama o mite imasu."
+    "fr": "Nous ne quitterons pas Beyrouth cet été.",
+    "ar": "لَنْ نُغَادِرَ بَيْرُوتَ هَذَا الصَّيْفَ.",
+    "ro": "Lan nughādira bayrūta hādhā aṣ-ṣayfa."
    },
    {
-    "fr": "Justement, l'histoire se passe à Hiroshima.",
-    "ja": "ちょうど広島が舞台です。",
-    "ro": "Chōdo Hiroshima ga butai desu."
+    "fr": "Ne t'inquiète pas, je ne serai pas en retard.",
+    "ar": "لَا تَقْلَقْ، لَنْ أَتَأَخَّرَ.",
+    "ro": "Lā taqlaq, lan ataʾakhkhara."
    },
    {
-    "fr": "Tu en as déjà vu combien d'épisodes ?",
-    "ja": "もう何話見ましたか？",
-    "ro": "Mō nanwa mimashita ka?"
+    "fr": "Elle ne changera pas d'avis facilement.",
+    "ar": "لَنْ تُغَيِّرَ رَأْيَهَا بِسُهُولَةٍ.",
+    "ro": "Lan tughayyira raʾyahā bi-suhūlatin."
    },
    {
-    "fr": "J'ai tout regardé le week-end dernier.",
-    "ja": "先週末に全部見ました。",
-    "ro": "Senshūmatsu ni zenbu mimashita."
+    "fr": "Ils ne viendront pas à la fête demain.",
+    "ar": "لَنْ يَأْتُوا إِلَى الْحَفْلَةِ غَدًا.",
+    "ro": "Lan yaʾtū ilā al-ḥaflati ghadan."
    },
    {
-    "fr": "Ne me raconte pas la fin, s'il te plaît !",
-    "ja": "最後は言わないでください！",
-    "ro": "Saigo wa iwanaide kudasai!"
+    "fr": "Tu ne regretteras pas ce voyage, crois-moi.",
+    "ar": "لَنْ تَنْدَمَ عَلَى هَذِهِ الرِّحْلَةِ، صَدِّقْنِي.",
+    "ro": "Lan tandama ʿalā hādhihi ar-riḥlati, ṣaddiqnī."
    },
    {
-    "fr": "L'acteur principal joue vraiment bien.",
-    "ja": "主役の俳優は演技が本当に上手です。",
-    "ro": "Shuyaku no haiyū wa engi ga hontō ni jōzu desu."
+    "fr": "Je ne dirai ton secret à personne.",
+    "ar": "لَنْ أَقُولَ سِرَّكَ لِأَحَدٍ.",
+    "ro": "Lan aqūla sirraka li-aḥadin."
    },
    {
-    "fr": "La deuxième saison commence en avril.",
-    "ja": "第二シーズンは四月に始まります。",
-    "ro": "Dai ni shīzun wa shigatsu ni hajimarimasu."
+    "fr": "Nous ne trouverons pas de meilleur taboulé ailleurs.",
+    "ar": "لَنْ نَجِدَ تَبُّولَةً أَطْيَبَ فِي مَكَانٍ آخَرَ.",
+    "ro": "Lan najida tabbūlatan aṭyaba fī makānin ākhara."
    },
    {
-    "fr": "Je préfère les séries courtes, d'une dizaine d'épisodes.",
-    "ja": "十話ぐらいの短いドラマのほうが好きです。",
-    "ro": "Jūwa gurai no mijikai dorama no hō ga suki desu."
+    "fr": "Le restaurant ne fermera pas avant minuit.",
+    "ar": "لَنْ يُغْلِقَ الْمَطْعَمُ قَبْلَ مُنْتَصَفِ اللَّيْلِ.",
+    "ro": "Lan yughliqa al-maṭʿamu qabla muntaṣafi al-layli."
    },
    {
-    "fr": "Tu veux la regarder avec moi samedi, chez moi ?",
-    "ja": "土曜日にうちで一緒に見ませんか？",
-    "ro": "Doyōbi ni uchi de issho ni mimasen ka?"
-   }
-  ]
- },
- {
-  "title": "Impressions et rumeurs",
-  "phrases": [
-   {
-    "fr": "Ce mentaiko a l'air délicieux.",
-    "ja": "この明太子、おいしそうですね。",
-    "ro": "Kono mentaiko, oishisō desu ne."
-   },
-   {
-    "fr": "Tu as l'air d'avoir sommeil aujourd'hui.",
-    "ja": "今日は眠そうですね。",
-    "ro": "Kyō wa nemusō desu ne."
-   },
-   {
-    "fr": "Il paraît que Kenta va se marier.",
-    "ja": "健太さんは結婚するそうです。",
-    "ro": "Kenta-san wa kekkon suru sō desu."
-   },
-   {
-    "fr": "D'après la météo, il fera beau ce week-end.",
-    "ja": "天気予報によると、週末は晴れるそうです。",
-    "ro": "Tenki yohō ni yoru to, shūmatsu wa hareru sō desu."
-   },
-   {
-    "fr": "On dirait qu'il va pleuvoir d'un moment à l'autre.",
-    "ja": "今にも雨が降りそうです。",
-    "ro": "Ima ni mo ame ga furisō desu."
-   },
-   {
-    "fr": "Il paraît qu'un nouveau café a ouvert à Tenjin.",
-    "ja": "天神に新しいカフェができたそうです。",
-    "ro": "Tenjin ni atarashii kafe ga dekita sō desu."
-   },
-   {
-    "fr": "Ce match s'annonce serré.",
-    "ja": "この試合は接戦になりそうです。",
-    "ro": "Kono shiai wa sessen ni narisō desu."
-   },
-   {
-    "fr": "Mme Mori a l'air ravie de son cadeau.",
-    "ja": "森さんはプレゼントがとてもうれしそうです。",
-    "ro": "Mori-san wa purezento ga totemo ureshisō desu."
-   },
-   {
-    "fr": "Il paraît que le directeur est muté à Hiroshima.",
-    "ja": "部長は広島に転勤するそうです。",
-    "ro": "Buchō wa Hiroshima ni tenkin suru sō desu."
-   },
-   {
-    "fr": "Ah bon ? Je n'en savais rien.",
-    "ja": "そうですか。全然知りませんでした。",
-    "ro": "Sō desu ka. Zenzen shirimasen deshita."
+    "fr": "Notre amitié ne changera jamais.",
+    "ar": "لَنْ تَتَغَيَّرَ صَدَاقَتُنَا أَبَدًا.",
+    "ro": "Lan tataghayyara ṣadāqatunā abadan."
    }
   ],
   "tip": {
-   "title": "« -sō desu » : on dirait que, et j'ai entendu dire que",
-   "example": "Il paraît que Kenta va se marier. — 健太さんは結婚する<b>そうです</b>。",
-   "exampleRo": "Kenta-san wa kekkon suru sō desu.",
-   "lit": "Kenta-monsieur · [thème] · se marier · il paraît (poli)",
-   "body": "« Sō desu » a deux usages, et c'est la forme placée juste avant qui permet de les distinguer. Collé au radical d'un verbe, ou à un adjectif privé de son « i » final, il exprime une impression : « oishisō desu », ça a l'air bon, « furisō desu », on dirait qu'il va pleuvoir. Placé après une forme complète, il rapporte une information entendue : Kenta-san wa kekkon suru sō desu se décompose en Kenta, thème, se marier, il paraît. C'est notre « il paraît que », mais placé tout à la fin de la phrase. Comparez « furisō desu », je vois des nuages, il va pleuvoir, et « furu sō desu », la météo annonce de la pluie. Astuce : forme raccourcie, je le vois ; forme entière, on me l'a dit."
+   "title": "« Lan » : la négation du futur",
+   "example": "Je n'oublierai jamais cette soirée. — <b>لَنْ</b> أَنْسَى هَذِهِ السَّهْرَةَ أَبَدًا.",
+   "exampleRo": "Lan ansā hādhihi as-sahrata abadan.",
+   "lit": "[ne… pas, futur] · j'oublie · cette · soirée · jamais",
+   "body": "Pour dire ce qui n'arrivera pas, l'arabe utilise « lan » devant le verbe au présent. Attention, le petit préfixe du futur, « sa », disparaît : « sa-ansa », j'oublierai, devient « lan ansa », je n'oublierai pas. Notre exemple se lit mot à mot : ne pas, j'oublie, cette soirée, jamais. Comme après « an », le verbe prend la terminaison en a : « lan nughadira », nous ne partirons pas, « lan tandama », tu ne regretteras pas. Tu connais maintenant les trois négations du verbe : « la » pour le présent, « lam » pour le passé et « lan » pour le futur. Astuce : « lan » et « jamais » finissent tous deux par un son nasal, c'est la négation qui regarde loin devant."
   }
- },
- {
-  "title": "Une journée à Hiroshima",
-  "phrases": [
-   {
-    "fr": "De Fukuoka à Hiroshima, il faut environ une heure en shinkansen.",
-    "ja": "福岡から広島まで新幹線で一時間ぐらいです。",
-    "ro": "Fukuoka kara Hiroshima made shinkansen de ichijikan gurai desu."
-   },
-   {
-    "fr": "Nous sommes d'abord allés au parc du Mémorial pour la paix.",
-    "ja": "まず平和記念公園に行きました。",
-    "ro": "Mazu Heiwa Kinen Kōen ni ikimashita."
-   },
-   {
-    "fr": "En voyant le Dôme de la bombe atomique, j'ai eu le cœur serré.",
-    "ja": "原爆ドームを見て、とても胸が痛くなりました。",
-    "ro": "Genbaku dōmu o mite, totemo mune ga itaku narimashita."
-   },
-   {
-    "fr": "Au musée, il y avait beaucoup d'élèves en voyage scolaire.",
-    "ja": "資料館には修学旅行の学生がたくさんいました。",
-    "ro": "Shiryōkan ni wa shūgaku ryokō no gakusei ga takusan imashita."
-   },
-   {
-    "fr": "Chaque année, des milliers de grues en papier sont envoyées ici.",
-    "ja": "毎年、何千羽もの折り鶴が届きます。",
-    "ro": "Maitoshi, nanzenba mo no orizuru ga todokimasu."
-   },
-   {
-    "fr": "À midi, on a mangé un okonomiyaki à la mode de Hiroshima.",
-    "ja": "昼は広島風お好み焼きを食べました。",
-    "ro": "Hiru wa Hiroshimafū okonomiyaki o tabemashita."
-   },
-   {
-    "fr": "Ici, on met des nouilles au milieu.",
-    "ja": "ここでは、麺を間に入れます。",
-    "ro": "Koko de wa, men o aida ni iremasu."
-   },
-   {
-    "fr": "Le cuisinier prépare tout devant nous, sur une plaque chauffante.",
-    "ja": "店の人が目の前の鉄板で焼きます。",
-    "ro": "Mise no hito ga me no mae no teppan de yakimasu."
-   },
-   {
-    "fr": "Je trouve celui de Hiroshima plus copieux que celui d'Osaka.",
-    "ja": "大阪のより広島のほうがボリュームがあると思います。",
-    "ro": "Ōsaka no yori Hiroshima no hō ga boryūmu ga aru to omoimasu."
-   },
-   {
-    "fr": "Ce soir, on dort près de l'embarcadère pour Miyajima.",
-    "ja": "今晩は宮島行きの船乗り場の近くに泊まります。",
-    "ro": "Konban wa Miyajima iki no funanoriba no chikaku ni tomarimasu."
-   }
-  ]
- },
- {
-  "title": "L'île de Miyajima",
-  "phrases": [
-   {
-    "fr": "Le ferry pour Miyajima ne met que dix minutes.",
-    "ja": "宮島行きのフェリーは十分しかかかりません。",
-    "ro": "Miyajima iki no ferī wa juppun shika kakarimasen."
-   },
-   {
-    "fr": "On a regardé le grand torii pendant la traversée.",
-    "ja": "船に乗りながら、大鳥居を見ました。",
-    "ro": "Fune ni norinagara, ōtorii o mimashita."
-   },
-   {
-    "fr": "À marée haute, le torii semble flotter sur la mer.",
-    "ja": "満潮のとき、鳥居は海に浮いているように見えます。",
-    "ro": "Manchō no toki, torii wa umi ni uite iru yō ni miemasu."
-   },
-   {
-    "fr": "Des cerfs se promènent librement dans les rues.",
-    "ja": "鹿が自由に町を歩いています。",
-    "ro": "Shika ga jiyū ni machi o aruite imasu."
-   },
-   {
-    "fr": "Les huîtres grillées sont la spécialité de l'île.",
-    "ja": "焼き牡蠣は島の名物です。",
-    "ro": "Yakigaki wa shima no meibutsu desu."
-   },
-   {
-    "fr": "Mon ami prend des photos tout en marchant.",
-    "ja": "友達は歩きながら写真を撮っています。",
-    "ro": "Tomodachi wa arukinagara shashin o totte imasu."
-   },
-   {
-    "fr": "On a parlé de nos souvenirs en buvant un thé.",
-    "ja": "お茶を飲みながら、思い出を話しました。",
-    "ro": "Ocha o nominagara, omoide o hanashimashita."
-   },
-   {
-    "fr": "Nous sommes montés au mont Misen en téléphérique.",
-    "ja": "ロープウェーで弥山に登りました。",
-    "ro": "Rōpuwē de Misen ni noborimashita."
-   },
-   {
-    "fr": "J'aime regarder la mer en écoutant de la musique.",
-    "ja": "音楽を聞きながら、海を見るのが好きです。",
-    "ro": "Ongaku o kikinagara, umi o miru no ga suki desu."
-   },
-   {
-    "fr": "En fin de journée, l'île devient très calme.",
-    "ja": "夕方、島はとても静かになります。",
-    "ro": "Yūgata, shima wa totemo shizuka ni narimasu."
-   }
-  ],
-  "tip": {
-   "title": "« -nagara » : faire deux choses en même temps",
-   "example": "On a parlé de nos souvenirs en buvant un thé. — お茶を<b>飲みながら</b>、思い出を話しました。",
-   "exampleRo": "Ocha o nominagara, omoide o hanashimashita.",
-   "lit": "honorable-thé · [objet] · boire-tout en · souvenirs · [objet] · avoir parlé (poli)",
-   "body": "Pour dire qu'on fait deux choses à la fois, on prend le verbe à la forme en « masu », on enlève « masu » et on ajoute « nagara » : « nomimasu » devient « nominagara », en buvant. Ocha o nominagara, omoide o hanashimashita se décompose ainsi : thé, objet, tout en buvant, souvenirs, objet, nous avons parlé. Le verbe avec « nagara » décrit l'action d'arrière-plan, et c'est le dernier verbe, l'action principale, qui porte le temps et la politesse. Quelques exemples : « arukinagara », en marchant, « kikinagara », en écoutant, « minagara », en regardant. Attention, les deux actions doivent être faites par la même personne. Astuce : pensez au gérondif français « en faisant », mais placé avant l'action principale."
-  }
- },
- {
-  "title": "Un onsen entre amis",
-  "phrases": [
-   {
-    "fr": "Ce week-end, je pars à l'onsen avec des amis.",
-    "ja": "今週末、友達と温泉に行きます。",
-    "ro": "Konshūmatsu, tomodachi to onsen ni ikimasu."
-   },
-   {
-    "fr": "On a réservé un ryokan à Futsukaichi, près de Fukuoka.",
-    "ja": "福岡の近くの二日市温泉の旅館を予約しました。",
-    "ro": "Fukuoka no chikaku no Futsukaichi onsen no ryokan o yoyaku shimashita."
-   },
-   {
-    "fr": "Il faut se laver avant d'entrer dans le bain.",
-    "ja": "お風呂に入る前に、体を洗わなければなりません。",
-    "ro": "Ofuro ni hairu mae ni, karada o arawanakereba narimasen."
-   },
-   {
-    "fr": "On ne met pas sa serviette dans l'eau.",
-    "ja": "タオルをお湯に入れてはいけません。",
-    "ro": "Taoru o oyu ni irete wa ikemasen."
-   },
-   {
-    "fr": "L'eau est un peu trop chaude pour moi.",
-    "ja": "お湯が私には少し熱すぎます。",
-    "ro": "Oyu ga watashi ni wa sukoshi atsusugimasu."
-   },
-   {
-    "fr": "La nuit, le bain en plein air est magnifique.",
-    "ja": "夜の露天風呂はすばらしいです。",
-    "ro": "Yoru no rotenburo wa subarashii desu."
-   },
-   {
-    "fr": "Après le bain, on boit du lait bien froid.",
-    "ja": "お風呂のあとで、冷たい牛乳を飲みます。",
-    "ro": "Ofuro no ato de, tsumetai gyūnyū o nomimasu."
-   },
-   {
-    "fr": "On a joué au ping-pong en yukata.",
-    "ja": "浴衣で卓球をしました。",
-    "ro": "Yukata de takkyū o shimashita."
-   },
-   {
-    "fr": "On a dîné dans notre chambre.",
-    "ja": "晩ご飯は部屋で食べました。",
-    "ro": "Bangohan wa heya de tabemashita."
-   },
-   {
-    "fr": "J'ai pu bien me détendre, merci de m'avoir invité.",
-    "ja": "本当にリラックスできました。誘ってくれてありがとうございます。",
-    "ro": "Hontō ni rirakkusu dekimashita. Sasotte kurete arigatō gozaimasu."
-   }
-  ]
- },
- {
-  "title": "Donner son opinion",
-  "phrases": [
-   {
-    "fr": "Que penses-tu du nouveau stade ?",
-    "ja": "新しいスタジアムについてどう思いますか？",
-    "ro": "Atarashii sutajiamu ni tsuite dō omoimasu ka?"
-   },
-   {
-    "fr": "Je pense que c'est une bonne chose pour la ville.",
-    "ja": "町にとっていいことだと思います。",
-    "ro": "Machi ni totte ii koto da to omoimasu."
-   },
-   {
-    "fr": "Moi, je ne suis pas vraiment d'accord.",
-    "ja": "私は、あまり賛成できません。",
-    "ro": "Watashi wa, amari sansei dekimasen."
-   },
-   {
-    "fr": "À mon avis, les billets sont devenus trop chers.",
-    "ja": "チケットが高くなりすぎたと思います。",
-    "ro": "Chiketto ga takaku narisugita to omoimasu."
-   },
-   {
-    "fr": "C'est vrai, mais l'ambiance s'est améliorée.",
-    "ja": "それはそうですが、雰囲気はよくなりました。",
-    "ro": "Sore wa sō desu ga, fun'iki wa yoku narimashita."
-   },
-   {
-    "fr": "Au Japon, on évite souvent de dire non directement.",
-    "ja": "日本では、はっきり「いいえ」と言わないことが多いです。",
-    "ro": "Nihon de wa, hakkiri « iie » to iwanai koto ga ōi desu."
-   },
-   {
-    "fr": "On dit plutôt « c'est un peu difficile ».",
-    "ja": "「ちょっと難しいですね」と言います。",
-    "ro": "« Chotto muzukashii desu ne » to iimasu."
-   },
-   {
-    "fr": "Chacun a un avis différent, et je trouve ça bien.",
-    "ja": "人それぞれ意見が違って、いいと思います。",
-    "ro": "Hito sorezore iken ga chigatte, ii to omoimasu."
-   },
-   {
-    "fr": "Je comprends aussi ce point de vue.",
-    "ja": "その考え方もわかります。",
-    "ro": "Sono kangaekata mo wakarimasu."
-   },
-   {
-    "fr": "Parlons-en encore autour d'un verre.",
-    "ja": "飲みながら、もっと話しましょう。",
-    "ro": "Nominagara, motto hanashimashō."
-   }
-  ]
  },
  {
   "title": "Souvenirs d'enfance",
   "phrases": [
    {
-    "fr": "Quand j'étais petit, je vivais près de la mer à Itoshima.",
-    "ja": "子どものころ、糸島の海の近くに住んでいました。",
-    "ro": "Kodomo no koro, Itoshima no umi no chikaku ni sunde imashita."
+    "fr": "Quand j'étais enfant, j'habitais à Achrafieh.",
+    "ar": "عِنْدَمَا كُنْتُ طِفْلًا كُنْتُ أَسْكُنُ فِي الْأَشْرَفِيَّةِ.",
+    "ro": "ʿIndamā kuntu ṭiflan kuntu askunu fī al-ashrafiyyati."
    },
    {
-    "fr": "L'été, je nageais tous les jours.",
-    "ja": "夏は毎日泳いでいました。",
-    "ro": "Natsu wa mainichi oyoide imashita."
+    "fr": "Nous jouions au ballon dans la rue jusqu'au soir.",
+    "ar": "كُنَّا نَلْعَبُ بِالْكُرَةِ فِي الشَّارِعِ حَتَّى الْمَسَاءِ.",
+    "ro": "Kunnā nalʿabu bi-l-kurati fī ash-shāriʿi ḥattā al-masāʾi."
    },
    {
-    "fr": "Le dimanche, mon grand-père m'emmenait souvent pêcher.",
-    "ja": "祖父は日曜日によく釣りに連れていってくれました。",
-    "ro": "Sofu wa nichiyōbi ni yoku tsuri ni tsurete itte kuremashita."
+    "fr": "Ma mère nous appelait depuis le balcon.",
+    "ar": "كَانَتْ أُمِّي تُنَادِينَا مِنَ الشُّرْفَةِ.",
+    "ro": "Kānat ummī tunādīnā mina ash-shurfati."
    },
    {
-    "fr": "On allait aussi au matsuri du quartier en yukata.",
-    "ja": "近所のお祭りにも浴衣で行きました。",
-    "ro": "Kinjo no omatsuri ni mo yukata de ikimashita."
+    "fr": "Le dimanche, on allait chez nos grands-parents.",
+    "ar": "فِي أَيَّامِ الْأَحَدِ كُنَّا نَذْهَبُ إِلَى بَيْتِ جَدَّيْنَا.",
+    "ro": "Fī ayyāmi al-aḥadi kunnā nadhhabu ilā bayti jaddaynā."
    },
    {
-    "fr": "J'adorais pêcher des poissons rouges sur les stands.",
-    "ja": "金魚すくいが大好きでした。",
-    "ro": "Kingyo sukui ga daisuki deshita."
+    "fr": "Mon grand-père racontait des histoires incroyables.",
+    "ar": "كَانَ جَدِّي يَحْكِي قِصَصًا عَجِيبَةً.",
+    "ro": "Kāna jaddī yaḥkī qiṣaṣan ʿajībatan."
    },
    {
-    "fr": "À l'école primaire, je jouais au baseball avec mes amis.",
-    "ja": "小学校で友達と野球をしていました。",
-    "ro": "Shōgakkō de tomodachi to yakyū o shite imashita."
+    "fr": "Te souviens-tu de notre première école ?",
+    "ar": "هَلْ تَتَذَكَّرُ مَدْرَسَتَنَا الْأُولَى؟",
+    "ro": "Hal tatadhakkaru madrasatanā al-ūlā?"
    },
    {
-    "fr": "Je n'étais pas très doué, mais je m'amusais beaucoup.",
-    "ja": "あまり上手ではありませんでしたが、とても楽しかったです。",
-    "ro": "Amari jōzu de wa arimasen deshita ga, totemo tanoshikatta desu."
+    "fr": "Bien sûr, je me souviens même du nom de la maîtresse.",
+    "ar": "طَبْعًا، أَتَذَكَّرُ حَتَّى اسْمَ الْمُعَلِّمَةِ.",
+    "ro": "Ṭabʿan, atadhakkaru ḥattā isma al-muʿallimati."
    },
    {
-    "fr": "Quel est ton meilleur souvenir d'enfance ?",
-    "ja": "子どものころの一番の思い出は何ですか？",
-    "ro": "Kodomo no koro no ichiban no omoide wa nan desu ka?"
+    "fr": "On achetait du kaak au vendeur près de l'école.",
+    "ar": "كُنَّا نَشْتَرِي الْكَعْكَ مِنَ الْبَائِعِ قُرْبَ الْمَدْرَسَةِ.",
+    "ro": "Kunnā nashtarī al-kaʿka mina al-bāʾiʿi qurba al-madrasati."
    },
    {
-    "fr": "Je me souviens encore de l'odeur des feux d'artifice.",
-    "ja": "花火のにおいを今でも覚えています。",
-    "ro": "Hanabi no nioi o ima demo oboete imasu."
+    "fr": "Ces années étaient simples et heureuses.",
+    "ar": "كَانَتْ تِلْكَ السَّنَوَاتُ بَسِيطَةً وَسَعِيدَةً.",
+    "ro": "Kānat tilka as-sanawātu basīṭatan wa-saʿīdatan."
    },
    {
-    "fr": "Ces souvenirs me rendent un peu nostalgique.",
-    "ja": "その思い出は、ちょっと懐かしいです。",
-    "ro": "Sono omoide wa, chotto natsukashii desu."
+    "fr": "Parfois, j'aimerais revenir à cette époque.",
+    "ar": "أَحْيَانًا أَتَمَنَّى أَنْ أَعُودَ إِلَى ذَلِكَ الزَّمَنِ.",
+    "ro": "Aḥyānan atamannā an aʿūda ilā dhālika az-zamani."
    }
   ]
  },
  {
-  "title": "Chez les parents d'un collègue",
+  "title": "Un ami part enseigner à Dubaï",
   "phrases": [
    {
-    "fr": "Les parents de M. Yamada nous ont invités chez eux.",
-    "ja": "山田さんのご両親が家に招待してくださいました。",
-    "ro": "Yamada-san no goryōshin ga ie ni shōtai shite kudasaimashita."
+    "fr": "Mon ami Karim enseigne les mathématiques.",
+    "ar": "صَدِيقِي كَرِيمٌ يُعَلِّمُ الرِّيَاضِيَّاتِ.",
+    "ro": "Ṣadīqī karīmun yuʿallimu ar-riyāḍiyyāti."
    },
    {
-    "fr": "Votre père est-il là ?",
-    "ja": "お父さんはいらっしゃいますか？",
-    "ro": "Otōsan wa irasshaimasu ka?"
+    "fr": "Il va partir pour Dubaï le mois prochain.",
+    "ar": "سَيُسَافِرُ إِلَى دُبَيٍّ فِي الشَّهْرِ الْقَادِمِ.",
+    "ro": "Sayusāfiru ilā dubayyin fī ash-shahri al-qādimi."
    },
    {
-    "fr": "Mon père rentre tout de suite, entrez donc.",
-    "ja": "父はすぐ帰ってきます。どうぞ、お上がりください。",
-    "ro": "Chichi wa sugu kaette kimasu. Dōzo, oagari kudasai."
+    "fr": "Une école là-bas lui a proposé un poste.",
+    "ar": "عَرَضَتْ عَلَيْهِ مَدْرَسَةٌ هُنَاكَ وَظِيفَةً.",
+    "ro": "ʿAraḍat ʿalayhi madrasatun hunāka waẓīfatan."
    },
    {
-    "fr": "Vous allez souvent à Miyajima, madame ?",
-    "ja": "お母さんは、よく宮島にいらっしゃいますか？",
-    "ro": "Okāsan wa, yoku Miyajima ni irasshaimasu ka?"
+    "fr": "Il a enseigné dix ans à Tripoli.",
+    "ar": "عَلَّمَ عَشْرَ سَنَوَاتٍ فِي طَرَابُلُسَ.",
+    "ro": "ʿAllama ʿashra sanawātin fī ṭarābulusa."
    },
    {
-    "fr": "Je vous en prie, goûtez ces huîtres.",
-    "ja": "どうぞ、この牡蠣を召し上がってください。",
-    "ro": "Dōzo, kono kaki o meshiagatte kudasai."
+    "fr": "Sa femme voyagera avec lui.",
+    "ar": "سَتُسَافِرُ زَوْجَتُهُ مَعَهُ.",
+    "ro": "Satusāfiru zawjatuhu maʿahu."
    },
    {
-    "fr": "Votre père boit-il du saké ?",
-    "ja": "お父さんはお酒を召し上がりますか？",
-    "ro": "Otōsan wa osake o meshiagarimasu ka?"
+    "fr": "Ses élèves lui ont dit au revoir avec une belle fête.",
+    "ar": "وَدَّعَهُ تَلَامِيذُهُ بِحَفْلَةٍ جَمِيلَةٍ.",
+    "ro": "Waddaʿahu talāmīdhuhu bi-ḥaflatin jamīlatin."
    },
    {
-    "fr": "Que faites-vous le week-end, monsieur ?",
-    "ja": "週末は何をなさいますか？",
-    "ro": "Shūmatsu wa nani o nasaimasu ka?"
+    "fr": "Nous l'aiderons à préparer ses valises.",
+    "ar": "سَنُسَاعِدُهُ فِي تَحْضِيرِ حَقَائِبِهِ.",
+    "ro": "Sanusāʿiduhu fī taḥḍīri ḥaqāʾibihi."
    },
    {
-    "fr": "Mon père regarde toujours les matchs des Carp.",
-    "ja": "父はいつもカープの試合を見ています。",
-    "ro": "Chichi wa itsumo Kāpu no shiai o mite imasu."
+    "fr": "J'ai appris beaucoup de choses avec lui.",
+    "ar": "تَعَلَّمْتُ مِنْهُ أَشْيَاءَ كَثِيرَةً.",
+    "ro": "Taʿallamtu minhu ashyāʾa kathīratan."
    },
    {
-    "fr": "Hier, le professeur est venu au matsuri, lui aussi.",
-    "ja": "先生も昨日お祭りにいらっしゃいました。",
-    "ro": "Sensei mo kinō omatsuri ni irasshaimashita."
+    "fr": "Nous nous parlerons chaque semaine en vidéo.",
+    "ar": "سَنَتَحَادَثُ كُلَّ أُسْبُوعٍ بِالْفِيدْيُو.",
+    "ro": "Sanataḥādathu kulla usbūʿin bi-l-fīdyū."
    },
    {
-    "fr": "Merci pour cet accueil si chaleureux.",
-    "ja": "温かく迎えてくださって、ありがとうございました。",
-    "ro": "Atatakaku mukaete kudasatte, arigatō gozaimashita."
+    "fr": "On dit que les voyages enseignent beaucoup.",
+    "ar": "يُقَالُ إِنَّ السَّفَرَ يُعَلِّمُ الْكَثِيرَ.",
+    "ro": "Yuqālu inna as-safara yuʿallimu al-kathīra."
    }
   ],
   "tip": {
-   "title": "Le langage respectueux : « irasshaimasu », « meshiagarimasu »",
-   "example": "Votre père boit-il du saké ? — お父さんはお酒を<b>召し上がります</b>か？",
-   "exampleRo": "Otōsan wa osake o meshiagarimasu ka?",
-   "lit": "honorable-père · [thème] · honorable-saké · [objet] · boire (respectueux) · [question]",
-   "body": "Quand on parle d'une personne à qui l'on doit du respect, un aîné, un client ou les parents d'un ami, le japonais remplace certains verbes ordinaires par des verbes spéciaux qui l'élèvent. « Irasshaimasu » remplace à la fois « imasu », être là, « ikimasu », aller, et « kimasu », venir ; « meshiagarimasu » remplace « tabemasu », manger, et « nomimasu », boire. Otōsan wa osake o meshiagarimasu ka se décompose ainsi : honorable père, thème, honorable saké, objet, boire avec respect, question ? En revanche, on n'utilise jamais ces verbes pour soi-même ni pour sa propre famille : on dit simplement « chichi wa mite imasu », mon père regarde. Vous connaissez déjà « irasshaimase », le mot d'accueil des magasins : c'est le même verbe. Astuce : on élève les autres, jamais soi-même."
+   "title": "Les formes dérivées du verbe : allama, enseigner ; saafara, voyager",
+   "example": "Il a enseigné dix ans à Tripoli. — <b>عَلَّمَ</b> عَشْرَ سَنَوَاتٍ فِي طَرَابُلُسَ.",
+   "exampleRo": "ʿAllama ʿashra sanawātin fī ṭarābulusa.",
+   "lit": "il-a-enseigné · dix · années · à · Tripoli",
+   "body": "En arabe, presque chaque mot repose sur une racine de trois consonnes, et on fabrique de nouveaux verbes en modifiant le moule. Avec la racine du savoir, « alima », il a su, on double la lettre du milieu et on obtient « allama », il a fait savoir, donc il a enseigné. On ajoute encore « ta » devant et cela donne « taallama », il a appris. Avec le nom « safar », le voyage, on allonge la voyelle après la première lettre et on obtient « saafara », il a voyagé, d'où « musafir », le voyageur. Notre exemple dit simplement : il a enseigné, dix années, à Tripoli. Astuce : un son doublé fait souvent agir sur quelqu'un d'autre, un a allongé ajoute souvent l'idée d'un mouvement ou d'un échange."
   }
  },
  {
-  "title": "Se dire au revoir",
+  "title": "Des amis partis à l'étranger",
   "phrases": [
    {
-    "fr": "Je rentre en France la semaine prochaine.",
-    "ja": "来週、フランスに帰ります。",
-    "ro": "Raishū, Furansu ni kaerimasu."
+    "fr": "Depuis que Nada est partie en France, elle me manque.",
+    "ar": "مُنْذُ أَنْ سَافَرَتْ نَدَى إِلَى فَرَنْسَا أَشْتَاقُ إِلَيْهَا.",
+    "ro": "Mundhu an sāfarat nadā ilā faransā ashtāqu ilayhā."
    },
    {
-    "fr": "Ces mois à Fukuoka sont passés si vite.",
-    "ja": "福岡での数か月は、あっという間でした。",
-    "ro": "Fukuoka de no sūkagetsu wa, atto iu ma deshita."
+    "fr": "Elle fait des études de médecine à Paris.",
+    "ar": "تَدْرُسُ الطِّبَّ فِي بَارِيسَ.",
+    "ro": "Tadrusu aṭ-ṭibba fī bārīsa."
    },
    {
-    "fr": "Faisons une petite fête d'adieu.",
-    "ja": "送別会をしましょう。",
-    "ro": "Sōbetsukai o shimashō."
+    "fr": "On s'écrit presque tous les jours.",
+    "ar": "نَتَرَاسَلُ كُلَّ يَوْمٍ تَقْرِيبًا.",
+    "ro": "Natarāsalu kulla yawmin taqrīban."
    },
    {
-    "fr": "Tout le monde a écrit un mot sur une carte pour toi.",
-    "ja": "みんなでカードに寄せ書きをしました。",
-    "ro": "Minna de kādo ni yosegaki o shimashita."
+    "fr": "Elle m'envoie des photos de la neige.",
+    "ar": "تُرْسِلُ لِي صُوَرَ الثَّلْجِ.",
+    "ro": "Tursilu lī ṣuwara ath-thalji."
    },
    {
-    "fr": "Écris-moi quand tu seras arrivé.",
-    "ja": "着いたら、連絡してください。",
-    "ro": "Tsuitara, renraku shite kudasai."
+    "fr": "Et moi, je lui envoie des photos de la mer.",
+    "ar": "وَأَنَا أُرْسِلُ لَهَا صُوَرَ الْبَحْرِ.",
+    "ro": "Wa-anā ursilu lahā ṣuwara al-baḥri."
    },
    {
-    "fr": "Si tu viens en France, je te ferai visiter Paris.",
-    "ja": "フランスに来たら、パリを案内します。",
-    "ro": "Furansu ni kitara, Pari o annai shimasu."
+    "fr": "Beaucoup de jeunes Libanais vivent à l'étranger.",
+    "ar": "يَعِيشُ كَثِيرٌ مِنَ الشَّبَابِ اللُّبْنَانِيِّينَ فِي الْخَارِجِ.",
+    "ro": "Yaʿīshu kathīrun mina ash-shabābi al-lubnāniyyīna fī al-khāriji."
    },
    {
-    "fr": "On pourra se parler en visio le dimanche.",
-    "ja": "日曜日にビデオ通話で話せます。",
-    "ro": "Nichiyōbi ni bideo tsūwa de hanasemasu."
+    "fr": "Mais ils reviennent souvent pour l'été.",
+    "ar": "لَكِنَّهُمْ يَعُودُونَ غَالِبًا فِي الصَّيْفِ.",
+    "ro": "Lākinnahum yaʿūdūna ghāliban fī aṣ-ṣayfi."
    },
    {
-    "fr": "Je reviendrai peut-être pour le Yamakasa.",
-    "ja": "山笠のときに、また来るかもしれません。",
-    "ro": "Yamakasa no toki ni, mata kuru kamoshiremasen."
+    "fr": "Elle me demande toujours des nouvelles du quartier.",
+    "ar": "تَسْأَلُنِي دَائِمًا عَنْ أَخْبَارِ الْحَيِّ.",
+    "ro": "Tasʾalunī dāʾiman ʿan akhbāri al-ḥayyi."
    },
    {
-    "fr": "Fais attention à ta santé, d'accord ?",
-    "ja": "体に気をつけてくださいね。",
-    "ro": "Karada ni ki o tsukete kudasai ne."
+    "fr": "Je vais lui envoyer du zaatar et des olives.",
+    "ar": "سَأُرْسِلُ لَهَا زَعْتَرًا وَزَيْتُونًا.",
+    "ro": "Saʾursilu lahā zaʿtaran wa-zaytūnan."
    },
    {
-    "fr": "Merci pour tout, on se revoit bientôt.",
-    "ja": "いろいろありがとうございました。また会いましょう。",
-    "ro": "Iroiro arigatō gozaimashita. Mata aimashō."
+    "fr": "La distance ne change rien à notre amitié.",
+    "ar": "الْمَسَافَةُ لَا تُغَيِّرُ شَيْئًا فِي صَدَاقَتِنَا.",
+    "ro": "Al-masāfatu lā tughayyiru shayʾan fī ṣadāqatinā."
+   }
+  ]
+ },
+ {
+  "title": "Donner son avis",
+  "phrases": [
+   {
+    "fr": "À mon avis, la musique d'aujourd'hui est trop bruyante.",
+    "ar": "فِي رَأْيِي، مُوسِيقَى الْيَوْمِ صَاخِبَةٌ جِدًّا.",
+    "ro": "Fī raʾyī, mūsīqā al-yawmi ṣākhibatun jiddan."
+   },
+   {
+    "fr": "Je ne suis pas du tout d'accord avec toi sur ce point.",
+    "ar": "لَا أُوَافِقُكَ أَبَدًا فِي هَذِهِ النُّقْطَةِ.",
+    "ro": "Lā uwāfiquka abadan fī hādhihi an-nuqṭati."
+   },
+   {
+    "fr": "Les jeunes chanteurs ont beaucoup de talent.",
+    "ar": "لِلْمُغَنِّينَ الشَّبَابِ مَوْهِبَةٌ كَبِيرَةٌ.",
+    "ro": "Li-l-mughannīna ash-shabābi mawhibatun kabīratun."
+   },
+   {
+    "fr": "C'est une question de goût, finalement.",
+    "ar": "إِنَّهَا مَسْأَلَةُ ذَوْقٍ فِي النِّهَايَةِ.",
+    "ro": "Innahā masʾalatu dhawqin fī an-nihāyati."
+   },
+   {
+    "fr": "Pour moi, Fairouz reste la plus grande voix.",
+    "ar": "بِالنِّسْبَةِ إِلَيَّ، تَبْقَى فَيْرُوزُ أَعْظَمَ صَوْتٍ.",
+    "ro": "Bi-n-nisbati ilayya, tabqā fayrūzu aʿẓama ṣawtin."
+   },
+   {
+    "fr": "Là, je suis complètement d'accord avec toi !",
+    "ar": "هُنَا أُوَافِقُكَ تَمَامًا!",
+    "ro": "Hunā uwāfiquka tamāman!"
+   },
+   {
+    "fr": "Et que penses-tu des réseaux sociaux ?",
+    "ar": "وَمَا رَأْيُكَ فِي وَسَائِلِ التَّوَاصُلِ الِاجْتِمَاعِيِّ؟",
+    "ro": "Wa-mā raʾyuka fī wasāʾili at-tawāṣuli al-ijtimāʿiyyi?"
+   },
+   {
+    "fr": "Ils sont utiles, mais on y passe trop de temps.",
+    "ar": "هِيَ مُفِيدَةٌ، لَكِنَّنَا نَقْضِي فِيهَا وَقْتًا طَوِيلًا.",
+    "ro": "Hiya mufīdatun, lākinnanā naqḍī fīhā waqtan ṭawīlan."
+   },
+   {
+    "fr": "Tu as raison, il faut savoir s'arrêter.",
+    "ar": "مَعَكَ حَقٌّ، يَجِبُ أَنْ نَعْرِفَ مَتَى نَتَوَقَّفُ.",
+    "ro": "Maʿaka ḥaqqun, yajibu an naʿrifa matā natawaqqafu."
+   },
+   {
+    "fr": "J'aime discuter avec toi, même quand on n'est pas d'accord.",
+    "ar": "أُحِبُّ النِّقَاشَ مَعَكَ حَتَّى عِنْدَمَا نَخْتَلِفُ.",
+    "ro": "Uḥibbu an-niqāsha maʿaka ḥattā ʿindamā nakhtalifu."
+   }
+  ]
+ },
+ {
+  "title": "Une fête d'anniversaire",
+  "phrases": [
+   {
+    "fr": "Samedi, c'est l'anniversaire de Maya.",
+    "ar": "يَوْمُ السَّبْتِ هُوَ عِيدُ مِيلَادِ مَايَا.",
+    "ro": "Yawmu as-sabti huwa ʿīdu mīlādi māyā."
+   },
+   {
+    "fr": "Nous lui préparons une fête surprise.",
+    "ar": "نُحَضِّرُ لَهَا حَفْلَةً مُفَاجِئَةً.",
+    "ro": "Nuḥaḍḍiru lahā ḥaflatan mufājiʾatan."
+   },
+   {
+    "fr": "Surtout, ne lui dis rien !",
+    "ar": "لَا تَقُلْ لَهَا شَيْئًا أَبَدًا!",
+    "ro": "Lā taqul lahā shayʾan abadan!"
+   },
+   {
+    "fr": "Son frère l'emmènera dîner à Byblos.",
+    "ar": "سَيَأْخُذُهَا أَخُوهَا إِلَى الْعَشَاءِ فِي جُبَيْلَ.",
+    "ro": "Sayaʾkhudhuhā akhūhā ilā al-ʿashāʾi fī jubayla."
+   },
+   {
+    "fr": "Pendant ce temps, nous décorerons l'appartement.",
+    "ar": "فِي هَذِهِ الْأَثْنَاءِ سَنُزَيِّنُ الشَّقَّةَ.",
+    "ro": "Fī hādhihi al-athnāʾi sanuzayyinu ash-shaqqata."
+   },
+   {
+    "fr": "J'ai commandé un gâteau au chocolat et à la pistache.",
+    "ar": "طَلَبْتُ كَعْكَةً بِالشُّوكُولَاتَةِ وَالْفُسْتُقِ.",
+    "ro": "Ṭalabtu kaʿkatan bi-sh-shūkūlātati wa-l-fustuqi."
+   },
+   {
+    "fr": "Combien d'invités avez-vous appelés ?",
+    "ar": "كَمْ ضَيْفًا دَعَوْتُمْ؟",
+    "ro": "Kam ḍayfan daʿawtum?"
+   },
+   {
+    "fr": "Une vingtaine, surtout des amis de l'université.",
+    "ar": "نَحْوَ عِشْرِينَ، مُعْظَمُهُمْ مِنْ أَصْدِقَاءِ الْجَامِعَةِ.",
+    "ro": "Naḥwa ʿishrīna, muʿẓamuhum min aṣdiqāʾi al-jāmiʿati."
+   },
+   {
+    "fr": "Quand elle ouvrira la porte, criez « surprise » !",
+    "ar": "عِنْدَمَا تَفْتَحُ الْبَابَ، اُصْرُخُوا: «مُفَاجَأَةٌ»!",
+    "ro": "ʿIndamā taftaḥu al-bāba, uṣrukhū: «mufājaʾatun»!"
+   },
+   {
+    "fr": "Elle était si contente qu'elle a pleuré.",
+    "ar": "كَانَتْ سَعِيدَةً جِدًّا حَتَّى إِنَّهَا بَكَتْ.",
+    "ro": "Kānat saʿīdatan jiddan ḥattā innahā bakat."
+   }
+  ]
+ },
+ {
+  "title": "Les gens du quartier",
+  "phrases": [
+   {
+    "fr": "Notre voisin est un écrivain connu.",
+    "ar": "جَارُنَا كَاتِبٌ مَعْرُوفٌ.",
+    "ro": "Jārunā kātibun maʿrūfun."
+   },
+   {
+    "fr": "Le gardien de l'immeuble connaît tout le monde.",
+    "ar": "حَارِسُ الْعِمَارَةِ يَعْرِفُ الْجَمِيعَ.",
+    "ro": "Ḥārisu al-ʿimārati yaʿrifu al-jamīʿa."
+   },
+   {
+    "fr": "Les habitants de la rue se connaissent depuis des années.",
+    "ar": "سُكَّانُ الشَّارِعِ يَعْرِفُ بَعْضُهُمْ بَعْضًا مُنْذُ سَنَوَاتٍ.",
+    "ro": "Sukkānu ash-shāriʿi yaʿrifu baʿḍuhum baʿḍan mundhu sanawātin."
+   },
+   {
+    "fr": "Le fils du coiffeur est joueur de football.",
+    "ar": "اِبْنُ الْحَلَّاقِ لَاعِبُ كُرَةِ قَدَمٍ.",
+    "ro": "Ibnu al-ḥallāqi lāʿibu kurati qadamin."
+   },
+   {
+    "fr": "Il y a toujours des visiteurs chez Oum Sami.",
+    "ar": "هُنَاكَ دَائِمًا زَائِرُونَ عِنْدَ أُمِّ سَامِي.",
+    "ro": "Hunāka dāʾiman zāʾirūna ʿinda ummi sāmī."
+   },
+   {
+    "fr": "Le chauffeur de taxi nous raconte les nouvelles du jour.",
+    "ar": "سَائِقُ التَّاكْسِي يَحْكِي لَنَا أَخْبَارَ الْيَوْمِ.",
+    "ro": "Sāʾiqu at-tāksī yaḥkī lanā akhbāra al-yawmi."
+   },
+   {
+    "fr": "Ma voisine est une excellente joueuse de oud.",
+    "ar": "جَارَتِي عَازِفَةُ عُودٍ مُمْتَازَةٌ.",
+    "ro": "Jāratī ʿāzifatu ʿūdin mumtāzatun."
+   },
+   {
+    "fr": "Le soir, elle est souvent assise sur son balcon.",
+    "ar": "فِي الْمَسَاءِ تَكُونُ غَالِبًا جَالِسَةً عَلَى شُرْفَتِهَا.",
+    "ro": "Fī al-masāʾi takūnu ghāliban jālisatan ʿalā shurfatihā."
+   },
+   {
+    "fr": "Le marchand de légumes est la personne la plus gentille du quartier.",
+    "ar": "بَائِعُ الْخُضَارِ أَلْطَفُ شَخْصٍ فِي الْحَيِّ.",
+    "ro": "Bāʾiʿu al-khuḍāri alṭafu shakhṣin fī al-ḥayyi."
+   },
+   {
+    "fr": "Je suis sûr que tu vas aimer l'endroit.",
+    "ar": "أَنَا وَاثِقٌ مِنْ أَنَّكَ سَتُحِبُّ الْمَكَانَ.",
+    "ro": "Anā wāthiqun min annaka satuḥibbu al-makāna."
+   }
+  ],
+  "tip": {
+   "title": "Le participe actif : katib, celui qui écrit",
+   "example": "Notre voisin est un écrivain connu. — جَارُنَا <b>كَاتِبٌ</b> مَعْرُوفٌ.",
+   "exampleRo": "Jārunā kātibun maʿrūfun.",
+   "lit": "voisin-de-nous · écrivain · connu",
+   "body": "À partir d'un verbe simple, l'arabe fabrique très facilement le nom de celui qui fait l'action : on met un a long après la première lettre et un i après la deuxième. Ainsi « kataba », il a écrit, donne « katib », celui qui écrit, c'est-à-dire l'écrivain. Notre exemple se lit mot à mot : notre voisin, écrivain, connu, toujours sans verbe être. Sur le même modèle, « laiba », il a joué, donne « laib », le joueur, « sakana », il a habité, donne « sakin », l'habitant, et « haris » est celui qui garde. Au féminin, on ajoute simplement a : « katiba », l'écrivaine. Astuce : dès que tu entends ce rythme long-court, « faa-il », pense à celui qui fait."
+  }
+ },
+ {
+  "title": "Retrouvailles à Beyrouth",
+  "phrases": [
+   {
+    "fr": "Nada est rentrée de France pour les vacances !",
+    "ar": "عَادَتْ نَدَى مِنْ فَرَنْسَا لِقَضَاءِ الْعُطْلَةِ!",
+    "ro": "ʿĀdat nadā min faransā li-qaḍāʾi al-ʿuṭlati!"
+   },
+   {
+    "fr": "Tous les amis se sont réunis sur la corniche.",
+    "ar": "اِجْتَمَعَ الْأَصْدِقَاءُ كُلُّهُمْ عَلَى الْكُورْنِيشِ.",
+    "ro": "Ijtamaʿa al-aṣdiqāʾu kulluhum ʿalā al-kūrnīshi."
+   },
+   {
+    "fr": "Nada, tu n'as pas changé du tout !",
+    "ar": "يَا نَدَى، لَمْ تَتَغَيَّرِي أَبَدًا!",
+    "ro": "Yā nadā, lam tataghayyarī abadan!"
+   },
+   {
+    "fr": "Toi non plus, mais tes cheveux sont plus courts.",
+    "ar": "وَأَنْتَ أَيْضًا، لَكِنَّ شَعْرَكَ أَقْصَرُ.",
+    "ro": "Wa-anta ayḍan, lākinna shaʿraka aqṣaru."
+   },
+   {
+    "fr": "Raconte-nous ta vie là-bas, Nada.",
+    "ar": "اِحْكِي لَنَا عَنْ حَيَاتِكِ هُنَاكَ يَا نَدَى.",
+    "ro": "Iḥkī lanā ʿan ḥayātiki hunāka yā nadā."
+   },
+   {
+    "fr": "Le travail est dur, mais j'aime beaucoup la ville.",
+    "ar": "الْعَمَلُ صَعْبٌ، لَكِنَّنِي أُحِبُّ الْمَدِينَةَ كَثِيرًا.",
+    "ro": "Al-ʿamalu ṣaʿbun, lākinnanī uḥibbu al-madīnata kathīran."
+   },
+   {
+    "fr": "Le soleil et la mer de Beyrouth me manquaient.",
+    "ar": "كُنْتُ أَشْتَاقُ إِلَى شَمْسِ بَيْرُوتَ وَبَحْرِهَا.",
+    "ro": "Kuntu ashtāqu ilā shamsi bayrūta wa-baḥrihā."
+   },
+   {
+    "fr": "Et surtout, la manouché du matin m'a manqué !",
+    "ar": "وَاشْتَقْتُ خُصُوصًا إِلَى مَنَاقِيشِ الصَّبَاحِ!",
+    "ro": "Wa-shtaqtu khuṣūṣan ilā manāqīshi aṣ-ṣabāḥi!"
+   },
+   {
+    "fr": "Restons ensemble jusqu'au coucher du soleil.",
+    "ar": "هَيَّا نَبْقَى مَعًا حَتَّى غُرُوبِ الشَّمْسِ.",
+    "ro": "Hayyā nabqā maʿan ḥattā ghurūbi ash-shamsi."
+   },
+   {
+    "fr": "Ces moments sont plus précieux que tout l'or du monde.",
+    "ar": "هَذِهِ اللَّحَظَاتُ أَغْلَى مِنْ ذَهَبِ الْعَالَمِ.",
+    "ro": "Hādhihi al-laḥaẓātu aghlā min dhahabi al-ʿālami."
    }
   ]
  },
@@ -7562,54 +7562,54 @@ const level2Module3Lessons = [
   "title": "Fin du module : un bilan",
   "phrases": [
    {
-    "fr": "Ce module nous a appris à bavarder en japonais.",
-    "ja": "このモジュールで、日本語でおしゃべりすることを学びました。",
-    "ro": "Kono mojūru de, nihongo de oshaberi suru koto o manabimashita."
+    "fr": "Ce module nous a appris à parler de nos amis et de nos fêtes.",
+    "ar": "عَلَّمَتْنَا هَذِهِ الْوَحْدَةُ أَنْ نَتَحَدَّثَ عَنْ أَصْدِقَائِنَا وَحَفَلَاتِنَا.",
+    "ro": "ʿAllamatnā hādhihi al-waḥdatu an nataḥaddatha ʿan aṣdiqāʾinā wa-ḥafalātinā."
    },
    {
-    "fr": "Maintenant, on peut parler familièrement avec des amis.",
-    "ja": "今は友達とくだけた日本語で話せます。",
-    "ro": "Ima wa tomodachi to kudaketa nihongo de hanasemasu."
+    "fr": "Maintenant, tu sais exprimer ton avis en arabe.",
+    "ar": "الْآنَ تَسْتَطِيعُ أَنْ تُعَبِّرَ عَنْ رَأْيِكَ بِالْعَرَبِيَّةِ.",
+    "ro": "Al-āna tastaṭīʿu an tuʿabbira ʿan raʾyika bi-l-ʿarabiyyati."
    },
    {
-    "fr": "Avec nos aînés, on sait aussi utiliser le langage respectueux.",
-    "ja": "目上の人には尊敬語も使えます。",
-    "ro": "Meue no hito ni wa sonkeigo mo tsukaemasu."
+    "fr": "Tu peux raconter tes souvenirs au passé.",
+    "ar": "تَسْتَطِيعُ أَنْ تَحْكِيَ ذِكْرَيَاتِكَ بِصِيغَةِ الْمَاضِي.",
+    "ro": "Tastaṭīʿu an taḥkiya dhikrayātika bi-ṣīghati al-māḍī."
    },
    {
-    "fr": "Avec « kamoshiremasen », on peut nuancer ses phrases.",
-    "ja": "「かもしれません」を使って、やわらかく話せます。",
-    "ro": "« Kamoshiremasen » o tsukatte, yawarakaku hanasemasu."
+    "fr": "Tu sais aussi dire ce que tu ne feras jamais.",
+    "ar": "وَتَعْرِفُ أَيْضًا كَيْفَ تَقُولُ مَا لَنْ تَفْعَلَهُ أَبَدًا.",
+    "ro": "Wa-taʿrifu ayḍan kayfa taqūlu mā lan tafʿalahu abadan."
    },
    {
-    "fr": "Avec « sō desu », on rapporte ce qu'on a entendu dire.",
-    "ja": "「そうです」で、聞いた話を伝えられます。",
-    "ro": "« Sō desu » de, kiita hanashi o tsutaeraremasu."
+    "fr": "Les verbes dérivés ne sont plus un mystère pour toi.",
+    "ar": "لَمْ تَعُدِ الْأَفْعَالُ الْمَزِيدَةُ سِرًّا عَلَيْكَ.",
+    "ro": "Lam taʿudi al-afʿālu al-mazīdatu sirran ʿalayka."
    },
    {
-    "fr": "Fukuoka et Hiroshima ont été des villes très chaleureuses.",
-    "ja": "福岡も広島も、とても温かい町でした。",
-    "ro": "Fukuoka mo Hiroshima mo, totemo atatakai machi deshita."
+    "fr": "Ce deuxième niveau se termine ici.",
+    "ar": "يَنْتَهِي هُنَا الْمُسْتَوَى الثَّانِي.",
+    "ro": "Yantahī hunā al-mustawā ath-thānī."
    },
    {
-    "fr": "Notre japonais devient peu à peu plus naturel.",
-    "ja": "日本語がだんだん自然になってきました。",
-    "ro": "Nihongo ga dandan shizen ni natte kimashita."
+    "fr": "L'arabe est devenu peu à peu plus facile pour toi.",
+    "ar": "أَصْبَحَتِ الْعَرَبِيَّةُ أَسْهَلَ عَلَيْكَ شَيْئًا فَشَيْئًا.",
+    "ro": "Aṣbaḥati al-ʿarabiyyatu ashala ʿalayka shayʾan fa-shayʾan."
    },
    {
-    "fr": "Le deuxième niveau se termine ici.",
-    "ja": "これで、レベル二が終わります。",
-    "ro": "Kore de, reberu ni ga owarimasu."
+    "fr": "Le niveau suivant t'attend avec de nouveaux défis.",
+    "ar": "يَنْتَظِرُكَ الْمُسْتَوَى التَّالِي بِتَحَدِّيَاتٍ جَدِيدَةٍ.",
+    "ro": "Yantaẓiruka al-mustawā at-tālī bi-taḥaddiyātin jadīdatin."
    },
    {
-    "fr": "Au niveau trois, on apprendra le keigo et les nuances.",
-    "ja": "レベル三では、敬語や細かいニュアンスを学びます。",
-    "ro": "Reberu san de wa, keigo ya komakai nyuansu o manabimasu."
+    "fr": "Bravo pour tous tes efforts !",
+    "ar": "أَحْسَنْتَ عَلَى كُلِّ جُهُودِكَ!",
+    "ro": "Aḥsanta ʿalā kulli juhūdika!"
    },
    {
-    "fr": "Bravo pour vos efforts, rendez-vous au niveau suivant !",
-    "ja": "お疲れさまでした。また次のレベルで会いましょう！",
-    "ro": "Otsukaresama deshita. Mata tsugi no reberu de aimashō!"
+    "fr": "À bientôt, et bonne continuation en arabe !",
+    "ar": "إِلَى اللِّقَاءِ قَرِيبًا، وَبِالتَّوْفِيقِ فِي الْعَرَبِيَّةِ!",
+    "ro": "Ilā al-liqāʾi qarīban, wa-bi-t-tawfīqi fī al-ʿarabiyyati!"
    }
   ]
  }
@@ -7617,752 +7617,580 @@ const level2Module3Lessons = [
 
 const level3Module1Lessons = [
  {
-  "title": "Premier jour dans une entreprise japonaise",
+  "title": "Un nouveau contrat de travail",
   "phrases": [
    {
-    "fr": "Le premier jour, j'ai été présenté à toute l'équipe.",
-    "ja": "初日に、チーム全員に紹介されました。",
-    "ro": "Shonichi ni, chīmu zen'in ni shōkai saremashita."
+    "fr": "Le contrat a été signé hier matin.",
+    "ar": "وُقِّعَ الْعَقْدُ صَبَاحَ أَمْسِ.",
+    "ro": "Wuqqiʿa al-ʿaqdu ṣabāḥa amsi."
    },
    {
-    "fr": "Le directeur m'a chargé de préparer les documents de demain.",
-    "ja": "部長に明日の資料の準備を頼まれました。",
-    "ro": "Buchō ni ashita no shiryō no junbi o tanomaremashita."
+    "fr": "Mon salaire sera versé à la fin de chaque mois.",
+    "ar": "سَيُدْفَعُ رَاتِبِي فِي نِهَايَةِ كُلِّ شَهْرٍ.",
+    "ro": "Sa-yudfaʿu rātibī fī nihāyati kulli shahrin."
    },
    {
-    "fr": "Ce bâtiment a été construit il y a trente ans.",
-    "ja": "このビルは三十年前に建てられました。",
-    "ro": "Kono biru wa sanjūnen mae ni tateraremashita."
+    "fr": "Le contrat a été écrit en arabe et en français.",
+    "ar": "كُتِبَ الْعَقْدُ بِالْعَرَبِيَّةِ وَالْفَرَنْسِيَّةِ.",
+    "ro": "Kutiba al-ʿaqdu bil-ʿarabiyyati wal-faransiyyati."
    },
    {
-    "fr": "Hier, je suis arrivé en retard et je me suis fait gronder par mon supérieur.",
-    "ja": "昨日、遅刻して上司に怒られました。",
-    "ro": "Kinō, chikoku shite jōshi ni okoraremashita."
+    "fr": "On m'a donné un badge pour entrer dans l'immeuble.",
+    "ar": "أُعْطِيتُ بِطَاقَةً لِدُخُولِ الْمَبْنَى.",
+    "ro": "Uʿṭītu biṭāqatan li-dukhūli al-mabnā."
    },
    {
-    "fr": "Un collègue m'a invité à déjeuner avec lui.",
-    "ja": "同僚に昼ご飯に誘われました。",
-    "ro": "Dōryō ni hirugohan ni sasowaremashita."
+    "fr": "La date de début a été reportée d'une semaine.",
+    "ar": "أُجِّلَ تَارِيخُ الْبَدْءِ أُسْبُوعًا.",
+    "ro": "Ujjila tārīkhu al-badʾi usbūʿan."
    },
    {
-    "fr": "Dans le train, quelqu'un m'a marché sur le pied.",
-    "ja": "電車で足を踏まれました。",
-    "ro": "Densha de ashi o fumaremashita."
+    "fr": "Une copie de mon passeport a été demandée.",
+    "ar": "طُلِبَتْ نُسْخَةٌ مِنْ جَوَازِ سَفَرِي.",
+    "ro": "Ṭulibat nuskhatun min jawāzi safarī."
    },
    {
-    "fr": "Le nouveau règlement a été annoncé par e-mail ce matin.",
-    "ja": "新しい規則は今朝、メールで発表されました。",
-    "ro": "Atarashii kisoku wa kesa, mēru de happyō saremashita."
+    "fr": "Les horaires de travail ont été précisés à l'article cinq.",
+    "ar": "حُدِّدَتْ سَاعَاتُ الْعَمَلِ فِي الْمَادَّةِ الْخَامِسَةِ.",
+    "ro": "Ḥuddidat sāʿātu al-ʿamali fī al-māddati al-khāmisati."
    },
    {
-    "fr": "À l'accueil, on m'a demandé mon numéro d'employé.",
-    "ja": "受付で社員番号を聞かれました。",
-    "ro": "Uketsuke de shain bangō o kikaremashita."
+    "fr": "Mon bureau a été préparé avant mon arrivée.",
+    "ar": "جُهِّزَ مَكْتَبِي قَبْلَ وُصُولِي.",
+    "ro": "Juhhiza maktabī qabla wuṣūlī."
    },
    {
-    "fr": "En rentrant, je me suis fait surprendre par la pluie.",
-    "ja": "帰りに雨に降られました。",
-    "ro": "Kaeri ni ame ni furaremashita."
+    "fr": "J'ai été accueilli chaleureusement par toute l'équipe.",
+    "ar": "اسْتُقْبِلْتُ بِحَرَارَةٍ مِنْ قِبَلِ الْفَرِيقِ كُلِّهِ.",
+    "ro": "Ustuqbiltu bi-ḥarāratin min qibali al-farīqi kullihi."
    },
    {
-    "fr": "Au final, j'ai été accueilli très chaleureusement par tout le monde.",
-    "ja": "結局、みんなにとても温かく迎えられました。",
-    "ro": "Kekkyoku, minna ni totemo atatakaku mukaeraremashita."
+    "fr": "On dit que cette entreprise est l'une des meilleures de Dubaï.",
+    "ar": "يُقَالُ إِنَّ هَذِهِ الشَّرِكَةَ مِنْ أَفْضَلِ الشَّرِكَاتِ فِي دُبَيّ.",
+    "ro": "Yuqālu inna hādhihi ash-sharikata min afḍali ash-sharikāti fī Dubayy."
    }
   ],
   "tip": {
-   "title": "Le passif : « -rareru », subir une action",
-   "example": "Dans le train, quelqu'un m'a marché sur le pied. — 電車で足を<b>踏まれました</b>。",
-   "exampleRo": "Densha de ashi o fumaremashita.",
-   "lit": "train · [lieu] · pied · [objet] · avoir été marché dessus (poli, passé)",
-   "body": "Le passif japonais se forme en ajoutant « -rareru » ou « -areru » au verbe : « taberu » (manger) devient « taberareru » (être mangé), et « fumu » (marcher sur) devient « fumareru ». La personne qui fait l'action est marquée par « ni » : « jōshi ni okoraremashita » se dit littéralement : supérieur, par, avoir été grondé. Contrairement au français, le japonais l'emploie très souvent pour dire qu'on a subi quelque chose de désagréable, même avec un verbe comme pleuvoir : « ame ni furaremashita », la pluie m'est tombée dessus. Notre exemple, « ashi o fumaremashita », se lit : pied, objet, avoir été marché dessus. Astuce pour retenir : quand vous entendez « -areru » à la fin d'un verbe, pensez « ça m'est tombé dessus »."
+   "title": "Le passif : kutiba, il a été écrit",
+   "example": "Le contrat a été écrit en arabe et en français. — <b>كُتِبَ</b> الْعَقْدُ بِالْعَرَبِيَّةِ وَالْفَرَنْسِيَّةِ.",
+   "exampleRo": "Kutiba al-ʿaqdu bil-ʿarabiyyati wal-faransiyyati.",
+   "lit": "a-été-écrit · le-contrat · en-l'arabe · et-le-français",
+   "body": "Pour dire qu'une chose a été faite sans dire par qui, l'arabe n'a pas besoin d'auxiliaire comme le français : il change simplement les voyelles du verbe. « Kataba », il a écrit, devient « kutiba », il a été écrit : on met un son « ou » sur la première lettre et un son « i » sur l'avant-dernière. Kutiba al-aqdu se dit donc littéralement : a-été-écrit, le contrat. Au présent, la musique devient « you… a… » : « yuktabu », il est écrit, ou « yudfau », il est versé. Retenez ce petit air « ou-i » du passif, comme dans « tulibat », elle a été demandée, et « juhhiza », il a été préparé."
   }
  },
  {
-  "title": "La réunion du lundi matin",
+  "title": "La première réunion d'équipe",
   "phrases": [
    {
-    "fr": "La réunion commence à neuf heures pile, ne soyez pas en retard.",
-    "ja": "会議は九時ちょうどに始まるので、遅れないでください。",
-    "ro": "Kaigi wa kuji chōdo ni hajimaru node, okurenaide kudasai."
+    "fr": "La réunion commence à neuf heures précises.",
+    "ar": "يَبْدَأُ الِاجْتِمَاعُ فِي السَّاعَةِ التَّاسِعَةِ تَمَامًا.",
+    "ro": "Yabdaʾu al-ijtimāʿu fī as-sāʿati at-tāsiʿati tamāman."
    },
    {
-    "fr": "Avant la réunion, il faut imprimer l'ordre du jour.",
-    "ja": "会議の前に、議題を印刷しておかなければなりません。",
-    "ro": "Kaigi no mae ni, gidai o insatsu shite okanakereba narimasen."
+    "fr": "Le directeur a présenté les objectifs de cette année.",
+    "ar": "عَرَضَ الْمُدِيرُ أَهْدَافَ هَذِهِ السَّنَةِ.",
+    "ro": "ʿAraḍa al-mudīru ahdāfa hādhihi as-sanati."
    },
    {
-    "fr": "Chacun résume rapidement l'avancement de son projet.",
-    "ja": "それぞれが自分のプロジェクトの進み具合を簡単に報告します。",
-    "ro": "Sorezore ga jibun no purojekuto no susumiguai o kantan ni hōkoku shimasu."
+    "fr": "Chacun a parlé de son projet pendant cinq minutes.",
+    "ar": "تَحَدَّثَ كُلُّ وَاحِدٍ عَنْ مَشْرُوعِهِ خَمْسَ دَقَائِقَ.",
+    "ro": "Taḥaddatha kullu wāḥidin ʿan mashrūʿihi khamsa daqāʾiqa."
    },
    {
-    "fr": "Au Japon, on décide souvent les choses avant la réunion, en coulisses.",
-    "ja": "日本では、会議の前に根回しで物事を決めることが多いです。",
-    "ro": "Nihon de wa, kaigi no mae ni nemawashi de monogoto o kimeru koto ga ōi desu."
+    "fr": "Ma collègue Fatima a pris des notes.",
+    "ar": "دَوَّنَتْ زَمِيلَتِي فَاطِمَةُ الْمُلَاحَظَاتِ.",
+    "ro": "Dawwanat zamīlatī Fāṭimatu al-mulāḥaẓāti."
    },
    {
-    "fr": "Personne n'ose contredire ouvertement le directeur.",
-    "ja": "部長にはっきり反対する人はいません。",
-    "ro": "Buchō ni hakkiri hantai suru hito wa imasen."
+    "fr": "Je n'ai pas compris tous les termes techniques.",
+    "ar": "لَمْ أَفْهَمْ كُلَّ الْمُصْطَلَحَاتِ التِّقْنِيَّةِ.",
+    "ro": "Lam afham kulla al-muṣṭalaḥāti at-tiqniyyati."
    },
    {
-    "fr": "Excusez-moi, me permettez-vous de poser une question ?",
-    "ja": "すみません、一つ質問してもよろしいでしょうか。",
-    "ro": "Sumimasen, hitotsu shitsumon shite mo yoroshii deshō ka."
+    "fr": "Pourriez-vous répéter la dernière idée, s'il vous plaît ?",
+    "ar": "هَلْ يُمْكِنُكَ أَنْ تُعِيدَ الْفِكْرَةَ الْأَخِيرَةَ مِنْ فَضْلِكَ؟",
+    "ro": "Hal yumkinuka an tuʿīda al-fikrata al-akhīrata min faḍlika?"
    },
    {
-    "fr": "Je pense que ce délai est un peu trop court.",
-    "ja": "この締め切りは少し短すぎると思います。",
-    "ro": "Kono shimekiri wa sukoshi mijikasugiru to omoimasu."
+    "fr": "La prochaine réunion se tiendra à distance.",
+    "ar": "سَيُعْقَدُ الِاجْتِمَاعُ الْقَادِمُ عَنْ بُعْدٍ.",
+    "ro": "Sa-yuʿqadu al-ijtimāʿu al-qādimu ʿan buʿdin."
    },
    {
-    "fr": "Réfléchissons-y, et on en reparle la semaine prochaine.",
-    "ja": "検討して、来週また話し合いましょう。",
-    "ro": "Kentō shite, raishū mata hanashiaimashō."
+    "fr": "Il y avait du café et des dattes dans la salle.",
+    "ar": "كَانَتِ الْقَهْوَةُ وَالتَّمْرُ فِي الْقَاعَةِ.",
+    "ro": "Kānati al-qahwatu wat-tamru fī al-qāʿati."
    },
    {
-    "fr": "Le compte rendu sera envoyé à tout le monde cet après-midi.",
-    "ja": "議事録は今日の午後、全員に送ります。",
-    "ro": "Gijiroku wa kyō no gogo, zen'in ni okurimasu."
+    "fr": "Mon responsable m'a demandé un rapport avant jeudi.",
+    "ar": "طَلَبَ مِنِّي مَسْؤُولِي تَقْرِيرًا قَبْلَ يَوْمِ الْخَمِيسِ.",
+    "ro": "Ṭalaba minnī masʾūlī taqrīran qabla yawmi al-khamīsi."
    },
    {
-    "fr": "Entre nous, cette réunion aurait pu tenir dans un seul e-mail.",
-    "ja": "この会議、メール一通で済んだと思うけど。",
-    "ro": "Kono kaigi, mēru ittsū de sunda to omou kedo."
+    "fr": "La réunion s'est terminée plus tôt que prévu.",
+    "ar": "انْتَهَى الِاجْتِمَاعُ قَبْلَ الْمَوْعِدِ الْمُتَوَقَّعِ.",
+    "ro": "Intahā al-ijtimāʿu qabla al-mawʿidi al-mutawaqqaʿi."
    }
   ]
  },
  {
-  "title": "Former un nouvel employé",
+  "title": "Les codes de l'entreprise",
   "phrases": [
    {
-    "fr": "Cette année, on m'a confié la formation d'un nouvel employé.",
-    "ja": "今年、新入社員の指導を任されました。",
-    "ro": "Kotoshi, shinnyū shain no shidō o makasaremashita."
+    "fr": "J'ai appris beaucoup de choses durant ma première semaine.",
+    "ar": "تَعَلَّمْتُ أَشْيَاءَ كَثِيرَةً فِي أُسْبُوعِي الْأَوَّلِ.",
+    "ro": "Taʿallamtu ashyāʾa kathīratan fī usbūʿī al-awwali."
    },
    {
-    "fr": "D'abord, je lui fais observer notre façon de travailler.",
-    "ja": "まず、仕事のやり方を見学させます。",
-    "ro": "Mazu, shigoto no yarikata o kengaku sasemasu."
+    "fr": "J'ai fait la connaissance de mes collègues autour d'un café.",
+    "ar": "تَعَرَّفْتُ عَلَى زُمَلَائِي حَوْلَ فِنْجَانِ قَهْوَةٍ.",
+    "ro": "Taʿarraftu ʿalā zumalāʾī ḥawla finjāni qahwatin."
    },
    {
-    "fr": "Ensuite, je lui fais faire les photocopies et le classement.",
-    "ja": "次に、コピーや書類の整理をさせます。",
-    "ro": "Tsugi ni, kopī ya shorui no seiri o sasemasu."
+    "fr": "La réceptionniste accueille les clients avec le sourire.",
+    "ar": "تَسْتَقْبِلُ مُوَظَّفَةُ الِاسْتِقْبَالِ الْعُمَلَاءَ بِابْتِسَامَةٍ.",
+    "ro": "Tastaqbilu muwaẓẓafatu al-istiqbāli al-ʿumalāʾa bi-btisāmatin."
    },
    {
-    "fr": "Chaque jour, avant qu'il parte, je lui fais écrire un court compte rendu.",
-    "ja": "毎日、帰る前に短い報告を書かせています。",
-    "ro": "Mainichi, kaeru mae ni mijikai hōkoku o kakasete imasu."
+    "fr": "Nous utilisons une application pour réserver les salles.",
+    "ar": "نَسْتَخْدِمُ تَطْبِيقًا لِحَجْزِ الْقَاعَاتِ.",
+    "ro": "Nastakhdimu taṭbīqan li-ḥajzi al-qāʿāti."
    },
    {
-    "fr": "Le directeur ne laisse pas encore les nouveaux s'occuper seuls des clients.",
-    "ja": "部長は、新人にはまだ一人でお客様の対応をさせません。",
-    "ro": "Buchō wa, shinjin ni wa mada hitori de okyakusama no taiō o sasemasen."
+    "fr": "Les employés échangent les informations par courriel.",
+    "ar": "يَتَبَادَلُ الْمُوَظَّفُونَ الْمَعْلُومَاتِ بِالْبَرِيدِ الْإِلِكْتُرُونِيِّ.",
+    "ro": "Yatabādalu al-muwaẓẓafūna al-maʿlūmāti bil-barīdi al-iliktrūniyyi."
    },
    {
-    "fr": "Laissez-moi m'occuper de ce travail, s'il vous plaît.",
-    "ja": "その仕事、私にやらせてください。",
-    "ro": "Sono shigoto, watashi ni yarasete kudasai."
+    "fr": "Je me suis habitué aux longues journées de travail.",
+    "ar": "تَعَوَّدْتُ عَلَى أَيَّامِ الْعَمَلِ الطَّوِيلَةِ.",
+    "ro": "Taʿawwadtu ʿalā ayyāmi al-ʿamali aṭ-ṭawīlati."
    },
    {
-    "fr": "Désolé de t'avoir fait attendre si longtemps devant la gare.",
-    "ja": "駅の前で長い間待たせてごめんね。",
-    "ro": "Eki no mae de nagai aida matasete gomen ne."
+    "fr": "J'ai demandé l'avis de mon chef avant de répondre au client.",
+    "ar": "اسْتَشَرْتُ مُدِيرِي قَبْلَ أَنْ أُجِيبَ الْعَمِيلَ.",
+    "ro": "Istashartu mudīrī qabla an ujība al-ʿamīla."
    },
    {
-    "fr": "J'ai fait rire toute l'équipe avec une blague.",
-    "ja": "冗談を言って、チームのみんなを笑わせました。",
-    "ro": "Jōdan o itte, chīmu no minna o warawasemashita."
+    "fr": "Je profite beaucoup de l'expérience de mes collègues.",
+    "ar": "أَسْتَفِيدُ كَثِيرًا مِنْ خِبْرَةِ زُمَلَائِي.",
+    "ro": "Astafīdu kathīran min khibrati zumalāʾī."
    },
    {
-    "fr": "Je ne veux pas l'inquiéter pour rien.",
-    "ja": "余計な心配をさせたくないです。",
-    "ro": "Yokei na shinpai o sasetaku nai desu."
+    "fr": "Nous coopérons quand le travail s'accumule.",
+    "ar": "نَتَعَاوَنُ عِنْدَمَا يَتَرَاكَمُ الْعَمَلُ.",
+    "ro": "Nataʿāwanu ʿindamā yatarākamu al-ʿamalu."
    },
    {
-    "fr": "Laissez-moi y réfléchir jusqu'à demain.",
-    "ja": "明日まで考えさせてください。",
-    "ro": "Ashita made kangaesasete kudasai."
+    "fr": "Il faut toujours se préparer avant chaque présentation.",
+    "ar": "يَجِبُ أَنْ نَسْتَعِدَّ دَائِمًا قَبْلَ أَيِّ عَرْضٍ.",
+    "ro": "Yajibu an nastaʿidda dāʾiman qabla ayyi ʿarḍin."
    }
   ],
   "tip": {
-   "title": "Le causatif : faire faire, laisser faire",
-   "example": "Laissez-moi m'occuper de ce travail, s'il vous plaît. — その仕事、私に<b>やらせて</b>ください。",
-   "exampleRo": "Sono shigoto, watashi ni yarasete kudasai.",
-   "lit": "ce · travail · moi · [à] · laisser faire · s'il vous plaît",
-   "body": "Pour dire qu'on fait faire ou qu'on laisse faire quelque chose à quelqu'un, on ajoute « -saseru » ou « -aseru » au verbe : « taberu » devient « tabesaseru », « kaku » (écrire) devient « kakaseru », et « suru » devient « saseru ». La personne qu'on fait agir est suivie de « ni » : « shinjin ni kopī o sasemasu », je fais faire les photocopies au nouveau. Le même verbe veut dire faire faire ou laisser faire, et seul le contexte tranche. Suivi de « kudasai », il devient une demande très polie : « yarasete kudasai » se dit littéralement : faire-laisser, s'il vous plaît, donc laissez-moi le faire. Retenez aussi « kangaesasete kudasai », laissez-moi réfléchir, parfait pour gagner du temps en réunion. Astuce : quand vous entendez « -sase- » au milieu d'un verbe, c'est que quelqu'un tire les ficelles."
+   "title": "Les formes dérivées avec « ta- » et « ista- » : taallama, istaqbala",
+   "example": "La réceptionniste accueille les clients avec le sourire. — <b>تَسْتَقْبِلُ</b> مُوَظَّفَةُ الِاسْتِقْبَالِ الْعُمَلَاءَ بِابْتِسَامَةٍ.",
+   "exampleRo": "Tastaqbilu muwaẓẓafatu al-istiqbāli al-ʿumalāʾa bi-btisāmatin.",
+   "lit": "accueille · employée · l'accueil · les-clients · avec-un-sourire",
+   "body": "Beaucoup de verbes arabes se fabriquent en ajoutant un petit préfixe à une racine. Avec « ta- », l'action revient sur soi ou devient réciproque : « allama », enseigner, donne « taallama », apprendre, c'est-à-dire s'enseigner à soi-même, et « taawana » veut dire coopérer, s'aider les uns les autres. Avec « ista- », on demande ou on va chercher quelque chose : « istashara », demander conseil, ou « istafada », tirer profit. Tastaqbilu al-umala se dit littéralement : elle accueille, les clients ; et le mot « istiqbal », l'accueil, vient de la même famille. Retenez l'image : « ta- » renvoie l'action vers soi, « ista- » part la chercher."
   }
  },
  {
-  "title": "Le nomikai de l'équipe",
+  "title": "Chercher un appartement à Dubaï",
   "phrases": [
    {
-    "fr": "Vendredi soir, il y a un nomikai avec toute l'équipe.",
-    "ja": "金曜日の夜、チームの飲み会があります。",
-    "ro": "Kin'yōbi no yoru, chīmu no nomikai ga arimasu."
+    "fr": "Je cherche un appartement de deux chambres près du métro.",
+    "ar": "أَبْحَثُ عَنْ شَقَّةٍ بِغُرْفَتَيْ نَوْمٍ قُرْبَ الْمِتْرُو.",
+    "ro": "Abḥathu ʿan shaqqatin bi-ghurfatay nawmin qurba al-mitrū."
    },
    {
-    "fr": "Au début, on attend que tout le monde soit servi pour trinquer.",
-    "ja": "最初は、全員の飲み物がそろうまで乾杯を待ちます。",
-    "ro": "Saisho wa, zen'in no nomimono ga sorou made kanpai o machimasu."
+    "fr": "Le loyer se paie souvent en un ou deux chèques par an.",
+    "ar": "يُدْفَعُ الْإِيجَارُ غَالِبًا بِشِيكٍ أَوْ شِيكَيْنِ فِي السَّنَةِ.",
+    "ro": "Yudfaʿu al-ījāru ghāliban bi-shīkin aw shīkayni fī as-sanati."
    },
    {
-    "fr": "On ne se sert pas soi-même, on remplit le verre des autres.",
-    "ja": "自分のグラスには注がないで、ほかの人のグラスに注ぎます。",
-    "ro": "Jibun no gurasu ni wa tsuganaide, hoka no hito no gurasu ni tsugimasu."
+    "fr": "Les loyers à Dubaï Marina sont très élevés.",
+    "ar": "الْإِيجَارَاتُ فِي دُبَيّ مَارِينَا مُرْتَفِعَةٌ جِدًّا.",
+    "ro": "Al-ījārātu fī Dubayy Mārīnā murtafiʿatun jiddan."
    },
    {
-    "fr": "Quand le verre du directeur est vide, il faut le remarquer tout de suite.",
-    "ja": "部長のグラスが空になったら、すぐに気づかないといけません。",
-    "ro": "Buchō no gurasu ga kara ni nattara, sugu ni kizukanai to ikemasen."
+    "fr": "Un agent immobilier m'a montré trois appartements.",
+    "ar": "أَرَانِي وَكِيلٌ عَقَارِيٌّ ثَلَاثَ شُقَقٍ.",
+    "ro": "Arānī wakīlun ʿaqāriyyun thalātha shuqaqin."
    },
    {
-    "fr": "Ce soir, on oublie la hiérarchie, alors parlons sans gêne.",
-    "ja": "今夜は無礼講だから、気楽に話そう。",
-    "ro": "Kon'ya wa bureikō dakara, kiraku ni hanasō."
+    "fr": "Le deuxième était ensoleillé mais un peu bruyant.",
+    "ar": "كَانَتِ الثَّانِيَةُ مُشْمِسَةً لَكِنَّهَا صَاخِبَةٌ قَلِيلًا.",
+    "ro": "Kānati ath-thāniyatu mushmisatan lākinnahā ṣākhibatun qalīlan."
    },
    {
-    "fr": "Je ne peux pas boire d'alcool, je prendrai un thé oolong.",
-    "ja": "お酒は飲めないので、ウーロン茶にします。",
-    "ro": "Osake wa nomenai node, ūroncha ni shimasu."
+    "fr": "Est-ce que la place de parking est comprise dans le prix ?",
+    "ar": "هَلْ مَوْقِفُ السَّيَّارَةِ مَشْمُولٌ فِي السِّعْرِ؟",
+    "ro": "Hal mawqifu as-sayyārati mashmūlun fī as-siʿri?"
    },
    {
-    "fr": "Tu viens au karaoké pour la deuxième partie de soirée ?",
-    "ja": "二次会のカラオケ、来る？",
-    "ro": "Nijikai no karaoke, kuru?"
+    "fr": "Le propriétaire demande un dépôt de garantie de cinq pour cent.",
+    "ar": "يَطْلُبُ الْمَالِكُ تَأْمِينًا بِنِسْبَةِ خَمْسَةٍ فِي الْمِئَةِ.",
+    "ro": "Yaṭlubu al-māliku taʾmīnan bi-nisbati khamsatin fī al-miʾati."
    },
    {
-    "fr": "Désolé, il faut que j'attrape le dernier train.",
-    "ja": "ごめん、終電に乗らなきゃ。",
-    "ro": "Gomen, shūden ni noranakya."
+    "fr": "Je préfère habiter près de mon bureau pour éviter les embouteillages.",
+    "ar": "أُفَضِّلُ السَّكَنَ قُرْبَ مَكْتَبِي لِأَتَجَنَّبَ الزَّحْمَةَ.",
+    "ro": "Ufaḍḍilu as-sakana qurba maktabī li-atajannaba az-zaḥmata."
    },
    {
-    "fr": "Le lendemain, personne ne reparle de ce qui s'est dit à table.",
-    "ja": "次の日は、飲み会で言ったことをだれも話題にしません。",
-    "ro": "Tsugi no hi wa, nomikai de itta koto o dare mo wadai ni shimasen."
+    "fr": "Le bail doit être enregistré dans le système Ejari.",
+    "ar": "يَجِبُ تَسْجِيلُ عَقْدِ الْإِيجَارِ فِي نِظَامِ إِيجَارِي.",
+    "ro": "Yajibu tasjīlu ʿaqdi al-ījāri fī niẓāmi Ījārī."
    },
    {
-    "fr": "Chef, merci de nous avoir invités hier soir.",
-    "ja": "部長、昨日はごちそうさまでした。",
-    "ro": "Buchō, kinō wa gochisōsama deshita."
+    "fr": "Finalement, nous avons choisi un appartement à Al Barsha.",
+    "ar": "فِي النِّهَايَةِ، اخْتَرْنَا شَقَّةً فِي الْبَرْشَاءِ.",
+    "ro": "Fī an-nihāyati, ikhtarnā shaqqatan fī al-Barshāʾi."
    }
   ]
  },
  {
-  "title": "Chercher un appartement",
+  "title": "Coincé dans les embouteillages",
   "phrases": [
    {
-    "fr": "Si on s'éloigne un peu du centre, les loyers baissent beaucoup.",
-    "ja": "都心から少し離れれば、家賃がずいぶん安くなります。",
-    "ro": "Toshin kara sukoshi hanarereba, yachin ga zuibun yasuku narimasu."
+    "fr": "Si j'habitais plus près, je viendrais à pied.",
+    "ar": "لَوْ كُنْتُ أَسْكُنُ قَرِيبًا لَجِئْتُ مَشْيًا.",
+    "ro": "Law kuntu askunu qarīban la-jiʾtu mashyan."
    },
    {
-    "fr": "Plus c'est près de la gare, mieux c'est.",
-    "ja": "駅から近ければ近いほどいいです。",
-    "ro": "Eki kara chikakereba chikai hodo ii desu."
+    "fr": "Si j'étais parti plus tôt, je n'aurais pas été en retard.",
+    "ar": "لَوْ خَرَجْتُ مُبَكِّرًا لَمَا تَأَخَّرْتُ.",
+    "ro": "Law kharajtu mubakkiran lamā taʾakhkhartu."
    },
    {
-    "fr": "Si possible, j'aimerais un logement orienté au sud.",
-    "ja": "できれば、南向きの部屋がいいです。",
-    "ro": "Dekireba, minamimuki no heya ga ii desu."
+    "fr": "La route Sheikh Zayed est saturée tous les matins.",
+    "ar": "شَارِعُ الشَّيْخِ زَايِدٍ مُزْدَحِمٌ كُلَّ صَبَاحٍ.",
+    "ro": "Shāriʿu ash-shaykhi Zāyidin muzdaḥimun kulla ṣabāḥin."
    },
    {
-    "fr": "Si vous avez un garant, les formalités sont plus simples.",
-    "ja": "保証人がいれば、手続きが簡単になります。",
-    "ro": "Hoshōnin ga ireba, tetsuzuki ga kantan ni narimasu."
+    "fr": "Si je prenais le métro, je gagnerais une heure par jour.",
+    "ar": "لَوْ رَكِبْتُ الْمِتْرُو لَوَفَّرْتُ سَاعَةً كُلَّ يَوْمٍ.",
+    "ro": "Law rakibtu al-mitrū la-waffartu sāʿatan kulla yawmin."
    },
    {
-    "fr": "Avec la caution et le « reikin », combien dois-je payer au départ ?",
-    "ja": "敷金と礼金を合わせると、最初にいくら払えばいいですか。",
-    "ro": "Shikikin to reikin o awaseru to, saisho ni ikura haraeba ii desu ka."
+    "fr": "Si tu avais écouté les informations, tu aurais su qu'il y avait un accident.",
+    "ar": "لَوْ سَمِعْتَ الْأَخْبَارَ لَعَرَفْتَ أَنَّ هُنَاكَ حَادِثًا.",
+    "ro": "Law samiʿta al-akhbāra la-ʿarafta anna hunāka ḥādithan."
    },
    {
-    "fr": "Le « reikin » est un remerciement au propriétaire, et il n'est jamais rendu.",
-    "ja": "礼金は大家さんへのお礼で、返ってきません。",
-    "ro": "Reikin wa ōya-san e no orei de, kaette kimasen."
+    "fr": "Le trajet entre Dubaï et Abou Dhabi prend parfois deux heures.",
+    "ar": "يَسْتَغْرِقُ الطَّرِيقُ بَيْنَ دُبَيّ وَأَبُوظَبْي سَاعَتَيْنِ أَحْيَانًا.",
+    "ro": "Yastaghriqu aṭ-ṭarīqu bayna Dubayy wa-Abū Ẓabī sāʿatayni aḥyānan."
    },
    {
-    "fr": "Tant qu'on n'a pas visité, on ne peut rien savoir.",
-    "ja": "実際に見なければ、わかりません。",
-    "ro": "Jissai ni minakereba, wakarimasen."
+    "fr": "Si la route était dégagée, nous arriverions en une demi-heure.",
+    "ar": "لَوْ كَانَ الطَّرِيقُ فَارِغًا لَوَصَلْنَا فِي نِصْفِ سَاعَةٍ.",
+    "ro": "Law kāna aṭ-ṭarīqu fārighan la-waṣalnā fī niṣfi sāʿatin."
    },
    {
-    "fr": "Si tu veux, je t'accompagne à l'agence immobilière samedi.",
-    "ja": "よければ、土曜日に不動産屋に一緒に行くよ。",
-    "ro": "Yokereba, doyōbi ni fudōsan'ya ni issho ni iku yo."
+    "fr": "J'écoute des leçons d'arabe dans la voiture.",
+    "ar": "أَسْتَمِعُ إِلَى دُرُوسٍ فِي الْعَرَبِيَّةِ فِي السَّيَّارَةِ.",
+    "ro": "Astamiʿu ilā durūsin fī al-ʿarabiyyati fī as-sayyārati."
    },
    {
-    "fr": "Ce studio est petit, mais il suffit pour vivre seul.",
-    "ja": "この部屋は狭いけど、一人暮らしなら十分です。",
-    "ro": "Kono heya wa semai kedo, hitorigurashi nara jūbun desu."
+    "fr": "Si c'était possible, je travaillerais de la maison tous les jours.",
+    "ar": "لَوْ كَانَ ذَلِكَ مُمْكِنًا لَعَمِلْتُ مِنَ الْبَيْتِ كُلَّ يَوْمٍ.",
+    "ro": "Law kāna dhālika mumkinan la-ʿamiltu mina al-bayti kulla yawmin."
    },
    {
-    "fr": "Si on signe cette semaine, on pourra emménager le mois prochain.",
-    "ja": "今週契約すれば、来月引っ越せます。",
-    "ro": "Konshū keiyaku sureba, raigetsu hikkosemasu."
+    "fr": "S'il y avait moins de voitures, la route serait plus rapide.",
+    "ar": "لَوْ كَانَتِ السَّيَّارَاتُ أَقَلَّ لَكَانَ الطَّرِيقُ أَسْرَعَ.",
+    "ro": "Law kānati as-sayyārātu aqalla la-kāna aṭ-ṭarīqu asraʿa."
    }
   ],
   "tip": {
-   "title": "« -ba » : la condition, si",
-   "example": "Si vous avez un garant, les formalités sont plus simples. — 保証人が<b>いれば</b>、手続きが簡単になります。",
-   "exampleRo": "Hoshōnin ga ireba, tetsuzuki ga kantan ni narimasu.",
-   "lit": "garant · [sujet] · s'il y a · formalités · [sujet] · simple · devenir (poli)",
-   "body": "Pour dire si, le japonais a plusieurs outils, et « -ba » exprime une condition logique : si A se réalise, alors B suit naturellement. On le forme en remplaçant le « u » final du verbe par « eba » : « iku » devient « ikeba », « iru » devient « ireba », et « suru » devient « sureba ». Pour les adjectifs en « -i », on utilise « -kereba » : « yasui » devient « yasukereba », si c'est bon marché. Notre exemple, « hoshōnin ga ireba », se lit : garant, sujet, s'il y a. Retenez deux formules très utiles au quotidien : « dō sureba ii desu ka », que dois-je faire, et « dekireba », si possible. Astuce : « -ba » regarde vers la suite, on l'emploie quand la condition ouvre la porte au résultat."
+   "title": "« Law » : si, pour l'irréel",
+   "example": "Si j'étais parti plus tôt, je n'aurais pas été en retard. — <b>لَوْ</b> خَرَجْتُ مُبَكِّرًا <b>لَمَا</b> تَأَخَّرْتُ.",
+   "exampleRo": "Law kharajtu mubakkiran lamā taʾakhkhartu.",
+   "lit": "si · je-suis-sorti · tôt · [alors] ne… pas · je-me-suis-retardé",
+   "body": "Pour une hypothèse irréelle, qui ne s'est pas réalisée ou qui reste un rêve, l'arabe utilise « law », si, suivi d'un verbe au passé ; la conséquence commence par « la- », collé au verbe suivant. Law kharajtu mubakkiran lama taakhkhartu se dit littéralement : si je suis sorti tôt, alors ne pas je me suis retardé. À la forme négative, « la- » devient « lama ». Le même passé sert pour le présent et pour le passé : « law rakibtu al-mitro la-waffartu saatan » veut dire si je prenais le métro, je gagnerais une heure, ou si je l'avais pris, j'aurais gagné une heure. Pensez à « law » comme au rêve et à « la- » comme à sa conséquence."
   }
  },
  {
-  "title": "Signer le contrat de location",
+  "title": "Le métro de Dubaï",
   "phrases": [
    {
-    "fr": "Avant de signer, lisez bien tout le contrat.",
-    "ja": "契約する前に、契約書の内容をよく読んでください。",
-    "ro": "Keiyaku suru mae ni, keiyakusho no naiyō o yoku yonde kudasai."
+    "fr": "Le métro de Dubaï fonctionne sans conducteur.",
+    "ar": "يَعْمَلُ مِتْرُو دُبَيّ بِلَا سَائِقٍ.",
+    "ro": "Yaʿmalu mitrū Dubayy bi-lā sāʾiqin."
    },
    {
-    "fr": "Les animaux sont interdits dans cette résidence.",
-    "ja": "このマンションはペット禁止です。",
-    "ro": "Kono manshon wa petto kinshi desu."
+    "fr": "Je recharge ma carte Nol chaque semaine.",
+    "ar": "أُعَبِّئُ رَصِيدَ بِطَاقَةِ نُولْ كُلَّ أُسْبُوعٍ.",
+    "ro": "Uʿabbiʾu raṣīda biṭāqati Nūl kulla usbūʿin."
    },
    {
-    "fr": "Le contrat dure deux ans, et le renouvellement entraîne des frais.",
-    "ja": "契約は二年で、更新するときに更新料がかかります。",
-    "ro": "Keiyaku wa ninen de, kōshin suru toki ni kōshinryō ga kakarimasu."
+    "fr": "Il y a une voiture réservée aux femmes et aux enfants.",
+    "ar": "هُنَاكَ عَرَبَةٌ مُخَصَّصَةٌ لِلنِّسَاءِ وَالْأَطْفَالِ.",
+    "ro": "Hunāka ʿarabatun mukhaṣṣaṣatun lin-nisāʾi wal-aṭfāli."
    },
    {
-    "fr": "Il faut aussi souscrire une assurance incendie.",
-    "ja": "火災保険にも入らなければなりません。",
-    "ro": "Kasai hoken ni mo hairanakereba narimasen."
+    "fr": "Il est interdit de manger et de boire dans le métro.",
+    "ar": "يُمْنَعُ الْأَكْلُ وَالشُّرْبُ فِي الْمِتْرُو.",
+    "ro": "Yumnaʿu al-aklu wash-shurbu fī al-mitrū."
    },
    {
-    "fr": "Où dois-je apposer mon sceau ?",
-    "ja": "どこにはんこを押せばいいですか。",
-    "ro": "Doko ni hanko o oseba ii desu ka."
+    "fr": "La ligne rouge relie l'aéroport au centre-ville.",
+    "ar": "يَرْبِطُ الْخَطُّ الْأَحْمَرُ الْمَطَارَ بِوَسَطِ الْمَدِينَةِ.",
+    "ro": "Yarbiṭu al-khaṭṭu al-aḥmaru al-maṭāra bi-wasaṭi al-madīnati."
    },
    {
-    "fr": "Si vous n'avez pas de sceau, une signature suffit.",
-    "ja": "はんこがなければ、サインでも大丈夫です。",
-    "ro": "Hanko ga nakereba, sain demo daijōbu desu."
+    "fr": "À quelle station faut-il changer pour la ligne verte ?",
+    "ar": "فِي أَيِّ مَحَطَّةٍ يَجِبُ أَنْ أُغَيِّرَ إِلَى الْخَطِّ الْأَخْضَرِ؟",
+    "ro": "Fī ayyi maḥaṭṭatin yajibu an ughayyira ilā al-khaṭṭi al-akhḍari?"
    },
    {
-    "fr": "Pour partir, il faut prévenir un mois à l'avance.",
-    "ja": "退去するときは、一か月前に連絡する必要があります。",
-    "ro": "Taikyo suru toki wa, ikkagetsu mae ni renraku suru hitsuyō ga arimasu."
+    "fr": "Les stations sont climatisées, heureusement.",
+    "ar": "الْمَحَطَّاتُ مُكَيَّفَةٌ لِحُسْنِ الْحَظِّ.",
+    "ro": "Al-maḥaṭṭātu mukayyafatun li-ḥusni al-ḥaẓẓi."
    },
    {
-    "fr": "Les réparations des murs abîmés seront retenues sur la caution.",
-    "ja": "壁の傷の修理代は、敷金から引かれます。",
-    "ro": "Kabe no kizu no shūridai wa, shikikin kara hikaremasu."
+    "fr": "Aux heures de pointe, les rames sont bondées.",
+    "ar": "فِي سَاعَاتِ الذُّرْوَةِ تَكُونُ الْقِطَارَاتُ مُزْدَحِمَةً.",
+    "ro": "Fī sāʿāti adh-dhurwati takūnu al-qiṭārātu muzdaḥimatan."
    },
    {
-    "fr": "Les charges communes sont-elles comprises dans le loyer ?",
-    "ja": "共益費は家賃に含まれていますか。",
-    "ro": "Kyōekihi wa yachin ni fukumarete imasu ka."
+    "fr": "Je descends à la station Burj Khalifa.",
+    "ar": "أَنْزِلُ فِي مَحَطَّةِ بُرْجِ خَلِيفَةَ.",
+    "ro": "Anzilu fī maḥaṭṭati Burji Khalīfata."
    },
    {
-    "fr": "Nous vous remettrons les clés le jour de l'emménagement.",
-    "ja": "鍵は入居日にお渡しします。",
-    "ro": "Kagi wa nyūkyobi ni owatashi shimasu."
+    "fr": "Le tramway dessert le quartier de la Marina.",
+    "ar": "يَخْدُمُ التِّرَامُ مِنْطَقَةَ الْمَارِينَا.",
+    "ro": "Yakhdumu at-tirāmu minṭaqata al-Mārīnā."
    }
   ]
  },
  {
-  "title": "Le jour du déménagement",
+  "title": "Ouvrir un compte en banque",
   "phrases": [
    {
-    "fr": "Les déménageurs arrivent à huit heures du matin.",
-    "ja": "引っ越し業者は朝八時に来ます。",
-    "ro": "Hikkoshi gyōsha wa asa hachiji ni kimasu."
+    "fr": "Je voudrais ouvrir un compte courant.",
+    "ar": "أُرِيدُ أَنْ أَفْتَحَ حِسَابًا جَارِيًا.",
+    "ro": "Urīdu an aftaḥa ḥisāban jāriyan."
    },
    {
-    "fr": "J'ai écrit le nom de la pièce sur chaque carton.",
-    "ja": "段ボールには全部、部屋の名前を書いておきました。",
-    "ro": "Danbōru ni wa zenbu, heya no namae o kaite okimashita."
+    "fr": "La banque exige une lettre de mon employeur.",
+    "ar": "يَطْلُبُ الْمَصْرِفُ رِسَالَةً مِنْ صَاحِبِ الْعَمَلِ.",
+    "ro": "Yaṭlubu al-maṣrifu risālatan min ṣāḥibi al-ʿamali."
    },
    {
-    "fr": "Attention, ce carton-là contient de la vaisselle fragile.",
-    "ja": "気をつけて。その箱には割れやすい食器が入っています。",
-    "ro": "Ki o tsukete. Sono hako ni wa wareyasui shokki ga haitte imasu."
+    "fr": "Mon salaire doit être viré sur ce compte.",
+    "ar": "يَجِبُ أَنْ يُحَوَّلَ رَاتِبِي إِلَى هَذَا الْحِسَابِ.",
+    "ro": "Yajibu an yuḥawwala rātibī ilā hādhā al-ḥisābi."
    },
    {
-    "fr": "Le frigo ne passe pas par la porte d'entrée.",
-    "ja": "冷蔵庫が玄関から入りません。",
-    "ro": "Reizōko ga genkan kara hairimasen."
+    "fr": "Quels sont les frais mensuels de ce compte ?",
+    "ar": "مَا الرُّسُومُ الشَّهْرِيَّةُ لِهَذَا الْحِسَابِ؟",
+    "ro": "Mā ar-rusūmu ash-shahriyyatu li-hādhā al-ḥisābi?"
    },
    {
-    "fr": "Il n'y a plus qu'à le hisser par la fenêtre avec une corde.",
-    "ja": "窓からロープでつり上げるしかないですね。",
-    "ro": "Mado kara rōpu de tsuriageru shika nai desu ne."
+    "fr": "Le solde minimum est de trois mille dirhams.",
+    "ar": "الْحَدُّ الْأَدْنَى لِلرَّصِيدِ ثَلَاثَةُ آلَافِ دِرْهَمٍ.",
+    "ro": "Al-ḥaddu al-adnā lir-raṣīdi thalāthatu ālāfi dirhamin."
    },
    {
-    "fr": "N'oublie pas de faire couper le gaz dans l'ancien logement.",
-    "ja": "前の部屋のガスを止めるのを忘れないで。",
-    "ro": "Mae no heya no gasu o tomeru no o wasurenaide."
+    "fr": "J'ai reçu ma carte bancaire au bout d'une semaine.",
+    "ar": "وَصَلَتْنِي بِطَاقَتِي الْمَصْرِفِيَّةُ بَعْدَ أُسْبُوعٍ.",
+    "ro": "Waṣalatnī biṭāqatī al-maṣrifiyyatu baʿda usbūʿin."
    },
    {
-    "fr": "Pour ouvrir le gaz, il faut être là quand le technicien passe.",
-    "ja": "ガスの開栓には、係の人の立ち会いが必要です。",
-    "ro": "Gasu no kaisen ni wa, kakari no hito no tachiai ga hitsuyō desu."
+    "fr": "J'envoie de l'argent à ma famille en France chaque mois.",
+    "ar": "أُرْسِلُ مَالًا إِلَى عَائِلَتِي فِي فَرَنْسَا كُلَّ شَهْرٍ.",
+    "ro": "Ursilu mālan ilā ʿāʾilatī fī Faransā kulla shahrin."
    },
    {
-    "fr": "Pour se présenter, on offre une petite serviette aux voisins.",
-    "ja": "近所の人に、あいさつの品としてタオルを渡します。",
-    "ro": "Kinjo no hito ni, aisatsu no shina to shite taoru o watashimasu."
+    "fr": "L'application de la banque est très pratique.",
+    "ar": "تَطْبِيقُ الْمَصْرِفِ عَمَلِيٌّ جِدًّا.",
+    "ro": "Taṭbīqu al-maṣrifi ʿamaliyyun jiddan."
    },
    {
-    "fr": "Bonjour, je viens d'emménager juste au-dessus de chez vous.",
-    "ja": "こんにちは。真上の部屋に引っ越してきた者です。",
-    "ro": "Konnichiwa. Maue no heya ni hikkoshite kita mono desu."
+    "fr": "J'ai oublié mon code secret, que dois-je faire ?",
+    "ar": "نَسِيتُ رَقْمِي السِّرِّيَّ، فَمَاذَا أَفْعَلُ؟",
+    "ro": "Nasītu raqmī as-sirriyya, fa-mādhā afʿalu?"
    },
    {
-    "fr": "Le soir, on a mangé des soba de déménagement, comme le veut la tradition.",
-    "ja": "夜は、伝統どおり引っ越しそばを食べました。",
-    "ro": "Yoru wa, dentō dōri hikkoshi soba o tabemashita."
+    "fr": "Le conseiller m'a proposé une carte de crédit.",
+    "ar": "عَرَضَ عَلَيَّ الْمُوَظَّفُ بِطَاقَةَ ائْتِمَانٍ.",
+    "ro": "ʿAraḍa ʿalayya al-muwaẓẓafu biṭāqata iʾtimānin."
    }
   ]
  },
  {
-  "title": "Une semaine de maladresses",
+  "title": "L'assurance santé",
   "phrases": [
    {
-    "fr": "J'ai encore oublié mon parapluie dans le train ce matin.",
-    "ja": "今朝、また電車に傘を忘れてしまいました。",
-    "ro": "Kesa, mata densha ni kasa o wasurete shimaimashita."
+    "fr": "L'assurance santé est obligatoire à Dubaï.",
+    "ar": "التَّأْمِينُ الصِّحِّيُّ إِلْزَامِيٌّ فِي دُبَيّ.",
+    "ro": "At-taʾmīnu aṣ-ṣiḥḥiyyu ilzāmiyyun fī Dubayy."
    },
    {
-    "fr": "Je me suis trompé et j'ai sorti les bouteilles en plastique le mauvais jour.",
-    "ja": "間違えて、違う日にペットボトルを出してしまいました。",
-    "ro": "Machigaete, chigau hi ni pettobotoru o dashite shimaimashita."
+    "fr": "Remplir le formulaire prend dix minutes.",
+    "ar": "مَلْءُ الِاسْتِمَارَةِ يَسْتَغْرِقُ عَشْرَ دَقَائِقَ.",
+    "ro": "Malʾu al-istimārati yastaghriqu ʿashra daqāʾiqa."
    },
    {
-    "fr": "On a collé un papier d'avertissement sur mon sac poubelle.",
-    "ja": "ごみ袋に注意の紙を貼られてしまいました。",
-    "ro": "Gomibukuro ni chūi no kami o hararete shimaimashita."
+    "fr": "Le remboursement des frais prend environ deux semaines.",
+    "ar": "يَسْتَغْرِقُ اسْتِرْدَادُ التَّكَالِيفِ نَحْوَ أُسْبُوعَيْنِ.",
+    "ro": "Yastaghriqu istirdādu at-takālīfi naḥwa usbūʿayni."
    },
    {
-    "fr": "Je me suis endormi dans le train et j'ai dépassé ma station.",
-    "ja": "電車で寝てしまって、駅を乗り過ごしました。",
-    "ro": "Densha de nete shimatte, eki o norisugoshimashita."
+    "fr": "Mon employeur paie l'assurance de toute la famille.",
+    "ar": "يَدْفَعُ صَاحِبُ الْعَمَلِ تَأْمِينَ الْعَائِلَةِ كُلِّهَا.",
+    "ro": "Yadfaʿu ṣāḥibu al-ʿamali taʾmīna al-ʿāʾilati kullihā."
    },
    {
-    "fr": "J'ai mangé tout le gâteau à moi tout seul.",
-    "ja": "ケーキを一人で全部食べちゃった。",
-    "ro": "Kēki o hitori de zenbu tabechatta."
+    "fr": "La prise de rendez-vous se fait en ligne.",
+    "ar": "يَتِمُّ حَجْزُ الْمَوَاعِيدِ عَبْرَ الْإِنْتَرْنِتْ.",
+    "ro": "Yatimmu ḥajzu al-mawāʿīdi ʿabra al-intarnit."
    },
    {
-    "fr": "Zut, j'ai effacé le fichier sans l'enregistrer.",
-    "ja": "しまった、保存しないでファイルを消しちゃった。",
-    "ro": "Shimatta, hozon shinaide fairu o keshichatta."
+    "fr": "J'ai besoin de renouveler ma carte d'assurance.",
+    "ar": "أَحْتَاجُ إِلَى تَجْدِيدِ بِطَاقَةِ التَّأْمِينِ.",
+    "ro": "Aḥtāju ilā tajdīdi biṭāqati at-taʾmīni."
    },
    {
-    "fr": "Je suis vraiment désolé d'avoir cassé votre précieuse tasse.",
-    "ja": "大切なカップを割ってしまって、本当に申し訳ありません。",
-    "ro": "Taisetsu na kappu o watte shimatte, hontō ni mōshiwake arimasen."
+    "fr": "Les soins dentaires ne sont pas toujours couverts.",
+    "ar": "عِلَاجُ الْأَسْنَانِ لَا يُغَطَّى دَائِمًا.",
+    "ro": "ʿIlāju al-asnāni lā yughaṭṭā dāʾiman."
    },
    {
-    "fr": "Au nomikai, j'ai fini par dire des choses que j'aurais dû taire.",
-    "ja": "飲み会で、言わなくてもいいことを言ってしまいました。",
-    "ro": "Nomikai de, iwanakute mo ii koto o itte shimaimashita."
+    "fr": "Lire attentivement le contrat est indispensable.",
+    "ar": "قِرَاءَةُ الْعَقْدِ بِعِنَايَةٍ ضَرُورِيَّةٌ.",
+    "ro": "Qirāʾatu al-ʿaqdi bi-ʿināyatin ḍarūriyyatun."
    },
    {
-    "fr": "J'ai liquidé tous mes dossiers avant midi.",
-    "ja": "昼までに、書類を全部片付けてしまいました。",
-    "ro": "Hiru made ni, shorui o zenbu katazukete shimaimashita."
+    "fr": "Je n'aime pas l'attente aux urgences.",
+    "ar": "لَا أُحِبُّ الِانْتِظَارَ فِي قِسْمِ الطَّوَارِئِ.",
+    "ro": "Lā uḥibbu al-intiẓāra fī qismi aṭ-ṭawāriʾi."
    },
    {
-    "fr": "À force de vivre ici, j'ai fini par m'habituer aux trains bondés.",
-    "ja": "ここに住んでいるうちに、満員電車に慣れてしまいました。",
-    "ro": "Koko ni sunde iru uchi ni, man'in densha ni narete shimaimashita."
+    "fr": "Une consultation chez le généraliste coûte cinquante dirhams avec l'assurance.",
+    "ar": "تُكَلِّفُ زِيَارَةُ الطَّبِيبِ الْعَامِّ خَمْسِينَ دِرْهَمًا مَعَ التَّأْمِينِ.",
+    "ro": "Tukallifu ziyāratu aṭ-ṭabībi al-ʿāmmi khamsīna dirhaman maʿa at-taʾmīni."
    }
   ],
   "tip": {
-   "title": "« -te shimau » : finir par, le regret",
-   "example": "J'ai encore oublié mon parapluie dans le train ce matin. — 今朝、また電車に傘を<b>忘れてしまいました</b>。",
-   "exampleRo": "Kesa, mata densha ni kasa o wasurete shimaimashita.",
-   "lit": "ce matin · encore · train · [lieu] · parapluie · [objet] · oublier-finir par (poli, passé)",
-   "body": "En ajoutant « shimau » après la forme en « -te », on dit qu'une action est complètement terminée, ou qu'elle est arrivée malgré nous, avec une pointe de regret. « Wasureru » (oublier) devient ainsi « wasurete shimaimashita », j'ai bel et bien oublié, et zut. Notre exemple se décompose ainsi : ce matin, encore, train, dans, parapluie, objet, oublier pour de bon. Entre amis, la forme se contracte en « -chau » : « tabechatta », j'ai tout mangé, ou « keshichatta », je l'ai effacé par erreur. Le même outil sert aussi à dire qu'on a fini quelque chose d'un coup : « zenbu katazukete shimaimashita », j'ai tout liquidé. Astuce : pensez au cri « shimatta », oups, c'est exactement le même verbe."
+   "title": "Le nom verbal (masdar) : al-kitaba, l'écriture",
+   "example": "J'ai besoin de renouveler ma carte d'assurance. — أَحْتَاجُ إِلَى <b>تَجْدِيدِ</b> بِطَاقَةِ التَّأْمِينِ.",
+   "exampleRo": "Aḥtāju ilā tajdīdi biṭāqati at-taʾmīni.",
+   "lit": "j'ai-besoin · [à] · renouvellement · carte · l'assurance",
+   "body": "En arabe, l'infinitif français se traduit très souvent par un nom, le « masdar », qui désigne l'action elle-même. Au lieu de dire j'ai besoin de renouveler, on dit : j'ai besoin du renouvellement. Ahtaju ila tajdidi bitaqati at-tamin se dit littéralement : j'ai besoin de, renouvellement, carte, l'assurance. Chaque forme verbale a son modèle : « kataba », écrire, donne « kitaba », l'écriture ; « jaddada », renouveler, donne « tajdid » ; « intazara », attendre, donne « intizar », l'attente. Retenez cette habitude : là où le français met un verbe à l'infinitif, l'arabe aime mettre un nom."
   }
  },
  {
-  "title": "L'assurance santé nationale",
+  "title": "Le déménagement",
   "phrases": [
    {
-    "fr": "Toute personne qui vit au Japon doit s'affilier à une assurance santé.",
-    "ja": "日本に住む人は全員、健康保険に入らなければなりません。",
-    "ro": "Nihon ni sumu hito wa zen'in, kenkō hoken ni hairanakereba narimasen."
+    "fr": "Nous déménageons à Abou Dhabi le mois prochain.",
+    "ar": "سَنَنْتَقِلُ إِلَى أَبُوظَبْي الشَّهْرَ الْقَادِمَ.",
+    "ro": "Sa-nantaqilu ilā Abū Ẓabī ash-shahra al-qādima."
    },
    {
-    "fr": "Avec l'assurance, on ne paie que trente pour cent des frais médicaux.",
-    "ja": "保険があれば、医療費は三割負担で済みます。",
-    "ro": "Hoken ga areba, iryōhi wa sanwari futan de sumimasu."
+    "fr": "Mon entreprise a ouvert un nouveau bureau là-bas.",
+    "ar": "فَتَحَتْ شَرِكَتِي مَكْتَبًا جَدِيدًا هُنَاكَ.",
+    "ro": "Fataḥat sharikatī maktaban jadīdan hunāka."
    },
    {
-    "fr": "Les salariés sont couverts par l'assurance de leur entreprise.",
-    "ja": "会社員は会社の健康保険に加入しています。",
-    "ro": "Kaishain wa kaisha no kenkō hoken ni kanyū shite imasu."
+    "fr": "Nous avons fait appel à une société de déménagement.",
+    "ar": "اسْتَعَنَّا بِشَرِكَةِ نَقْلٍ.",
+    "ro": "Istaʿannā bi-sharikati naqlin."
    },
    {
-    "fr": "Les indépendants, eux, cotisent à l'assurance santé nationale.",
-    "ja": "自営業の人は国民健康保険に入ります。",
-    "ro": "Jieigyō no hito wa kokumin kenkō hoken ni hairimasu."
+    "fr": "Les cartons ont été emballés en une seule journée.",
+    "ar": "حُزِمَتِ الصَّنَادِيقُ فِي يَوْمٍ وَاحِدٍ.",
+    "ro": "Ḥuzimati aṣ-ṣanādīqu fī yawmin wāḥidin."
    },
    {
-    "fr": "Ma carte d'assuré est arrivée par la poste.",
-    "ja": "保険証が郵便で届きました。",
-    "ro": "Hokenshō ga yūbin de todokimashita."
+    "fr": "Il faut résilier l'abonnement à l'électricité et à l'eau.",
+    "ar": "يَجِبُ إِلْغَاءُ اشْتِرَاكِ الْكَهْرَبَاءِ وَالْمَاءِ.",
+    "ro": "Yajibu ilghāʾu ishtirāki al-kahrabāʾi wal-māʾi."
    },
    {
-    "fr": "N'oubliez pas de montrer votre carte d'assuré à l'accueil.",
-    "ja": "受付で保険証を見せるのを忘れないでください。",
-    "ro": "Uketsuke de hokenshō o miseru no o wasurenaide kudasai."
+    "fr": "Les enfants sont tristes parce qu'ils vont quitter leurs amis.",
+    "ar": "الْأَطْفَالُ حَزِينُونَ لِأَنَّهُمْ سَيَتْرُكُونَ أَصْدِقَاءَهُمْ.",
+    "ro": "Al-aṭfālu ḥazīnūna li-annahum sa-yatrukūna aṣdiqāʾahum."
    },
    {
-    "fr": "La cotisation est calculée d'après les revenus de l'année précédente.",
-    "ja": "保険料は前の年の収入をもとに計算されます。",
-    "ro": "Hokenryō wa mae no toshi no shūnyū o moto ni keisan saremasu."
+    "fr": "Le canapé n'est pas passé par la porte !",
+    "ar": "لَمْ تَدْخُلِ الْأَرِيكَةُ مِنَ الْبَابِ!",
+    "ro": "Lam tadkhuli al-arīkatu mina al-bābi!"
    },
    {
-    "fr": "Si les frais médicaux deviennent très élevés, une partie est remboursée.",
-    "ja": "医療費が高額になったら、一部が戻ってきます。",
-    "ro": "Iryōhi ga kōgaku ni nattara, ichibu ga modotte kimasu."
+    "fr": "Nous avons rendu les clés au propriétaire.",
+    "ar": "أَعَدْنَا الْمَفَاتِيحَ إِلَى الْمَالِكِ.",
+    "ro": "Aʿadnā al-mafātīḥa ilā al-māliki."
    },
    {
-    "fr": "Est-ce que ce traitement est pris en charge par l'assurance ?",
-    "ja": "この治療は保険がききますか。",
-    "ro": "Kono chiryō wa hoken ga kikimasu ka."
+    "fr": "Le nouvel appartement est plus grand et moins cher.",
+    "ar": "الشَّقَّةُ الْجَدِيدَةُ أَكْبَرُ وَأَرْخَصُ.",
+    "ro": "Ash-shaqqatu al-jadīdatu akbaru wa-arkhaṣu."
    },
    {
-    "fr": "Grâce à ce système, on peut aller à l'hôpital l'esprit tranquille.",
-    "ja": "この制度のおかげで、安心して病院に行けます。",
-    "ro": "Kono seido no okage de, anshin shite byōin ni ikemasu."
+    "fr": "Il nous faudra quelques semaines pour nous installer.",
+    "ar": "سَنَحْتَاجُ إِلَى بِضْعَةِ أَسَابِيعَ لِنَسْتَقِرَّ.",
+    "ro": "Sa-naḥtāju ilā biḍʿati asābīʿa li-nastaqirra."
    }
   ]
  },
  {
-  "title": "Les déchets et la vie de voisinage",
+  "title": "La chaleur de l'été",
   "phrases": [
    {
-    "fr": "Dans mon quartier, on trie les déchets en cinq catégories.",
-    "ja": "私の地域では、ごみを五種類に分けます。",
-    "ro": "Watashi no chiiki de wa, gomi o goshurui ni wakemasu."
+    "fr": "En août, la température dépasse quarante-cinq degrés.",
+    "ar": "فِي أَغُسْطُسَ تَتَجَاوَزُ الْحَرَارَةُ خَمْسًا وَأَرْبَعِينَ دَرَجَةً.",
+    "ro": "Fī Aghusṭusa tatajāwazu al-ḥarāratu khamsan wa-arbaʿīna darajatan."
    },
    {
-    "fr": "Les déchets combustibles sont ramassés le mardi et le vendredi.",
-    "ja": "燃えるごみは火曜日と金曜日に回収されます。",
-    "ro": "Moeru gomi wa kayōbi to kin'yōbi ni kaishū saremasu."
+    "fr": "L'humidité rend la respiration difficile.",
+    "ar": "الرُّطُوبَةُ تَجْعَلُ التَّنَفُّسَ صَعْبًا.",
+    "ro": "Ar-ruṭūbatu tajʿalu at-tanaffusa ṣaʿban."
    },
    {
-    "fr": "Il faut sortir les poubelles avant huit heures et demie du matin.",
-    "ja": "ごみは朝八時半までに出さなければなりません。",
-    "ro": "Gomi wa asa hachiji han made ni dasanakereba narimasen."
+    "fr": "Personne ne marche dehors à midi.",
+    "ar": "لَا أَحَدَ يَمْشِي فِي الْخَارِجِ عِنْدَ الظُّهْرِ.",
+    "ro": "Lā aḥada yamshī fī al-khāriji ʿinda aẓ-ẓuhri."
    },
    {
-    "fr": "Pour jeter un gros objet, il faut acheter un autocollant payant.",
-    "ja": "粗大ごみを出すには、有料のシールが必要です。",
-    "ro": "Sodai gomi o dasu ni wa, yūryō no shīru ga hitsuyō desu."
+    "fr": "La climatisation fonctionne jour et nuit.",
+    "ar": "يَعْمَلُ الْمُكَيِّفُ لَيْلَ نَهَارَ.",
+    "ro": "Yaʿmalu al-mukayyifu layla nahāra."
    },
    {
-    "fr": "La personne d'en dessous m'a dit que mes pas faisaient trop de bruit.",
-    "ja": "下の階の人から、足音がうるさいと言われました。",
-    "ro": "Shita no kai no hito kara, ashioto ga urusai to iwaremashita."
+    "fr": "La facture d'électricité est très élevée en été.",
+    "ar": "فَاتُورَةُ الْكَهْرَبَاءِ مُرْتَفِعَةٌ جِدًّا فِي الصَّيْفِ.",
+    "ro": "Fātūratu al-kahrabāʾi murtafiʿatun jiddan fī aṣ-ṣayfi."
    },
    {
-    "fr": "Depuis, je fais attention à marcher doucement le soir.",
-    "ja": "それからは、夜は静かに歩くようにしています。",
-    "ro": "Sore kara wa, yoru wa shizuka ni aruku yō ni shite imasu."
+    "fr": "Le travail en plein air s'arrête à midi pendant l'été.",
+    "ar": "يَتَوَقَّفُ الْعَمَلُ فِي الْهَوَاءِ الطَّلْقِ وَقْتَ الظُّهْرِ صَيْفًا.",
+    "ro": "Yatawaqqafu al-ʿamalu fī al-hawāʾi aṭ-ṭalqi waqta aẓ-ẓuhri ṣayfan."
    },
    {
-    "fr": "Les annonces du quartier circulent sur un carnet que les voisins se passent.",
-    "ja": "回覧板で、町内のお知らせが回ってきます。",
-    "ro": "Kairanban de, chōnai no oshirase ga mawatte kimasu."
+    "fr": "Nous allons au centre commercial pour profiter de la fraîcheur.",
+    "ar": "نَذْهَبُ إِلَى الْمَرْكَزِ التِّجَارِيِّ لِنَسْتَمْتِعَ بِالْبُرُودَةِ.",
+    "ro": "Nadhhabu ilā al-markazi at-tijāriyyi li-nastamtiʿa bil-burūdati."
    },
    {
-    "fr": "Une fois que je l'ai lu, je le passe à la maison d'à côté.",
-    "ja": "読んだら、隣の家に回します。",
-    "ro": "Yondara, tonari no ie ni mawashimasu."
+    "fr": "Il faut boire beaucoup d'eau pour éviter la déshydratation.",
+    "ar": "يَجِبُ شُرْبُ الْكَثِيرِ مِنَ الْمَاءِ لِتَجَنُّبِ الْجَفَافِ.",
+    "ro": "Yajibu shurbu al-kathīri mina al-māʾi li-tajannubi al-jafāfi."
    },
    {
-    "fr": "Dimanche prochain, il y a un grand nettoyage du quartier.",
-    "ja": "今度の日曜日、町内の清掃活動があります。",
-    "ro": "Kondo no nichiyōbi, chōnai no seisō katsudō ga arimasu."
+    "fr": "Beaucoup de familles voyagent pendant les mois chauds.",
+    "ar": "تُسَافِرُ عَائِلَاتٌ كَثِيرَةٌ خِلَالَ الْأَشْهُرِ الْحَارَّةِ.",
+    "ro": "Tusāfiru ʿāʾilātun kathīratun khilāla al-ashhuri al-ḥārrati."
    },
    {
-    "fr": "On se salue toujours quand on se croise dans l'ascenseur, c'est agréable.",
-    "ja": "エレベーターで会うと、いつもあいさつし合うので気持ちがいいです。",
-    "ro": "Erebētā de au to, itsumo aisatsu shiau node kimochi ga ii desu."
-   }
-  ]
- },
- {
-  "title": "Se préparer aux séismes",
-  "phrases": [
-   {
-    "fr": "Au Japon, il y a un séisme quelque part presque chaque jour.",
-    "ja": "日本ではほぼ毎日、どこかで地震が起きています。",
-    "ro": "Nihon de wa hobo mainichi, doko ka de jishin ga okite imasu."
-   },
-   {
-    "fr": "Fixez les grands meubles au mur pour qu'ils ne tombent pas.",
-    "ja": "大きな家具は倒れないように壁に固定してください。",
-    "ro": "Ōkina kagu wa taorenai yō ni kabe ni kotei shite kudasai."
-   },
-   {
-    "fr": "Gardons à la maison de l'eau et de la nourriture pour trois jours.",
-    "ja": "家に三日分の水と食料を用意しておきましょう。",
-    "ro": "Ie ni mikkabun no mizu to shokuryō o yōi shite okimashō."
-   },
-   {
-    "fr": "Je garde un sac d'urgence près de l'entrée.",
-    "ja": "玄関の近くに非常用持ち出し袋を置いています。",
-    "ro": "Genkan no chikaku ni hijōyō mochidashi bukuro o oite imasu."
-   },
-   {
-    "fr": "Si ça secoue, protège d'abord ta tête sous une table.",
-    "ja": "揺れたら、まず机の下で頭を守って。",
-    "ro": "Yuretara, mazu tsukue no shita de atama o mamotte."
-   },
-   {
-    "fr": "Pendant que ça tremble, ne te précipite pas dehors.",
-    "ja": "揺れている間は、慌てて外に出ないで。",
-    "ro": "Yurete iru aida wa, awatete soto ni denaide."
-   },
-   {
-    "fr": "Où se trouve le lieu d'évacuation de ce quartier ?",
-    "ja": "この地域の避難場所はどこですか。",
-    "ro": "Kono chiiki no hinan basho wa doko desu ka."
-   },
-   {
-    "fr": "Le portable reçoit une alerte quelques secondes avant la secousse.",
-    "ja": "揺れる数秒前に、携帯に緊急地震速報が届きます。",
-    "ro": "Yureru sūbyō mae ni, keitai ni kinkyū jishin sokuhō ga todokimasu."
-   },
-   {
-    "fr": "Au bureau, il y a un exercice d'évacuation chaque année en septembre.",
-    "ja": "会社では毎年九月に避難訓練があります。",
-    "ro": "Kaisha de wa maitoshi kugatsu ni hinan kunren ga arimasu."
-   },
-   {
-    "fr": "Si l'on s'est préparé, on ne panique pas le moment venu.",
-    "ja": "準備しておけば、いざというときも慌てずに済みます。",
-    "ro": "Junbi shite okeba, iza to iu toki mo awatezu ni sumimasu."
-   }
-  ]
- },
- {
-  "title": "Recevoir un client au bureau",
-  "phrases": [
-   {
-    "fr": "Je m'appelle Martin, du service commercial.",
-    "ja": "営業部のマルタンと申します。",
-    "ro": "Eigyōbu no Marutan to mōshimasu."
-   },
-   {
-    "fr": "Nous vous attendions, merci d'être venu de si loin.",
-    "ja": "お待ちしておりました。遠いところをありがとうございます。",
-    "ro": "Omachi shite orimashita. Tōi tokoro o arigatō gozaimasu."
-   },
-   {
-    "fr": "Je vous conduis à la salle de réunion.",
-    "ja": "会議室へご案内いたします。",
-    "ro": "Kaigishitsu e goannai itashimasu."
-   },
-   {
-    "fr": "Je vais chercher le responsable tout de suite.",
-    "ja": "ただいま担当者を呼んでまいります。",
-    "ro": "Tadaima tantōsha o yonde mairimasu."
-   },
-   {
-    "fr": "Je vous apporte du thé.",
-    "ja": "お茶をお持ちいたします。",
-    "ro": "Ocha o omochi itashimasu."
-   },
-   {
-    "fr": "Je vous enverrai le devis demain sans faute.",
-    "ja": "明日、必ず見積書をお送りいたします。",
-    "ro": "Ashita, kanarazu mitsumorisho o ookuri itashimasu."
-   },
-   {
-    "fr": "La semaine prochaine, c'est moi qui viendrai dans vos locaux.",
-    "ja": "来週、御社へまいります。",
-    "ro": "Raishū, onsha e mairimasu."
-   },
-   {
-    "fr": "Je viens de France, et je travaille ici depuis trois ans.",
-    "ja": "フランスからまいりました。こちらで三年働いております。",
-    "ro": "Furansu kara mairimashita. Kochira de sannen hataraite orimasu."
-   },
-   {
-    "fr": "Merci de toujours nous faire confiance.",
-    "ja": "いつもお世話になっております。",
-    "ro": "Itsumo osewa ni natte orimasu."
-   },
-   {
-    "fr": "Je compte sur vous pour la suite de notre collaboration.",
-    "ja": "今後ともよろしくお願いいたします。",
-    "ro": "Kongo tomo yoroshiku onegai itashimasu."
-   }
-  ],
-  "tip": {
-   "title": "Le langage humble : « itashimasu », « mairimasu »",
-   "example": "Je vais chercher le responsable tout de suite. — ただいま担当者を呼んで<b>まいります</b>。",
-   "exampleRo": "Tadaima tantōsha o yonde mairimasu.",
-   "lit": "à l'instant · responsable · [objet] · appeler · aller (humble, poli)",
-   "body": "Au niveau 2, vous avez vu le langage de respect, qui élève l'autre ; le langage humble fait l'inverse : on s'abaisse soi-même pour honorer son interlocuteur. On l'utilise uniquement pour ses propres actions, ou celles de son entreprise face à un client. « Suru » (faire) devient « itasu », d'où « itashimasu », et « iku » ou « kuru » (aller, venir) deviennent « mairu », d'où « mairimasu ». Notre exemple, « yonde mairimasu », se lit : appeler, aller humblement, autrement dit je vais le chercher. Avec « o » ou « go » devant un nom d'action, on obtient des formules toutes faites : « goannai itashimasu », je vous guide, ou « ookuri itashimasu », je vous l'envoie. Astuce : si c'est vous qui agissez face à un client, pensez humble ; si c'est lui, pensez respect."
-  }
- },
- {
-  "title": "Les trains bondés aux heures de pointe",
-  "phrases": [
-   {
-    "fr": "Entre huit et neuf heures, les trains sont pleins à craquer.",
-    "ja": "八時から九時の間は、電車がぎゅうぎゅう詰めです。",
-    "ro": "Hachiji kara kuji no aida wa, densha ga gyūgyūzume desu."
-   },
-   {
-    "fr": "Il arrive que le personnel pousse les passagers pour fermer les portes.",
-    "ja": "駅員が乗客を押して、ドアを閉めることもあります。",
-    "ro": "Ekiin ga jōkyaku o oshite, doa o shimeru koto mo arimasu."
-   },
-   {
-    "fr": "Porte ton sac à dos devant toi, s'il te plaît.",
-    "ja": "リュックは前に抱えてね。",
-    "ro": "Ryukku wa mae ni kakaete ne."
-   },
-   {
-    "fr": "Dans le train, la règle est de ne pas téléphoner.",
-    "ja": "電車の中では電話で話さないのがマナーです。",
-    "ro": "Densha no naka de wa denwa de hanasanai no ga manā desu."
-   },
-   {
-    "fr": "Le matin, il y a des voitures réservées aux femmes.",
-    "ja": "朝は、女性専用車両があります。",
-    "ro": "Asa wa, josei sen'yō sharyō ga arimasu."
-   },
-   {
-    "fr": "Le train est en retard à cause d'un accident de personne.",
-    "ja": "人身事故で電車が遅れています。",
-    "ro": "Jinshin jiko de densha ga okurete imasu."
-   },
-   {
-    "fr": "Dans ce cas, on peut obtenir un certificat de retard à la gare.",
-    "ja": "その場合、駅で遅延証明書がもらえます。",
-    "ro": "Sono baai, eki de chien shōmeisho ga moraemasu."
-   },
-   {
-    "fr": "Si je le montre à mon chef, mon retard n'est pas compté.",
-    "ja": "それを上司に見せれば、遅刻扱いになりません。",
-    "ro": "Sore o jōshi ni misereba, chikoku atsukai ni narimasen."
-   },
-   {
-    "fr": "Comme je veux être assis, je m'efforce de partir un peu plus tôt.",
-    "ja": "座りたいので、少し早く家を出るようにしています。",
-    "ro": "Suwaritai node, sukoshi hayaku ie o deru yō ni shite imasu."
-   },
-   {
-    "fr": "Avec le temps, on finit par savoir dormir debout dans le train.",
-    "ja": "そのうち、立ったまま電車で寝られるようになります。",
-    "ro": "Sono uchi, tatta mama densha de nerareru yō ni narimasu."
+    "fr": "En hiver, en revanche, le climat est vraiment agréable.",
+    "ar": "أَمَّا فِي الشِّتَاءِ فَالْجَوُّ لَطِيفٌ حَقًّا.",
+    "ro": "Ammā fī ash-shitāʾi fal-jawwu laṭīfun ḥaqqan."
    }
   ]
  },
@@ -8370,329 +8198,501 @@ const level3Module1Lessons = [
   "title": "Le télétravail",
   "phrases": [
    {
-    "fr": "Depuis cette année, je travaille de chez moi deux jours par semaine.",
-    "ja": "今年から、週に二日在宅勤務をしています。",
-    "ro": "Kotoshi kara, shū ni futsuka zaitaku kinmu o shite imasu."
+    "fr": "Je travaille à distance le mardi et le jeudi.",
+    "ar": "أَعْمَلُ عَنْ بُعْدٍ يَوْمَيِ الثُّلَاثَاءِ وَالْخَمِيسِ.",
+    "ro": "Aʿmalu ʿan buʿdin yawmayi ath-thulāthāʾi wal-khamīsi."
    },
    {
-    "fr": "Je gagne près de deux heures de trajet par jour.",
-    "ja": "通勤時間が一日二時間近く浮きます。",
-    "ro": "Tsūkin jikan ga ichinichi nijikan chikaku ukimasu."
+    "fr": "J'ai installé un petit bureau dans la chambre d'amis.",
+    "ar": "جَهَّزْتُ مَكْتَبًا صَغِيرًا فِي غُرْفَةِ الضُّيُوفِ.",
+    "ro": "Jahhaztu maktaban ṣaghīran fī ghurfati aḍ-ḍuyūfi."
    },
    {
-    "fr": "Mais mon logement est trop petit pour un vrai coin bureau.",
-    "ja": "でも、部屋が狭くて、ちゃんとした仕事スペースがありません。",
-    "ro": "Demo, heya ga semakute, chanto shita shigoto supēsu ga arimasen."
+    "fr": "La connexion coupe parfois pendant les appels vidéo.",
+    "ar": "يَنْقَطِعُ الِاتِّصَالُ بِالْإِنْتَرْنِتْ أَحْيَانًا أَثْنَاءَ مُكَالَمَاتِ الْفِيدْيُو.",
+    "ro": "Yanqaṭiʿu al-ittiṣālu bil-intarnit aḥyānan athnāʾa mukālamāti al-fīdyū."
    },
    {
-    "fr": "Parfois, je travaille dans un café près de chez moi.",
-    "ja": "時々、近所のカフェで仕事をします。",
-    "ro": "Tokidoki, kinjo no kafe de shigoto o shimasu."
+    "fr": "J'économise une heure et demie de trajet.",
+    "ar": "أُوَفِّرُ سَاعَةً وَنِصْفًا مِنَ الطَّرِيقِ.",
+    "ro": "Uwaffiru sāʿatan wa-niṣfan mina aṭ-ṭarīqi."
    },
    {
-    "fr": "Ta caméra est éteinte, on ne voit pas ton visage.",
-    "ja": "カメラがオフになってるよ。顔が見えない。",
-    "ro": "Kamera ga ofu ni natteru yo. Kao ga mienai."
+    "fr": "Mes collègues me manquent un peu.",
+    "ar": "أَشْتَاقُ إِلَى زُمَلَائِي قَلِيلًا.",
+    "ro": "Ashtāqu ilā zumalāʾī qalīlan."
    },
    {
-    "fr": "Pardon, il semble que mon micro était coupé.",
-    "ja": "すみません、マイクがミュートになっていたみたいです。",
-    "ro": "Sumimasen, maiku ga myūto ni natte ita mitai desu."
+    "fr": "Il est difficile de séparer la vie privée et le travail.",
+    "ar": "مِنَ الصَّعْبِ الْفَصْلُ بَيْنَ الْحَيَاةِ الْخَاصَّةِ وَالْعَمَلِ.",
+    "ro": "Mina aṣ-ṣaʿbi al-faṣlu bayna al-ḥayāti al-khāṣṣati wal-ʿamali."
    },
    {
-    "fr": "La connexion est instable, je vous rappelle.",
-    "ja": "接続が不安定なので、かけ直します。",
-    "ro": "Setsuzoku ga fuantei na node, kakenaoshimasu."
+    "fr": "Je commence ma journée par une liste de tâches.",
+    "ar": "أَبْدَأُ يَوْمِي بِقَائِمَةِ مَهَامَّ.",
+    "ro": "Abdaʾu yawmī bi-qāʾimati mahāmma."
    },
    {
-    "fr": "Il paraît que le directeur veut nous voir au bureau le lundi.",
-    "ja": "部長は、月曜日は出社してほしいそうです。",
-    "ro": "Buchō wa, getsuyōbi wa shussha shite hoshii sō desu."
+    "fr": "Notre directeur nous appelle chaque matin à huit heures et demie.",
+    "ar": "يَتَّصِلُ بِنَا مُدِيرُنَا كُلَّ صَبَاحٍ فِي الثَّامِنَةِ وَالنِّصْفِ.",
+    "ro": "Yattaṣilu binā mudīrunā kulla ṣabāḥin fī ath-thāminati wan-niṣfi."
    },
    {
-    "fr": "Pour bien séparer travail et repos, je m'habille comme pour aller au bureau.",
-    "ja": "メリハリをつけるために、出社するときと同じ服を着ます。",
-    "ro": "Merihari o tsukeru tame ni, shussha suru toki to onaji fuku o kimasu."
+    "fr": "À midi, je prends une vraie pause loin de l'écran.",
+    "ar": "عِنْدَ الظُّهْرِ آخُذُ اسْتِرَاحَةً حَقِيقِيَّةً بَعِيدًا عَنِ الشَّاشَةِ.",
+    "ro": "ʿInda aẓ-ẓuhri ākhudhu istirāḥatan ḥaqīqiyyatan baʿīdan ʿani ash-shāshati."
    },
    {
-    "fr": "Le plus difficile, c'est d'arrêter de travailler le soir.",
-    "ja": "一番難しいのは、夜に仕事をやめることです。",
-    "ro": "Ichiban muzukashii no wa, yoru ni shigoto o yameru koto desu."
+    "fr": "Le télétravail me convient parfaitement.",
+    "ar": "الْعَمَلُ عَنْ بُعْدٍ يُنَاسِبُنِي تَمَامًا.",
+    "ro": "Al-ʿamalu ʿan buʿdin yunāsibunī tamāman."
    }
   ]
  },
  {
-  "title": "Les démarches à la mairie",
+  "title": "Les voisins de l'immeuble",
   "phrases": [
    {
-    "fr": "Après un déménagement, il faut déclarer son arrivée sous quatorze jours.",
-    "ja": "引っ越したら、十四日以内に転入届を出さなければなりません。",
-    "ro": "Hikkoshitara, jūyokka inai ni tennyū todoke o dasanakereba narimasen."
+    "fr": "Nos voisins sont vraiment gentils.",
+    "ar": "إِنَّ جِيرَانَنَا لُطَفَاءُ حَقًّا.",
+    "ro": "Inna jīrānanā luṭafāʾu ḥaqqan."
    },
    {
-    "fr": "J'ai pris un ticket et j'attends qu'on appelle mon numéro.",
-    "ja": "番号札を取って、呼ばれるのを待っています。",
-    "ro": "Bangōfuda o totte, yobareru no o matte imasu."
+    "fr": "Je sais que notre voisine du dessus est médecin.",
+    "ar": "أَعْرِفُ أَنَّ جَارَتَنَا فِي الطَّابِقِ الْعُلْوِيِّ طَبِيبَةٌ.",
+    "ro": "Aʿrifu anna jāratanā fī aṭ-ṭābiqi al-ʿulwiyyi ṭabībatun."
    },
    {
-    "fr": "Remplissez ce formulaire et déposez-le au guichet numéro trois.",
-    "ja": "この用紙に記入して、三番の窓口に出してください。",
-    "ro": "Kono yōshi ni kinyū shite, sanban no madoguchi ni dashite kudasai."
+    "fr": "On dirait que le gardien connaît tout le monde.",
+    "ar": "كَأَنَّ الْحَارِسَ يَعْرِفُ الْجَمِيعَ.",
+    "ro": "Ka-anna al-ḥārisa yaʿrifu al-jamīʿa."
    },
    {
-    "fr": "La banque me demande un certificat de résidence.",
-    "ja": "銀行に出すので、住民票が必要です。",
-    "ro": "Ginkō ni dasu node, jūminhyō ga hitsuyō desu."
+    "fr": "L'immeuble est calme, mais les murs sont fins.",
+    "ar": "الْمَبْنَى هَادِئٌ، لَكِنَّ الْجُدْرَانَ رَقِيقَةٌ.",
+    "ro": "Al-mabnā hādiʾun, lākinna al-judrāna raqīqatun."
    },
    {
-    "fr": "Avec la carte My Number, on peut aussi l'imprimer au konbini.",
-    "ja": "マイナンバーカードがあれば、コンビニでも印刷できます。",
-    "ro": "Mai nanbā kādo ga areba, konbini demo insatsu dekimasu."
+    "fr": "Notre voisin rénove peut-être son appartement.",
+    "ar": "لَعَلَّ جَارَنَا يُرَمِّمُ شَقَّتَهُ.",
+    "ro": "Laʿalla jāranā yurammimu shaqqatahu."
    },
    {
-    "fr": "Il faut aussi faire changer l'adresse sur la carte de séjour.",
-    "ja": "在留カードの住所も変えてもらう必要があります。",
-    "ro": "Zairyū kādo no jūsho mo kaete morau hitsuyō ga arimasu."
+    "fr": "Si seulement l'ascenseur était plus rapide !",
+    "ar": "لَيْتَ الْمِصْعَدَ أَسْرَعُ!",
+    "ro": "Layta al-miṣʿada asraʿu!"
    },
    {
-    "fr": "Qu'est-ce que je dois apporter, exactement ?",
-    "ja": "何を持ってくればいいですか。",
-    "ro": "Nani o motte kureba ii desu ka."
+    "fr": "La famille d'à côté nous a apporté des luqaimat.",
+    "ar": "أَحْضَرَتْ لَنَا الْعَائِلَةُ الْمُجَاوِرَةُ لُقَيْمَاتٍ.",
+    "ro": "Aḥḍarat lanā al-ʿāʾilatu al-mujāwiratu luqaymātin."
    },
    {
-    "fr": "Ce guichet ferme à cinq heures et quart de l'après-midi.",
-    "ja": "この窓口は午後五時十五分に閉まります。",
-    "ro": "Kono madoguchi wa gogo goji jūgofun ni shimarimasu."
+    "fr": "En fait, nous ne nous croisons que dans l'ascenseur.",
+    "ar": "إِنَّنَا لَا نَلْتَقِي إِلَّا فِي الْمِصْعَدِ.",
+    "ro": "Innanā lā naltaqī illā fī al-miṣʿadi."
    },
    {
-    "fr": "Il manquait un tampon, alors j'ai dû revenir une deuxième fois.",
-    "ja": "はんこが足りなくて、もう一度来なければなりませんでした。",
-    "ro": "Hanko ga tarinakute, mō ichido konakereba narimasen deshita."
+    "fr": "La gestion de l'immeuble a annoncé que la piscine fermera lundi.",
+    "ar": "أَعْلَنَتِ الْإِدَارَةُ أَنَّ الْمَسْبَحَ سَيُغْلَقُ يَوْمَ الِاثْنَيْنِ.",
+    "ro": "Aʿlanati al-idāratu anna al-masbaḥa sa-yughlaqu yawma al-ithnayni."
    },
    {
-    "fr": "Les démarches sont longues, mais les agents sont très aimables.",
-    "ja": "手続きは時間がかかりますが、職員の方はとても親切です。",
-    "ro": "Tetsuzuki wa jikan ga kakarimasu ga, shokuin no kata wa totemo shinsetsu desu."
+    "fr": "Nous sommes heureux ici, sans aucun doute.",
+    "ar": "إِنَّنَا سُعَدَاءُ هُنَا بِلَا شَكٍّ.",
+    "ro": "Innanā suʿadāʾu hunā bi-lā shakkin."
+   }
+  ],
+  "tip": {
+   "title": "« Inna » et ses sœurs",
+   "example": "Nos voisins sont vraiment gentils. — <b>إِنَّ</b> جِيرَانَنَا لُطَفَاءُ حَقًّا.",
+   "exampleRo": "Inna jīrānanā luṭafāʾu ḥaqqan.",
+   "lit": "[certes] · voisins-de-nous · gentils · vraiment",
+   "body": "« Inna » se place en tête de phrase pour insister, un peu comme en vérité ou bien sûr en français. Sa particularité : le sujet qui le suit change de terminaison, le son « ou » devient « a ». On dit « jiranuna lutafau », nos voisins sont gentils, mais « inna jiranana lutafau ». Mot à mot : certes, nos voisins, gentils. Ses sœurs fonctionnent exactement pareil : « anna », que ; « lakinna », mais ; « kaanna », comme si ; « laalla », peut-être ; « layta », si seulement. Astuce pour retenir : après inna et toute sa famille, le sujet prend le son « a »."
+  }
+ },
+ {
+  "title": "Les démarches administratives",
+  "phrases": [
+   {
+    "fr": "Mon visa de résidence expire dans deux mois.",
+    "ar": "تَنْتَهِي تَأْشِيرَةُ إِقَامَتِي بَعْدَ شَهْرَيْنِ.",
+    "ro": "Tantahī taʾshīratu iqāmatī baʿda shahrayni."
+   },
+   {
+    "fr": "J'ai pris rendez-vous pour les empreintes digitales.",
+    "ar": "حَجَزْتُ مَوْعِدًا لِأَخْذِ الْبَصَمَاتِ.",
+    "ro": "Ḥajaztu mawʿidan li-akhdhi al-baṣamāti."
+   },
+   {
+    "fr": "La carte d'identité émiratie est indispensable pour tout.",
+    "ar": "بِطَاقَةُ الْهُوِيَّةِ الْإِمَارَاتِيَّةُ ضَرُورِيَّةٌ لِكُلِّ شَيْءٍ.",
+    "ro": "Biṭāqatu al-huwiyyati al-imārātiyyatu ḍarūriyyatun li-kulli shayʾin."
+   },
+   {
+    "fr": "L'examen médical se fait dans un centre agréé.",
+    "ar": "يُجْرَى الْفَحْصُ الطِّبِّيُّ فِي مَرْكَزٍ مُعْتَمَدٍ.",
+    "ro": "Yujrā al-faḥṣu aṭ-ṭibbiyyu fī markazin muʿtamadin."
+   },
+   {
+    "fr": "Je dois faire traduire mon permis de conduire.",
+    "ar": "يَجِبُ أَنْ أُتَرْجِمَ رُخْصَةَ قِيَادَتِي.",
+    "ro": "Yajibu an utarjima rukhṣata qiyādatī."
+   },
+   {
+    "fr": "Le formulaire est disponible sur le site officiel.",
+    "ar": "الِاسْتِمَارَةُ مُتَوَفِّرَةٌ عَلَى الْمَوْقِعِ الرَّسْمِيِّ.",
+    "ro": "Al-istimāratu mutawaffiratun ʿalā al-mawqiʿi ar-rasmiyyi."
+   },
+   {
+    "fr": "Les frais de dossier s'élèvent à cinq cents dirhams.",
+    "ar": "تَبْلُغُ رُسُومُ الْمُعَامَلَةِ خَمْسَمِئَةِ دِرْهَمٍ.",
+    "ro": "Tablughu rusūmu al-muʿāmalati khamsamiʾati dirhamin."
+   },
+   {
+    "fr": "Il me manquait une photo, j'ai dû revenir le lendemain.",
+    "ar": "نَقَصَتْنِي صُورَةٌ فَاضْطُرِرْتُ إِلَى الْعَوْدَةِ فِي الْيَوْمِ التَّالِي.",
+    "ro": "Naqaṣatnī ṣūratun fa-ḍṭurirtu ilā al-ʿawdati fī al-yawmi at-tālī."
+   },
+   {
+    "fr": "L'employé m'a expliqué toutes les étapes patiemment.",
+    "ar": "شَرَحَ لِي الْمُوَظَّفُ كُلَّ الْخُطُوَاتِ بِصَبْرٍ.",
+    "ro": "Sharaḥa lī al-muwaẓẓafu kulla al-khuṭuwāti bi-ṣabrin."
+   },
+   {
+    "fr": "Tout a été réglé en moins d'une semaine.",
+    "ar": "أُنْجِزَ كُلُّ شَيْءٍ فِي أَقَلَّ مِنْ أُسْبُوعٍ.",
+    "ro": "Unjiza kullu shayʾin fī aqalla min usbūʿin."
    }
   ]
  },
  {
-  "title": "Le bilan de santé annuel",
+  "title": "Un week-end à Abou Dhabi",
   "phrases": [
    {
-    "fr": "Chaque année, l'entreprise fait passer un bilan de santé à ses employés.",
-    "ja": "毎年、会社が社員に健康診断を受けさせます。",
-    "ro": "Maitoshi, kaisha ga shain ni kenkō shindan o ukesasemasu."
+    "fr": "Samedi matin, nous sommes partis à Abou Dhabi en famille.",
+    "ar": "صَبَاحَ السَّبْتِ ذَهَبْنَا إِلَى أَبُوظَبْي مَعَ الْعَائِلَةِ.",
+    "ro": "Ṣabāḥa as-sabti dhahabnā ilā Abū Ẓabī maʿa al-ʿāʾilati."
    },
    {
-    "fr": "La veille, il ne faut rien manger après neuf heures du soir.",
-    "ja": "前の日の夜九時以降は、何も食べてはいけません。",
-    "ro": "Mae no hi no yoru kuji ikō wa, nani mo tabete wa ikemasen."
+    "fr": "Nous avons visité le Louvre Abou Dhabi sur l'île de Saadiyat.",
+    "ar": "زُرْنَا مَتْحَفَ اللُّوفْرِ أَبُوظَبْي فِي جَزِيرَةِ السَّعْدِيَّاتِ.",
+    "ro": "Zurnā matḥafa al-Lūfri Abū Ẓabī fī jazīrati as-Saʿdiyyāti."
    },
    {
-    "fr": "On mesure la taille, le poids et le tour de ventre.",
-    "ja": "身長と体重と腹囲を測ります。",
-    "ro": "Shinchō to taijū to fukui o hakarimasu."
+    "fr": "La corniche est idéale pour une promenade au coucher du soleil.",
+    "ar": "الْكُورْنِيشُ مِثَالِيٌّ لِلتَّنَزُّهِ عِنْدَ الْغُرُوبِ.",
+    "ro": "Al-kūrnīshu mithāliyyun lit-tanazzuhi ʿinda al-ghurūbi."
    },
    {
-    "fr": "La prise de sang m'a fait un peu peur.",
-    "ja": "採血がちょっと怖かったです。",
-    "ro": "Saiketsu ga chotto kowakatta desu."
+    "fr": "Les enfants ont adoré le parc d'attractions de l'île de Yas.",
+    "ar": "أَحَبَّ الْأَطْفَالُ مَدِينَةَ الْأَلْعَابِ فِي جَزِيرَةِ يَاسْ.",
+    "ro": "Aḥabba al-aṭfālu madīnata al-alʿābi fī jazīrati Yās."
    },
    {
-    "fr": "Pour l'examen de l'estomac, il faut avaler du baryum.",
-    "ja": "胃の検査では、バリウムを飲まなければなりません。",
-    "ro": "I no kensa de wa, bariumu o nomanakereba narimasen."
+    "fr": "Nous avons déjeuné de poisson grillé près du marché aux poissons.",
+    "ar": "تَغَدَّيْنَا سَمَكًا مَشْوِيًّا قُرْبَ سُوقِ السَّمَكِ.",
+    "ro": "Taghaddaynā samakan mashwiyyan qurba sūqi as-samaki."
    },
    {
-    "fr": "Les résultats nous sont envoyés un mois plus tard.",
-    "ja": "結果は一か月後に送られてきます。",
-    "ro": "Kekka wa ikkagetsu go ni okurarete kimasu."
+    "fr": "L'hôtel avait une belle vue sur la mer.",
+    "ar": "كَانَ لِلْفُنْدُقِ إِطْلَالَةٌ جَمِيلَةٌ عَلَى الْبَحْرِ.",
+    "ro": "Kāna lil-funduqi iṭlālatun jamīlatun ʿalā al-baḥri."
    },
    {
-    "fr": "Le médecin m'a dit de faire davantage de sport.",
-    "ja": "医者に、もっと運動するように言われました。",
-    "ro": "Isha ni, motto undō suru yō ni iwaremashita."
+    "fr": "Abou Dhabi est plus calme que Dubaï, à mon avis.",
+    "ar": "أَبُوظَبْي أَهْدَأُ مِنْ دُبَيّ فِي رَأْيِي.",
+    "ro": "Abū Ẓabī ahdaʾu min Dubayy fī raʾyī."
    },
    {
-    "fr": "Mon taux de cholestérol est un peu élevé.",
-    "ja": "コレステロールの値が少し高いです。",
-    "ro": "Koresuterōru no atai ga sukoshi takai desu."
+    "fr": "Ma femme a acheté des dattes au marché pour ses parents.",
+    "ar": "اشْتَرَتْ زَوْجَتِي تَمْرًا مِنَ السُّوقِ لِوَالِدَيْهَا.",
+    "ro": "Ishtarat zawjatī tamran mina as-sūqi li-wālidayhā."
    },
    {
-    "fr": "Si rien ne change, il faudra peut-être refaire un examen.",
-    "ja": "このままだと、再検査が必要になるかもしれません。",
-    "ro": "Kono mama da to, saikensa ga hitsuyō ni naru kamoshiremasen."
+    "fr": "Sur la route du retour, tout le monde dormait dans la voiture.",
+    "ar": "فِي طَرِيقِ الْعَوْدَةِ كَانَ الْجَمِيعُ نَائِمِينَ فِي السَّيَّارَةِ.",
+    "ro": "Fī ṭarīqi al-ʿawdati kāna al-jamīʿu nāʾimīna fī as-sayyārati."
    },
    {
-    "fr": "À partir de demain, j'irai à pied jusqu'à la gare suivante.",
-    "ja": "明日から、一つ先の駅まで歩くことにします。",
-    "ro": "Ashita kara, hitotsu saki no eki made aruku koto ni shimasu."
+    "fr": "Nous y retournerons sûrement cet hiver.",
+    "ar": "سَنَعُودُ إِلَيْهَا بِالتَّأْكِيدِ هَذَا الشِّتَاءَ.",
+    "ro": "Sa-naʿūdu ilayhā bit-taʾkīdi hādhā ash-shitāʾa."
    }
   ]
  },
  {
-  "title": "La banque et les factures",
+  "title": "Les enfants et l'école",
   "phrases": [
    {
-    "fr": "Pour ouvrir un compte, il faut une adresse et un numéro de téléphone.",
-    "ja": "口座を開くには、住所と電話番号が必要です。",
-    "ro": "Kōza o hiraku ni wa, jūsho to denwa bangō ga hitsuyō desu."
+    "fr": "Notre fils va dans une école bilingue près de chez nous.",
+    "ar": "يَذْهَبُ ابْنُنَا إِلَى مَدْرَسَةٍ ثُنَائِيَّةِ اللُّغَةِ قُرْبَ بَيْتِنَا.",
+    "ro": "Yadhhabu ibnunā ilā madrasatin thunāʾiyyati al-lughati qurba baytinā."
    },
    {
-    "fr": "Certaines banques refusent d'ouvrir un compte avant six mois de résidence.",
-    "ja": "日本に住んで六か月たたないと、口座を作れない銀行もあります。",
-    "ro": "Nihon ni sunde rokkagetsu tatanai to, kōza o tsukurenai ginkō mo arimasu."
+    "fr": "Les inscriptions commencent dès le mois de janvier.",
+    "ar": "يَبْدَأُ التَّسْجِيلُ مُنْذُ شَهْرِ يَنَايِرَ.",
+    "ro": "Yabdaʾu at-tasjīlu mundhu shahri Yanāyira."
    },
    {
-    "fr": "Mon salaire est versé le vingt-cinq de chaque mois.",
-    "ja": "給料は毎月二十五日に振り込まれます。",
-    "ro": "Kyūryō wa maitsuki nijūgonichi ni furikomaremasu."
+    "fr": "Les frais de scolarité pèsent lourd sur les familles.",
+    "ar": "الرُّسُومُ الدِّرَاسِيَّةُ عِبْءٌ كَبِيرٌ عَلَى الْعَائِلَاتِ.",
+    "ro": "Ar-rusūmu ad-dirāsiyyatu ʿibʾun kabīrun ʿalā al-ʿāʾilāti."
    },
    {
-    "fr": "On peut régler la facture d'électricité au konbini.",
-    "ja": "電気代はコンビニで払えます。",
-    "ro": "Denkidai wa konbini de haraemasu."
+    "fr": "Ma fille apprend l'arabe depuis la maternelle.",
+    "ar": "تَتَعَلَّمُ ابْنَتِي الْعَرَبِيَّةَ مُنْذُ الرَّوْضَةِ.",
+    "ro": "Tataʿallamu ibnatī al-ʿarabiyyata mundhu ar-rawḍati."
    },
    {
-    "fr": "J'ai choisi le prélèvement automatique, c'est plus pratique.",
-    "ja": "口座振替のほうが楽なので、そうしています。",
-    "ro": "Kōza furikae no hō ga raku na node, sō shite imasu."
+    "fr": "Le bus scolaire passe à six heures et demie.",
+    "ar": "تَمُرُّ الْحَافِلَةُ الْمَدْرَسِيَّةُ فِي السَّادِسَةِ وَالنِّصْفِ.",
+    "ro": "Tamurru al-ḥāfilatu al-madrasiyyatu fī as-sādisati wan-niṣfi."
    },
    {
-    "fr": "Au Japon, beaucoup de gens paient encore en liquide.",
-    "ja": "日本では、まだ現金を使う人が多いです。",
-    "ro": "Nihon de wa, mada genkin o tsukau hito ga ōi desu."
+    "fr": "Les cours se terminent vers deux heures de l'après-midi.",
+    "ar": "تَنْتَهِي الدُّرُوسُ نَحْوَ السَّاعَةِ الثَّانِيَةِ بَعْدَ الظُّهْرِ.",
+    "ro": "Tantahī ad-durūsu naḥwa as-sāʿati ath-thāniyati baʿda aẓ-ẓuhri."
    },
    {
-    "fr": "Mais les magasins qui acceptent le paiement par smartphone se multiplient.",
-    "ja": "でも、スマホ決済が使える店もどんどん増えています。",
-    "ro": "Demo, sumaho kessai ga tsukaeru mise mo dondon fuete imasu."
+    "fr": "Dans sa classe, il y a des élèves de vingt nationalités.",
+    "ar": "فِي صَفِّهِ تَلَامِيذُ مِنْ عِشْرِينَ جِنْسِيَّةً.",
+    "ro": "Fī ṣaffihi talāmīdhu min ʿishrīna jinsiyyatan."
    },
    {
-    "fr": "En juin, l'avis de l'impôt local arrive dans la boîte aux lettres.",
-    "ja": "六月になると、住民税の通知がポストに届きます。",
-    "ro": "Rokugatsu ni naru to, jūminzei no tsūchi ga posuto ni todokimasu."
+    "fr": "La réunion parents-professeurs a lieu jeudi soir.",
+    "ar": "يُعْقَدُ لِقَاءُ الْأَهْلِ وَالْمُعَلِّمِينَ مَسَاءَ الْخَمِيسِ.",
+    "ro": "Yuʿqadu liqāʾu al-ahli wal-muʿallimīna masāʾa al-khamīsi."
    },
    {
-    "fr": "Pour les salariés, cet impôt est prélevé directement sur le salaire.",
-    "ja": "会社員の場合、この税金は給料から天引きされます。",
-    "ro": "Kaishain no baai, kono zeikin wa kyūryō kara tenbiki saremasu."
+    "fr": "Le professeur dit que notre fils a fait de grands progrès.",
+    "ar": "يَقُولُ الْمُعَلِّمُ إِنَّ ابْنَنَا تَقَدَّمَ كَثِيرًا.",
+    "ro": "Yaqūlu al-muʿallimu inna ibnanā taqaddama kathīran."
    },
    {
-    "fr": "J'ai enfin compris comment lire ma fiche de paie.",
-    "ja": "やっと給与明細の見方がわかりました。",
-    "ro": "Yatto kyūyo meisai no mikata ga wakarimashita."
+    "fr": "Le week-end, les enfants font de la natation.",
+    "ar": "فِي عُطْلَةِ نِهَايَةِ الْأُسْبُوعِ يُمَارِسُ الْأَطْفَالُ السِّبَاحَةَ.",
+    "ro": "Fī ʿuṭlati nihāyati al-usbūʿi yumārisu al-aṭfālu as-sibāḥata."
    }
   ]
  },
  {
-  "title": "La fête du sanctuaire du quartier",
+  "title": "Faire les courses",
   "phrases": [
    {
-    "fr": "Ce week-end, il y a une fête au sanctuaire du quartier.",
-    "ja": "今週末、近所の神社でお祭りがあります。",
-    "ro": "Konshūmatsu, kinjo no jinja de omatsuri ga arimasu."
+    "fr": "Nous faisons les courses pour la maison chaque samedi matin.",
+    "ar": "نَتَسَوَّقُ لِلْبَيْتِ صَبَاحَ كُلِّ سَبْتٍ.",
+    "ro": "Natasawwaqu lil-bayti ṣabāḥa kulli sabtin."
    },
    {
-    "fr": "Les habitants portent le palanquin sacré à travers les rues.",
-    "ja": "町内の人たちがみこしを担いで、通りを練り歩きます。",
-    "ro": "Chōnai no hitotachi ga mikoshi o katsuide, tōri o neriarukimasu."
+    "fr": "L'hypermarché est ouvert jour et nuit.",
+    "ar": "الْمَتْجَرُ الْكَبِيرُ مَفْتُوحٌ عَلَى مَدَارِ السَّاعَةِ.",
+    "ro": "Al-matjaru al-kabīru maftūḥun ʿalā madāri as-sāʿati."
    },
    {
-    "fr": "Cette année, on m'a proposé de le porter avec eux.",
-    "ja": "今年は一緒に担がないかと誘われました。",
-    "ro": "Kotoshi wa issho ni katsuganai ka to sasowaremashita."
+    "fr": "Les fruits sont importés de nombreux pays.",
+    "ar": "تُسْتَوْرَدُ الْفَوَاكِهُ مِنْ بُلْدَانٍ كَثِيرَةٍ.",
+    "ro": "Tustawradu al-fawākihu min buldānin kathīratin."
    },
    {
-    "fr": "Il faut porter la veste « happi » du quartier.",
-    "ja": "町内のはっぴを着なければなりません。",
-    "ro": "Chōnai no happi o kinakereba narimasen."
+    "fr": "Je compare toujours les prix avant d'acheter.",
+    "ar": "أُقَارِنُ الْأَسْعَارَ دَائِمًا قَبْلَ الشِّرَاءِ.",
+    "ro": "Uqārinu al-asʿāra dāʾiman qabla ash-shirāʾi."
    },
    {
-    "fr": "Les stands vendent des yakisoba et des pommes d'amour.",
-    "ja": "屋台で焼きそばやりんごあめを売っています。",
-    "ro": "Yatai de yakisoba ya ringoame o utte imasu."
+    "fr": "Les sacs en plastique sont désormais payants.",
+    "ar": "أَصْبَحَتِ الْأَكْيَاسُ الْبِلَاسْتِيكِيَّةُ مَدْفُوعَةً.",
+    "ro": "Aṣbaḥati al-akyāsu al-bilāstīkiyyatu madfūʿatan."
    },
    {
-    "fr": "Les enfants s'amusent à pêcher des poissons rouges.",
-    "ja": "子どもたちは金魚すくいをしています。",
-    "ro": "Kodomotachi wa kingyo sukui o shite imasu."
+    "fr": "Je commande souvent les courses en ligne.",
+    "ar": "كَثِيرًا مَا أَطْلُبُ الْمُشْتَرَيَاتِ عَبْرَ الْإِنْتَرْنِتْ.",
+    "ro": "Kathīran mā aṭlubu al-mushtarayāti ʿabra al-intarnit."
    },
    {
-    "fr": "Tu as mis un yukata ! Il te va vraiment bien.",
-    "ja": "浴衣、着たんだ。よく似合ってるね。",
-    "ro": "Yukata, kita n da. Yoku niatteru ne."
+    "fr": "La commande arrive en moins d'une heure.",
+    "ar": "تَصِلُ الطَّلَبِيَّةُ فِي أَقَلَّ مِنْ سَاعَةٍ.",
+    "ro": "Taṣilu aṭ-ṭalabiyyatu fī aqalla min sāʿatin."
    },
    {
-    "fr": "C'est l'occasion de parler aux voisins qu'on ne fait que croiser.",
-    "ja": "いつもすれ違うだけの近所の人と話すいい機会です。",
-    "ro": "Itsumo surechigau dake no kinjo no hito to hanasu ii kikai desu."
+    "fr": "Au souk de Deira, on peut marchander les prix.",
+    "ar": "فِي سُوقِ دِيرَةَ يُمْكِنُ الْمُسَاوَمَةُ عَلَى الْأَسْعَارِ.",
+    "ro": "Fī sūqi Dīrata yumkinu al-musāwamatu ʿalā al-asʿāri."
    },
    {
-    "fr": "Après la fête, tout le monde aide à ranger.",
-    "ja": "お祭りの後は、みんなで片付けを手伝います。",
-    "ro": "Omatsuri no ato wa, minna de katazuke o tetsudaimasu."
+    "fr": "Les épices sont vendues au poids.",
+    "ar": "تُبَاعُ التَّوَابِلُ بِالْوَزْنِ.",
+    "ro": "Tubāʿu at-tawābilu bil-wazni."
    },
    {
-    "fr": "J'ai enfin l'impression d'être un vrai habitant de ce quartier.",
-    "ja": "やっと、この町の住人になれた気がします。",
-    "ro": "Yatto, kono machi no jūnin ni nareta ki ga shimasu."
+    "fr": "J'ai oublié d'acheter du lait, encore une fois !",
+    "ar": "نَسِيتُ أَنْ أَشْتَرِيَ الْحَلِيبَ مَرَّةً أُخْرَى!",
+    "ro": "Nasītu an ashtariya al-ḥalība marratan ukhrā!"
    }
   ]
  },
  {
-  "title": "Le pot de départ d'un collègue",
+  "title": "Une visite chez le médecin",
   "phrases": [
    {
-    "fr": "Monsieur Tanaka est muté à l'agence de Fukuoka.",
-    "ja": "田中さんが福岡支店に転勤することになりました。",
-    "ro": "Tanaka-san ga Fukuoka shiten ni tenkin suru koto ni narimashita."
+    "fr": "Mon fils a de la fièvre depuis hier soir.",
+    "ar": "ابْنِي مَحْمُومٌ مُنْذُ مَسَاءِ أَمْسِ.",
+    "ro": "Ibnī maḥmūmun mundhu masāʾi amsi."
    },
    {
-    "fr": "Vendredi soir, nous organisons une soirée d'adieu.",
-    "ja": "金曜日の夜、送別会を開きます。",
-    "ro": "Kin'yōbi no yoru, sōbetsukai o hirakimasu."
+    "fr": "J'ai pris rendez-vous dans une clinique près de chez nous.",
+    "ar": "حَجَزْتُ مَوْعِدًا فِي عِيَادَةٍ قَرِيبَةٍ مِنْ بَيْتِنَا.",
+    "ro": "Ḥajaztu mawʿidan fī ʿiyādatin qarībatin min baytinā."
    },
    {
-    "fr": "Chacun a donné mille yens pour lui acheter un cadeau.",
-    "ja": "みんなで千円ずつ出して、プレゼントを買いました。",
-    "ro": "Minna de sen'en zutsu dashite, purezento o kaimashita."
+    "fr": "La secrétaire a demandé ma carte d'assurance.",
+    "ar": "طَلَبَتِ السِّكْرِتِيرَةُ بِطَاقَةَ التَّأْمِينِ.",
+    "ro": "Ṭalabati as-sikritīratu biṭāqata at-taʾmīni."
    },
    {
-    "fr": "On m'a chargé de rassembler les messages pour la carte collective.",
-    "ja": "寄せ書きのメッセージを集める係になりました。",
-    "ro": "Yosegaki no messēji o atsumeru kakari ni narimashita."
+    "fr": "Le médecin l'a examiné attentivement.",
+    "ar": "فَحَصَهُ الطَّبِيبُ بِعِنَايَةٍ.",
+    "ro": "Faḥaṣahu aṭ-ṭabību bi-ʿināyatin."
    },
    {
-    "fr": "Grâce à vous, monsieur Tanaka, j'ai appris énormément de choses.",
-    "ja": "田中さんのおかげで、たくさんのことを学びました。",
-    "ro": "Tanaka-san no okage de, takusan no koto o manabimashita."
+    "fr": "Ce n'est qu'un virus saisonnier, rien de grave.",
+    "ar": "إِنَّهُ مُجَرَّدُ فَيْرُوسٍ مَوْسِمِيٍّ وَلَيْسَ خَطِيرًا.",
+    "ro": "Innahu mujarradu fayrūsin mawsimiyyin wa-laysa khaṭīran."
    },
    {
-    "fr": "On va vraiment se sentir seuls sans vous.",
-    "ja": "本当に寂しくなります。",
-    "ro": "Hontō ni sabishiku narimasu."
+    "fr": "Il doit se reposer et boire beaucoup.",
+    "ar": "عَلَيْهِ أَنْ يَرْتَاحَ وَيَشْرَبَ كَثِيرًا.",
+    "ro": "ʿAlayhi an yartāḥa wa-yashraba kathīran."
    },
    {
-    "fr": "Là-bas aussi, prenez bien soin de votre santé.",
-    "ja": "向こうでも体に気をつけてください。",
-    "ro": "Mukō demo karada ni ki o tsukete kudasai."
+    "fr": "Le médecin a prescrit un sirop contre la toux.",
+    "ar": "وَصَفَ الطَّبِيبُ شَرَابًا لِلسُّعَالِ.",
+    "ro": "Waṣafa aṭ-ṭabību sharāban lis-suʿāli."
    },
    {
-    "fr": "Si jamais vous repassez par Tokyo, faites-nous signe.",
-    "ja": "東京に来ることがあれば、ぜひ連絡してください。",
-    "ro": "Tōkyō ni kuru koto ga areba, zehi renraku shite kudasai."
+    "fr": "La pharmacie est au rez-de-chaussée de la clinique.",
+    "ar": "الصَّيْدَلِيَّةُ فِي الطَّابِقِ الْأَرْضِيِّ مِنَ الْعِيَادَةِ.",
+    "ro": "Aṣ-ṣaydaliyyatu fī aṭ-ṭābiqi al-arḍiyyi mina al-ʿiyādati."
    },
    {
-    "fr": "À la fin, monsieur Tanaka a fait un discours très émouvant.",
-    "ja": "最後に、田中さんが感動的なスピーチをしました。",
-    "ro": "Saigo ni, Tanaka-san ga kandōteki na supīchi o shimashita."
+    "fr": "L'assurance a couvert la consultation et les médicaments.",
+    "ar": "غَطَّى التَّأْمِينُ الِاسْتِشَارَةَ وَالْأَدْوِيَةَ.",
+    "ro": "Ghaṭṭā at-taʾmīnu al-istishārata wal-adwiyata."
    },
    {
-    "fr": "Au Japon, les mutations font partie de la vie d'un salarié.",
-    "ja": "日本では、転勤は会社員の生活の一部です。",
-    "ro": "Nihon de wa, tenkin wa kaishain no seikatsu no ichibu desu."
+    "fr": "Trois jours plus tard, il était de retour à l'école.",
+    "ar": "بَعْدَ ثَلَاثَةِ أَيَّامٍ عَادَ إِلَى الْمَدْرَسَةِ.",
+    "ro": "Baʿda thalāthati ayyāmin ʿāda ilā al-madrasati."
+   }
+  ]
+ },
+ {
+  "title": "Le sport et le bien-être",
+  "phrases": [
+   {
+    "fr": "Je cours sur la plage de Jumeirah tôt le matin.",
+    "ar": "أَجْرِي عَلَى شَاطِئِ جُمَيْرَا فِي الصَّبَاحِ الْبَاكِرِ.",
+    "ro": "Ajrī ʿalā shāṭiʾi Jumayrā fī aṣ-ṣabāḥi al-bākiri."
+   },
+   {
+    "fr": "Je me suis inscrit dans une salle de sport près du bureau.",
+    "ar": "اشْتَرَكْتُ فِي نَادٍ رِيَاضِيٍّ قُرْبَ الْمَكْتَبِ.",
+    "ro": "Ishtaraktu fī nādin riyāḍiyyin qurba al-maktabi."
+   },
+   {
+    "fr": "Le vendredi soir, je joue au padel avec des collègues.",
+    "ar": "مَسَاءَ الْجُمُعَةِ أَلْعَبُ الْبَادِلَ مَعَ زُمَلَاءَ مِنَ الْعَمَلِ.",
+    "ro": "Masāʾa al-jumuʿati alʿabu al-bādila maʿa zumalāʾa mina al-ʿamali."
+   },
+   {
+    "fr": "Faire du sport en été demande de l'organisation.",
+    "ar": "مُمَارَسَةُ الرِّيَاضَةِ فِي الصَّيْفِ تَحْتَاجُ إِلَى تَنْظِيمٍ.",
+    "ro": "Mumārasatu ar-riyāḍati fī aṣ-ṣayfi taḥtāju ilā tanẓīmin."
+   },
+   {
+    "fr": "Le parc de Zabeel s'anime après le coucher du soleil.",
+    "ar": "تَدِبُّ الْحَيَاةُ فِي حَدِيقَةِ زَعَبِيلَ بَعْدَ الْغُرُوبِ.",
+    "ro": "Tadibbu al-ḥayātu fī ḥadīqati Zaʿabīla baʿda al-ghurūbi."
+   },
+   {
+    "fr": "Le yoga m'aide à gérer le stress du travail.",
+    "ar": "تُسَاعِدُنِي الْيُوغَا عَلَى التَّحَكُّمِ فِي ضَغْطِ الْعَمَلِ.",
+    "ro": "Tusāʿidunī al-yūghā ʿalā at-taḥakkumi fī ḍaghṭi al-ʿamali."
+   },
+   {
+    "fr": "Depuis quelques mois, je mange moins de sucre.",
+    "ar": "مُنْذُ بِضْعَةِ أَشْهُرٍ أَتَنَاوَلُ سُكَّرًا أَقَلَّ.",
+    "ro": "Mundhu biḍʿati ashhurin atanāwalu sukkaran aqalla."
+   },
+   {
+    "fr": "Mon voisin m'a proposé de faire du vélo ensemble.",
+    "ar": "اقْتَرَحَ عَلَيَّ جَارِي أَنْ نَرْكَبَ الدَّرَّاجَةَ مَعًا.",
+    "ro": "Iqtaraḥa ʿalayya jārī an narkaba ad-darrājata maʿan."
+   },
+   {
+    "fr": "Il y a une piste cyclable dans le désert d'Al Qudra.",
+    "ar": "هُنَاكَ مَسَارٌ لِلدَّرَّاجَاتِ فِي صَحْرَاءِ الْقُدْرَةِ.",
+    "ro": "Hunāka masārun lid-darrājāti fī ṣaḥrāʾi al-Qudrati."
+   },
+   {
+    "fr": "Je me sens beaucoup mieux depuis que je fais du sport.",
+    "ar": "أَشْعُرُ بِتَحَسُّنٍ كَبِيرٍ مُنْذُ أَنْ بَدَأْتُ أُمَارِسُ الرِّيَاضَةَ.",
+    "ro": "Ashʿuru bi-taḥassunin kabīrin mundhu an badaʾtu umārisu ar-riyāḍata."
+   }
+  ]
+ },
+ {
+  "title": "La famille vient de France",
+  "phrases": [
+   {
+    "fr": "Mes parents arrivent de Paris la semaine prochaine.",
+    "ar": "يَصِلُ وَالِدَايَ مِنْ بَارِيسَ الْأُسْبُوعَ الْقَادِمَ.",
+    "ro": "Yaṣilu wālidāya min Bārīsa al-usbūʿa al-qādima."
+   },
+   {
+    "fr": "Ils viennent aux Émirats pour la première fois.",
+    "ar": "يَأْتِيَانِ إِلَى الْإِمَارَاتِ لِأَوَّلِ مَرَّةٍ.",
+    "ro": "Yaʾtiyāni ilā al-imārāti li-awwali marratin."
+   },
+   {
+    "fr": "Nous leur avons préparé la chambre d'amis.",
+    "ar": "جَهَّزْنَا لَهُمَا غُرْفَةَ الضُّيُوفِ.",
+    "ro": "Jahhaznā lahumā ghurfata aḍ-ḍuyūfi."
+   },
+   {
+    "fr": "Ma mère tient beaucoup à voir le désert.",
+    "ar": "تُرِيدُ أُمِّي بِشِدَّةٍ أَنْ تَرَى الصَّحْرَاءَ.",
+    "ro": "Turīdu ummī bi-shiddatin an tarā aṣ-ṣaḥrāʾa."
+   },
+   {
+    "fr": "Nous avons réservé une soirée dans un camp au milieu des dunes.",
+    "ar": "حَجَزْنَا سَهْرَةً فِي مُخَيَّمٍ وَسَطَ الْكُثْبَانِ.",
+    "ro": "Ḥajaznā saharatan fī mukhayyamin wasaṭa al-kuthbāni."
+   },
+   {
+    "fr": "Mon père a été surpris par la propreté de la ville.",
+    "ar": "فُوجِئَ أَبِي بِنَظَافَةِ الْمَدِينَةِ.",
+    "ro": "Fūjiʾa abī bi-naẓāfati al-madīnati."
+   },
+   {
+    "fr": "Les enfants sont ravis de retrouver leurs grands-parents.",
+    "ar": "الْأَطْفَالُ فَرِحُونَ بِلِقَاءِ جَدِّهِمْ وَجَدَّتِهِمْ.",
+    "ro": "Al-aṭfālu fariḥūna bi-liqāʾi jaddihim wa-jaddatihim."
+   },
+   {
+    "fr": "Nous avons dîné dans un restaurant émirati traditionnel.",
+    "ar": "تَعَشَّيْنَا فِي مَطْعَمٍ إِمَارَاتِيٍّ تَقْلِيدِيٍّ.",
+    "ro": "Taʿashshaynā fī maṭʿamin imārātiyyin taqlīdiyyin."
+   },
+   {
+    "fr": "J'ai traduit le menu pour mes parents.",
+    "ar": "تَرْجَمْتُ قَائِمَةَ الطَّعَامِ لِوَالِدَيَّ.",
+    "ro": "Tarjamtu qāʾimata aṭ-ṭaʿāmi li-wālidayya."
+   },
+   {
+    "fr": "Leur séjour est passé beaucoup trop vite.",
+    "ar": "مَرَّتْ زِيَارَتُهُمَا بِسُرْعَةٍ كَبِيرَةٍ.",
+    "ro": "Marrat ziyāratuhumā bi-surʿatin kabīratin."
    }
   ]
  },
@@ -8700,54 +8700,54 @@ const level3Module1Lessons = [
   "title": "Fin du module : un bilan",
   "phrases": [
    {
-    "fr": "Ce module nous a fait entrer dans la vie d'adulte à Tokyo.",
-    "ja": "このモジュールでは、東京での大人の生活を体験しました。",
-    "ro": "Kono mojūru de wa, Tōkyō de no otona no seikatsu o taiken shimashita."
+    "fr": "Ce module nous a fait découvrir la vie quotidienne aux Émirats.",
+    "ar": "عَرَّفَتْنَا هَذِهِ الْوَحْدَةُ عَلَى الْحَيَاةِ الْيَوْمِيَّةِ فِي الْإِمَارَاتِ.",
+    "ro": "ʿArrafatnā hādhihi al-waḥdatu ʿalā al-ḥayāti al-yawmiyyati fī al-imārāti."
    },
    {
-    "fr": "On sait maintenant parler du travail, du logement et des démarches.",
-    "ja": "仕事や住まい、手続きについて話せるようになりました。",
-    "ro": "Shigoto ya sumai, tetsuzuki ni tsuite hanaseru yō ni narimashita."
+    "fr": "Nous avons parlé de travail, de logement et de santé.",
+    "ar": "تَحَدَّثْنَا عَنِ الْعَمَلِ وَالسَّكَنِ وَالصِّحَّةِ.",
+    "ro": "Taḥaddathnā ʿani al-ʿamali was-sakani waṣ-ṣiḥḥati."
    },
    {
-    "fr": "Avec le passif, on peut dire ce qu'on a subi, comme la pluie ou un reproche.",
-    "ja": "受け身を使えば、雨や注意など、自分が受けたことを表せます。",
-    "ro": "Ukemi o tsukaeba, ame ya chūi nado, jibun ga uketa koto o arawasemasu."
+    "fr": "Le passif permet de parler des démarches sans nommer personne.",
+    "ar": "يَسْمَحُ الْمَبْنِيُّ لِلْمَجْهُولِ بِالْحَدِيثِ عَنِ الْمُعَامَلَاتِ دُونَ ذِكْرِ أَحَدٍ.",
+    "ro": "Yasmaḥu al-mabniyyu lil-majhūli bil-ḥadīthi ʿani al-muʿāmalāti dūna dhikri aḥadin."
    },
    {
-    "fr": "Avec le causatif, on peut faire faire ou laisser faire quelque chose.",
-    "ja": "使役を使うと、人に何かをさせたり、許したりできます。",
-    "ro": "Shieki o tsukau to, hito ni nanika o sasetari, yurushitari dekimasu."
+    "fr": "Nous savons maintenant imaginer ce qui n'est pas arrivé.",
+    "ar": "صَارَ بِإِمْكَانِنَا أَنْ نَتَخَيَّلَ مَا لَمْ يَحْدُثْ.",
+    "ro": "Ṣāra bi-imkāninā an natakhayyala mā lam yaḥduth."
    },
    {
-    "fr": "On sait maintenant exprimer une condition avec « -ba ».",
-    "ja": "「ば」を使って、条件を言えるようになりました。",
-    "ro": "« Ba » o tsukatte, jōken o ieru yō ni narimashita."
+    "fr": "L'arabe devient de plus en plus naturel pour nous.",
+    "ar": "أَصْبَحَتِ الْعَرَبِيَّةُ طَبِيعِيَّةً أَكْثَرَ فَأَكْثَرَ بِالنِّسْبَةِ إِلَيْنَا.",
+    "ro": "Aṣbaḥati al-ʿarabiyyatu ṭabīʿiyyatan akthara fa-akthara bin-nisbati ilaynā."
    },
    {
-    "fr": "« Shimatta » est peut-être le mot le plus utile au quotidien.",
-    "ja": "「しまった」は、毎日いちばん役に立つ言葉かもしれません。",
-    "ro": "« Shimatta » wa, mainichi ichiban yaku ni tatsu kotoba kamoshiremasen."
+    "fr": "Les formes dérivées ne nous font plus peur.",
+    "ar": "لَمْ تَعُدِ الْأَوْزَانُ الْمَزِيدَةُ تُخِيفُنَا.",
+    "ro": "Lam taʿudi al-awzānu al-mazīdatu tukhīfunā."
    },
    {
-    "fr": "Le langage humble ne s'apprend pas en un jour.",
-    "ja": "謙譲語は一日で覚えられるものではありません。",
-    "ro": "Kenjōgo wa ichinichi de oboerareru mono de wa arimasen."
+    "fr": "Le prochain module nous emmènera en voyage à travers le monde arabe.",
+    "ar": "سَتَأْخُذُنَا الْوَحْدَةُ الْقَادِمَةُ فِي رِحْلَةٍ عَبْرَ الْعَالَمِ الْعَرَبِيِّ.",
+    "ro": "Sa-taʾkhudhunā al-waḥdatu al-qādimatu fī riḥlatin ʿabra al-ʿālami al-ʿarabiyyi."
    },
    {
-    "fr": "Le prochain module nous emmènera en voyage à travers le Japon.",
-    "ja": "次のモジュールでは、日本各地を旅します。",
-    "ro": "Tsugi no mojūru de wa, Nihon kakuchi o tabi shimasu."
+    "fr": "Chaque leçon nous rapproche d'un arabe fluide.",
+    "ar": "كُلُّ دَرْسٍ يُقَرِّبُنَا مِنْ عَرَبِيَّةٍ سَلِسَةٍ.",
+    "ro": "Kullu darsin yuqarribunā min ʿarabiyyatin salisatin."
    },
    {
-    "fr": "Prenez le temps de réécouter les leçons qui vous ont paru difficiles.",
-    "ja": "難しかったレッスンは、ゆっくり聞き直してください。",
-    "ro": "Muzukashikatta ressun wa, yukkuri kikinaoshite kudasai."
+    "fr": "Bravo pour ta persévérance tout au long de ce module.",
+    "ar": "أَحْسَنْتَ عَلَى مُثَابَرَتِكَ طَوَالَ هَذِهِ الْوَحْدَةِ.",
+    "ro": "Aḥsanta ʿalā muthābaratika ṭawāla hādhihi al-waḥdati."
    },
    {
-    "fr": "Beau travail, on se retrouve dans le prochain module.",
-    "ja": "お疲れさまでした。また次のモジュールで会いましょう。",
-    "ro": "Otsukaresama deshita. Mata tsugi no mojūru de aimashō."
+    "fr": "Repose-toi bien, et à très bientôt !",
+    "ar": "اسْتَرِحْ جَيِّدًا، وَإِلَى اللِّقَاءِ قَرِيبًا!",
+    "ro": "Istariḥ jayyidan, wa-ilā al-liqāʾi qarīban!"
    }
   ]
  }
@@ -8755,1137 +8755,1137 @@ const level3Module1Lessons = [
 
 const level3Module2Lessons = [
  {
-  "title": "Arrivée à Okinawa",
+  "title": "Arrivée à Mascate",
   "phrases": [
    {
-    "fr": "L'avion vient d'atterrir à Naha, et il fait déjà très chaud.",
-    "ja": "飛行機が那覇に着いたばかりですが、もうとても暑いです。",
-    "ro": "Hikōki ga Naha ni tsuita bakari desu ga, mō totemo atsui desu."
+    "fr": "Notre avion a atterri à Mascate en fin d'après-midi.",
+    "ar": "هَبَطَتْ طَائِرَتُنَا فِي مَسْقَطَ فِي آخِرِ الْعَصْرِ.",
+    "ro": "Habaṭat ṭāʾiratunā fī Masqaṭa fī ākhiri l-ʿaṣri."
    },
    {
-    "fr": "Dès la sortie de l'aéroport, l'air sent la mer.",
-    "ja": "空港を出たとたん、海の匂いがします。",
-    "ro": "Kūkō o deta totan, umi no nioi ga shimasu."
+    "fr": "Dès la sortie de l'aéroport, la chaleur humide nous a surpris.",
+    "ar": "فَاجَأَتْنَا الْحَرَارَةُ الرَّطْبَةُ فَوْرَ خُرُوجِنَا مِنَ الْمَطَارِ.",
+    "ro": "Fājaʾatnā l-ḥarāratu r-raṭbatu fawra khurūjinā mina l-maṭāri."
    },
    {
-    "fr": "Okinawa était autrefois un royaume indépendant appelé Ryūkyū.",
-    "ja": "沖縄はかつて琉球という独立した王国でした。",
-    "ro": "Okinawa wa katsute Ryūkyū to iu dokuritsu shita ōkoku deshita."
+    "fr": "Le chauffeur de taxi nous a accueillis avec beaucoup de gentillesse.",
+    "ar": "اسْتَقْبَلَنَا سَائِقُ سَيَّارَةِ الْأُجْرَةِ بِلُطْفٍ كَبِيرٍ.",
+    "ro": "Istaqbalanā sāʾiqu sayyārati l-ujrati bi-luṭfin kabīrin."
    },
    {
-    "fr": "C'est pourquoi la culture locale diffère tant du reste du Japon.",
-    "ja": "だから、地元の文化は日本のほかの地域とずいぶん違います。",
-    "ro": "Dakara, jimoto no bunka wa Nihon no hoka no chiiki to zuibun chigaimasu."
+    "fr": "La capitale s'étend entre les montagnes et la mer.",
+    "ar": "تَمْتَدُّ الْعَاصِمَةُ بَيْنَ الْجِبَالِ وَالْبَحْرِ.",
+    "ro": "Tamtaddu l-ʿāṣimatu bayna l-jibāli wa-l-baḥri."
    },
    {
-    "fr": "Les toits des maisons sont gardés par des lions en terre cuite, les shīsā.",
-    "ja": "家の屋根は、シーサーという焼き物の獅子に守られています。",
-    "ro": "Ie no yane wa, shīsā to iu yakimono no shishi ni mamorarete imasu."
+    "fr": "Les maisons y sont blanches et basses, et elles se ressemblent beaucoup.",
+    "ar": "الْبُيُوتُ هُنَا بَيْضَاءُ وَمُنْخَفِضَةٌ، وَتَتَشَابَهُ كَثِيرًا.",
+    "ro": "Al-buyūtu hunā bayḍāʾu wa-munkhafiḍatun, wa-tatashābahu kathīran."
    },
    {
-    "fr": "On a loué une voiture en se disant qu'on ferait le tour de l'île principale.",
-    "ja": "本島を回ろうと思って、レンタカーを借りました。",
-    "ro": "Hontō o mawarō to omotte, rentakā o karimashita."
+    "fr": "Nous avons déposé nos bagages dans un petit hôtel près de la corniche.",
+    "ar": "وَضَعْنَا أَمْتِعَتَنَا فِي فُنْدُقٍ صَغِيرٍ قُرْبَ الْكُورْنِيشِ.",
+    "ro": "Waḍaʿnā amtiʿatanā fī funduqin ṣaghīrin qurba l-kūrnīshi."
    },
    {
-    "fr": "Au début, la conduite à gauche demande un peu d'attention.",
-    "ja": "左側通行には、最初は少し注意が必要です。",
-    "ro": "Hidarigawa tsūkō ni wa, saisho wa sukoshi chūi ga hitsuyō desu."
+    "fr": "Le soir, nous nous sommes promenés le long du port de Mutrah.",
+    "ar": "فِي الْمَسَاءِ، تَمَشَّيْنَا عَلَى طُولِ مِينَاءِ مَطْرَحَ.",
+    "ro": "Fī l-masāʾi, tamashshaynā ʿalā ṭūli mīnāʾi Maṭraḥa."
    },
    {
-    "fr": "Les gens d'ici sont connus pour vivre très longtemps.",
-    "ja": "この辺りの人は長生きすることで知られています。",
-    "ro": "Kono atari no hito wa nagaiki suru koto de shirarete imasu."
+    "fr": "Les gens d'ici sont connus pour leur sens de l'hospitalité.",
+    "ar": "يُعْرَفُ النَّاسُ هُنَا بِكَرَمِ الضِّيَافَةِ.",
+    "ro": "Yuʿrafu n-nāsu hunā bi-karami ḍ-ḍiyāfati."
    },
    {
-    "fr": "Le rythme de vie semble bien plus lent qu'à Tokyo.",
-    "ja": "生活のリズムは東京よりずっとゆっくりしているようです。",
-    "ro": "Seikatsu no rizumu wa Tōkyō yori zutto yukkuri shite iru yō desu."
+    "fr": "On nous a servi du café à la cardamome avec des dattes.",
+    "ar": "قُدِّمَتْ لَنَا قَهْوَةٌ بِالْهَيْلِ مَعَ التَّمْرِ.",
+    "ro": "Quddimat lanā qahwatun bi-l-hayli maʿa t-tamri."
    },
    {
-    "fr": "Ce soir, on dîne dans une petite gargote au bord de la plage.",
-    "ja": "今夜は浜辺の小さな食堂で夕食を食べます。",
-    "ro": "Kon'ya wa hamabe no chiisana shokudō de yūshoku o tabemasu."
+    "fr": "Cette première nuit à Oman nous a déjà charmés.",
+    "ar": "لَقَدْ سَحَرَتْنَا هَذِهِ اللَّيْلَةُ الْأُولَى فِي عُمَانَ.",
+    "ro": "Laqad saḥaratnā hādhihi l-laylatu l-ūlā fī ʿUmāna."
    }
   ]
  },
  {
-  "title": "Le marché de Makishi",
+  "title": "Préparer un voyage responsable",
   "phrases": [
    {
-    "fr": "Le marché où je suis allé ce matin s'appelle Makishi.",
-    "ja": "今朝行った市場は牧志市場といいます。",
-    "ro": "Kesa itta ichiba wa Makishi ichiba to iimasu."
+    "fr": "Nous voyageons lentement pour mieux connaître le pays.",
+    "ar": "نُسَافِرُ بِبُطْءٍ لِنَعْرِفَ الْبَلَدَ بِشَكْلٍ أَفْضَلَ.",
+    "ro": "Nusāfiru bi-buṭʾin li-naʿrifa l-balada bi-shaklin afḍala."
    },
    {
-    "fr": "Les poissons qu'on vend ici ont des couleurs incroyables.",
-    "ja": "ここで売っている魚は、信じられないほど色鮮やかです。",
-    "ro": "Koko de utte iru sakana wa, shinjirarenai hodo iroazayaka desu."
+    "fr": "Nous avons loué une seule voiture pour tout le groupe afin de moins polluer.",
+    "ar": "اسْتَأْجَرْنَا سَيَّارَةً وَاحِدَةً لِلْمَجْمُوعَةِ كُلِّهَا كَيْ نُقَلِّلَ التَّلَوُّثَ.",
+    "ro": "Istaʾjarnā sayyāratan wāḥidatan li-l-majmūʿati kullihā kay nuqallila t-talawwutha."
    },
    {
-    "fr": "À l'étage, on peut faire cuisiner le poisson acheté en bas.",
-    "ja": "下の階で買った魚を、上の階で料理してもらえます。",
-    "ro": "Shita no kai de katta sakana o, ue no kai de ryōri shite moraemasu."
+    "fr": "On loge chez l'habitant pour que l'argent reste dans les villages.",
+    "ar": "نَنْزِلُ عِنْدَ السُّكَّانِ كَيْ يَبْقَى الْمَالُ فِي الْقُرَى.",
+    "ro": "Nanzilu ʿinda s-sukkāni kay yabqā l-mālu fī l-qurā."
    },
    {
-    "fr": "Le plat que je préfère, c'est le gōyā chanpurū.",
-    "ja": "私がいちばん好きな料理はゴーヤーチャンプルーです。",
-    "ro": "Watashi ga ichiban suki na ryōri wa gōyā chanpurū desu."
+    "fr": "J'ai acheté une gourde en métal pour ne pas acheter de bouteilles en plastique.",
+    "ar": "اشْتَرَيْتُ قِنِّينَةً مَعْدِنِيَّةً لِكَيْلَا أَشْتَرِيَ زُجَاجَاتٍ بِلَاسْتِيكِيَّةً.",
+    "ro": "Ishtaraytu qinnīnatan maʿdiniyyatan li-kaylā ashtariya zujājātin bilāstīkiyyatan."
    },
    {
-    "fr": "La dame qui tient ce stand nous a fait goûter du sucre noir.",
-    "ja": "この店をやっているおばさんが、黒糖を味見させてくれました。",
-    "ro": "Kono mise o yatte iru obasan ga, kokutō o ajimi sasete kuremashita."
+    "fr": "Nous avons appris quelques mots d'arabe afin de parler avec les habitants.",
+    "ar": "تَعَلَّمْنَا بَعْضَ الْكَلِمَاتِ الْعَرَبِيَّةِ لِنَتَحَدَّثَ مَعَ السُّكَّانِ.",
+    "ro": "Taʿallamnā baʿḍa l-kalimāti l-ʿarabiyyati li-nataḥaddatha maʿa s-sukkāni."
    },
    {
-    "fr": "Le vendeur qui parlait vite était difficile à comprendre.",
-    "ja": "早口で話す店員さんの言葉は、聞き取りにくかったです。",
-    "ro": "Hayakuchi de hanasu ten'in san no kotoba wa, kikitorinikukatta desu."
+    "fr": "Le guide nous parle de l'histoire de la région pour que nous la comprenions mieux.",
+    "ar": "يُحَدِّثُنَا الْمُرْشِدُ عَنْ تَارِيخِ الْمِنْطَقَةِ كَيْ نَفْهَمَهَا أَكْثَرَ.",
+    "ro": "Yuḥaddithunā l-murshidu ʿan tārīkhi l-minṭaqati kay nafhamahā akthara."
    },
    {
-    "fr": "Voici la boutique qui vend les meilleurs souvenirs.",
-    "ja": "ここが一番いいお土産を売っている店です。",
-    "ro": "Koko ga ichiban ii omiyage o utte iru mise desu."
+    "fr": "Je me lève tôt pour profiter de la fraîcheur du matin.",
+    "ar": "أَسْتَيْقِظُ بَاكِرًا لِأَسْتَمْتِعَ بِبُرُودَةِ الصَّبَاحِ.",
+    "ro": "Astayqiẓu bākiran li-astamtiʿa bi-burūdati ṣ-ṣabāḥi."
    },
    {
-    "fr": "Les gens qui viennent ici le matin sont surtout des habitants.",
-    "ja": "朝ここに来る人は、ほとんどが地元の人です。",
-    "ro": "Asa koko ni kuru hito wa, hotondo ga jimoto no hito desu."
+    "fr": "Nous emportons un sac pour y ramasser nos déchets.",
+    "ar": "نَحْمِلُ كِيسًا لِنَجْمَعَ فِيهِ نُفَايَاتِنَا.",
+    "ro": "Naḥmilu kīsan li-najmaʿa fīhi nufāyātinā."
    },
    {
-    "fr": "Le restaurant que tu m'avais recommandé était complet.",
-    "ja": "君が勧めてくれた店は満席でした。",
-    "ro": "Kimi ga susumete kureta mise wa manseki deshita."
+    "fr": "On nous a conseillé de couvrir nos épaules afin de respecter les coutumes locales.",
+    "ar": "نُصِحْنَا بِأَنْ نُغَطِّيَ أَكْتَافَنَا كَيْ نَحْتَرِمَ الْعَادَاتِ الْمَحَلِّيَّةَ.",
+    "ro": "Nuṣiḥnā bi-an nughaṭṭiya aktāfanā kay naḥtarima l-ʿādāti l-maḥalliyyata."
    },
    {
-    "fr": "Je n'oublierai jamais le goût de ce que j'ai mangé ici.",
-    "ja": "ここで食べたものの味は、一生忘れません。",
-    "ro": "Koko de tabeta mono no aji wa, isshō wasuremasen."
+    "fr": "Nous voyageons pour découvrir, pas pour consommer.",
+    "ar": "نُسَافِرُ لِنَكْتَشِفَ، لَا لِنَسْتَهْلِكَ.",
+    "ro": "Nusāfiru li-naktashifa, lā li-nastahlika."
    }
   ],
   "tip": {
-   "title": "Les relatives : le verbe placé devant le nom",
-   "example": "Les poissons qu'on vend ici ont des couleurs incroyables. — ここで<b>売っている魚</b>は、信じられないほど色鮮やかです。",
-   "exampleRo": "Koko de utte iru sakana wa, shinjirarenai hodo iroazayaka desu.",
-   "lit": "ici [lieu] · être en train de vendre · poisson [thème] · incroyable-au point de · coloré · être (poli)",
-   "body": "En japonais, il n'existe pas de mot comme « qui » ou « que » : pour décrire un nom, on place simplement le verbe juste devant lui. « Koko de utte iru sakana » se dit littéralement : ici, en train de vendre, poisson, c'est-à-dire le poisson qu'on vend ici. Le verbe se met à la forme neutre, au présent ou au passé : « kinō katta hon », le livre acheté hier, ou « Naha ni sumu tomodachi », l'ami qui habite à Naha. Si la relative a son propre sujet, il prend « ga » et non « wa » : « watashi ga tsukutta ryōri », le plat que j'ai préparé. Pour retenir, imaginez une étiquette collée devant le nom : tout ce qui décrit vient avant, et le nom arrive toujours en dernier."
+   "title": "« Kay » et « li » : pour que, afin de",
+   "example": "Nous voyageons pour découvrir, pas pour consommer. — نُسَافِرُ <b>لِنَكْتَشِفَ</b>، لَا <b>لِنَسْتَهْلِكَ</b>.",
+   "exampleRo": "Nusāfiru li-naktashifa, lā li-nastahlika.",
+   "lit": "nous voyageons · pour-que-nous-découvrions · [ne… pas] · pour-que-nous-consommions",
+   "body": "Pour exprimer le but d'une action, l'arabe place devant le verbe la petite particule « li », collée au verbe, ou le mot « kay ». Les deux signifient pour ou afin de. Après elles, le verbe au présent change sa voyelle finale : « naktashifu », nous découvrons, devient « li-naktashifa », littéralement : pour que nous découvrions. C'est l'équivalent de notre subjonctif après pour que. On dira aussi « kay yabqa al-mal », pour que l'argent reste, et « li-kayla » pour dire afin de ne pas. Astuce : quand vous entendez « li » ou « kay » suivi d'un verbe en « a » final, pensez au but."
   }
  },
  {
-  "title": "Le château de Shuri et les îles Kerama",
+  "title": "Le souk de Mutrah",
   "phrases": [
    {
-    "fr": "Le château de Shuri domine toute la ville de Naha.",
-    "ja": "首里城は那覇の町全体を見下ろしています。",
-    "ro": "Shurijō wa Naha no machi zentai o mioroshite imasu."
+    "fr": "Le souk de Mutrah est l'un des plus anciens marchés du pays.",
+    "ar": "سُوقُ مَطْرَحَ مِنْ أَقْدَمِ الْأَسْوَاقِ فِي الْبَلَدِ.",
+    "ro": "Sūqu Maṭraḥa min aqdami l-aswāqi fī l-baladi."
    },
    {
-    "fr": "Il a malheureusement brûlé en deux mille dix-neuf.",
-    "ja": "残念ながら、二〇一九年に焼けてしまいました。",
-    "ro": "Zannen nagara, nisen jūkyū nen ni yakete shimaimashita."
+    "fr": "Ses ruelles étroites sont couvertes d'un toit en bois.",
+    "ar": "أَزِقَّتُهُ الضَّيِّقَةُ مُغَطَّاةٌ بِسَقْفٍ خَشَبِيٍّ.",
+    "ro": "Aziqqatuhu ḍ-ḍayyiqatu mughaṭṭātun bi-saqfin khashabiyyin."
    },
    {
-    "fr": "Les travaux de reconstruction se poursuivent encore aujourd'hui.",
-    "ja": "再建工事は今も続いています。",
-    "ro": "Saiken kōji wa ima mo tsuzuite imasu."
+    "fr": "Une odeur d'encens flotte dans toutes les allées.",
+    "ar": "تَفُوحُ رَائِحَةُ اللُّبَانِ فِي كُلِّ الْمَمَرَّاتِ.",
+    "ro": "Tafūḥu rāʾiḥatu l-lubāni fī kulli l-mamarrāti."
    },
    {
-    "fr": "On peut même regarder les artisans pendant qu'ils travaillent.",
-    "ja": "職人さんが作業しているところも見学できます。",
-    "ro": "Shokunin san ga sagyō shite iru tokoro mo kengaku dekimasu."
+    "fr": "Les marchands proposent des bijoux en argent et des poignards traditionnels.",
+    "ar": "يَعْرِضُ التُّجَّارُ حُلِيًّا فِضِّيَّةً وَخَنَاجِرَ تَقْلِيدِيَّةً.",
+    "ro": "Yaʿriḍu t-tujjāru ḥuliyyan fiḍḍiyyatan wa-khanājira taqlīdiyyatan."
    },
    {
-    "fr": "Le soir, on a écouté un concert de sanshin.",
-    "ja": "夜は三線の演奏を聴きました。",
-    "ro": "Yoru wa sanshin no ensō o kikimashita."
+    "fr": "Le khanjar, un poignard recourbé, est un symbole national à Oman.",
+    "ar": "الْخَنْجَرُ الْمَعْقُوفُ رَمْزٌ وَطَنِيٌّ فِي عُمَانَ.",
+    "ro": "Al-khanjaru l-maʿqūfu ramzun waṭaniyyun fī ʿUmāna."
    },
    {
-    "fr": "Cet instrument à trois cordes est tendu de peau de serpent.",
-    "ja": "この三本弦の楽器には、蛇の皮が張られています。",
-    "ro": "Kono sanbongen no gakki ni wa, hebi no kawa ga hararete imasu."
+    "fr": "Il faut marchander, mais toujours avec le sourire.",
+    "ar": "يَجِبُ أَنْ تُسَاوِمَ، وَلَكِنْ دَائِمًا بِابْتِسَامَةٍ.",
+    "ro": "Yajibu an tusāwima, wa-lākin dāʾiman bi-btisāmatin."
    },
    {
-    "fr": "Le musicien nous a appris quelques mots du dialecte d'Okinawa.",
-    "ja": "演奏者が沖縄の方言をいくつか教えてくれました。",
-    "ro": "Ensōsha ga Okinawa no hōgen o ikutsu ka oshiete kuremashita."
+    "fr": "Le vendeur m'a fait goûter plusieurs sortes de halwa omanaise.",
+    "ar": "جَعَلَنِي الْبَائِعُ أَتَذَوَّقُ أَنْوَاعًا عَدِيدَةً مِنَ الْحَلْوَى الْعُمَانِيَّةِ.",
+    "ro": "Jaʿalanī l-bāʾiʿu atadhawwaqu anwāʿan ʿadīdatan mina l-ḥalwā l-ʿumāniyyati."
    },
    {
-    "fr": "Ici, « mensōre » veut dire « bienvenue ».",
-    "ja": "「めんそーれ」は、ここでは「ようこそ」という意味です。",
-    "ro": "« Mensōre » wa, koko de wa « yōkoso » to iu imi desu."
+    "fr": "Cette douceur est parfumée à l'eau de rose et au safran.",
+    "ar": "هَذِهِ الْحَلْوَى مُعَطَّرَةٌ بِمَاءِ الْوَرْدِ وَالزَّعْفَرَانِ.",
+    "ro": "Hādhihi l-ḥalwā muʿaṭṭaratun bi-māʾi l-wardi wa-z-zaʿfarāni."
    },
    {
-    "fr": "Le lendemain, on a pris le bateau pour les îles Kerama.",
-    "ja": "翌日、船で慶良間諸島へ渡りました。",
-    "ro": "Yokujitsu, fune de Kerama shotō e watarimashita."
+    "fr": "J'ai finalement acheté un petit brûle-encens en terre cuite.",
+    "ar": "اشْتَرَيْتُ فِي النِّهَايَةِ مِبْخَرَةً صَغِيرَةً مِنَ الْفَخَّارِ.",
+    "ro": "Ishtaraytu fī n-nihāyati mibkharatan ṣaghīratan mina l-fakhkhāri."
    },
    {
-    "fr": "L'eau est si claire qu'on voit les tortues depuis le bateau.",
-    "ja": "海がとても透明で、船の上からウミガメが見えます。",
-    "ro": "Umi ga totemo tōmei de, fune no ue kara umigame ga miemasu."
+    "fr": "Le prix final était la moitié du prix de départ.",
+    "ar": "كَانَ السِّعْرُ النِّهَائِيُّ نِصْفَ السِّعْرِ الْأَوَّلِ.",
+    "ro": "Kāna s-siʿru n-nihāʾiyyu niṣfa s-siʿri l-awwali."
    }
   ]
  },
  {
-  "title": "Préparer le Kumano Kodō",
+  "title": "Le fort de Nizwa",
   "phrases": [
    {
-    "fr": "Pour marcher sur le Kumano Kodō, il faut de bonnes chaussures.",
-    "ja": "熊野古道を歩くためには、いい靴が必要です。",
-    "ro": "Kumano Kodō o aruku tame ni wa, ii kutsu ga hitsuyō desu."
+    "fr": "Nizwa était autrefois la capitale du pays.",
+    "ar": "كَانَتْ نِزْوَى عَاصِمَةَ الْبِلَادِ فِي الْمَاضِي.",
+    "ro": "Kānat Nizwā ʿāṣimata l-bilādi fī l-māḍī."
    },
    {
-    "fr": "Je m'entraîne tous les week-ends pour me faire de l'endurance.",
-    "ja": "体力をつけるために、毎週末トレーニングしています。",
-    "ro": "Tairyoku o tsukeru tame ni, maishūmatsu torēningu shite imasu."
+    "fr": "Son fort circulaire domine encore la ville.",
+    "ar": "مَا زَالَتْ قَلْعَتُهَا الدَّائِرِيَّةُ تُطِلُّ عَلَى الْمَدِينَةِ.",
+    "ro": "Mā zālat qalʿatuhā d-dāʾiriyyatu tuṭillu ʿalā l-madīnati."
    },
    {
-    "fr": "On part tôt pour pouvoir arriver avant la nuit.",
-    "ja": "暗くなる前に着けるように、早く出発します。",
-    "ro": "Kuraku naru mae ni tsukeru yō ni, hayaku shuppatsu shimasu."
+    "fr": "La tour a été construite au dix-septième siècle.",
+    "ar": "بُنِيَ الْبُرْجُ فِي الْقَرْنِ السَّابِعَ عَشَرَ.",
+    "ro": "Buniya l-burju fī l-qarni s-sābiʿa ʿashara."
    },
    {
-    "fr": "J'emporte une lampe pour ne pas me perdre dans la forêt.",
-    "ja": "森で迷わないように、ライトを持っていきます。",
-    "ro": "Mori de mayowanai yō ni, raito o motte ikimasu."
+    "fr": "Les murs sont toujours aussi solides qu'avant.",
+    "ar": "مَا زَالَتِ الْجُدْرَانُ قَوِيَّةً كَمَا كَانَتْ.",
+    "ro": "Mā zālati l-judrānu qawiyyatan kamā kānat."
    },
    {
-    "fr": "Les pèlerins venaient ici pour prier dans les trois grands sanctuaires.",
-    "ja": "巡礼者たちは三つの大社にお参りするために、ここへ来ていました。",
-    "ro": "Junreishatachi wa mittsu no taisha ni omairi suru tame ni, koko e kite imashita."
+    "fr": "Est-ce que tu es encore fatigué après la montée ?",
+    "ar": "هَلْ مَا زِلْتَ مُتْعَبًا بَعْدَ الصُّعُودِ؟",
+    "ro": "Hal mā zilta mutʿaban baʿda ṣ-ṣuʿūdi?"
    },
    {
-    "fr": "On fait suivre nos bagages pour pouvoir marcher léger.",
-    "ja": "身軽に歩けるように、荷物を宅配便で送ります。",
-    "ro": "Migaru ni arukeru yō ni, nimotsu o takuhaibin de okurimasu."
+    "fr": "Le marché aux chèvres se tient toujours chaque semaine au pied du fort.",
+    "ar": "مَا زَالَ سُوقُ الْمَاعِزِ يُقَامُ كُلَّ أُسْبُوعٍ عِنْدَ سَفْحِ الْقَلْعَةِ.",
+    "ro": "Mā zāla sūqu l-māʿizi yuqāmu kulla usbūʿin ʿinda safḥi l-qalʿati."
    },
    {
-    "fr": "J'économise depuis un an pour faire ce voyage.",
-    "ja": "この旅行をするために、一年前から貯金しています。",
-    "ro": "Kono ryokō o suru tame ni, ichinen mae kara chokin shite imasu."
+    "fr": "Les artisans fabriquent encore des poteries comme leurs ancêtres.",
+    "ar": "مَا زَالَ الْحِرَفِيُّونَ يَصْنَعُونَ الْفَخَّارَ مِثْلَ أَجْدَادِهِمْ.",
+    "ro": "Mā zāla l-ḥirafiyyūna yaṣnaʿūna l-fakhkhāra mithla ajdādihim."
    },
    {
-    "fr": "Écrivez l'adresse en gros pour que le chauffeur puisse la lire.",
-    "ja": "運転手さんが読めるように、住所を大きく書いてください。",
-    "ro": "Untenshu san ga yomeru yō ni, jūsho o ōkiku kaite kudasai."
+    "fr": "Du haut de la tour, on voit une immense palmeraie.",
+    "ar": "مِنْ أَعْلَى الْبُرْجِ، نَرَى وَاحَةَ نَخِيلٍ شَاسِعَةً.",
+    "ro": "Min aʿlā l-burji, narā wāḥata nakhīlin shāsiʿatan."
    },
    {
-    "fr": "Buvez souvent pour ne pas vous déshydrater.",
-    "ja": "脱水にならないように、こまめに水を飲んでください。",
-    "ro": "Dassui ni naranai yō ni, komame ni mizu o nonde kudasai."
+    "fr": "Les anciens canaux d'irrigation fonctionnent toujours.",
+    "ar": "مَا زَالَتْ قَنَوَاتُ الرَّيِّ الْقَدِيمَةُ تَعْمَلُ.",
+    "ro": "Mā zālat qanawātu r-rayyi l-qadīmatu taʿmalu."
    },
    {
-    "fr": "Tout ça, on le fait pour savourer pleinement l'ancien chemin.",
-    "ja": "古道を心から楽しむために、これを全部しています。",
-    "ro": "Kodō o kokoro kara tanoshimu tame ni, kore o zenbu shite imasu."
+    "fr": "Le soir, nous parlions encore de cette visite.",
+    "ar": "فِي الْمَسَاءِ، كُنَّا مَا نَزَالُ نَتَحَدَّثُ عَنْ هَذِهِ الزِّيَارَةِ.",
+    "ro": "Fī l-masāʾi, kunnā mā nazālu nataḥaddathu ʿan hādhihi z-ziyārati."
    }
   ],
   "tip": {
-   "title": "« Tame ni » et « yō ni » : pour, afin de",
-   "example": "On part tôt pour pouvoir arriver avant la nuit. — 暗くなる前に<b>着けるように</b>、早く出発します。",
-   "exampleRo": "Kuraku naru mae ni tsukeru yō ni, hayaku shuppatsu shimasu.",
-   "lit": "sombre · devenir · avant [temps] · pouvoir arriver · de façon à · tôt · départ-faire (poli)",
-   "body": "« Tame ni » et « yō ni » traduisent tous les deux « pour » ou « afin de », mais pas dans les mêmes cas. « Tame ni » suit une action que l'on contrôle et que l'on veut accomplir : « aruku tame ni », pour marcher, ou « chokin suru tame ni », pour économiser. « Yō ni » suit plutôt un résultat qu'on ne maîtrise pas complètement, souvent un verbe de possibilité ou une négation : « tsukeru yō ni », pour pouvoir arriver, ou « mayowanai yō ni », pour ne pas se perdre. Notre exemple se dit littéralement : devenir sombre, avant, pouvoir arriver, de façon à, tôt, partir. Astuce : si vous pouvez glisser « pouvoir » ou « ne pas » dans la phrase française, pensez à « yō ni »."
+   "title": "« Ma zala » : toujours, encore",
+   "example": "Son fort circulaire domine encore la ville. — <b>مَا زَالَتْ</b> قَلْعَتُهَا الدَّائِرِيَّةُ تُطِلُّ عَلَى الْمَدِينَةِ.",
+   "exampleRo": "Mā zālat qalʿatuhā d-dāʾiriyyatu tuṭillu ʿalā l-madīnati.",
+   "lit": "[ne… pas] · elle a cessé · fort-de-elle · [le] circulaire · elle domine · sur · [la] ville",
+   "body": "Pour dire toujours ou encore, l'arabe utilise « ma zala », qui signifie littéralement : n'a pas cessé. « Ma zalat qalatuha tutillu » se décompose ainsi : n'a pas cessé, son fort, il domine. C'est un verbe qui se conjugue : « ma zilta », tu es toujours, « ma zilna », nous sommes toujours. Il est suivi soit d'un verbe au présent, comme « ma zala yasnau », il fabrique encore, soit d'un adjectif terminé en « an », comme « ma zalat qawiyyatan », ils sont toujours solides. Astuce : pensez à la tournure française il ne cesse de, c'est exactement la même logique."
   }
  },
  {
-  "title": "Sur le Kumano Kodō",
+  "title": "Les terrasses du Djebel Akhdar",
   "phrases": [
    {
-    "fr": "Le chemin traverse des forêts de cèdres plus que centenaires.",
-    "ja": "道は樹齢百年を超える杉の森を通っています。",
-    "ro": "Michi wa jurei hyakunen o koeru sugi no mori o tōtte imasu."
+    "fr": "La route vers le Djebel Akhdar est très raide.",
+    "ar": "الطَّرِيقُ إِلَى الْجَبَلِ الْأَخْضَرِ شَدِيدُ الِانْحِدَارِ.",
+    "ro": "Aṭ-ṭarīqu ilā l-jabali l-akhḍari shadīdu l-inḥidāri."
    },
    {
-    "fr": "Les pavés couverts de mousse glissent après la pluie.",
-    "ja": "苔に覆われた石畳は、雨のあとは滑りやすいです。",
-    "ro": "Koke ni ōwareta ishidatami wa, ame no ato wa suberiyasui desu."
+    "fr": "Seuls les véhicules à quatre roues motrices sont autorisés à monter.",
+    "ar": "لَا يُسْمَحُ بِالصُّعُودِ إِلَّا لِسَيَّارَاتِ الدَّفْعِ الرُّبَاعِيِّ.",
+    "ro": "Lā yusmaḥu bi-ṣ-ṣuʿūdi illā li-sayyārāti d-dafʿi r-rubāʿiyyi."
    },
    {
-    "fr": "Le long du sentier, on trouve beaucoup de petits bouddhas de pierre.",
-    "ja": "道沿いには小さな石仏がたくさんあります。",
-    "ro": "Michizoi ni wa chiisana sekibutsu ga takusan arimasu."
+    "fr": "À deux mille mètres, l'air devient beaucoup plus frais.",
+    "ar": "عَلَى ارْتِفَاعِ أَلْفَيْ مِتْرٍ، يُصْبِحُ الْهَوَاءُ أَبْرَدَ بِكَثِيرٍ.",
+    "ro": "ʿAlā rtifāʿi alfay mitrin, yuṣbiḥu l-hawāʾu abrada bi-kathīrin."
    },
    {
-    "fr": "Les pèlerins empruntent ce chemin depuis plus de mille ans.",
-    "ja": "この道は千年以上前から巡礼者に歩かれてきました。",
-    "ro": "Kono michi wa sennen ijō mae kara junreisha ni arukarete kimashita."
+    "fr": "Les villages sont accrochés au bord des falaises.",
+    "ar": "الْقُرَى مُعَلَّقَةٌ عَلَى حَوَافِّ الْجُرُوفِ.",
+    "ro": "Al-qurā muʿallaqatun ʿalā ḥawāffi l-jurūfi."
    },
    {
-    "fr": "Après six heures de marche, on a enfin aperçu le grand torii.",
-    "ja": "六時間歩いて、やっと大鳥居が見えてきました。",
-    "ro": "Rokujikan aruite, yatto ōtorii ga miete kimashita."
+    "fr": "Les paysans cultivent des grenades, des noix et des abricots en terrasses.",
+    "ar": "يَزْرَعُ الْفَلَّاحُونَ الرُّمَّانَ وَالْجَوْزَ وَالْمِشْمِشَ فِي مُدَرَّجَاتٍ.",
+    "ro": "Yazraʿu l-fallāḥūna r-rummāna wa-l-jawza wa-l-mishmisha fī mudarrajātin."
    },
    {
-    "fr": "Ce torii compte parmi les plus grands du Japon.",
-    "ja": "この鳥居は日本で最も大きいもののひとつです。",
-    "ro": "Kono torii wa Nihon de mottomo ōkii mono no hitotsu desu."
+    "fr": "Au printemps, on cueille les roses pour fabriquer de l'eau de rose.",
+    "ar": "فِي الرَّبِيعِ، تُقْطَفُ الْوُرُودُ لِصِنَاعَةِ مَاءِ الْوَرْدِ.",
+    "ro": "Fī r-rabīʿi, tuqṭafu l-wurūdu li-ṣināʿati māʾi l-wardi."
    },
    {
-    "fr": "Le soir, on s'est baignés dans une source chaude au bord de la rivière.",
-    "ja": "夜は川辺の温泉に入りました。",
-    "ro": "Yoru wa kawabe no onsen ni hairimashita."
+    "fr": "Un vieil homme nous a montré l'alambic de sa famille.",
+    "ar": "أَرَانَا رَجُلٌ مُسِنٌّ جِهَازَ التَّقْطِيرِ الْخَاصَّ بِعَائِلَتِهِ.",
+    "ro": "Arānā rajulun musinnun jihāza t-taqṭīri l-khāṣṣa bi-ʿāʾilatihi."
    },
    {
-    "fr": "À Kawayu, on peut creuser son propre bain dans le lit de la rivière.",
-    "ja": "川湯では、川原を掘って自分だけの温泉を作れます。",
-    "ro": "Kawayu de wa, kawara o hotte jibun dake no onsen o tsukuremasu."
+    "fr": "Un sentier de montagne relie plusieurs villages abandonnés.",
+    "ar": "يَرْبِطُ مَمَرٌّ جَبَلِيٌّ بَيْنَ عِدَّةِ قُرًى مَهْجُورَةٍ.",
+    "ro": "Yarbiṭu mamarrun jabaliyyun bayna ʿiddati quran mahjūratin."
    },
    {
-    "fr": "L'aubergiste nous a servi un repas de plantes sauvages de montagne.",
-    "ja": "宿の主人が山菜料理を出してくれました。",
-    "ro": "Yado no shujin ga sansai ryōri o dashite kuremashita."
+    "fr": "La vue sur les gorges donne vraiment le vertige.",
+    "ar": "الْمَنْظَرُ الْمُطِلُّ عَلَى الْوِدْيَانِ يُثِيرُ الدُّوَارَ حَقًّا.",
+    "ro": "Al-manẓaru l-muṭillu ʿalā l-widyāni yuthīru d-duwāra ḥaqqan."
    },
    {
-    "fr": "J'avais mal aux jambes, mais j'étais profondément heureux.",
-    "ja": "足は痛かったけれど、心から幸せでした。",
-    "ro": "Ashi wa itakatta keredo, kokoro kara shiawase deshita."
+    "fr": "Nous avons dormi dans une maison d'hôtes au milieu des rosiers.",
+    "ar": "نِمْنَا فِي بَيْتِ ضِيَافَةٍ بَيْنَ شُجَيْرَاتِ الْوَرْدِ.",
+    "ro": "Nimnā fī bayti ḍiyāfatin bayna shujayrāti l-wardi."
    }
   ]
  },
  {
-  "title": "Kanazawa, la ville préservée",
+  "title": "Une nuit dans les sables de Wahiba",
   "phrases": [
    {
-    "fr": "Pendant la guerre, Kanazawa a été épargnée par les bombardements.",
-    "ja": "金沢は戦争中、空襲の被害を受けませんでした。",
-    "ro": "Kanazawa wa sensōchū, kūshū no higai o ukemasen deshita."
+    "fr": "Les sables de Wahiba se trouvent à trois heures de Mascate.",
+    "ar": "تَقَعُ رِمَالُ وَهِيبَةَ عَلَى بُعْدِ ثَلَاثِ سَاعَاتٍ مِنْ مَسْقَطَ.",
+    "ro": "Taqaʿu rimālu Wahībata ʿalā buʿdi thalāthi sāʿātin min Masqaṭa."
    },
    {
-    "fr": "C'est pour cette raison que les vieux quartiers sont si bien conservés.",
-    "ja": "そのため、古い町並みがよく残っています。",
-    "ro": "Sono tame, furui machinami ga yoku nokotte imasu."
+    "fr": "Les dunes orange peuvent atteindre cent mètres de haut.",
+    "ar": "قَدْ يَصِلُ ارْتِفَاعُ الْكُثْبَانِ الْبُرْتُقَالِيَّةِ إِلَى مِئَةِ مِتْرٍ.",
+    "ro": "Qad yaṣilu rtifāʿu l-kuthbāni l-burtuqāliyyati ilā miʾati mitrin."
    },
    {
-    "fr": "Le Kenroku-en est considéré comme l'un des trois plus beaux jardins du pays.",
-    "ja": "兼六園は日本三名園のひとつとされています。",
-    "ro": "Kenrokuen wa Nihon sanmeien no hitotsu to sarete imasu."
+    "fr": "Notre chauffeur a dégonflé un peu les pneus avant d'entrer dans le sable.",
+    "ar": "أَفْرَغَ سَائِقُنَا الْإِطَارَاتِ مِنْ بَعْضِ الْهَوَاءِ قَبْلَ دُخُولِ الرِّمَالِ.",
+    "ro": "Afragha sāʾiqunā l-iṭārāti min baʿḍi l-hawāʾi qabla dukhūli r-rimāli."
    },
    {
-    "fr": "En hiver, on soutient les branches des pins avec des cordes pour qu'elles ne cassent pas sous la neige.",
-    "ja": "冬には、雪の重さで折れないように松の枝を縄で吊ります。",
-    "ro": "Fuyu ni wa, yuki no omosa de orenai yō ni matsu no eda o nawa de tsurimasu."
+    "fr": "Une famille bédouine nous a reçus sous sa tente.",
+    "ar": "اسْتَضَافَتْنَا عَائِلَةٌ بَدَوِيَّةٌ فِي خَيْمَتِهَا.",
+    "ro": "Istaḍāfatnā ʿāʾilatun badawiyyatun fī khaymatihā."
    },
    {
-    "fr": "Dans le quartier de Higashi Chaya, les maisons de thé sont tout en bois.",
-    "ja": "ひがし茶屋街の茶屋は木造です。",
-    "ro": "Higashi chayagai no chaya wa mokuzō desu."
+    "fr": "Les enfants nous ont montré comment on trait les chamelles.",
+    "ar": "أَرَانَا الْأَطْفَالُ كَيْفَ تُحْلَبُ النُّوقُ.",
+    "ro": "Arānā l-aṭfālu kayfa tuḥlabu n-nūqu."
    },
    {
-    "fr": "On a bu un matcha décoré d'une feuille d'or.",
-    "ja": "金箔をのせた抹茶を飲みました。",
-    "ro": "Kinpaku o noseta matcha o nomimashita."
+    "fr": "Nous avons grimpé au sommet d'une dune pour regarder le coucher du soleil.",
+    "ar": "صَعِدْنَا إِلَى قِمَّةِ كَثِيبٍ لِنُشَاهِدَ غُرُوبَ الشَّمْسِ.",
+    "ro": "Ṣaʿidnā ilā qimmati kathībin li-nushāhida ghurūba sh-shamsi."
    },
    {
-    "fr": "Presque toute la feuille d'or du Japon est fabriquée ici.",
-    "ja": "日本の金箔のほとんどは、ここで作られています。",
-    "ro": "Nihon no kinpaku no hotondo wa, koko de tsukurarete imasu."
+    "fr": "Le sable change de couleur à chaque minute.",
+    "ar": "يَتَغَيَّرُ لَوْنُ الرَّمْلِ كُلَّ دَقِيقَةٍ.",
+    "ro": "Yataghayyaru lawnu r-ramli kulla daqīqatin."
    },
    {
-    "fr": "Au marché d'Ōmichō, les crabes d'hiver sont énormes.",
-    "ja": "近江町市場では、冬になるとカニがとても大きいです。",
-    "ro": "Ōmichō ichiba de wa, fuyu ni naru to kani ga totemo ōkii desu."
+    "fr": "Le dîner a été cuit sous la braise, dans une fosse de sable.",
+    "ar": "طُهِيَ الْعَشَاءُ تَحْتَ الْجَمْرِ فِي حُفْرَةٍ رَمْلِيَّةٍ.",
+    "ro": "Ṭuhiya l-ʿashāʾu taḥta l-jamri fī ḥufratin ramliyyatin."
    },
    {
-    "fr": "Le musée d'art contemporain a une étonnante forme ronde.",
-    "ja": "現代美術館は、驚くほど丸い形をしています。",
-    "ro": "Gendai bijutsukan wa, odoroku hodo marui katachi o shite imasu."
+    "fr": "La nuit, le ciel était rempli d'étoiles.",
+    "ar": "فِي اللَّيْلِ، كَانَتِ السَّمَاءُ مَلِيئَةً بِالنُّجُومِ.",
+    "ro": "Fī l-layli, kānati s-samāʾu malīʾatan bi-n-nujūmi."
    },
    {
-    "fr": "Kanazawa mérite qu'on y consacre au moins deux jours.",
-    "ja": "金沢は少なくとも二日かけて見る価値があります。",
-    "ro": "Kanazawa wa sukunaku tomo futsuka kakete miru kachi ga arimasu."
+    "fr": "Je n'avais jamais connu un silence aussi profond.",
+    "ar": "لَمْ أَعْرِفْ مِنْ قَبْلُ صَمْتًا عَمِيقًا كَهَذَا.",
+    "ro": "Lam aʿrif min qablu ṣamtan ʿamīqan ka-hādhā."
    }
   ]
  },
  {
-  "title": "Préparer une traversée en ferry",
+  "title": "Randonnée dans le Wadi Shab",
   "phrases": [
    {
-    "fr": "J'ai réservé les billets de ferry une semaine à l'avance.",
-    "ja": "フェリーの切符を一週間前に予約しておきました。",
-    "ro": "Ferī no kippu o isshūkan mae ni yoyaku shite okimashita."
+    "fr": "Nous sommes arrivés au wadi tôt le matin, pleins d'enthousiasme.",
+    "ar": "وَصَلْنَا إِلَى الْوَادِي فِي الصَّبَاحِ الْبَاكِرِ مُتَحَمِّسِينَ.",
+    "ro": "Waṣalnā ilā l-wādī fī ṣ-ṣabāḥi l-bākiri mutaḥammisīna."
    },
    {
-    "fr": "Les horaires changent selon la saison, vérifie-les avant de partir.",
-    "ja": "季節によって変わるから、出発前に時刻表を確認しておいてね。",
-    "ro": "Kisetsu ni yotte kawaru kara, shuppatsu mae ni jikokuhyō o kakunin shite oite ne."
+    "fr": "Une petite barque nous a emmenés sur l'autre rive.",
+    "ar": "نَقَلَنَا قَارِبٌ صَغِيرٌ إِلَى الضِّفَّةِ الْأُخْرَى.",
+    "ro": "Naqalanā qāribun ṣaghīrun ilā ḍ-ḍiffati l-ukhrā."
    },
    {
-    "fr": "J'ai pris un médicament contre le mal de mer avant d'embarquer.",
-    "ja": "乗る前に酔い止めを飲んでおきました。",
-    "ro": "Noru mae ni yoidome o nonde okimashita."
+    "fr": "Le guide marchait devant nous en chantant.",
+    "ar": "كَانَ الْمُرْشِدُ يَمْشِي أَمَامَنَا مُغَنِّيًا.",
+    "ro": "Kāna l-murshidu yamshī amāmanā mughanniyan."
    },
    {
-    "fr": "Comme la boutique du bateau est petite, mieux vaut acheter à manger au port.",
-    "ja": "船の売店は小さいので、港で食べ物を買っておいたほうがいいです。",
-    "ro": "Fune no baiten wa chiisai node, minato de tabemono o katte oita hō ga ii desu."
+    "fr": "Nous avons marché une heure entre les palmiers et les rochers.",
+    "ar": "مَشَيْنَا سَاعَةً بَيْنَ النَّخِيلِ وَالصُّخُورِ.",
+    "ro": "Mashaynā sāʿatan bayna n-nakhīli wa-ṣ-ṣukhūri."
    },
    {
-    "fr": "J'ai rechargé mon téléphone pendant la nuit.",
-    "ja": "夜のうちにスマホを充電しておきました。",
-    "ro": "Yoru no uchi ni sumaho o jūden shite okimashita."
+    "fr": "Un enfant du village est venu vers nous en souriant.",
+    "ar": "جَاءَ إِلَيْنَا طِفْلٌ مِنَ الْقَرْيَةِ مُبْتَسِمًا.",
+    "ro": "Jāʾa ilaynā ṭiflun mina l-qaryati mubtasiman."
    },
    {
-    "fr": "On laisse les grosses valises dans une consigne de la gare.",
-    "ja": "大きいスーツケースは駅のロッカーに入れておきます。",
-    "ro": "Ōkii sūtsukēsu wa eki no rokkā ni irete okimasu."
+    "fr": "Nous avons nagé jusqu'à la grotte, émerveillés par la couleur de l'eau.",
+    "ar": "سَبَحْنَا حَتَّى الْكَهْفِ مُنْبَهِرِينَ بِلَوْنِ الْمَاءِ.",
+    "ro": "Sabaḥnā ḥattā l-kahfi munbahirīna bi-lawni l-māʾi."
    },
    {
-    "fr": "Je note le numéro de la compagnie, au cas où.",
-    "ja": "念のため、フェリー会社の電話番号をメモしておきます。",
-    "ro": "Nen no tame, ferī gaisha no denwa bangō o memo shite okimasu."
+    "fr": "Il faut passer par une fente étroite pour voir la cascade.",
+    "ar": "يَجِبُ أَنْ تَمُرَّ عَبْرَ شَقٍّ ضَيِّقٍ لِتَرَى الشَّلَّالَ.",
+    "ro": "Yajibu an tamurra ʿabra shaqqin ḍayyiqin li-tarā sh-shallāla."
    },
    {
-    "fr": "J'ai prévenu l'auberge qu'on arriverait tard.",
-    "ja": "遅く着くことを、宿に伝えておきました。",
-    "ro": "Osoku tsuku koto o, yado ni tsutaete okimashita."
+    "fr": "Ma sœur est sortie de l'eau en riant.",
+    "ar": "خَرَجَتْ أُخْتِي مِنَ الْمَاءِ ضَاحِكَةً.",
+    "ro": "Kharajat ukhtī mina l-māʾi ḍāḥikatan."
    },
    {
-    "fr": "Il fait trop chaud, laisse la porte de la cabine ouverte.",
-    "ja": "暑いから、船室のドアを開けておいて。",
-    "ro": "Atsui kara, senshitsu no doa o akete oite."
+    "fr": "Nous sommes rentrés à pied, épuisés mais heureux.",
+    "ar": "عُدْنَا مَشْيًا مُتْعَبِينَ وَلَكِنْ سُعَدَاءَ.",
+    "ro": "ʿUdnā mashyan mutʿabīna wa-lākin suʿadāʾa."
    },
    {
-    "fr": "Tout est prêt, il ne reste plus qu'à monter à bord.",
-    "ja": "準備は全部しておいたので、あとは乗るだけです。",
-    "ro": "Junbi wa zenbu shite oita node, ato wa noru dake desu."
+    "fr": "Le guide nous a quittés en nous souhaitant un bon voyage.",
+    "ar": "وَدَّعَنَا الْمُرْشِدُ مُتَمَنِّيًا لَنَا رِحْلَةً سَعِيدَةً.",
+    "ro": "Waddaʿanā l-murshidu mutamanniyan lanā riḥlatan saʿīdatan."
    }
   ],
   "tip": {
-   "title": "« -te oku » : faire à l'avance",
-   "example": "J'ai réservé les billets de ferry une semaine à l'avance. — フェリーの切符を一週間前に<b>予約しておきました</b>。",
-   "exampleRo": "Ferī no kippu o isshūkan mae ni yoyaku shite okimashita.",
-   "lit": "ferry [possessif] · billet [objet] · une semaine · avant [temps] · réserver · mettre de côté (poli, passé)",
-   "body": "« -te oku » se forme avec la forme en « te » du verbe, suivie de « oku », qui veut dire poser. L'idée est de faire quelque chose maintenant en prévision de plus tard, comme si l'on posait l'action de côté pour s'en servir ensuite. « Yoyaku shite okimashita » se dit littéralement : réserver, et poser, au passé poli, c'est-à-dire j'ai réservé à l'avance. On l'emploie aussi pour laisser une chose dans un certain état : « doa o akete oku », laisser la porte ouverte. À l'oral, on contracte souvent en « -toku » : « kattoku », je l'achète d'avance. Retenez l'image du sac posé près de la porte la veille du départ."
+   "title": "Le complément d'état : il est venu en souriant",
+   "example": "Un enfant du village est venu vers nous en souriant. — جَاءَ إِلَيْنَا طِفْلٌ مِنَ الْقَرْيَةِ <b>مُبْتَسِمًا</b>.",
+   "exampleRo": "Jāʾa ilaynā ṭiflun mina l-qaryati mubtasiman.",
+   "lit": "est venu · vers-nous · enfant · de · [le] village · souriant",
+   "body": "Pour dire dans quel état on fait quelque chose, le français utilise souvent le gérondif : en souriant, en riant. L'arabe, lui, ajoute simplement un adjectif ou un participe terminé par le son « an » : c'est le « hal », le complément d'état. « Jaa mubtasiman » se dit littéralement : il est venu, souriant. Ce mot s'accorde avec la personne : « dahikatan » pour une femme qui rit, « mutabina » pour un groupe fatigué, « samitina », nous, silencieux. Astuce : dès que vous entendez un adjectif en « an » ou en « ina » après un verbe, demandez-vous : dans quel état ?"
   }
  },
  {
-  "title": "Le ferry pour Naoshima",
+  "title": "Plongée aux îles Daymaniyat",
   "phrases": [
    {
-    "fr": "Le ferry pour Naoshima part du port d'Uno.",
-    "ja": "直島行きのフェリーは宇野港から出ます。",
-    "ro": "Naoshima iki no ferī wa Uno kō kara demasu."
+    "fr": "Les îles Daymaniyat forment une réserve naturelle protégée.",
+    "ar": "جُزُرُ الدِّيمَانِيَّاتِ مَحْمِيَّةٌ طَبِيعِيَّةٌ.",
+    "ro": "Juzuru d-Dīmāniyyāti maḥmiyyatun ṭabīʿiyyatun."
    },
    {
-    "fr": "La traversée ne prend qu'une vingtaine de minutes.",
-    "ja": "船で二十分ほどしかかかりません。",
-    "ro": "Fune de nijuppun hodo shika kakarimasen."
+    "fr": "Le bateau a quitté le port à sept heures du matin.",
+    "ar": "انْطَلَقَ الْقَارِبُ مِنَ الْمِينَاءِ فِي السَّاعَةِ السَّابِعَةِ صَبَاحًا.",
+    "ro": "Inṭalaqa l-qāribu mina l-mīnāʾi fī s-sāʿati s-sābiʿati ṣabāḥan."
    },
    {
-    "fr": "La mer intérieure de Seto est parsemée de centaines d'îles.",
-    "ja": "瀬戸内海には何百もの島が点在しています。",
-    "ro": "Setonaikai ni wa nanbyaku mo no shima ga tenzai shite imasu."
+    "fr": "L'instructeur a vérifié notre équipement avant la plongée.",
+    "ar": "فَحَصَ الْمُدَرِّبُ مُعَدَّاتِنَا قَبْلَ الْغَوْصِ.",
+    "ro": "Faḥaṣa l-mudarribu muʿaddātinā qabla l-ghawṣi."
    },
    {
-    "fr": "Depuis le pont, on voit les îles défiler lentement.",
-    "ja": "デッキから、島々がゆっくり過ぎていくのが見えます。",
-    "ro": "Dekki kara, shimajima ga yukkuri sugite iku no ga miemasu."
+    "fr": "C'était ma première plongée en pleine mer.",
+    "ar": "كَانَ هَذَا أَوَّلَ غَوْصٍ لِي فِي عُرْضِ الْبَحْرِ.",
+    "ro": "Kāna hādhā awwala ghawṣin lī fī ʿurḍi l-baḥri."
    },
    {
-    "fr": "Des mouettes suivent le bateau dans l'espoir d'un peu de nourriture.",
-    "ja": "カモメが餌をもらおうと船を追いかけてきます。",
-    "ro": "Kamome ga esa o moraō to fune o oikakete kimasu."
+    "fr": "Sous l'eau, nous avons vu des tortues et des poissons multicolores.",
+    "ar": "تَحْتَ الْمَاءِ، رَأَيْنَا سَلَاحِفَ وَأَسْمَاكًا مُلَوَّنَةً.",
+    "ro": "Taḥta l-māʾi, raʾaynā salāḥifa wa-asmākan mulawwanatan."
    },
    {
-    "fr": "À l'arrivée, une grande citrouille rouge à pois nous accueille.",
-    "ja": "着くと、水玉模様の大きな赤いかぼちゃが迎えてくれます。",
-    "ro": "Tsuku to, mizutama moyō no ōkina akai kabocha ga mukaete kuremasu."
+    "fr": "Les récifs de corail semblent ici en bonne santé.",
+    "ar": "تَبْدُو الشُّعَبُ الْمَرْجَانِيَّةُ هُنَا فِي حَالَةٍ جَيِّدَةٍ.",
+    "ro": "Tabdū sh-shuʿabu l-marjāniyyatu hunā fī ḥālatin jayyidatin."
    },
    {
-    "fr": "Sur l'île, on se déplace surtout en vélo électrique.",
-    "ja": "島では、主に電動自転車で移動します。",
-    "ro": "Shima de wa, omo ni dendō jitensha de idō shimasu."
+    "fr": "Il est interdit de toucher le corail ou de nourrir les poissons.",
+    "ar": "يُمْنَعُ لَمْسُ الْمَرْجَانِ أَوْ إِطْعَامُ الْأَسْمَاكِ.",
+    "ro": "Yumnaʿu lamsu l-marjāni aw iṭʿāmu l-asmāki."
    },
    {
-    "fr": "En été, les vélos de location partent très vite.",
-    "ja": "夏はレンタサイクルがすぐになくなってしまいます。",
-    "ro": "Natsu wa rentasaikuru ga sugu ni nakunatte shimaimasu."
+    "fr": "Un requin-baleine est passé lentement près de nous.",
+    "ar": "مَرَّ قِرْشٌ حُوتِيٌّ بِبُطْءٍ بِالْقُرْبِ مِنَّا.",
+    "ro": "Marra qirshun ḥūtiyyun bi-buṭʾin bi-l-qurbi minnā."
    },
    {
-    "fr": "Les habitants vivent surtout de la pêche et du tourisme.",
-    "ja": "住民は主に漁業と観光で暮らしています。",
-    "ro": "Jūmin wa omo ni gyogyō to kankō de kurashite imasu."
+    "fr": "Nous sommes remontés tranquillement à la surface.",
+    "ar": "صَعِدْنَا إِلَى السَّطْحِ بِهُدُوءٍ.",
+    "ro": "Ṣaʿidnā ilā s-saṭḥi bi-hudūʾin."
    },
    {
-    "fr": "Pour rentrer, on a pris le dernier bateau du soir.",
-    "ja": "帰りは夜の最終便に乗りました。",
-    "ro": "Kaeri wa yoru no saishūbin ni norimashita."
+    "fr": "Cette plongée m'a donné envie d'apprendre sérieusement à plonger.",
+    "ar": "جَعَلَنِي هَذَا الْغَوْصُ أَرْغَبُ فِي تَعَلُّمِ الْغَوْصِ بِجِدِّيَّةٍ.",
+    "ro": "Jaʿalanī hādhā l-ghawṣu arghabu fī taʿallumi l-ghawṣi bi-jiddiyyatin."
    }
   ]
  },
  {
-  "title": "Naoshima, l'île de l'art",
+  "title": "En boutre dans les fjords de Musandam",
   "phrases": [
    {
-    "fr": "Le musée Chichū est presque entièrement construit sous terre.",
-    "ja": "地中美術館は、ほとんど地下に造られています。",
-    "ro": "Chichū bijutsukan wa, hotondo chika ni tsukurarete imasu."
+    "fr": "Musandam est une péninsule séparée du reste d'Oman.",
+    "ar": "مُسَنْدَمُ شِبْهُ جَزِيرَةٍ مُنْفَصِلَةٍ عَنْ بَاقِي عُمَانَ.",
+    "ro": "Musandamu shibhu jazīratin munfaṣilatin ʿan bāqī ʿUmāna."
    },
    {
-    "fr": "Selon l'heure, la lumière naturelle change l'aspect des œuvres.",
-    "ja": "時間によって、自然光が作品の見え方を変えます。",
-    "ro": "Jikan ni yotte, shizenkō ga sakuhin no miekata o kaemasu."
+    "fr": "Ses fjords étroits sont entourés de montagnes nues.",
+    "ar": "خُلْجَانُهَا الضَّيِّقَةُ مُحَاطَةٌ بِجِبَالٍ جَرْدَاءَ.",
+    "ro": "Khuljānuhā ḍ-ḍayyiqatu muḥāṭatun bi-jibālin jardāʾa."
    },
    {
-    "fr": "Pour y entrer, il faut réserver un créneau horaire.",
-    "ja": "入るには、時間指定の予約が必要です。",
-    "ro": "Hairu ni wa, jikan shitei no yoyaku ga hitsuyō desu."
+    "fr": "Nous avons embarqué pour la journée sur un boutre traditionnel en bois.",
+    "ar": "رَكِبْنَا مَرْكَبًا خَشَبِيًّا تَقْلِيدِيًّا لِيَوْمٍ كَامِلٍ.",
+    "ro": "Rakibnā markaban khashabiyyan taqlīdiyyan li-yawmin kāmilin."
    },
    {
-    "fr": "Dans le quartier de Honmura, de vieilles maisons sont devenues des œuvres d'art.",
-    "ja": "本村地区では、古い家がアート作品に生まれ変わっています。",
-    "ro": "Honmura chiku de wa, furui ie ga āto sakuhin ni umarekawatte imasu."
+    "fr": "Ces bateaux servaient autrefois au commerce.",
+    "ar": "كَانَتْ هَذِهِ الْمَرَاكِبُ تُسْتَخْدَمُ قَدِيمًا لِلتِّجَارَةِ.",
+    "ro": "Kānat hādhihi l-marākibu tustakhdamu qadīman li-t-tijārati."
    },
    {
-    "fr": "Dans l'une d'elles, on avance dans une obscurité totale.",
-    "ja": "そのひとつでは、真っ暗な中に入っていきます。",
-    "ro": "Sono hitotsu de wa, makkura na naka ni haitte ikimasu."
+    "fr": "Des dauphins ont nagé à côté du boutre pendant plusieurs minutes.",
+    "ar": "سَبَحَتِ الدَّلَافِينُ بِجَانِبِ الْمَرْكَبِ عِدَّةَ دَقَائِقَ.",
+    "ro": "Sabaḥati d-dalāfīnu bi-jānibi l-markabi ʿiddata daqāʾiqa."
    },
    {
-    "fr": "Peu à peu, nos yeux s'habituent et distinguent une faible lueur.",
-    "ja": "だんだん目が慣れて、かすかな光が見えてきます。",
-    "ro": "Dandan me ga narete, kasuka na hikari ga miete kimasu."
+    "fr": "Le capitaine a jeté l'ancre près d'un village de pêcheurs.",
+    "ar": "أَلْقَى الْقُبْطَانُ الْمِرْسَاةَ قُرْبَ قَرْيَةِ صَيَّادِينَ.",
+    "ro": "Alqā l-qubṭānu l-mirsāta qurba qaryati ṣayyādīna."
    },
    {
-    "fr": "Même le bain public de l'île est une œuvre d'art.",
-    "ja": "島の銭湯さえもアート作品です。",
-    "ro": "Shima no sentō sae mo āto sakuhin desu."
+    "fr": "On ne peut atteindre ce village que par la mer.",
+    "ar": "لَا يُمْكِنُ الْوُصُولُ إِلَى هَذِهِ الْقَرْيَةِ إِلَّا عَنْ طَرِيقِ الْبَحْرِ.",
+    "ro": "Lā yumkinu l-wuṣūlu ilā hādhihi l-qaryati illā ʿan ṭarīqi l-baḥri."
    },
    {
-    "fr": "Dans la plupart des musées, les photos sont interdites.",
-    "ja": "ほとんどの美術館の中では、撮影が禁止されています。",
-    "ro": "Hotondo no bijutsukan no naka de wa, satsuei ga kinshi sarete imasu."
+    "fr": "Nous avons nagé avec masque et tuba dans une eau turquoise.",
+    "ar": "سَبَحْنَا بِالْقِنَاعِ وَالْأُنْبُوبِ فِي مِيَاهٍ فَيْرُوزِيَّةٍ.",
+    "ro": "Sabaḥnā bi-l-qināʿi wa-l-unbūbi fī miyāhin fayrūziyyatin."
    },
    {
-    "fr": "C'est justement parce qu'on ne peut pas photographier qu'on regarde vraiment.",
-    "ja": "撮影できないからこそ、本当によく見るようになります。",
-    "ro": "Satsuei dekinai kara koso, hontō ni yoku miru yō ni narimasu."
+    "fr": "Le déjeuner de poisson grillé a été servi sur le pont.",
+    "ar": "قُدِّمَ الْغَدَاءُ مِنَ السَّمَكِ الْمَشْوِيِّ عَلَى سَطْحِ الْمَرْكَبِ.",
+    "ro": "Quddima l-ghadāʾu mina s-samaki l-mashwiyyi ʿalā saṭḥi l-markabi."
    },
    {
-    "fr": "Naoshima prouve qu'une petite île peut renaître grâce à l'art.",
-    "ja": "直島は、小さな島がアートで生まれ変われることを示しています。",
-    "ro": "Naoshima wa, chiisana shima ga āto de umarekawareru koto o shimeshite imasu."
+    "fr": "Au retour, tout le monde s'est endormi sur les coussins.",
+    "ar": "فِي طَرِيقِ الْعَوْدَةِ، نَامَ الْجَمِيعُ عَلَى الْوَسَائِدِ.",
+    "ro": "Fī ṭarīqi l-ʿawdati, nāma l-jamīʿu ʿalā l-wasāʾidi."
    }
   ]
  },
  {
-  "title": "Takayama, au cœur des montagnes",
+  "title": "Une tempête de sable sur la route",
   "phrases": [
    {
-    "fr": "On surnomme Takayama le « petit Kyōto » de Hida.",
-    "ja": "高山は「飛騨の小京都」と呼ばれています。",
-    "ro": "Takayama wa « Hida no shōkyōto » to yobarete imasu."
+    "fr": "Le ciel est soudain devenu jaune.",
+    "ar": "أَصْبَحَتِ السَّمَاءُ فَجْأَةً صَفْرَاءَ.",
+    "ro": "Aṣbaḥati s-samāʾu fajʾatan ṣafrāʾa."
    },
    {
-    "fr": "Les rues de Sanmachi sont bordées de maisons marchandes en bois sombre.",
-    "ja": "三町の通りには、黒っぽい木の町家が並んでいます。",
-    "ro": "Sanmachi no tōri ni wa, kuroppoi ki no machiya ga narande imasu."
+    "fr": "Le vent s'est levé et a soulevé des nuages de poussière.",
+    "ar": "هَبَّتِ الرِّيحُ وَأَثَارَتْ سُحُبًا مِنَ الْغُبَارِ.",
+    "ro": "Habbati r-rīḥu wa-athārat suḥuban mina l-ghubāri."
    },
    {
-    "fr": "Plusieurs brasseries de saké proposent des dégustations.",
-    "ja": "いくつかの酒蔵で試飲ができます。",
-    "ro": "Ikutsu ka no sakagura de shiin ga dekimasu."
+    "fr": "Le chauffeur a arrêté la voiture au bord de la route.",
+    "ar": "أَوْقَفَ السَّائِقُ السَّيَّارَةَ عَلَى جَانِبِ الطَّرِيقِ.",
+    "ro": "Awqafa s-sāʾiqu s-sayyārata ʿalā jānibi ṭ-ṭarīqi."
    },
    {
-    "fr": "Une boule de cèdre suspendue signale que le saké nouveau est prêt.",
-    "ja": "杉玉が吊るされていると、新酒ができた印です。",
-    "ro": "Sugidama ga tsurusarete iru to, shinshu ga dekita shirushi desu."
+    "fr": "On ne voyait plus rien à dix mètres.",
+    "ar": "لَمْ نَعُدْ نَرَى شَيْئًا عَلَى بُعْدِ عَشَرَةِ أَمْتَارٍ.",
+    "ro": "Lam naʿud narā shayʾan ʿalā buʿdi ʿasharati amtārin."
    },
    {
-    "fr": "Le marché du matin se tient au bord de la rivière Miyagawa.",
-    "ja": "朝市は宮川沿いで開かれます。",
-    "ro": "Asaichi wa Miyagawa zoi de hirakaremasu."
+    "fr": "Nous avons fermé les fenêtres et couvert nos visages avec des foulards.",
+    "ar": "أَغْلَقْنَا النَّوَافِذَ وَغَطَّيْنَا وُجُوهَنَا بِالْأَوْشِحَةِ.",
+    "ro": "Aghlaqnā n-nawāfidha wa-ghaṭṭaynā wujūhanā bi-l-awshiḥati."
    },
    {
-    "fr": "De vieilles dames y vendent des légumes et des pickles maison.",
-    "ja": "おばあさんたちが野菜や手作りの漬物を売っています。",
-    "ro": "Obāsantachi ga yasai ya tezukuri no tsukemono o utte imasu."
+    "fr": "Le sable s'infiltrait partout, même dans nos sacs.",
+    "ar": "كَانَ الرَّمْلُ يَتَسَرَّبُ إِلَى كُلِّ مَكَانٍ، حَتَّى إِلَى حَقَائِبِنَا.",
+    "ro": "Kāna r-ramlu yatasarrabu ilā kulli makānin, ḥattā ilā ḥaqāʾibinā."
    },
    {
-    "fr": "Le bœuf de Hida fond littéralement dans la bouche.",
-    "ja": "飛騨牛は口の中でとろけるようです。",
-    "ro": "Hidagyū wa kuchi no naka de torokeru yō desu."
+    "fr": "Le chauffeur est resté calme, car il en avait l'habitude.",
+    "ar": "بَقِيَ السَّائِقُ هَادِئًا لِأَنَّهُ مُعْتَادٌ عَلَى ذَلِكَ.",
+    "ro": "Baqiya s-sāʾiqu hādiʾan li-annahu muʿtādun ʿalā dhālika."
    },
    {
-    "fr": "On a mangé des brochettes grillées sous nos yeux.",
-    "ja": "目の前で焼いてくれた串焼きを食べました。",
-    "ro": "Me no mae de yaite kureta kushiyaki o tabemashita."
+    "fr": "La tempête a duré près d'une heure.",
+    "ar": "اسْتَمَرَّتِ الْعَاصِفَةُ نَحْوَ سَاعَةٍ.",
+    "ro": "Istamarrati l-ʿāṣifatu naḥwa sāʿatin."
    },
    {
-    "fr": "La fête de Takayama attire des foules au printemps et en automne.",
-    "ja": "高山祭は春と秋に大勢の人を集めます。",
-    "ro": "Takayama matsuri wa haru to aki ni ōzei no hito o atsumemasu."
+    "fr": "Ensuite, le ciel est redevenu parfaitement bleu.",
+    "ar": "بَعْدَ ذَلِكَ، عَادَتِ السَّمَاءُ زَرْقَاءَ صَافِيَةً.",
+    "ro": "Baʿda dhālika, ʿādati s-samāʾu zarqāʾa ṣāfiyatan."
    },
    {
-    "fr": "En dehors de la fête, la ville est paisible le soir.",
-    "ja": "祭り以外の時期は、夜の町は静かです。",
-    "ro": "Matsuri igai no jiki wa, yoru no machi wa shizuka desu."
+    "fr": "Il nous a fallu une heure pour nettoyer la voiture.",
+    "ar": "احْتَجْنَا إِلَى سَاعَةٍ لِتَنْظِيفِ السَّيَّارَةِ.",
+    "ro": "Iḥtajnā ilā sāʿatin li-tanẓīfi s-sayyārati."
    }
   ]
  },
  {
-  "title": "Les maisons de Shirakawa-gō",
+  "title": "Salalah sous la mousson",
   "phrases": [
    {
-    "fr": "Le bus pour Shirakawa-gō met une cinquantaine de minutes.",
-    "ja": "白川郷行きのバスは五十分ぐらいかかります。",
-    "ro": "Shirakawagō iki no basu wa gojuppun gurai kakarimasu."
+    "fr": "Salalah se trouve dans le sud d'Oman, dans la région du Dhofar.",
+    "ar": "تَقَعُ صَلَالَةُ فِي جَنُوبِ عُمَانَ، فِي مِنْطَقَةِ ظُفَارَ.",
+    "ro": "Taqaʿu Ṣalālatu fī janūbi ʿUmāna, fī minṭaqati Ẓufāra."
    },
    {
-    "fr": "Les toits de chaume ressemblent à des mains jointes.",
-    "ja": "かやぶき屋根は、合わせた手のように見えます。",
-    "ro": "Kayabuki yane wa, awaseta te no yō ni miemasu."
+    "fr": "En été, la saison du khareef apporte de la bruine et du brouillard.",
+    "ar": "فِي الصَّيْفِ، يَجْلِبُ مَوْسِمُ الْخَرِيفِ رَذَاذًا وَضَبَابًا.",
+    "ro": "Fī ṣ-ṣayfi, yajlibu mawsimu l-kharīfi radhādhan wa-ḍabāban."
    },
    {
-    "fr": "C'est pour ça que ce style s'appelle « gasshō-zukuri ».",
-    "ja": "それで、この様式は「合掌造り」と呼ばれています。",
-    "ro": "Sorede, kono yōshiki wa « gasshō zukuri » to yobarete imasu."
+    "fr": "Les collines deviennent alors entièrement vertes.",
+    "ar": "فَتُصْبِحُ التِّلَالُ خَضْرَاءَ تَمَامًا.",
+    "ro": "Fa-tuṣbiḥu t-tilālu khaḍrāʾa tamāman."
    },
    {
-    "fr": "Grâce à la pente raide, la neige s'accumule difficilement.",
-    "ja": "急な傾斜のおかげで、雪が積もりにくいです。",
-    "ro": "Kyū na keisha no okage de, yuki ga tsumorinikui desu."
+    "fr": "Des familles de tout le Golfe viennent ici pour fuir la chaleur.",
+    "ar": "تَأْتِي إِلَى هُنَا عَائِلَاتٌ مِنْ كُلِّ دُوَلِ الْخَلِيجِ لِتَهْرُبَ مِنَ الْحَرِّ.",
+    "ro": "Taʾtī ilā hunā ʿāʾilātun min kulli duwali l-khalīji li-tahruba mina l-ḥarri."
    },
    {
-    "fr": "Tout le village refait le chaume tous les trente ou quarante ans.",
-    "ja": "屋根のふき替えは、三、四十年ごとに村人全員で行います。",
-    "ro": "Yane no fukikae wa, san, yonjū nen goto ni murabito zen'in de okonaimasu."
+    "fr": "Il fait vingt-cinq degrés ici, alors qu'il en fait quarante-cinq à Mascate.",
+    "ar": "دَرَجَةُ الْحَرَارَةِ هُنَا خَمْسٌ وَعِشْرُونَ، بَيْنَمَا تَبْلُغُ خَمْسًا وَأَرْبَعِينَ فِي مَسْقَطَ.",
+    "ro": "Darajatu l-ḥarārati hunā khamsun wa-ʿishrūna, baynamā tablughu khamsan wa-arbaʿīna fī Masqaṭa."
    },
    {
-    "fr": "Cette entraide porte le nom de « yui ».",
-    "ja": "この助け合いは「結」と呼ばれています。",
-    "ro": "Kono tasukeai wa « yui » to yobarete imasu."
+    "fr": "Les cascades du Wadi Darbat ne coulent que pendant cette saison.",
+    "ar": "لَا تَتَدَفَّقُ شَلَّالَاتُ وَادِي دَرْبَاتَ إِلَّا فِي هَذَا الْمَوْسِمِ.",
+    "ro": "Lā tatadaffaqu shallālātu Wādī Darbāta illā fī hādhā l-mawsimi."
    },
    {
-    "fr": "Certaines maisons sont encore habitées aujourd'hui.",
-    "ja": "今でも人が住んでいる家もあります。",
-    "ro": "Ima demo hito ga sunde iru ie mo arimasu."
+    "fr": "Les dromadaires se promènent librement au bord de la route.",
+    "ar": "تَتَجَوَّلُ الْجِمَالُ بِحُرِّيَّةٍ عَلَى جَانِبِ الطَّرِيقِ.",
+    "ro": "Tatajawwalu l-jimālu bi-ḥurriyyatin ʿalā jānibi ṭ-ṭarīqi."
    },
    {
-    "fr": "On a dormi dans l'une d'elles, autour du foyer creusé dans le sol.",
-    "ja": "そのひとつに泊まって、囲炉裏を囲みました。",
-    "ro": "Sono hitotsu ni tomatte, irori o kakomimashita."
+    "fr": "Nous avons bu de l'eau de coco fraîche au bord de la route.",
+    "ar": "شَرِبْنَا مَاءَ النَّارَجِيلِ الطَّازَجَ عَلَى قَارِعَةِ الطَّرِيقِ.",
+    "ro": "Sharibnā māʾa n-nārajīli ṭ-ṭāzaja ʿalā qāriʿati ṭ-ṭarīqi."
    },
    {
-    "fr": "La fumée du foyer protège la charpente des insectes.",
-    "ja": "囲炉裏の煙が、木を虫から守ります。",
-    "ro": "Irori no kemuri ga, ki o mushi kara mamorimasu."
+    "fr": "Le Dhofar est aussi la terre de l'encens.",
+    "ar": "ظُفَارُ أَيْضًا مَوْطِنُ اللُّبَانِ.",
+    "ro": "Ẓufāru ayḍan mawṭinu l-lubāni."
    },
    {
-    "fr": "En hiver, le village illuminé sous la neige a quelque chose de magique.",
-    "ja": "冬、雪の中でライトアップされた村は幻想的です。",
-    "ro": "Fuyu, yuki no naka de raitoappu sareta mura wa gensōteki desu."
+    "fr": "Les arbres à encens poussent sur des terres très sèches.",
+    "ar": "تَنْمُو أَشْجَارُ اللُّبَانِ فِي أَرَاضٍ جَافَّةٍ جِدًّا.",
+    "ro": "Tanmū ashjāru l-lubāni fī arāḍin jāffatin jiddan."
    }
   ]
  },
  {
-  "title": "Un typhon bloque les bateaux",
+  "title": "Grottes et gouffres : un autre monde",
   "phrases": [
    {
-    "fr": "Normalement, le ferry doit partir à dix heures.",
-    "ja": "フェリーは十時に出るはずです。",
-    "ro": "Ferī wa jūji ni deru hazu desu."
+    "fr": "La grotte d'Al Hoota s'étend sur plusieurs kilomètres sous la montagne.",
+    "ar": "يَمْتَدُّ كَهْفُ الْهُوتَةِ عِدَّةَ كِيلُومِتْرَاتٍ تَحْتَ الْجَبَلِ.",
+    "ro": "Yamtaddu kahfu l-Hūtati ʿiddata kīlūmitrātin taḥta l-jabali."
    },
    {
-    "fr": "Mais un typhon s'approche de l'archipel.",
-    "ja": "でも、台風が諸島に近づいています。",
-    "ro": "Demo, taifū ga shotō ni chikazuite imasu."
+    "fr": "Un petit train électrique nous a conduits jusqu'à l'entrée.",
+    "ar": "أَوْصَلَنَا قِطَارٌ كَهْرَبَائِيٌّ صَغِيرٌ إِلَى الْمَدْخَلِ.",
+    "ro": "Awṣalanā qiṭārun kahrabāʾiyyun ṣaghīrun ilā l-madkhali."
    },
    {
-    "fr": "Avec ce vent, le bateau ne devrait pas pouvoir quitter le port.",
-    "ja": "この風では、船は出られないはずです。",
-    "ro": "Kono kaze de wa, fune wa derarenai hazu desu."
+    "fr": "À l'intérieur, nous avions l'impression d'être sur une autre planète.",
+    "ar": "فِي الدَّاخِلِ، شَعَرْنَا كَأَنَّنَا عَلَى كَوْكَبٍ آخَرَ.",
+    "ro": "Fī d-dākhili, shaʿarnā ka-annanā ʿalā kawkabin ākhara."
    },
    {
-    "fr": "La compagnie devrait annoncer sa décision avant huit heures.",
-    "ja": "フェリー会社は八時までに判断を発表するはずです。",
-    "ro": "Ferī gaisha wa hachiji made ni handan o happyō suru hazu desu."
+    "fr": "Les stalactites ont l'air de statues géantes.",
+    "ar": "تَبْدُو الْهَوَابِطُ كَأَنَّهَا تَمَاثِيلُ عِمْلَاقَةٌ.",
+    "ro": "Tabdū l-hawābiṭu ka-annahā tamāthīlu ʿimlāqatun."
    },
    {
-    "fr": "L'auberge devrait bien nous laisser rester une nuit de plus.",
-    "ja": "宿はもう一泊させてくれるはずです。",
-    "ro": "Yado wa mō ippaku sasete kureru hazu desu."
+    "fr": "Le lac souterrain abrite des poissons aveugles.",
+    "ar": "تَعِيشُ فِي الْبُحَيْرَةِ الْجَوْفِيَّةِ أَسْمَاكٌ عَمْيَاءُ.",
+    "ro": "Taʿīshu fī l-buḥayrati l-jawfiyyati asmākun ʿamyāʾu."
    },
    {
-    "fr": "Et pourtant, j'avais bien vérifié la météo hier soir.",
-    "ja": "昨日の夜、ちゃんと天気予報を確認したはずなのに。",
-    "ro": "Kinō no yoru, chanto tenki yohō o kakunin shita hazu na no ni."
+    "fr": "Le guide parlait à voix basse, comme s'il ne voulait pas réveiller la grotte.",
+    "ar": "كَانَ الْمُرْشِدُ يَتَكَلَّمُ بِصَوْتٍ خَافِتٍ كَأَنَّهُ لَا يُرِيدُ أَنْ يُوقِظَ الْكَهْفَ.",
+    "ro": "Kāna l-murshidu yatakallamu bi-ṣawtin khāfitin ka-annahu lā yurīdu an yūqiẓa l-kahfa."
    },
    {
-    "fr": "Les magasins devraient rester fermés toute la journée.",
-    "ja": "店は一日中閉まっているはずです。",
-    "ro": "Mise wa ichinichijū shimatte iru hazu desu."
+    "fr": "Ensuite, nous sommes allés au gouffre de Bimmah, près de la côte.",
+    "ar": "بَعْدَ ذَلِكَ، ذَهَبْنَا إِلَى حُفْرَةِ بِمَّةَ قُرْبَ السَّاحِلِ.",
+    "ro": "Baʿda dhālika, dhahabnā ilā ḥufrati Bimmata qurba s-sāḥili."
    },
    {
-    "fr": "Le bâtiment est solide, il ne devrait pas y avoir de souci.",
-    "ja": "建物は丈夫だから、心配はいらないはずです。",
-    "ro": "Tatemono wa jōbu da kara, shinpai wa iranai hazu desu."
+    "fr": "L'eau y est si limpide qu'on dirait du verre.",
+    "ar": "الْمَاءُ هُنَاكَ صَافٍ جِدًّا كَأَنَّهُ زُجَاجٌ.",
+    "ro": "Al-māʾu hunāka ṣāfin jiddan ka-annahu zujājun."
    },
    {
-    "fr": "Demain matin, la tempête devrait être passée.",
-    "ja": "明日の朝には、嵐は過ぎているはずです。",
-    "ro": "Ashita no asa ni wa, arashi wa sugite iru hazu desu."
+    "fr": "De petits poissons nous chatouillaient les pieds comme s'ils nous connaissaient.",
+    "ar": "كَانَتْ أَسْمَاكٌ صَغِيرَةٌ تُدَغْدِغُ أَقْدَامَنَا كَأَنَّهَا تَعْرِفُنَا.",
+    "ro": "Kānat asmākun ṣaghīratun tudaghdighu aqdāmanā ka-annahā taʿrifunā."
    },
    {
-    "fr": "Encore une annulation ? Ce n'est pas possible !",
-    "ja": "またキャンセルなんて、そんなはずはありません！",
-    "ro": "Mata kyanseru nante, sonna hazu wa arimasen!"
+    "fr": "Nous sommes ressortis éblouis, comme si nous nous réveillions d'un rêve.",
+    "ar": "خَرَجْنَا مُنْبَهِرِينَ كَأَنَّنَا اسْتَيْقَظْنَا مِنْ حُلْمٍ.",
+    "ro": "Kharajnā munbahirīna ka-annanā stayqaẓnā min ḥulmin."
    }
   ],
   "tip": {
-   "title": "« Hazu desu » : normalement, ça devrait",
-   "example": "Normalement, le ferry doit partir à dix heures. — フェリーは十時に<b>出るはずです</b>。",
-   "exampleRo": "Ferī wa jūji ni deru hazu desu.",
-   "lit": "ferry [thème] · dix heures [temps] · sortir · attente logique · être (poli)",
-   "body": "« Hazu desu » s'ajoute après un verbe à la forme neutre pour dire ce qui devrait logiquement se passer, d'après ce que l'on sait. « Jūji ni deru hazu desu » se dit littéralement : dix heures, partir, attente logique, être, soit il devrait partir à dix heures. Ce n'est pas un simple peut-être : on s'appuie sur un horaire, une règle ou une information fiable. Au négatif, « derarenai hazu desu » signifie il ne devrait pas pouvoir sortir, et « sonna hazu wa arimasen » veut dire ce n'est pas possible. Astuce : pensez au mot « normalement » en français, c'est presque toujours la bonne traduction."
+   "title": "« Kaanna » : comme si",
+   "example": "À l'intérieur, nous avions l'impression d'être sur une autre planète. — فِي الدَّاخِلِ، شَعَرْنَا <b>كَأَنَّنَا</b> عَلَى كَوْكَبٍ آخَرَ.",
+   "exampleRo": "Fī d-dākhili, shaʿarnā ka-annanā ʿalā kawkabin ākhara.",
+   "lit": "dans · [l']intérieur · nous avons senti · comme-si-nous · sur · planète · autre",
+   "body": "« Kaanna » veut dire comme si, ou on dirait que. Il est formé de « ka », comme, et de « anna », que : c'est donc un membre de la famille de « inna ». Comme ses sœurs, il est suivi d'un nom à l'accusatif ou d'un pronom collé : « kaannana », comme si nous, « kaannahu », comme si lui, « kaannaha », comme si elle. Pas besoin du verbe être : « kaannahu zujajun » se dit littéralement : comme si lui, du verre, c'est-à-dire on dirait du verre. Astuce : retenez « kaanna » comme le petit mot des comparaisons rêveuses, celles qu'on fait devant un paysage incroyable."
   }
  },
  {
-  "title": "Le pèlerinage de Shikoku",
+  "title": "Doha et le souk Waqif",
   "phrases": [
    {
-    "fr": "Le pèlerinage de Shikoku relie quatre-vingt-huit temples.",
-    "ja": "四国遍路は八十八か所の寺を結んでいます。",
-    "ro": "Shikoku henro wa hachijūhakkasho no tera o musunde imasu."
+    "fr": "Nous avons pris l'avion de Mascate à Doha, un vol très court.",
+    "ar": "سَافَرْنَا بِالطَّائِرَةِ مِنْ مَسْقَطَ إِلَى الدَّوْحَةِ فِي رِحْلَةٍ قَصِيرَةٍ.",
+    "ro": "Sāfarnā bi-ṭ-ṭāʾirati min Masqaṭa ilā d-Dawḥati fī riḥlatin qaṣīratin."
    },
    {
-    "fr": "Le parcours complet fait environ mille deux cents kilomètres.",
-    "ja": "全行程はおよそ千二百キロあります。",
-    "ro": "Zenkōtei wa oyoso sen nihyaku kiro arimasu."
+    "fr": "Le souk Waqif a été restauré dans le style d'autrefois.",
+    "ar": "رُمِّمَ سُوقُ وَاقِفٍ عَلَى الطِّرَازِ الْقَدِيمِ.",
+    "ro": "Rummima sūqu Wāqifin ʿalā ṭ-ṭirāzi l-qadīmi."
    },
    {
-    "fr": "La plupart des gens le font en car ou en voiture.",
-    "ja": "ほとんどの人はバスや車で回ります。",
-    "ro": "Hotondo no hito wa basu ya kuruma de mawarimasu."
+    "fr": "Ses murs en terre et ses poutres en bois rappellent le vieux Doha.",
+    "ar": "جُدْرَانُهُ الطِّينِيَّةُ وَعَوَارِضُهُ الْخَشَبِيَّةُ تُذَكِّرُ بِالدَّوْحَةِ الْقَدِيمَةِ.",
+    "ro": "Judrānuhu ṭ-ṭīniyyatu wa-ʿawāriḍuhu l-khashabiyyatu tudhakkiru bi-d-Dawḥati l-qadīmati."
    },
    {
-    "fr": "Ceux qui le font à pied mettent une quarantaine de jours.",
-    "ja": "歩いて回る人は、四十日ほどかかります。",
-    "ro": "Aruite mawaru hito wa, yonjūnichi hodo kakarimasu."
+    "fr": "On y trouve des épices, des tissus et des oiseaux.",
+    "ar": "نَجِدُ فِيهِ التَّوَابِلَ وَالْأَقْمِشَةَ وَالطُّيُورَ.",
+    "ro": "Najidu fīhi t-tawābila wa-l-aqmishata wa-ṭ-ṭuyūra."
    },
    {
-    "fr": "Les pèlerins portent une veste blanche et un chapeau de paille conique.",
-    "ja": "お遍路さんは白衣を着て、すげ笠をかぶります。",
-    "ro": "Ohenro san wa hakui o kite, sugegasa o kaburimasu."
+    "fr": "Il y a même un marché aux faucons et un hôpital qui leur est réservé.",
+    "ar": "هُنَاكَ أَيْضًا سُوقٌ لِلصُّقُورِ وَمُسْتَشْفًى خَاصٌّ بِهَا.",
+    "ro": "Hunāka ayḍan sūqun li-ṣ-ṣuqūri wa-mustashfan khāṣṣun bihā."
    },
    {
-    "fr": "Sur le chapeau est écrit « dōgyō ninin » : nous marchons à deux.",
-    "ja": "笠には「同行二人」と書いてあります。",
-    "ro": "Kasa ni wa « dōgyō ninin » to kaite arimasu."
+    "fr": "La chasse au faucon est une tradition très ancienne dans le Golfe.",
+    "ar": "الصَّيْدُ بِالصُّقُورِ تَقْلِيدٌ عَرِيقٌ فِي الْخَلِيجِ.",
+    "ro": "Aṣ-ṣaydu bi-ṣ-ṣuqūri taqlīdun ʿarīqun fī l-khalīji."
    },
    {
-    "fr": "Cela signifie que Kōbō Daishi marche toujours à vos côtés.",
-    "ja": "弘法大師がいつも一緒に歩いてくれるという意味です。",
-    "ro": "Kōbō Daishi ga itsumo issho ni aruite kureru to iu imi desu."
+    "fr": "Le soir, les terrasses des cafés se remplissent de monde.",
+    "ar": "فِي الْمَسَاءِ، تَمْتَلِئُ شُرُفَاتُ الْمَقَاهِي بِالنَّاسِ.",
+    "ro": "Fī l-masāʾi, tamtaliʾu shurufātu l-maqāhī bi-n-nāsi."
    },
    {
-    "fr": "Les habitants offrent souvent des fruits ou du thé aux marcheurs.",
-    "ja": "地元の人は、よく歩き遍路に果物やお茶をくれます。",
-    "ro": "Jimoto no hito wa, yoku aruki henro ni kudamono ya ocha o kuremasu."
+    "fr": "Nous avons dîné d'un riz aux épices avec de l'agneau.",
+    "ar": "تَعَشَّيْنَا أَرُزًّا بِالتَّوَابِلِ مَعَ لَحْمِ الضَّأْنِ.",
+    "ro": "Taʿashshaynā aruzzan bi-t-tawābili maʿa laḥmi ḍ-ḍaʾni."
    },
    {
-    "fr": "Cette tradition d'accueil s'appelle « osettai ».",
-    "ja": "このおもてなしの伝統は「お接待」と呼ばれます。",
-    "ro": "Kono omotenashi no dentō wa « osettai » to yobaremasu."
+    "fr": "Un vendeur nous a proposé de goûter le thé karak.",
+    "ar": "عَرَضَ عَلَيْنَا بَائِعٌ أَنْ نَتَذَوَّقَ شَايَ الْكَرَكِ.",
+    "ro": "ʿAraḍa ʿalaynā bāʾiʿun an natadhawwaqa shāya l-karaki."
    },
    {
-    "fr": "Refuser une offrande est considéré comme impoli.",
-    "ja": "お接待を断るのは失礼だとされています。",
-    "ro": "Osettai o kotowaru no wa shitsurei da to sarete imasu."
+    "fr": "Le contraste avec les gratte-ciel voisins est saisissant.",
+    "ar": "التَّنَاقُضُ مَعَ نَاطِحَاتِ السَّحَابِ الْمُجَاوِرَةِ مُدْهِشٌ.",
+    "ro": "At-tanāquḍu maʿa nāṭiḥāti s-saḥābi l-mujāwirati mudhishun."
    }
   ]
  },
  {
-  "title": "Une nuit dans un temple",
+  "title": "Le Musée national du Qatar",
   "phrases": [
    {
-    "fr": "Ce soir, nous logeons dans un temple du pèlerinage.",
-    "ja": "今夜は札所のお寺の宿坊に泊まります。",
-    "ro": "Kon'ya wa fudasho no otera no shukubō ni tomarimasu."
+    "fr": "Le Musée national du Qatar a la forme d'une rose des sables.",
+    "ar": "يَتَّخِذُ مَتْحَفُ قَطَرَ الْوَطَنِيُّ شَكْلَ وَرْدَةِ الصَّحْرَاءِ.",
+    "ro": "Yattakhidhu matḥafu Qaṭara l-waṭaniyyu shakla wardati ṣ-ṣaḥrāʾi."
    },
    {
-    "fr": "Le dîner est de la cuisine bouddhique, sans viande ni poisson.",
-    "ja": "夕食は精進料理なので、肉も魚も使いません。",
-    "ro": "Yūshoku wa shōjin ryōri na node, niku mo sakana mo tsukaimasen."
+    "fr": "Cette fleur de pierre se forme naturellement dans le désert.",
+    "ar": "تَتَكَوَّنُ هَذِهِ الْوَرْدَةُ الْحَجَرِيَّةُ طَبِيعِيًّا فِي الصَّحْرَاءِ.",
+    "ro": "Tatakawwanu hādhihi l-wardatu l-ḥajariyyatu ṭabīʿiyyan fī ṣ-ṣaḥrāʾi."
    },
    {
-    "fr": "Le tofu au sésame avait un goût d'une finesse étonnante.",
-    "ja": "ごま豆腐は驚くほど上品な味でした。",
-    "ro": "Gomadōfu wa odoroku hodo jōhin na aji deshita."
+    "fr": "L'architecte s'en est inspiré pour dessiner le bâtiment.",
+    "ar": "اسْتَوْحَى الْمِعْمَارِيُّ مِنْهَا تَصْمِيمَ الْمَبْنَى.",
+    "ro": "Istawḥā l-miʿmāriyyu minhā taṣmīma l-mabnā."
    },
    {
-    "fr": "Le moine nous a demandé de venir au pavillon principal à six heures.",
-    "ja": "お坊さんに、六時に本堂に来るように言われました。",
-    "ro": "Obōsan ni, rokuji ni hondō ni kuru yō ni iwaremashita."
+    "fr": "Le parcours raconte l'histoire de la péninsule, de la préhistoire à nos jours.",
+    "ar": "يَرْوِي الْمَسَارُ تَارِيخَ شِبْهِ الْجَزِيرَةِ مِنْ عُصُورِ مَا قَبْلَ التَّارِيخِ حَتَّى الْيَوْمِ.",
+    "ro": "Yarwī l-masāru tārīkha shibhi l-jazīrati min ʿuṣūri mā qabla t-tārīkhi ḥattā l-yawmi."
    },
    {
-    "fr": "La prière du matin dure environ une demi-heure.",
-    "ja": "朝のお勤めは三十分ぐらいです。",
-    "ro": "Asa no otsutome wa sanjuppun gurai desu."
+    "fr": "Une salle entière est consacrée à la pêche aux perles.",
+    "ar": "خُصِّصَتْ قَاعَةٌ كَامِلَةٌ لِصَيْدِ اللُّؤْلُؤِ.",
+    "ro": "Khuṣṣiṣat qāʿatun kāmilatun li-ṣaydi l-luʾluʾi."
    },
    {
-    "fr": "Même sans comprendre les sutras, on est touché par leur rythme.",
-    "ja": "お経の意味がわからなくても、そのリズムに心を打たれます。",
-    "ro": "Okyō no imi ga wakaranakute mo, sono rizumu ni kokoro o utaremasu."
+    "fr": "Les plongeurs restaient sous l'eau sans aucun équipement.",
+    "ar": "كَانَ الْغَوَّاصُونَ يَبْقَوْنَ تَحْتَ الْمَاءِ بِلَا أَيِّ مُعَدَّاتٍ.",
+    "ro": "Kāna l-ghawwāṣūna yabqawna taḥta l-māʾi bi-lā ayyi muʿaddātin."
    },
    {
-    "fr": "Ensuite, on s'est essayés à recopier un sutra au pinceau.",
-    "ja": "そのあと、写経に挑戦しました。",
-    "ro": "Sono ato, shakyō ni chōsen shimashita."
+    "fr": "Leur vie était dure et dangereuse.",
+    "ar": "كَانَتْ حَيَاتُهُمْ قَاسِيَةً وَخَطِيرَةً.",
+    "ro": "Kānat ḥayātuhum qāsiyatan wa-khaṭīratan."
    },
    {
-    "fr": "Il faut se concentrer sur chaque trait sans se presser.",
-    "ja": "急がずに、一画一画に集中しなければなりません。",
-    "ro": "Isogazu ni, ikkaku ikkaku ni shūchū shinakereba narimasen."
+    "fr": "Des écrans géants projettent des images du désert sur les murs.",
+    "ar": "تَعْرِضُ شَاشَاتٌ عِمْلَاقَةٌ صُوَرًا لِلصَّحْرَاءِ عَلَى الْجُدْرَانِ.",
+    "ro": "Taʿriḍu shāshātun ʿimlāqatun ṣuwaran li-ṣ-ṣaḥrāʾi ʿalā l-judrāni."
    },
    {
-    "fr": "Dans chaque temple, on reçoit un sceau calligraphié sur son carnet.",
-    "ja": "札所ごとに納経帳に御朱印をいただきます。",
-    "ro": "Fudasho goto ni nōkyōchō ni goshuin o itadakimasu."
+    "fr": "On peut facilement y passer une demi-journée.",
+    "ar": "يُمْكِنُ أَنْ تَقْضِيَ فِيهِ نِصْفَ يَوْمٍ بِسُهُولَةٍ.",
+    "ro": "Yumkinu an taqḍiya fīhi niṣfa yawmin bi-suhūlatin."
    },
    {
-    "fr": "Ce calme absolu m'a fait un bien immense.",
-    "ja": "この静けさに、本当に心が癒されました。",
-    "ro": "Kono shizukesa ni, hontō ni kokoro ga iyasaremashita."
+    "fr": "En sortant, nous avons flâné sur la corniche de Doha.",
+    "ar": "عِنْدَ خُرُوجِنَا، تَمَشَّيْنَا عَلَى كُورْنِيشِ الدَّوْحَةِ.",
+    "ro": "ʿInda khurūjinā, tamashshaynā ʿalā kūrnīshi d-Dawḥati."
    }
   ]
  },
  {
-  "title": "Yakushima, l'île de la pluie",
+  "title": "Les tortues de Ras al Jinz",
   "phrases": [
    {
-    "fr": "Yakushima est une île couverte de forêts, au sud de Kyūshū.",
-    "ja": "屋久島は九州の南にある、森に覆われた島です。",
-    "ro": "Yakushima wa Kyūshū no minami ni aru, mori ni ōwareta shima desu."
+    "fr": "Chaque nuit, des tortues vertes viennent pondre sur cette plage.",
+    "ar": "تَأْتِي السَّلَاحِفُ الْخَضْرَاءُ كُلَّ لَيْلَةٍ لِتَضَعَ بَيْضَهَا عَلَى هَذَا الشَّاطِئِ.",
+    "ro": "Taʾtī s-salāḥifu l-khaḍrāʾu kulla laylatin li-taḍaʿa bayḍahā ʿalā hādhā sh-shāṭiʾi."
    },
    {
-    "fr": "On dit qu'il y pleut trente-cinq jours par mois.",
-    "ja": "「ひと月に三十五日雨が降る」と言われています。",
-    "ro": "« Hitotsuki ni sanjūgonichi ame ga furu » to iwarete imasu."
+    "fr": "La réserve de Ras al Jinz limite le nombre de visiteurs.",
+    "ar": "تُحَدِّدُ مَحْمِيَّةُ رَأْسِ الْجِنْزِ عَدَدَ الزُّوَّارِ.",
+    "ro": "Tuḥaddidu maḥmiyyatu Raʾsi l-Jinzi ʿadada z-zuwwāri."
    },
    {
-    "fr": "C'est exagéré, bien sûr, mais il pleut vraiment beaucoup.",
-    "ja": "もちろん大げさですが、本当によく雨が降ります。",
-    "ro": "Mochiron ōgesa desu ga, hontō ni yoku ame ga furimasu."
+    "fr": "Il faut réserver la visite nocturne plusieurs jours à l'avance.",
+    "ar": "يَجِبُ حَجْزُ الزِّيَارَةِ اللَّيْلِيَّةِ قَبْلَ عِدَّةِ أَيَّامٍ.",
+    "ro": "Yajibu ḥajzu z-ziyārati l-layliyyati qabla ʿiddati ayyāmin."
    },
    {
-    "fr": "Certains cèdres ont plus de mille ans.",
-    "ja": "樹齢千年を超える杉もあります。",
-    "ro": "Jurei sennen o koeru sugi mo arimasu."
+    "fr": "La lumière dérange les tortues, c'est pourquoi les lampes sont interdites.",
+    "ar": "الضَّوْءُ يُزْعِجُ السَّلَاحِفَ، لِذَلِكَ تُمْنَعُ الْمَصَابِيحُ.",
+    "ro": "Aḍ-ḍawʾu yuzʿiju s-salāḥifa, li-dhālika tumnaʿu l-maṣābīḥu."
    },
    {
-    "fr": "Le plus célèbre, le Jōmon-sugi, aurait plusieurs milliers d'années.",
-    "ja": "一番有名な縄文杉は、樹齢数千年とも言われています。",
-    "ro": "Ichiban yūmei na Jōmon sugi wa, jurei sūsennen to mo iwarete imasu."
+    "fr": "Nous avons attendu en silence dans l'obscurité.",
+    "ar": "انْتَظَرْنَا صَامِتِينَ فِي الظَّلَامِ.",
+    "ro": "Intaẓarnā ṣāmitīna fī ẓ-ẓalāmi."
    },
    {
-    "fr": "Il faut une dizaine d'heures pour faire l'aller-retour jusqu'à lui.",
-    "ja": "往復で十時間ぐらいかかります。",
-    "ro": "Ōfuku de jūjikan gurai kakarimasu."
+    "fr": "Une énorme tortue creusait lentement son nid.",
+    "ar": "كَانَتْ سُلَحْفَاةٌ ضَخْمَةٌ تَحْفِرُ عُشَّهَا بِبُطْءٍ.",
+    "ro": "Kānat sulaḥfātun ḍakhmatun taḥfiru ʿushshahā bi-buṭʾin."
    },
    {
-    "fr": "La forêt de Shiratani a servi de modèle à un célèbre film d'animation.",
-    "ja": "白谷雲水峡の森は、有名なアニメ映画のモデルになりました。",
-    "ro": "Shiratani Unsuikyō no mori wa, yūmei na anime eiga no moderu ni narimashita."
+    "fr": "Elle peut pondre plus de cent œufs en une seule nuit.",
+    "ar": "يُمْكِنُ أَنْ تَضَعَ أَكْثَرَ مِنْ مِئَةِ بَيْضَةٍ فِي لَيْلَةٍ وَاحِدَةٍ.",
+    "ro": "Yumkinu an taḍaʿa akthara min miʾati bayḍatin fī laylatin wāḥidatin."
    },
    {
-    "fr": "Au bord du chemin, des cerfs et des singes nous observaient.",
-    "ja": "道ばたからシカやサルがこちらを見ていました。",
-    "ro": "Michibata kara shika ya saru ga kochira o mite imashita."
+    "fr": "À l'aube, nous avons vu des bébés tortues courir vers la mer.",
+    "ar": "عِنْدَ الْفَجْرِ، رَأَيْنَا صِغَارَ السَّلَاحِفِ تَرْكُضُ نَحْوَ الْبَحْرِ.",
+    "ro": "ʿInda l-fajri, raʾaynā ṣighāra s-salāḥifi tarkuḍu naḥwa l-baḥri."
    },
    {
-    "fr": "Ils sont plus petits que ceux du reste du Japon.",
-    "ja": "本土のシカやサルより小柄です。",
-    "ro": "Hondo no shika ya saru yori kogara desu."
+    "fr": "Très peu d'entre elles atteindront l'âge adulte.",
+    "ar": "قَلِيلٌ مِنْهَا فَقَطْ سَيَبْلُغُ سِنَّ الرُّشْدِ.",
+    "ro": "Qalīlun minhā faqaṭ sa-yablughu sinna r-rushdi."
    },
    {
-    "fr": "Après la pluie, toute la mousse brillait d'un vert intense.",
-    "ja": "雨上がりには、苔が一面あざやかな緑に輝いていました。",
-    "ro": "Ameagari ni wa, koke ga ichimen azayaka na midori ni kagayaite imashita."
+    "fr": "Ce spectacle nous a appris le respect de la nature.",
+    "ar": "عَلَّمَنَا هَذَا الْمَشْهَدُ احْتِرَامَ الطَّبِيعَةِ.",
+    "ro": "ʿAllamanā hādhā l-mashhadu ḥtirāma ṭ-ṭabīʿati."
    }
   ]
  },
  {
-  "title": "Avec un guide de l'île",
+  "title": "Invités dans une famille omanaise",
   "phrases": [
    {
-    "fr": "Pour la randonnée, on a fait appel à un guide local.",
-    "ja": "登山のために、地元のガイドさんを頼みました。",
-    "ro": "Tozan no tame ni, jimoto no gaido san o tanomimashita."
+    "fr": "Notre guide nous a invités à déjeuner chez ses parents.",
+    "ar": "دَعَانَا مُرْشِدُنَا إِلَى الْغَدَاءِ فِي بَيْتِ وَالِدَيْهِ.",
+    "ro": "Daʿānā murshidunā ilā l-ghadāʾi fī bayti wālidayhi."
    },
    {
-    "fr": "Il a grandi sur l'île et connaît chaque sentier.",
-    "ja": "島で生まれ育ったので、どの道もよく知っています。",
-    "ro": "Shima de umaresodatta node, dono michi mo yoku shitte imasu."
+    "fr": "On enlève ses chaussures avant d'entrer dans le salon.",
+    "ar": "نَخْلَعُ أَحْذِيَتَنَا قَبْلَ دُخُولِ الْمَجْلِسِ.",
+    "ro": "Nakhlaʿu aḥdhiyatanā qabla dukhūli l-majlisi."
    },
    {
-    "fr": "Il nous a appris à reconnaître les arbres à leur écorce.",
-    "ja": "樹皮で木を見分ける方法を教えてくれました。",
-    "ro": "Juhi de ki o miwakeru hōhō o oshiete kuremashita."
+    "fr": "Tout le monde s'assoit par terre, sur de beaux tapis.",
+    "ar": "يَجْلِسُ الْجَمِيعُ عَلَى الْأَرْضِ فَوْقَ سَجَّادٍ جَمِيلٍ.",
+    "ro": "Yajlisu l-jamīʿu ʿalā l-arḍi fawqa sajjādin jamīlin."
    },
    {
-    "fr": "Grâce à lui, on a remarqué des détails qu'on aurait manqués seuls.",
-    "ja": "彼のおかげで、自分たちでは見逃していた細かいところに気づけました。",
-    "ro": "Kare no okage de, jibuntachi de wa minogashite ita komakai tokoro ni kizukemashita."
+    "fr": "Le père de notre guide nous a accueillis chaleureusement.",
+    "ar": "رَحَّبَ بِنَا وَالِدُ مُرْشِدِنَا بِحَرَارَةٍ.",
+    "ro": "Raḥḥaba binā wālidu murshidinā bi-ḥarāratin."
    },
    {
-    "fr": "Il nous a laissés faire une pause à chaque point d'eau.",
-    "ja": "水場ごとに休憩させてくれました。",
-    "ro": "Mizuba goto ni kyūkei sasete kuremashita."
+    "fr": "Le café est servi avant le repas, dans de petites tasses.",
+    "ar": "تُقَدَّمُ الْقَهْوَةُ قَبْلَ الطَّعَامِ فِي فَنَاجِينَ صَغِيرَةٍ.",
+    "ro": "Tuqaddamu l-qahwatu qabla ṭ-ṭaʿāmi fī fanājīna ṣaghīratin."
    },
    {
-    "fr": "D'après lui, en montagne, le temps change en quelques minutes.",
-    "ja": "彼によると、山の天気は数分で変わるそうです。",
-    "ro": "Kare ni yoru to, yama no tenki wa sūfun de kawaru sō desu."
+    "fr": "Pour dire qu'on n'en veut plus, on secoue doucement la tasse.",
+    "ar": "لِكَيْ تَقُولَ إِنَّكَ اكْتَفَيْتَ، تَهُزُّ الْفِنْجَانَ بِلُطْفٍ.",
+    "ro": "Li-kay taqūla innaka ktafayta, tahuzzu l-finjāna bi-luṭfin."
    },
    {
-    "fr": "Il nous a demandé de ne rien laisser derrière nous.",
-    "ja": "何も残さないようにと言われました。",
-    "ro": "Nani mo nokosanai yō ni to iwaremashita."
+    "fr": "Le plat principal était un riz au poulet délicieusement parfumé.",
+    "ar": "كَانَ الطَّبَقُ الرَّئِيسِيُّ أَرُزًّا بِالدَّجَاجِ ذَا رَائِحَةٍ زَكِيَّةٍ.",
+    "ro": "Kāna ṭ-ṭabaqu r-raʾīsiyyu aruzzan bi-d-dajāji dhā rāʾiḥatin zakiyyatin."
    },
    {
-    "fr": "Même une peau de fruit peut nuire aux animaux.",
-    "ja": "果物の皮でさえ、動物に悪い影響を与えることがあります。",
-    "ro": "Kudamono no kawa de sae, dōbutsu ni warui eikyō o ataeru koto ga arimasu."
+    "fr": "La nourriture se mange avec la main droite.",
+    "ar": "يُؤْكَلُ الطَّعَامُ بِالْيَدِ الْيُمْنَى.",
+    "ro": "Yuʾkalu ṭ-ṭaʿāmu bi-l-yadi l-yumnā."
    },
    {
-    "fr": "À la fin, il nous a offert un verre de shōchū de l'île.",
-    "ja": "最後に、地元の焼酎をごちそうしてくれました。",
-    "ro": "Saigo ni, jimoto no shōchū o gochisō shite kuremashita."
+    "fr": "La maîtresse de maison insistait pour que nous mangions davantage.",
+    "ar": "كَانَتْ رَبَّةُ الْبَيْتِ تُلِحُّ عَلَيْنَا كَيْ نَأْكُلَ أَكْثَرَ.",
+    "ro": "Kānat rabbatu l-bayti tuliḥḥu ʿalaynā kay naʾkula akthara."
    },
    {
-    "fr": "Avec un bon guide, l'expérience devient tout autre.",
-    "ja": "いいガイドがいると、体験がまったく変わります。",
-    "ro": "Ii gaido ga iru to, taiken ga mattaku kawarimasu."
+    "fr": "En partant, on nous a offert un sac de dattes.",
+    "ar": "عِنْدَ رَحِيلِنَا، أُهْدِيَ إِلَيْنَا كِيسٌ مِنَ التَّمْرِ.",
+    "ro": "ʿInda raḥīlinā, uhdiya ilaynā kīsun mina t-tamri."
    }
   ]
  },
  {
-  "title": "Voyager de façon responsable",
+  "title": "Ensablés au milieu des dunes",
   "phrases": [
    {
-    "fr": "Dans certaines zones de Yakushima, le nombre de randonneurs est limité.",
-    "ja": "屋久島の一部では、入山者の数が制限されています。",
-    "ro": "Yakushima no ichibu de wa, nyūzansha no kazu ga seigen sarete imasu."
+    "fr": "Notre voiture s'est enlisée dans le sable mou.",
+    "ar": "عَلِقَتْ سَيَّارَتُنَا فِي الرَّمْلِ النَّاعِمِ.",
+    "ro": "ʿAliqat sayyāratunā fī r-ramli n-nāʿimi."
    },
    {
-    "fr": "Chaque randonneur verse une petite contribution pour protéger la forêt.",
-    "ja": "森を守るために、登山者は協力金を払います。",
-    "ro": "Mori o mamoru tame ni, tozansha wa kyōryokukin o haraimasu."
+    "fr": "Plus le chauffeur accélérait, plus les roues s'enfonçaient.",
+    "ar": "كُلَّمَا زَادَ السَّائِقُ السُّرْعَةَ، غَاصَتِ الْعَجَلَاتُ أَكْثَرَ.",
+    "ro": "Kullamā zāda s-sāʾiqu s-surʿata, ghāṣati l-ʿajalātu akthara."
    },
    {
-    "fr": "À Shirakawa-gō, les habitants souffrent parfois du trop grand nombre de touristes.",
-    "ja": "白川郷では、観光客が多すぎて住民が困ることもあります。",
-    "ro": "Shirakawagō de wa, kankōkyaku ga ōsugite jūmin ga komaru koto mo arimasu."
+    "fr": "Nous sommes tous descendus pour pousser la voiture.",
+    "ar": "نَزَلْنَا جَمِيعًا لِنَدْفَعَ السَّيَّارَةَ.",
+    "ro": "Nazalnā jamīʿan li-nadfaʿa s-sayyārata."
    },
    {
-    "fr": "Il ne faut pas entrer dans les maisons privées sans autorisation.",
-    "ja": "許可なく民家に入ってはいけません。",
-    "ro": "Kyoka naku minka ni haitte wa ikemasen."
+    "fr": "Nous avons creusé le sable devant les roues avec nos mains.",
+    "ar": "حَفَرْنَا الرَّمْلَ أَمَامَ الْعَجَلَاتِ بِأَيْدِينَا.",
+    "ro": "Ḥafarnā r-ramla amāma l-ʿajalāti bi-aydīnā."
    },
    {
-    "fr": "On essaie de voyager hors saison pour éviter la foule.",
-    "ja": "混雑を避けるために、オフシーズンに旅行するようにしています。",
-    "ro": "Konzatsu o sakeru tame ni, ofushīzun ni ryokō suru yō ni shite imasu."
+    "fr": "Le soleil tapait fort et il ne nous restait plus beaucoup d'eau.",
+    "ar": "كَانَتِ الشَّمْسُ حَارِقَةً، وَلَمْ يَبْقَ مَعَنَا مَاءٌ كَثِيرٌ.",
+    "ro": "Kānati sh-shamsu ḥāriqatan, wa-lam yabqa maʿanā māʾun kathīrun."
    },
    {
-    "fr": "Il y a peu de poubelles au Japon, alors on garde toujours ses déchets.",
-    "ja": "日本はゴミ箱が少ないので、ゴミはいつも持ち帰ります。",
-    "ro": "Nihon wa gomibako ga sukunai node, gomi wa itsumo mochikaerimasu."
+    "fr": "Au bout d'une heure, un berger est apparu avec son pick-up.",
+    "ar": "بَعْدَ سَاعَةٍ، ظَهَرَ رَاعٍ بِشَاحِنَتِهِ الصَّغِيرَةِ.",
+    "ro": "Baʿda sāʿatin, ẓahara rāʿin bi-shāḥinatihi ṣ-ṣaghīrati."
    },
    {
-    "fr": "Dormir dans une pension familiale fait vivre l'économie locale.",
-    "ja": "民宿に泊まると、地元の経済が潤います。",
-    "ro": "Minshuku ni tomaru to, jimoto no keizai ga uruoimasu."
+    "fr": "Il a sorti notre voiture du sable avec une corde.",
+    "ar": "أَخْرَجَ سَيَّارَتَنَا مِنَ الرَّمْلِ بِحَبْلٍ.",
+    "ro": "Akhraja sayyāratanā mina r-ramli bi-ḥablin."
    },
    {
-    "fr": "Acheter de l'artisanat local soutient aussi les artisans.",
-    "ja": "地元の工芸品を買うことも、職人さんの支えになります。",
-    "ro": "Jimoto no kōgeihin o kau koto mo, shokunin san no sasae ni narimasu."
+    "fr": "Il a refusé l'argent que nous lui proposions.",
+    "ar": "رَفَضَ الْمَالَ الَّذِي عَرَضْنَاهُ عَلَيْهِ.",
+    "ro": "Rafaḍa l-māla lladhī ʿaraḍnāhu ʿalayhi."
    },
    {
-    "fr": "Le train et le ferry pèsent bien moins sur l'environnement que l'avion.",
-    "ja": "電車やフェリーは、飛行機より環境への負担がずっと少ないです。",
-    "ro": "Densha ya ferī wa, hikōki yori kankyō e no futan ga zutto sukunai desu."
+    "fr": "Il nous a seulement demandé de boire un café avec lui.",
+    "ar": "طَلَبَ مِنَّا فَقَطْ أَنْ نَشْرَبَ مَعَهُ فِنْجَانَ قَهْوَةٍ.",
+    "ro": "Ṭalaba minnā faqaṭ an nashraba maʿahu finjāna qahwatin."
    },
    {
-    "fr": "Voyager lentement permet aussi de mieux comprendre un lieu.",
-    "ja": "ゆっくり旅をすると、その土地をもっと深く理解できます。",
-    "ro": "Yukkuri tabi o suru to, sono tochi o motto fukaku rikai dekimasu."
+    "fr": "Depuis ce jour, nous ne partons jamais sans pelle.",
+    "ar": "مُنْذُ ذَلِكَ الْيَوْمِ، لَا نُسَافِرُ أَبَدًا بِدُونِ مِجْرَفَةٍ.",
+    "ro": "Mundhu dhālika l-yawmi, lā nusāfiru abadan bi-dūni mijrafatin."
    }
   ]
  },
  {
-  "title": "Expliquer un imprévu",
+  "title": "Les récits de notre guide",
   "phrases": [
    {
-    "fr": "Excusez-moi, en fait, j'ai raté le dernier bus.",
-    "ja": "すみません、実は最終バスに乗り遅れたんです。",
-    "ro": "Sumimasen, jitsu wa saishū basu ni noriokureta n desu."
+    "fr": "Le guide nous a dit que la mer était calme aujourd'hui.",
+    "ar": "قَالَ لَنَا الْمُرْشِدُ إِنَّ الْبَحْرَ الْيَوْمَ هَادِئٌ.",
+    "ro": "Qāla lanā l-murshidu inna l-baḥra l-yawma hādiʾun."
    },
    {
-    "fr": "Qu'est-ce qui se passe ? Pourquoi le train est-il arrêté ?",
-    "ja": "どうしたんですか？どうして電車が止まっているんですか？",
-    "ro": "Dō shita n desu ka? Dōshite densha ga tomatte iru n desu ka?"
+    "fr": "Il a expliqué que les pêcheurs partent avant l'aube.",
+    "ar": "أَوْضَحَ أَنَّ الصَّيَّادِينَ يَخْرُجُونَ قَبْلَ الْفَجْرِ.",
+    "ro": "Awḍaḥa anna ṣ-ṣayyādīna yakhrujūna qabla l-fajri."
    },
    {
-    "fr": "Un arbre est tombé sur la voie à cause du vent.",
-    "ja": "風で木が線路に倒れたんです。",
-    "ro": "Kaze de ki ga senro ni taoreta n desu."
+    "fr": "Sa grand-mère lui disait que le désert parle à ceux qui l'écoutent.",
+    "ar": "كَانَتْ جَدَّتُهُ تَقُولُ لَهُ إِنَّ الصَّحْرَاءَ تُكَلِّمُ مَنْ يُصْغِي إِلَيْهَا.",
+    "ro": "Kānat jaddatuhu taqūlu lahu inna ṣ-ṣaḥrāʾa tukallimu man yuṣghī ilayhā."
    },
    {
-    "fr": "Si je suis en retard, c'est que le ferry a été annulé.",
-    "ja": "フェリーが欠航になったので、遅れたんです。",
-    "ro": "Ferī ga kekkō ni natta node, okureta n desu."
+    "fr": "Il a dit que l'électricité n'était arrivée dans son village qu'il y a trente ans.",
+    "ar": "قَالَ إِنَّ الْكَهْرَبَاءَ لَمْ تَصِلْ إِلَى قَرْيَتِهِ إِلَّا قَبْلَ ثَلَاثِينَ سَنَةً.",
+    "ro": "Qāla inna l-kahrabāʾa lam taṣil ilā qaryatihi illā qabla thalāthīna sanatan."
    },
    {
-    "fr": "Je cherche une pharmacie, ma fille a de la fièvre.",
-    "ja": "娘が熱を出したので、薬局を探しているんです。",
-    "ro": "Musume ga netsu o dashita node, yakkyoku o sagashite iru n desu."
+    "fr": "Il dit que la meilleure saison pour venir, c'est l'hiver.",
+    "ar": "يَقُولُ إِنَّ أَفْضَلَ مَوْسِمٍ لِلزِّيَارَةِ هُوَ الشِّتَاءُ.",
+    "ro": "Yaqūlu inna afḍala mawsimin li-z-ziyārati huwa sh-shitāʾu."
    },
    {
-    "fr": "Tu ne manges pas ? Tu n'as pas faim ?",
-    "ja": "食べないの？お腹すいてないの？",
-    "ro": "Tabenai no? Onaka suitenai no?"
+    "fr": "Une touriste lui a demandé s'il avait déjà vu un léopard.",
+    "ar": "سَأَلَتْهُ سَائِحَةٌ هَلْ رَأَى نَمِرًا مِنْ قَبْلُ.",
+    "ro": "Saʾalathu sāʾiḥatun hal raʾā namiran min qablu."
    },
    {
-    "fr": "Non, c'est que j'ai trop mangé au marché ce matin.",
-    "ja": "ううん、今朝市場で食べすぎちゃったんだ。",
-    "ro": "Uun, kesa ichiba de tabesugichatta n da."
+    "fr": "Il a répondu qu'il n'en avait vu qu'un seul, il y a très longtemps.",
+    "ar": "أَجَابَ بِأَنَّهُ رَأَى نَمِرًا وَاحِدًا فَقَطْ مُنْذُ زَمَنٍ بَعِيدٍ.",
+    "ro": "Ajāba bi-annahu raʾā namiran wāḥidan faqaṭ mundhu zamanin baʿīdin."
    },
    {
-    "fr": "En fait, c'est mon premier voyage seul au Japon.",
-    "ja": "実は、日本を一人で旅するのは初めてなんです。",
-    "ro": "Jitsu wa, Nihon o hitori de tabi suru no wa hajimete na n desu."
+    "fr": "Il nous a dit que le soleil était ici plus dangereux que nous le pensions.",
+    "ar": "قَالَ لَنَا إِنَّ الشَّمْسَ هُنَا أَخْطَرُ مِمَّا نَظُنُّ.",
+    "ro": "Qāla lanā inna sh-shamsa hunā akhṭaru mimmā naẓunnu."
    },
    {
-    "fr": "Je voudrais modifier ma réservation, c'est possible ?",
-    "ja": "予約を変更したいんですが、できますか？",
-    "ro": "Yoyaku o henkō shitai n desu ga, dekimasu ka?"
+    "fr": "Les anciens disent que le khareef était plus fort autrefois.",
+    "ar": "يَقُولُ الْكِبَارُ إِنَّ الْخَرِيفَ كَانَ أَقْوَى فِي الْمَاضِي.",
+    "ro": "Yaqūlu l-kibāru inna l-kharīfa kāna aqwā fī l-māḍī."
    },
    {
-    "fr": "Je ne trouve plus mon passeport, que dois-je faire ?",
-    "ja": "パスポートが見つからないんですが、どうすればいいでしょうか？",
-    "ro": "Pasupōto ga mitsukaranai n desu ga, dō sureba ii deshō ka?"
+    "fr": "Je lui ai dit que nous reviendrions avec nos enfants.",
+    "ar": "قُلْتُ لَهُ إِنَّنَا سَنَعُودُ مَعَ أَوْلَادِنَا.",
+    "ro": "Qultu lahu innanā sa-naʿūdu maʿa awlādinā."
    }
   ],
   "tip": {
-   "title": "« -n desu » : expliquer, donner le contexte",
-   "example": "Un arbre est tombé sur la voie à cause du vent. — 風で木が線路に<b>倒れたんです</b>。",
-   "exampleRo": "Kaze de ki ga senro ni taoreta n desu.",
-   "lit": "vent [moyen] · arbre [sujet] · voie ferrée [direction] · être tombé · c'est que · être (poli)",
-   "body": "En ajoutant « n desu » après un verbe ou un adjectif à la forme neutre, on présente sa phrase comme une explication, un peu comme « c'est que » ou « en fait » en français. « Taoreta n desu » se dit littéralement : être tombé, c'est que, être, ce qui sonne comme c'est qu'un arbre est tombé. Les Japonais l'utilisent sans cesse pour donner le contexte, par exemple « jitsu wa noriokureta n desu », en fait, j'ai raté le bus. En question, « dō shita n desu ka » demande ce qui se passe avec plus d'intérêt qu'une question neutre. Entre amis, on dit simplement « n da » ou « no ». Retenez que sans « n desu », une explication paraît souvent sèche, presque froide."
+   "title": "Rapporter des paroles : « qala inna »",
+   "example": "Le guide nous a dit que la mer était calme aujourd'hui. — <b>قَالَ</b> لَنَا الْمُرْشِدُ <b>إِنَّ</b> الْبَحْرَ الْيَوْمَ هَادِئٌ.",
+   "exampleRo": "Qāla lanā l-murshidu inna l-baḥra l-yawma hādiʾun.",
+   "lit": "a dit · à-nous · [le] guide · [que] · [la] mer · [le] jour · calme",
+   "body": "Pour rapporter les paroles de quelqu'un, l'arabe utilise le verbe « qala », il a dit, suivi de « inna », avec un i, qui joue le rôle de notre que. Après « inna », le nom se met à l'accusatif : « inna al-bahra », que la mer. Attention, avec les autres verbes comme « awdaha », il a expliqué, on emploie « anna », avec un a. Autre différence avec le français : pas de concordance des temps. On garde le temps des paroles d'origine, donc « hadiun », calme, au présent, là où le français dit était. Exemple : « qultu lahu innana sa-naudu », je lui ai dit que nous reviendrions. Astuce : « qala » appelle « inna », les deux commencent par le même souffle de parole."
   }
  },
  {
-  "title": "De retour à Tokyo",
+  "title": "Voyager sans abîmer",
   "phrases": [
    {
-    "fr": "De retour à Tokyo, on a du mal à quitter le rythme des îles.",
-    "ja": "東京に戻っても、島のリズムからなかなか抜けられません。",
-    "ro": "Tōkyō ni modotte mo, shima no rizumu kara nakanaka nukeraremasen."
+    "fr": "L'eau est rare ici, il faut donc l'économiser.",
+    "ar": "الْمَاءُ نَادِرٌ هُنَا، لِذَلِكَ يَجِبُ أَنْ نَقْتَصِدَ فِيهِ.",
+    "ro": "Al-māʾu nādirun hunā, li-dhālika yajibu an naqtaṣida fīhi."
    },
    {
-    "fr": "Mes collègues m'ont demandé quel endroit j'avais préféré.",
-    "ja": "同僚に、どこが一番よかったかと聞かれました。",
-    "ro": "Dōryō ni, doko ga ichiban yokatta ka to kikaremashita."
+    "fr": "Nous nous douchons rapidement, même à l'hôtel.",
+    "ar": "نَسْتَحِمُّ بِسُرْعَةٍ حَتَّى فِي الْفُنْدُقِ.",
+    "ro": "Nastaḥimmu bi-surʿatin ḥattā fī l-funduqi."
    },
    {
-    "fr": "C'est difficile de choisir entre la forêt et la mer.",
-    "ja": "森と海のどちらかを選ぶのは難しいです。",
-    "ro": "Mori to umi no dochira ka o erabu no wa muzukashii desu."
+    "fr": "Les voitures ne doivent pas sortir des pistes.",
+    "ar": "يَجِبُ أَلَّا تَخْرُجَ السَّيَّارَاتُ عَنِ الْمَسَارَاتِ.",
+    "ro": "Yajibu allā takhruja s-sayyārātu ʿani l-masārāti."
    },
    {
-    "fr": "J'ai rapporté des gâteaux de Kanazawa pour tout le bureau.",
-    "ja": "職場のみんなに金沢のお菓子を買ってきました。",
-    "ro": "Shokuba no minna ni Kanazawa no okashi o katte kimashita."
+    "fr": "Les traces de pneus abîment le désert pendant des années.",
+    "ar": "تُفْسِدُ آثَارُ الْعَجَلَاتِ الصَّحْرَاءَ لِسَنَوَاتٍ.",
+    "ro": "Tufsidu āthāru l-ʿajalāti ṣ-ṣaḥrāʾa li-sanawātin."
    },
    {
-    "fr": "Au Japon, rapporter des souvenirs à ses collègues est presque une obligation.",
-    "ja": "日本では、同僚へのお土産はほとんど義務のようなものです。",
-    "ro": "Nihon de wa, dōryō e no omiyage wa hotondo gimu no yō na mono desu."
+    "fr": "Il vaut mieux demander la permission avant de photographier quelqu'un.",
+    "ar": "مِنَ الْأَفْضَلِ أَنْ تَسْتَأْذِنَ قَبْلَ تَصْوِيرِ أَيِّ شَخْصٍ.",
+    "ro": "Mina l-afḍali an tastaʾdhina qabla taṣwīri ayyi shakhṣin."
    },
    {
-    "fr": "Ce week-end, j'ai trié des centaines de photos.",
-    "ja": "週末に何百枚もの写真を整理しました。",
-    "ro": "Shūmatsu ni nanbyakumai mo no shashin o seiri shimashita."
+    "fr": "Nous achetons l'artisanat directement aux artisans.",
+    "ar": "نَشْتَرِي الْمَصْنُوعَاتِ الْيَدَوِيَّةَ مِنَ الْحِرَفِيِّينَ مُبَاشَرَةً.",
+    "ro": "Nashtarī l-maṣnūʿāti l-yadawiyyata mina l-ḥirafiyyīna mubāsharatan."
    },
    {
-    "fr": "Celles de Shirakawa-gō sous la neige sont mes préférées.",
-    "ja": "雪の白川郷の写真が一番のお気に入りです。",
-    "ro": "Yuki no Shirakawagō no shashin ga ichiban no okiniiri desu."
+    "fr": "Il est interdit de ramasser des coquillages sur les plages protégées.",
+    "ar": "يُمْنَعُ جَمْعُ الْأَصْدَافِ مِنَ الشَّوَاطِئِ الْمَحْمِيَّةِ.",
+    "ro": "Yumnaʿu jamʿu l-aṣdāfi mina sh-shawāṭiʾi l-maḥmiyyati."
    },
    {
-    "fr": "Ce voyage m'a appris à prendre mon temps.",
-    "ja": "この旅で、ゆっくり過ごすことを覚えました。",
-    "ro": "Kono tabi de, yukkuri sugosu koto o oboemashita."
+    "fr": "Choisir un guide local, c'est aussi soutenir l'économie de la région.",
+    "ar": "اخْتِيَارُ مُرْشِدٍ مَحَلِّيٍّ هُوَ أَيْضًا دَعْمٌ لِاقْتِصَادِ الْمِنْطَقَةِ.",
+    "ro": "Ikhtiyāru murshidin maḥalliyyin huwa ayḍan daʿmun li-qtiṣādi l-minṭaqati."
    },
    {
-    "fr": "Je rêve déjà de faire tout le pèlerinage de Shikoku à pied.",
-    "ja": "もう四国遍路を全部歩くことを夢見ています。",
-    "ro": "Mō Shikoku henro o zenbu aruku koto o yumemite imasu."
+    "fr": "Les gens apprécient beaucoup qu'on essaie de parler arabe.",
+    "ar": "يُقَدِّرُ النَّاسُ كَثِيرًا أَنْ نُحَاوِلَ التَّحَدُّثَ بِالْعَرَبِيَّةِ.",
+    "ro": "Yuqaddiru n-nāsu kathīran an nuḥāwila t-taḥaddutha bi-l-ʿarabiyyati."
    },
    {
-    "fr": "Pour cela, il me faudra au moins un an de préparation.",
-    "ja": "そのために、少なくとも一年は準備しないといけません。",
-    "ro": "Sono tame ni, sukunaku tomo ichinen wa junbi shinai to ikemasen."
+    "fr": "Nous voulons laisser les lieux comme nous les avons trouvés.",
+    "ar": "نُرِيدُ أَنْ نَتْرُكَ الْأَمَاكِنَ كَمَا وَجَدْنَاهَا.",
+    "ro": "Nurīdu an natruka l-amākina kamā wajadnāhā."
    }
   ]
  },
  {
-  "title": "Fin du module : un bilan",
+  "title": "Fin du module : un bilan de voyage",
   "phrases": [
    {
-    "fr": "Ce module nous a menés d'Okinawa jusqu'aux montagnes de Hida.",
-    "ja": "この単元で、沖縄から飛騨の山まで旅しました。",
-    "ro": "Kono tangen de, Okinawa kara Hida no yama made tabi shimashita."
+    "fr": "Ce module nous a emmenés d'Oman jusqu'au Qatar.",
+    "ar": "أَخَذَتْنَا هَذِهِ الْوَحْدَةُ مِنْ عُمَانَ إِلَى قَطَرَ.",
+    "ro": "Akhadhatnā hādhihi l-waḥdatu min ʿUmāna ilā Qaṭara."
    },
    {
-    "fr": "On sait désormais décrire un lieu avec des propositions relatives.",
-    "ja": "今では、関係節を使って場所を説明できます。",
-    "ro": "Ima de wa, kankeisetsu o tsukatte basho o setsumei dekimasu."
+    "fr": "Nous avons traversé des déserts, des montagnes et des wadis.",
+    "ar": "عَبَرْنَا صَحَارِيَ وَجِبَالًا وَوِدْيَانًا.",
+    "ro": "ʿAbarnā ṣaḥāriya wa-jibālan wa-widyānan."
    },
    {
-    "fr": "Avec « tame ni » et « yō ni », on sait exprimer un but.",
-    "ja": "「ために」と「ように」で、目的を説明できるようになりました。",
-    "ro": "« Tame ni » to « yō ni » de, mokuteki o setsumei dekiru yō ni narimashita."
+    "fr": "Nous avons plongé, navigué et dormi sous les étoiles.",
+    "ar": "غُصْنَا وَأَبْحَرْنَا وَنِمْنَا تَحْتَ النُّجُومِ.",
+    "ro": "Ghuṣnā wa-abḥarnā wa-nimnā taḥta n-nujūmi."
    },
    {
-    "fr": "Grâce à « te oku », on peut dire qu'on prépare les choses à l'avance.",
-    "ja": "「ておく」で、前もって準備することが言えます。",
-    "ro": "« Te oku » de, maemotte junbi suru koto ga iemasu."
+    "fr": "Nous savons maintenant exprimer un but en arabe.",
+    "ar": "صِرْنَا نَعْرِفُ كَيْفَ نُعَبِّرُ عَنِ الْهَدَفِ بِالْعَرَبِيَّةِ.",
+    "ro": "Ṣirnā naʿrifu kayfa nuʿabbiru ʿani l-hadafi bi-l-ʿarabiyyati."
    },
    {
-    "fr": "« Hazu desu » exprime ce qui devrait normalement arriver.",
-    "ja": "「はずです」で、当然そうなるはずのことが言えます。",
-    "ro": "« Hazu desu » de, tōzen sō naru hazu no koto ga iemasu."
+    "fr": "Nous savons décrire l'état d'une personne pendant qu'elle agit.",
+    "ar": "نَسْتَطِيعُ أَنْ نَصِفَ حَالَ الشَّخْصِ وَهُوَ يَفْعَلُ شَيْئًا.",
+    "ro": "Nastaṭīʿu an naṣifa ḥāla sh-shakhṣi wa-huwa yafʿalu shayʾan."
    },
    {
-    "fr": "Et avec « n desu », nos explications sonnent bien plus naturelles.",
-    "ja": "そして「んです」を使うと、説明がもっと自然になります。",
-    "ro": "Soshite « n desu » o tsukau to, setsumei ga motto shizen ni narimasu."
+    "fr": "Nous pouvons rapporter ce que les autres nous ont dit.",
+    "ar": "نَسْتَطِيعُ أَنْ نَنْقُلَ مَا قَالَهُ لَنَا الْآخَرُونَ.",
+    "ro": "Nastaṭīʿu an nanqula mā qālahu lanā l-ākharūna."
    },
    {
-    "fr": "Le japonais du voyage ne nous fait presque plus peur.",
-    "ja": "旅行の日本語は、もうほとんど怖くありません。",
-    "ro": "Ryokō no nihongo wa, mō hotondo kowaku arimasen."
+    "fr": "Certains souvenirs sont si proches, comme s'ils dataient d'hier.",
+    "ar": "بَعْضُ الذِّكْرَيَاتِ قَرِيبَةٌ جِدًّا، كَأَنَّهَا حَدَثَتْ أَمْسِ.",
+    "ro": "Baʿḍu dh-dhikrayāti qarībatun jiddan, ka-annahā ḥadathat amsi."
    },
    {
-    "fr": "Chaque phrase apprise ici nous rapproche des gens que l'on rencontre.",
-    "ja": "ここで覚えた一文一文が、出会う人との距離を縮めてくれます。",
-    "ro": "Koko de oboeta ichibun ichibun ga, deau hito to no kyori o chijimete kuremasu."
+    "fr": "Nous pensons encore à la gentillesse des gens rencontrés.",
+    "ar": "مَا زِلْنَا نُفَكِّرُ فِي لُطْفِ النَّاسِ الَّذِينَ قَابَلْنَاهُمْ.",
+    "ro": "Mā zilnā nufakkiru fī luṭfi n-nāsi lladhīna qābalnāhum."
    },
    {
-    "fr": "Le prochain module sera consacré à des conversations plus personnelles.",
-    "ja": "次の単元では、もっと個人的な会話を学びます。",
-    "ro": "Tsugi no tangen de wa, motto kojinteki na kaiwa o manabimasu."
+    "fr": "Notre arabe a beaucoup progressé pendant ce voyage.",
+    "ar": "تَحَسَّنَتْ لُغَتُنَا الْعَرَبِيَّةُ كَثِيرًا خِلَالَ هَذِهِ الرِّحْلَةِ.",
+    "ro": "Taḥassanat lughatunā l-ʿarabiyyatu kathīran khilāla hādhihi r-riḥlati."
    },
    {
-    "fr": "Bravo pour ce beau voyage, et à très vite pour la suite !",
-    "ja": "お疲れさまでした。また次回お会いしましょう！",
-    "ro": "Otsukaresama deshita. Mata jikai oai shimashō!"
+    "fr": "Nous sommes prêts pour de nouvelles conversations en arabe.",
+    "ar": "نَحْنُ مُسْتَعِدُّونَ الْآنَ لِمُحَادَثَاتٍ جَدِيدَةٍ بِالْعَرَبِيَّةِ.",
+    "ro": "Naḥnu mustaʿiddūna l-āna li-muḥādathātin jadīdatin bi-l-ʿarabiyyati."
    }
   ]
  }
@@ -9893,1082 +9893,1082 @@ const level3Module2Lessons = [
 
 const level3Module3Lessons = [
  {
-  "title": "Le cœur qui bat : émotions et onomatopées",
+  "title": "Les images cachées dans les mots",
   "phrases": [
    {
-    "fr": "Avant l'entretien, mon cœur battait à tout rompre.",
-    "ja": "面接の前、心臓がドキドキしていました。",
-    "ro": "Mensetsu no mae, shinzō ga dokidoki shite imashita."
+    "fr": "Les expressions idiomatiques donnent à l'arabe sa saveur particulière.",
+    "ar": "تُعْطِي التَّعَابِيرُ الِاصْطِلَاحِيَّةُ اللُّغَةَ الْعَرَبِيَّةَ نَكْهَتَهَا الْخَاصَّةَ.",
+    "ro": "Tuʿṭī at-taʿābīru al-iṣṭilāḥiyyatu al-lughata al-ʿarabiyyata nakhatahā al-khāṣṣata."
    },
    {
-    "fr": "Mon collègue parle le français couramment, c'est impressionnant.",
-    "ja": "同僚はフランス語がペラペラで、すごいです。",
-    "ro": "Dōryō wa furansugo ga perapera de, sugoi desu."
+    "fr": "Quand on demande un service, les gens répondent souvent « sur ma tête ».",
+    "ar": "عِنْدَمَا نَطْلُبُ خِدْمَةً، يُجِيبُ النَّاسُ غَالِبًا: «عَلَى رَأْسِي».",
+    "ro": "ʿIndamā naṭlubu khidmatan, yujību an-nāsu ghāliban: «ʿalā raʾsī»."
    },
    {
-    "fr": "Le dimanche, je traîne à la maison sans rien faire.",
-    "ja": "日曜日は家でゴロゴロしています。",
-    "ro": "Nichiyōbi wa ie de gorogoro shite imasu."
+    "fr": "Cela veut dire : avec grand plaisir, je m'en occupe.",
+    "ar": "وَهَذَا يَعْنِي: بِكُلِّ سُرُورٍ، سَأَهْتَمُّ بِالْأَمْرِ.",
+    "ro": "Wa-hādhā yaʿnī: bi-kulli surūrin, saʾahtammu bi-l-amri."
    },
    {
-    "fr": "Le voyage du mois prochain me rend tout excité.",
-    "ja": "来月の旅行が楽しみで、ワクワクしています。",
-    "ro": "Raigetsu no ryokō ga tanoshimi de, wakuwaku shite imasu."
+    "fr": "Mon voisin est « léger d'ombre » : il a beaucoup d'humour.",
+    "ar": "جَارِي «خَفِيفُ الظِّلِّ»: لَدَيْهِ رُوحُ دُعَابَةٍ كَبِيرَةٌ.",
+    "ro": "Jārī «khafīfu aẓ-ẓilli»: ladayhi rūḥu duʿābatin kabīratun."
    },
    {
-    "fr": "Le train n'arrivait pas et je commençais à m'énerver.",
-    "ja": "電車が来なくて、イライラしてきました。",
-    "ro": "Densha ga konakute, iraira shite kimashita."
+    "fr": "J'attends ta visite avec impatience.",
+    "ar": "أَنْتَظِرُ زِيَارَتَكَ بِفَارِغِ الصَّبْرِ.",
+    "ro": "Antaẓiru ziyārataka bi-fārighi aṣ-ṣabri."
    },
    {
-    "fr": "En sortant du bain, j'ai la peau toute douce.",
-    "ja": "お風呂上がりで、肌がすべすべです。",
-    "ro": "Ofuro agari de, hada ga subesube desu."
+    "fr": "Tout a changé du jour au lendemain.",
+    "ar": "تَغَيَّرَ كُلُّ شَيْءٍ بَيْنَ لَيْلَةٍ وَضُحَاهَا.",
+    "ro": "Taghayyara kullu shayʾin bayna laylatin wa-ḍuḥāhā."
    },
    {
-    "fr": "Devant le feu d'artifice, les yeux de l'enfant brillaient.",
-    "ja": "花火を見て、子供の目がキラキラ輝いていました。",
-    "ro": "Hanabi o mite, kodomo no me ga kirakira kagayaite imashita."
+    "fr": "Les préparatifs du festival battent leur plein.",
+    "ar": "تَجْرِي اسْتِعْدَادَاتُ الْمِهْرَجَانِ عَلَى قَدَمٍ وَسَاقٍ.",
+    "ro": "Tajrī istiʿdādātu al-mihrajāni ʿalā qadamin wa-sāqin."
    },
    {
-    "fr": "Je n'ai rien mangé depuis ce matin, je meurs de faim.",
-    "ja": "朝から何も食べていないので、お腹がペコペコです。",
-    "ro": "Asa kara nani mo tabete inai node, onaka ga pekopeko desu."
+    "fr": "Avec une seule visite, j'ai fait d'une pierre deux coups.",
+    "ar": "بِزِيَارَةٍ وَاحِدَةٍ، ضَرَبْتُ عُصْفُورَيْنِ بِحَجَرٍ وَاحِدٍ.",
+    "ro": "Bi-ziyāratin wāḥidatin, ḍarabtu ʿuṣfūrayni bi-ḥajarin wāḥidin."
    },
    {
-    "fr": "Il pleut des cordes sur Tokyo depuis ce matin.",
-    "ja": "東京は朝から雨がザーザー降っています。",
-    "ro": "Tōkyō wa asa kara ame ga zāzā futte imasu."
+    "fr": "Elle était sur des charbons ardents avant ses résultats.",
+    "ar": "كَانَتْ عَلَى أَحَرَّ مِنَ الْجَمْرِ قَبْلَ نَتَائِجِهَا.",
+    "ro": "Kānat ʿalā aḥarra mina al-jamri qabla natāʾijihā."
    },
    {
-    "fr": "Grâce aux onomatopées, le japonais paraît vraiment vivant.",
-    "ja": "オノマトペのおかげで、日本語はとても生き生きしています。",
-    "ro": "Onomatope no okage de, nihongo wa totemo ikiiki shite imasu."
+    "fr": "Ces expressions ne se traduisent jamais mot à mot.",
+    "ar": "لَا تُتَرْجَمُ هَذِهِ التَّعَابِيرُ حَرْفِيًّا أَبَدًا.",
+    "ro": "Lā tutarjamu hādhihi at-taʿābīru ḥarfiyyan abadan."
    }
   ],
   "tip": {
-   "title": "Les onomatopées japonaises : doki doki, pera pera, goro goro",
-   "example": "Le dimanche, je traîne à la maison sans rien faire. — 日曜日は家で<b>ゴロゴロ</b>しています。",
-   "exampleRo": "Nichiyōbi wa ie de gorogoro shite imasu.",
-   "lit": "dimanche · [thème] · maison · [lieu] · goro goro (se prélasser) · faire, être en train (poli)",
-   "body": "Le japonais adore les onomatopées, bien plus que le français, et elles ne servent pas seulement à imiter des bruits : elles décrivent aussi des états et des émotions. « Doki doki » évoque le cœur qui bat d'émotion, « pera pera » une parole fluide, et « goro goro » le fait de se prélasser sans rien faire. On les emploie très souvent avec le verbe « suru » (faire) : « gorogoro shite imasu » se dit littéralement goro goro, faire, être en train, c'est-à-dire « je traîne ». Vous entendrez aussi « wakuwaku suru » pour l'impatience joyeuse et « iraira suru » pour l'agacement. Astuce : prononcez-les à voix haute, leur son vous aide à sentir leur sens."
+   "title": "Les expressions idiomatiques de l'arabe",
+   "example": "Tout a changé du jour au lendemain. — تَغَيَّرَ كُلُّ شَيْءٍ <b>بَيْنَ لَيْلَةٍ وَضُحَاهَا</b>.",
+   "exampleRo": "Taghayyara kullu shayʾin bayna laylatin wa-ḍuḥāhā.",
+   "lit": "a-changé · tout · chose · entre · nuit · et-sa-matinée",
+   "body": "Comme le français, l'arabe adore parler en images. « Bayna laylatin wa duhaha » se dit littéralement : entre une nuit et sa matinée ; nous dirions du jour au lendemain. Pour accepter un service avec plaisir, on répond « ala rassi », sur ma tête, et une personne drôle est « khafifu z-zilli », légère d'ombre. Quand des préparatifs battent leur plein, ils avancent « ala qadamin wa saq », sur pied et sur jambe. Ces expressions ne se traduisent jamais mot à mot : apprenez-les comme des blocs, avec leur petite image, et elles resteront gravées."
   }
  },
  {
-  "title": "Travail et équilibre de vie",
+  "title": "L'arabe et ses dialectes",
   "phrases": [
    {
-    "fr": "Au Japon, beaucoup de gens font encore des heures supplémentaires tous les soirs.",
-    "ja": "日本では、今でも毎晩残業する人が多いです。",
-    "ro": "Nihon de wa, ima demo maiban zangyō suru hito ga ōi desu."
+    "fr": "Chaque pays arabe possède son propre dialecte.",
+    "ar": "لِكُلِّ بَلَدٍ عَرَبِيٍّ لَهْجَتُهُ الْخَاصَّةُ.",
+    "ro": "Li-kulli baladin ʿarabiyyin lahjatuhu al-khāṣṣatu."
    },
    {
-    "fr": "Pour certains, rentrer après le dernier train n'a rien d'exceptionnel.",
-    "ja": "終電の後に帰るのが珍しくない人もいます。",
-    "ro": "Shūden no ato ni kaeru no ga mezurashiku nai hito mo imasu."
+    "fr": "Un Marocain et un Irakien ne se comprennent pas toujours facilement.",
+    "ar": "لَا يَتَفَاهَمُ الْمَغْرِبِيُّ وَالْعِرَاقِيُّ دَائِمًا بِسُهُولَةٍ.",
+    "ro": "Lā yatafāhamu al-maghribiyyu wa-l-ʿirāqiyyu dāʾiman bi-suhūlatin."
    },
    {
-    "fr": "On parle de plus en plus d'équilibre entre travail et vie privée.",
-    "ja": "ワークライフバランスについて話すことが増えてきました。",
-    "ro": "Wāku raifu baransu ni tsuite hanasu koto ga fuete kimashita."
+    "fr": "C'est pourquoi l'arabe standard reste la langue commune.",
+    "ar": "لِذَلِكَ تَبْقَى الْفُصْحَى اللُّغَةَ الْمُشْتَرَكَةَ.",
+    "ro": "Li-dhālika tabqā al-fuṣḥā al-lughata al-mushtarakata."
    },
    {
-    "fr": "Mon entreprise a enfin accepté le télétravail deux jours par semaine.",
-    "ja": "うちの会社は、やっと週に二日の在宅勤務を認めてくれました。",
-    "ro": "Uchi no kaisha wa, yatto shū ni futsuka no zaitaku kinmu o mitomete kuremashita."
+    "fr": "On l'entend aux informations et on la lit dans les journaux.",
+    "ar": "نَسْمَعُهَا فِي نَشَرَاتِ الْأَخْبَارِ وَنَقْرَؤُهَا فِي الصُّحُفِ.",
+    "ro": "Nasmaʿuhā fī nasharāti al-akhbāri wa-naqraʾuhā fī aṣ-ṣuḥufi."
    },
    {
-    "fr": "Dans certains bureaux, prendre tous ses congés payés reste mal vu.",
-    "ja": "有給休暇を全部取るのを、まだ嫌がる職場もあります。",
-    "ro": "Yūkyū kyūka o zenbu toru no o, mada iyagaru shokuba mo arimasu."
+    "fr": "À la maison, les familles parlent généralement en dialecte.",
+    "ar": "فِي الْبَيْتِ، تَتَحَدَّثُ الْعَائِلَاتُ بِاللَّهْجَةِ عَادَةً.",
+    "ro": "Fī al-bayti, tataḥaddathu al-ʿāʾilātu bi-l-lahjati ʿādatan."
    },
    {
-    "fr": "Le mot « karōshi » désigne la mort causée par l'excès de travail.",
-    "ja": "「過労死」という言葉は、働きすぎによる死を意味します。",
-    "ro": "\"Karōshi\" to iu kotoba wa, hatarakisugi ni yoru shi o imi shimasu."
+    "fr": "Le dialecte égyptien est compris presque partout grâce au cinéma.",
+    "ar": "تُفْهَمُ اللَّهْجَةُ الْمِصْرِيَّةُ فِي كُلِّ مَكَانٍ تَقْرِيبًا بِفَضْلِ السِّينِمَا.",
+    "ro": "Tufhamu al-lahjatu al-miṣriyyatu fī kulli makānin taqrīban bi-faḍli as-sīnimā."
    },
    {
-    "fr": "Même avec un salaire plus bas, je veux du temps pour ma famille.",
-    "ja": "給料が少なくても、家族との時間がほしいです。",
-    "ro": "Kyūryō ga sukunakute mo, kazoku to no jikan ga hoshii desu."
+    "fr": "J'aimerais apprendre un dialecte après l'arabe standard.",
+    "ar": "أَوَدُّ أَنْ أَتَعَلَّمَ لَهْجَةً بَعْدَ الْفُصْحَى.",
+    "ro": "Awaddu an ataʿallama lahjatan baʿda al-fuṣḥā."
    },
    {
-    "fr": "Les jeunes n'acceptent plus de tout sacrifier pour leur entreprise.",
-    "ja": "今の若者は、会社のためにすべてを犠牲にしなくなりました。",
-    "ro": "Ima no wakamono wa, kaisha no tame ni subete o gisei ni shinaku narimashita."
+    "fr": "Les dialectes du Maghreb contiennent beaucoup de mots berbères et français.",
+    "ar": "تَحْتَوِي لَهَجَاتُ الْمَغْرِبِ الْعَرَبِيِّ عَلَى كَلِمَاتٍ أَمَازِيغِيَّةٍ وَفَرَنْسِيَّةٍ كَثِيرَةٍ.",
+    "ro": "Taḥtawī lahajātu al-maghribi al-ʿarabiyyi ʿalā kalimātin amāzīghiyyatin wa-faransiyyatin kathīratin."
    },
    {
-    "fr": "Personne ne devrait culpabiliser de quitter le bureau à l'heure.",
-    "ja": "定時に帰ることに、罪悪感を持つ必要はないはずです。",
-    "ro": "Teiji ni kaeru koto ni, zaiakukan o motsu hitsuyō wa nai hazu desu."
+    "fr": "L'arabe standard m'ouvre les portes de tout le monde arabe.",
+    "ar": "تَفْتَحُ لِيَ الْفُصْحَى أَبْوَابَ الْعَالَمِ الْعَرَبِيِّ كُلِّهِ.",
+    "ro": "Taftaḥu liya al-fuṣḥā abwāba al-ʿālami al-ʿarabiyyi kullihi."
    },
    {
-    "fr": "À ton avis, on vit pour travailler ou on travaille pour vivre ?",
-    "ja": "働くために生きるのか、生きるために働くのか、どう思う？",
-    "ro": "Hataraku tame ni ikiru no ka, ikiru tame ni hataraku no ka, dō omou?"
+    "fr": "Les deux formes de la langue vivent côte à côte depuis des siècles.",
+    "ar": "يَعِيشُ شَكْلَا اللُّغَةِ جَنْبًا إِلَى جَنْبٍ مُنْذُ قُرُونٍ.",
+    "ro": "Yaʿīshu shaklā al-lughati janban ilā janbin mundhu qurūnin."
    }
   ]
  },
  {
-  "title": "Les petites formules du quotidien",
+  "title": "La poésie, mémoire des Arabes",
   "phrases": [
    {
-    "fr": "Je m'appelle Yamada et je commence aujourd'hui ; ravi de travailler avec vous.",
-    "ja": "今日から入りました山田です。どうぞよろしくお願いいたします。",
-    "ro": "Kyō kara hairimashita Yamada desu. Dōzo yoroshiku onegai itashimasu."
+    "fr": "On dit que la poésie est le registre des Arabes.",
+    "ar": "يُقَالُ إِنَّ الشِّعْرَ دِيوَانُ الْعَرَبِ.",
+    "ro": "Yuqālu inna ash-shiʿra dīwānu al-ʿarabi."
    },
    {
-    "fr": "Merci pour ton travail aujourd'hui, à demain !",
-    "ja": "今日もお疲れさま。また明日！",
-    "ro": "Kyō mo otsukaresama. Mata ashita!"
+    "fr": "Autrefois, les poètes se réunissaient au marché d'Okaz.",
+    "ar": "فِي الْمَاضِي، كَانَ الشُّعَرَاءُ يَجْتَمِعُونَ فِي سُوقِ عُكَاظَ.",
+    "ro": "Fī al-māḍī, kāna ash-shuʿarāʾu yajtamiʿūna fī sūqi ʿUkāẓa."
    },
    {
-    "fr": "Bon courage pour la réunion de cet après-midi.",
-    "ja": "午後の会議、頑張ってください。",
-    "ro": "Gogo no kaigi, ganbatte kudasai."
+    "fr": "Le poète récitait son poème, puis le public réagissait.",
+    "ar": "كَانَ الشَّاعِرُ يُلْقِي قَصِيدَتَهُ، ثُمَّ يَتَفَاعَلُ الْجُمْهُورُ.",
+    "ro": "Kāna ash-shāʿiru yulqī qaṣīdatahu, thumma yatafāʿalu al-jumhūru."
    },
    {
-    "fr": "Avant de manger, on joint les mains et on dit « itadakimasu ».",
-    "ja": "食べる前は、手を合わせて「いただきます」と言います。",
-    "ro": "Taberu mae wa, te o awasete \"itadakimasu\" to iimasu."
+    "fr": "La poésie ancienne est difficile, mais elle est magnifique.",
+    "ar": "الشِّعْرُ الْقَدِيمُ صَعْبٌ، لَكِنَّهُ رَائِعٌ.",
+    "ro": "Ash-shiʿru al-qadīmu ṣaʿbun, lākinnahu rāʾiʿun."
    },
    {
-    "fr": "Après le repas, n'oublie pas de dire « gochisōsama ».",
-    "ja": "食べ終わったら、「ごちそうさま」と言うのを忘れないでね。",
-    "ro": "Tabeowattara, \"gochisōsama\" to iu no o wasurenaide ne."
+    "fr": "Ce poème n'est pas seulement beau, il est même très émouvant.",
+    "ar": "لَيْسَتْ هَذِهِ الْقَصِيدَةُ جَمِيلَةً فَحَسْبُ، بَلْ هِيَ مُؤَثِّرَةٌ جِدًّا.",
+    "ro": "Laysat hādhihi al-qaṣīdatu jamīlatan fa-ḥasbu, bal hiya muʾaththiratun jiddan."
    },
    {
-    "fr": "Excusez-moi, je me permets de partir avant vous.",
-    "ja": "お先に失礼します。",
-    "ro": "Osaki ni shitsurei shimasu."
+    "fr": "Quant à la poésie moderne, elle se libère des anciennes règles.",
+    "ar": "أَمَّا الشِّعْرُ الْحَدِيثُ فَيَتَحَرَّرُ مِنَ الْقَوَاعِدِ الْقَدِيمَةِ.",
+    "ro": "Ammā ash-shiʿru al-ḥadīthu fa-yataḥarraru mina al-qawāʿidi al-qadīmati."
    },
    {
-    "fr": "En rentrant, je lance toujours « tadaima » depuis l'entrée.",
-    "ja": "家に帰ると、いつも玄関で「ただいま」と言います。",
-    "ro": "Ie ni kaeru to, itsumo genkan de \"tadaima\" to iimasu."
+    "fr": "Al-Moutanabbi reste l'un des plus célèbres poètes arabes.",
+    "ar": "يَبْقَى الْمُتَنَبِّي مِنْ أَشْهَرِ الشُّعَرَاءِ الْعَرَبِ.",
+    "ro": "Yabqā al-Mutanabbī min ashhari ash-shuʿarāʾi al-ʿarabi."
    },
    {
-    "fr": "Ma mère me répond « okaeri » depuis la cuisine.",
-    "ja": "母は台所から「おかえり」と答えます。",
-    "ro": "Haha wa daidokoro kara \"okaeri\" to kotaemasu."
+    "fr": "Mon grand-père connaissait des centaines de vers par cœur.",
+    "ar": "كَانَ جَدِّي يَحْفَظُ مِئَاتِ الْأَبْيَاتِ عَنْ ظَهْرِ قَلْبٍ.",
+    "ro": "Kāna jaddī yaḥfaẓu miʾāti al-abyāti ʿan ẓahri qalbin."
    },
    {
-    "fr": "Désolé de vous avoir fait attendre si longtemps.",
-    "ja": "長い間お待たせしました。",
-    "ro": "Nagai aida omatase shimashita."
+    "fr": "J'ai d'abord lu le poème en silence, puis à voix haute.",
+    "ar": "قَرَأْتُ الْقَصِيدَةَ أَوَّلًا بِصَمْتٍ، ثُمَّ بِصَوْتٍ عَالٍ.",
+    "ro": "Qaraʾtu al-qaṣīdata awwalan bi-ṣamtin, thumma bi-ṣawtin ʿālin."
    },
    {
-    "fr": "Ces petites formules donnent le rythme de toute une journée au Japon.",
-    "ja": "こういう短い挨拶が、日本の一日のリズムを作っています。",
-    "ro": "Kō iu mijikai aisatsu ga, Nihon no ichinichi no rizumu o tsukutte imasu."
+    "fr": "La musique des mots touche le cœur avant l'esprit.",
+    "ar": "تَمَسُّ مُوسِيقَى الْكَلِمَاتِ الْقَلْبَ قَبْلَ الْعَقْلِ.",
+    "ro": "Tamassu mūsīqā al-kalimāti al-qalba qabla al-ʿaqli."
    }
   ],
   "tip": {
-   "title": "Les expressions de tous les jours : yoroshiku onegaishimasu, otsukaresama, itadakimasu",
-   "example": "Merci pour ton travail aujourd'hui, à demain ! — 今日も<b>お疲れさま</b>。また明日！",
-   "exampleRo": "Kyō mo otsukaresama. Mata ashita!",
-   "lit": "aujourd'hui · [aussi] · honorable-fatigue (merci pour tes efforts) · encore · demain",
-   "body": "Certaines formules japonaises n'ont pas d'équivalent exact en français, et pourtant on les entend partout. « Yoroshiku onegaishimasu » se dit en se présentant ou en demandant un service : littéralement bien, je vous en prie, soit à peu près « je compte sur votre bienveillance ». « Otsukaresama » (merci pour vos efforts) salue le travail de quelqu'un, le soir en quittant le bureau comme en croisant un collègue dans le couloir. « Itadakimasu » (je reçois humblement) se prononce avant de manger, et « gochisōsama » (merci pour ce festin) après. Astuce : voyez ces formules comme des rituels plutôt que des traductions ; on les retient en les disant au bon moment."
+   "title": "Les mots de liaison : thumma, lakin, bal, amma… fa",
+   "example": "Quant à la poésie moderne, elle se libère des anciennes règles. — <b>أَمَّا</b> الشِّعْرُ الْحَدِيثُ <b>فَيَتَحَرَّرُ</b> مِنَ الْقَوَاعِدِ الْقَدِيمَةِ.",
+   "exampleRo": "Ammā ash-shiʿru al-ḥadīthu fa-yataḥarraru mina al-qawāʿidi al-qadīmati.",
+   "lit": "quant-à · la-poésie · la-moderne · [alors]-elle-se-libère · de · les-règles · les-anciennes",
+   "body": "Pour enchaîner vos idées, quatre petits mots suffisent. « Thumma » veut dire puis, pour une suite dans le temps. « Lakin » ou « lakinna » signifie mais : « sabun, lakinnahu raiun », difficile, mais magnifique. « Bal » corrige ou renchérit, comme bien plus, ou plutôt : pas seulement beau, « bal » très émouvant. Enfin, « amma… fa » correspond à quant à : on pose le sujet avec « amma », puis on colle « fa » au début de ce qu'on en dit, comme dans « amma sh-shiru l-hadith, fa-yataharraru », quant à la poésie moderne, alors elle se libère. Astuce : retenez que « amma » ne voyage jamais sans son « fa »."
   }
  },
  {
-  "title": "Le vieillissement de la population",
+  "title": "L'art de la calligraphie",
   "phrases": [
    {
-    "fr": "Le Japon compte parmi les pays où l'espérance de vie est la plus longue.",
-    "ja": "日本は、世界でも平均寿命が特に長い国の一つです。",
-    "ro": "Nihon wa, sekai demo heikin jumyō ga toku ni nagai kuni no hitotsu desu."
+    "fr": "La calligraphie arabe est un art à part entière.",
+    "ar": "الْخَطُّ الْعَرَبِيُّ فَنٌّ قَائِمٌ بِذَاتِهِ.",
+    "ro": "Al-khaṭṭu al-ʿarabiyyu fannun qāʾimun bi-dhātihi."
    },
    {
-    "fr": "Dans mon village natal, presque tous les habitants ont plus de soixante-dix ans.",
-    "ja": "私のふるさとの村では、ほとんどの住民が七十歳を超えています。",
-    "ro": "Watashi no furusato no mura de wa, hotondo no jūmin ga nanajissai o koete imasu."
+    "fr": "Le calligraphe trace chaque lettre avec une grande patience.",
+    "ar": "يَرْسُمُ الْخَطَّاطُ كُلَّ حَرْفٍ بِصَبْرٍ كَبِيرٍ.",
+    "ro": "Yarsumu al-khaṭṭāṭu kulla ḥarfin bi-ṣabrin kabīrin."
    },
    {
-    "fr": "Faute d'enfants, les écoles ferment les unes après les autres.",
-    "ja": "子供が少なくて、学校が次々と閉校しています。",
-    "ro": "Kodomo ga sukunakute, gakkō ga tsugitsugi to heikō shite imasu."
+    "fr": "Il utilise un calame fabriqué en roseau.",
+    "ar": "يَسْتَخْدِمُ قَلَمًا مَصْنُوعًا مِنَ الْقَصَبِ.",
+    "ro": "Yastakhdimu qalaman maṣnūʿan mina al-qaṣabi."
    },
    {
-    "fr": "Qui s'occupera des personnes âgées dans vingt ans ?",
-    "ja": "二十年後、誰がお年寄りの世話をするのでしょうか。",
-    "ro": "Nijūnen go, dare ga otoshiyori no sewa o suru no deshō ka."
+    "fr": "Le style coufique est anguleux, tandis que le naskh est arrondi.",
+    "ar": "الْخَطُّ الْكُوفِيُّ ذُو زَوَايَا، بَيْنَمَا خَطُّ النَّسْخِ مُسْتَدِيرٌ.",
+    "ro": "Al-khaṭṭu al-kūfiyyu dhū zawāyā, baynamā khaṭṭu an-naskhi mustadīrun."
    },
    {
-    "fr": "À quatre-vingt-dix ans, mon grand-père travaille encore aux champs tous les matins.",
-    "ja": "九十歳の祖父は、今でも毎朝畑仕事をしています。",
-    "ro": "Kyūjussai no sofu wa, ima demo maiasa hatakeshigoto o shite imasu."
+    "fr": "Le thuluth est considéré comme le plus difficile des styles.",
+    "ar": "يُعْتَبَرُ خَطُّ الثُّلُثِ أَصْعَبَ الْخُطُوطِ.",
+    "ro": "Yuʿtabaru khaṭṭu ath-thuluthi aṣʿaba al-khuṭūṭi."
    },
    {
-    "fr": "Dans certaines maisons de retraite, des robots aident déjà le personnel.",
-    "ja": "介護施設では、もうロボットが職員を手伝っています。",
-    "ro": "Kaigo shisetsu de wa, mō robotto ga shokuin o tetsudatte imasu."
+    "fr": "On l'apprend auprès d'un maître pendant de longues années.",
+    "ar": "نَتَعَلَّمُهُ عَلَى يَدِ أُسْتَاذٍ سَنَوَاتٍ طَوِيلَةً.",
+    "ro": "Nataʿallamuhu ʿalā yadi ustādhin sanawātin ṭawīlatan."
    },
    {
-    "fr": "Lors de la Journée du respect des aînés, on remercie les personnes âgées.",
-    "ja": "敬老の日には、お年寄りに感謝の気持ちを伝えます。",
-    "ro": "Keirō no hi ni wa, otoshiyori ni kansha no kimochi o tsutaemasu."
+    "fr": "J'ai assisté à un atelier de calligraphie à Tunis.",
+    "ar": "حَضَرْتُ وَرْشَةً لِلْخَطِّ فِي تُونِسَ.",
+    "ro": "Ḥaḍartu warshatan li-l-khaṭṭi fī Tūnisa."
    },
    {
-    "fr": "Beaucoup de personnes âgées vivent seules et souffrent de solitude.",
-    "ja": "一人暮らしで寂しい思いをしているお年寄りも多いです。",
-    "ro": "Hitorigurashi de sabishii omoi o shite iru otoshiyori mo ōi desu."
+    "fr": "Mon nom, écrit en calligraphie arabe, ressemble à un tableau.",
+    "ar": "يُشْبِهُ اسْمِي الْمَكْتُوبُ بِالْخَطِّ الْعَرَبِيِّ لَوْحَةً فَنِّيَّةً.",
+    "ro": "Yushbihu ismī al-maktūbu bi-l-khaṭṭi al-ʿarabiyyi lawḥatan fanniyyatan."
    },
    {
-    "fr": "Si les jeunes ne reviennent pas, le village finira peut-être par disparaître.",
-    "ja": "若者が戻ってこなければ、村はなくなってしまうかもしれません。",
-    "ro": "Wakamono ga modotte konakereba, mura wa nakunatte shimau kamo shiremasen."
+    "fr": "Les murs des vieux palais sont couverts de calligraphies.",
+    "ar": "جُدْرَانُ الْقُصُورِ الْقَدِيمَةِ مُغَطَّاةٌ بِالْخُطُوطِ.",
+    "ro": "Judrānu al-quṣūri al-qadīmati mughaṭṭātun bi-l-khuṭūṭi."
    },
    {
-    "fr": "Vieillir au Japon, c'est aussi voir son expérience valorisée.",
-    "ja": "日本で年を取るということは、経験が大切にされることでもあります。",
-    "ro": "Nihon de toshi o toru to iu koto wa, keiken ga taisetsu ni sareru koto demo arimasu."
+    "fr": "Chaque œuvre unit la beauté de la forme et la profondeur du sens.",
+    "ar": "يَجْمَعُ كُلُّ عَمَلٍ بَيْنَ جَمَالِ الشَّكْلِ وَعُمْقِ الْمَعْنَى.",
+    "ro": "Yajmaʿu kullu ʿamalin bayna jamāli ash-shakli wa-ʿumqi al-maʿnā."
    }
   ]
  },
  {
-  "title": "Tradition et modernité",
+  "title": "La cuisine, un patrimoine partagé",
   "phrases": [
    {
-    "fr": "Avec ses maisons en bois alignées, ce coin est typiquement japonais.",
-    "ja": "木の家が並んでいて、この辺りは本当に日本らしいですね。",
-    "ro": "Ki no ie ga narande ite, kono atari wa hontō ni Nihon rashii desu ne."
+    "fr": "La cuisine raconte l'histoire des peuples.",
+    "ar": "يَحْكِي الْمَطْبَخُ تَارِيخَ الشُّعُوبِ.",
+    "ro": "Yaḥkī al-maṭbakhu tārīkha ash-shuʿūbi."
    },
    {
-    "fr": "Un temple coincé entre des gratte-ciel, c'est tellement Tokyo.",
-    "ja": "高層ビルの間にお寺があるなんて、いかにも東京らしい。",
-    "ro": "Kōsō biru no aida ni otera ga aru nante, ikanimo Tōkyō rashii."
+    "fr": "Le cuisinier a servi le couscous aux invités.",
+    "ar": "قَدَّمَ الطَّبَّاخُ الْكُسْكُسَ لِلضُّيُوفِ.",
+    "ro": "Qaddama aṭ-ṭabbākhu al-kuskusa li-ḍ-ḍuyūfi."
    },
    {
-    "fr": "Cette nouvelle boutique a un petit air rétro.",
-    "ja": "この新しい店は、ちょっとレトロっぽい感じです。",
-    "ro": "Kono atarashii mise wa, chotto retoroppoi kanji desu."
+    "fr": "Le couscous a été inscrit au patrimoine mondial.",
+    "ar": "أُدْرِجَ الْكُسْكُسُ فِي التُّرَاثِ الْعَالَمِيِّ.",
+    "ro": "Udrija al-kuskusu fī at-turāthi al-ʿālamiyyi."
    },
    {
-    "fr": "Ma grand-mère porte encore le kimono pour les grandes occasions.",
-    "ja": "祖母は今でも、特別な日には着物を着ます。",
-    "ro": "Sobo wa ima demo, tokubetsu na hi ni wa kimono o kimasu."
+    "fr": "Chaque pays prépare le houmous à sa façon.",
+    "ar": "يُحَضِّرُ كُلُّ بَلَدٍ الْحُمُّصَ عَلَى طَرِيقَتِهِ.",
+    "ro": "Yuḥaḍḍiru kullu baladin al-ḥummuṣa ʿalā ṭarīqatihi."
    },
    {
-    "fr": "Dès qu'il parle de trains, il redevient un vrai gamin.",
-    "ja": "電車の話になると、彼は子供っぽくなります。",
-    "ro": "Densha no hanashi ni naru to, kare wa kodomoppoku narimasu."
+    "fr": "Ma mère m'a appris la recette de la maqlouba.",
+    "ar": "عَلَّمَتْنِي أُمِّي وَصْفَةَ الْمَقْلُوبَةِ.",
+    "ro": "ʿAllamatnī ummī waṣfata al-maqlūbati."
    },
    {
-    "fr": "Le ciel est grisâtre ; il paraît qu'il va pleuvoir.",
-    "ja": "空が灰色っぽいですね。雨が降るらしいですよ。",
-    "ro": "Sora ga haiiroppoi desu ne. Ame ga furu rashii desu yo."
+    "fr": "Autrefois, les épices venaient de pays lointains.",
+    "ar": "كَانَتِ التَّوَابِلُ تَأْتِي قَدِيمًا مِنْ بِلَادٍ بَعِيدَةٍ.",
+    "ro": "Kānati at-tawābilu taʾtī qadīman min bilādin baʿīdatin."
    },
    {
-    "fr": "Les jeunes louent des kimonos pour se promener dans Kyoto.",
-    "ja": "若者が着物をレンタルして、京都を散歩しています。",
-    "ro": "Wakamono ga kimono o rentaru shite, Kyōto o sanpo shite imasu."
+    "fr": "Le repas est avant tout un moment de partage.",
+    "ar": "الطَّعَامُ لَحْظَةُ مُشَارَكَةٍ قَبْلَ كُلِّ شَيْءٍ.",
+    "ro": "Aṭ-ṭaʿāmu laḥẓatu mushārakatin qabla kulli shayʾin."
    },
    {
-    "fr": "Dans ce restaurant de sushis, on commande sur tablette, mais le comptoir est resté en bois ancien.",
-    "ja": "この寿司屋はタブレットで注文するのに、カウンターは昔ながらの木のままです。",
-    "ro": "Kono sushiya wa taburetto de chūmon suru noni, kauntā wa mukashi nagara no ki no mama desu."
+    "fr": "Les Libanais sont fiers de leurs mezzés variés.",
+    "ar": "يَفْتَخِرُ اللُّبْنَانِيُّونَ بِمُقَبِّلَاتِهِمُ الْمُتَنَوِّعَةِ.",
+    "ro": "Yaftakhiru al-lubnāniyyūna bi-muqabbilātihimu al-mutanawwiʿati."
    },
    {
-    "fr": "Rester poli même dans un train bondé, c'est très japonais.",
-    "ja": "満員電車でも礼儀正しいのは、とても日本人らしいです。",
-    "ro": "Man'in densha demo reigi tadashii no wa, totemo nihonjin rashii desu."
+    "fr": "J'adore le thé à la menthe qu'on boit au Maroc.",
+    "ar": "أَعْشَقُ الشَّايَ بِالنَّعْنَاعِ الَّذِي يُشْرَبُ فِي الْمَغْرِبِ.",
+    "ro": "Aʿshaqu ash-shāya bi-n-naʿnāʿi alladhī yushrabu fī al-maghribi."
    },
    {
-    "fr": "La tradition et la modernité ne s'opposent pas forcément.",
-    "ja": "伝統と現代は、必ずしも対立するものではありません。",
-    "ro": "Dentō to gendai wa, kanarazushimo tairitsu suru mono de wa arimasen."
+    "fr": "Goûter un plat, c'est découvrir une culture.",
+    "ar": "أَنْ تَتَذَوَّقَ طَبَقًا يَعْنِي أَنْ تَكْتَشِفَ ثَقَافَةً.",
+    "ro": "An tatadhawwaqa ṭabaqan yaʿnī an taktashifa thaqāfatan."
    }
   ],
   "tip": {
-   "title": "« -ppoi » et « -rashii » : avoir l'air, typique de",
-   "example": "Cette nouvelle boutique a un petit air rétro. — この新しい店は、ちょっと<b>レトロっぽい</b>感じです。",
-   "exampleRo": "Kono atarashii mise wa, chotto retoroppoi kanji desu.",
-   "lit": "ce · nouveau · boutique · [thème] · un peu · rétro-genre · impression · être (poli)",
-   "body": "Le suffixe « -ppoi » signifie avoir l'air de, tirer sur, avec une idée d'approximation : « kodomoppoi » (un peu gamin), « haiiroppoi » (grisâtre), « retoroppoi » (dans un style rétro). Le suffixe « -rashii » a deux emplois : après un nom, il veut dire typique de, digne de, comme « Nihon rashii » (typiquement japonais) ; après un verbe, il signale une information entendue, comme « ame ga furu rashii » (il paraît qu'il va pleuvoir). Ainsi « retoroppoi kanji desu » se dit littéralement rétro-genre, impression, être, soit « ça donne une impression rétro ». En résumé, « -ppoi » décrit une ressemblance, tandis que « -rashii » souligne ce qui correspond vraiment à l'essence d'une chose. Astuce : « otona rashii » est un compliment (vraiment adulte, mature), alors que « kodomoppoi » est plutôt un reproche."
+   "title": "Les cas grammaticaux : les terminaisons -u, -a, -i",
+   "example": "Le cuisinier a servi le couscous aux invités. — قَدَّمَ <b>الطَّبَّاخُ</b> <b>الْكُسْكُسَ</b> <b>لِلضُّيُوفِ</b>.",
+   "exampleRo": "Qaddama aṭ-ṭabbākhu al-kuskusa li-ḍ-ḍuyūfi.",
+   "lit": "a-servi · le-cuisinier · le-couscous · pour-les-invités",
+   "body": "En arabe littéraire, la dernière voyelle d'un nom indique son rôle dans la phrase, un peu comme les cas en latin. La terminaison « u » marque le sujet, « a » le complément direct, et « i » le nom placé après une préposition ou un complément du nom. Écoutez notre exemple : « at-tabbakhu », le cuisinier, est le sujet ; « al-kuskusa », le couscous, est ce qu'on sert ; et « li-d-duyufi », aux invités, vient après la préposition « li ». Sans article, la voyelle se double d'un n : « kitabun », « kitaban », « kitabin ». Grâce à ces terminaisons, l'ordre des mots devient plus libre, car la voyelle finale dit déjà qui fait quoi."
   }
  },
  {
-  "title": "Le manga comme sujet de débat",
+  "title": "L'hospitalité arabe",
   "phrases": [
    {
-    "fr": "Au Japon, des adultes lisent des mangas dans le train sans la moindre gêne.",
-    "ja": "日本では、大人が電車で堂々と漫画を読んでいます。",
-    "ro": "Nihon de wa, otona ga densha de dōdō to manga o yonde imasu."
+    "fr": "L'hospitalité est une valeur essentielle dans le monde arabe.",
+    "ar": "الضِّيَافَةُ قِيمَةٌ أَسَاسِيَّةٌ فِي الْعَالَمِ الْعَرَبِيِّ.",
+    "ro": "Aḍ-ḍiyāfatu qīmatun asāsiyyatun fī al-ʿālami al-ʿarabiyyi."
    },
    {
-    "fr": "Certains parents croient que leurs enfants n'étudient pas à cause des mangas.",
-    "ja": "漫画のせいで子供が勉強しないと思っている親もいます。",
-    "ro": "Manga no sei de kodomo ga benkyō shinai to omotte iru oya mo imasu."
+    "fr": "On ne laisse jamais un invité repartir affamé.",
+    "ar": "لَا نَتْرُكُ الضَّيْفَ يُغَادِرُ جَائِعًا أَبَدًا.",
+    "ro": "Lā natruku aḍ-ḍayfa yughādiru jāʾiʿan abadan."
    },
    {
-    "fr": "Pourtant, il existe des mangas sur l'histoire, la médecine ou la cuisine.",
-    "ja": "でも、歴史や医療や料理についての漫画もあります。",
-    "ro": "Demo, rekishi ya iryō ya ryōri ni tsuite no manga mo arimasu."
+    "fr": "Dans le désert, on offre le café arabe à tout voyageur.",
+    "ar": "فِي الصَّحْرَاءِ، تُقَدَّمُ الْقَهْوَةُ الْعَرَبِيَّةُ لِكُلِّ مُسَافِرٍ.",
+    "ro": "Fī aṣ-ṣaḥrāʾi, tuqaddamu al-qahwatu al-ʿarabiyyatu li-kulli musāfirin."
    },
    {
-    "fr": "C'est grâce à un manga que j'ai découvert le monde du shōgi.",
-    "ja": "将棋の世界を知ったのは、ある漫画のおかげです。",
-    "ro": "Shōgi no sekai o shitta no wa, aru manga no okage desu."
+    "fr": "Ce café est servi dans de petites tasses avec des dattes.",
+    "ar": "تُقَدَّمُ هَذِهِ الْقَهْوَةُ فِي فَنَاجِينَ صَغِيرَةٍ مَعَ التَّمْرِ.",
+    "ro": "Tuqaddamu hādhihi al-qahwatu fī fanājīna ṣaghīratin maʿa at-tamri."
    },
    {
-    "fr": "Les mangakas travaillent souvent jusqu'à l'épuisement, paraît-il.",
-    "ja": "漫画家は、倒れるまで働くことが多いそうです。",
-    "ro": "Mangaka wa, taoreru made hataraku koto ga ōi sō desu."
+    "fr": "On secoue la tasse pour dire qu'on en a assez bu.",
+    "ar": "نَهُزُّ الْفِنْجَانَ لِنَقُولَ إِنَّنَا اكْتَفَيْنَا.",
+    "ro": "Nahuzzu al-finjāna li-naqūla innanā iktafaynā."
    },
    {
-    "fr": "Les magazines de manga hebdomadaires se vendent dans tous les konbini.",
-    "ja": "週刊の漫画雑誌は、どのコンビニでも売っています。",
-    "ro": "Shūkan no manga zasshi wa, dono konbini demo utte imasu."
+    "fr": "La famille m'a reçu comme si j'étais l'un des siens.",
+    "ar": "اسْتَقْبَلَتْنِي الْعَائِلَةُ كَأَنَّنِي وَاحِدٌ مِنْهَا.",
+    "ro": "Istaqbalatnī al-ʿāʾilatu ka-annanī wāḥidun minhā."
    },
    {
-    "fr": "Je trouve que la fin de cette série a été bâclée.",
-    "ja": "このシリーズの終わり方は、急ぎすぎだったと思います。",
-    "ro": "Kono shirīzu no owarikata wa, isogisugi datta to omoimasu."
+    "fr": "Refuser une invitation peut parfois vexer.",
+    "ar": "قَدْ يُزْعِجُ رَفْضُ الدَّعْوَةِ أَحْيَانًا.",
+    "ro": "Qad yuzʿiju rafḍu ad-daʿwati aḥyānan."
    },
    {
-    "fr": "On lit un manga en une heure, mais il faut des mois pour le dessiner.",
-    "ja": "漫画は一時間で読めるけど、描くには何か月もかかります。",
-    "ro": "Manga wa ichijikan de yomeru kedo, kaku ni wa nankagetsu mo kakarimasu."
+    "fr": "« Notre maison est ta maison », m'a dit mon hôte.",
+    "ar": "قَالَ لِي مُضِيفِي: «بَيْتُنَا بَيْتُكَ».",
+    "ro": "Qāla lī muḍīfī: «baytunā baytuka»."
    },
    {
-    "fr": "Le manga, est-ce de l'art ou un simple divertissement ?",
-    "ja": "漫画は芸術なのか、ただの娯楽なのか。",
-    "ro": "Manga wa geijutsu na no ka, tada no goraku na no ka."
+    "fr": "Le plus généreux des hommes est celui qui donne sans compter.",
+    "ar": "أَكْرَمُ النَّاسِ مَنْ يُعْطِي بِلَا حِسَابٍ.",
+    "ro": "Akramu an-nāsi man yuʿṭī bi-lā ḥisābin."
    },
    {
-    "fr": "Pour moi, une bonne histoire reste une bonne histoire, quel que soit son format.",
-    "ja": "私にとって、いい物語は形に関係なく、いい物語です。",
-    "ro": "Watashi ni totte, ii monogatari wa katachi ni kankei naku, ii monogatari desu."
+    "fr": "Cette générosité m'a profondément touché.",
+    "ar": "أَثَّرَ فِيَّ هَذَا الْكَرَمُ تَأْثِيرًا عَمِيقًا.",
+    "ro": "Aththara fiyya hādhā al-karamu taʾthīran ʿamīqan."
    }
   ]
  },
  {
-  "title": "L'anime et la culture populaire",
+  "title": "Les médias et l'information",
   "phrases": [
    {
-    "fr": "Certains films d'animation attirent des millions de spectateurs au cinéma.",
-    "ja": "アニメ映画が何百万人もの観客を集めることもあります。",
-    "ro": "Anime eiga ga nanbyakuman nin mo no kankyaku o atsumeru koto mo arimasu."
+    "fr": "Je lis les journaux électroniques chaque matin.",
+    "ar": "أَقْرَأُ الصُّحُفَ الْإِلِكْتُرُونِيَّةَ كُلَّ صَبَاحٍ.",
+    "ro": "Aqraʾu aṣ-ṣuḥufa al-ilikturūniyyata kulla ṣabāḥin."
    },
    {
-    "fr": "Des fans visitent les lieux réels qui apparaissent dans les anime.",
-    "ja": "アニメに出てくる実際の場所を訪れるファンもいます。",
-    "ro": "Anime ni dete kuru jissai no basho o otozureru fan mo imasu."
+    "fr": "Des millions de personnes suivent les chaînes d'information arabes.",
+    "ar": "يُتَابِعُ الْمَلَايِينُ الْقَنَوَاتِ الْإِخْبَارِيَّةَ الْعَرَبِيَّةَ.",
+    "ro": "Yutābiʿu al-malāyīnu al-qanawāti al-ikhbāriyyata al-ʿarabiyyata."
    },
    {
-    "fr": "On appelle cela un « pèlerinage en terre sacrée ».",
-    "ja": "それは「聖地巡礼」と呼ばれています。",
-    "ro": "Sore wa \"seichi junrei\" to yobarete imasu."
+    "fr": "Les présentateurs parlent un arabe standard très soigné.",
+    "ar": "يَتَحَدَّثُ الْمُذِيعُونَ بِعَرَبِيَّةٍ فَصِيحَةٍ وَمُتْقَنَةٍ.",
+    "ro": "Yataḥaddathu al-mudhīʿūna bi-ʿarabiyyatin faṣīḥatin wa-mutqanatin."
    },
    {
-    "fr": "Grâce à ces fans, une petite ville de campagne a retrouvé de la vie.",
-    "ja": "そのファンのおかげで、田舎の小さな町が元気を取り戻しました。",
-    "ro": "Sono fan no okage de, inaka no chiisana machi ga genki o torimodoshimashita."
+    "fr": "Il faut vérifier une information avant de la partager.",
+    "ar": "يَجِبُ التَّحَقُّقُ مِنَ الْخَبَرِ قَبْلَ نَشْرِهِ.",
+    "ro": "Yajibu at-taḥaqququ mina al-khabari qabla nashrihi."
    },
    {
-    "fr": "À Akihabara, il y a des boutiques de figurines à chaque coin de rue.",
-    "ja": "秋葉原には、あちこちにフィギュアの店があります。",
-    "ro": "Akihabara ni wa, achikochi ni figyua no mise ga arimasu."
+    "fr": "Les fausses nouvelles se propagent plus vite que la vérité.",
+    "ar": "تَنْتَشِرُ الْأَخْبَارُ الْكَاذِبَةُ أَسْرَعَ مِنَ الْحَقِيقَةِ.",
+    "ro": "Tantashiru al-akhbāru al-kādhibatu asraʿa mina al-ḥaqīqati."
    },
    {
-    "fr": "Au Japon, les comédiens de doublage sont de véritables stars.",
-    "ja": "日本では、声優は本物のスターです。",
-    "ro": "Nihon de wa, seiyū wa honmono no sutā desu."
+    "fr": "La radio reste très écoutée dans les voitures.",
+    "ar": "مَا زَالَ الرَّادْيُو مَسْمُوعًا كَثِيرًا فِي السَّيَّارَاتِ.",
+    "ro": "Mā zāla ar-rādyū masmūʿan kathīran fī as-sayyārāti."
    },
    {
-    "fr": "Petit, je me levais tôt le dimanche pour regarder des dessins animés.",
-    "ja": "子供の頃、日曜日はアニメを見るために早起きしていました。",
-    "ro": "Kodomo no koro, nichiyōbi wa anime o miru tame ni hayaoki shite imashita."
+    "fr": "Ce documentaire sur le Nil a été diffusé hier soir.",
+    "ar": "بُثَّ هَذَا الْفِيلْمُ الْوَثَائِقِيُّ عَنِ النِّيلِ مَسَاءَ أَمْسِ.",
+    "ro": "Buththa hādhā al-fīlmu al-wathāʾiqiyyu ʿani an-nīli masāʾa amsi."
    },
    {
-    "fr": "Les génériques d'anime font partie des chansons les plus chantées au karaoké.",
-    "ja": "アニメの主題歌は、カラオケでよく歌われます。",
-    "ro": "Anime no shudaika wa, karaoke de yoku utawaremasu."
+    "fr": "Les journalistes jouent un rôle important dans la société.",
+    "ar": "يَلْعَبُ الصَّحَفِيُّونَ دَوْرًا مُهِمًّا فِي الْمُجْتَمَعِ.",
+    "ro": "Yalʿabu aṣ-ṣaḥafiyyūna dawran muhimman fī al-mujtamaʿi."
    },
    {
-    "fr": "Certains disent que l'anime donne une image faussée du Japon.",
-    "ja": "アニメは日本の間違ったイメージを与えると言う人もいます。",
-    "ro": "Anime wa Nihon no machigatta imēji o ataeru to iu hito mo imasu."
+    "fr": "J'écoute les nouvelles en arabe pour améliorer ma compréhension.",
+    "ar": "أَسْتَمِعُ إِلَى الْأَخْبَارِ بِالْعَرَبِيَّةِ لِأُحَسِّنَ فَهْمِي.",
+    "ro": "Astamiʿu ilā al-akhbāri bi-l-ʿarabiyyati li-uḥassina fahmī."
    },
    {
-    "fr": "Mais beaucoup ont justement commencé le japonais grâce aux anime.",
-    "ja": "でも、まさにアニメがきっかけで日本語を始めた人も多いです。",
-    "ro": "Demo, masa ni anime ga kikkake de nihongo o hajimeta hito mo ōi desu."
+    "fr": "Au début, je ne comprenais que quelques mots.",
+    "ar": "فِي الْبِدَايَةِ، لَمْ أَكُنْ أَفْهَمُ إِلَّا بَعْضَ الْكَلِمَاتِ.",
+    "ro": "Fī al-bidāyati, lam akun afhamu illā baʿḍa al-kalimāti."
    }
   ]
  },
  {
-  "title": "Ce qu'on nous a obligés à faire",
+  "title": "Le cinéma arabe",
   "phrases": [
    {
-    "fr": "Enfant, on m'obligeait à prendre des cours de piano.",
-    "ja": "子供の頃、ピアノを習わされていました。",
-    "ro": "Kodomo no koro, piano o narawasarete imashita."
+    "fr": "Le cinéma égyptien a connu un âge d'or.",
+    "ar": "عَرَفَتِ السِّينِمَا الْمِصْرِيَّةُ عَصْرًا ذَهَبِيًّا.",
+    "ro": "ʿArafati as-sīnimā al-miṣriyyatu ʿaṣran dhahabiyyan."
    },
    {
-    "fr": "Au club de sport, les élèves de première année devaient ramasser les balles.",
-    "ja": "部活では、一年生はボールを拾わされました。",
-    "ro": "Bukatsu de wa, ichinensei wa bōru o hirowasaremashita."
+    "fr": "Les deux jeunes réalisateurs écrivent ensemble un nouveau film.",
+    "ar": "الْمُخْرِجَانِ الشَّابَّانِ يَكْتُبَانِ فِيلْمًا جَدِيدًا مَعًا.",
+    "ro": "Al-mukhrijāni ash-shābbāni yaktubāni fīlman jadīdan maʿan."
    },
    {
-    "fr": "Hier soir, mon directeur m'a obligé à boire jusqu'à minuit.",
-    "ja": "昨日の夜、部長に十二時まで飲まされました。",
-    "ro": "Kinō no yoru, buchō ni jūniji made nomasaremashita."
+    "fr": "Ils travaillent sur le scénario depuis deux ans.",
+    "ar": "يَعْمَلَانِ عَلَى السِّينَارْيُو مُنْذُ سَنَتَيْنِ.",
+    "ro": "Yaʿmalāni ʿalā as-sīnāryū mundhu sanatayni."
    },
    {
-    "fr": "On m'a fait attendre une heure entière devant le restaurant de ramen.",
-    "ja": "ラーメン屋の前で一時間も待たされました。",
-    "ro": "Rāmen'ya no mae de ichijikan mo matasaremashita."
+    "fr": "Les deux actrices principales viennent de Beyrouth.",
+    "ar": "الْمُمَثِّلَتَانِ الرَّئِيسِيَّتَانِ مِنْ بَيْرُوتَ.",
+    "ro": "Al-mumaththilatāni ar-raʾīsiyyatāni min Bayrūta."
    },
    {
-    "fr": "À l'école, on nous faisait nettoyer les salles de classe nous-mêmes.",
-    "ja": "学校では、自分たちで教室を掃除させられました。",
-    "ro": "Gakkō de wa, jibuntachi de kyōshitsu o sōji saseraremashita."
+    "fr": "Elles jouent deux sœurs qui se retrouvent après des années.",
+    "ar": "تُؤَدِّيَانِ دَوْرَ أُخْتَيْنِ تَلْتَقِيَانِ بَعْدَ سَنَوَاتٍ.",
+    "ro": "Tuʾaddiyāni dawra ukhtayni taltaqiyāni baʿda sanawātin."
    },
    {
-    "fr": "Je suis obligé de faire des heures supplémentaires presque tous les jours.",
-    "ja": "ほとんど毎日、残業させられています。",
-    "ro": "Hotondo mainichi, zangyō saserarete imasu."
+    "fr": "Le film sera projeté au festival de Carthage.",
+    "ar": "سَيُعْرَضُ الْفِيلْمُ فِي مِهْرَجَانِ قَرْطَاجَ.",
+    "ro": "Sa-yuʿraḍu al-fīlmu fī mihrajāni Qarṭāja."
    },
    {
-    "fr": "Au mariage de mon ami, on m'a fait chanter devant tout le monde.",
-    "ja": "友達の結婚式で、みんなの前で歌わされました。",
-    "ro": "Tomodachi no kekkonshiki de, minna no mae de utawasaremashita."
+    "fr": "Mes deux frères adorent les vieux films en noir et blanc.",
+    "ar": "أَخَوَايَ يُحِبَّانِ الْأَفْلَامَ الْقَدِيمَةَ بِالْأَبْيَضِ وَالْأَسْوَدِ.",
+    "ro": "Akhawāya yuḥibbāni al-aflāma al-qadīmata bi-l-abyaḍi wa-l-aswadi."
    },
    {
-    "fr": "Ma mère me forçait à manger les légumes que je détestais.",
-    "ja": "母に嫌いな野菜を食べさせられました。",
-    "ro": "Haha ni kirai na yasai o tabesaseraremashita."
+    "fr": "Ils ne se lassent jamais des comédies égyptiennes.",
+    "ar": "لَا يَمَلَّانِ أَبَدًا مِنَ الْأَفْلَامِ الْكُومِيدِيَّةِ الْمِصْرِيَّةِ.",
+    "ro": "Lā yamallāni abadan mina al-aflāmi al-kūmīdiyyati al-miṣriyyati."
    },
    {
-    "fr": "Ce film m'a vraiment fait réfléchir.",
-    "ja": "この映画には、本当に考えさせられました。",
-    "ro": "Kono eiga ni wa, hontō ni kangaesaseraremashita."
+    "fr": "Le cinéma arabe parle de plus en plus des jeunes.",
+    "ar": "تَتَحَدَّثُ السِّينِمَا الْعَرَبِيَّةُ عَنِ الشَّبَابِ أَكْثَرَ فَأَكْثَرَ.",
+    "ro": "Tataḥaddathu as-sīnimā al-ʿarabiyyatu ʿani ash-shabābi akthara fa-akthara."
    },
    {
-    "fr": "Avec le recul, je suis content qu'on m'ait obligé à apprendre le piano.",
-    "ja": "今思えば、ピアノを習わされてよかったです。",
-    "ro": "Ima omoeba, piano o narawasarete yokatta desu."
+    "fr": "Ce film m'a fait rire et pleurer à la fois.",
+    "ar": "أَضْحَكَنِي هَذَا الْفِيلْمُ وَأَبْكَانِي فِي الْوَقْتِ نَفْسِهِ.",
+    "ro": "Aḍḥakanī hādhā al-fīlmu wa-abkānī fī al-waqti nafsihi."
    }
   ],
   "tip": {
-   "title": "Le causatif-passif : être obligé de",
-   "example": "Ma mère me forçait à manger les légumes que je détestais. — 母<b>に</b>嫌いな野菜を<b>食べさせられました</b>。",
-   "exampleRo": "Haha ni kirai na yasai o tabesaseraremashita.",
-   "lit": "mère · [par] · détesté · légume · [objet] · être forcé de manger (passé poli)",
-   "body": "Le causatif-passif combine deux formes que vous connaissez déjà : le causatif (faire faire) et le passif (subir). Ensemble, ils expriment une action qu'on a été obligé de faire contre son gré. On part du causatif « tabesaseru » (faire manger), puis on ajoute le passif pour obtenir « tabesaserareru » (être forcé de manger). « Haha ni kirai na yasai o tabesaseraremashita » se dit littéralement mère, par, détesté, légume, objet, être forcé de manger, soit « ma mère m'a forcé à manger des légumes que je détestais ». Pour les verbes en « -u », on utilise souvent une forme courte : « nomasareru » (être forcé de boire), « matasareru » (devoir attendre). Astuce : avec « kangaesaserareta » (cela m'a fait réfléchir), la forme décrit aussi une émotion qu'on n'a pas choisie mais qu'on a ressentie."
+   "title": "Le verbe au duel : yaktubani",
+   "example": "Les deux jeunes réalisateurs écrivent ensemble un nouveau film. — <b>الْمُخْرِجَانِ</b> <b>الشَّابَّانِ</b> <b>يَكْتُبَانِ</b> فِيلْمًا جَدِيدًا مَعًا.",
+   "exampleRo": "Al-mukhrijāni ash-shābbāni yaktubāni fīlman jadīdan maʿan.",
+   "lit": "les-deux-réalisateurs · les-deux-jeunes · ils-deux-écrivent · film · nouveau · ensemble",
+   "body": "L'arabe possède un nombre que le français a perdu : le duel, pour parler de deux personnes ou de deux choses. Pour les noms, on ajoute « ani » : « mukhrij », un réalisateur, devient « mukhrijani », deux réalisateurs. Le verbe suit le même chemin : « yaktubu », il écrit, devient « yaktubani », ils écrivent à deux ; pour deux femmes, on dit « taktubani ». Notre exemple se lit donc : les deux réalisateurs, les deux jeunes, écrivent-à-deux un film nouveau. Attention, si le verbe vient avant le sujet, il reste au singulier. Astuce : pensez au son « ani » comme à une paire de chaussures, qui va toujours par deux."
   }
  },
  {
-  "title": "Le wabi-sabi : la beauté de l'imparfait",
+  "title": "L'Andalousie et son héritage",
   "phrases": [
    {
-    "fr": "Le wabi-sabi est difficile à traduire en un seul mot.",
-    "ja": "「わびさび」は一言で訳すのが難しいです。",
-    "ro": "\"Wabisabi\" wa hitokoto de yakusu no ga muzukashii desu."
+    "fr": "L'Andalousie a été un grand foyer de la civilisation arabe.",
+    "ar": "كَانَتِ الْأَنْدَلُسُ مَرْكَزًا كَبِيرًا لِلْحَضَارَةِ الْعَرَبِيَّةِ.",
+    "ro": "Kānati al-Andalusu markazan kabīran li-l-ḥaḍārati al-ʿarabiyyati."
    },
    {
-    "fr": "C'est la beauté de ce qui est simple, imparfait et éphémère.",
-    "ja": "それは、シンプルで不完全で、はかないものの美しさです。",
-    "ro": "Sore wa, shinpuru de fukanzen de, hakanai mono no utsukushisa desu."
+    "fr": "Cordoue était l'une des plus grandes villes de son époque.",
+    "ar": "كَانَتْ قُرْطُبَةُ مِنْ أَكْبَرِ مُدُنِ عَصْرِهَا.",
+    "ro": "Kānat Qurṭubatu min akbari muduni ʿaṣrihā."
    },
    {
-    "fr": "Les fissures de ce vieux bol ont été réparées avec de l'or.",
-    "ja": "この古いお茶碗は、ひびを金で直してあります。",
-    "ro": "Kono furui ochawan wa, hibi o kin de naoshite arimasu."
+    "fr": "Ses bibliothèques contenaient des milliers de livres.",
+    "ar": "كَانَتْ مَكْتَبَاتُهَا تَضُمُّ آلَافَ الْكُتُبِ.",
+    "ro": "Kānat maktabātuhā taḍummu ālāfa al-kutubi."
    },
    {
-    "fr": "Cette technique de réparation s'appelle le kintsugi.",
-    "ja": "この技法は「金継ぎ」と言います。",
-    "ro": "Kono gihō wa \"kintsugi\" to iimasu."
+    "fr": "Les savants y traduisaient les œuvres des philosophes anciens.",
+    "ar": "كَانَ الْعُلَمَاءُ يُتَرْجِمُونَ فِيهَا أَعْمَالَ الْفَلَاسِفَةِ الْقُدَمَاءِ.",
+    "ro": "Kāna al-ʿulamāʾu yutarjimūna fīhā aʿmāla al-falāsifati al-qudamāʾi."
    },
    {
-    "fr": "Les cicatrices font partie de l'histoire de l'objet.",
-    "ja": "傷も、その器の歴史の一部です。",
-    "ro": "Kizu mo, sono utsuwa no rekishi no ichibu desu."
+    "fr": "Le palais de l'Alhambra fascine toujours les visiteurs.",
+    "ar": "مَا زَالَ قَصْرُ الْحَمْرَاءِ يَسْحَرُ الزُّوَّارَ.",
+    "ro": "Mā zāla qaṣru al-Ḥamrāʾi yasḥaru az-zuwwāra."
    },
    {
-    "fr": "Dans le jardin de ce temple, la mousse recouvre les vieilles pierres.",
-    "ja": "このお寺の庭では、苔が古い石を覆っています。",
-    "ro": "Kono otera no niwa de wa, koke ga furui ishi o ōtte imasu."
+    "fr": "La musique andalouse est encore jouée à Fès et à Alger.",
+    "ar": "مَا زَالَتِ الْمُوسِيقَى الْأَنْدَلُسِيَّةُ تُعْزَفُ فِي فَاسَ وَالْجَزَائِرِ.",
+    "ro": "Mā zālati al-mūsīqā al-andalusiyyatu tuʿzafu fī Fāsa wa-l-Jazāʾiri."
    },
    {
-    "fr": "Je préfère une maison un peu usée à un appartement neuf sans âme.",
-    "ja": "新しくて味気ないマンションより、少し古びた家のほうが好きです。",
-    "ro": "Atarashikute ajikenai manshon yori, sukoshi furubita ie no hō ga suki desu."
+    "fr": "Le mouachah est une forme poétique née en Andalousie.",
+    "ar": "الْمُوَشَّحُ شَكْلٌ شِعْرِيٌّ وُلِدَ فِي الْأَنْدَلُسِ.",
+    "ro": "Al-muwashshaḥu shaklun shiʿriyyun wulida fī al-Andalusi."
    },
    {
-    "fr": "Dans la cérémonie du thé, chaque geste est simple mais mûrement pensé.",
-    "ja": "茶道では、一つ一つの動作がシンプルですが、よく考えられています。",
-    "ro": "Sadō de wa, hitotsu hitotsu no dōsa ga shinpuru desu ga, yoku kangaerarete imasu."
+    "fr": "Beaucoup de mots français ont une origine arabe, comme sucre et algèbre.",
+    "ar": "كَثِيرٌ مِنَ الْكَلِمَاتِ الْفَرَنْسِيَّةِ أَصْلُهَا عَرَبِيٌّ، مِثْلُ السُّكَّرِ وَالْجَبْرِ.",
+    "ro": "Kathīrun mina al-kalimāti al-faransiyyati aṣluhā ʿarabiyyun, mithlu as-sukkari wa-l-jabri."
    },
    {
-    "fr": "Accepter l'imperfection est peut-être une forme de sagesse.",
-    "ja": "不完全さを受け入れることは、一種の知恵かもしれません。",
-    "ro": "Fukanzensa o ukeireru koto wa, isshu no chie kamo shiremasen."
+    "fr": "Cet héritage montre la richesse des échanges entre les cultures.",
+    "ar": "يُبَيِّنُ هَذَا الْإِرْثُ غِنَى التَّبَادُلِ بَيْنَ الثَّقَافَاتِ.",
+    "ro": "Yubayyinu hādhā al-irthu ghinā at-tabāduli bayna ath-thaqāfāti."
    },
    {
-    "fr": "Depuis que je connais le wabi-sabi, je regarde les vieux objets autrement.",
-    "ja": "わびさびを知ってから、古い物の見方が変わりました。",
-    "ro": "Wabisabi o shitte kara, furui mono no mikata ga kawarimashita."
+    "fr": "Je rêve de visiter Grenade et Séville un jour.",
+    "ar": "أَحْلُمُ بِزِيَارَةِ غَرْنَاطَةَ وَإِشْبِيلِيَةَ يَوْمًا مَا.",
+    "ro": "Aḥlumu bi-ziyārati Gharnāṭata wa-Ishbīliyata yawman mā."
    }
   ]
  },
  {
-  "title": "L'omotenashi : l'art de recevoir",
+  "title": "La ville ou la campagne ?",
   "phrases": [
    {
-    "fr": "L'omotenashi, c'est l'art de recevoir sans rien attendre en retour.",
-    "ja": "おもてなしとは、見返りを求めずに人をもてなす心です。",
-    "ro": "Omotenashi to wa, mikaeri o motomezu ni hito o motenasu kokoro desu."
+    "fr": "De plus en plus de jeunes quittent la campagne pour la ville.",
+    "ar": "يَتْرُكُ الشَّبَابُ الرِّيفَ إِلَى الْمَدِينَةِ أَكْثَرَ فَأَكْثَرَ.",
+    "ro": "Yatruku ash-shabābu ar-rīfa ilā al-madīnati akthara fa-akthara."
    },
    {
-    "fr": "Dans ce ryokan, la patronne nous a accueillis agenouillée dans l'entrée.",
-    "ja": "この旅館では、女将さんが玄関で正座して迎えてくれました。",
-    "ro": "Kono ryokan de wa, okamisan ga genkan de seiza shite mukaete kuremashita."
+    "fr": "Ils y cherchent du travail et de meilleures études.",
+    "ar": "يَبْحَثُونَ فِيهَا عَنْ عَمَلٍ وَدِرَاسَةٍ أَفْضَلَ.",
+    "ro": "Yabḥathūna fīhā ʿan ʿamalin wa-dirāsatin afḍala."
    },
    {
-    "fr": "Le personnel a remarqué que j'étais gaucher et a posé mes baguettes à gauche.",
-    "ja": "スタッフは私が左利きだと気づいて、お箸を左側に置いてくれました。",
-    "ro": "Sutaffu wa watashi ga hidarikiki da to kizuite, ohashi o hidarigawa ni oite kuremashita."
+    "fr": "Le Caire est une ville immense qui ne dort jamais.",
+    "ar": "الْقَاهِرَةُ مَدِينَةٌ ضَخْمَةٌ لَا تَنَامُ أَبَدًا.",
+    "ro": "Al-Qāhiratu madīnatun ḍakhmatun lā tanāmu abadan."
    },
    {
-    "fr": "Les vendeurs s'inclinent même quand on n'achète rien.",
-    "ja": "何も買わなくても、店員さんはお辞儀をしてくれます。",
-    "ro": "Nani mo kawanakute mo, ten'insan wa ojigi o shite kuremasu."
+    "fr": "Le bruit et les embouteillages fatiguent ses habitants.",
+    "ar": "يُتْعِبُ الضَّجِيجُ وَالِازْدِحَامُ سُكَّانَهَا.",
+    "ro": "Yutʿibu aḍ-ḍajīju wa-l-izdiḥāmu sukkānahā."
    },
    {
-    "fr": "Dans le shinkansen, le contrôleur s'incline chaque fois qu'il entre dans une voiture.",
-    "ja": "新幹線では、車掌さんが車両に入るたびにお辞儀をします。",
-    "ro": "Shinkansen de wa, shashōsan ga sharyō ni hairu tabi ni ojigi o shimasu."
+    "fr": "À la campagne, la vie suit le rythme des saisons.",
+    "ar": "فِي الرِّيفِ، تَسِيرُ الْحَيَاةُ عَلَى إِيقَاعِ الْفُصُولِ.",
+    "ro": "Fī ar-rīfi, tasīru al-ḥayātu ʿalā īqāʿi al-fuṣūli."
    },
    {
-    "fr": "Les serviettes chaudes servies avant le repas s'appellent des oshibori.",
-    "ja": "食事の前に出される温かいタオルは「おしぼり」と言います。",
-    "ro": "Shokuji no mae ni dasareru atatakai taoru wa \"oshibori\" to iimasu."
+    "fr": "Mes grands-parents cultivent encore des oliviers près de Sfax.",
+    "ar": "مَا زَالَ جَدَّايَ يَزْرَعَانِ أَشْجَارَ الزَّيْتُونِ قُرْبَ صَفَاقِسَ.",
+    "ro": "Mā zāla jaddāya yazraʿāni ashjāra az-zaytūni qurba Ṣafāqisa."
    },
    {
-    "fr": "On ne laisse pas de pourboire, car un bon service va de soi.",
-    "ja": "チップは要りません。いいサービスは当たり前だからです。",
-    "ro": "Chippu wa irimasen. Ii sābisu wa atarimae da kara desu."
+    "fr": "L'air y est pur et les gens se connaissent tous.",
+    "ar": "الْهَوَاءُ هُنَاكَ نَقِيٌّ وَالنَّاسُ يَعْرِفُ بَعْضُهُمْ بَعْضًا.",
+    "ro": "Al-hawāʾu hunāka naqiyyun wa-n-nāsu yaʿrifu baʿḍuhum baʿḍan."
    },
    {
-    "fr": "Certains trouvent cette politesse parfois un peu excessive.",
-    "ja": "この丁寧さを、ちょっとやりすぎだと感じる人もいます。",
-    "ro": "Kono teineisa o, chotto yarisugi da to kanjiru hito mo imasu."
+    "fr": "Pourtant, les services y manquent souvent.",
+    "ar": "وَمَعَ ذَلِكَ، كَثِيرًا مَا تَنْقُصُهَا الْخِدْمَاتُ.",
+    "ro": "Wa-maʿa dhālika, kathīran mā tanquṣuhā al-khidmātu."
    },
    {
-    "fr": "Moi, j'ai été profondément touché par tant d'attentions.",
-    "ja": "私は、そこまでの気配りに深く感動しました。",
-    "ro": "Watashi wa, soko made no kikubari ni fukaku kandō shimashita."
+    "fr": "Certains citadins reviennent vivre au village.",
+    "ar": "يَعُودُ بَعْضُ سُكَّانِ الْمُدُنِ لِلْعَيْشِ فِي الْقَرْيَةِ.",
+    "ro": "Yaʿūdu baʿḍu sukkāni al-muduni li-l-ʿayshi fī al-qaryati."
    },
    {
-    "fr": "Quand mes amis viendront en France, je voudrais les recevoir de la même façon.",
-    "ja": "友達がフランスに来たら、同じようにもてなしたいです。",
-    "ro": "Tomodachi ga Furansu ni kitara, onaji yō ni motenashitai desu."
+    "fr": "Le mieux serait de profiter des deux mondes.",
+    "ar": "الْأَفْضَلُ أَنْ نَسْتَفِيدَ مِنَ الْعَالَمَيْنِ.",
+    "ro": "Al-afḍalu an nastafīda mina al-ʿālamayni."
    }
   ]
  },
  {
-  "title": "Les quatre saisons",
+  "title": "Entre les générations",
   "phrases": [
    {
-    "fr": "Les Japonais sont très attachés aux quatre saisons.",
-    "ja": "日本人は四季をとても大切にしています。",
-    "ro": "Nihonjin wa shiki o totemo taisetsu ni shite imasu."
+    "fr": "Mes parents ne voient pas le monde comme je le vois.",
+    "ar": "لَا يَرَى وَالِدَايَ الْعَالَمَ كَمَا أَرَاهُ.",
+    "ro": "Lā yarā wālidāya al-ʿālama kamā arāhu."
    },
    {
-    "fr": "Au printemps, on pique-nique sous les cerisiers en fleurs.",
-    "ja": "春は桜の下でお花見をします。",
-    "ro": "Haru wa sakura no shita de ohanami o shimasu."
+    "fr": "Ma grand-mère se souvient d'une époque sans télévision.",
+    "ar": "تَتَذَكَّرُ جَدَّتِي زَمَنًا بِلَا تِلْفَازٍ.",
+    "ro": "Tatadhakkaru jaddatī zamanan bi-lā tilfāzin."
    },
    {
-    "fr": "La saison des pluies de juin est moite et un peu déprimante.",
-    "ja": "六月の梅雨は、じめじめしていて気分が沈みます。",
-    "ro": "Rokugatsu no tsuyu wa, jimejime shite ite kibun ga shizumimasu."
+    "fr": "Elle racontait des histoires le soir, au clair de lune.",
+    "ar": "كَانَتْ تَحْكِي الْقِصَصَ مَسَاءً تَحْتَ ضَوْءِ الْقَمَرِ.",
+    "ro": "Kānat taḥkī al-qiṣaṣa masāʾan taḥta ḍawʾi al-qamari."
    },
    {
-    "fr": "En été, on mange de la glace pilée en écoutant les cigales.",
-    "ja": "夏はセミの声を聞きながら、かき氷を食べます。",
-    "ro": "Natsu wa semi no koe o kikinagara, kakigōri o tabemasu."
+    "fr": "Les jeunes d'aujourd'hui vivent leur téléphone à la main.",
+    "ar": "يَعِيشُ شَبَابُ الْيَوْمِ وَهَوَاتِفُهُمْ فِي أَيْدِيهِمْ.",
+    "ro": "Yaʿīshu shabābu al-yawmi wa-hawātifuhum fī aydīhim."
    },
    {
-    "fr": "Les feux d'artifice d'été rassemblent des foules en yukata.",
-    "ja": "夏の花火大会には、浴衣姿の人がたくさん集まります。",
-    "ro": "Natsu no hanabi taikai ni wa, yukata sugata no hito ga takusan atsumarimasu."
+    "fr": "Les anciens tiennent beaucoup aux traditions.",
+    "ar": "يَتَمَسَّكُ الْكِبَارُ بِالتَّقَالِيدِ كَثِيرًا.",
+    "ro": "Yatamassaku al-kibāru bi-t-taqālīdi kathīran."
    },
    {
-    "fr": "En automne, les érables rougissent dans les montagnes autour de Kyoto.",
-    "ja": "秋になると、京都の山のもみじが赤く色づきます。",
-    "ro": "Aki ni naru to, Kyōto no yama no momiji ga akaku irozukimasu."
+    "fr": "Les jeunes veulent souvent davantage de liberté.",
+    "ar": "يُرِيدُ الشَّبَابُ غَالِبًا مَزِيدًا مِنَ الْحُرِّيَّةِ.",
+    "ro": "Yurīdu ash-shabābu ghāliban mazīdan mina al-ḥurriyyati."
    },
    {
-    "fr": "Un bain chaud en plein air un jour de neige, c'est le paradis.",
-    "ja": "雪の日の露天風呂は最高です。",
-    "ro": "Yuki no hi no rotenburo wa saikō desu."
+    "fr": "Le respect des aînés reste très présent dans nos familles.",
+    "ar": "مَا زَالَ احْتِرَامُ الْكِبَارِ حَاضِرًا بِقُوَّةٍ فِي عَائِلَاتِنَا.",
+    "ro": "Mā zāla iḥtirāmu al-kibāri ḥāḍiran bi-quwwatin fī ʿāʾilātinā."
    },
    {
-    "fr": "Même les gâteaux et les menus changent selon la saison.",
-    "ja": "お菓子やメニューまで、季節によって変わります。",
-    "ro": "Okashi ya menyū made, kisetsu ni yotte kawarimasu."
+    "fr": "Chaque génération apprend quelque chose de l'autre.",
+    "ar": "يَتَعَلَّمُ كُلُّ جِيلٍ شَيْئًا مِنَ الْآخَرِ.",
+    "ro": "Yataʿallamu kullu jīlin shayʾan mina al-ākhari."
    },
    {
-    "fr": "Une lettre commence souvent par quelques mots sur la saison.",
-    "ja": "手紙は、よく季節の挨拶から始めます。",
-    "ro": "Tegami wa, yoku kisetsu no aisatsu kara hajimemasu."
+    "fr": "J'ai appris à ma grand-mère à envoyer des messages vocaux.",
+    "ar": "عَلَّمْتُ جَدَّتِي إِرْسَالَ الرَّسَائِلِ الصَّوْتِيَّةِ.",
+    "ro": "ʿAllamtu jaddatī irsāla ar-rasāʾili aṣ-ṣawtiyyati."
    },
    {
-    "fr": "Au Japon, quelle saison préfères-tu, et pourquoi ?",
-    "ja": "日本の季節で、どれが一番好き？どうして？",
-    "ro": "Nihon no kisetsu de, dore ga ichiban suki? Dōshite?"
+    "fr": "En échange, elle m'a appris ses meilleures recettes.",
+    "ar": "وَفِي الْمُقَابِلِ، عَلَّمَتْنِي أَفْضَلَ وَصَفَاتِهَا.",
+    "ro": "Wa-fī al-muqābili, ʿallamatnī afḍala waṣafātihā."
    }
   ]
  },
  {
-  "title": "La sagesse des proverbes",
+  "title": "L'amitié et la sagesse des proverbes",
   "phrases": [
    {
-    "fr": "Il existe un proverbe japonais pour presque chaque situation.",
-    "ja": "日本には、ほとんどどんな場面にも合うことわざがあります。",
-    "ro": "Nihon ni wa, hotondo donna bamen ni mo au kotowaza ga arimasu."
+    "fr": "Un vieux proverbe dit : « L'ami, c'est dans la détresse qu'on le reconnaît. »",
+    "ar": "يَقُولُ مَثَلٌ قَدِيمٌ: «الصَّدِيقُ وَقْتَ الضِّيقِ».",
+    "ro": "Yaqūlu mathalun qadīmun: «aṣ-ṣadīqu waqta aḍ-ḍīqi»."
    },
    {
-    "fr": "Même un singe tombe de l'arbre : tout le monde peut se tromper.",
-    "ja": "猿も木から落ちる。誰でも間違えることがあります。",
-    "ro": "Saru mo ki kara ochiru. Dare demo machigaeru koto ga arimasu."
+    "fr": "Mon ami Karim m'a soutenu dans les moments difficiles.",
+    "ar": "سَانَدَنِي صَدِيقِي كَرِيمٌ فِي الْأَوْقَاتِ الصَّعْبَةِ.",
+    "ro": "Sānadanī ṣadīqī Karīmun fī al-awqāti aṣ-ṣaʿbati."
    },
    {
-    "fr": "Sept fois à terre, huit fois debout : il ne faut jamais abandonner.",
-    "ja": "七転び八起き。決してあきらめてはいけません。",
-    "ro": "Nanakorobi yaoki. Kesshite akiramete wa ikemasen."
+    "fr": "Nous nous sommes connus à l'école primaire.",
+    "ar": "تَعَارَفْنَا فِي الْمَدْرَسَةِ الِابْتِدَائِيَّةِ.",
+    "ro": "Taʿārafnā fī al-madrasati al-ibtidāʾiyyati."
    },
    {
-    "fr": "Des boulettes plutôt que des fleurs : on préfère manger que contempler.",
-    "ja": "花より団子。きれいなものより、おいしいものです。",
-    "ro": "Hana yori dango. Kirei na mono yori, oishii mono desu."
+    "fr": "On dit aussi : « Le voisin avant la maison. »",
+    "ar": "يُقَالُ أَيْضًا: «الْجَارُ قَبْلَ الدَّارِ».",
+    "ro": "Yuqālu ayḍan: «al-jāru qabla ad-dāri»."
    },
    {
-    "fr": "Trois ans sur un rocher : la patience finit toujours par payer.",
-    "ja": "石の上にも三年。我慢すれば、いつか報われます。",
-    "ro": "Ishi no ue ni mo sannen. Gaman sureba, itsuka mukuwaremasu."
+    "fr": "Le proverbe dit : « Il est des frères que ta mère n'a pas mis au monde. »",
+    "ar": "يَقُولُ الْمَثَلُ: «رُبَّ أَخٍ لَكَ لَمْ تَلِدْهُ أُمُّكَ».",
+    "ro": "Yaqūlu al-mathalu: «rubba akhin laka lam talidhu ummuka»."
    },
    {
-    "fr": "La poussière accumulée finit par former une montagne.",
-    "ja": "塵も積もれば山となる。",
-    "ro": "Chiri mo tsumoreba yama to naru."
+    "fr": "Pour moi, Karim est un frère de ce genre.",
+    "ar": "كَرِيمٌ بِالنِّسْبَةِ إِلَيَّ أَخٌ مِنْ هَذَا النَّوْعِ.",
+    "ro": "Karīmun bi-n-nisbati ilayya akhun min hādhā an-nawʿi."
    },
    {
-    "fr": "Ce proverbe m'encourage à réviser un peu de japonais chaque jour.",
-    "ja": "このことわざのおかげで、毎日少しずつ日本語を復習しています。",
-    "ro": "Kono kotowaza no okage de, mainichi sukoshi zutsu nihongo o fukushū shite imasu."
+    "fr": "Nous sommes restés amis malgré la distance.",
+    "ar": "بَقِينَا أَصْدِقَاءَ رَغْمَ الْمَسَافَةِ.",
+    "ro": "Baqīnā aṣdiqāʾa raghma al-masāfati."
    },
    {
-    "fr": "La grenouille au fond du puits ne connaît pas l'océan.",
-    "ja": "井の中の蛙、大海を知らず。",
-    "ro": "I no naka no kawazu, taikai o shirazu."
+    "fr": "On dit souvent : « La patience est la clé du soulagement. »",
+    "ar": "كَثِيرًا مَا يُقَالُ: «الصَّبْرُ مِفْتَاحُ الْفَرَجِ».",
+    "ro": "Kathīran mā yuqālu: «aṣ-ṣabru miftāḥu al-faraji»."
    },
    {
-    "fr": "Pour moi, ce proverbe est une excellente raison de voyager.",
-    "ja": "私にとって、このことわざは旅をするいい理由です。",
-    "ro": "Watashi ni totte, kono kotowaza wa tabi o suru ii riyū desu."
+    "fr": "Il m'a rappelé que « qui sème récolte ».",
+    "ar": "ذَكَّرَنِي بِأَنَّ «مَنْ زَرَعَ حَصَدَ».",
+    "ro": "Dhakkaranī bi-anna «man zaraʿa ḥaṣada»."
    },
    {
-    "fr": "Si tu places bien un proverbe, les Japonais seront souvent impressionnés.",
-    "ja": "ことわざをうまく使うと、日本人によく感心されます。",
-    "ro": "Kotowaza o umaku tsukau to, nihonjin ni yoku kanshin saremasu."
+    "fr": "Les proverbes résument la sagesse de nombreuses générations.",
+    "ar": "تُلَخِّصُ الْأَمْثَالُ حِكْمَةَ أَجْيَالٍ عَدِيدَةٍ.",
+    "ro": "Tulakhkhiṣu al-amthālu ḥikmata ajyālin ʿadīdatin."
    }
   ],
   "tip": {
-   "title": "Les proverbes japonais : kotowaza",
-   "example": "Même un singe tombe de l'arbre : tout le monde peut se tromper. — <b>猿も木から落ちる</b>。誰でも間違えることがあります。",
-   "exampleRo": "Saru mo ki kara ochiru. Dare demo machigaeru koto ga arimasu.",
-   "lit": "singe · [même] · arbre · [depuis] · tomber · n'importe qui · [même] · se tromper · chose · [sujet] · il y a (poli)",
-   "body": "Les « kotowaza », les proverbes japonais, sont bien vivants dans la conversation, et en placer un au bon moment fait toujours son effet. « Saru mo ki kara ochiru » se dit littéralement singe, même, arbre, depuis, tomber : même un singe tombe de l'arbre, autrement dit, tout le monde peut se tromper, même les experts. « Hana yori dango », des boulettes plutôt que des fleurs, se moque gentiment de ceux qui, sous les cerisiers, pensent surtout au pique-nique. « Nanakorobi yaoki », sept chutes, huit relevés, encourage à ne jamais abandonner. Remarquez que les proverbes sont à la forme neutre et souvent très courts, parfois sans verbe. Astuce : associez chaque proverbe à une image mentale, comme ce singe qui glisse de sa branche."
+   "title": "Les proverbes arabes",
+   "example": "Un vieux proverbe dit : « L'ami, c'est dans la détresse qu'on le reconnaît. » — يَقُولُ مَثَلٌ قَدِيمٌ: «<b>الصَّدِيقُ</b> وَقْتَ <b>الضِّيقِ</b>».",
+   "exampleRo": "Yaqūlu mathalun qadīmun: «aṣ-ṣadīqu waqta aḍ-ḍīqi».",
+   "lit": "dit · proverbe · ancien · l'ami · moment · la-détresse",
+   "body": "Les Arabes adorent glisser un proverbe, un « mathal », dans la conversation. Ils sont courts et souvent rimés, ce qui les rend faciles à retenir. Notre exemple, « as-sadiqu waqta d-diq », se dit littéralement : l'ami, au moment de la détresse ; « sadiq » et « diq » riment. De même, « al-jaru qabla d-dar », le voisin avant la maison, conseille de bien choisir ses voisins, et « as-sabru miftahu l-faraj » dit que la patience est la clé du soulagement. Astuce : apprenez un proverbe par semaine et placez-le au bon moment, vos interlocuteurs seront ravis."
   }
  },
  {
-  "title": "Campagne ou grande ville ?",
+  "title": "Donner du sens à son travail",
   "phrases": [
    {
-    "fr": "J'ai grandi à Tokyo, mais je rêve de vivre à la campagne.",
-    "ja": "東京で育ちましたが、田舎暮らしに憧れています。",
-    "ro": "Tōkyō de sodachimashita ga, inakagurashi ni akogarete imasu."
+    "fr": "Pour moi, le travail ne se résume pas au salaire.",
+    "ar": "بِالنِّسْبَةِ إِلَيَّ، لَا يَقْتَصِرُ الْعَمَلُ عَلَى الرَّاتِبِ.",
+    "ro": "Bi-n-nisbati ilayya, lā yaqtaṣiru al-ʿamalu ʿalā ar-rātibi."
    },
    {
-    "fr": "En ville, tout est pratique, mais on n'a jamais le temps de souffler.",
-    "ja": "都会は便利だけど、ほっとする暇がありません。",
-    "ro": "Tokai wa benri da kedo, hotto suru hima ga arimasen."
+    "fr": "Je cherche un métier qui a du sens.",
+    "ar": "أَبْحَثُ عَنْ مِهْنَةٍ لَهَا مَعْنًى.",
+    "ro": "Abḥathu ʿan mihnatin lahā maʿnan."
    },
    {
-    "fr": "À la campagne, les voisins déposent des légumes devant votre porte.",
-    "ja": "田舎では、近所の人が玄関の前に野菜を置いていってくれます。",
-    "ro": "Inaka de wa, kinjo no hito ga genkan no mae ni yasai o oite itte kuremasu."
+    "fr": "Ma sœur a quitté la banque pour ouvrir une librairie à Amman.",
+    "ar": "تَرَكَتْ أُخْتِي الْبَنْكَ لِتَفْتَحَ مَكْتَبَةً فِي عَمَّانَ.",
+    "ro": "Tarakat ukhtī al-banka li-taftaḥa maktabatan fī ʿAmmāna."
    },
    {
-    "fr": "Sans voiture, la vie dans les villages est presque impossible.",
-    "ja": "車がないと、村での生活はほとんど無理です。",
-    "ro": "Kuruma ga nai to, mura de no seikatsu wa hotondo muri desu."
+    "fr": "Elle gagne moins, mais elle est beaucoup plus heureuse.",
+    "ar": "تَكْسِبُ أَقَلَّ، لَكِنَّهَا أَسْعَدُ بِكَثِيرٍ.",
+    "ro": "Taksibu aqalla, lākinnahā asʿadu bi-kathīrin."
    },
    {
-    "fr": "Les loyers de Tokyo sont si chers que beaucoup habitent loin du centre.",
-    "ja": "東京は家賃が高すぎて、中心から離れて住む人が多いです。",
-    "ro": "Tōkyō wa yachin ga takasugite, chūshin kara hanarete sumu hito ga ōi desu."
+    "fr": "L'artisanat traditionnel attire de nouveau les jeunes.",
+    "ar": "تَجْذِبُ الْحِرَفُ التَّقْلِيدِيَّةُ الشَّبَابَ مِنْ جَدِيدٍ.",
+    "ro": "Tajdhibu al-ḥirafu at-taqlīdiyyatu ash-shabāba min jadīdin."
    },
    {
-    "fr": "Avec le télétravail, certains jeunes s'installent dans la campagne de Nagano.",
-    "ja": "在宅勤務が広まってから、長野の田舎に移住する若者もいます。",
-    "ro": "Zaitaku kinmu ga hiromatte kara, Nagano no inaka ni ijū suru wakamono mo imasu."
+    "fr": "Le travail en équipe demande de l'écoute et de la patience.",
+    "ar": "يَتَطَلَّبُ الْعَمَلُ الْجَمَاعِيُّ الْإِصْغَاءَ وَالصَّبْرَ.",
+    "ro": "Yataṭallabu al-ʿamalu al-jamāʿiyyu al-iṣghāʾa wa-ṣ-ṣabra."
    },
    {
-    "fr": "La nuit, on n'entend que les grenouilles dans les rizières.",
-    "ja": "夜は田んぼのカエルの声しか聞こえません。",
-    "ro": "Yoru wa tanbo no kaeru no koe shika kikoemasen."
+    "fr": "Mon collègue tunisien m'a appris beaucoup de choses.",
+    "ar": "عَلَّمَنِي زَمِيلِي التُّونِسِيُّ أَشْيَاءَ كَثِيرَةً.",
+    "ro": "ʿAllamanī zamīlī at-tūnisiyyu ashyāʾa kathīratan."
    },
    {
-    "fr": "Ici, tout le monde se connaît, pour le meilleur et pour le pire.",
-    "ja": "ここでは、良くも悪くもみんな知り合いです。",
-    "ro": "Koko de wa, yoku mo waruku mo minna shiriai desu."
+    "fr": "Le télétravail a changé notre rapport au bureau.",
+    "ar": "غَيَّرَ الْعَمَلُ عَنْ بُعْدٍ عَلَاقَتَنَا بِالْمَكْتَبِ.",
+    "ro": "Ghayyara al-ʿamalu ʿan buʿdin ʿalāqatanā bi-l-maktabi."
    },
    {
-    "fr": "Les grandes villes offrent davantage d'emplois et de culture.",
-    "ja": "大都市のほうが、仕事も文化も多いです。",
-    "ro": "Daitoshi no hō ga, shigoto mo bunka mo ōi desu."
+    "fr": "Il est important de trouver un équilibre entre le travail et la vie privée.",
+    "ar": "مِنَ الْمُهِمِّ أَنْ نَجِدَ تَوَازُنًا بَيْنَ الْعَمَلِ وَالْحَيَاةِ الْخَاصَّةِ.",
+    "ro": "Mina al-muhimmi an najida tawāzunan bayna al-ʿamali wa-l-ḥayāti al-khāṣṣati."
    },
    {
-    "fr": "Idéalement, je travaillerais en ville et passerais mes week-ends à la campagne.",
-    "ja": "理想を言えば、平日は都会で働いて、週末は田舎で過ごしたいです。",
-    "ro": "Risō o ieba, heijitsu wa tokai de hataraite, shūmatsu wa inaka de sugoshitai desu."
+    "fr": "Le travail bien fait procure une vraie fierté.",
+    "ar": "يَمْنَحُ الْعَمَلُ الْمُتْقَنُ شُعُورًا حَقِيقِيًّا بِالْفَخْرِ.",
+    "ro": "Yamnaḥu al-ʿamalu al-mutqanu shuʿūran ḥaqīqiyyan bi-l-fakhri."
    }
   ]
  },
  {
-  "title": "Une amitié née au Japon",
+  "title": "Une soirée de musique arabe",
   "phrases": [
    {
-    "fr": "J'ai rencontré Kenta dans un petit bar de Shinjuku il y a dix ans.",
-    "ja": "健太とは、十年前に新宿の小さなバーで出会いました。",
-    "ro": "Kenta to wa, jūnen mae ni Shinjuku no chiisana bā de deaimashita."
+    "fr": "Hier soir, nous avons écouté un concert de oud.",
+    "ar": "اسْتَمَعْنَا مَسَاءَ أَمْسِ إِلَى حَفْلَةِ عُودٍ.",
+    "ro": "Istamaʿnā masāʾa amsi ilā ḥaflati ʿūdin."
    },
    {
-    "fr": "Le courant est tout de suite passé, comme si on se connaissait depuis toujours.",
-    "ja": "まるで昔からの知り合いのように、すぐ気が合いました。",
-    "ro": "Marude mukashi kara no shiriai no yō ni, sugu ki ga aimashita."
+    "fr": "Le musicien jouait les yeux fermés.",
+    "ar": "كَانَ الْعَازِفُ يَعْزِفُ وَعَيْنَاهُ مُغْمَضَتَانِ.",
+    "ro": "Kāna al-ʿāzifu yaʿzifu wa-ʿaynāhu mughmaḍatāni."
    },
    {
-    "fr": "Il corrigeait mon japonais avec une patience infinie.",
-    "ja": "彼は根気よく私の日本語を直してくれました。",
-    "ro": "Kare wa konki yoku watashi no nihongo o naoshite kuremashita."
+    "fr": "Le public était plongé dans des émotions profondes.",
+    "ar": "كَانَ الْجُمْهُورُ غَارِقًا فِي مَشَاعِرَ عَمِيقَةٍ.",
+    "ro": "Kāna al-jumhūru ghāriqan fī mashāʿira ʿamīqatin."
    },
    {
-    "fr": "En échange, je lui ai appris à faire des crêpes.",
-    "ja": "その代わりに、私はクレープの作り方を教えてあげました。",
-    "ro": "Sono kawari ni, watashi wa kurēpu no tsukurikata o oshiete agemashita."
+    "fr": "Les Arabes appellent cet état le « tarab ».",
+    "ar": "يُسَمِّي الْعَرَبُ هَذِهِ الْحَالَةَ «الطَّرَبَ».",
+    "ro": "Yusammī al-ʿarabu hādhihi al-ḥālata «aṭ-ṭaraba»."
    },
    {
-    "fr": "Au Japon, il faut parfois du temps avant de devenir vraiment proches.",
-    "ja": "日本では、本当に仲良くなるまで時間がかかることもあります。",
-    "ro": "Nihon de wa, hontō ni nakayoku naru made jikan ga kakaru koto mo arimasu."
+    "fr": "Les chansons d'Oum Kalthoum duraient parfois une heure entière.",
+    "ar": "كَانَتْ أُغْنِيَاتُ أُمِّ كُلْثُومٍ تَدُومُ أَحْيَانًا سَاعَةً كَامِلَةً.",
+    "ro": "Kānat ughniyātu Ummi Kulthūmin tadūmu aḥyānan sāʿatan kāmilatan."
    },
    {
-    "fr": "Le jour où il m'a parlé sans formules de politesse, j'ai compris qu'on était amis.",
-    "ja": "彼がタメ口で話してくれた日、友達になれたと分かりました。",
-    "ro": "Kare ga tameguchi de hanashite kureta hi, tomodachi ni nareta to wakarimashita."
+    "fr": "Mes parents écoutent encore ses disques le dimanche.",
+    "ar": "مَا زَالَ وَالِدَايَ يَسْتَمِعَانِ إِلَى أُسْطُوَانَاتِهَا يَوْمَ الْأَحَدِ.",
+    "ro": "Mā zāla wālidāya yastamiʿāni ilā usṭuwānātihā yawma al-aḥadi."
    },
    {
-    "fr": "Même loin l'un de l'autre, on s'écrit presque chaque semaine.",
-    "ja": "離れていても、ほとんど毎週連絡を取り合っています。",
-    "ro": "Hanarete ite mo, hotondo maishū renraku o toriatte imasu."
+    "fr": "La musique arabe repose sur des modes appelés maqâms.",
+    "ar": "تَقُومُ الْمُوسِيقَى الْعَرَبِيَّةُ عَلَى أَنْغَامٍ تُسَمَّى الْمَقَامَاتِ.",
+    "ro": "Taqūmu al-mūsīqā al-ʿarabiyyatu ʿalā anghāmin tusammā al-maqāmāti."
    },
    {
-    "fr": "Un vrai ami, c'est quelqu'un avec qui le silence n'est jamais gênant.",
-    "ja": "本当の友達とは、黙っていても気まずくならない人です。",
-    "ro": "Hontō no tomodachi to wa, damatte ite mo kimazuku naranai hito desu."
+    "fr": "Chaque maqâm exprime une humeur différente.",
+    "ar": "يُعَبِّرُ كُلُّ مَقَامٍ عَنْ حَالَةٍ نَفْسِيَّةٍ مُخْتَلِفَةٍ.",
+    "ro": "Yuʿabbiru kullu maqāmin ʿan ḥālatin nafsiyyatin mukhtalifatin."
    },
    {
-    "fr": "Il m'a dit qu'il viendrait à Paris l'année prochaine.",
-    "ja": "来年パリに来ると言っていました。",
-    "ro": "Rainen Pari ni kuru to itte imashita."
+    "fr": "J'aimerais apprendre à jouer du oud.",
+    "ar": "أَتَمَنَّى أَنْ أَتَعَلَّمَ الْعَزْفَ عَلَى الْعُودِ.",
+    "ro": "Atamannā an ataʿallama al-ʿazfa ʿalā al-ʿūdi."
    },
    {
-    "fr": "Cette amitié est peut-être le plus beau trésor que m'a offert le Japon.",
-    "ja": "この友情は、日本での一番の宝物かもしれません。",
-    "ro": "Kono yūjō wa, Nihon de no ichiban no takaramono kamo shiremasen."
+    "fr": "La musique réunit des gens qui ne parlent pas la même langue.",
+    "ar": "تَجْمَعُ الْمُوسِيقَى أُنَاسًا لَا يَتَكَلَّمُونَ اللُّغَةَ نَفْسَهَا.",
+    "ro": "Tajmaʿu al-mūsīqā unāsan lā yatakallamūna al-lughata nafsahā."
    }
   ]
  },
  {
-  "title": "Les non-dits : honne et tatemae",
+  "title": "Le plaisir de lire en arabe",
   "phrases": [
    {
-    "fr": "Au Japon, on dit rarement non de manière directe.",
-    "ja": "日本では、はっきり「いいえ」と言わないことが多いです。",
-    "ro": "Nihon de wa, hakkiri \"iie\" to iwanai koto ga ōi desu."
+    "fr": "Les romans de Naguib Mahfouz décrivent la vie au Caire.",
+    "ar": "تَصِفُ رِوَايَاتُ نَجِيبِ مَحْفُوظٍ الْحَيَاةَ فِي الْقَاهِرَةِ.",
+    "ro": "Taṣifu riwāyātu Najībi Maḥfūẓin al-ḥayāta fī al-Qāhirati."
    },
    {
-    "fr": "« C'est un peu difficile » veut souvent dire tout simplement non.",
-    "ja": "「ちょっと難しいですね」は、たいてい断りの意味です。",
-    "ro": "\"Chotto muzukashii desu ne\" wa, taitei kotowari no imi desu."
+    "fr": "Je lis un roman arabe chaque mois.",
+    "ar": "أَقْرَأُ رِوَايَةً عَرَبِيَّةً كُلَّ شَهْرٍ.",
+    "ro": "Aqraʾu riwāyatan ʿarabiyyatan kulla shahrin."
    },
    {
-    "fr": "On jongle entre ce qu'on pense vraiment, le honne, et ce qu'on montre, le tatemae.",
-    "ja": "本音と建前を使い分けます。",
-    "ro": "Honne to tatemae o tsukaiwakemasu."
+    "fr": "Au début, j'avais toujours un dictionnaire à côté de moi.",
+    "ar": "فِي الْبِدَايَةِ، كَانَ الْقَامُوسُ دَائِمًا بِجَانِبِي.",
+    "ro": "Fī al-bidāyati, kāna al-qāmūsu dāʾiman bi-jānibī."
    },
    {
-    "fr": "Comme disent les Japonais, il faut savoir lire l'air.",
-    "ja": "日本人がよく言うように、空気を読むことが大切です。",
-    "ro": "Nihonjin ga yoku iu yō ni, kūki o yomu koto ga taisetsu desu."
+    "fr": "Maintenant, je devine le sens de nombreux mots grâce au contexte.",
+    "ar": "الْآنَ أُخَمِّنُ مَعْنَى كَلِمَاتٍ كَثِيرَةٍ بِفَضْلِ السِّيَاقِ.",
+    "ro": "Al-āna ukhamminu maʿnā kalimātin kathīratin bi-faḍli as-siyāqi."
    },
    {
-    "fr": "Au début, je ne comprenais pas pourquoi mes collègues restaient si vagues.",
-    "ja": "最初は、同僚がなぜあんなにあいまいなのか分かりませんでした。",
-    "ro": "Saisho wa, dōryō ga naze anna ni aimai na no ka wakarimasen deshita."
+    "fr": "La racine d'un mot aide souvent à comprendre son sens.",
+    "ar": "كَثِيرًا مَا يُسَاعِدُ جَذْرُ الْكَلِمَةِ عَلَى فَهْمِ مَعْنَاهَا.",
+    "ro": "Kathīran mā yusāʿidu jadhru al-kalimati ʿalā fahmi maʿnāhā."
    },
    {
-    "fr": "Peu à peu, j'ai appris à deviner ce que les gens ne disent pas.",
-    "ja": "今は、言葉にしない気持ちが少しずつ分かるようになりました。",
-    "ro": "Ima wa, kotoba ni shinai kimochi ga sukoshi zutsu wakaru yō ni narimashita."
+    "fr": "Les contes des Mille et Une Nuits ont fait rêver le monde entier.",
+    "ar": "حِكَايَاتُ أَلْفِ لَيْلَةٍ وَلَيْلَةٍ جَعَلَتِ الْعَالَمَ كُلَّهُ يَحْلُمُ.",
+    "ro": "Ḥikāyātu alfi laylatin wa-laylatin jaʿalati al-ʿālama kullahu yaḥlumu."
    },
    {
-    "fr": "Cette retenue évite les conflits, mais elle peut aussi fatiguer.",
-    "ja": "この遠慮は争いを避けるけれど、疲れることもあります。",
-    "ro": "Kono enryo wa arasoi o sakeru keredo, tsukareru koto mo arimasu."
+    "fr": "Shéhérazade racontait une histoire chaque nuit pour sauver sa vie.",
+    "ar": "كَانَتْ شَهْرَزَادُ تَرْوِي حِكَايَةً كُلَّ لَيْلَةٍ لِتُنْقِذَ حَيَاتَهَا.",
+    "ro": "Kānat Shahrazādu tarwī ḥikāyatan kulla laylatin li-tunqidha ḥayātahā."
    },
    {
-    "fr": "Entre amis proches, on se parle beaucoup plus franchement.",
-    "ja": "親しい友達の間では、もっと本音で話します。",
-    "ro": "Shitashii tomodachi no aida de wa, motto honne de hanashimasu."
+    "fr": "Le Salon du livre du Caire attire des foules chaque année.",
+    "ar": "يَجْذِبُ مَعْرِضُ الْقَاهِرَةِ لِلْكِتَابِ حُشُودًا كُلَّ عَامٍ.",
+    "ro": "Yajdhibu maʿriḍu al-Qāhirati li-l-kitābi ḥushūdan kulla ʿāmin."
    },
    {
-    "fr": "Les Français, eux, adorent débattre ouvertement à table.",
-    "ja": "フランス人は、食事中に堂々と議論するのが好きです。",
-    "ro": "Furansujin wa, shokujichū ni dōdō to giron suru no ga suki desu."
+    "fr": "Lire en arabe m'a ouvert un monde nouveau.",
+    "ar": "فَتَحَتْ لِيَ الْقِرَاءَةُ بِالْعَرَبِيَّةِ عَالَمًا جَدِيدًا.",
+    "ro": "Fataḥat liya al-qirāʾatu bi-l-ʿarabiyyati ʿālaman jadīdan."
    },
    {
-    "fr": "La politesse ne prend pas la même forme d'un pays à l'autre.",
-    "ja": "礼儀の形は、国によって違います。",
-    "ro": "Reigi no katachi wa, kuni ni yotte chigaimasu."
+    "fr": "Je prête volontiers mes livres à mes amis.",
+    "ar": "أُعِيرُ كُتُبِي لِأَصْدِقَائِي عَنْ طِيبِ خَاطِرٍ.",
+    "ro": "Uʿīru kutubī li-aṣdiqāʾī ʿan ṭībi khāṭirin."
    }
   ]
  },
  {
-  "title": "Les fêtes de fin d'année",
+  "title": "Rire de ses malentendus",
   "phrases": [
    {
-    "fr": "En décembre, on se retrouve entre collègues pour la fête de fin d'année.",
-    "ja": "十二月には、同僚と忘年会をします。",
-    "ro": "Jūnigatsu ni wa, dōryō to bōnenkai o shimasu."
+    "fr": "Le premier jour, j'ai commis une erreur amusante.",
+    "ar": "فِي الْيَوْمِ الْأَوَّلِ، ارْتَكَبْتُ خَطَأً مُضْحِكًا.",
+    "ro": "Fī al-yawmi al-awwali, irtakabtu khaṭaʾan muḍḥikan."
    },
    {
-    "fr": "Le bōnenkai sert littéralement à oublier l'année écoulée.",
-    "ja": "忘年会は、文字通りその年を忘れるための会です。",
-    "ro": "Bōnenkai wa, mojidōri sono toshi o wasureru tame no kai desu."
+    "fr": "J'ai confondu « chien » et « cœur ».",
+    "ar": "خَلَطْتُ بَيْنَ «كَلْبٍ» وَ«قَلْبٍ».",
+    "ro": "Khalaṭtu bayna «kalbin» wa-«qalbin»."
    },
    {
-    "fr": "Le grand ménage de fin d'année se fait en famille.",
-    "ja": "年末の大掃除は、家族みんなでします。",
-    "ro": "Nenmatsu no ōsōji wa, kazoku minna de shimasu."
+    "fr": "Tout le monde a ri, et moi aussi.",
+    "ar": "ضَحِكَ الْجَمِيعُ، وَضَحِكْتُ أَنَا أَيْضًا.",
+    "ro": "Ḍaḥika al-jamīʿu, wa-ḍaḥiktu anā ayḍan."
    },
    {
-    "fr": "Le soir du réveillon, on mange des soba pour souhaiter une longue vie.",
-    "ja": "大晦日の夜は、長生きを願って年越しそばを食べます。",
-    "ro": "Ōmisoka no yoru wa, nagaiki o negatte toshikoshi soba o tabemasu."
+    "fr": "Depuis, je fais très attention à la prononciation.",
+    "ar": "مُنْذُ ذَلِكَ الْحِينِ، أَنْتَبِهُ كَثِيرًا إِلَى النُّطْقِ.",
+    "ro": "Mundhu dhālika al-ḥīni, antabihu kathīran ilā an-nuṭqi."
    },
    {
-    "fr": "Cette nuit-là, les cloches des temples sonnent cent huit fois.",
-    "ja": "その夜、お寺の鐘が百八回鳴らされます。",
-    "ro": "Sono yoru, otera no kane ga hyakuhachikai narasaremasu."
+    "fr": "Une autre fois, j'ai refusé un café par politesse.",
+    "ar": "فِي مَرَّةٍ أُخْرَى، رَفَضْتُ الْقَهْوَةَ مِنْ بَابِ الْأَدَبِ.",
+    "ro": "Fī marratin ukhrā, rafaḍtu al-qahwata min bābi al-adabi."
    },
    {
-    "fr": "Le premier janvier, on va prier au sanctuaire pour la nouvelle année.",
-    "ja": "一月一日には、神社へ初詣に行きます。",
-    "ro": "Ichigatsu tsuitachi ni wa, jinja e hatsumōde ni ikimasu."
+    "fr": "Mon hôte a cru que je n'aimais pas son café.",
+    "ar": "ظَنَّ مُضِيفِي أَنَّنِي لَا أُحِبُّ قَهْوَتَهُ.",
+    "ro": "Ẓanna muḍīfī annanī lā uḥibbu qahwatahu."
    },
    {
-    "fr": "Les enfants reçoivent de l'argent dans de petites enveloppes, l'otoshidama.",
-    "ja": "子供たちは、小さな袋に入ったお年玉をもらいます。",
-    "ro": "Kodomotachi wa, chiisana fukuro ni haitta otoshidama o moraimasu."
+    "fr": "J'ai beaucoup appris sur la culture grâce à ces situations.",
+    "ar": "تَعَلَّمْتُ الْكَثِيرَ عَنِ الثَّقَافَةِ مِنْ هَذِهِ الْمَوَاقِفِ.",
+    "ro": "Taʿallamtu al-kathīra ʿani ath-thaqāfati min hādhihi al-mawāqifi."
    },
    {
-    "fr": "Les cartes de vœux arrivent toutes ensemble le matin du jour de l'an.",
-    "ja": "年賀状は、元日の朝にまとめて届きます。",
-    "ro": "Nengajō wa, ganjitsu no asa ni matomete todokimasu."
+    "fr": "L'erreur fait partie intégrante de tout apprentissage.",
+    "ar": "الْخَطَأُ جُزْءٌ لَا يَتَجَزَّأُ مِنْ كُلِّ تَعَلُّمٍ.",
+    "ro": "Al-khaṭaʾu juzʾun lā yatajazzaʾu min kulli taʿallumin."
    },
    {
-    "fr": "Pour beaucoup, le Nouvel An est l'occasion de rentrer chez ses parents.",
-    "ja": "多くの人にとって、お正月は実家に帰るチャンスです。",
-    "ro": "Ōku no hito ni totte, oshōgatsu wa jikka ni kaeru chansu desu."
+    "fr": "Les gens apprécient toujours l'effort de celui qui parle leur langue.",
+    "ar": "يُقَدِّرُ النَّاسُ دَائِمًا مَجْهُودَ مَنْ يَتَكَلَّمُ لُغَتَهُمْ.",
+    "ro": "Yuqaddiru an-nāsu dāʾiman majhūda man yatakallamu lughatahum."
    },
    {
-    "fr": "Merci pour tout cette année, et je compte sur vous l'an prochain !",
-    "ja": "今年もお世話になりました。来年もよろしくお願いします。",
-    "ro": "Kotoshi mo osewa ni narimashita. Rainen mo yoroshiku onegai shimasu."
+    "fr": "Aujourd'hui, je raconte ces anecdotes en riant.",
+    "ar": "الْيَوْمَ أَحْكِي هَذِهِ الطَّرَائِفَ وَأَنَا أَضْحَكُ.",
+    "ro": "Al-yawma aḥkī hādhihi aṭ-ṭarāʾifa wa-anā aḍḥaku."
    }
   ]
  },
  {
-  "title": "Un au revoir à la gare",
+  "title": "Imaginer l'avenir",
   "phrases": [
    {
-    "fr": "Je rentre en France demain, alors c'est notre dernier dîner ensemble.",
-    "ja": "明日フランスに帰るから、これが一緒に食べる最後の晩ご飯だね。",
-    "ro": "Ashita Furansu ni kaeru kara, kore ga issho ni taberu saigo no bangohan da ne."
+    "fr": "Comment imagines-tu le monde arabe dans vingt ans ?",
+    "ar": "كَيْفَ تَتَخَيَّلُ الْعَالَمَ الْعَرَبِيَّ بَعْدَ عِشْرِينَ سَنَةً؟",
+    "ro": "Kayfa tatakhayyalu al-ʿālama al-ʿarabiyya baʿda ʿishrīna sanatan?"
    },
    {
-    "fr": "Tous mes amis sont venus me dire au revoir à la gare de Tokyo.",
-    "ja": "友達がみんな、東京駅まで見送りに来てくれました。",
-    "ro": "Tomodachi ga minna, Tōkyō eki made miokuri ni kite kuremashita."
+    "fr": "Je pense que les jeunes y joueront un rôle essentiel.",
+    "ar": "أَظُنُّ أَنَّ الشَّبَابَ سَيَلْعَبُونَ فِيهِ دَوْرًا أَسَاسِيًّا.",
+    "ro": "Aẓunnu anna ash-shabāba sa-yalʿabūna fīhi dawran asāsiyyan."
    },
    {
-    "fr": "Ils ont agité la main jusqu'à ce que le train disparaisse.",
-    "ja": "電車が見えなくなるまで、手を振ってくれました。",
-    "ro": "Densha ga mienaku naru made, te o futte kuremashita."
+    "fr": "Les villes deviendront plus vertes et plus intelligentes.",
+    "ar": "سَتُصْبِحُ الْمُدُنُ أَكْثَرَ خُضْرَةً وَذَكَاءً.",
+    "ro": "Sa-tuṣbiḥu al-mudunu akthara khuḍratan wa-dhakāʾan."
    },
    {
-    "fr": "Au Japon, on dit rarement « sayōnara » à ses amis.",
-    "ja": "日本では、友達にはあまり「さようなら」と言いません。",
-    "ro": "Nihon de wa, tomodachi ni wa amari \"sayōnara\" to iimasen."
+    "fr": "L'énergie solaire pourrait changer la vie dans le désert.",
+    "ar": "قَدْ تُغَيِّرُ الطَّاقَةُ الشَّمْسِيَّةُ الْحَيَاةَ فِي الصَّحْرَاءِ.",
+    "ro": "Qad tughayyiru aṭ-ṭāqatu ash-shamsiyyatu al-ḥayāta fī aṣ-ṣaḥrāʾi."
    },
    {
-    "fr": "Il est plus naturel de dire « mata ne », à la prochaine.",
-    "ja": "「またね」と言うほうが自然です。",
-    "ro": "\"Mata ne\" to iu hō ga shizen desu."
+    "fr": "J'espère que la langue arabe continuera à briller.",
+    "ar": "أَتَمَنَّى أَنْ تَظَلَّ اللُّغَةُ الْعَرَبِيَّةُ مُتَأَلِّقَةً.",
+    "ro": "Atamannā an taẓalla al-lughatu al-ʿarabiyyatu mutaʾalliqatan."
    },
    {
-    "fr": "« Sayōnara » sonne un peu comme un adieu pour toujours.",
-    "ja": "「さようなら」は、ちょっと永遠の別れみたいに聞こえます。",
-    "ro": "\"Sayōnara\" wa, chotto eien no wakare mitai ni kikoemasu."
+    "fr": "Il faudra aussi protéger notre patrimoine.",
+    "ar": "سَيَكُونُ عَلَيْنَا أَيْضًا أَنْ نَحْمِيَ تُرَاثَنَا.",
+    "ro": "Sa-yakūnu ʿalaynā ayḍan an naḥmiya turāthanā."
    },
    {
-    "fr": "Elle m'a acheté un porte-bonheur au sanctuaire pour le voyage.",
-    "ja": "彼女は、旅のお守りを神社で買ってくれました。",
-    "ro": "Kanojo wa, tabi no omamori o jinja de katte kuremashita."
+    "fr": "La technologie ne doit pas effacer les traditions.",
+    "ar": "يَجِبُ أَلَّا تَمْحُوَ التِّكْنُولُوجِيَا التَّقَالِيدَ.",
+    "ro": "Yajibu allā tamḥuwa at-tiknūlūjiyā at-taqālīda."
    },
    {
-    "fr": "J'ai essayé de ne pas pleurer, mais c'était impossible.",
-    "ja": "泣かないようにしたけど、無理でした。",
-    "ro": "Nakanai yō ni shita kedo, muri deshita."
+    "fr": "Personnellement, je compte vivre quelque temps à Mascate.",
+    "ar": "شَخْصِيًّا، أَنْوِي أَنْ أَعِيشَ فَتْرَةً فِي مَسْقَطَ.",
+    "ro": "Shakhṣiyyan, anwī an aʿīsha fatratan fī Masqaṭa."
    },
    {
-    "fr": "Prends soin de toi, et préviens-moi quand tu seras arrivé.",
-    "ja": "元気でね。着いたら連絡してね。",
-    "ro": "Genki de ne. Tsuitara renraku shite ne."
+    "fr": "Je ne sais pas ce que demain me réserve.",
+    "ar": "لَا أَعْرِفُ مَاذَا يُخَبِّئُ لِيَ الْغَدُ.",
+    "ro": "Lā aʿrifu mādhā yukhabbiʾu liya al-ghadu."
    },
    {
-    "fr": "Ce n'est pas un adieu, c'est juste un « à la prochaine ».",
-    "ja": "これはお別れじゃなくて、ただの「またね」だよ。",
-    "ro": "Kore wa owakare ja nakute, tada no \"mata ne\" da yo."
+    "fr": "Mais je regarde l'avenir avec optimisme.",
+    "ar": "لَكِنَّنِي أَنْظُرُ إِلَى الْمُسْتَقْبَلِ بِتَفَاؤُلٍ.",
+    "ro": "Lākinnanī anẓuru ilā al-mustaqbali bi-tafāʾulin."
    }
   ]
  },
  {
-  "title": "Ichigo ichie : chaque rencontre est unique",
+  "title": "Un au revoir à Marrakech",
   "phrases": [
    {
-    "fr": "« Ichigo ichie » désigne une rencontre qui n'arrive qu'une fois dans une vie.",
-    "ja": "「一期一会」とは、一生に一度の出会いという意味です。",
-    "ro": "\"Ichigo ichie\" to wa, isshō ni ichido no deai to iu imi desu."
+    "fr": "Demain, je quitte Marrakech après six mois.",
+    "ar": "غَدًا أُغَادِرُ مَرَّاكُشَ بَعْدَ سِتَّةِ أَشْهُرٍ.",
+    "ro": "Ghadan ughādiru Marrākusha baʿda sittati ashhurin."
    },
    {
-    "fr": "Cette idée vient de la cérémonie du thé.",
-    "ja": "この考え方は、茶道から来ています。",
-    "ro": "Kono kangaekata wa, sadō kara kite imasu."
+    "fr": "Mes amis ont organisé un dîner d'adieu.",
+    "ar": "نَظَّمَ أَصْدِقَائِي عَشَاءَ وَدَاعٍ.",
+    "ro": "Naẓẓama aṣdiqāʾī ʿashāʾa wadāʿin."
    },
    {
-    "fr": "On sert chaque tasse de thé avec soin, comme si c'était la dernière.",
-    "ja": "一杯のお茶を、最後の一杯のように心を込めて出します。",
-    "ro": "Ippai no ocha o, saigo no ippai no yō ni kokoro o komete dashimasu."
+    "fr": "Ils ont préparé un tajine aux pruneaux, mon plat préféré.",
+    "ar": "حَضَّرُوا طَاجِينًا بِالْبَرْقُوقِ، طَبَقِيَ الْمُفَضَّلَ.",
+    "ro": "Ḥaḍḍarū ṭājīnan bi-l-barqūqi, ṭabaqiya al-mufaḍḍala."
    },
    {
-    "fr": "En repensant à mon séjour, je revois toutes les personnes croisées.",
-    "ja": "日本での日々を振り返ると、出会った人たちのことを思い出します。",
-    "ro": "Nihon de no hibi o furikaeru to, deatta hitotachi no koto o omoidashimasu."
+    "fr": "J'ai du mal à croire que ce séjour est terminé.",
+    "ar": "لَا أَكَادُ أُصَدِّقُ أَنَّ هَذِهِ الْإِقَامَةَ انْتَهَتْ.",
+    "ro": "Lā akādu uṣaddiqu anna hādhihi al-iqāmata intahat."
    },
    {
-    "fr": "Ce vieux monsieur qui m'a guidé sous la pluie jusqu'à mon hôtel.",
-    "ja": "雨の中、ホテルまで案内してくれたおじいさん。",
-    "ro": "Ame no naka, hoteru made annai shite kureta ojiisan."
+    "fr": "Mon amie Salma m'a offert un petit tapis berbère.",
+    "ar": "أَهْدَتْنِي صَدِيقَتِي سَلْمَى سَجَّادَةً أَمَازِيغِيَّةً صَغِيرَةً.",
+    "ro": "Ahdatnī ṣadīqatī Salmā sajjādatan amāzīghiyyatan ṣaghīratan."
    },
    {
-    "fr": "Cette étudiante qui m'a aidé à déchiffrer un menu sans photos.",
-    "ja": "写真のないメニューを読むのを手伝ってくれた学生さん。",
-    "ro": "Shashin no nai menyū o yomu no o tetsudatte kureta gakuseisan."
+    "fr": "« Ne nous oublie pas », m'a-t-elle dit les larmes aux yeux.",
+    "ar": "قَالَتْ لِي وَالدُّمُوعُ فِي عَيْنَيْهَا: «لَا تَنْسَنَا».",
+    "ro": "Qālat lī wa-d-dumūʿu fī ʿaynayhā: «lā tansanā»."
    },
    {
-    "fr": "Je ne les reverrai sans doute jamais, mais je ne les oublierai pas.",
-    "ja": "もう二度と会えないかもしれないけど、決して忘れません。",
-    "ro": "Mō nido to aenai kamo shirenai kedo, kesshite wasuremasen."
+    "fr": "Je lui ai promis de revenir l'été prochain.",
+    "ar": "وَعَدْتُهَا بِأَنْ أَعُودَ فِي الصَّيْفِ الْقَادِمِ.",
+    "ro": "Waʿadtuhā bi-an aʿūda fī aṣ-ṣayfi al-qādimi."
    },
    {
-    "fr": "Grâce à eux, je me suis senti chez moi loin de chez moi.",
-    "ja": "その人たちのおかげで、遠い国でも自分の家にいるように感じました。",
-    "ro": "Sono hitotachi no okage de, tōi kuni demo jibun no ie ni iru yō ni kanjimashita."
+    "fr": "Les adieux sont toujours plus difficiles qu'on ne le pense.",
+    "ar": "الْوَدَاعُ دَائِمًا أَصْعَبُ مِمَّا نَظُنُّ.",
+    "ro": "Al-wadāʿu dāʾiman aṣʿabu mimmā naẓunnu."
    },
    {
-    "fr": "Je voudrais leur dire merci du fond du cœur.",
-    "ja": "心から「ありがとう」と伝えたいです。",
-    "ro": "Kokoro kara \"arigatō\" to tsutaetai desu."
+    "fr": "Je porterai cette ville dans mon cœur.",
+    "ar": "سَأَحْمِلُ هَذِهِ الْمَدِينَةَ فِي قَلْبِي.",
+    "ro": "Sa-aḥmilu hādhihi al-madīnata fī qalbī."
    },
    {
-    "fr": "Désormais, je chéris chaque rencontre comme un ichigo ichie.",
-    "ja": "これからは、すべての出会いを一期一会だと思って大切にします。",
-    "ro": "Kore kara wa, subete no deai o ichigo ichie da to omotte taisetsu ni shimasu."
+    "fr": "Nous ne disons pas adieu, mais à bientôt.",
+    "ar": "لَا نَقُولُ وَدَاعًا، بَلْ إِلَى اللِّقَاءِ قَرِيبًا.",
+    "ro": "Lā naqūlu wadāʿan, bal ilā al-liqāʾi qarīban."
    }
   ]
  },
  {
-  "title": "Regarder en arrière sur ce parcours en japonais",
+  "title": "Regarder en arrière sur ce parcours en arabe",
   "phrases": [
    {
-    "fr": "Au début, je ne savais même pas dire « konnichiwa » correctement.",
-    "ja": "最初は、「こんにちは」さえちゃんと言えませんでした。",
-    "ro": "Saisho wa, \"konnichiwa\" sae chanto iemasen deshita."
+    "fr": "Quand j'ai commencé, l'alphabet arabe me semblait mystérieux.",
+    "ar": "عِنْدَمَا بَدَأْتُ، كَانَتِ الْحُرُوفُ الْعَرَبِيَّةُ تَبْدُو لِي غَامِضَةً.",
+    "ro": "ʿIndamā badaʾtu, kānati al-ḥurūfu al-ʿarabiyyatu tabdū lī ghāmiḍatan."
    },
    {
-    "fr": "La différence entre « wa » et « ga » m'a longtemps donné mal à la tête.",
-    "ja": "「は」と「が」の違いは、本当に頭が痛い問題でした。",
-    "ro": "\"Wa\" to \"ga\" no chigai wa, hontō ni atama ga itai mondai deshita."
+    "fr": "Je ne savais même pas dire « bonjour ».",
+    "ar": "لَمْ أَكُنْ أَعْرِفُ حَتَّى كَيْفَ أَقُولُ «صَبَاحَ الْخَيْرِ».",
+    "ro": "Lam akun aʿrifu ḥattā kayfa aqūlu «ṣabāḥa al-khayri»."
    },
    {
-    "fr": "Puis j'ai appris les formes neutres, et j'ai progressé d'un coup.",
-    "ja": "それから普通形を覚えて、一気に上達しました。",
-    "ro": "Sore kara futsūkei o oboete, ikki ni jōtatsu shimashita."
+    "fr": "Les lettres aïn et ha m'ont donné beaucoup de mal.",
+    "ar": "أَتْعَبَنِي حَرْفَا الْعَيْنِ وَالْحَاءِ كَثِيرًا.",
+    "ro": "Atʿabanī ḥarfā al-ʿayni wa-l-ḥāʾi kathīran."
    },
    {
-    "fr": "Le keigo m'a donné des sueurs froides plus d'une fois.",
-    "ja": "敬語には、何度も冷や汗をかかされました。",
-    "ro": "Keigo ni wa, nando mo hiyaase o kakasaremashita."
+    "fr": "Puis, petit à petit, la langue s'est ouverte à moi.",
+    "ar": "ثُمَّ، شَيْئًا فَشَيْئًا، انْفَتَحَتْ لِيَ اللُّغَةُ.",
+    "ro": "Thumma, shayʾan fa-shayʾan, infataḥat liya al-lughatu."
    },
    {
-    "fr": "Aujourd'hui, je peux parler de wabi-sabi avec un ami japonais.",
-    "ja": "今では、日本人の友達とわびさびについて話せます。",
-    "ro": "Ima de wa, nihonjin no tomodachi to wabisabi ni tsuite hanasemasu."
+    "fr": "J'ai appris à penser en racines de trois lettres.",
+    "ar": "تَعَلَّمْتُ أَنْ أُفَكِّرَ بِالْجُذُورِ الثُّلَاثِيَّةِ.",
+    "ro": "Taʿallamtu an ufakkira bi-l-judhūri ath-thulāthiyyati."
    },
    {
-    "fr": "Le japonais m'a appris à écouter avant de parler.",
-    "ja": "日本語のおかげで、話す前に聞くことを覚えました。",
-    "ro": "Nihongo no okage de, hanasu mae ni kiku koto o oboemashita."
+    "fr": "Les premières conversations me rendaient très nerveux.",
+    "ar": "كَانَتِ الْمُحَادَثَاتُ الْأُولَى تُوَتِّرُنِي كَثِيرًا.",
+    "ro": "Kānati al-muḥādathātu al-ūlā tuwattirunī kathīran."
    },
    {
-    "fr": "Je ne comprends pas encore tout, mais je ne panique plus.",
-    "ja": "まだ全部は分からないけど、もう慌てません。",
-    "ro": "Mada zenbu wa wakaranai kedo, mō awatemasen."
+    "fr": "Aujourd'hui, je peux débattre de culture en arabe.",
+    "ar": "الْيَوْمَ أَسْتَطِيعُ أَنْ أُنَاقِشَ الثَّقَافَةَ بِالْعَرَبِيَّةِ.",
+    "ro": "Al-yawma astaṭīʿu an unāqisha ath-thaqāfata bi-l-ʿarabiyyati."
    },
    {
-    "fr": "Dans le train, j'ai pris l'habitude de répéter des phrases à voix basse.",
-    "ja": "電車の中で、小さな声でフレーズを繰り返すのが習慣になりました。",
-    "ro": "Densha no naka de, chiisana koe de furēzu o kurikaesu no ga shūkan ni narimashita."
+    "fr": "Mes trajets quotidiens sont devenus de vrais moments d'apprentissage.",
+    "ar": "أَصْبَحَتْ رِحْلَاتِي الْيَوْمِيَّةُ لَحَظَاتِ تَعَلُّمٍ حَقِيقِيَّةً.",
+    "ro": "Aṣbaḥat riḥlātī al-yawmiyyatu laḥaẓāti taʿallumin ḥaqīqiyyatan."
    },
    {
-    "fr": "Chaque trajet est devenu une petite leçon de japonais.",
-    "ja": "毎日の移動が、小さな日本語のレッスンになりました。",
-    "ro": "Mainichi no idō ga, chiisana nihongo no ressun ni narimashita."
+    "fr": "Je suis fier du long chemin que j'ai parcouru en arabe.",
+    "ar": "أَنَا فَخُورٌ بِالطَّرِيقِ الطَّوِيلِ الَّذِي قَطَعْتُهُ فِي الْعَرَبِيَّةِ.",
+    "ro": "Anā fakhūrun bi-ṭ-ṭarīqi aṭ-ṭawīli alladhī qaṭaʿtuhu fī al-ʿarabiyyati."
    },
    {
-    "fr": "Depuis la première leçon, j'ai fait un sacré bout de chemin.",
-    "ja": "最初のレッスンから、ずいぶん遠くまで来ました。",
-    "ro": "Saisho no ressun kara, zuibun tōku made kimashita."
+    "fr": "Chaque effort pour apprendre l'arabe en valait la peine.",
+    "ar": "كَانَ كُلُّ جُهْدٍ لِتَعَلُّمِ الْعَرَبِيَّةِ يَسْتَحِقُّ الْعَنَاءَ.",
+    "ro": "Kāna kullu juhdin li-taʿallumi al-ʿarabiyyati yastaḥiqqu al-ʿanāʾa."
    }
   ]
  },
@@ -10976,54 +10976,54 @@ const level3Module3Lessons = [
   "title": "Fin du parcours : un dernier bilan",
   "phrases": [
    {
-    "fr": "Ce dernier module nous a fait voyager du wabi-sabi jusqu'aux proverbes.",
-    "ja": "この最後のモジュールでは、わびさびからことわざまで旅をしました。",
-    "ro": "Kono saigo no mojūru de wa, wabisabi kara kotowaza made tabi o shimashita."
+    "fr": "Ce dernier module nous a fait voyager à travers la culture arabe.",
+    "ar": "جَعَلَتْنَا هَذِهِ الْوَحْدَةُ الْأَخِيرَةُ نُسَافِرُ عَبْرَ الثَّقَافَةِ الْعَرَبِيَّةِ.",
+    "ro": "Jaʿalatnā hādhihi al-waḥdatu al-akhīratu nusāfiru ʿabra ath-thaqāfati al-ʿarabiyyati."
    },
    {
-    "fr": "Nous avons parlé de travail, de vieillesse, de manga et d'amitié en japonais.",
-    "ja": "仕事や高齢化、漫画や友情について、日本語で話しました。",
-    "ro": "Shigoto ya kōreika, manga ya yūjō ni tsuite, nihongo de hanashimashita."
+    "fr": "Poésie, calligraphie, cuisine : nous avons tout exploré en arabe.",
+    "ar": "الشِّعْرُ وَالْخَطُّ وَالْمَطْبَخُ: اسْتَكْشَفْنَا كُلَّ ذَلِكَ بِالْعَرَبِيَّةِ.",
+    "ro": "Ash-shiʿru wa-l-khaṭṭu wa-l-maṭbakhu: istakshafnā kulla dhālika bi-l-ʿarabiyyati."
    },
    {
-    "fr": "Les onomatopées et le causatif-passif ne nous font plus peur.",
-    "ja": "オノマトペも使役受身も、もう怖くありません。",
-    "ro": "Onomatope mo shieki ukemi mo, mō kowaku arimasen."
+    "fr": "Les cas, le duel et les mots de liaison nous sont désormais familiers.",
+    "ar": "أَصْبَحَ الْإِعْرَابُ وَالْمُثَنَّى وَأَدَوَاتُ الرَّبْطِ مَأْلُوفَةً لَنَا.",
+    "ro": "Aṣbaḥa al-iʿrābu wa-l-muthannā wa-adawātu ar-rabṭi maʾlūfatan lanā."
    },
    {
-    "fr": "Après trois niveaux, notre parcours en japonais arrive à son terme.",
-    "ja": "三つのレベルを終えて、日本語の旅はここで一区切りです。",
-    "ro": "Mittsu no reberu o oete, nihongo no tabi wa koko de hitokugiri desu."
+    "fr": "Nous savons maintenant glisser un proverbe dans la conversation.",
+    "ar": "نَعْرِفُ الْآنَ كَيْفَ نُدْخِلُ مَثَلًا فِي الْحَدِيثِ.",
+    "ro": "Naʿrifu al-āna kayfa nudkhilu mathalan fī al-ḥadīthi."
    },
    {
-    "fr": "Des premières phrases en « desu » jusqu'au keigo, quelle aventure !",
-    "ja": "最初の「です」から敬語まで、なんという冒険でしょう！",
-    "ro": "Saisho no \"desu\" kara keigo made, nan to iu bōken deshō!"
+    "fr": "Le voyage ne s'arrête pas ici, bien au contraire.",
+    "ar": "لَا تَتَوَقَّفُ الرِّحْلَةُ هُنَا، بَلْ عَلَى الْعَكْسِ تَمَامًا.",
+    "ro": "Lā tatawaqqafu ar-riḥlatu hunā, bal ʿalā al-ʿaksi tamāman."
    },
    {
-    "fr": "Une langue, c'est un voyage sans véritable fin.",
-    "ja": "言葉は、終わりのない旅のようなものです。",
-    "ro": "Kotoba wa, owari no nai tabi no yō na mono desu."
+    "fr": "Devant nous restent les dialectes, la littérature et bien plus encore.",
+    "ar": "مَا زَالَتْ أَمَامَنَا اللَّهَجَاتُ وَالْأَدَبُ وَأَكْثَرُ مِنْ ذَلِكَ بِكَثِيرٍ.",
+    "ro": "Mā zālat amāmanā al-lahajātu wa-l-adabu wa-aktharu min dhālika bi-kathīrin."
    },
    {
-    "fr": "Continuez à écouter, à lire et surtout à parler japonais.",
-    "ja": "これからも、日本語を聞いて、読んで、そして何より話し続けてください。",
-    "ro": "Kore kara mo, nihongo o kiite, yonde, soshite nani yori hanashitsuzukete kudasai."
+    "fr": "Continue à écouter, à lire et surtout à parler.",
+    "ar": "وَاصِلِ الِاسْتِمَاعَ وَالْقِرَاءَةَ، وَخَاصَّةً الْكَلَامَ.",
+    "ro": "Wāṣili al-istimāʿa wa-l-qirāʾata, wa-khāṣṣatan al-kalāma."
    },
    {
-    "fr": "Le jour où vous partirez au Japon, vous serez prêts.",
-    "ja": "日本に行く日が来たら、もう準備はできています。",
-    "ro": "Nihon ni iku hi ga kitara, mō junbi wa dekite imasu."
+    "fr": "La meilleure façon de progresser, c'est de parler avec les gens.",
+    "ar": "أَفْضَلُ طَرِيقَةٍ لِلتَّقَدُّمِ هِيَ الْحَدِيثُ مَعَ النَّاسِ.",
+    "ro": "Afḍalu ṭarīqatin li-t-taqaddumi hiya al-ḥadīthu maʿa an-nāsi."
    },
    {
-    "fr": "Merci d'avoir partagé avec nous tous ces trajets.",
-    "ja": "すべての移動の時間に付き合ってくれて、ありがとうございました。",
-    "ro": "Subete no idō no jikan ni tsukiatte kurete, arigatō gozaimashita."
+    "fr": "Merci d'avoir partagé avec nous ce long voyage dans la langue arabe.",
+    "ar": "شُكْرًا لِأَنَّكَ شَارَكْتَنَا هَذِهِ الرِّحْلَةَ الطَّوِيلَةَ فِي اللُّغَةِ الْعَرَبِيَّةِ.",
+    "ro": "Shukran li-annaka shāraktanā hādhihi ar-riḥlata aṭ-ṭawīlata fī al-lughati al-ʿarabiyyati."
    },
    {
-    "fr": "Pour tout ce chemin parcouru, du fond du cœur : otsukaresama deshita !",
-    "ja": "ここまで、本当にお疲れさまでした！",
-    "ro": "Koko made, hontō ni otsukaresama deshita!"
+    "fr": "Au revoir, et bonne chance dans ton voyage avec l'arabe !",
+    "ar": "إِلَى اللِّقَاءِ، وَبِالتَّوْفِيقِ فِي رِحْلَتِكَ مَعَ الْعَرَبِيَّةِ!",
+    "ro": "Ilā al-liqāʾi, wa-bi-t-tawfīqi fī riḥlatika maʿa al-ʿarabiyyati!"
    }
   ]
  }
@@ -11032,13 +11032,13 @@ const level3Module3Lessons = [
 const LEVEL1_MODULES = [
   {
     id:1, name:"Le quotidien",
-    desc:"La vie de tous les jours au Japon, en route et à la maison.",
+    desc:"La vie de tous les jours dans le monde arabe, en route et à la maison.",
     totalPhrases:200, lessonsCount:20,
     lessons: level1Module1Lessons
   },
   {
     id:2, name:"En voyage",
-    desc:"Se déplacer, découvrir et gérer les imprévus au Japon.",
+    desc:"Se déplacer, découvrir et gérer les imprévus dans le monde arabe.",
     totalPhrases:200, lessonsCount:20,
     lessons: level1Module2Lessons
   },
@@ -11076,7 +11076,7 @@ const LEVEL2_FREE_LESSONS = { 1: 3, 2: 0, 3: 0 }; // à partir du niveau 2, seul
 const LEVEL3_MODULES = [
   {
     id:1, name:"Le quotidien",
-    desc:"Une vie quotidienne installée au Japon, avec ses subtilités.",
+    desc:"Une vie quotidienne installée dans le monde arabe, avec ses subtilités.",
     totalPhrases:200, lessonsCount:20,
     lessons: level3Module1Lessons
   },
